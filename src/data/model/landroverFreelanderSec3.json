@@ -1,0 +1,31 @@
+{
+  "kicker": "Transparent Pricing",
+  "h2": "Land Rover Freelander|Rebuild Pricing",
+  "startingFromLabel": "Starting From:",
+  "image": "/model/sec3.webp",
+  "imageMobile": "/model/sec3_mobile.webp",
+  "cardImage": "/model/engine_trim.webp",
+  "cards": [
+    {
+      "titlePre": "4-Cylinder Rebuild (K-Series / M47 / Duratorq / EcoBoost)",
+      "titleHighlight": "",
+      "code": "",
+      "price": "£1,900",
+      "featured": false
+    },
+    {
+      "titlePre": "Nationwide Recovery",
+      "titleHighlight": "",
+      "code": "",
+      "price": "from £70",
+      "featured": false
+    }
+  ],
+  "disclaimer": "Exact price depends on engine code, condition and parts required — full pricing further down this page.",
+  "cta": {
+    "line1": "Get Your Fixed-Price Quote",
+    "line2": "In Under 30 Minutes",
+    "buttonLabel": "Request Quote",
+    "href": "#quote-form"
+  }
+}

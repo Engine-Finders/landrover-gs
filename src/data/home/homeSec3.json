@@ -1,0 +1,9 @@
+{
+  "stats": [
+    { "value": "1,800+", "label": "Land Rover Engines Rebuilt", "icon": "engine" },
+    { "value": "4.8★", "label": "Customer Rating", "icon": "star" },
+    { "value": "15+", "label": "Years Experience", "icon": "shield-check" },
+    { "value": "3-5 Days", "label": "Typical Turnaround", "icon": "clock" },
+    { "value": "Nationwide", "label": "Recovery Available", "icon": "truck" }
+  ]
+}

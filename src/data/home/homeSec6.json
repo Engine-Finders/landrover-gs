@@ -1,0 +1,19 @@
+{
+  "h2": "Inside Our Workshop",
+  "portrait": [
+    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
+    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
+    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
+    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
+    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
+    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" }
+  ],
+  "landscape": [
+    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
+    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
+    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
+    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
+    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
+    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" }
+  ]
+}

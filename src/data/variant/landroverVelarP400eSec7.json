@@ -1,0 +1,74 @@
+{
+  "reviews": {
+    "titlePre": "WHAT MERCEDES ",
+    "titleHighlight": "Velar P400e OWNERS SAY",
+    "items": [
+      {
+        "name": "Daniel R.",
+        "platform": "google",
+        "text": "Brilliant service from start to finish. My Velar P400e runs smoother than ever. Honest advice, clear pricing and the team know their stuff.",
+        "tag": "Land Rover Velar P400e Engine Rebuild"
+      },
+      {
+        "name": "Mark T.",
+        "platform": "trustpilot",
+        "text": "They rebuilt my engine with all the updated parts. Smooth process and great communication throughout.",
+        "tag": "Land Rover Velar P400e Engine Rebuild"
+      },
+      {
+        "name": "Ryan P.",
+        "platform": "google",
+        "text": "Top lads, top job. Picked up and dropped off, engine rebuilt to an extremely high standard. 100% recommend.",
+        "tag": "Land Rover Velar P400e Engine Rebuild"
+      },
+      {
+        "name": "Steve B.",
+        "platform": "trustpilot",
+        "text": "Saved me thousands compared to a dealer quote. Fantastic workmanship and my Velar P400e is running perfectly.",
+        "tag": "Land Rover Velar P400e Engine Rebuild"
+      },
+      {
+        "name": "Tom H.",
+        "platform": "google",
+        "text": "From quote to collection couldn't fault them. Engine looks brand new inside. Warranty gives great peace of mind.",
+        "tag": "Land Rover Velar P400e Engine Rebuild"
+      },
+      {
+        "name": "James K.",
+        "platform": "trustpilot",
+        "text": "Professional, reliable and fairly priced. Sorted properly and kept me updated throughout.",
+        "tag": "Land Rover Velar P400e Engine Rebuild"
+      }
+    ],
+    "googleCta": "See All Reviews On Google",
+    "trustpilotCta": "See All Reviews On Trustpilot"
+  },
+  "coverage": {
+    "icon": "car",
+    "titlePre": "WE COVER YOUR",
+    "titleHighlight": "EXACT VEHICLE",
+    "body": "Enter your registration below and we'll confirm your Land Rover Velar P400e has the right engine, along with an exact rebuild price.",
+    "image": "/variant/sec7.webp",
+    "buttonLabel": "Check Fit",
+    "ticks": [
+      "Fast",
+      "Accurate",
+      "No Guesswork"
+    ]
+  },
+  "whyChoose": {
+    "titlePre": "WHY MERCEDES Velar P400e ",
+    "titleHighlight": "OWNERS CHOOSE US",
+    "items": [
+      "Engine matched using VIN or registration number",
+      "Genuine specialist workshop — not a broker",
+      "Specialist technicians with 10-15 years of experience",
+      "We don't swap your engine for an unknown used unit",
+      "Nationwide recovery, workshop rebuild",
+      "12 month unlimited-mileage warranty",
+      "All engine ancillaries serviced as part of the rebuild",
+      "Trade & public enquiries welcome",
+      "Dedicated advisor from quote to fit"
+    ]
+  }
+}

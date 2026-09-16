@@ -1,0 +1,52 @@
+{
+  "image": "/engine/sec3.webp",
+  "titlePre": "Land Rover AJ133 Applications — ",
+  "titleHighlight": "Every Model & Variant",
+  "columns": [
+    {
+      "label": "Model"
+    },
+    {
+      "label": "Variant"
+    },
+    {
+      "label": "Generation"
+    },
+    {
+      "label": "Chassis"
+    },
+    {
+      "label": "Years"
+    },
+    {
+      "label": "Powertrain Sub-type"
+    }
+  ],
+  "rows": [
+    {
+      "model": "Defender",
+      "variant": "P525 (V8)",
+      "generation": "L663",
+      "chassis": "L663",
+      "years": "2020–present",
+      "powertrain": "Supercharged V8",
+      "modelHref": "/landrover-defender-engines"
+    },
+    {
+      "model": "Range Rover Velar",
+      "variant": "SVAutobiography",
+      "generation": "L560",
+      "chassis": "L560",
+      "years": "2019–2021",
+      "powertrain": "Supercharged V8",
+      "modelHref": "/landrover-range-rover-velar-engines"
+    }
+  ],
+  "prompt": {
+    "icon": "search",
+    "titlePre": "Not seeing your exact model?",
+    "subtext": "Send us your registration and we'll confirm.",
+    "buttonLabel": "Send Us Your Registration →",
+    "href": "#quote-form"
+  }
+}

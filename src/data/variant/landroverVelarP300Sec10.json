@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Velar P300 ENGINE",
+    "paragraphs": [
+      "The Velar P300 uses the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine. It has been part of the Range Rover Velar range since the model's launch in 2017 and is one of the most popular petrol options in the line-up, sitting below the six-cylinder P340 and P400 models. The AJ200P is generally considered more reliable than its diesel counterparts in the Velar range, with no major widespread failure patterns recorded. Specialist consensus points to occasional cooling system issues as the main area to watch, rather than any inherent design flaw."
+    ],
+    "boldParagraph": "We continue to rebuild and replace engine engines for every Velar P300 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Velar P300 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "—",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder petrol engine fitted to the Velar P300 from 2017 onwards (L560 generation). The AJ200P is generally reliable, and we service it to the same standard as our other Velar rebuilds. Check Your AJ200P Velar P300 → [link to quote form]",
+        "cta": "Check Your engine Velar P300",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Velar P300 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Velar P300 uses the AJ200P engine throughout its production run. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "engine",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "- Your exact engine code via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "- Your generation (L560)"
+      },
+      {
+        "icon": "gears",
+        "text": "- Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "- Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Land Rover quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Velar P300 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L560",
+        "chassis": "L560",
+        "years": "2017–present",
+        "engineCode": "AJ200P",
+        "fuel": "Petrol"
+      }
+    ]
+  }
+}

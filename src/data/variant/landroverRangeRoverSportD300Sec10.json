@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Range Rover Sport D300 ENGINE",
+    "paragraphs": [
+      "The Range Rover Sport D300 is a current-generation model, introduced in 2022 with the L461 chassis. It uses the AJ300D — a 3.0-litre inline-six diesel with mild-hybrid (MHEV) assistance. This is an Ingenium-family diesel, sharing its architecture with the D300 and D350 found in the L460 Range Rover, as well as the D250/D300/D350 in the L663 Defender. The D300 sits in the middle of the diesel range for the L461 Sport, offering a strong balance of power and efficiency. The D300 is the most commonly requested diesel variant in the current Sport lineup."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ300D engines for every Range Rover Sport D300 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Range Rover Sport D300 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ300D",
+        "codeRest": "(L461 (2022–present))",
+        "body": "A 3.0-litre inline-six diesel with mild-hybrid assistance, fitted to the Range Rover Sport D300 from 2022 to present. No widely-reported engine issue confirmed for this variant specifically — the AJ300D is an improved design over earlier Land Rover diesel engines and does not share the well-documented timing chain pattern of the older TDV6/SDV6 family. Check Your AJ300D Range Rover Sport D300 → [link to quote form]",
+        "cta": "Check Your AJ300D Range Rover Sport D300",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Range Rover Sport D300 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The D300 sits alongside the D350 (higher-output diesel), P400 (petrol MHEV), P530/P635 (BMW-sourced V8s) and P440e/P460e (plug-in hybrids) in the L461 Sport range. The AJ300D is the only 3.0-litre diesel MHEV option currently available. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ300D",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L461)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Range Rover Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Range Rover Sport D300 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L461",
+        "chassis": "L461",
+        "years": "2022–present",
+        "engineCode": "AJ300D",
+        "fuel": "Diesel MHEV"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Defender Octa",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Defender Octa"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Defender"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "Octa"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol Twin-Turbo"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "S68B44T0"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "4.4L V8"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "L663 (2024–present)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£6,500"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Defender Octa uses the S68B44T0 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Discovery SDV8",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Discovery SDV8"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Discovery"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "SDV8"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Diesel"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "TDV8 or SDV8"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "4.4L V8"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "D3/L319 (2004–2009) · D4/L319 facelift (2009–2016)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£4,500"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Discovery SDV8 uses the TDV8 or SDV8 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

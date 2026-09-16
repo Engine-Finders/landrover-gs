@@ -1,0 +1,87 @@
+{
+  "headlinePre": "Our Most Recent",
+  "headlineHighlight": "Land Rover Recoveries & Rebuilds",
+  "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection — this is what genuine engine work looks like.",
+  "image": "/model/sec12.webp",
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like.",
+  "stats": [
+    {
+      "icon": "shield-check",
+      "value": "1,800+",
+      "label": "Engines Rebuilt"
+    },
+    {
+      "icon": "gasket",
+      "value": "12 Months",
+      "label": "Unlimited-Mileage Warranty"
+    },
+    {
+      "icon": "wrench",
+      "value": "15+ Years",
+      "label": "Land Rover Specialist Experience"
+    }
+  ],
+  "cards": [
+    {
+      "model": "Land Rover C220d",
+      "icon": "truck",
+      "tag": "Recovery"
+    },
+    {
+      "model": "Land Rover C300d",
+      "icon": "search",
+      "tag": "Diagnostics"
+    },
+    {
+      "model": "Land Rover C200",
+      "icon": "gear",
+      "tag": "Stripped Engine"
+    },
+    {
+      "model": "Land Rover C63 Land Rover",
+      "icon": "chain",
+      "tag": "Timing Chain Replacement"
+    },
+    {
+      "model": "Land Rover C180",
+      "icon": "wrench",
+      "tag": "In For Rebuild"
+    },
+    {
+      "model": "Land Rover C250d",
+      "icon": "gear",
+      "tag": "Rebuild In Progress"
+    },
+    {
+      "model": "Land Rover C220d",
+      "icon": "truck",
+      "tag": "Nationwide Recovery"
+    },
+    {
+      "model": "Land Rover C300",
+      "icon": "gear",
+      "tag": "Engine Stripped"
+    },
+    {
+      "model": "Land Rover C350",
+      "icon": "tech",
+      "tag": "Testing & Checks"
+    },
+    {
+      "model": "Land Rover C43 Land Rover",
+      "icon": "check",
+      "tag": "Ready For Collection"
+    },
+    {
+      "model": "Land Rover C63 Land Rover",
+      "icon": "gear",
+      "tag": "M156 Rebuild"
+    },
+    {
+      "model": "Land Rover C250",
+      "icon": "wrench",
+      "tag": "Workshop Bay"
+    }
+  ]
+}

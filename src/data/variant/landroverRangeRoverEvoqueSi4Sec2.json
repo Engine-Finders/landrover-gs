@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Range Rover Evoque Si4",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Range Rover Evoque"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Range Rover Evoque"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "Evoque Si4"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "Ford EcoBoost"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "2.0L"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "L538 (2011–2016)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£2,200"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Range Rover Evoque Si4 uses the Ford EcoBoost 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

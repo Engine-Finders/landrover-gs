@@ -1,0 +1,85 @@
+{
+  "kicker": "FREQUENTLY ASKED",
+  "kickerHighlight": "QUESTIONS",
+  "faqLeft": [
+    {
+      "q": "What engine does the Land Rover Range Rover Vogue use?",
+      "a": "It depends on the generation and year. The Range Rover Vogue (L322, 2001–2012, and L405, 2012–2021) was available with the TDV6 or SDV6 3.0-litre V6 diesel, or the TDV8 or SDV8 4.4-litre V8 diesel. Send us your registration and we'll confirm which one your car has."
+    },
+    {
+      "q": "How much does a Land Rover Range Rover Vogue engine rebuild cost?",
+      "a": "Rebuilds start from £2,400 for six-cylinder engines, and from £4,500 for V8 engines. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    },
+    {
+      "q": "Which engine code is fitted to my Range Rover Vogue?",
+      "a": "Enter your registration on this page and we'll confirm whether you have a TDV6, SDV6, TDV8 or SDV8 before you're quoted anything."
+    },
+    {
+      "q": "Do you rebuild TDV6 Range Rover Vogue engines?",
+      "a": "Yes. We replace timing chains, injector seals, EGR, turbo components and gaskets as standard on every TDV6 rebuild."
+    },
+    {
+      "q": "Do you rebuild SDV6 Range Rover Vogue engines?",
+      "a": "Yes. The SDV6 shares the same engine family and wear pattern as the TDV6, and we service it to the same standard."
+    },
+    {
+      "q": "Do you rebuild TDV8 Range Rover Vogue engines?",
+      "a": "Yes. The TDV8 V8 diesel shares the same timing chain and injector wear pattern as the six-cylinder engines, and we replace these components as standard."
+    }
+  ],
+  "faqRight": [
+    {
+      "q": "Do you rebuild SDV8 Range Rover Vogue engines?",
+      "a": "Yes. The SDV8 is the higher-output V8 in the same family, and we service it to the same standard."
+    },
+    {
+      "q": "Do you supply used Range Rover Vogue engines?",
+      "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
+    },
+    {
+      "q": "Can you recover my Range Rover Vogue if the engine has failed?",
+      "a": "Yes — nationwide recovery is available from £70, and most vehicles are collected within a few hours of booking."
+    },
+    {
+      "q": "How long does a Range Rover Vogue engine rebuild take?",
+      "a": "Most rebuilds are completed within 3-5 working days from the time your car arrives at our workshop."
+    },
+    {
+      "q": "Is rebuilding better than fitting a used engine?",
+      "a": "For most Range Rover Vogue owners, yes. A rebuild removes the compatibility risk that comes with an unknown used unit's history, and comes with a 12-month unlimited-mileage warranty — often longer and more comprehensive than what a used engine supplier offers."
+    }
+  ],
+  "form": {
+    "headlinePre": "GET YOUR",
+    "headlineHighlight": "FREE MERCEDES Range Rover Vogue",
+    "headlinePost": "FIXED-PRICE QUOTE",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "e.g. YG19 XJL"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. SS1 1AA"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "e.g. 07XXX XXXXXX"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Select an option"
+      }
+    },
+    "submitLabel": "Get My Fixed-Price Quote",
+    "guarantee": "Most quotes returned within 30 minutes during working hours."
+  }
+}

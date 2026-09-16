@@ -1,0 +1,85 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery SDV6 ENGINE",
+    "paragraphs": [
+      "The Discovery SDV6 was introduced as a higher-output variant of the 3.0-litre V6 diesel that powered the D3 and D4 generations of the Discovery. Essentially a more powerful tune of the same 3.0-litre V6 shared with the TDV6, the SDV6 offered improved performance while sitting on the same engine architecture. It was fitted across both the D3 (2004–2009) and D4 (2009–2016) generations, making it one of the most common Discovery engines of that era."
+    ],
+    "boldParagraph": "We continue to rebuild and replace SDV6 engines for every Discovery SDV6 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery SDV6 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "SDV6",
+        "codeRest": "",
+        "body": "A 3.0-litre V6 diesel fitted to the Discovery D3 and D4 from 2004 to 2016. Known for timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk — see the callout above. We replace timing chain components, injector seals and gaskets as standard on every SDV6 rebuild. Check Your SDV6 Discovery → [link to quote form]",
+        "cta": "Check Your SDV6 Discovery SDV6",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery SDV6 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the SDV6 sits on the same 3.0-litre diesel V6 family as the TDV6 but with a higher state of tune, compatibility matters. We confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "SDV6",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (SDV6 — confirmed via registration or VIN)"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (D3 or D4)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery SDV6 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "Discovery 3",
+        "chassis": "D3/L319",
+        "years": "2004–2009",
+        "engineCode": "SDV6",
+        "fuel": "Diesel"
+      },
+      {
+        "generation": "Discovery 4",
+        "chassis": "D4/L319 facelift",
+        "years": "2009–2016",
+        "engineCode": "SDV6",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

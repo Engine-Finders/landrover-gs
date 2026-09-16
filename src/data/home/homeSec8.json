@@ -1,0 +1,21 @@
+{
+  "h2": "Follow One|Land Rover|Through The Entire Rebuild",
+  "bgImage": "/home/sec8.webp",
+  "mobileImage": "/home/sec8_mobile.webp",
+  "highlights": [
+    { "label": "Every rebuild is documented.", "icon": "camera" },
+    { "label": "Every component is inspected.", "icon": "search" },
+    { "label": "Every engine is tested.", "icon": "shield-check" }
+  ],
+  "stages": [
+    { "step": 1, "label": "Recovery", "image": "/home/sec8_card.webp" },
+    { "step": 2, "label": "Workshop Arrival", "image": "/home/sec8_card.webp" },
+    { "step": 3, "label": "Engine Removed", "image": "/home/sec8_card.webp" },
+    { "step": 4, "label": "Strip Down", "image": "/home/sec8_card.webp" },
+    { "step": 5, "label": "Machine Shop", "image": "/home/sec8_card.webp" },
+    { "step": 6, "label": "New Components Fitted", "image": "/home/sec8_card.webp" },
+    { "step": 7, "label": "Testing", "image": "/home/sec8_card.webp" },
+    { "step": 8, "label": "Road Test", "image": "/home/sec8_card.webp" },
+    { "step": 9, "label": "Collection", "image": "/home/sec8_card.webp" }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Discovery Td5 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Discovery Td5 has used the Td5 throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "1998",
+      "generation": "D2",
+      "engineCode": "Td5",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1999",
+      "generation": "D2",
+      "engineCode": "Td5",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2000",
+      "generation": "D2",
+      "engineCode": "Td5",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2001",
+      "generation": "D2",
+      "engineCode": "Td5",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2002",
+      "generation": "D2",
+      "engineCode": "Td5",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2003",
+      "generation": "D2",
+      "engineCode": "Td5",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2004",
+      "generation": "D2",
+      "engineCode": "Td5",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The Td5",
+    "rest": " has been fitted to every Discovery Td5 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

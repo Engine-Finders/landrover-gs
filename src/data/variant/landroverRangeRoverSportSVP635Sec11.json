@@ -1,0 +1,62 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Range Rover Sport SV / P635 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Range Rover Sport SV / P635 has used the BMW S68 throughout (L461 (2023–present)). If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2023",
+      "generation": "L461",
+      "engineCode": "BMW S68",
+      "fuel": "Petrol Twin-Turbo",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2024",
+      "generation": "L461",
+      "engineCode": "BMW S68",
+      "fuel": "Petrol Twin-Turbo",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2025",
+      "generation": "L461",
+      "engineCode": "BMW S68",
+      "fuel": "Petrol Twin-Turbo",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2026",
+      "generation": "L461",
+      "engineCode": "BMW S68",
+      "fuel": "Petrol Twin-Turbo",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The BMW S68",
+    "rest": " has been fitted to every Range Rover Sport SV / P635 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

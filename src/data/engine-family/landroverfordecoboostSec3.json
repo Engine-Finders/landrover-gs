@@ -1,0 +1,61 @@
+{
+  "image": "/engine/sec3.webp",
+  "titlePre": "Land Rover Ford EcoBoost Applications — ",
+  "titleHighlight": "Every Model & Variant",
+  "columns": [
+    {
+      "label": "Model"
+    },
+    {
+      "label": "Variant"
+    },
+    {
+      "label": "Generation"
+    },
+    {
+      "label": "Chassis"
+    },
+    {
+      "label": "Years"
+    },
+    {
+      "label": "Powertrain Sub-type"
+    }
+  ],
+  "rows": [
+    {
+      "model": "Discovery Sport",
+      "variant": "Si4",
+      "generation": "L550",
+      "chassis": "L550",
+      "years": "2015–2019",
+      "powertrain": "Petrol",
+      "modelHref": "/landrover-discovery-sport-engines"
+    },
+    {
+      "model": "Freelander",
+      "variant": "Si4",
+      "generation": "L359",
+      "chassis": "L359",
+      "years": "2013–2014",
+      "powertrain": "Petrol",
+      "modelHref": "/landrover-freelander-engines"
+    },
+    {
+      "model": "Range Rover Evoque",
+      "variant": "Si4",
+      "generation": "L538",
+      "chassis": "L538",
+      "years": "2013–2019",
+      "powertrain": "Petrol",
+      "modelHref": "/landrover-range-rover-evoque-engines"
+    }
+  ],
+  "prompt": {
+    "icon": "search",
+    "titlePre": "Not seeing your exact model?",
+    "subtext": "Send us your registration and we'll confirm.",
+    "buttonLabel": "Send Us Your Registration →",
+    "href": "#quote-form"
+  }
+}

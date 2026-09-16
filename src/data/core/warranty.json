@@ -1,0 +1,401 @@
+{
+  "title": "12-Month Unlimited Mileage Warranty",
+  "metaTitle": "12-Month Unlimited Mileage Warranty | Terms, Conditions & Customer Responsibilities | Land Rover Garage",
+  "metaDescription": "Clear warranty terms for engine rebuilds. Non-transferable, mandatory 2000-mile service, no third-party repairs. Excludes ancillaries. Based in Billericay.",
+  "updated": "",
+  "intro": "Land Rover Garage is a trading name of JLR Engine Specialists Ltd (Company No: 16500838), a company registered in England & Wales. We operate multiple specialist brands under the same parent company, all from our Billericay workshop.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Clear terms, fair conditions, and your responsibilities as a customer."
+    },
+    {
+      "type": "p",
+      "text": "**Non-Transferable** | **2,000-Mile Service Required** | **No Third-Party Repairs** | **Excludes Ancillaries**"
+    },
+    {
+      "type": "ctaRow",
+      "items": [
+        {
+          "label": "Get a Quote",
+          "href": "/contact"
+        },
+        {
+          "label": "Call 0203 488 4649",
+          "href": "tel:02034884649"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Warranty Summary"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "All engine rebuilds and replacements include a **12-month unlimited mileage warranty** on parts and labour (as defined in the \"What's Covered\" section).",
+        "No upfront deposit required for work.",
+        "Please read all conditions carefully – your responsibilities are clearly outlined below to ensure your cover remains valid."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What IS Covered"
+    },
+    {
+      "type": "p",
+      "text": "The following components are covered under our 12-month unlimited mileage warranty for engine rebuild and reconditioning work:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Oil pump**",
+        "**All gaskets** (full set)",
+        "**Main bearings and big end bearings**",
+        "**Front and rear crankshaft seals**",
+        "**Pistons and conrods** (if replaced as part of rebuild)",
+        "**Piston rings**",
+        "**Timing chain kit** (complete – chains, guides, tensioners, sprockets)",
+        "**Valve stem seals**"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Crankshaft & Block Condition"
+    },
+    {
+      "type": "p",
+      "text": "The crankshaft and engine block must be in serviceable condition for the standard warranty to apply. If these components require replacement or significant repair beyond standard reconditioning, costs may increase significantly. We will always quote separately and obtain your approval before proceeding with any additional work."
+    },
+    {
+      "type": "h3",
+      "text": "Labour Coverage"
+    },
+    {
+      "type": "p",
+      "text": "Labour is fully covered for any failure attributable to our workmanship or supplied parts within the warranty period. This includes diagnosis, removal, re-repair, and refitting at our Billericay workshop."
+    },
+    {
+      "type": "h2",
+      "text": "What is NOT Covered"
+    },
+    {
+      "type": "p",
+      "text": "To avoid disputes, please note the following exclusions. These items are either ancillary components not part of the engine rebuild, or issues caused by factors outside our control."
+    },
+    {
+      "type": "h3",
+      "text": "Ancillary Components (Not Covered)"
+    },
+    {
+      "type": "p",
+      "text": "These components are often removed during engine work but are not part of the reconditioning process. Their serviceability and lifespan are not guaranteed under the engine warranty."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Turbocharger",
+        "Fuel injectors",
+        "Alternator",
+        "Air conditioning (AC) pump",
+        "Fuel pump (low or high pressure)",
+        "Starter motor",
+        "Drive shaft",
+        "Suspension components",
+        "Power steering pump",
+        "DPF (Diesel Particulate Filter)",
+        "EGR valve",
+        "Any ancillary component not explicitly listed in \"What IS Covered\""
+      ]
+    },
+    {
+      "type": "p",
+      "text": "We will advise you if any of these components are found to be unserviceable during strip-down and will quote separately for replacement."
+    },
+    {
+      "type": "h3",
+      "text": "Damage & Usage Exclusions"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Damage caused by overheating, low oil level, or coolant loss",
+        "Misuse, neglect, or failure to maintain correct fluid levels",
+        "Vehicles used for towing, racing, track days, or commercial hire",
+        "Modifications including ECU remapping, LPG conversion, performance upgrades, or non-standard parts",
+        "Parts supplied by the customer (labour-only warranty applies where agreed in writing)",
+        "Normal wear and tear on consumables (filters, fluids, belts)",
+        "Consequential damage to non-covered components"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Your Responsibilities as a Customer"
+    },
+    {
+      "type": "p",
+      "text": "To protect both parties and ensure your warranty remains valid, please adhere to the following requirements."
+    },
+    {
+      "type": "h3",
+      "text": "1. Remove All Valuables"
+    },
+    {
+      "type": "p",
+      "text": "You must remove all personal belongings before handing over the vehicle. This includes chargers, cables, dashboard decorations, children's car seats, boosters, loose change, sunglasses, and air fresheners. **We are not responsible for lost or missing items left in the vehicle.**"
+    },
+    {
+      "type": "h3",
+      "text": "2. Take Photos of Your Vehicle"
+    },
+    {
+      "type": "p",
+      "text": "Strongly advised: photograph bodywork, paintwork, wheels, tyres, bumpers, and any existing dents or scratches before collection or recovery. **Without dated proof, we cannot accept claims of new damage allegedly occurring while in our care.** Recovery services may cause transit damage — photos protect both parties."
+    },
+    {
+      "type": "h3",
+      "text": "3. Mandatory 2,000-Mile Service"
+    },
+    {
+      "type": "p",
+      "text": "After an engine rebuild, the engine is like new and requires a mandatory service at 2,000 miles (± 200 miles tolerance). **This service MUST be carried out by Land Rover Garage.** It is not free and not part of the warranty. Failure to complete this service voids the warranty entirely."
+    },
+    {
+      "type": "h3",
+      "text": "4. No Third-Party Repairs"
+    },
+    {
+      "type": "p",
+      "text": "Do not take your vehicle to any other mechanic or garage for engine-related work during the warranty period. **Any third-party interference immediately voids the warranty.** We cannot guarantee work done by others, and such interference may cause damage not attributable to our original rebuild."
+    },
+    {
+      "type": "h3",
+      "text": "5. No Modifications"
+    },
+    {
+      "type": "p",
+      "text": "ECU remapping, LPG conversions, performance upgrades, or fitting non-standard parts **immediately void the warranty**. The engine was rebuilt to OEM specification; altering calibration or components places stress beyond validated tolerances."
+    },
+    {
+      "type": "h2",
+      "text": "When Your Warranty is Voided"
+    },
+    {
+      "type": "p",
+      "text": "The following actions will immediately invalidate your warranty coverage. Please read carefully."
+    },
+    {
+      "type": "h3",
+      "text": "Vehicle Sold to New Owner"
+    },
+    {
+      "type": "p",
+      "text": "The warranty is **non-transferable**. It applies only to the original customer who paid for the work. If the vehicle is sold, transferred, or ownership changes in any way, the warranty is immediately voided. We cannot guarantee how subsequent owners will maintain or treat the vehicle."
+    },
+    {
+      "type": "h3",
+      "text": "Mandatory 2,000-Mile Service Not Completed"
+    },
+    {
+      "type": "p",
+      "text": "Failure to have the 2,000-mile service (± 200 miles) carried out **by Land Rover Garage** voids the warranty. This service is critical for verifying bedding-in and catching early issues. It is chargeable and must be booked proactively."
+    },
+    {
+      "type": "h3",
+      "text": "Third-Party Mechanic Touches the Engine"
+    },
+    {
+      "type": "p",
+      "text": "Any engine-related work performed by another garage, mobile mechanic, or unauthorised person during the warranty period voids coverage immediately. This includes diagnostics, adjustments, or repairs."
+    },
+    {
+      "type": "h3",
+      "text": "Modifications or Non-Standard Parts"
+    },
+    {
+      "type": "p",
+      "text": "ECU remapping, LPG conversion, performance tuning, aftermarket turbo upgrades, or any non-OEM specification parts void the warranty. The engine was built to factory tolerances; modifications exceed validated limits."
+    },
+    {
+      "type": "h3",
+      "text": "Neglect, Misuse, or Commercial Use"
+    },
+    {
+      "type": "p",
+      "text": "Running with low oil/coolant, ignoring warning lights, overheating, racing, track days, towing beyond rated capacity, or commercial hire use voids the warranty. Regular maintenance per manufacturer intervals remains your responsibility."
+    },
+    {
+      "type": "h2",
+      "text": "How to Make a Warranty Claim"
+    },
+    {
+      "type": "p",
+      "text": "If you believe you have a warranty issue, follow this process. We aim to respond to all claims within 2 business days."
+    },
+    {
+      "type": "p",
+      "text": "**1. Contact Us Immediately**"
+    },
+    {
+      "type": "p",
+      "text": "Call 0203 488 4649 or email warranty@landrovergarage.co.uk within 14 days of noticing any issue. Do not continue driving if the fault is severe."
+    },
+    {
+      "type": "p",
+      "text": "**2. Provide Details**"
+    },
+    {
+      "type": "p",
+      "text": "Invoice number, vehicle registration, current mileage, and clear description of the issue. Photos/videos of symptoms help speed assessment."
+    },
+    {
+      "type": "p",
+      "text": "**3. Vehicle Inspection**"
+    },
+    {
+      "type": "p",
+      "text": "We arrange inspection at our Billericay workshop. Collection may be available depending on the issue. Do not allow third-party diagnosis."
+    },
+    {
+      "type": "p",
+      "text": "**4. Claim Assessment**"
+    },
+    {
+      "type": "p",
+      "text": "If covered, we rectify at our cost. If not covered, we provide a detailed explanation and separate quote. Decision communicated in writing."
+    },
+    {
+      "type": "h3",
+      "text": "Timeline / Technical Work Disclaimer"
+    },
+    {
+      "type": "p",
+      "text": "Engine rebuilds are complex technical procedures. We provide estimated completion dates based on current information and typical turnaround times. Unexpected issues (e.g., cracked cylinder head, damaged crankshaft requiring replacement, parts availability delays) may extend the repair time. We are not liable for inconvenience caused by reasonable delays. We will keep you informed throughout the process and update you promptly if timelines change."
+    },
+    {
+      "type": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "type": "p",
+      "text": "**Is the warranty transferable if I sell my car?**"
+    },
+    {
+      "type": "p",
+      "text": "No. The warranty is strictly non-transferable and applies only to the original customer who paid for the work. If the vehicle is sold, transferred, or ownership changes in any way, the warranty is immediately voided. We cannot verify how subsequent owners maintain or treat the vehicle."
+    },
+    {
+      "type": "p",
+      "text": "**What happens if I don't do the 2,000-mile service?**"
+    },
+    {
+      "type": "p",
+      "text": "Your warranty becomes void. The 2,000-mile service (± 200 miles tolerance) is mandatory and must be carried out by Land Rover Garage. It verifies the engine is bedding in correctly and catches early issues. This service is chargeable and not included in the rebuild price. Book it proactively to maintain your cover."
+    },
+    {
+      "type": "p",
+      "text": "**Can I take my car to another garage for a small repair during the warranty period?**"
+    },
+    {
+      "type": "p",
+      "text": "No. Any engine-related work performed by another garage, mobile mechanic, or unauthorised person during the warranty period voids coverage immediately. This includes diagnostics, adjustments, or repairs. We cannot guarantee work done by others, and such interference may cause damage not attributable to our original rebuild. Contact us first for any concerns."
+    },
+    {
+      "type": "p",
+      "text": "**What should I remove from my car before handing it over?**"
+    },
+    {
+      "type": "p",
+      "text": "All personal belongings: chargers, cables, dashboard decorations, children's car seats, boosters, loose change, sunglasses, air fresheners, and any item not screwed down or part of the original vehicle. We advise this over the phone and in the quotation form. We are not responsible for lost or missing items left in the vehicle."
+    },
+    {
+      "type": "p",
+      "text": "**Do I need to take photos of my car before handover?**"
+    },
+    {
+      "type": "p",
+      "text": "Strongly advised. Photograph bodywork, paintwork, wheels, tyres, bumpers, and any existing dents or scratches before collection or recovery. Without dated proof, we cannot accept claims of new damage (scuffs, dents, scratches) allegedly occurring while the vehicle was in our care. Recovery services may cause transit damage — photos protect both parties."
+    },
+    {
+      "type": "p",
+      "text": "**Are turbochargers covered under warranty?**"
+    },
+    {
+      "type": "p",
+      "text": "No. Turbochargers are classified as ancillary components and are not covered under the engine rebuild warranty, even if removed during the work. The same applies to fuel injectors, alternators, AC pumps, starters, DPFs, EGR valves, and suspension components. We will advise if any are unserviceable and quote separately for replacement."
+    },
+    {
+      "type": "p",
+      "text": "**What if my engine block is cracked or crankshaft damaged?**"
+    },
+    {
+      "type": "p",
+      "text": "The standard warranty assumes the crankshaft and engine block are in serviceable condition. If these require replacement or significant repair beyond standard reconditioning, costs may increase significantly. We will always quote separately and obtain your written approval before proceeding. Replacement blocks/cranks carry their own warranty terms, confirmed at time of quote."
+    },
+    {
+      "type": "p",
+      "text": "**How long does an engine rebuild take?**"
+    },
+    {
+      "type": "p",
+      "text": "Typically 2–4 weeks from drop-off to collection, depending on parts availability and machine shop turnaround. Complex builds or unexpected issues (cracked heads, damaged components) may extend this. We provide estimated dates but are not liable for inconvenience caused by reasonable delays. You will be kept informed throughout."
+    },
+    {
+      "type": "p",
+      "text": "**Do you offer a courtesy car?**"
+    },
+    {
+      "type": "p",
+      "text": "Courtesy vehicles are subject to availability and cannot be guaranteed. Contact us at booking to discuss options. We recommend arranging alternative transport as backup, especially for longer rebuild jobs where delays are possible."
+    },
+    {
+      "type": "p",
+      "text": "**What if the recovery service damages my car during transit?**"
+    },
+    {
+      "type": "p",
+      "text": "Take dated photos of your vehicle before collection. If transit damage occurs, these photos are essential evidence for insurance claims against the recovery provider. We will assist with documentation but are not liable for third-party transit damage. Our responsibility begins when the vehicle is physically received at our workshop and signed in."
+    },
+    {
+      "type": "p",
+      "text": "**Does the warranty cover consequential damage?**"
+    },
+    {
+      "type": "p",
+      "text": "No. The warranty covers only the specific components listed in \"What IS Covered\" and labour directly related to their failure. Consequential damage to non-covered components (e.g., turbo failure caused by oil starvation from a covered bearing failure) is excluded. We will always explain coverage clearly during claim assessment."
+    },
+    {
+      "type": "h3",
+      "text": "Your Statutory Rights"
+    },
+    {
+      "type": "p",
+      "text": "Nothing in this warranty excludes or restricts your statutory rights under the Consumer Rights Act 2015. Services must be carried out with reasonable care and skill. If work is unsatisfactory, you may be entitled to repeat performance or a price reduction. Full contractual terms are published at /terms-and-conditions/. For independent advice, contact Citizens Advice Consumer Service on 0808 223 1133."
+    },
+    {
+      "type": "h2",
+      "text": "Need More Information About Our Warranty?"
+    },
+    {
+      "type": "p",
+      "text": "Call us to discuss your cover before booking. We're happy to clarify any terms, explain component coverage, or walk through the 2,000-mile service requirement. Transparency is central to how we operate — no hidden clauses, no surprises."
+    },
+    {
+      "type": "ctaRow",
+      "items": [
+        {
+          "label": "Get a Quote Online",
+          "href": "/contact"
+        },
+        {
+          "label": "WhatsApp the Workshop",
+          "href": "https://wa.me/447975827396"
+        },
+        {
+          "label": "0203 488 4649",
+          "href": "tel:02034884649"
+        }
+      ]
+    }
+  ]
+}

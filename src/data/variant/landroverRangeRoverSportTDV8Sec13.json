@@ -1,0 +1,77 @@
+{
+  "kicker": "FREQUENTLY ASKED",
+  "kickerHighlight": "QUESTIONS",
+  "faqLeft": [
+    {
+      "q": "What engine does the Land Rover Range Rover Sport TDV8 use?",
+      "a": "It depends on the year. From 2005 to 2013 (L320 generation), the Range Rover Sport TDV8 used the TDV8 4.4-litre V8 diesel. From 2013 to 2022 (L494), it switched to the SDV8 4.4-litre V8 diesel — a later, more powerful evolution of the same engine family."
+    },
+    {
+      "q": "How much does a Land Rover Range Rover Sport TDV8 engine rebuild cost?",
+      "a": "Rebuilds start from £4,500, for either engine code. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    },
+    {
+      "q": "Which engine code is fitted to my Range Rover Sport TDV8?",
+      "a": "Enter your registration on this page and we'll confirm whether you have the TDV8 or the SDV8 before you're quoted anything."
+    },
+    {
+      "q": "Do you rebuild TDV8 Range Rover Sport engines?",
+      "a": "Yes. We replace timing chain components, injector seals, and gaskets as standard on every TDV8 rebuild."
+    },
+    {
+      "q": "Do you rebuild SDV8 Range Rover Sport engines?",
+      "a": "Yes. The SDV8 is a later iteration of the V8 diesel, and we service it to the same high standard as the TDV8, addressing its common timing chain and injector wear patterns."
+    }
+  ],
+  "faqRight": [
+    {
+      "q": "Do you supply used Range Rover Sport TDV8 engines?",
+      "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
+    },
+    {
+      "q": "Can you recover my Range Rover Sport TDV8 if the engine has failed?",
+      "a": "Yes — nationwide recovery is available from £70, and most vehicles are collected within a few hours of booking."
+    },
+    {
+      "q": "How long does a Range Rover Sport TDV8 engine rebuild take?",
+      "a": "Most rebuilds are completed within 3-5 working days from the time your car arrives at our workshop."
+    },
+    {
+      "q": "Is rebuilding better than fitting a used engine?",
+      "a": "For most Range Rover Sport TDV8 owners, yes. A rebuild removes the compatibility risk that comes with an unknown used unit's history, and comes with a 12-month unlimited-mileage warranty — often longer and more comprehensive than what a used engine supplier offers."
+    }
+  ],
+  "form": {
+    "headlinePre": "GET YOUR",
+    "headlineHighlight": "FREE MERCEDES Range Rover Sport TDV8",
+    "headlinePost": "FIXED-PRICE QUOTE",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "e.g. YG19 XJL"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. SS1 1AA"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "e.g. 07XXX XXXXXX"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Select an option"
+      }
+    },
+    "submitLabel": "Get My Fixed-Price Quote",
+    "guarantee": "Most quotes returned within 30 minutes during working hours."
+  }
+}

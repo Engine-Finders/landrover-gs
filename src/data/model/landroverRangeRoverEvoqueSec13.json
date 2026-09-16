@@ -1,0 +1,35 @@
+{
+  "headlinePre": "How It",
+  "headlineHighlight": "Works",
+  "steps": [
+    {
+      "icon": "note",
+      "linePre": "Send Your",
+      "lineHighlight": "Registration"
+    },
+    {
+      "icon": "price",
+      "linePre": "Receive Your",
+      "lineHighlight": "Fixed-Price Quote"
+    },
+    {
+      "icon": "truck",
+      "linePre": "We Recover",
+      "lineHighlight": "Your Car"
+    },
+    {
+      "icon": "engine",
+      "linePre": "Rebuild &",
+      "lineHighlight": "Refit"
+    }
+  ],
+  "turnaround": {
+    "icon": "clock",
+    "text": "Most Land Rover are recovered within a few hours of booking. Most rebuilds are completed within 3–5 working days."
+  },
+  "urgency": {
+    "icon": "calendar",
+    "textPre": "Workshop slots fill up fast — ",
+    "textHighlight": "book your recovery today."
+  }
+}

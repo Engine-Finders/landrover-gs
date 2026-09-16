@@ -1,0 +1,181 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Range Rover Vogue ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Range Rover Vogue has used the same engine throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2001",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2002",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2003",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2004",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2005",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2006",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2007",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2008",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2009",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2010",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2011",
+      "generation": "L322",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2012",
+      "generation": "L322/L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2013",
+      "generation": "L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2014",
+      "generation": "L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2015",
+      "generation": "L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2016",
+      "generation": "L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2017",
+      "generation": "L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2018",
+      "generation": "L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2019",
+      "generation": "L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2020",
+      "generation": "L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2021",
+      "generation": "L405",
+      "engineCode": "TDV6, SDV6, TDV8, SDV8",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The engine",
+    "rest": " has been fitted to every Range Rover Vogue since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

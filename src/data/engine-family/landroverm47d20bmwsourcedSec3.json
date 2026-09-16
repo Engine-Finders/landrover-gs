@@ -1,0 +1,52 @@
+{
+  "image": "/engine/sec3.webp",
+  "titlePre": "Land Rover M47D20 (BMW-Sourced) Applications — ",
+  "titleHighlight": "Every Model & Variant",
+  "columns": [
+    {
+      "label": "Model"
+    },
+    {
+      "label": "Variant"
+    },
+    {
+      "label": "Generation"
+    },
+    {
+      "label": "Chassis"
+    },
+    {
+      "label": "Years"
+    },
+    {
+      "label": "Powertrain Sub-type"
+    }
+  ],
+  "rows": [
+    {
+      "model": "Defender",
+      "variant": "Td4",
+      "generation": "Defender",
+      "chassis": "L316",
+      "years": "2002–2006",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-defender-engines"
+    },
+    {
+      "model": "Freelander",
+      "variant": "TD4",
+      "generation": "Freelander 1",
+      "chassis": "L314",
+      "years": "2000–2006",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-freelander-engines"
+    }
+  ],
+  "prompt": {
+    "icon": "search",
+    "titlePre": "Not seeing your exact model?",
+    "subtext": "Send us your registration and we'll confirm.",
+    "buttonLabel": "Send Us Your Registration →",
+    "href": "#quote-form"
+  }
+}

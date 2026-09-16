@@ -1,0 +1,78 @@
+{
+  "kicker": "Frequently Asked",
+  "kickerHighlight": "Questions",
+  "faqLeft": [
+    {
+      "q": "Do you rebuild engines for all Defenders, classic and new?",
+      "a": "Yes — we rebuild and replace engines across the full range, from the classic 90/110/130 through to the current L663."
+    },
+    {
+      "q": "Do I keep my original engine, or do you send me a different one?",
+      "a": "We rebuild the engine your Defender already has wherever possible, avoiding the compatibility risks that come with fitting a used engine of unknown history."
+    },
+    {
+      "q": "Do you supply used engines?",
+      "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise once we've matched your registration and understood your situation."
+    },
+    {
+      "q": "What warranty comes with a rebuild?",
+      "a": "Every rebuild comes with a 12 month unlimited-mileage warranty."
+    }
+  ],
+  "faqRight": [
+    {
+      "q": "How does recovery work?",
+      "a": "We collect your car nationwide from £70. Most vehicles are recovered within a few hours of booking."
+    },
+    {
+      "q": "How long does a rebuild take?",
+      "a": "Most rebuilds are completed within 3-5 working days from the time your car arrives at our workshop."
+    },
+    {
+      "q": "How much does a Defender engine rebuild cost?",
+      "a": "Classic diesel rebuilds (Td5/300Tdi/200Tdi) start from £1,900. Modern L663 rebuilds start from £2,200 for 4-cylinder, £2,800 for 6-cylinder, and £4,500 for V8. Exact price depends on engine code and condition — submit your reg for a fixed-price quote."
+    },
+    {
+      "q": "Is a classic Defender rebuild different from an L663 rebuild?",
+      "a": "Yes — they're essentially different vehicles under the skin. Classic Defenders (Td5, 300Tdi, 200Tdi) need injector, head gasket and cooling-system attention; the modern L663's Ingenium engines need the same timing-chain care as the rest of the current Land Rover range. We handle both."
+    }
+  ],
+  "form": {
+    "headlinePre": "Get Your",
+    "headlineHighlight": "Free Land Rover Defender",
+    "headlinePost": "Fixed-Price Quote",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "e.g. AB12 CDE"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. CM11 1QE"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "e.g. 07XXX XXXXXX"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Select an option",
+        "options": [
+          "Engine Failure",
+          "Replacement Needed",
+          "General Enquiry"
+        ]
+      }
+    },
+    "submitLabel": "Get My Fixed-Price Quote",
+    "guarantee": "Most quotes returned within 30 minutes during working hours."
+  }
+}

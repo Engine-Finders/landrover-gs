@@ -1,0 +1,99 @@
+{
+  "badge": "10",
+  "headlinePre": "Most Popular",
+  "headlineHighlight": "Land Rover Range Rover Evoque Rebuilds",
+  "subhead": "Full variant list below covers every Land Rover Range Rover Evoque engine we work on — these 10 are simply our most requested.",
+  "image": "/model/sec10.webp",
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like.",
+  "cards": [
+    {
+      "number": "01",
+      "model": "Land Rover C180",
+      "spec": "1.6L Petrol (Ford Duratorq)"
+    },
+    {
+      "number": "02",
+      "model": "Land Rover C200",
+      "spec": "2.0L Petrol (Ford Duratorq)"
+    },
+    {
+      "number": "03",
+      "model": "Land Rover C220d",
+      "spec": "2.1L Diesel (Ford Duratorq)"
+    },
+    {
+      "number": "04",
+      "model": "Land Rover C250",
+      "spec": "1.8L Petrol Turbo (M271)"
+    },
+    {
+      "number": "05",
+      "model": "Land Rover C250d",
+      "spec": "2.1L Diesel (Ford Duratorq)"
+    },
+    {
+      "number": "06",
+      "model": "Land Rover C300",
+      "spec": "2.0L Petrol Turbo (Ford Duratorq)"
+    },
+    {
+      "number": "07",
+      "model": "Land Rover C300d",
+      "spec": "2.0L Diesel (Ford Duratorq)"
+    },
+    {
+      "number": "08",
+      "model": "Land Rover C350",
+      "spec": "3.5L Petrol (Ford Duratorq)"
+    },
+    {
+      "number": "09",
+      "model": "Land Rover C43 Land Rover",
+      "spec": "3.0L Petrol Twin-Turbo (Ford Duratorq)"
+    },
+    {
+      "number": "10",
+      "model": "Land Rover C63 Land Rover",
+      "spec": "6.2 / 4.0L Petrol (M156 / Ford Duratorq)"
+    }
+  ],
+  "variants": [
+    {
+      "label": "Range Rover Evoque eD4"
+    },
+    {
+      "label": "Range Rover Evoque TD4"
+    },
+    {
+      "label": "Range Rover Evoque Si4"
+    },
+    {
+      "label": "Range Rover Evoque P200"
+    },
+    {
+      "label": "Range Rover Evoque P250"
+    },
+    {
+      "label": "Range Rover Evoque P300"
+    },
+    {
+      "label": "Range Rover Evoque P300e"
+    },
+    {
+      "label": "Range Rover Evoque D150"
+    },
+    {
+      "label": "Range Rover Evoque D165"
+    },
+    {
+      "label": "Range Rover Evoque D180"
+    },
+    {
+      "label": "Range Rover Evoque D200"
+    },
+    {
+      "label": "Range Rover Evoque D240"
+    }
+  ]
+}

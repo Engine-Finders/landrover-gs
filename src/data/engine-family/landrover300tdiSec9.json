@@ -1,0 +1,58 @@
+{
+  "about": {
+    "image": "/engine/sec9_top.webp",
+    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "kicker": "ABOUT THE",
+    "titlePre": "LAND ROVER",
+    "titleHighlight": "300Tdi",
+    "titlePost": " ENGINE",
+    "body": "The 300Tdi is a Inline-4 (I4), 2.5L (2,495 cc), Diesel engine used across Land Rover's 1 model range, in production 1994–1998. We rebuild every 300Tdi to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+  },
+  "byModel": {
+    "image": "/engine/sec9_middle.webp",
+    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "kicker": "LAND ROVER 300Tdi",
+    "titlePre": "",
+    "titleHighlight": "APPLICATIONS",
+    "titlePost": " BY MODEL",
+    "body": "The 300Tdi is fitted across Defender — see the full applications table above for exact variants, generations and years.",
+    "lineup": [
+      {
+        "label": "Defender",
+        "code": "Defender"
+      }
+    ]
+  },
+  "compatibility": {
+    "image": "/engine/sec9_bottom.webp",
+    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "kicker": "LAND ROVER 300Tdi",
+    "titlePre": "",
+    "titleHighlight": "ENGINE",
+    "titlePost": " COMPATIBILITY",
+    "body": "Because the 300Tdi is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
+    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "points": [
+      {
+        "icon": "car",
+        "title": "MODEL",
+        "text": "Confirm your exact model and exact variant."
+      },
+      {
+        "icon": "calendar",
+        "title": "GENERATION",
+        "text": "Identify the correct generation (Defender)."
+      },
+      {
+        "icon": "gears",
+        "title": "DRIVETRAIN",
+        "text": "Specify the variant (45, 45 S, 43)."
+      },
+      {
+        "icon": "clipboard",
+        "title": "CONFIRMED BY REGISTRATION",
+        "text": "We confirm by registration or VIN before quoting."
+      }
+    ]
+  }
+}

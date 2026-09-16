@@ -1,0 +1,73 @@
+{
+  "kicker": "FREQUENTLY ASKED",
+  "kickerHighlight": "QUESTIONS",
+  "faqLeft": [
+    {
+      "q": "What engine does the Land Rover Evoque TD4 use?",
+      "a": "The Evoque TD4 uses the Ford Duratorq — a 2.0-litre turbocharged diesel — fitted to the L538 generation from 2011 to 2016. It was replaced by the Ingenium diesel family from 2016 onwards."
+    },
+    {
+      "q": "How much does a Land Rover Evoque TD4 engine rebuild cost?",
+      "a": "Rebuilds start from £2,200. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    },
+    {
+      "q": "Which engine code is fitted to my Evoque TD4?",
+      "a": "Enter your registration on this page and we'll confirm you have the Ford Duratorq, along with your exact spec."
+    },
+    {
+      "q": "Do you rebuild Ford Duratorq Evoque TD4 engines?",
+      "a": "Yes. We replace worn injector seals, clean or replace the EGR valve, and replace gaskets as standard on every Ford Duratorq rebuild."
+    }
+  ],
+  "faqRight": [
+    {
+      "q": "Do you supply used Evoque TD4 engines?",
+      "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
+    },
+    {
+      "q": "Can you recover my Evoque TD4 if the engine has failed?",
+      "a": "Yes — nationwide recovery is available from £70, and most vehicles are collected within a few hours of booking."
+    },
+    {
+      "q": "How long does an Evoque TD4 engine rebuild take?",
+      "a": "Most rebuilds are completed within 3-5 working days from the time your car arrives at our workshop."
+    },
+    {
+      "q": "Is rebuilding better than fitting a used engine?",
+      "a": "For most Evoque TD4 owners, yes. A rebuild removes the compatibility risk that comes with an unknown used unit's history, and comes with a 12-month unlimited-mileage warranty — often longer and more comprehensive than what a used engine supplier offers."
+    }
+  ],
+  "form": {
+    "headlinePre": "GET YOUR",
+    "headlineHighlight": "FREE MERCEDES Range Rover Evoque Evoque TD4",
+    "headlinePost": "FIXED-PRICE QUOTE",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "e.g. YG19 XJL"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. SS1 1AA"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "e.g. 07XXX XXXXXX"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Select an option"
+      }
+    },
+    "submitLabel": "Get My Fixed-Price Quote",
+    "guarantee": "Most quotes returned within 30 minutes during working hours."
+  }
+}

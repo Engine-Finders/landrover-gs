@@ -1,0 +1,36 @@
+{
+  "headlinePre": "Land Rover Range Rover D300/D350",
+  "headlineHighlight": "Engine Rebuild Price",
+  "startingFromLabel": "Starting From",
+  "startingFromPrice": "£2,800",
+  "engineImage": "/variant/sec10_engine.webp",
+  "carImage": "/variant/landrover_car.webp",
+  "cards": [
+    {
+      "code": "AJ300D",
+      "generation": "L460 (2022–present)",
+      "price": "£2,800"
+    }
+  ],
+  "notes": [
+    {
+      "icon": "price",
+      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    }
+  ],
+  "cta": {
+    "icon": "car",
+    "label": "Get Your Fixed-Price Quote",
+    "href": "#quote-form"
+  },
+  "warning": {
+    "bgImage": "/variant/sec3.webp",
+    "titlePre": "Land Rover Range Rover D300/D350 Oil Leaks & Coolant System Wear ",
+    "titleHighlight": "(AJ300D I6)",
+    "paragraphs": [
+      "The AJ300D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older AJ300D V6. We replace timing chains, bearings, water pump and gaskets as standard on every AJ300D rebuild.",
+      "Because the Range Rover D300/D350 uses a completely different engine family from the V8 M178 fitted to the Range Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+    ],
+    "source": "Source: Established AJ300D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Defender P400e",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Defender P400e"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Defender"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "P400e"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol Plug-in Hybrid"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "AJ300P + electric motor"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "3.0L I6 + electric"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generation",
+      "value": "L663 (2020 only, 110 only — discontinued)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£2,800"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Defender P400e uses the AJ300P + electric motor 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

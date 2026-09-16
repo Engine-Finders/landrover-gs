@@ -1,0 +1,65 @@
+{
+  "specs": {
+    "titlePre": "Land Rover M47D20 (BMW-Sourced)",
+    "titleHighlight": "Engine Specifications",
+    "image": "/engine/sec2.webp",
+    "imageMobile": "/engine/sec2_mobile.webp",
+    "rows": [
+      {
+        "icon": "code",
+        "label": "Engine Code",
+        "value": "M47D20 / M47D20R"
+      },
+      {
+        "icon": "building",
+        "label": "Manufacturer",
+        "value": "BMW"
+      },
+      {
+        "icon": "gear",
+        "label": "Configuration",
+        "value": "Inline-4 (I4)"
+      },
+      {
+        "icon": "engine",
+        "label": "Capacity",
+        "value": "2.0L (1,951 cc)"
+      },
+      {
+        "icon": "oil",
+        "label": "Fuel",
+        "value": "Diesel"
+      },
+      {
+        "icon": "calendar",
+        "label": "Production Years",
+        "value": "2000–2006 (Land Rover applications)"
+      },
+      {
+        "icon": "car",
+        "label": "Used In",
+        "value": "2 Land Rover models"
+      }
+    ],
+    "prompt": {
+      "icon": "search",
+      "titlePre": "Not sure if your Land Rover has this engine?",
+      "subtext": "Enter your registration and we'll confirm.",
+      "buttonLabel": "Check My Engine →",
+      "href": "#quote-form"
+    }
+  },
+  "price": {
+    "titlePre": "Land Rover M47D20 (BMW-Sourced)",
+    "titleHighlight": "Engine Rebuild Price",
+    "image": "/engine/sec2_bottom.webp",
+    "imageMobile": "/engine/sec2_bottom_mobile.webp",
+    "startingFromLabel": "Starting From",
+    "startingFromPrice": "£2,200",
+    "body": "All M47D20 (BMW-Sourced) applications use the same 2.0-litre Land Rover four-cylinder engine, so the price tier is consistent across every model it's fitted to. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
+    "cta": {
+      "label": "Get Your Fixed-Price Quote →",
+      "href": "#quote-form"
+    }
+  }
+}

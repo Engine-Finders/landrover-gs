@@ -1,0 +1,108 @@
+{
+  "badge": "10",
+  "headlinePre": "Most Popular",
+  "headlineHighlight": "Land Rover Discovery Rebuilds",
+  "subhead": "Full variant list below covers every Land Rover Discovery engine we work on — these 10 are simply our most requested.",
+  "image": "/model/sec10.webp",
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like.",
+  "cards": [
+    {
+      "number": "01",
+      "model": "Land Rover C180",
+      "spec": "1.6L Petrol (200Tdi / 300Tdi)"
+    },
+    {
+      "number": "02",
+      "model": "Land Rover C200",
+      "spec": "2.0L Petrol (200Tdi / 300Tdi)"
+    },
+    {
+      "number": "03",
+      "model": "Land Rover C220d",
+      "spec": "2.1L Diesel (200Tdi / 300Tdi)"
+    },
+    {
+      "number": "04",
+      "model": "Land Rover C250",
+      "spec": "1.8L Petrol Turbo (M271)"
+    },
+    {
+      "number": "05",
+      "model": "Land Rover C250d",
+      "spec": "2.1L Diesel (200Tdi / 300Tdi)"
+    },
+    {
+      "number": "06",
+      "model": "Land Rover C300",
+      "spec": "2.0L Petrol Turbo (200Tdi / 300Tdi)"
+    },
+    {
+      "number": "07",
+      "model": "Land Rover C300d",
+      "spec": "2.0L Diesel (200Tdi / 300Tdi)"
+    },
+    {
+      "number": "08",
+      "model": "Land Rover C350",
+      "spec": "3.5L Petrol (200Tdi / 300Tdi)"
+    },
+    {
+      "number": "09",
+      "model": "Land Rover C43 Land Rover",
+      "spec": "3.0L Petrol Twin-Turbo (200Tdi / 300Tdi)"
+    },
+    {
+      "number": "10",
+      "model": "Land Rover C63 Land Rover",
+      "spec": "6.2 / 4.0L Petrol (M156 / 200Tdi / 300Tdi)"
+    }
+  ],
+  "variants": [
+    {
+      "label": "Discovery Tdi"
+    },
+    {
+      "label": "Discovery Td5"
+    },
+    {
+      "label": "Discovery V8 (3.9/4.0)"
+    },
+    {
+      "label": "Discovery TDV6"
+    },
+    {
+      "label": "Discovery TDV8"
+    },
+    {
+      "label": "Discovery SDV6"
+    },
+    {
+      "label": "Discovery SDV8"
+    },
+    {
+      "label": "Discovery HSE"
+    },
+    {
+      "label": "Discovery Si6"
+    },
+    {
+      "label": "Discovery D250"
+    },
+    {
+      "label": "Discovery D300"
+    },
+    {
+      "label": "Discovery D350"
+    },
+    {
+      "label": "Discovery P360"
+    },
+    {
+      "label": "Discovery P400"
+    },
+    {
+      "label": "Discovery P400e"
+    }
+  ]
+}

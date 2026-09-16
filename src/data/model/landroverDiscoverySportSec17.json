@@ -1,0 +1,59 @@
+{
+  "kicker": "Full Variant Coverage",
+  "headline": "We Cover Every Land Rover Discovery Sport Variant",
+  "tabs": [
+    "Land Rover Discovery Sport"
+  ],
+  "activeTab": 0,
+  "tabVariants": [
+    [
+      {
+        "label": "Discovery Sport eD4"
+      },
+      {
+        "label": "Discovery Sport TD4"
+      },
+      {
+        "label": "Discovery Sport Si4"
+      },
+      {
+        "label": "Discovery Sport P200"
+      },
+      {
+        "label": "Discovery Sport P250"
+      },
+      {
+        "label": "Discovery Sport P300"
+      },
+      {
+        "label": "Discovery Sport P300e"
+      },
+      {
+        "label": "Discovery Sport D150"
+      },
+      {
+        "label": "Discovery Sport D165"
+      },
+      {
+        "label": "Discovery Sport D180"
+      },
+      {
+        "label": "Discovery Sport D200"
+      },
+      {
+        "label": "Discovery Sport D240"
+      }
+    ]
+  ],
+  "notice": {
+    "title": "Not seeing your exact variant?",
+    "linkText": "Send us your registration",
+    "rest": " and we'll confirm engine rebuild availability directly."
+  },
+  "priceCta": {
+    "title": "Full Price Breakdown",
+    "body": "See detailed pricing near the top of this page, directly below the Starting From summary.",
+    "image": "/model/sec15_part.webp",
+    "href": "#pricing"
+  }
+}

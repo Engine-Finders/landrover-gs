@@ -1,0 +1,86 @@
+{
+  "kicker": "Full Breakdown",
+  "headlinePre": "Land Rover Defender",
+  "headlineHighlight": "Engine Rebuild Price Guide",
+  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide — request a free quote for an exact fixed price on your specific engine.",
+  "columns": [
+    "Engine Code",
+    "Fuel",
+    "Size",
+    "Rebuild Price Range"
+  ],
+  "rows": [
+    {
+      "family": "200Tdi",
+      "fuel": "Diesel I4",
+      "size": "Classic (90/110/130)",
+      "chassis": "",
+      "range": "£1,900 – £2,600"
+    },
+    {
+      "family": "300Tdi",
+      "fuel": "Diesel I4",
+      "size": "Classic (90/110/130)",
+      "chassis": "",
+      "range": "£1,900 – £2,700"
+    },
+    {
+      "family": "Td5",
+      "fuel": "Diesel I5",
+      "size": "Classic (90/110/130)",
+      "chassis": "",
+      "range": "£1,900 – £2,800"
+    },
+    {
+      "family": "Ingenium AJ200D",
+      "fuel": "Diesel I4",
+      "size": "L663",
+      "chassis": "",
+      "range": "£2,200 – £3,000"
+    },
+    {
+      "family": "Ingenium AJ300D",
+      "fuel": "Diesel I6",
+      "size": "L663",
+      "chassis": "",
+      "range": "£2,800 – £3,800"
+    },
+    {
+      "family": "Ingenium AJ200P (PHEV, P300e)",
+      "fuel": "Petrol I4",
+      "size": "L663",
+      "chassis": "",
+      "range": "£2,200 – £3,000"
+    },
+    {
+      "family": "BMW-sourced V8 (P525 / V8)",
+      "fuel": "Petrol V8",
+      "size": "L663",
+      "chassis": "",
+      "range": "£4,500 – £6,500"
+    }
+  ],
+  "features": [
+    {
+      "icon": "gear",
+      "title": "OEM Components",
+      "body": "Updated components for maximum reliability"
+    },
+    {
+      "icon": "shield-check",
+      "title": "Key Parts Replaced",
+      "body": "Timing chains, injector seals, tensioners & gaskets"
+    },
+    {
+      "icon": "truck",
+      "title": "Recovery From £70",
+      "body": "Nationwide recovery quoted separately"
+    },
+    {
+      "icon": "note",
+      "title": "Prices Exclude VAT",
+      "body": "Unless stated otherwise"
+    }
+  ],
+  "disclaimer": "Every rebuild identifies and replaces worn or damaged timing chains, injector seals, tensioners and gaskets with updated OEM components. Recovery quoted separately from £70. Prices exclude VAT unless stated."
+}

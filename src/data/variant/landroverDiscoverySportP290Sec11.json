@@ -1,0 +1,48 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Discovery Sport P290 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Discovery Sport P290 has used the Ingenium AJ200P throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2019",
+      "generation": "L550",
+      "engineCode": "Ingenium AJ200P",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2020",
+      "generation": "L550",
+      "engineCode": "Ingenium AJ200P",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The Ingenium AJ200P",
+    "rest": " has been fitted to every Discovery Sport P290 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Defender P525 ENGINE",
+    "paragraphs": [
+      "The Defender P525 is part of the modern L663 generation, introduced in 2021 for the 90 and later offered in the US-market 110 from 2026. It uses the AJ133 — a 5.0-litre supercharged V8 that Land Rover has applied across several performance-oriented models, including the Range Rover Sport SVR and Velar SVAutobiography. The P525 badge denotes a specific power tune of this engine, rather than a mechanically unique unit. No Defender-specific known issue is confirmed for this application — it's generally considered a reliable engine in this chassis, though like any performance V8, regular maintenance is still critical."
+    ],
+    "boldParagraph": "We continue to rebuild and replace engine engines for every Defender P525 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Defender P525 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "—",
+        "codeRest": "",
+        "body": "A 5.0-litre supercharged V8 fitted to the Defender P525 from 2021 (90) and 2026 (US-market 110). The P525 badge reflects the power output tune of this engine. While the AJ133 is generally reliable and shares the broader supercharged V8 pattern used across other Land Rover models, no Defender-specific issue is confirmed for this application. We replace timing chains, bearings, water pump and gaskets as standard on every P525 rebuild. Check Your AJ133 Defender P525 → [link to quote form]",
+        "cta": "Check Your engine Defender P525",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Defender P525 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the P525 is one of several power-tune badges on the same AJ133 engine, it's important to confirm the exact tune and specification when sourcing any replacement parts or a full replacement unit. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "engine",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "- Your exact engine code (AJ133) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "- Your body style (90 or 110)"
+      },
+      {
+        "icon": "gears",
+        "text": "- Year of manufacture"
+      },
+      {
+        "icon": "code",
+        "text": "- Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Land Rover quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Defender P525 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L663",
+        "chassis": "90",
+        "years": "2021–present",
+        "engineCode": "AJ133",
+        "fuel": "Petrol Supercharged"
+      },
+      {
+        "generation": "L663",
+        "chassis": "110 (US market)",
+        "years": "2026",
+        "engineCode": "AJ133",
+        "fuel": "Petrol Supercharged"
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "yearBanner": {
+    "titlePre": "WE COVER ",
+    "titleHighlight": "EVERY",
+    "titlePost": " Land Rover Defender D250 MODEL YEAR:",
+    "years": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
+    "vehicleLabel": "Land Rover Defender D250"
+  },
+  "costs": {
+    "titlePre": "Land Rover Defender D250 ENGINE ",
+    "titleHighlight": "COSTS",
+    "intro": "A Land Rover Defender D250 engine rebuild starts from",
+    "price": "£2,800",
+    "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
+    "image": "/variant/sec10_engine.webp",
+    "warranty": {
+      "line1": "12 MONTH",
+      "line2": "UNLIMITED-MILEAGE",
+      "line3": "WARRANTY"
+    },
+    "subCards": [
+      {
+        "icon": "engine",
+        "title": "MERCEDES Defender D250 ENGINE SIZES",
+        "item": "Land Rover Defender D250 3.0 Litre Engine (AJ300D, I6)"
+      },
+      {
+        "icon": "fuel",
+        "title": "MERCEDES Defender D250 FUEL TYPES",
+        "item": "Land Rover Defender D250 Petrol Mild Hybrid Engine Rebuilds"
+      }
+    ]
+  },
+  "bottomInfo": {
+    "timeframe": {
+      "icon": "clock",
+      "textPre": "Most Land Rover Defender D250 engine rebuilds are completed within ",
+      "textHighlight": "3-5 working days",
+      "textPost": "."
+    },
+    "recoveryText": "Nationwide recovery and collection available for all Land Rover Defender D250 models.",
+    "image": "/variant/landrover_car.webp"
+  },
+  "related": {
+    "title": "RELATED LAND ROVER ENGINES",
+    "links": [],
+    "viewAll": "View All Land Rover Engines",
+    "viewAllHref": "/engines"
+  }
+}

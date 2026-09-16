@@ -1,0 +1,107 @@
+{
+  "gallery": {
+    "titlePre": "OUR MOST RECENT",
+    "titleHighlight": "MERCEDES RECOVERIES & REBUILDS",
+    "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection — this is what genuine engine work looks like.",
+    "image": "/model/sec12.webp",
+    "items": [
+      {
+        "icon": "truck",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "RECOVERY"
+      },
+      {
+        "icon": "search",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "DIAGNOSTICS"
+      },
+      {
+        "icon": "gear",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "STRIPPED ENGINE"
+      },
+      {
+        "icon": "chain",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "TIMING CHAIN REPLACEMENT"
+      },
+      {
+        "icon": "wrench",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "IN FOR REBUILD"
+      },
+      {
+        "icon": "gear",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "REBUILD IN PROGRESS"
+      },
+      {
+        "icon": "truck",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "NATIONWIDE RECOVERY"
+      },
+      {
+        "icon": "gear",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "ENGINE STRIPPED"
+      },
+      {
+        "icon": "knock",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "TESTING & CHECKS"
+      },
+      {
+        "icon": "shield-check",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "READY FOR COLLECTION"
+      },
+      {
+        "icon": "gear",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "Ingenium AJ200D / AJ150D REBUILD"
+      },
+      {
+        "icon": "wrench",
+        "model": "Land Rover Discovery Sport D150",
+        "status": "WORKSHOP BAY"
+      }
+    ]
+  },
+  "howItWorks": {
+    "titlePre": "HOW IT ",
+    "titleHighlight": "WORKS",
+    "steps": [
+      {
+        "icon": "note",
+        "linePre": "SEND YOUR",
+        "lineHighlight": "REGISTRATION"
+      },
+      {
+        "icon": "price",
+        "linePre": "RECEIVE YOUR",
+        "lineHighlight": "FIXED-PRICE QUOTE"
+      },
+      {
+        "icon": "truck",
+        "linePre": "WE RECOVER",
+        "lineHighlight": "YOUR CAR"
+      },
+      {
+        "icon": "engine",
+        "linePre": "REBUILD &",
+        "lineHighlight": "REFIT"
+      }
+    ],
+    "summary": {
+      "timeframe": {
+        "icon": "clock",
+        "text": "Most Discovery Sport models are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
+      },
+      "urgency": {
+        "icon": "calendar",
+        "textPre": "Workshop slots fill up fast — ",
+        "textHighlight": "book your recovery today."
+      }
+    }
+  }
+}

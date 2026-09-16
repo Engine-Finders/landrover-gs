@@ -1,0 +1,65 @@
+{
+  "kicker": "Full Variant Coverage",
+  "headline": "We Cover Every Land Rover Defender Variant",
+  "tabs": [
+    "Land Rover Defender"
+  ],
+  "activeTab": 0,
+  "tabVariants": [
+    [
+      {
+        "label": "Defender TD5"
+      },
+      {
+        "label": "Defender Td4"
+      },
+      {
+        "label": "Defender 300Tdi"
+      },
+      {
+        "label": "Defender 200Tdi"
+      },
+      {
+        "label": "Defender D200"
+      },
+      {
+        "label": "Defender D250"
+      },
+      {
+        "label": "Defender D300"
+      },
+      {
+        "label": "Defender D350"
+      },
+      {
+        "label": "Defender P400"
+      },
+      {
+        "label": "Defender P525 (V8)"
+      },
+      {
+        "label": "Defender P300e"
+      },
+      {
+        "label": "Defender X-Dynamic"
+      },
+      {
+        "label": "Defender X"
+      },
+      {
+        "label": "Defender V8"
+      }
+    ]
+  ],
+  "notice": {
+    "title": "Not seeing your exact variant?",
+    "linkText": "Send us your registration",
+    "rest": " and we'll confirm engine rebuild availability directly."
+  },
+  "priceCta": {
+    "title": "Full Price Breakdown",
+    "body": "See detailed pricing near the top of this page, directly below the Starting From summary.",
+    "image": "/model/sec15_part.webp",
+    "href": "#pricing"
+  }
+}

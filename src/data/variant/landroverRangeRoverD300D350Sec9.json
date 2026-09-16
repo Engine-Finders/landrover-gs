@@ -1,0 +1,13 @@
+{
+  "image": "/variant/sec9.webp",
+  "imageMobile": "/variant/sec9_mobile.webp",
+  "headlinePre": "LOOKING FOR A USED OR",
+  "headlineHighlight": "REPLACEMENT ENGINE",
+  "headlinePost": "INSTEAD?",
+  "body": "We supply low-mileage, VIN-matched used units too, and offer full replacement and fitting. However, most Range Rover D300/D350 owners choose a rebuild once they realise it removes compatibility risk and works out more cost-effective over the life of the car.",
+  "prompt": "Enter your reg below — we'll show you every option, honestly.",
+  "cta": {
+    "label": "Ask About Used Engine Options",
+    "href": "#quote-form"
+  }
+}

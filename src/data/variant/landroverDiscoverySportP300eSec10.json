@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Sport P300e ENGINE",
+    "paragraphs": [
+      "The Discovery Sport P300e is the plug-in hybrid variant of the L550-generation Discovery Sport, introduced in 2020 as Land Rover's first PHEV offering in the compact SUV segment. It combines the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine — with an electric motor, delivering a combined output of around 300PS. The petrol side of the drivetrain is shared with the non-hybrid P200 and P250 Ingenium petrol variants, though the P300e's specific application includes hybrid-specific systems that require specialist attention during any engine work."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Ingenium AJ200P + electric motor engines for every Discovery Sport P300e on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Sport P300e ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Ingenium AJ200P + electric motor",
+        "codeRest": "",
+        "body": "The P300e pairs the 2.0-litre Ingenium AJ200P petrol engine with an electric motor integrated into the drivetrain. Fitted to the Discovery Sport from 2020 onwards across the L550 generation. The petrol engine itself shares the Ingenium petrol family architecture with the P200 and P250 variants, though PHEV-specific considerations — hybrid cooling systems, high-voltage safety procedures, and drivetrain integration — require specialist handling beyond a standard petrol-engine rebuild. Check Your Discovery Sport P300e → [link to quote form]",
+        "cta": "Check Your Ingenium AJ200P + electric motor Discovery Sport P300e",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Sport P300e ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the P300e is a plug-in hybrid, engine work involves more than just the petrol unit — the electric motor, hybrid battery, and associated control systems are all integrated with the petrol engine. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "Ingenium AJ200P + electric motor",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact vehicle specification via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "The L550 generation (2020–present)"
+      },
+      {
+        "icon": "gears",
+        "text": "Hybrid system health and any related component considerations"
+      },
+      {
+        "icon": "code",
+        "text": "Ancillary and electronics compatibility specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Sport P300e ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L550",
+        "chassis": "L550",
+        "years": "2020–present",
+        "engineCode": "Ingenium AJ200P + electric",
+        "fuel": "Petrol PHEV"
+      }
+    ]
+  }
+}

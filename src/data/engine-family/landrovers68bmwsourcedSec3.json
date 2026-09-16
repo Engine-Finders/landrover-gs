@@ -1,0 +1,61 @@
+{
+  "image": "/engine/sec3.webp",
+  "titlePre": "Land Rover S68 (BMW-sourced) Applications — ",
+  "titleHighlight": "Every Model & Variant",
+  "columns": [
+    {
+      "label": "Model"
+    },
+    {
+      "label": "Variant"
+    },
+    {
+      "label": "Generation"
+    },
+    {
+      "label": "Chassis"
+    },
+    {
+      "label": "Years"
+    },
+    {
+      "label": "Powertrain Sub-type"
+    }
+  ],
+  "rows": [
+    {
+      "model": "Defender",
+      "variant": "Octa",
+      "generation": "L663",
+      "chassis": "L663",
+      "years": "2024–present",
+      "powertrain": "Petrol MHEV",
+      "modelHref": "/landrover-defender-engines"
+    },
+    {
+      "model": "Range Rover",
+      "variant": "SV",
+      "generation": "L460",
+      "chassis": "L460",
+      "years": "2024–present",
+      "powertrain": "Petrol MHEV",
+      "modelHref": "/landrover-range-rover-engines"
+    },
+    {
+      "model": "Range Rover Sport",
+      "variant": "SV",
+      "generation": "L461",
+      "chassis": "L461",
+      "years": "2024–present",
+      "powertrain": "Petrol MHEV",
+      "modelHref": "/landrover-range-rover-sport-engines"
+    }
+  ],
+  "prompt": {
+    "icon": "search",
+    "titlePre": "Not seeing your exact model?",
+    "subtext": "Send us your registration and we'll confirm.",
+    "buttonLabel": "Send Us Your Registration →",
+    "href": "#quote-form"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "image": "/engine/sec3.webp",
+  "titlePre": "Land Rover TDV8/SDV8 Applications — ",
+  "titleHighlight": "Every Model & Variant",
+  "columns": [
+    {
+      "label": "Model"
+    },
+    {
+      "label": "Variant"
+    },
+    {
+      "label": "Generation"
+    },
+    {
+      "label": "Chassis"
+    },
+    {
+      "label": "Years"
+    },
+    {
+      "label": "Powertrain Sub-type"
+    }
+  ],
+  "rows": [
+    {
+      "model": "Discovery",
+      "variant": "TDV8, SDV8",
+      "generation": "L319 (D3/D4)",
+      "chassis": "L319",
+      "years": "2006–2016",
+      "powertrain": "3.6L / 4.4L",
+      "modelHref": "/landrover-discovery-engines"
+    },
+    {
+      "model": "Range Rover",
+      "variant": "TDV8, SDV8",
+      "generation": "L322, L405",
+      "chassis": "L322/L405",
+      "years": "2006–2019",
+      "powertrain": "3.6L / 4.4L",
+      "modelHref": "/landrover-range-rover-engines"
+    },
+    {
+      "model": "Range Rover Sport",
+      "variant": "TDV8, SDV8",
+      "generation": "L320, L494",
+      "chassis": "L320/L494",
+      "years": "2006–2019",
+      "powertrain": "3.6L / 4.4L",
+      "modelHref": "/landrover-range-rover-sport-engines"
+    }
+  ],
+  "prompt": {
+    "icon": "search",
+    "titlePre": "Not seeing your exact model?",
+    "subtext": "Send us your registration and we'll confirm.",
+    "buttonLabel": "Send Us Your Registration →",
+    "href": "#quote-form"
+  }
+}

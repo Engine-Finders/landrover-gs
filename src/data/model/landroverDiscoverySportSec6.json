@@ -1,0 +1,26 @@
+{
+  "badge": "06",
+  "metrics": [
+    {
+      "icon": "shield-check",
+      "value": "1,800+",
+      "label": "Land Rover Engines Rebuilt"
+    },
+    {
+      "icon": "star",
+      "value": "4.8",
+      "suffix": "★",
+      "label": "Average Rating (GMB & Trustpilot)"
+    },
+    {
+      "icon": "medal",
+      "value": "12 Months",
+      "label": "Unlimited-Mileage Warranty"
+    },
+    {
+      "icon": "wrench",
+      "value": "15+ Years",
+      "label": "Specialist Experience"
+    }
+  ]
+}

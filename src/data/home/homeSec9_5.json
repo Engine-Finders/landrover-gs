@@ -1,0 +1,21 @@
+{
+  "eyebrow": "Superior Components. Lasting Performance.",
+  "h2": "Built With|Better Parts",
+  "description": "A Land Rover engine is only as good as the parts inside it. That's why we always replace the components that matter — the ones that keep your engine running stronger, for longer.",
+  "parts": [
+    { "name": "Gaskets & Seals", "icon": "gasket", "description": "New head gaskets, valve cover gaskets and oil seals for complete peace of mind." },
+    { "name": "Piston Rings", "icon": "piston", "description": "Restores compression and oil control for optimal performance." },
+    { "name": "Engine Bearings", "icon": "bearing", "description": "Main and big-end bearings always replaced for lasting reliability." },
+    { "name": "Timing Components", "icon": "chain", "description": "New chains, tensioners and guides to prevent timing failure." },
+    { "name": "Oil & Water Pumps", "icon": "pump", "description": "Replaced or reconditioned to keep vital systems circulating." }
+  ],
+  "highlights": [
+    { "prefix": "Leak-Free", "suffix": "Operation", "icon": "shield-check" },
+    { "prefix": "Stronger", "suffix": "Compression", "icon": "chart" },
+    { "prefix": "Greater", "suffix": "Reliability", "icon": "clock" },
+    { "prefix": "Built For", "suffix": "The Long Run", "icon": "road" }
+  ],
+  "footer": "The Right Parts. The Right Way. Every Time.",
+  "engineImage": "/home/sec9.5.webp",
+  "partImage": "/home/sec9_5_part.webp"
+}

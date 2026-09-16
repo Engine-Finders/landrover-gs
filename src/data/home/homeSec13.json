@@ -1,0 +1,20 @@
+{
+  "eyebrow": "Land Rover Engine Explorer",
+  "h2": "Explore Your|Land Rover Engine",
+  "description": "Interactive tool to find your engine, explore known issues and get a fixed-price quote.",
+  "fields": [
+    { "label": "1. Model", "icon": "car", "placeholder": "Select Model" },
+    { "label": "2. Engine Code", "icon": "engine", "placeholder": "Select Engine Code" },
+    { "label": "3. Fuel Type", "icon": "fuel", "placeholder": "Select Fuel Type" },
+    { "label": "4. Generation", "icon": "calendar", "placeholder": "Select Generation" },
+    { "label": "5. Known Issue", "icon": "warning", "placeholder": "Select Known Issue" }
+  ],
+  "ctaButton": "Find My Engine",
+  "image": "/home/sec9.5.webp",
+  "trustBadges": [
+    { "value": "3-5 Days", "label": "Typical Turnaround", "icon": "clock" },
+    { "value": "12 Month Warranty", "label": "Unlimited Mileage", "icon": "shield" },
+    { "value": "Nationwide Recovery", "label": "From £70", "icon": "truck" },
+    { "value": "Land Rover-Trained", "label": "Technicians", "icon": "gem" }
+  ]
+}

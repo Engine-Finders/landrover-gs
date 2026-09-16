@@ -1,0 +1,68 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Discovery TDV8",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Discovery TDV8"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Land Rover"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "Discovery TDV8"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "[MISSING: engine code not independently confirmed in VRF]"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "[MISSING: capacity not independently confirmed in VRF]"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generation",
+      "value": "generation (2014–2025, discontinued)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£3,200",
+      "highlight": true
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Discovery TDV8 uses the engine 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery P400 ENGINE",
+    "paragraphs": [
+      "The Discovery P400 is part of the fifth-generation Discovery range (D5, codename L462), introduced in 2017 and continuing through to the present day. The P400 uses the Ingenium AJ300P — a 3.0-litre inline-six petrol engine with mild-hybrid technology. It sits above the P360 in the Discovery petrol range, offering higher output while sharing the same basic Ingenium architecture. As with all modern Ingenium petrol engines, the AJ300P is generally regarded as more reliable than its diesel counterparts, though cooling system maintenance remains important."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ300P (Ingenium 3.0L I6) engines for every Discovery P400 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery P400 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ300P (Ingenium 3.0L I6)",
+        "codeRest": "(D5/L462 (2017–present))",
+        "body": "A 3.0-litre inline-six petrol engine fitted to the Discovery P400 from 2017 to present (D5/L462 generation). The AJ300P is part of JLR's Ingenium engine family and features mild-hybrid (MHEV) technology. We replace timing chains, bearings, water pump and gaskets as standard on every rebuild. Check Your AJ300P Discovery P400 → [link to quote form]",
+        "cta": "Check Your AJ300P (Ingenium 3.0L I6) Discovery P400",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery P400 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Discovery P400 uses the Ingenium AJ300P 3.0-litre inline-six petrol engine across its entire D5 production run. Unlike some Discovery variants that have seen engine changes mid-generation, the P400 has remained consistent on the AJ300P throughout. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ300P (Ingenium 3.0L I6)",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ300P) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (D5/L462)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery P400 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "Discovery 5",
+        "chassis": "L462",
+        "years": "2017–present",
+        "engineCode": "AJ300P",
+        "fuel": "Petrol MHEV"
+      }
+    ]
+  }
+}

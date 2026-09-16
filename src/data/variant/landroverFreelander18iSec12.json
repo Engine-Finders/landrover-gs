@@ -1,0 +1,62 @@
+{
+  "yearBanner": {
+    "titlePre": "WE COVER ",
+    "titleHighlight": "EVERY",
+    "titlePost": " Land Rover Freelander 1.8i MODEL YEAR:",
+    "years": [
+      "1997",
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
+    "vehicleLabel": "Land Rover Freelander 1.8i"
+  },
+  "costs": {
+    "titlePre": "Land Rover Freelander 1.8i ENGINE ",
+    "titleHighlight": "COSTS",
+    "intro": "A Land Rover Freelander 1.8i engine rebuild starts from",
+    "price": "£1,900",
+    "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
+    "image": "/variant/sec10_engine.webp",
+    "warranty": {
+      "line1": "12 MONTH",
+      "line2": "UNLIMITED-MILEAGE",
+      "line3": "WARRANTY"
+    },
+    "subCards": [
+      {
+        "icon": "engine",
+        "title": "MERCEDES Freelander 1.8i ENGINE SIZES",
+        "item": "Land Rover Freelander 1.8i 3.0 Litre Engine (Rover K-Series, I6)"
+      },
+      {
+        "icon": "fuel",
+        "title": "MERCEDES Freelander 1.8i FUEL TYPES",
+        "item": "Land Rover Freelander 1.8i Petrol Mild Hybrid Engine Rebuilds"
+      }
+    ]
+  },
+  "bottomInfo": {
+    "timeframe": {
+      "icon": "clock",
+      "textPre": "Most Land Rover Freelander 1.8i engine rebuilds are completed within ",
+      "textHighlight": "3-5 working days",
+      "textPost": "."
+    },
+    "recoveryText": "Nationwide recovery and collection available for all Land Rover Freelander 1.8i models.",
+    "image": "/variant/landrover_car.webp"
+  },
+  "related": {
+    "title": "RELATED LAND ROVER ENGINES",
+    "links": [],
+    "viewAll": "View All Land Rover Engines",
+    "viewAllHref": "/engines"
+  }
+}

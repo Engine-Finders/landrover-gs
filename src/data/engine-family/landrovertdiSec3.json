@@ -1,0 +1,43 @@
+{
+  "image": "/engine/sec3.webp",
+  "titlePre": "Land Rover Tdi Applications — ",
+  "titleHighlight": "Every Model & Variant",
+  "columns": [
+    {
+      "label": "Model"
+    },
+    {
+      "label": "Variant"
+    },
+    {
+      "label": "Generation"
+    },
+    {
+      "label": "Chassis"
+    },
+    {
+      "label": "Years"
+    },
+    {
+      "label": "Powertrain Sub-type"
+    }
+  ],
+  "rows": [
+    {
+      "model": "Discovery",
+      "variant": "Tdi",
+      "generation": "Discovery 1",
+      "chassis": "L318",
+      "years": "1989–1998",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-discovery-engines"
+    }
+  ],
+  "prompt": {
+    "icon": "search",
+    "titlePre": "Not seeing your exact model?",
+    "subtext": "Send us your registration and we'll confirm.",
+    "buttonLabel": "Send Us Your Registration →",
+    "href": "#quote-form"
+  }
+}

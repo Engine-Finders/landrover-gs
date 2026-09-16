@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Defender 300Tdi",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Defender 300Tdi"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Defender"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "300Tdi"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Diesel"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "300Tdi"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "2.5L I4"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "Classic 90/110/130 (1994–2007 approx)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£1,900"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Defender 300Tdi uses the 300Tdi 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

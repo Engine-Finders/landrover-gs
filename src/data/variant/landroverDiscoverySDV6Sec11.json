@@ -1,0 +1,125 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Discovery SDV6 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Discovery SDV6 has used the SDV6 throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2004",
+      "generation": "D3/L319",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2005",
+      "generation": "D3/L319",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2006",
+      "generation": "D3/L319",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2007",
+      "generation": "D3/L319",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2008",
+      "generation": "D3/L319",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2009",
+      "generation": "D3/D4",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2010",
+      "generation": "D4/L319 facelift",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2011",
+      "generation": "D4/L319 facelift",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2012",
+      "generation": "D4/L319 facelift",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2013",
+      "generation": "D4/L319 facelift",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2014",
+      "generation": "D4/L319 facelift",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2015",
+      "generation": "D4/L319 facelift",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2016",
+      "generation": "D4/L319 facelift",
+      "engineCode": "SDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The SDV6",
+    "rest": " has been fitted to every Discovery SDV6 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

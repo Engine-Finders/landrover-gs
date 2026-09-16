@@ -1,0 +1,46 @@
+{
+  "image": "/engine/sec1.webp",
+  "imageMobile": "/engine/sec1_mobile.webp",
+  "titlePre": "AJ200P",
+  "titleHighlight": "ENGINE",
+  "titleLine2": "REBUILD & REPLACEMENT",
+  "subhead": "Specialist Land Rover AJ200P engine rebuilds and replacements, fitted across Defender, Discovery, Discovery Sport, Range Rover Evoque and Range Rover Velar. Nationwide recovery, registration-based engine matching, 12-month unlimited-mileage warranty.",
+  "rating": {
+    "stars": 5,
+    "label": "Rated Land Rover Engine Specialists — 1,800+ Engines Rebuilt"
+  },
+  "trustBar": [
+    {
+      "icon": "tool",
+      "label": "Specialist technicians with 10-15 years of experience"
+    },
+    {
+      "icon": "shield-check",
+      "label": "12 Month Unlimited-Mileage Warranty"
+    },
+    {
+      "icon": "truck",
+      "label": "Nationwide Recovery"
+    },
+    {
+      "icon": "car",
+      "label": "Free Engine Matching by Registration"
+    },
+    {
+      "icon": "layers",
+      "label": "Fitted Across 5 Land Rover Models"
+    }
+  ],
+  "priceCta": {
+    "kicker": "Starting from",
+    "label": "£2,200",
+    "buttonLabel": "Get a Fixed-Price Quote →",
+    "href": "#quote-form"
+  },
+  "phoneCta": {
+    "icon": "phone",
+    "label": "Call Our Specialists",
+    "phone": "01268 944 234",
+    "href": "tel:02034884649"
+  }
+}

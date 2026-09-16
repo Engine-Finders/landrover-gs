@@ -1,0 +1,58 @@
+{
+  "badge": "07",
+  "kicker": "Our Workshop",
+  "cards": [
+    {
+      "number": "01",
+      "title": "Recovery Collection",
+      "image": "/model/sec7.webp"
+    },
+    {
+      "number": "02",
+      "title": "Stripped Engine Block",
+      "image": "/model/sec7.webp"
+    },
+    {
+      "number": "03",
+      "title": "Timing Chain Replacement",
+      "image": "/model/sec7.webp"
+    },
+    {
+      "number": "04",
+      "title": "Technicians At Work",
+      "image": "/model/sec7.webp"
+    },
+    {
+      "number": "05",
+      "title": "Engine Testing Rig",
+      "image": "/model/sec7.webp"
+    },
+    {
+      "number": "06",
+      "title": "Completed & Ready For Refit",
+      "image": "/model/sec7.webp"
+    },
+    {
+      "number": "07",
+      "title": "Clean Workshop Bays",
+      "image": "/model/sec7.webp"
+    },
+    {
+      "number": "08",
+      "title": "Parts & Components",
+      "image": "/model/sec7.webp"
+    },
+    {
+      "number": "09",
+      "title": "Before / After Comparison",
+      "image": "/model/sec7.webp"
+    },
+    {
+      "number": "10",
+      "title": "Our Specialist Team",
+      "image": "/model/sec7.webp"
+    }
+  ],
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like."
+}

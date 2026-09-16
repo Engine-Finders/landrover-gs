@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Sport P290 ENGINE",
+    "paragraphs": [
+      "The Discovery Sport P290 was a short-lived petrol variant, produced only from 2019 to 2020. It uses the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine, tuned to the highest output in the Discovery Sport petrol range. This particular badge was discontinued after 2020, making it a rarer variant than the P200 and P250 that continued in production. The P290 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Ingenium AJ200P engines for every Discovery Sport P290 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Sport P290 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Ingenium AJ200P",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder petrol engine, fitted to the Discovery Sport P290 from 2019 to 2020. This is the highest-output petrol tune of the Ingenium AJ200P in the Discovery Sport range, producing 286bhp. No specific known issue has been independently confirmed for this variant's application of the AJ200P — the engine generally follows the broader Ingenium petrol pattern, which tends to be more reliable than its diesel counterparts. Check Your Ingenium AJ200P P290 → [link to quote form]",
+        "cta": "Check Your Ingenium AJ200P Discovery Sport P290",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Sport P290 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Discovery Sport P290 was produced for a short window (2019-2020 only), getting the correct engine specification matters. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "Ingenium AJ200P",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (Ingenium AJ200P) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L550)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Sport P290 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L550",
+        "chassis": "L550",
+        "years": "2019–2020",
+        "engineCode": "Ingenium AJ200P",
+        "fuel": "Petrol"
+      }
+    ]
+  }
+}

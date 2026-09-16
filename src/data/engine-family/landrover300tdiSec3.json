@@ -1,0 +1,43 @@
+{
+  "image": "/engine/sec3.webp",
+  "titlePre": "Land Rover 300Tdi Applications — ",
+  "titleHighlight": "Every Model & Variant",
+  "columns": [
+    {
+      "label": "Model"
+    },
+    {
+      "label": "Variant"
+    },
+    {
+      "label": "Generation"
+    },
+    {
+      "label": "Chassis"
+    },
+    {
+      "label": "Years"
+    },
+    {
+      "label": "Powertrain Sub-type"
+    }
+  ],
+  "rows": [
+    {
+      "model": "Defender",
+      "variant": "300Tdi",
+      "generation": "Defender",
+      "chassis": "L316",
+      "years": "1994–1998",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-defender-engines"
+    }
+  ],
+  "prompt": {
+    "icon": "search",
+    "titlePre": "Not seeing your exact model?",
+    "subtext": "Send us your registration and we'll confirm.",
+    "buttonLabel": "Send Us Your Registration →",
+    "href": "#quote-form"
+  }
+}

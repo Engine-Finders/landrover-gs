@@ -1,0 +1,69 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Range Rover D300/D350 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Range Rover D300/D350 has used the AJ300D throughout (L460 (2022–present)). If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2022",
+      "generation": "L460",
+      "engineCode": "AJ300D",
+      "fuel": "Diesel MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2023",
+      "generation": "L460",
+      "engineCode": "AJ300D",
+      "fuel": "Diesel MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2024",
+      "generation": "L460",
+      "engineCode": "AJ300D",
+      "fuel": "Diesel MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2025",
+      "generation": "L460",
+      "engineCode": "AJ300D",
+      "fuel": "Diesel MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2026",
+      "generation": "L460",
+      "engineCode": "AJ300D",
+      "fuel": "Diesel MHEV",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The AJ300D",
+    "rest": " has been fitted to every Range Rover D300/D350 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

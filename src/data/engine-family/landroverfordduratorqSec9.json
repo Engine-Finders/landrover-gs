@@ -1,0 +1,70 @@
+{
+  "about": {
+    "image": "/engine/sec9_top.webp",
+    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "kicker": "ABOUT THE",
+    "titlePre": "LAND ROVER",
+    "titleHighlight": "Ford Duratorq",
+    "titlePost": " ENGINE",
+    "body": "The Ford Duratorq is a Inline-4 (I4), 2.2L (2,198 cc), Diesel engine used across Land Rover's 4 model range, in production 2012–2016. We rebuild every Ford Duratorq to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+  },
+  "byModel": {
+    "image": "/engine/sec9_middle.webp",
+    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "kicker": "LAND ROVER Ford Duratorq",
+    "titlePre": "",
+    "titleHighlight": "APPLICATIONS",
+    "titlePost": " BY MODEL",
+    "body": "The Ford Duratorq is fitted across Defender, Discovery Sport, Freelander, Range Rover Evoque — see the full applications table above for exact variants, generations and years.",
+    "lineup": [
+      {
+        "label": "Defender",
+        "code": "L663 (Puma)"
+      },
+      {
+        "label": "Discovery Sport",
+        "code": "L550"
+      },
+      {
+        "label": "Freelander",
+        "code": "L359"
+      },
+      {
+        "label": "Range Rover Evoque",
+        "code": "L538"
+      }
+    ]
+  },
+  "compatibility": {
+    "image": "/engine/sec9_bottom.webp",
+    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "kicker": "LAND ROVER Ford Duratorq",
+    "titlePre": "",
+    "titleHighlight": "ENGINE",
+    "titlePost": " COMPATIBILITY",
+    "body": "Because the Ford Duratorq is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
+    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "points": [
+      {
+        "icon": "car",
+        "title": "MODEL",
+        "text": "Confirm your exact model and exact variant."
+      },
+      {
+        "icon": "calendar",
+        "title": "GENERATION",
+        "text": "Identify the correct generation (L663 (Puma), L550, L359, L538)."
+      },
+      {
+        "icon": "gears",
+        "title": "DRIVETRAIN",
+        "text": "Specify the variant (45, 45 S, 43)."
+      },
+      {
+        "icon": "clipboard",
+        "title": "CONFIRMED BY REGISTRATION",
+        "text": "We confirm by registration or VIN before quoting."
+      }
+    ]
+  }
+}

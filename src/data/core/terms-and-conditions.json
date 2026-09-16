@@ -1,0 +1,422 @@
+{
+  "title": "Terms & Conditions",
+  "metaTitle": "Terms & Conditions | Land Rover Garage",
+  "metaDescription": "Terms and conditions for engine rebuilds, replacements, and repairs. Warranty terms, customer obligations, payment terms, and legal disclaimers for Land Rover Garage.",
+  "updated": "Last updated: 28 May 2026 | Company No: 16500838",
+  "intro": "Land Rover Garage is a trading name of JLR Engine Specialists Ltd (Company No: 16500838), a company registered in England & Wales. We operate multiple specialist brands under the same parent company, all from our Billericay workshop.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "These Terms & Conditions (\"Terms\") govern all services provided by Land Rover Garage, registered in England & Wales with company number 16500838, trading as landrovergarage.co.uk (\"we\", \"us\", or \"our\"). By requesting a quote, authorising work, delivering your vehicle to our premises, or otherwise using our services, you (\"Customer\" or \"you\") agree to be bound by these Terms in their entirety. These Terms constitute the entire agreement between you and us and supersede all prior discussions, representations, or agreements, whether oral or written."
+    },
+    {
+      "type": "h2",
+      "text": "1. Definitions"
+    },
+    {
+      "type": "p",
+      "text": "In these Terms, unless the context otherwise requires, the following expressions have the following meanings:"
+    },
+    {
+      "type": "p",
+      "text": "**\"Company\"** means Land Rover Garage, trading as landrovergarage.co.uk, whose registered office is at Unit A5, Windsor Road, Commercial Estate, Ramsden Heath, Billericay, CM11 1QE."
+    },
+    {
+      "type": "p",
+      "text": "**\"Vehicle\"** means the motor vehicle delivered by the Customer to the Company for the purpose of carrying out the Work."
+    },
+    {
+      "type": "p",
+      "text": "**\"Work\"** means engine rebuilding, reconditioning, replacement, fitting, diagnostic inspection, or any associated mechanical services agreed upon between the Customer and the Company."
+    },
+    {
+      "type": "p",
+      "text": "**\"Goods\"** means engines, parts, components, fluids, or consumables supplied by the Company as part of the Work."
+    },
+    {
+      "type": "p",
+      "text": "**\"Quote\"** means the Company's written estimate for the full scope of Work, valid for seven (7) calendar days from the date of issue unless otherwise stated in writing."
+    },
+    {
+      "type": "p",
+      "text": "**\"Completion\"** means the date on which the Company notifies the Customer in writing (by email, SMS, or telephone) that the Work has been finished and the Vehicle is ready for collection or return delivery."
+    },
+    {
+      "type": "p",
+      "text": "**\"Business Hours\"** means Monday to Friday, 9:00am to 6:00pm, and Saturday, 11:00am to 2:00pm, excluding English bank holidays."
+    },
+    {
+      "type": "h2",
+      "text": "2. Our Service Offering"
+    },
+    {
+      "type": "p",
+      "text": "The Company specialises in complete engine rebuilds, reconditioning, and replacements for Land Rover vehicles. Our standard service offering includes:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Full disassembly, ultrasonic cleaning, crack testing, precision measurement, and reconditioning of the Customer's existing engine;",
+        "Supply of a fully reconditioned or replacement engine where the Customer's original unit is deemed beyond economical repair;",
+        "Professional fitting, ECU reset, adaptation coding, and post-installation road testing;",
+        "Nationwide collection and delivery across mainland United Kingdom (optional service, quoted separately and subject to availability)."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "All engine rebuild and replacement services include a 12-month unlimited mileage warranty, subject to the terms set out in Section 6 below. No upfront deposit is required for standard engine rebuild or replacement work unless bespoke parts must be sourced in advance, in which case a deposit may be requested and will be confirmed in writing before payment is taken."
+    },
+    {
+      "type": "h2",
+      "text": "3. Contract Formation"
+    },
+    {
+      "type": "p",
+      "text": "A legally binding contract for the provision of Work is formed when either of the following occurs, whichever happens first:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "The Customer provides express authorisation to proceed, whether verbally (by telephone or in person), by email, by WhatsApp message, or by submission of an online form; or",
+        "The Company commences physical Work on the Customer's Vehicle."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "**Important Notice:** These Terms apply in full to every contract formed between the Customer and the Company. No verbal assurances, informal statements, or communications made by any employee or agent of the Company shall override, amend, or contradict these written Terms. Any variation to these Terms must be agreed in writing and signed by a director of the Company."
+    },
+    {
+      "type": "h2",
+      "text": "4. Quotes & Estimates"
+    },
+    {
+      "type": "p",
+      "text": "All Quotes are valid for seven (7) calendar days from the date of issue. After this period, the Company reserves the right to revise pricing to reflect changes in parts costs, supplier availability, or labour rates."
+    },
+    {
+      "type": "p",
+      "text": "All Quotes are prepared on the express assumption that the Customer's existing engine block, cylinder head, crankshaft, and sump are in serviceable condition and suitable for standard reconditioning processes. Should strip-down inspection reveal damage, cracking, excessive wear, or other defects that render these components unserviceable, additional costs will apply. Such additional costs will be communicated to the Customer in writing with a revised Quote before any further Work proceeds."
+    },
+    {
+      "type": "p",
+      "text": "Turbochargers, fuel injectors, alternators, starters, air conditioning compressors, DPF units, EGR valves, and all other ancillary components are expressly excluded from all Quotes unless specifically itemised in the written Quote. The Company will advise the Customer if any ancillary component is found to be unserviceable during the course of Work and will provide a separate written quote for its replacement."
+    },
+    {
+      "type": "p",
+      "text": "The Company accepts no liability for inaccuracies in Quotes arising from incorrect vehicle identification details, engine codes, registration numbers, or specifications provided by the Customer. It is the Customer's responsibility to verify that all information supplied is accurate and complete."
+    },
+    {
+      "type": "p",
+      "text": "Quotes are estimates of cost based on the information available at the time of preparation. They do not constitute a fixed-price guarantee until the Vehicle has been physically inspected and stripped down, and a final written Quote has been issued and accepted by the Customer."
+    },
+    {
+      "type": "h2",
+      "text": "5. Pricing, Payment & Delivery"
+    },
+    {
+      "type": "h3",
+      "text": "5.1 What Is Included"
+    },
+    {
+      "type": "p",
+      "text": "Unless expressly stated otherwise in the written Quote, the quoted price for engine rebuild or replacement Work includes:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "The reconditioned engine or replacement unit;",
+        "All labour for removal, fitting, ECU reset, coding, and calibration;",
+        "All standard fluids and consumables (oil, coolant, gaskets, seals, filters);",
+        "Value Added Tax (VAT) at the prevailing rate."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "5.2 Collection & Delivery"
+    },
+    {
+      "type": "p",
+      "text": "Nationwide collection and delivery is available as an optional service at additional cost. Charges are quoted separately before booking and are not included in standard repair pricing unless explicitly confirmed in the written Quote. Free collection and return applies only to vehicle needs recovery within 3 miles radius where arranged directly with the Company."
+    },
+    {
+      "type": "h3",
+      "text": "5.3 Payment Terms"
+    },
+    {
+      "type": "p",
+      "text": "Full payment is due upon Completion and before the Customer takes possession of the Vehicle or before the Vehicle is released for return delivery. The Company accepts payment by bank transfer (BACS/FPS), debit card, credit card (Visa, Mastercard, American Express), or cash. Card payments are processed via encrypted terminal with no surcharges applied. Split payments across multiple methods are accepted by prior arrangement."
+    },
+    {
+      "type": "p",
+      "text": "**Payment Before Release:** The Company reserves the right to retain possession of the Vehicle until full and cleared payment has been received. No Vehicle will be released, and no return delivery will be dispatched, until the invoice has been settled in full. This constitutes a lawful lien over the Vehicle in respect of unpaid charges for Work carried out."
+    },
+    {
+      "type": "h2",
+      "text": "6. Warranty Terms"
+    },
+    {
+      "type": "h3",
+      "text": "6.1 Coverage"
+    },
+    {
+      "type": "p",
+      "text": "The Company provides a **12-month unlimited mileage warranty** on all engine rebuild and replacement Work. Coverage is strictly limited to the following components and associated labour:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Oil pump;",
+        "All gaskets (full set);",
+        "Main bearings and big end bearings;",
+        "Front and rear crankshaft seals;",
+        "Pistons and connecting rods (where replaced as part of the rebuild);",
+        "Piston rings;",
+        "Timing chain kit (complete assembly including chains, guides, tensioners, and sprockets);",
+        "Valve stem seals;",
+        "Labour for fitting, coding, and calibration directly related to the failure of a covered component."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "6.2 Exclusions — Ancillary Components"
+    },
+    {
+      "type": "p",
+      "text": "**The following components are NOT covered under the engine warranty, even if they were removed, disturbed, or reinstalled during the course of engine Work:**"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Turbocharger",
+        "Fuel injectors",
+        "Alternator",
+        "Air conditioning compressor/pump",
+        "Fuel pump (low pressure or high pressure)",
+        "Starter motor",
+        "Drive shafts and CV joints",
+        "Suspension components",
+        "Power steering pump",
+        "Diesel Particulate Filter (DPF)",
+        "Exhaust Gas Recirculation (EGR) valve",
+        "Any ancillary component not explicitly listed in Section 6.1 above"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "6.3 Void Conditions"
+    },
+    {
+      "type": "p",
+      "text": "**The warranty is immediately and automatically voided if any of the following occur:**"
+    },
+    {
+      "type": "p",
+      "text": "1. The Vehicle is sold, transferred, or ownership changes in any way (the warranty is non-transferable and applies solely to the original Customer who commissioned and paid for the Work);"
+    },
+    {
+      "type": "p",
+      "text": "2. The mandatory 2,000-mile post-rebuild service (± 200 miles tolerance) is not carried out by Land Rover Garage;"
+    },
+    {
+      "type": "p",
+      "text": "3. Any third-party mechanic, garage, or unauthorised person carries out any engine-related work, adjustment, diagnosis, or modification on the Vehicle during the warranty period;"
+    },
+    {
+      "type": "p",
+      "text": "4. ECU remapping, LPG conversion, performance tuning, or the fitment of non-standard or non-OEM specification parts;"
+    },
+    {
+      "type": "p",
+      "text": "5. Neglect, misuse, failure to maintain correct oil and coolant levels, or operation of the Vehicle with warning lights illuminated;"
+    },
+    {
+      "type": "p",
+      "text": "6. Use of the Vehicle for towing beyond manufacturer-rated capacity, racing, track days, competitive events, or commercial hire/taxi/private hire operations."
+    },
+    {
+      "type": "h3",
+      "text": "6.4 Full Warranty Terms Incorporated by Reference"
+    },
+    {
+      "type": "p",
+      "text": "The complete warranty terms, including the detailed claims procedure, customer responsibilities, and full exclusions, are published at https://landrovergarage.co.uk/warranty/. Those terms are incorporated by reference into these Terms and form an integral part of the contract between the Customer and the Company. In the event of any inconsistency between these Terms and the Warranty page, the Warranty page shall prevail in respect of warranty-specific matters."
+    },
+    {
+      "type": "h2",
+      "text": "7. Customer Obligations"
+    },
+    {
+      "type": "p",
+      "text": "To protect both parties and to ensure the validity of the warranty, the Customer agrees to the following obligations:"
+    },
+    {
+      "type": "h3",
+      "text": "7.1 Removal of Valuables"
+    },
+    {
+      "type": "p",
+      "text": "The Customer must remove all personal belongings from the Vehicle before handing it over to the Company or to any recovery/collection agent acting on the Company's behalf. This includes, but is not limited to: mobile phone chargers, cables, dashboard decorations, children's car seats and booster cushions, loose change, sunglasses, air fresheners, sat-nav units, and any item not permanently fixed to the Vehicle. **The Company accepts no responsibility or liability for any lost, stolen, or missing items left in the Vehicle.**"
+    },
+    {
+      "type": "h3",
+      "text": "7.2 Photographic Documentation"
+    },
+    {
+      "type": "p",
+      "text": "The Customer is strongly advised to take dated photographs of the Vehicle's bodywork, paintwork, wheels, tyres, bumpers, glass, and any existing dents, scratches, or damage before the Vehicle is collected by the Company's recovery agent or delivered to the Company's premises. **Without contemporaneous dated photographic evidence, the Company cannot and will not accept claims alleging new damage occurred while the Vehicle was in the Company's care.** Third-party recovery services may cause transit damage; photographic documentation protects both parties."
+    },
+    {
+      "type": "h3",
+      "text": "7.3 Mandatory Post-Rebuild Service"
+    },
+    {
+      "type": "p",
+      "text": "Following completion of an engine rebuild or replacement, the engine requires a mandatory running-in service at approximately 2,000 miles (± 200 miles tolerance). **This service MUST be carried out by Land Rover Garage.** The service is chargeable and is not included in the rebuild price. Failure to complete this service within the specified mileage window voids the warranty in its entirety. The Customer is responsible for proactively booking this service."
+    },
+    {
+      "type": "h3",
+      "text": "7.4 Prohibition on Third-Party Intervention"
+    },
+    {
+      "type": "p",
+      "text": "The Customer must not permit any third-party mechanic, garage, or unauthorised person to carry out any engine-related work, diagnostics, adjustments, or modifications on the Vehicle during the warranty period. **Any such intervention immediately and irrevocably voids the warranty.** The Company cannot guarantee the quality or correctness of work performed by others, and such intervention may cause damage not attributable to the Company's original Work."
+    },
+    {
+      "type": "h3",
+      "text": "7.5 Prohibition on Modifications"
+    },
+    {
+      "type": "p",
+      "text": "ECU remapping, LPG conversions, performance upgrades, supercharger/turbocharger modifications, or the fitment of non-standard or non-OEM specification parts **immediately and irrevocably void the warranty**. The engine was rebuilt to OEM specification and validated tolerances; altering calibration or components places stresses beyond those validated parameters."
+    },
+    {
+      "type": "h2",
+      "text": "8. Crankshaft & Engine Block Condition"
+    },
+    {
+      "type": "p",
+      "text": "All Quotes and standard warranty terms are predicated on the assumption that the Customer's existing crankshaft and engine block are in serviceable condition and suitable for standard reconditioning. If strip-down inspection reveals that the crankshaft requires replacement, regrinding beyond standard undersize tolerances, or that the engine block requires sleeving, line boring, replacement, or other significant repair beyond standard reconditioning, costs will increase significantly. The Company will always:"
+    },
+    {
+      "type": "p",
+      "text": "1. Cease Work immediately upon discovery;"
+    },
+    {
+      "type": "p",
+      "text": "2. Contact the Customer with a detailed written report and supporting photographs;"
+    },
+    {
+      "type": "p",
+      "text": "3. Provide a revised Quote for the additional Work required;"
+    },
+    {
+      "type": "p",
+      "text": "4. Obtain the Customer's express written approval before proceeding with any additional Work."
+    },
+    {
+      "type": "p",
+      "text": "The Customer may elect to proceed with the revised Quote or to abort the rebuild and pay only for the strip-down, inspection, and diagnostic Work completed to date. Replacement blocks or crankshafts carry their own warranty terms, which will be confirmed in writing at the time of quoting."
+    },
+    {
+      "type": "h2",
+      "text": "9. Timeline & Technical Work Disclaimer"
+    },
+    {
+      "type": "p",
+      "text": "Engine rebuilds and reconditioning are complex technical procedures involving multiple stages of machining, parts sourcing, assembly, and testing. Estimated completion dates provided by the Company are given in good faith based on current workload, typical turnaround times, and known parts availability at the time of quotation."
+    },
+    {
+      "type": "p",
+      "text": "Unexpected issues may arise during the course of Work, including but not limited to: cracked cylinder heads discovered during pressure testing, damaged crankshafts requiring replacement, hidden internal damage revealed during strip-down, parts backorders or supply chain delays, or machine shop capacity constraints. Such issues may extend the repair timeline beyond the original estimate."
+    },
+    {
+      "type": "p",
+      "text": "**Limitation:** The Company is not liable for any inconvenience, loss of earnings, alternative transport costs, accommodation expenses, or any other consequential loss arising from reasonable delays in completing the Work. The Company will keep the Customer informed throughout the process and will update the Customer promptly if the estimated completion date changes. Time estimates are not guarantees and do not form a term of the contract."
+    },
+    {
+      "type": "h2",
+      "text": "10. Consequential Damage Exclusion"
+    },
+    {
+      "type": "p",
+      "text": "**Limitation of Liability:** The warranty covers only the specific components listed in Section 6.1 and the labour directly related to their failure. The Company is not liable for any consequential, indirect, or secondary damage to non-covered components arising from or connected with a covered component failure."
+    },
+    {
+      "type": "p",
+      "text": "*Example:* If a covered main bearing fails, causing oil starvation that subsequently damages the turbocharger (an excluded ancillary component), the turbocharger repair or replacement is NOT covered under the warranty. The Company's total liability under the warranty is limited to the repair or replacement of covered components and the associated labour as defined in these Terms."
+    },
+    {
+      "type": "p",
+      "text": "Nothing in this clause excludes or limits liability for death or personal injury caused by the Company's negligence, or for fraud or fraudulent misrepresentation, or for any other liability that cannot be lawfully excluded or limited under applicable law."
+    },
+    {
+      "type": "h2",
+      "text": "11. Statutory Rights"
+    },
+    {
+      "type": "p",
+      "text": "Nothing in these Terms excludes, restricts, or modifies any statutory rights that the Customer may have under the Consumer Rights Act 2015, the Consumer Protection Act 1987, the Digital Markets, Competition and Consumers Act 2024, or any other applicable UK consumer protection legislation. In particular:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Services will be carried out with reasonable care and skill;",
+        "Services will be carried out within a reasonable time;",
+        "Where no price is fixed by the contract, the Customer will pay a reasonable price (being the market rate for equivalent specialist services in the relevant geographic area);",
+        "If services are not carried out with reasonable care and skill, the Customer has the right to require repeat performance at no additional cost, or a price reduction (partial or full refund) where repeat performance is impossible or not carried out within a reasonable time."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For full details of statutory consumer rights, visit gov.uk/consumer-protection or contact the Citizens Advice Consumer Service on 0808 223 1133."
+    },
+    {
+      "type": "h2",
+      "text": "12. Contact Information"
+    },
+    {
+      "type": "p",
+      "text": "Any notices, queries, or communications relating to these Terms or to Work carried out should be directed to:"
+    },
+    {
+      "type": "p",
+      "text": "**Land Rover Garage**"
+    },
+    {
+      "type": "p",
+      "text": "Unit A5, Windsor Road, Commercial Estate"
+    },
+    {
+      "type": "p",
+      "text": "Ramsden Heath, Billericay, Essex, CM11 1QE"
+    },
+    {
+      "type": "p",
+      "text": "Company Number: 16500838"
+    },
+    {
+      "type": "p",
+      "text": "**Email:** contact@landrovergarage.co.uk"
+    },
+    {
+      "type": "p",
+      "text": "**Telephone:** 0203 488 4649"
+    },
+    {
+      "type": "p",
+      "text": "**WhatsApp:** 07975 827 396"
+    },
+    {
+      "type": "p",
+      "text": "**Website:** https://landrovergarage.co.uk"
+    },
+    {
+      "type": "p",
+      "text": "GDPR and data protection enquiries should be directed to: gdpr@landrovergarage.co.uk"
+    },
+    {
+      "type": "p",
+      "text": "© 2026 Land Rover Garage. All rights reserved. These Terms are governed by the laws of England and Wales. The courts of England and Wales shall have exclusive jurisdiction."
+    }
+  ]
+}

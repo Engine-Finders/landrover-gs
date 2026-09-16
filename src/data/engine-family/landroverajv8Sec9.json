@@ -1,0 +1,58 @@
+{
+  "about": {
+    "image": "/engine/sec9_top.webp",
+    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "kicker": "ABOUT THE",
+    "titlePre": "LAND ROVER",
+    "titleHighlight": "AJ-V8",
+    "titlePost": " ENGINE",
+    "body": "The AJ-V8 is a V8, 4.0L / 4.2L / 4.4L, Petrol, Petrol Supercharged engine used across Land Rover's 1 model range, in production 1998–2015. We rebuild every AJ-V8 to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+  },
+  "byModel": {
+    "image": "/engine/sec9_middle.webp",
+    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "kicker": "LAND ROVER AJ-V8",
+    "titlePre": "",
+    "titleHighlight": "APPLICATIONS",
+    "titlePost": " BY MODEL",
+    "body": "The AJ-V8 is fitted across Range Rover Sport — see the full applications table above for exact variants, generations and years.",
+    "lineup": [
+      {
+        "label": "Range Rover Sport",
+        "code": "L320"
+      }
+    ]
+  },
+  "compatibility": {
+    "image": "/engine/sec9_bottom.webp",
+    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "kicker": "LAND ROVER AJ-V8",
+    "titlePre": "",
+    "titleHighlight": "ENGINE",
+    "titlePost": " COMPATIBILITY",
+    "body": "Because the AJ-V8 is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
+    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "points": [
+      {
+        "icon": "car",
+        "title": "MODEL",
+        "text": "Confirm your exact model and exact variant."
+      },
+      {
+        "icon": "calendar",
+        "title": "GENERATION",
+        "text": "Identify the correct generation (L320)."
+      },
+      {
+        "icon": "gears",
+        "title": "DRIVETRAIN",
+        "text": "Specify the variant (45, 45 S, 43)."
+      },
+      {
+        "icon": "clipboard",
+        "title": "CONFIRMED BY REGISTRATION",
+        "text": "We confirm by registration or VIN before quoting."
+      }
+    ]
+  }
+}

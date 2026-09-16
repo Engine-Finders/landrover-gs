@@ -1,0 +1,73 @@
+{
+  "kicker": "FREQUENTLY ASKED",
+  "kickerHighlight": "QUESTIONS",
+  "faqLeft": [
+    {
+      "q": "What engine does the Land Rover Discovery P400e use?",
+      "a": "It uses the Ingenium AJ300P, a 3.0-litre inline-six petrol engine, which is part of a plug-in hybrid (PHEV) system."
+    },
+    {
+      "q": "How much does a Land Rover Discovery P400e engine rebuild cost?",
+      "a": "Rebuilds start from £2,800. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    },
+    {
+      "q": "Which engine code is fitted to my Discovery P400e?",
+      "a": "Enter your registration on this page and we'll confirm the exact engine code before you're quoted anything."
+    },
+    {
+      "q": "Do you rebuild Ingenium AJ300P Discovery P400e engines?",
+      "a": "Yes. The Ingenium AJ300P is the engine fitted to the Discovery P400e, and we rebuild it as standard."
+    }
+  ],
+  "faqRight": [
+    {
+      "q": "Do you supply used Discovery P400e engines?",
+      "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
+    },
+    {
+      "q": "Can you recover my Discovery P400e if the engine has failed?",
+      "a": "Yes — nationwide recovery is available from £70, and most vehicles are collected within a few hours of booking."
+    },
+    {
+      "q": "How long does a Discovery P400e engine rebuild take?",
+      "a": "Most rebuilds are completed within 3-5 working days from the time your car arrives at our workshop."
+    },
+    {
+      "q": "Is rebuilding better than fitting a used engine?",
+      "a": "For most Discovery P400e owners, yes. A rebuild removes the compatibility risk that comes with an unknown used unit's history, and comes with a 12-month unlimited-mileage warranty — often longer and more comprehensive than what a used engine supplier offers."
+    }
+  ],
+  "form": {
+    "headlinePre": "GET YOUR",
+    "headlineHighlight": "FREE MERCEDES Discovery P400e",
+    "headlinePost": "FIXED-PRICE QUOTE",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "e.g. YG19 XJL"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. SS1 1AA"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "e.g. 07XXX XXXXXX"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Select an option"
+      }
+    },
+    "submitLabel": "Get My Fixed-Price Quote",
+    "guarantee": "Most quotes returned within 30 minutes during working hours."
+  }
+}

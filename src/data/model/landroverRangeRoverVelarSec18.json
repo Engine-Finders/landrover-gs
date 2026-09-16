@@ -1,0 +1,78 @@
+{
+  "kicker": "Frequently Asked",
+  "kickerHighlight": "Questions",
+  "faqLeft": [
+    {
+      "q": "Do you rebuild engines for all Range Rover Velar models?",
+      "a": "Yes — we rebuild and replace engines across the full Velar range, including the limited-run SVAutobiography Dynamic Edition."
+    },
+    {
+      "q": "Do I keep my original engine, or do you send me a different one?",
+      "a": "We rebuild the engine your Velar already has wherever possible, avoiding the compatibility risks that come with fitting a used engine of unknown history."
+    },
+    {
+      "q": "Do you supply used engines?",
+      "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise once we've matched your registration and understood your situation."
+    },
+    {
+      "q": "What warranty comes with a rebuild?",
+      "a": "Every rebuild comes with a 12 month unlimited-mileage warranty."
+    }
+  ],
+  "faqRight": [
+    {
+      "q": "How does recovery work?",
+      "a": "We collect your car nationwide from £70. Most vehicles are recovered within a few hours of booking."
+    },
+    {
+      "q": "How long does a rebuild take?",
+      "a": "Most rebuilds are completed within 3-5 working days from the time your car arrives at our workshop."
+    },
+    {
+      "q": "How much does a Range Rover Velar engine rebuild cost?",
+      "a": "4-cylinder rebuilds start from £2,200, 6-cylinder from £3,200, and the SVAutobiography Dynamic Edition's supercharged V8 from £5,500. Exact price depends on engine code and condition — submit your reg for a fixed-price quote."
+    },
+    {
+      "q": "My Velar has an \"SVAutobiography\" badge — is that the same as the 5.0 V8?",
+      "a": "Yes, if it's specifically the \"SVAutobiography Dynamic Edition,\" it's fitted with the same 5.0L supercharged V8 used in the Range Rover Sport SVR — a very limited, one-year-only (2019) run. Submit your reg and we'll confirm the exact spec before quoting."
+    }
+  ],
+  "form": {
+    "headlinePre": "Get Your",
+    "headlineHighlight": "Free Land Rover Range Rover Velar",
+    "headlinePost": "Fixed-Price Quote",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "e.g. AB12 CDE"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. CM11 1QE"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "e.g. 07XXX XXXXXX"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Select an option",
+        "options": [
+          "Engine Failure",
+          "Replacement Needed",
+          "General Enquiry"
+        ]
+      }
+    },
+    "submitLabel": "Get My Fixed-Price Quote",
+    "guarantee": "Most quotes returned within 30 minutes during working hours."
+  }
+}

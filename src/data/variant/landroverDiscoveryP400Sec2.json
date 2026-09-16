@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Discovery P400",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Discovery P400"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Discovery"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "P400"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol MHEV"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "AJ300P (Ingenium 3.0L I6)"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "3.0L I6"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generation",
+      "value": "D5/L462 (2017–present)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£2,800"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Discovery P400 uses the AJ300P (Ingenium 3.0L I6) 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

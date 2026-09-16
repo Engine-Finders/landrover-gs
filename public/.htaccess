@@ -1,0 +1,18 @@
+# Canonical host + HTTPS redirect + trailing-slash normalization.
+# NOTE: inert on Vercel/Node — Apache-only. Included per the same brief item
+# used on bmw-garage in case the site is ever served from Apache.
+
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Force non-www canonical host
+RewriteCond %{HTTP_HOST} ^www\.mercedesgarage\.uk$ [NC]
+RewriteRule ^(.*)$ https://mercedesgarage.uk/$1 [L,R=301]
+
+# Remove trailing slash (except root)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [L,R=301]

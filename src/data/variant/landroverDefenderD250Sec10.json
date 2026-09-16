@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Defender D250 ENGINE",
+    "paragraphs": [
+      "The Defender D250 is part of the modern L663 generation, introduced in 2020 as a replacement for the D240. It uses the Ingenium AJ300D — a 3.0-litre inline-six diesel with mild-hybrid technology, producing 247bhp and 420Nm of torque. It sits between the D200 (200bhp) and D300 (296bhp) in the diesel range, offering a blend of power and efficiency. The AJ300D is a six-cylinder engine, distinct from the four-cylinder AJ200D used in earlier L663 diesel models (D200 and D240). The mild-hybrid system adds a 48V electrical architecture, which includes the DC-DC converter that can be a failure point on these engines."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ300D engines for every Defender D250 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Defender D250 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ300D",
+        "codeRest": "",
+        "body": "A 3.0-litre inline-six diesel fitted to the Defender D250 from 2020 to present (L663 generation). Known for timing chain wear (shared with other Ingenium diesel engines), DC-DC converter failure on MHEV variants, and early production (2019-2020) electrical injector faults. We replace timing chains, injector seals, bearings, gaskets and the DC-DC converter as standard on every AJ300D rebuild. Check Your AJ300D Defender D250 → [link to quote form]",
+        "cta": "Check Your AJ300D Defender D250",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Defender D250 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The D250 is a specific tune of the Ingenium AJ300D diesel engine, fitted exclusively to the L663-generation Defender. It should not be confused with the D200 (4-cylinder AJ200D) or D300 (higher-output version of the same AJ300D engine). Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ300D",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ300D) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L663)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Defender D250 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L663",
+        "chassis": "L663",
+        "years": "2020–present",
+        "engineCode": "AJ300D",
+        "fuel": "Diesel MHEV"
+      }
+    ]
+  }
+}

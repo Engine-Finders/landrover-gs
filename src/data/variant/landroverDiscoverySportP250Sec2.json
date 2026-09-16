@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Discovery Sport P250",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Discovery Sport P250"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Discovery Sport"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "P250"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "AJ200P"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "2.0L I4"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generation",
+      "value": "L550 (2019–present)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£2,000"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Discovery Sport P250 uses the AJ200P 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

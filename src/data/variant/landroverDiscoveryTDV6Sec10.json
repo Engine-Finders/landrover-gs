@@ -1,0 +1,85 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery TDV6 ENGINE",
+    "paragraphs": [
+      "The Discovery TDV6 was introduced with the D3 generation in 2004, replacing the Td5 diesel that powered the earlier Discovery 2. It's a 3.0-litre V6 diesel — shared across a range of Land Rover and Jaguar models of that era — and was carried through to the D4 facelift, where it was sold alongside the higher-output SDV6 variant. The TDV6 remained in production until the Discovery 4 was replaced by the D5/L462 generation in 2017. The engine is known for its smooth power delivery, but the TDV6 family has a well-documented pattern of timing chain and bearing wear over time — which is exactly what our rebuild service addresses."
+    ],
+    "boldParagraph": "We continue to rebuild and replace TDV6 engines for every Discovery TDV6 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery TDV6 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "TDV6",
+        "codeRest": "",
+        "body": "A 3.0-litre V6 diesel fitted to the Discovery from 2004 to 2016 across two generations. Known for timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk over time — see the callout above. We replace timing chain components, injector seals, and gaskets as standard on every TDV6 rebuild. Check Your TDV6 Discovery → [link to quote form]",
+        "cta": "Check Your TDV6 Discovery TDV6",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery TDV6 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the TDV6 was fitted across both the D3 and D4 generations, with changes to engine management and ancillaries over the run, fitting the wrong replacement — or assuming a part from a later D4 will work on an earlier D3 — risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "TDV6",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact generation (D3/L319 or D4/L319 facelift)"
+      },
+      {
+        "icon": "car",
+        "text": "Your engine code (TDV6)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery TDV6 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "D3",
+        "chassis": "L319",
+        "years": "2004–2009",
+        "engineCode": "TDV6",
+        "fuel": "Diesel"
+      },
+      {
+        "generation": "D4",
+        "chassis": "L319 facelift",
+        "years": "2009–2016",
+        "engineCode": "TDV6",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

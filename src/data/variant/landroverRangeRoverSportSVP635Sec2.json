@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Range Rover Sport SV / P635",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Range Rover Sport SV"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Range Rover Sport"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "Range Rover Sport SV / P635"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol Twin-Turbo"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "BMW S68"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "4.4L V8"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generation",
+      "value": "L461 (2023–present)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£6,500"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Range Rover Sport SV / P635 uses the BMW S68 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

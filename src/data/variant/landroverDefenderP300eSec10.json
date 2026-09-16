@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Defender P300e ENGINE",
+    "paragraphs": [
+      "The Defender P300e is the plug-in hybrid variant of the L663-generation Defender, combining the Ingenium AJ200P 2.0-litre four-cylinder petrol engine with an electric motor. It's been part of the Defender range since the L663 generation launched, offering a petrol hybrid powertrain alongside the diesel and mild-hybrid options. Unlike the diesel and MHEV variants, the P300e does not share the DC-DC converter failure pattern that affects some mild-hybrid Ingenium engines — the PHEV electrical system is separate hardware and has not been identified with the same issue. The petrol engine itself shares the same Ingenium four-cylinder family as the P300, with a broadly similar rebuild pattern."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ200P engines for every Defender P300e on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Defender P300e ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ200P",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder petrol unit fitted to the Defender P300e (and other L663 petrol variants). Part of the Ingenium engine family shared across JLR's modern range. No Defender-specific issue confirmed for this application. We replace timing chains, bearings and gaskets as standard on every AJ200P rebuild. Check Your AJ200P Defender P300e → [link to quote form] Note: PHEV-specific components (electric motor, battery, charging system) are not part of the engine rebuild scope. Our rebuild covers the petrol engine only — we can advise separately on PHEV ancillaries.",
+        "cta": "Check Your AJ200P Defender P300e",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Defender P300e ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Defender P300e uses a specific PHEV drivetrain configuration, fitting a replacement from a non-hybrid P300 is not straightforward — the electric motor integration, wiring harness and ECU calibration differ. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ200P",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ200P) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L663)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and PHEV ancillaries specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Defender P300e ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L663",
+        "chassis": "L663",
+        "years": "2019–present",
+        "engineCode": "AJ200P",
+        "fuel": "Petrol Plug-in Hybrid"
+      }
+    ]
+  }
+}

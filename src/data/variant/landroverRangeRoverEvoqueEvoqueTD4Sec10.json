@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Range Rover Evoque Evoque TD4 ENGINE",
+    "paragraphs": [
+      "The Evoque TD4 was fitted to the first-generation L538 Range Rover Evoque from 2011 to 2016. It uses the Ford Duratorq — a 2.0-litre turbocharged diesel that was shared across a range of Ford and Land Rover vehicles of that era. From 2016 onwards, the Evoque switched to the Ingenium diesel family (D150/D165/D180), a different engine platform entirely. The Ford Duratorq in the Evoque TD4 is known for injector seal leaks and EGR clogging as the mileage builds — a well-established pattern among Ford and Land Rover specialists. The Evoque TD4 was discontinued after the 2016 model year when the L551 generation introduced the Ingenium range, but we continue to rebuild and replace engines for every one still on the road."
+    ],
+    "boldParagraph": "We continue to rebuild and replace engine engines for every Range Rover Evoque Evoque TD4 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Range Rover Evoque Evoque TD4 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "—",
+        "codeRest": "",
+        "body": "A 2.0-litre diesel fitted to the Evoque TD4 from 2011 to 2016, across the L538 generation. Known for injector seal leaks and EGR clogging over time — see the callout above. We replace worn injector seals, clean or replace the EGR, and replace gaskets as standard on every Ford Duratorq rebuild. Check Your Ford Duratorq Evoque TD4 → [link to quote form]",
+        "cta": "Check Your engine Range Rover Evoque Evoque TD4",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Range Rover Evoque Evoque TD4 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Evoque TD4 uses a specific version of the Ford Duratorq engine with Land Rover-specific tuning and ancillaries. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "engine",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "- Your exact engine code (Ford Duratorq)"
+      },
+      {
+        "icon": "car",
+        "text": "- Your generation (L538, 2011–2016)"
+      },
+      {
+        "icon": "gears",
+        "text": "- Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "- Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Land Rover quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Range Rover Evoque Evoque TD4 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L538",
+        "chassis": "L538",
+        "years": "2011–2016",
+        "engineCode": "Ford Duratorq",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

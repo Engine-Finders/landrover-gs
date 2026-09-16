@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Performance Belongs On The Road",
+  "kicker": "Less time off the road. More time behind the wheel.",
+  "h2": "Get Back|On The Road",
+  "subhead1": "With Up To 40% Off",
+  "subhead2": "Compared To Dealership Prices",
+  "body": [
+    "The same engineering standards.",
+    "The same passion for performance."
+  ],
+  "bodyBold": "Just a smarter, more affordable way",
+  "bodyRest": "to keep your Land Rover where it belongs — on the road.",
+  "features": [
+    { "label": "Better Value", "icon": "value" },
+    { "label": "Faster Turnaround", "icon": "speed" },
+    { "label": "The Same Land Rover DNA", "icon": "road" }
+  ],
+  "cta": { "label": "Check My Land Rover", "href": "#find-my-landrover" },
+  "footer": "Because Every Drive Matters",
+  "bgImage": "/home/sec4.5.webp",
+  "mobileImage": "/home/sec4.5_mobile3.webp"
+}

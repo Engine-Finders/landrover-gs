@@ -1,0 +1,16 @@
+{
+  "h2": "What's Wrong With Your Land Rover?",
+  "description": "Select your symptom. We'll show you the fix.",
+  "symptoms": [
+    { "label": "Timing Chain Noise", "icon": "chain", "image": "/home/sec4_1.webp", "href": "/contact" },
+    { "label": "White Smoke", "icon": "smoke", "image": "/home/sec4_2.webp", "href": "/contact" },
+    { "label": "Blue Smoke", "icon": "smoke", "image": "/home/sec4_3.webp", "href": "/contact" },
+    { "label": "Engine Overheating", "icon": "gauge", "image": "/home/sec4_4.webp", "href": "/contact" },
+    { "label": "Oil Pressure Warning", "icon": "oil", "image": "/home/sec4_5.webp", "href": "/contact" },
+    { "label": "Engine Management Light", "icon": "engine-light", "image": "/home/sec4_6.webp", "href": "/contact" },
+    { "label": "Turbo Problems", "icon": "turbo", "image": "/home/sec4_7.webp", "href": "/contact" },
+    { "label": "Loss of Power", "icon": "power", "image": "/home/sec4_8.webp", "href": "/contact" },
+    { "label": "Excessive Oil Consumption", "icon": "oil-can", "image": "/home/sec4_1.webp", "href": "/contact" },
+    { "label": "Knocking Noise", "icon": "knock", "image": "/home/sec4_2.webp", "href": "/contact" }
+  ]
+}

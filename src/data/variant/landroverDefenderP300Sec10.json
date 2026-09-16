@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Defender P300 ENGINE",
+    "paragraphs": [
+      "The Defender P300 uses the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine. It was introduced with the current-generation L663 Defender in 2019 and has remained in production through to the present day. Unlike the mild-hybrid diesel variants in the Defender range, the P300 has no 48V MHEV system, which means it's genuinely excluded from the DC-DC converter failure pattern that affects some other L663 Defenders."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ200P engines for every Defender P300 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Defender P300 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ200P",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder petrol engine fitted to the Defender P300 from 2019 to present (L663). No specific known issue is confirmed for this engine in this application. We replace timing chains, bearings and gaskets as standard on every rebuild. Check Your AJ200P Defender P300 → [link to quote form]",
+        "cta": "Check Your AJ200P Defender P300",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Defender P300 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Defender P300 uses the Ingenium AJ200P across all L663 body styles — 90, 110 and 130. Because there's only one engine code for this variant, compatibility is straightforward. However, different model years may have minor specification differences, and we always confirm your exact vehicle details via registration before quoting or supplying any parts.",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ200P",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ200P) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (generation)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Defender P300 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L663",
+        "chassis": "90/110/130",
+        "years": "2019–present",
+        "engineCode": "AJ200P",
+        "fuel": "Petrol"
+      }
+    ]
+  }
+}

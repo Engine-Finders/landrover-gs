@@ -1,0 +1,61 @@
+{
+  "image": "/engine/sec3.webp",
+  "titlePre": "Land Rover TDV6/SDV6 Applications — ",
+  "titleHighlight": "Every Model & Variant",
+  "columns": [
+    {
+      "label": "Model"
+    },
+    {
+      "label": "Variant"
+    },
+    {
+      "label": "Generation"
+    },
+    {
+      "label": "Chassis"
+    },
+    {
+      "label": "Years"
+    },
+    {
+      "label": "Powertrain Sub-type"
+    }
+  ],
+  "rows": [
+    {
+      "model": "Discovery",
+      "variant": "TDV6, SDV6",
+      "generation": "L319 (D3/D4)",
+      "chassis": "L319",
+      "years": "2004–2016",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-discovery-engines"
+    },
+    {
+      "model": "Range Rover",
+      "variant": "TDV6, SDV6",
+      "generation": "L322, L405",
+      "chassis": "L322/L405",
+      "years": "2006–2019",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-range-rover-engines"
+    },
+    {
+      "model": "Range Rover Sport",
+      "variant": "TDV6, SDV6",
+      "generation": "L320, L494",
+      "chassis": "L320/L494",
+      "years": "2005–2019",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-range-rover-sport-engines"
+    }
+  ],
+  "prompt": {
+    "icon": "search",
+    "titlePre": "Not seeing your exact model?",
+    "subtext": "Send us your registration and we'll confirm.",
+    "buttonLabel": "Send Us Your Registration →",
+    "href": "#quote-form"
+  }
+}
