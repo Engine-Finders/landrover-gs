@@ -1,0 +1,94 @@
+{
+  "kicker": "Full Breakdown",
+  "headlinePre": "Land Rover Range Rover Sport",
+  "headlineHighlight": "Engine Rebuild Price Guide",
+  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide — request a free quote for an exact fixed price on your specific engine.",
+  "columns": [
+    "Engine Code",
+    "Fuel",
+    "Size",
+    "Chassis",
+    "Rebuild Price Range"
+  ],
+  "rows": [
+    {
+      "family": "TDV6",
+      "fuel": "Diesel I6",
+      "size": "3.0L",
+      "chassis": "L320",
+      "range": "L320 / L494"
+    },
+    {
+      "family": "SDV6",
+      "fuel": "Diesel I6 (higher output)",
+      "size": "3.0L",
+      "chassis": "L320",
+      "range": "L320 / L494"
+    },
+    {
+      "family": "Ingenium I6 Diesel",
+      "fuel": "Diesel I6",
+      "size": "3.0L",
+      "chassis": "L320",
+      "range": "L461"
+    },
+    {
+      "family": "TDV8",
+      "fuel": "Diesel V8",
+      "size": "4.4L",
+      "chassis": "L320",
+      "range": "L320 / L494"
+    },
+    {
+      "family": "SDV8",
+      "fuel": "Diesel V8 (higher output)",
+      "size": "4.4L",
+      "chassis": "L320",
+      "range": "L320 / L494"
+    },
+    {
+      "family": "Ingenium AJ300P",
+      "fuel": "Petrol I6",
+      "size": "3.0L",
+      "chassis": "L320",
+      "range": "L461"
+    },
+    {
+      "family": "AJ-V8 Supercharged (SVR)",
+      "fuel": "Petrol V8",
+      "size": "5.0L",
+      "chassis": "L320",
+      "range": "L494"
+    },
+    {
+      "family": "BMW-sourced V8 (P525)",
+      "fuel": "Petrol V8",
+      "size": "4.4L",
+      "chassis": "L320",
+      "range": "L461"
+    }
+  ],
+  "features": [
+    {
+      "icon": "gear",
+      "title": "OEM Components",
+      "body": "Updated components for maximum reliability"
+    },
+    {
+      "icon": "shield-check",
+      "title": "Key Parts Replaced",
+      "body": "Timing chains, injector seals, tensioners & gaskets"
+    },
+    {
+      "icon": "truck",
+      "title": "Recovery From £70",
+      "body": "Nationwide recovery quoted separately"
+    },
+    {
+      "icon": "note",
+      "title": "Prices Exclude VAT",
+      "body": "Unless stated otherwise"
+    }
+  ],
+  "disclaimer": "Every rebuild identifies and replaces worn or damaged timing chains, injector seals, tensioners and gaskets with updated OEM components. Recovery quoted separately from £70. Prices exclude VAT unless stated."
+}

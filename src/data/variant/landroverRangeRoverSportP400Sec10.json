@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Range Rover Sport P400 ENGINE",
+    "paragraphs": [
+      "The Range Rover Sport P400 is part of the current-generation L461 model, introduced in 2022 as the petrol mild-hybrid option in the lineup. It uses the AJ300P — a 3.0-litre inline-six petrol engine with mild-hybrid assistance, part of JLR's Ingenium family. The AJ300P is a more modern design than the older supercharged V8s found in earlier Sport models, with fewer widely-documented failure patterns reported across the specialist community."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ300P engines for every Range Rover Sport P400 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Range Rover Sport P400 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ300P",
+        "codeRest": "",
+        "body": "A 3.0-litre inline-six petrol fitted to the Range Rover Sport P400 from 2022 to present (L461 generation). This is JLR's Ingenium petrol engine with mild-hybrid technology. No widely-documented specific known issue is confirmed for this variant — we still recommend a full inspection before any long journey. We replace timing chains, bearings and gaskets as standard on every AJ300P rebuild. Check Your AJ300P Range Rover Sport P400 → [link to quote form]",
+        "cta": "Check Your AJ300P Range Rover Sport P400",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Range Rover Sport P400 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Range Rover Sport P400's AJ300P is a specific engine code within the Ingenium family, used exclusively on the current L461 generation. Because the AJ300P is a distinct unit from both the diesel Ingenium variants and the BMW-sourced V8s also fitted to the L461 Sport range, confirming your exact engine code matters for parts sourcing and rebuild specificity. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ300P",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ300P) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L461)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Range Rover Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Range Rover Sport P400 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L461",
+        "chassis": "L461",
+        "years": "2022–present",
+        "engineCode": "AJ300P",
+        "fuel": "Petrol MHEV"
+      }
+    ]
+  }
+}

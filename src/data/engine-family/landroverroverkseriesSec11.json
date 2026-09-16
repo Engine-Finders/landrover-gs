@@ -1,0 +1,148 @@
+{
+  "costBanner": {
+    "titlePre": "Land Rover Rover K-Series",
+    "titleHighlight": "ENGINE REBUILD",
+    "titlePost": " COST",
+    "image": "/engine/sec11_top.webp",
+    "imageMobile": "/engine/sec11_top_mobile.webp",
+    "paragraphs": [
+      "A Land Rover Rover K-Series engine rebuild starts from £3,600, regardless of which of the six models it's fitted to — the price tier is set by the engine, not the badge on the boot. A full replacement engine and fitting service is also available.",
+      "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
+    ],
+    "startingFromLabel": "Starting From",
+    "startingFromPrice": "£2,200"
+  },
+  "comparison": {
+    "titlePre": "MERCEDES-BENZ Rover K-Series",
+    "titleHighlight": "REBUILD VS REPLACEMENT VS USED",
+    "cards": [
+      {
+        "icon": "engine",
+        "title": "Rebuilding Your",
+        "titleHighlight": "Rover K-Series Engine",
+        "body": "Most engine suppliers sell you a used engine of unknown history and hope it matches. We rebuild the engine your Land Rover already has instead — strip it down, pressure-test it, and replace every worn or damaged component with updated OEM parts. You get a near-new engine with a 12-month unlimited-mileage warranty, without the compatibility risk of an unknown used unit. This is the option most Rover K-Series owners choose."
+      },
+      {
+        "icon": "refresh",
+        "title": "Replacement",
+        "titleHighlight": "Rover K-Series Engines",
+        "body": "If your existing engine is beyond economical repair, we also offer full engine replacement and fitting — sourced and fitted by our team, with the same 12-month unlimited-mileage warranty."
+      },
+      {
+        "icon": "cog",
+        "title": "Used",
+        "titleHighlight": "Rover K-Series Engines",
+        "body": "In some cases, a matched low-mileage used engine is the right call — particularly if you need your car back on the road quickly and your existing engine's damage is extensive. We can source and fit these too, though most owners who ask about used engines end up choosing a rebuild once they understand the compatibility risk a used unit carries."
+      }
+    ],
+    "cta": {
+      "label": "Ask About Your Options →",
+      "href": "#quote-form"
+    }
+  },
+  "options": [
+    {
+      "icon": "refresh",
+      "titlePre": "MERCEDES-BENZ Rover K-Series",
+      "titleHighlight": "RECONDITIONED",
+      "titlePost": " ENGINES",
+      "body": "\"Reconditioned\" is the term many owners search for when they mean the same thing as a rebuild — a full strip-down, inspection, and replacement of worn parts rather than a straight swap. If that's what you're after, our rebuild service is exactly that."
+    },
+    {
+      "icon": "shield-check",
+      "titlePre": "MERCEDES-BENZ Rover K-Series",
+      "titleHighlight": "REFURBISHED",
+      "titlePost": " ENGINES",
+      "body": "\"Refurbished\" often describes the same process from a different angle — restoring your existing engine to full working condition rather than replacing it outright. Our rebuild covers this."
+    },
+    {
+      "icon": "cog",
+      "titlePre": "MERCEDES-BENZ Rover K-Series",
+      "titleHighlight": "REMANUFACTURED",
+      "titlePost": " ENGINES",
+      "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers, regardless of which of the six Rover K-Series-equipped models you drive."
+    }
+  ],
+  "faq": {
+    "kicker": "FREQUENTLY ASKED",
+    "kickerHighlight": "QUESTIONS",
+    "faqLeft": [
+      {
+        "q": "What is the Land Rover K-Series engine?",
+        "a": "The K-Series is Rover's 1.8-litre inline-four petrol engine, used by Land Rover exclusively in the Freelander 1 from 1997 to 2006."
+      },
+      {
+        "q": "Which Land Rover models use the K-Series?",
+        "a": "The K-Series was used exclusively in the Freelander 1 (L314, 1997–2006) as the 1.8 petrol option."
+      },
+      {
+        "q": "Does the K-Series differ between applications?",
+        "a": "Yes. K-Series variants differ by capacity and specification, though the Freelander application is the only Land Rover use of this engine."
+      },
+      {
+        "q": "How much does a Land Rover K-Series engine rebuild cost?",
+        "a": "Rebuilds start from £2,200. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      },
+      {
+        "q": "Do you rebuild K-Series engines?",
+        "a": "Yes. We work on K-Series rebuilds across the Freelander 1 range, replacing worn components as standard."
+      }
+    ],
+    "faqRight": [
+      {
+        "q": "What causes K-Series head gasket failure?",
+        "a": "The K-Series is notoriously prone to head gasket failure due to its inherent design fault. Head gasket failure is driven by cooling system faults and overheating — small coolant leaks can lead to overheating and head gasket failure."
+      },
+      {
+        "q": "Can you recover my Freelander if the engine has failed?",
+        "a": "Yes — nationwide recovery is available from £70, and most vehicles are collected within a few hours of booking."
+      },
+      {
+        "q": "How long does a K-Series engine rebuild take?",
+        "a": "Most rebuilds are completed within 3-5 working days from the time your car arrives at our workshop."
+      },
+      {
+        "q": "Is rebuilding better than fitting a used engine?",
+        "a": "For most K-Series owners, yes. A rebuild removes the compatibility risk that comes with an unknown used unit's history and comes with a 12-month unlimited-mileage warranty."
+      },
+      {
+        "q": "Do you supply used Land Rover K-Series engines?",
+        "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
+      }
+    ]
+  },
+  "quote": {
+    "icon": "note",
+    "headlinePre": "GET YOUR FREE",
+    "headlineHighlight": "MERCEDES-BENZ Rover K-Series",
+    "headlinePost": "FIXED-PRICE QUOTE",
+    "subtext": "Most quotes returned within 30 minutes during working hours.",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "AB12 CDE"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. CM11 1QE"
+      },
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Your name"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "07123 456789"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Engine Failure / Replacement Needed / General Enquiry"
+      }
+    },
+    "submitLabel": "Submit Enquiry"
+  }
+}

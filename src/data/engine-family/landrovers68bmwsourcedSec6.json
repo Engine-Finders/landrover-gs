@@ -1,0 +1,112 @@
+{
+  "reviews": {
+    "number": "08",
+    "titlePre": "WHAT MERCEDES-BENZ ",
+    "titleHighlight": "OWNERS SAY",
+    "items": [
+      {
+        "name": "Daniel R.",
+        "platform": "google",
+        "text": "Brilliant service from start to finish. My S68 (BMW-sourced) runs better than it ever has. Honest advice, clear pricing and the team know their stuff.",
+        "tag": "Defender Octa – S68 (BMW-sourced) Rebuild"
+      },
+      {
+        "name": "Mark T.",
+        "platform": "trustpilot",
+        "text": "They rebuilt my S68 (BMW-sourced) engine with all the updated parts. No more rattling chains. Smooth process and great communication.",
+        "tag": "Range Rover SV – S68 (BMW-sourced) Rebuild"
+      },
+      {
+        "name": "Ryan P.",
+        "platform": "google",
+        "text": "Top lads, top job. Picked up and dropped off, engine rebuilt to an extremely high standard. 100% recommend.",
+        "tag": "Range Rover Sport SV – S68 (BMW-sourced) Rebuild"
+      },
+      {
+        "name": "Steve B.",
+        "platform": "trustpilot",
+        "text": "Saved me thousands compared to a main dealer quote. Fantastic workmanship and my S68 (BMW-sourced) is running perfectly.",
+        "tag": "Defender Octa – S68 (BMW-sourced) Rebuild"
+      },
+      {
+        "name": "Tom H.",
+        "platform": "google",
+        "text": "From quote to collection couldn't fault them. Engine looks brand new inside. Warranty gives great peace of mind.",
+        "tag": "Range Rover SV – S68 (BMW-sourced) Rebuild"
+      }
+    ],
+    "googleCta": "See All Reviews On Google",
+    "trustpilotCta": "See All Reviews On Trustpilot"
+  },
+  "coverage": {
+    "icon": "car",
+    "titlePre": "WE COVER YOUR",
+    "titleHighlight": "EXACT VEHICLE",
+    "body": "Enter your registration below and we'll confirm whether your Land Rover has the S68 (BMW-sourced) before you're quoted anything.",
+    "image": "/variant/sec7_middle_div.webp",
+    "buttonLabel": "Check Fit",
+    "ticks": [
+      "Fast",
+      "Accurate",
+      "No Guesswork"
+    ]
+  },
+  "whyChoose": {
+    "number": "11",
+    "titlePre": "WHY CHOOSE US FOR ",
+    "titleHighlight": "LAND ROVER S68 (BMW-sourced) REBUILDS",
+    "items": [
+      {
+        "icon": "note",
+        "title": "Engine matched using VIN or registration number",
+        "subtext": "Confirms S68 (BMW-sourced) before you're quoted"
+      },
+      {
+        "icon": "refresh",
+        "title": "We don't swap your engine for an unknown used unit",
+        "subtext": "Every engine is rebuilt properly"
+      },
+      {
+        "icon": "gears",
+        "title": "All engine ancillaries serviced as part of the rebuild",
+        "subtext": "Everything inspected and renewed"
+      },
+      {
+        "icon": "shield",
+        "title": "Genuine specialist workshop — not a broker",
+        "subtext": "We rebuild engines in-house"
+      },
+      {
+        "icon": "truck",
+        "title": "Nationwide recovery, workshop rebuild",
+        "subtext": "From collection to road-ready"
+      },
+      {
+        "icon": "cars-group",
+        "title": "Trade & public enquiries welcome",
+        "subtext": "We work with everyone"
+      },
+      {
+        "icon": "tool",
+        "title": "Specialist technicians with 10-15 years of experience",
+        "subtext": "Skilled, trained and experienced"
+      },
+      {
+        "icon": "shield-check",
+        "title": "12 month unlimited-mileage warranty",
+        "subtext": "For complete peace of mind"
+      },
+      {
+        "icon": "phone",
+        "title": "Dedicated advisor from quote to fit",
+        "subtext": "One point of contact, always"
+      }
+    ],
+    "notice": {
+      "icon": "shield-check",
+      "line1": "No widely-reported pattern is confirmed for the S68 (BMW-sourced) —",
+      "line2": "we still recommend a full inspection before any long journey.",
+      "image": "/model/sec15_part.webp"
+    }
+  }
+}

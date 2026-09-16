@@ -1,0 +1,36 @@
+{
+  "headlinePre": "Land Rover Range Rover Evoque D165",
+  "headlineHighlight": "Engine Rebuild Price",
+  "startingFromLabel": "Starting From",
+  "startingFromPrice": "£2,200",
+  "engineImage": "/variant/sec10_engine.webp",
+  "carImage": "/variant/landrover_car.webp",
+  "cards": [
+    {
+      "code": "Ingenium AJ200D / AJ150D",
+      "generation": "",
+      "price": "£2,200"
+    }
+  ],
+  "notes": [
+    {
+      "icon": "price",
+      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    }
+  ],
+  "cta": {
+    "icon": "car",
+    "label": "Get Your Fixed-Price Quote",
+    "href": "#quote-form"
+  },
+  "warning": {
+    "bgImage": "/variant/sec3.webp",
+    "titlePre": "Land Rover Range Rover Evoque D165 Oil Leaks & Coolant System Wear ",
+    "titleHighlight": "(Ingenium AJ200D / AJ150D I6)",
+    "paragraphs": [
+      "The Ingenium AJ200D / AJ150D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Ingenium AJ200D / AJ150D V6. We replace timing chains, bearings, water pump and gaskets as standard on every Ingenium AJ200D / AJ150D rebuild.",
+      "Because the Range Rover Evoque D165 uses a completely different engine family from the V8 M178 fitted to the Range Rover Evoque 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+    ],
+    "source": "Source: Established Ingenium AJ200D / AJ150D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+  }
+}

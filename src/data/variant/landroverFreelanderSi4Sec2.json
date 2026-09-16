@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Freelander Si4",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Freelander Si4"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Freelander"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "Si4"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "Ford EcoBoost"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "2.0L I4 Turbo"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "L359 (2006–2014)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£1,900"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Freelander Si4 uses the Ford EcoBoost 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

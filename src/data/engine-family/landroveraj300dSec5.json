@@ -1,0 +1,58 @@
+{
+  "titlePre": "OUR ",
+  "titleHighlight": "WORKSHOP",
+  "items": [
+    {
+      "number": "01",
+      "label": "RECOVERY COLLECTION",
+      "image": "/engine/sec5.webp"
+    },
+    {
+      "number": "02",
+      "label": "STRIPPED ENGINE BLOCK",
+      "image": "/engine/sec5.webp"
+    },
+    {
+      "number": "03",
+      "label": "TIMING CHAIN REPLACEMENT",
+      "image": "/engine/sec5.webp"
+    },
+    {
+      "number": "04",
+      "label": "TECHNICIANS AT WORK",
+      "image": "/engine/sec5.webp"
+    },
+    {
+      "number": "05",
+      "label": "ENGINE TESTING (RIG)",
+      "image": "/engine/sec5.webp"
+    },
+    {
+      "number": "06",
+      "label": "COMPLETED & READY FOR REFIT",
+      "image": "/engine/sec5.webp"
+    },
+    {
+      "number": "07",
+      "label": "CLEAN WORKSHOP BAYS",
+      "image": "/engine/sec5.webp"
+    },
+    {
+      "number": "08",
+      "label": "PARTS & COMPONENTS",
+      "image": "/engine/sec5.webp"
+    },
+    {
+      "number": "09",
+      "label": "BEFORE / AFTER COMPARISON",
+      "image": "/engine/sec5.webp"
+    },
+    {
+      "number": "10",
+      "label": "OUR SPECIALIST TEAM",
+      "image": "/engine/sec5.webp"
+    }
+  ],
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop — not stock imagery."
+}

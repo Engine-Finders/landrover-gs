@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Sport D200 ENGINE",
+    "paragraphs": [
+      "The Discovery Sport D200 was introduced in 2020 as part of a diesel range simplification, replacing the earlier D240 badge. It uses the Ingenium AJ200D — a 2.0-litre four-cylinder diesel that's shared across the broader Land Rover and Jaguar range of that era. The D200 sits alongside the D165 (which replaced the D150/D180) as the current diesel lineup for the Discovery Sport L550 generation. The Ingenium diesel family is well-known for timing chain tensioner wear and oil dilution from DPF regeneration — a pattern we address as standard on every D200 rebuild."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Ingenium AJ200D engines for every Discovery Sport D200 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Sport D200 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Ingenium AJ200D",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D200 from 2020 to the present, within the L550 generation. Known for timing chain tensioner wear, oil dilution from DPF regeneration and EGR cooler leaks — see the callout above. We replace timing chains, injector seals, EGR components and gaskets as standard on every AJ200D rebuild. Check Your Ingenium AJ200D Discovery Sport D200 → [link to quote form]",
+        "cta": "Check Your Ingenium AJ200D Discovery Sport D200",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Sport D200 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The D200 uses the Ingenium AJ200D diesel engine. This is the same engine family found across the D165, as well as the earlier D150/D180/D240 badges, though with different output tuning. When replacing or rebuilding a D200 engine, confirming the exact engine code and specification matters — we always start with your registration to ensure any parts or replacement unit match your exact build.",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "Ingenium AJ200D",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (Ingenium AJ200D) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (generation)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Sport D200 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L550",
+        "chassis": "L550",
+        "years": "2020–present",
+        "engineCode": "Ingenium AJ200D",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

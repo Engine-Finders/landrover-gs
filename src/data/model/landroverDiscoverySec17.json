@@ -1,0 +1,68 @@
+{
+  "kicker": "Full Variant Coverage",
+  "headline": "We Cover Every Land Rover Discovery Variant",
+  "tabs": [
+    "Land Rover Discovery"
+  ],
+  "activeTab": 0,
+  "tabVariants": [
+    [
+      {
+        "label": "Discovery Tdi"
+      },
+      {
+        "label": "Discovery Td5"
+      },
+      {
+        "label": "Discovery V8 (3.9/4.0)"
+      },
+      {
+        "label": "Discovery TDV6"
+      },
+      {
+        "label": "Discovery TDV8"
+      },
+      {
+        "label": "Discovery SDV6"
+      },
+      {
+        "label": "Discovery SDV8"
+      },
+      {
+        "label": "Discovery HSE"
+      },
+      {
+        "label": "Discovery Si6"
+      },
+      {
+        "label": "Discovery D250"
+      },
+      {
+        "label": "Discovery D300"
+      },
+      {
+        "label": "Discovery D350"
+      },
+      {
+        "label": "Discovery P360"
+      },
+      {
+        "label": "Discovery P400"
+      },
+      {
+        "label": "Discovery P400e"
+      }
+    ]
+  ],
+  "notice": {
+    "title": "Not seeing your exact variant?",
+    "linkText": "Send us your registration",
+    "rest": " and we'll confirm engine rebuild availability directly."
+  },
+  "priceCta": {
+    "title": "Full Price Breakdown",
+    "body": "See detailed pricing near the top of this page, directly below the Starting From summary.",
+    "image": "/model/sec15_part.webp",
+    "href": "#pricing"
+  }
+}

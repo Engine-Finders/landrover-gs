@@ -1,0 +1,146 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Discovery V8 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Discovery V8 has used the same engine throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "1989",
+      "generation": "D1/L318",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1990",
+      "generation": "D1/L318",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1991",
+      "generation": "D1/L318",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1992",
+      "generation": "D1/L318",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1993",
+      "generation": "D1/L318",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1994",
+      "generation": "D1/L318",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1995",
+      "generation": "D1/L318",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1996",
+      "generation": "D1/L318",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1997",
+      "generation": "D1/L318",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1998",
+      "generation": "D1/L318 / D2/L318 facelift",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1999",
+      "generation": "D2/L318 facelift",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2000",
+      "generation": "D2/L318 facelift",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2001",
+      "generation": "D2/L318 facelift",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2002",
+      "generation": "D2/L318 facelift",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2003",
+      "generation": "D2/L318 facelift",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2004",
+      "generation": "D2/L318 facelift",
+      "engineCode": "AJ41",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The engine",
+    "rest": " has been fitted to every Discovery V8 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

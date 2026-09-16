@@ -1,0 +1,87 @@
+{
+  "h2": "Land Rover Engine Problems|We See|Every Week",
+  "description": "These are the engines we rebuild most often. If yours is here, we know exactly what to do.",
+  "engines": [
+    {
+      "code": "TDV6 / SDV6",
+      "spec": "3.0L Diesel V6",
+      "models": "Discovery, Range Rover, Range Rover Sport",
+      "years": "2004–present",
+      "symptom": "Timing chain wear, oil leaks, turbo faults",
+      "cost": "From £2,400",
+      "turnaround": "3-5 working days",
+      "image": "/home/engine_trim.webp",
+      "href": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "Ingenium Diesel",
+      "spec": "2.0L / 3.0L Diesel",
+      "models": "Defender, Discovery, Discovery Sport, Range Rover, Range Rover Sport, Velar, Evoque",
+      "years": "2015–present",
+      "symptom": "Timing chain wear, DC-DC converter faults",
+      "cost": "From £1,900–£2,200",
+      "turnaround": "3-5 working days",
+      "image": "/home/engine_trim.webp",
+      "href": "/landrover-aj200d-engine"
+    },
+    {
+      "code": "Td5",
+      "spec": "2.5L Diesel",
+      "models": "Defender, Discovery 2",
+      "years": "1998–2007",
+      "symptom": "Crank sensor faults, injector harness wear",
+      "cost": "From £1,900",
+      "turnaround": "3-5 working days",
+      "image": "/home/engine_trim.webp",
+      "href": "/landrover-td5-engine"
+    },
+    {
+      "code": "200Tdi / 300Tdi",
+      "spec": "Classic Diesel",
+      "models": "Classic Defender",
+      "years": "1990–2006",
+      "symptom": "Head gasket wear, injector pump issues",
+      "cost": "From £1,900",
+      "turnaround": "3-5 working days",
+      "image": "/home/engine_trim.webp",
+      "href": "/landrover-300tdi-engine"
+    },
+    {
+      "code": "Ford Duratorq",
+      "spec": "2.2L Diesel",
+      "models": "Discovery Sport, Freelander, Evoque",
+      "years": "2011–2019",
+      "symptom": "Timing belt wear, DPF and EGR faults",
+      "cost": "From £1,900–£2,200",
+      "turnaround": "3-5 working days",
+      "image": "/home/engine_trim.webp",
+      "href": "/landrover-ford-duratorq-engine"
+    },
+    {
+      "code": "TDV8 / SDV8",
+      "spec": "Diesel V8",
+      "models": "Range Rover, Range Rover Sport",
+      "years": "2005–present",
+      "symptom": "Timing chain wear, turbo and injector faults",
+      "cost": "From £4,500",
+      "turnaround": "3-5 working days",
+      "image": "/home/engine_trim.webp",
+      "href": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "code": "AJ-V8 Supercharged",
+      "spec": "5.0L Supercharged V8",
+      "models": "Range Rover, Range Rover Sport SVR",
+      "years": "2009–present",
+      "symptom": "Timing chain, tensioner and guide wear",
+      "cost": "From £5,500",
+      "turnaround": "3-5 working days",
+      "image": "/home/engine_trim.webp",
+      "href": "/landrover-aj-v8-engine"
+    }
+  ],
+  "cta": {
+    "label": "See All Rebuilds",
+    "href": "/engines"
+  }
+}

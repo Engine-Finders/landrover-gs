@@ -1,0 +1,73 @@
+{
+  "kicker": "FREQUENTLY ASKED",
+  "kickerHighlight": "QUESTIONS",
+  "faqLeft": [
+    {
+      "q": "What engine does the Land Rover Discovery SDV6 use?",
+      "a": "The Discovery SDV6 uses the 3.0-litre V6 diesel engine from the same family as the TDV6, but in a higher-output tune. It was fitted to the D3 (2004–2009) and D4 (2009–2016) generations."
+    },
+    {
+      "q": "How much does a Land Rover Discovery SDV6 engine rebuild cost?",
+      "a": "Rebuilds start from £2,400. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    },
+    {
+      "q": "Which engine code is fitted to my Discovery SDV6?",
+      "a": "Enter your registration on this page and we'll confirm your SDV6 engine code before you're quoted anything."
+    },
+    {
+      "q": "Do you rebuild Land Rover Discovery SDV6 engines?",
+      "a": "Yes. We replace timing chain components, injector seals and gaskets as standard on every SDV6 rebuild."
+    }
+  ],
+  "faqRight": [
+    {
+      "q": "Do you supply used Discovery SDV6 engines?",
+      "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
+    },
+    {
+      "q": "Can you recover my Discovery SDV6 if the engine has failed?",
+      "a": "Yes — nationwide recovery is available from £70, and most vehicles are collected within a few hours of booking."
+    },
+    {
+      "q": "How long does a Discovery SDV6 engine rebuild take?",
+      "a": "Most rebuilds are completed within 3-5 working days from the time your SUV arrives at our workshop."
+    },
+    {
+      "q": "Is rebuilding better than fitting a used engine?",
+      "a": "For most Discovery SDV6 owners, yes. A rebuild removes the compatibility risk that comes with an unknown used unit's history, and comes with a 12-month unlimited-mileage warranty — often longer and more comprehensive than what a used engine supplier offers."
+    }
+  ],
+  "form": {
+    "headlinePre": "GET YOUR",
+    "headlineHighlight": "FREE MERCEDES Discovery SDV6",
+    "headlinePost": "FIXED-PRICE QUOTE",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "e.g. YG19 XJL"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. SS1 1AA"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "e.g. 07XXX XXXXXX"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Select an option"
+      }
+    },
+    "submitLabel": "Get My Fixed-Price Quote",
+    "guarantee": "Most quotes returned within 30 minutes during working hours."
+  }
+}

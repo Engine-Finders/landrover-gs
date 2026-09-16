@@ -1,0 +1,73 @@
+{
+  "kicker": "FREQUENTLY ASKED",
+  "kickerHighlight": "QUESTIONS",
+  "faqLeft": [
+    {
+      "q": "What engine does the Land Rover Defender P400 use?",
+      "a": "The Defender P400 uses the AJ300P — a 3.0-litre inline-six petrol mild-hybrid (MHEV) engine from Jaguar Land Rover's Ingenium family, fitted to the L663 generation from 2019 onwards."
+    },
+    {
+      "q": "How much does a Land Rover Defender P400 engine rebuild cost?",
+      "a": "Rebuilds start from £2,800. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    },
+    {
+      "q": "Which engine code is fitted to my Defender P400?",
+      "a": "The Defender P400 uses the AJ300P engine code. Enter your registration on this page and we'll confirm your exact spec before you're quoted anything."
+    },
+    {
+      "q": "Do you rebuild AJ300P Defender P400 engines?",
+      "a": "Yes. We replace timing chains, bearings, gaskets and the DC-DC converter as standard on every P400 rebuild."
+    }
+  ],
+  "faqRight": [
+    {
+      "q": "Do you supply used Defender P400 engines?",
+      "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
+    },
+    {
+      "q": "Can you recover my Defender P400 if the engine has failed?",
+      "a": "Yes — nationwide recovery is available from £70, and most vehicles are collected within a few hours of booking."
+    },
+    {
+      "q": "How long does a Defender P400 engine rebuild take?",
+      "a": "Most rebuilds are completed within 3-5 working days from the time your vehicle arrives at our workshop."
+    },
+    {
+      "q": "Is rebuilding better than fitting a used engine?",
+      "a": "For most Defender owners, yes. A rebuild removes the compatibility risk that comes with an unknown used unit's history, and comes with a 12-month unlimited-mileage warranty — often longer and more comprehensive than what a used engine supplier offers."
+    }
+  ],
+  "form": {
+    "headlinePre": "GET YOUR",
+    "headlineHighlight": "FREE MERCEDES Defender P400",
+    "headlinePost": "FIXED-PRICE QUOTE",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "e.g. YG19 XJL"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. SS1 1AA"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "e.g. 07XXX XXXXXX"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Select an option"
+      }
+    },
+    "submitLabel": "Get My Fixed-Price Quote",
+    "guarantee": "Most quotes returned within 30 minutes during working hours."
+  }
+}

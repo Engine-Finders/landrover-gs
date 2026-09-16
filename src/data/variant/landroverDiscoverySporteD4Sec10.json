@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Sport eD4 ENGINE",
+    "paragraphs": [
+      "The Discovery Sport eD4 uses the Ford Duratorq — a ~2.0-litre 4-cylinder diesel fitted from 2014 to 2019 across the L550 generation. The eD4 was the 2WD diesel variant in the early Discovery Sport range, positioned alongside the 4WD TD4 and the petrol Si4. The eD4 badge was discontinued before the 2019 facelift, when the range switched to Ingenium-based petrol and diesel engines (P200, P250, P290, D150, D180, D240). While the eD4 is no longer in production, we continue to rebuild and replace engines for every one still on the road."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Ford Duratorq engines for every Discovery Sport eD4 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Sport eD4 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Ford Duratorq",
+        "codeRest": "",
+        "body": "A ~2.0-litre 4-cylinder diesel fitted to the Discovery Sport eD4 from 2014 to 2019 (L550). Known for injector seal leaks and EGR clogging over time — see the callout above. We replace injector seals, the EGR valve, and the timing belt as standard on every Ford Duratorq rebuild. Check Your Ford Duratorq Discovery Sport eD4 → [link to quote form]",
+        "cta": "Check Your Ford Duratorq Discovery Sport eD4",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Sport eD4 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Discovery Sport eD4 uses the Ford Duratorq 2.0-litre diesel across the entire L550 generation from 2014 until its discontinuation in 2019. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "Ford Duratorq",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L550, pre-2019)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain specification (2WD)"
+      },
+      {
+        "icon": "code",
+        "text": "Any ancillaries or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Sport eD4 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L550",
+        "chassis": "L550",
+        "years": "2014–2019",
+        "engineCode": "Ford Duratorq",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

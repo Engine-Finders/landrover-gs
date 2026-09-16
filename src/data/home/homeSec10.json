@@ -1,0 +1,19 @@
+{
+  "h2": "Why Land Rover Owners Travel Across The UK To Us",
+  "description": "We don't cut corners. We rebuild Land Rover engines the right way.",
+  "bgImage1": "/home/sec10.webp",
+  "mobileImage": "/home/sec10_mobile.webp",
+  "reasons": [
+    { "label": "We rebuild. We don't guess.", "icon": "gear" },
+    { "label": "Real workshop (Billericay, Essex)", "icon": "pin" },
+    { "label": "Updated OEM components only", "icon": "gears" },
+    { "label": "Fixed-price quotations", "icon": "price" },
+    { "label": "12-month unlimited mileage warranty", "icon": "shield-check" },
+    { "label": "Land Rover-trained specialists", "icon": "tech" }
+  ],
+  "ctaHeading": "Ready to Get Started?",
+  "ctaBody": "Enter your registration and we'll identify your engine, price the rebuild and arrange recovery.",
+  "ctaButton": "Find My Land Rover",
+  "apiNote": "Live DVLA / VIN API integration",
+  "bgImage2": "/home/sec12.webp"
+}

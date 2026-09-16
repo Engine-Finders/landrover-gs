@@ -1,0 +1,118 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "MERCEDES Defender 300Tdi ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "From the generation's launch in 2023, the Defender 300Tdi has used the 300Tdi 3.0-litre inline-six mild hybrid throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2014",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2015",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2016",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2017",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2018",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2019",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2020",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2021",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2022",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2023",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2024",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2025",
+      "generation": "generation",
+      "engineCode": "[MISSING]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The 300Tdi",
+    "rest": " has been fitted to every Defender 300Tdi since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

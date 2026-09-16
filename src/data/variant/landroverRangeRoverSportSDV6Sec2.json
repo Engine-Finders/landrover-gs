@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Range Rover Sport SDV6",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Range Rover Sport SDV6"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Range Rover Sport"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "SDV6"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Diesel"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "SDV6"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "3.0L V6"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "L320 (2005–2013) · L494 (2013–2022)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£4,500"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Range Rover Sport SDV6 uses the SDV6 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

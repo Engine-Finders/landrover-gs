@@ -1,0 +1,64 @@
+{
+  "headlinePre": "Land Rover Range Rover SV P615",
+  "headlineHighlight": "ENGINE OPTIONS",
+  "description": "Every Range Rover SV P615 is different. That's why we offer the right solution for your engine, your car and your budget.",
+  "topImage": "/variant/sec4.webp",
+  "cards": [
+    {
+      "number": "01",
+      "icon": "piston",
+      "badge": "MOST POPULAR",
+      "title": "REBUILDING YOUR Range Rover SV P615 ENGINE",
+      "body": "We rebuild the engine your Range Rover SV P615 already has instead of selling you a used engine of unknown history — strip it down, pressure-test it, and replace every worn or damaged component (timing chains, bearings, water pump, gaskets) with updated OEM parts. Near-new performance with a 12-month unlimited-mileage warranty.",
+      "link": "From £3,200"
+    },
+    {
+      "number": "02",
+      "icon": "pin",
+      "title": "RECONDITIONED Range Rover SV P615 ENGINES",
+      "body": "A full strip-down, inspection and replacement of worn parts rather than a straight swap. If that's what you're after, our rebuild service is exactly that.",
+      "link": "Learn more"
+    },
+    {
+      "number": "03",
+      "icon": "gear",
+      "title": "REFURBISHED Range Rover SV P615 ENGINES",
+      "body": "Restoring your existing engine to full working condition rather than replacing it outright. Our rebuild service covers this.",
+      "link": "Learn more"
+    },
+    {
+      "number": "04",
+      "icon": "engine",
+      "title": "REMANUFACTURED Range Rover SV P615 ENGINES",
+      "body": "Built to original specification with updated components. That's consistent with what our rebuild service delivers on the engine.",
+      "link": "Learn more"
+    },
+    {
+      "number": "05",
+      "icon": "engine-light",
+      "title": "REPLACEMENT Range Rover SV P615 ENGINES",
+      "body": "If your existing engine is beyond economical repair, we offer complete engine replacement and fitting – sourced and fitted by our team, with the same 12-month warranty.",
+      "link": "Learn more"
+    },
+    {
+      "number": "06",
+      "icon": "search",
+      "title": "USED Range Rover SV P615 ENGINES",
+      "body": "Matched low-mileage used engines for when time is critical. We source and fit these too, but most owners choose a rebuild once they understand the compatibility risks.",
+      "link": "Learn more"
+    }
+  ],
+  "banner": {
+    "image": "/variant/sec3_engine.webp",
+    "title": "NOT SURE WHICH OPTION IS RIGHT FOR YOU?",
+    "body": "Enter your registration below and we'll confirm your engine and talk you through the best solution for your Range Rover SV P615, honestly.",
+    "cta": {
+      "label": "Ask About Your Options",
+      "href": "#quote-form"
+    }
+  },
+  "knownIssue": {
+    "title": "Range Rover SV P615 BMW S68 V8 Hot-Vee Pattern",
+    "body": ""
+  }
+}

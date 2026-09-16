@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Range Rover Sport SV / P635 ENGINE",
+    "paragraphs": [
+      "The Range Rover Sport SV / P635 is the flagship performance variant of the L461 generation Range Rover Sport, launched in 2023. It uses the BMW S68 — a 4.4-litre twin-turbo V8 that's part of BMW's hot-vee engine family, sharing its architecture with the S63 and the wider N63 lineage. This is the same engine used in the Range Rover SV and other high-performance BMW and Land Rover models, adapted for the MLA-Flex platform that underpins the latest Range Rover Sport. As with many hot-vee engines, the S68 can exhibit timing chain wear, valve seal wear, coolant system leaks, and bearing wear over time — which we address as standard during every rebuild."
+    ],
+    "boldParagraph": "We continue to rebuild and replace BMW S68 engines for every Range Rover Sport SV / P635 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Range Rover Sport SV / P635 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "BMW S68",
+        "codeRest": "(L461 (2023–present))",
+        "body": "A 4.4-litre twin-turbo V8 fitted to the Range Rover Sport SV / P635 from 2023 to present (L461). BMW's hot-vee performance engine, sharing architecture with the S63 and N63 families. Known for timing chain and valve seal wear, coolant system leaks, and bearing wear over time — see the callout above. We replace timing chains, valve seals, coolant components, and bearings as standard on every S68 rebuild. Check Your BMW S68 Range Rover Sport SV → [link to quote form]",
+        "cta": "Check Your BMW S68 Range Rover Sport SV / P635",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Range Rover Sport SV / P635 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Range Rover Sport SV's BMW S68 is a high-performance hot-vee twin-turbo V8 that requires precise component matching and careful attention to the hot-vee architecture's specific cooling and valvetrain demands. Fitting the wrong components or assuming an older BMW V8 part will work on the S68 risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "BMW S68",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (S68)"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L461)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Range Rover Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Range Rover Sport SV / P635 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L461",
+        "chassis": "L461",
+        "years": "2023–present",
+        "engineCode": "BMW S68",
+        "fuel": "Petrol Twin-Turbo"
+      }
+    ]
+  }
+}

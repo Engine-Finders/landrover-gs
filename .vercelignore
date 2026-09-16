@@ -1,0 +1,13 @@
+# Design/reference screenshot folders — used locally during development to compare
+# against the client's spec, never referenced by the app at runtime. These are large
+# (100MB+ combined) and were bloating every deploy upload.
+GS Mercedes_Hp
+GS_Mercedes_UI
+ModelPageUI
+
+# Spec/reference docs — not served by the app.
+*.md
+!README.md
+
+# Local dev artifacts
+scripts

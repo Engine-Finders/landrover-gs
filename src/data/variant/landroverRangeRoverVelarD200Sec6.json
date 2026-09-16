@@ -1,0 +1,56 @@
+{
+  "titlePre": "Land Rover Range Rover Velar D200 ENGINE REBUILD ",
+  "titleHighlight": "PROCESS",
+  "steps": [
+    {
+      "icon": "search",
+      "title": "Diagnosis",
+      "body": "We confirm your exact engine code and assess the damage."
+    },
+    {
+      "icon": "crane",
+      "title": "Removal",
+      "body": "Your engine is removed and brought into our workshop."
+    },
+    {
+      "icon": "wrench",
+      "title": "Strip-Down",
+      "body": "Every component is removed for individual inspection."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Inspection",
+      "body": "Crankshaft, cylinder head, timing chain, bearings, water pump and gaskets are all checked."
+    },
+    {
+      "icon": "piston",
+      "title": "Machine Work",
+      "body": "Any machining required is carried out to OEM tolerances."
+    },
+    {
+      "icon": "gear",
+      "title": "Component Replacement",
+      "body": "Worn or damaged parts are replaced with updated OEM components."
+    },
+    {
+      "icon": "engine",
+      "title": "Reassembly",
+      "body": "Your engine is rebuilt to original specification."
+    },
+    {
+      "icon": "knock",
+      "title": "Testing",
+      "body": "Every rebuild is pressure-tested before refit."
+    },
+    {
+      "icon": "car",
+      "title": "Refit",
+      "body": "Your engine goes back into your Range Rover Velar D200."
+    },
+    {
+      "icon": "flag",
+      "title": "Road Test",
+      "body": "A full road test confirms everything's right before we hand your car back."
+    }
+  ]
+}

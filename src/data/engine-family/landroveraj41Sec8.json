@@ -1,0 +1,118 @@
+{
+  "gallery": {
+    "titlePre": "OUR MOST RECENT",
+    "titleHighlight": "LAND ROVER RECOVERIES & REBUILDS",
+    "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection — this is what genuine engine work looks like.",
+    "items": [
+      {
+        "icon": "truck",
+        "model": "Discovery 4.0 V8",
+        "status": "RECOVERY",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "search",
+        "model": "Discovery 4.0 V8",
+        "status": "DIAGNOSTICS",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "gear",
+        "model": "Discovery 4.0 V8",
+        "status": "STRIPPED ENGINE",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "chain",
+        "model": "Discovery 4.0 V8",
+        "status": "TIMING CHAIN REPLACEMENT",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "wrench",
+        "model": "Discovery 4.0 V8",
+        "status": "IN FOR REBUILD",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "gear",
+        "model": "Discovery 4.0 V8",
+        "status": "REBUILD IN PROGRESS",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "truck",
+        "model": "Discovery 4.0 V8",
+        "status": "NATIONWIDE RECOVERY",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "gear",
+        "model": "Discovery 4.0 V8",
+        "status": "ENGINE STRIPPED",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "knock",
+        "model": "Discovery 4.0 V8",
+        "status": "TESTING & CHECKS",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "shield-check",
+        "model": "Discovery 4.0 V8",
+        "status": "READY FOR COLLECTION",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "gear",
+        "model": "Discovery 4.0 V8",
+        "status": "S63 REBUILD",
+        "image": "/engine/sec8.webp"
+      },
+      {
+        "icon": "wrench",
+        "model": "Discovery 4.0 V8",
+        "status": "WORKSHOP BAY",
+        "image": "/engine/sec8.webp"
+      }
+    ]
+  },
+  "howItWorks": {
+    "titlePre": "HOW IT ",
+    "titleHighlight": "WORKS",
+    "steps": [
+      {
+        "icon": "note",
+        "linePre": "SEND YOUR",
+        "lineHighlight": "REGISTRATION"
+      },
+      {
+        "icon": "price",
+        "linePre": "RECEIVE YOUR",
+        "lineHighlight": "FIXED-PRICE QUOTE"
+      },
+      {
+        "icon": "truck",
+        "linePre": "WE RECOVER",
+        "lineHighlight": "YOUR CAR"
+      },
+      {
+        "icon": "engine",
+        "linePre": "REBUILD &",
+        "lineHighlight": "REFIT"
+      }
+    ],
+    "summary": {
+      "timeframe": {
+        "icon": "clock",
+        "text": "Most cars are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
+      },
+      "urgency": {
+        "icon": "calendar",
+        "textPre": "Workshop slots fill up fast — ",
+        "textHighlight": "book your recovery today."
+      }
+    }
+  }
+}

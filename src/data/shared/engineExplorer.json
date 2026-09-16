@@ -1,0 +1,440 @@
+{
+  "entries": [
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "200Tdi",
+      "engineHref": "/landrover-200tdi-engine",
+      "fuel": "Diesel",
+      "generation": "Defender"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "300Tdi",
+      "engineHref": "/landrover-300tdi-engine",
+      "fuel": "Diesel",
+      "generation": "Defender"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "AJ133",
+      "engineHref": "/landrover-aj133-engine",
+      "fuel": "Supercharged V8",
+      "generation": "L663"
+    },
+    {
+      "model": "Range Rover Velar",
+      "modelHref": "/landrover-range-rover-velar-engines",
+      "engineCode": "AJ133",
+      "engineHref": "/landrover-aj133-engine",
+      "fuel": "Supercharged V8",
+      "generation": "L560"
+    },
+    {
+      "model": "Discovery Sport",
+      "modelHref": "/landrover-discovery-sport-engines",
+      "engineCode": "AJ150D",
+      "engineHref": "/landrover-aj150d-engine",
+      "fuel": "Diesel",
+      "generation": "L550"
+    },
+    {
+      "model": "Range Rover Evoque",
+      "modelHref": "/landrover-range-rover-evoque-engines",
+      "engineCode": "AJ150D",
+      "engineHref": "/landrover-aj150d-engine",
+      "fuel": "Diesel",
+      "generation": "L551"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "AJ200D",
+      "engineHref": "/landrover-aj200d-engine",
+      "fuel": "Diesel",
+      "generation": "L663"
+    },
+    {
+      "model": "Discovery",
+      "modelHref": "/landrover-discovery-engines",
+      "engineCode": "AJ200D",
+      "engineHref": "/landrover-aj200d-engine",
+      "fuel": "Diesel",
+      "generation": "L462"
+    },
+    {
+      "model": "Discovery Sport",
+      "modelHref": "/landrover-discovery-sport-engines",
+      "engineCode": "AJ200D",
+      "engineHref": "/landrover-aj200d-engine",
+      "fuel": "Diesel",
+      "generation": "L550"
+    },
+    {
+      "model": "Range Rover Evoque",
+      "modelHref": "/landrover-range-rover-evoque-engines",
+      "engineCode": "AJ200D",
+      "engineHref": "/landrover-aj200d-engine",
+      "fuel": "Diesel",
+      "generation": "L551"
+    },
+    {
+      "model": "Range Rover Velar",
+      "modelHref": "/landrover-range-rover-velar-engines",
+      "engineCode": "AJ200D",
+      "engineHref": "/landrover-aj200d-engine",
+      "fuel": "Diesel",
+      "generation": "L560"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "AJ200P",
+      "engineHref": "/landrover-aj200p-engine",
+      "fuel": "Petrol",
+      "generation": "L663"
+    },
+    {
+      "model": "Discovery",
+      "modelHref": "/landrover-discovery-engines",
+      "engineCode": "AJ200P",
+      "engineHref": "/landrover-aj200p-engine",
+      "fuel": "Petrol",
+      "generation": "L462"
+    },
+    {
+      "model": "Discovery Sport",
+      "modelHref": "/landrover-discovery-sport-engines",
+      "engineCode": "AJ200P",
+      "engineHref": "/landrover-aj200p-engine",
+      "fuel": "Petrol",
+      "generation": "L550"
+    },
+    {
+      "model": "Range Rover Evoque",
+      "modelHref": "/landrover-range-rover-evoque-engines",
+      "engineCode": "AJ200P",
+      "engineHref": "/landrover-aj200p-engine",
+      "fuel": "Petrol",
+      "generation": "L551"
+    },
+    {
+      "model": "Range Rover Velar",
+      "modelHref": "/landrover-range-rover-velar-engines",
+      "engineCode": "AJ200P",
+      "engineHref": "/landrover-aj200p-engine",
+      "fuel": "Petrol",
+      "generation": "L560"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "AJ300D",
+      "engineHref": "/landrover-aj300d-engine",
+      "fuel": "Diesel MHEV",
+      "generation": "L663"
+    },
+    {
+      "model": "Discovery",
+      "modelHref": "/landrover-discovery-engines",
+      "engineCode": "AJ300D",
+      "engineHref": "/landrover-aj300d-engine",
+      "fuel": "Diesel MHEV",
+      "generation": "L462"
+    },
+    {
+      "model": "Range Rover",
+      "modelHref": "/landrover-range-rover-engines",
+      "engineCode": "AJ300D",
+      "engineHref": "/landrover-aj300d-engine",
+      "fuel": "Diesel MHEV",
+      "generation": "L460"
+    },
+    {
+      "model": "Range Rover Sport",
+      "modelHref": "/landrover-range-rover-sport-engines",
+      "engineCode": "AJ300D",
+      "engineHref": "/landrover-aj300d-engine",
+      "fuel": "Diesel MHEV",
+      "generation": "L461"
+    },
+    {
+      "model": "Range Rover Velar",
+      "modelHref": "/landrover-range-rover-velar-engines",
+      "engineCode": "AJ300D",
+      "engineHref": "/landrover-aj300d-engine",
+      "fuel": "Diesel MHEV",
+      "generation": "L560"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "AJ300P",
+      "engineHref": "/landrover-aj300p-engine",
+      "fuel": "Petrol MHEV",
+      "generation": "L663"
+    },
+    {
+      "model": "Discovery",
+      "modelHref": "/landrover-discovery-engines",
+      "engineCode": "AJ300P",
+      "engineHref": "/landrover-aj300p-engine",
+      "fuel": "Petrol MHEV",
+      "generation": "L462"
+    },
+    {
+      "model": "Range Rover",
+      "modelHref": "/landrover-range-rover-engines",
+      "engineCode": "AJ300P",
+      "engineHref": "/landrover-aj300p-engine",
+      "fuel": "Petrol MHEV/PHEV",
+      "generation": "L460"
+    },
+    {
+      "model": "Range Rover Sport",
+      "modelHref": "/landrover-range-rover-sport-engines",
+      "engineCode": "AJ300P",
+      "engineHref": "/landrover-aj300p-engine",
+      "fuel": "Petrol MHEV/PHEV",
+      "generation": "L461"
+    },
+    {
+      "model": "Range Rover Velar",
+      "modelHref": "/landrover-range-rover-velar-engines",
+      "engineCode": "AJ300P",
+      "engineHref": "/landrover-aj300p-engine",
+      "fuel": "Petrol MHEV",
+      "generation": "L560"
+    },
+    {
+      "model": "Discovery",
+      "modelHref": "/landrover-discovery-engines",
+      "engineCode": "AJ41",
+      "engineHref": "/landrover-aj41-engine",
+      "fuel": "Petrol",
+      "generation": "Discovery 2"
+    },
+    {
+      "model": "Range Rover Sport",
+      "modelHref": "/landrover-range-rover-sport-engines",
+      "engineCode": "AJ-V8",
+      "engineHref": "/landrover-aj-v8-engine",
+      "fuel": "Petrol / Supercharged",
+      "generation": "L320"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "Ford Duratorq",
+      "engineHref": "/landrover-ford-duratorq-engine",
+      "fuel": "Diesel",
+      "generation": "L663 (Puma)"
+    },
+    {
+      "model": "Discovery Sport",
+      "modelHref": "/landrover-discovery-sport-engines",
+      "engineCode": "Ford Duratorq",
+      "engineHref": "/landrover-ford-duratorq-engine",
+      "fuel": "Diesel",
+      "generation": "L550"
+    },
+    {
+      "model": "Freelander",
+      "modelHref": "/landrover-freelander-engines",
+      "engineCode": "Ford Duratorq",
+      "engineHref": "/landrover-ford-duratorq-engine",
+      "fuel": "Diesel",
+      "generation": "L359"
+    },
+    {
+      "model": "Range Rover Evoque",
+      "modelHref": "/landrover-range-rover-evoque-engines",
+      "engineCode": "Ford Duratorq",
+      "engineHref": "/landrover-ford-duratorq-engine",
+      "fuel": "Diesel",
+      "generation": "L538"
+    },
+    {
+      "model": "Discovery Sport",
+      "modelHref": "/landrover-discovery-sport-engines",
+      "engineCode": "Ford EcoBoost",
+      "engineHref": "/landrover-ford-ecoboost-engine",
+      "fuel": "Petrol",
+      "generation": "L550"
+    },
+    {
+      "model": "Freelander",
+      "modelHref": "/landrover-freelander-engines",
+      "engineCode": "Ford EcoBoost",
+      "engineHref": "/landrover-ford-ecoboost-engine",
+      "fuel": "Petrol",
+      "generation": "L359"
+    },
+    {
+      "model": "Range Rover Evoque",
+      "modelHref": "/landrover-range-rover-evoque-engines",
+      "engineCode": "Ford EcoBoost",
+      "engineHref": "/landrover-ford-ecoboost-engine",
+      "fuel": "Petrol",
+      "generation": "L538"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "M47D20 (BMW-Sourced)",
+      "engineHref": "/landrover-m47d20-bmw-sourced-engine",
+      "fuel": "Diesel",
+      "generation": "Defender"
+    },
+    {
+      "model": "Freelander",
+      "modelHref": "/landrover-freelander-engines",
+      "engineCode": "M47D20 (BMW-Sourced)",
+      "engineHref": "/landrover-m47d20-bmw-sourced-engine",
+      "fuel": "Diesel",
+      "generation": "Freelander 1"
+    },
+    {
+      "model": "Range Rover",
+      "modelHref": "/landrover-range-rover-engines",
+      "engineCode": "N63",
+      "engineHref": "/landrover-n63-engine",
+      "fuel": "Petrol MHEV",
+      "generation": "L460"
+    },
+    {
+      "model": "Range Rover Sport",
+      "modelHref": "/landrover-range-rover-sport-engines",
+      "engineCode": "N63",
+      "engineHref": "/landrover-n63-engine",
+      "fuel": "Petrol MHEV",
+      "generation": "L461"
+    },
+    {
+      "model": "Freelander",
+      "modelHref": "/landrover-freelander-engines",
+      "engineCode": "Rover K-Series",
+      "engineHref": "/landrover-rover-k-series-engine",
+      "fuel": "Petrol",
+      "generation": "Freelander 1"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "S68 (BMW-sourced)",
+      "engineHref": "/landrover-s68-bmw-sourced-engine",
+      "fuel": "Petrol MHEV",
+      "generation": "L663"
+    },
+    {
+      "model": "Range Rover",
+      "modelHref": "/landrover-range-rover-engines",
+      "engineCode": "S68 (BMW-sourced)",
+      "engineHref": "/landrover-s68-bmw-sourced-engine",
+      "fuel": "Petrol MHEV",
+      "generation": "L460"
+    },
+    {
+      "model": "Range Rover Sport",
+      "modelHref": "/landrover-range-rover-sport-engines",
+      "engineCode": "S68 (BMW-sourced)",
+      "engineHref": "/landrover-s68-bmw-sourced-engine",
+      "fuel": "Petrol MHEV",
+      "generation": "L461"
+    },
+    {
+      "model": "Defender",
+      "modelHref": "/landrover-defender-engines",
+      "engineCode": "Td5",
+      "engineHref": "/landrover-td5-engine",
+      "fuel": "Diesel",
+      "generation": "Defender"
+    },
+    {
+      "model": "Discovery",
+      "modelHref": "/landrover-discovery-engines",
+      "engineCode": "Td5",
+      "engineHref": "/landrover-td5-engine",
+      "fuel": "Diesel",
+      "generation": "Discovery 2"
+    },
+    {
+      "model": "Discovery",
+      "modelHref": "/landrover-discovery-engines",
+      "engineCode": "Tdi",
+      "engineHref": "/landrover-tdi-engine",
+      "fuel": "Diesel",
+      "generation": "Discovery 1"
+    },
+    {
+      "model": "Discovery",
+      "modelHref": "/landrover-discovery-engines",
+      "engineCode": "TDV6/SDV6",
+      "engineHref": "/landrover-tdv6-sdv6-engine",
+      "fuel": "Diesel",
+      "generation": "L319 (D3/D4)"
+    },
+    {
+      "model": "Range Rover",
+      "modelHref": "/landrover-range-rover-engines",
+      "engineCode": "TDV6/SDV6",
+      "engineHref": "/landrover-tdv6-sdv6-engine",
+      "fuel": "Diesel",
+      "generation": "L322, L405"
+    },
+    {
+      "model": "Range Rover Sport",
+      "modelHref": "/landrover-range-rover-sport-engines",
+      "engineCode": "TDV6/SDV6",
+      "engineHref": "/landrover-tdv6-sdv6-engine",
+      "fuel": "Diesel",
+      "generation": "L320, L494"
+    },
+    {
+      "model": "Discovery",
+      "modelHref": "/landrover-discovery-engines",
+      "engineCode": "TDV8/SDV8",
+      "engineHref": "/landrover-tdv8-sdv8-engine",
+      "fuel": "3.6L / 4.4L",
+      "generation": "L319 (D3/D4)"
+    },
+    {
+      "model": "Range Rover",
+      "modelHref": "/landrover-range-rover-engines",
+      "engineCode": "TDV8/SDV8",
+      "engineHref": "/landrover-tdv8-sdv8-engine",
+      "fuel": "3.6L / 4.4L",
+      "generation": "L322, L405"
+    },
+    {
+      "model": "Range Rover Sport",
+      "modelHref": "/landrover-range-rover-sport-engines",
+      "engineCode": "TDV8/SDV8",
+      "engineHref": "/landrover-tdv8-sdv8-engine",
+      "fuel": "3.6L / 4.4L",
+      "generation": "L320, L494"
+    }
+  ],
+  "models": [
+    "Defender",
+    "Discovery",
+    "Discovery Sport",
+    "Freelander",
+    "Range Rover",
+    "Range Rover Evoque",
+    "Range Rover Sport",
+    "Range Rover Velar"
+  ],
+  "fuels": [
+    "3.6L / 4.4L",
+    "Diesel",
+    "Diesel MHEV",
+    "Petrol",
+    "Petrol / Supercharged",
+    "Petrol MHEV",
+    "Petrol MHEV/PHEV",
+    "Supercharged V8"
+  ]
+}

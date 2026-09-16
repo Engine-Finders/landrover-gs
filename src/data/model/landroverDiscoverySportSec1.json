@@ -1,0 +1,52 @@
+{
+  "kicker": "Land Rover Discovery Sport Specialists",
+  "h1": "Discovery Sport|Engine Rebuild &|Replacement Specialists",
+  "subhead": "We rebuild your original engine to near-new condition — new timing chains, injector seals, EGR components and gaskets — and back it with a 12-month unlimited-mileage warranty",
+  "rating": {
+    "stars": 5,
+    "label": "Rated Land Rover Engine Specialists — 1,800+ Engines Rebuilt"
+  },
+  "trustBar": [
+    {
+      "icon": "shield-check",
+      "label": "12 Month Unlimited-Mileage Warranty"
+    },
+    {
+      "icon": "truck",
+      "label": "✔ Nationwide Recovery"
+    },
+    {
+      "icon": "tech",
+      "label": "✔ Land Rover-Trained Technicians"
+    },
+    {
+      "icon": "gears",
+      "label": "✔ Updated OEM Components"
+    },
+    {
+      "icon": "engine",
+      "label": "✔ Free Engine Matching by Registration"
+    }
+  ],
+  "priceCta": {
+    "icon": "engine",
+    "kicker": "Starting From",
+    "price": "£2,000",
+    "label": "Get a Fixed-Price Quote →",
+    "href": "#quote-form"
+  },
+  "phoneCta": {
+    "icon": "phone",
+    "label": "Call Our Specialists:",
+    "phone": "0203 488 4649",
+    "href": "tel:02034884649"
+  },
+  "quickQuote": {
+    "title": "Find Your Engine Match",
+    "subhead": "Enter your registration and we'll find the exact engine for your Land Rover.",
+    "securityNote": "We use your reg to find the exact engine for your Land Rover"
+  },
+  "trustFooter": "Trusted by Land Rover owners across the UK",
+  "image": "/model/sec1.webp",
+  "imageMobile": "/model/sec1_mobile.webp"
+}

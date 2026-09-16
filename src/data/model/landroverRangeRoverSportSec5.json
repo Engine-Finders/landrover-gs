@@ -1,0 +1,47 @@
+{
+  "kicker": "Why We Rebuild",
+  "h2": "Why We Rebuild|Instead Of Swap",
+  "image": "/model/sec5.webp",
+  "imageMobile": "/model/sec5_mobile.webp",
+  "paragraphs": [
+    "Most engine suppliers sell you a used engine of unknown history and hope it matches. We do it differently.",
+    "We rebuild the engine your Range Rover Sport already has — strip it down, pressure-test it, and replace every worn or damaged component with new OEM parts. You get a near-new engine that's better than what came out, with a {{warranty}} — and you keep your car's original identity.",
+    "Used engines carry hidden wear, unknown mileage and compatibility risk. A rebuild removes that risk entirely — and more often than not, it works out cheaper than sourcing and fitting a used replacement, both short and long term."
+  ],
+  "warrantyHighlight": "12-month unlimited-mileage warranty",
+  "comparison": {
+    "ourLabel": "Our Rebuild",
+    "usedLabel": "Typical Used Engine",
+    "rows": [
+      {
+        "feature": "Engine Number",
+        "icon": "engine",
+        "ours": "Keep your original matching number",
+        "used": "Different engine — mismatched VIN"
+      },
+      {
+        "feature": "History",
+        "icon": "clock",
+        "ours": "Fully inspected & rebuilt by us",
+        "used": "Unknown mileage, service history & wear"
+      },
+      {
+        "feature": "Worn/Damaged Components",
+        "icon": "gear",
+        "ours": "Identified and replaced with updated OEM parts",
+        "used": "Left as-is"
+      },
+      {
+        "feature": "Warranty",
+        "icon": "shield-check",
+        "ours": "12-month unlimited mileage",
+        "used": "Often 30–90 days only"
+      }
+    ]
+  },
+  "cta": {
+    "text": "Get Your Fixed-Price Quote In Under 30 Minutes",
+    "buttonLabel": "Request Quote",
+    "href": "#quote-form"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Sport TD4 ENGINE",
+    "paragraphs": [
+      "The Discovery Sport TD4 was offered from 2014 to 2019 as part of the first-generation L550 range. It uses the Ford Duratorq — a 2.0-litre four-cylinder diesel shared across a range of Land Rover and Ford models of that era. The Duratorq was the diesel option of choice before the 2019 facelift, which replaced it with the Ingenium AJ200D family (D150/D180/D240). The TD4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Ford Duratorq engines for every Discovery Sport TD4 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Sport TD4 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Ford Duratorq",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport TD4 from 2014 to 2019. Known for injector seal leaks and EGR clogging over time — see the callout above. We replace the timing belt, injectors and EGR components as standard on every Duratorq rebuild. Check Your Ford Duratorq Discovery Sport TD4 → [link to quote form]",
+        "cta": "Check Your Ford Duratorq Discovery Sport TD4",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Sport TD4 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Discovery Sport TD4 uses the Ford Duratorq — a different engine family from the Ingenium diesels that followed it — fitting the wrong replacement or assuming parts from later cars will work creates a compatibility risk. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "Ford Duratorq",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (Ford Duratorq)"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L550, 2014–2019)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Sport TD4 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L550",
+        "chassis": "L550",
+        "years": "2014–2019",
+        "engineCode": "Ford Duratorq",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

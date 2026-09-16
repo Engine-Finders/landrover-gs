@@ -1,0 +1,328 @@
+{
+  "title": "Pricing & Legal Disclaimer",
+  "metaTitle": "Pricing & Legal Disclaimer | Engine Rebuild Estimates vs Fixed Quotes | Land Rover Garage",
+  "metaDescription": "Clear pricing disclaimer for engine rebuilds and repairs. Estimates vs fixed quotes, VAT, part numbers by VIN, and your right to approve additional costs.",
+  "updated": "",
+  "intro": "Land Rover Garage is a trading name of JLR Engine Specialists Ltd (Company No: 16500838), a company registered in England & Wales. We operate multiple specialist brands under the same parent company, all from our Billericay workshop.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Transparent pricing, clear terms, and your rights as a customer under UK consumer law."
+    },
+    {
+      "type": "p",
+      "text": "**Estimates vs Quotes** | **VAT Explained** | **No Hidden Fees** | **VIN-Specific Parts**"
+    },
+    {
+      "type": "ctaRow",
+      "items": [
+        {
+          "label": "Get a Fixed Quote",
+          "href": "/contact"
+        },
+        {
+          "label": "Call 0203 488 4649",
+          "href": "tel:02034884649"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "At Land Rover Garage, we believe transparent pricing is fundamental to trust. This page explains how our pricing works, what is included in our quotes, and your statutory rights under UK consumer law. We comply fully with the Consumer Protection Act 1987, Consumer Rights Act 2015, and Digital Markets, Competition and Consumers Act 2024."
+    },
+    {
+      "type": "h2",
+      "text": "1. Estimates vs Fixed Quotes"
+    },
+    {
+      "type": "p",
+      "text": "Understanding the legal distinction between an estimate and a quote protects both you and us:"
+    },
+    {
+      "type": "p",
+      "text": "**Estimate**"
+    },
+    {
+      "type": "p",
+      "text": "An approximation of cost based on typical scenarios. Price ranges shown on our service pages are **estimates only**. The final amount may vary but must still be reasonable and reflect market rates."
+    },
+    {
+      "type": "p",
+      "text": "**Fixed Quote**"
+    },
+    {
+      "type": "p",
+      "text": "A **binding fixed price** for a defined scope of work, provided after diagnostic inspection or strip-down. We will never exceed a fixed quote without your prior written approval for additional work."
+    },
+    {
+      "type": "p",
+      "text": "**Our Policy:** We provide fixed quotes after diagnostic inspection. Initial ranges on service pages are estimates. We will never exceed a fixed quote without your written approval."
+    },
+    {
+      "type": "h2",
+      "text": "2. What's Included in Our Prices"
+    },
+    {
+      "type": "p",
+      "text": "When you receive a fixed quote for an engine rebuild or reconditioning, the following are included unless explicitly stated otherwise:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Full strip-down and inspection of all components",
+        "CNC machining (honing, skimming, resurfacing where required)",
+        "New piston rings, bearings, gaskets, and seals",
+        "New timing chain kit + tensioners (complete set)",
+        "New oil pump + water pump",
+        "All labour for fitting, ECU reset, and post-installation testing",
+        "Fluids and standard consumables",
+        "12-month unlimited mileage warranty (terms apply – see [/warranty](/warranty))",
+        "**VAT (included in all quoted prices unless explicitly stated)**"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "3. What's NOT Included"
+    },
+    {
+      "type": "p",
+      "text": "The following ancillary components are **not covered** under standard engine rebuild pricing or warranty, even if removed during the work:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Turbocharger",
+        "Fuel injectors",
+        "Alternator",
+        "Air conditioning (AC) pump",
+        "Fuel pump (low or high pressure)",
+        "Starter motor",
+        "Drive shaft",
+        "Suspension components",
+        "Power steering pump",
+        "DPF (Diesel Particulate Filter)",
+        "EGR valve",
+        "Any ancillary component not explicitly listed in Section 2"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "We will advise you if any of these components are found to be unserviceable during strip-down and will quote separately for replacement. You retain full approval rights before any additional work proceeds."
+    },
+    {
+      "type": "h2",
+      "text": "4. VAT & Additional Fees"
+    },
+    {
+      "type": "p",
+      "text": "All prices displayed on our website and in our quotes include VAT at the prevailing rate (currently 20%) unless explicitly stated otherwise. There are no hidden VAT additions at checkout."
+    },
+    {
+      "type": "p",
+      "text": "**No Drip Pricing**"
+    },
+    {
+      "type": "p",
+      "text": "We do not practice \"drip pricing\" — adding unavoidable mandatory charges late in the process. The price we quote is the price you pay, subject only to variations you have approved in writing."
+    },
+    {
+      "type": "p",
+      "text": "**Additional Charges (Quoted Separately)**"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Collection & Delivery:** Quoted separately before booking. Not included in standard repair pricing unless explicitly stated.",
+        "**Diagnostic Fees:** Clearly stated upfront (£99–£149 depending on complexity). Deducted from the repair cost if you proceed with us.",
+        "**Additional Repairs:** Any work outside the original quoted scope is quoted separately and requires your written approval before proceeding."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "5. Part Numbers & VIN Dependence"
+    },
+    {
+      "type": "p",
+      "text": "OEM part numbers vary by VIN, engine code, build date, emissions version, and production batch. **Do not order parts based solely on our website descriptions or price lists.** We confirm all part numbers against your specific vehicle VIN before ordering to guarantee correct fitment. If you supply your own parts, our warranty covers labour only and does not extend to component fitness or compatibility."
+    },
+    {
+      "type": "h2",
+      "text": "6. Serviceability Assumption"
+    },
+    {
+      "type": "p",
+      "text": "All fixed quotes for engine rebuilds and reconditioning assume that your existing engine core — specifically the crankshaft, engine block, and cylinder head — is in serviceable condition and suitable for standard reconditioning processes."
+    },
+    {
+      "type": "p",
+      "text": "**If Strip-Down Reveals Additional Damage**"
+    },
+    {
+      "type": "p",
+      "text": "Should inspection reveal cracks, excessive wear, scoring, or damage beyond standard reconditioning tolerances:"
+    },
+    {
+      "type": "p",
+      "text": "1. We will **stop work immediately** and contact you with a detailed report and photographs."
+    },
+    {
+      "type": "p",
+      "text": "2. We will provide a **revised quote** for the additional work required (e.g., crankshaft replacement, block sleeving, new cylinder head)."
+    },
+    {
+      "type": "p",
+      "text": "3. You may choose to **approve the revised quote** and proceed, or **abort the rebuild** and pay only for the strip-down and inspection work completed to date."
+    },
+    {
+      "type": "p",
+      "text": "**Your Right to Approve:** We never proceed with additional work or costs without your explicit written consent. You retain full control over the scope and budget at every stage."
+    },
+    {
+      "type": "h2",
+      "text": "7. Your Rights Under UK Consumer Law"
+    },
+    {
+      "type": "p",
+      "text": "Nothing in this disclaimer affects your statutory rights. Key protections under UK law include:"
+    },
+    {
+      "type": "p",
+      "text": "**Consumer Rights Act 2015**"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Services must be performed with **reasonable care and skill**",
+        "Services must be completed within a **reasonable time**",
+        "If no price is fixed, you pay a **\"reasonable price\"** (market rate)",
+        "Right to **repeat performance** if work is unsatisfactory (at no cost)",
+        "Right to **price reduction** (full or partial refund) if repeat performance fails"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "**Consumer Protection Act 1987**"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Misleading price indications are a **criminal offence**",
+        "All mandatory charges must be disclosed upfront",
+        "Total price must be clear before commitment"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For full details of your statutory rights, visit gov.uk/consumer-protection or contact Citizens Advice Consumer Service on 0808 223 1133."
+    },
+    {
+      "type": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "type": "p",
+      "text": "**What's the difference between a quote and an estimate?**"
+    },
+    {
+      "type": "p",
+      "text": "An **estimate** is an approximation of cost based on typical scenarios — price ranges on our service pages are estimates only. A **quote** is a binding fixed price for a defined scope of work, provided after diagnostic inspection. We will never exceed a fixed quote without your prior written approval for additional work."
+    },
+    {
+      "type": "p",
+      "text": "**Can the price change after I approve the work?**"
+    },
+    {
+      "type": "p",
+      "text": "Only if additional work is identified during strip-down that falls outside the original quoted scope (e.g., cracked crankshaft, damaged block). In such cases, we stop work, provide a revised quote with evidence, and require your written approval before proceeding. You may also choose to abort the rebuild and pay only for inspection work completed. We never add unapproved charges."
+    },
+    {
+      "type": "p",
+      "text": "**Do your prices include VAT?**"
+    },
+    {
+      "type": "p",
+      "text": "Yes. All prices displayed on our website and in our written quotes include VAT at the prevailing rate (currently 20%) unless explicitly stated otherwise. There are no hidden VAT additions at checkout or upon collection. This complies with CMA clear pricing requirements."
+    },
+    {
+      "type": "p",
+      "text": "**What happens if you find extra damage during strip-down?**"
+    },
+    {
+      "type": "p",
+      "text": "We stop work immediately and contact you with a detailed report including photographs. We provide a revised quote for the additional work required. You may approve the revised quote and proceed, or abort the rebuild and pay only for the strip-down and inspection completed. We never proceed without your written consent."
+    },
+    {
+      "type": "p",
+      "text": "**Why can't you give a fixed price without inspecting my car first?**"
+    },
+    {
+      "type": "p",
+      "text": "Internal engine condition (crankshaft wear, block integrity, cylinder head condition) cannot be accurately assessed without physical strip-down. Providing a binding fixed price without inspection would risk either overcharging you for work not needed or underquoting and requesting more later — both of which violate fair trading principles. Our estimates reflect typical ranges; fixed quotes follow inspection."
+    },
+    {
+      "type": "p",
+      "text": "**Are your part numbers guaranteed to fit my vehicle?**"
+    },
+    {
+      "type": "p",
+      "text": "Parts we supply are confirmed against your specific VIN before ordering to guarantee correct fitment. However, OEM part numbers vary by VIN, engine code, build date, and emissions version. Do not order parts based solely on our website descriptions or price lists. If you supply your own parts, our warranty covers labour only and does not extend to component fitness or compatibility."
+    },
+    {
+      "type": "p",
+      "text": "**What if I'm not happy with the work?**"
+    },
+    {
+      "type": "p",
+      "text": "Under the Consumer Rights Act 2015, services must be performed with reasonable care and skill. If work is unsatisfactory, you have the right to repeat performance at no cost. If repeat performance fails to resolve the issue, you may be entitled to a price reduction (full or partial refund). Contact us immediately to discuss concerns — we aim to resolve issues promptly and fairly. Full warranty terms at [/warranty](/warranty)."
+    },
+    {
+      "type": "p",
+      "text": "**Do I have to pay a deposit?**"
+    },
+    {
+      "type": "p",
+      "text": "No. We do not require upfront deposits for engine rebuilds or mechanical repairs. Payment is due in full only after completion and your satisfaction. For large builds, staged payments aligned to milestones may be requested but are always agreed in writing beforehand. See our Financing & Payment Options page for full details."
+    },
+    {
+      "type": "p",
+      "text": "**What payment methods do you accept?**"
+    },
+    {
+      "type": "p",
+      "text": "We accept bank transfer (BACS), all major debit and credit cards (Visa, Mastercard, American Express), and cash. Card payments are processed via encrypted terminal with no surcharges. Split payments across multiple methods are accepted. Full receipt and warranty certificate provided on completion. See /financing for details."
+    },
+    {
+      "type": "p",
+      "text": "**Is collection and delivery included in the price?**"
+    },
+    {
+      "type": "p",
+      "text": "Collection and delivery is available nationwide but is quoted separately before booking. It is not included in standard repair pricing unless explicitly stated in your written quote. Free collection and return applies to repairs over £500 where arranged directly with us. Enclosed transport for non-drivable or classic vehicles is available at additional cost."
+    },
+    {
+      "type": "h2",
+      "text": "Ready to Get a Fixed-Price Quote?"
+    },
+    {
+      "type": "p",
+      "text": "Contact us for a transparent, binding quote after diagnostic inspection. No hidden fees, no drip pricing, no surprises. Family-run since 2009. 12-month warranty on all engine work. Your statutory rights are fully protected."
+    },
+    {
+      "type": "ctaRow",
+      "items": [
+        {
+          "label": "Get a Quote Online",
+          "href": "/contact"
+        },
+        {
+          "label": "WhatsApp the Workshop",
+          "href": "https://wa.me/447975827396"
+        },
+        {
+          "label": "0203 488 4649",
+          "href": "tel:02034884649"
+        }
+      ]
+    }
+  ]
+}

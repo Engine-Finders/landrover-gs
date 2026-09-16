@@ -1,0 +1,40 @@
+{
+  "kicker": "Known Issue",
+  "h2": "Classic Defender Td5 / 300Tdi / 200Tdi Issues?||",
+  "description": "Classic Defenders are known for injector and crank sensor wear and head-gasket failure on the Td5, and cylinder-head cracking plus cooling-system neglect on the 200Tdi/300Tdi — with the 300Tdi/200Tdi's timing belt being a critical interval-service item. We replace whatever's worn or damaged as standard on every classic rebuild. The new-generation Defender's Ingenium diesel shares the same broad timing-chain and injector-seal pattern found across the rest of the modern Land Rover range.",
+  "descriptionEmphasis": "No hidden extras.",
+  "image": "/model/sec2.webp",
+  "imageMobile": "/model/sec2_mobile.webp",
+  "callout": {
+    "icon": "shield-check",
+    "title": "A Well-Documented Issue",
+    "body": "200Tdi injector seal leaks and timing chain wear are widely documented across Land Rover specialist forums and official TSBs."
+  },
+  "heroHook": {
+    "icon": "shield-check",
+    "title": "Include In Hero Hook:",
+    "body": "Yes — both verified: 200Tdi widely documented with multiple TSBs; M156 pre-2012 established Land Rover specialist pattern."
+  },
+  "features": [
+    {
+      "icon": "link",
+      "title": "New Timing Chains",
+      "body": "Replaced as standard (where worn or damaged)"
+    },
+    {
+      "icon": "gear",
+      "title": "New Tensioners",
+      "body": "For maximum reliability"
+    },
+    {
+      "icon": "guide",
+      "title": "New Injector Seals",
+      "body": "Updated OEM components"
+    },
+    {
+      "icon": "shield-check",
+      "title": "Peace Of Mind",
+      "body": "No hidden extras — just a stronger, longer-lasting engine"
+    }
+  ]
+}

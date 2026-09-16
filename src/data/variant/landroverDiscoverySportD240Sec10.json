@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Sport D240 ENGINE",
+    "paragraphs": [
+      "The Discovery Sport D240 was produced from 2019 to 2020 as a high-output diesel variant. It uses the Ingenium AJ200D — a 2.0-litre four-cylinder diesel from Jaguar Land Rover's modular engine family. The D240 badge represented the highest-output diesel in the pre-2020 Discovery Sport line-up (240PS). In 2020, the D240 was replaced by the D200 as part of a diesel-range consolidation, while retaining the same AJ200D engine family. The Discovery Sport D240 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Ingenium AJ200D engines for every Discovery Sport D240 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Sport D240 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Ingenium AJ200D",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D240 from 2019 to 2020 (L550 generation). Known for timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks across the Ingenium diesel family. We replace timing chains, injector seals, EGR components and gaskets as standard on every rebuild. Check Your Ingenium AJ200D Discovery Sport → [link to quote form]",
+        "cta": "Check Your Ingenium AJ200D Discovery Sport D240",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Sport D240 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Discovery Sport D240 uses the Ingenium AJ200D diesel across its production run. There was no engine change within the D240 badge's lifespan, but component compatibility depends on build date and factory revisions. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "Ingenium AJ200D",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ200D) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L550)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Land Rover Discovery Sport D240 Applications"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Sport D240 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L550",
+        "chassis": "L550",
+        "years": "2019–2020",
+        "engineCode": "Ingenium AJ200D",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

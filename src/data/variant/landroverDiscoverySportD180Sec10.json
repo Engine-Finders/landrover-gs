@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Sport D180 ENGINE",
+    "paragraphs": [
+      "The Discovery Sport D180 was part of the L550-generation model's diesel lineup from 2019 to 2020. It uses the Ingenium AJ200D — a 2.0-litre four-cylinder diesel that was also fitted to the D150 and D240 variants in the same generation. In 2020, the D180 was replaced by the D165 as part of a diesel range simplification. The Ingenium AJ200D is known for timing chain tensioner wear and oil dilution from DPF regeneration — a pattern shared across most Ingenium diesel engines of this era, which is why we address these components as standard during every rebuild.\n\nThe D180 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Ingenium AJ200D engines for every Discovery Sport D180 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Sport D180 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Ingenium AJ200D",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D180 from 2019 to 2020 (L550 generation). Known for timing chain tensioner wear and oil dilution from DPF regeneration — see the callout above. We replace the timing chain, injector seals and EGR components as standard on every AJ200D rebuild. Check Your AJ200D Discovery Sport D180 → [link to quote form]",
+        "cta": "Check Your Ingenium AJ200D Discovery Sport D180",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Sport D180 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Discovery Sport D180 was produced for a limited period and uses the Ingenium AJ200D — an engine shared with other Discovery Sport diesel variants of the same era — confirming your exact engine code matters for parts compatibility. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "Ingenium AJ200D",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ200D) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L550)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Sport D180 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L550",
+        "chassis": "L550",
+        "years": "2019–2020",
+        "engineCode": "Ingenium AJ200D",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

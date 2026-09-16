@@ -1,0 +1,56 @@
+{
+  "kicker": "Full Variant Coverage",
+  "headline": "We Cover Every Land Rover Range Rover Sport Variant",
+  "tabs": [
+    "Land Rover Range Rover Sport"
+  ],
+  "activeTab": 0,
+  "tabVariants": [
+    [
+      {
+        "label": "Range Rover Sport TDV6"
+      },
+      {
+        "label": "Range Rover Sport TDV8"
+      },
+      {
+        "label": "Range Rover Sport SDV6"
+      },
+      {
+        "label": "Range Rover Sport SDV8"
+      },
+      {
+        "label": "Range Rover Sport HSE"
+      },
+      {
+        "label": "Range Rover Sport Autobiography Dynamic"
+      },
+      {
+        "label": "Range Rover Sport SVR"
+      },
+      {
+        "label": "Range Rover Sport P400"
+      },
+      {
+        "label": "Range Rover Sport P460e"
+      },
+      {
+        "label": "Range Rover Sport P525"
+      },
+      {
+        "label": "Range Rover Sport P550e"
+      }
+    ]
+  ],
+  "notice": {
+    "title": "Not seeing your exact variant?",
+    "linkText": "Send us your registration",
+    "rest": " and we'll confirm engine rebuild availability directly."
+  },
+  "priceCta": {
+    "title": "Full Price Breakdown",
+    "body": "See detailed pricing near the top of this page, directly below the Starting From summary.",
+    "image": "/model/sec15_part.webp",
+    "href": "#pricing"
+  }
+}

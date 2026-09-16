@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Range Rover Velar D200 ENGINE",
+    "paragraphs": [
+      "The Velar D200 uses the Ingenium AJ200D — a 2.0-litre four-cylinder diesel that sits at the entry point of the Velar diesel line-up alongside the D180 and above the D240 (a higher-output version of the same engine family). It's fitted to the L560-generation Velar, which has been in production since 2017 and received a mid-cycle update in 2024. The AJ200D shares the Ingenium diesel family's well-documented timing chain wear pattern — something we address on every rebuild."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Ingenium AJ200D engines for every Range Rover Velar D200 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Range Rover Velar D200 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Ingenium AJ200D",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Velar D200 from 2017 to present (L560 generation). Known for timing chain tensioner wear, oil dilution and EGR cooler leaks — see the callout above. We replace worn timing chain components, injector seals, EGR and gaskets as standard on every AJ200D rebuild. Check Your AJ200D Velar D200 → [link to quote form]",
+        "cta": "Check Your Ingenium AJ200D Range Rover Velar D200",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Range Rover Velar D200 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Velar D200 uses the Ingenium AJ200D across the entire L560 production run — there's no running change to a different engine code for this variant. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "Ingenium AJ200D",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (Ingenium AJ200D) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L560)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Range Rover Velar quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Range Rover Velar D200 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L560",
+        "chassis": "L560",
+        "years": "2017–present",
+        "engineCode": "Ingenium AJ200D",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

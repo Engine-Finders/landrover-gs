@@ -1,0 +1,24 @@
+{
+  "h2": "Find Your Land Rover Model",
+  "models": [
+    { "name": "Defender", "slug": "defender", "image": "/home/landrover.webp", "href": "/defender-engines" },
+    { "name": "Discovery", "slug": "discovery", "image": "/home/landrover.webp", "href": "/discovery-engines" },
+    { "name": "Discovery Sport", "slug": "discovery-sport", "image": "/home/landrover.webp", "href": "/discovery-sport-engines" },
+    { "name": "Freelander", "slug": "freelander", "image": "/home/landrover.webp", "href": "/freelander-engines" },
+    { "name": "Range Rover", "slug": "range-rover", "image": "/home/landrover.webp", "href": "/landrover-range-rover-tdv6-engines", "featured": true },
+    { "name": "Range Rover Sport", "slug": "range-rover-sport", "image": "/home/landrover.webp", "href": "/range-rover-sport-engines" },
+    { "name": "Range Rover Velar", "slug": "range-rover-velar", "image": "/home/landrover.webp", "href": "/range-rover-velar-engines" },
+    { "name": "Range Rover Evoque", "slug": "range-rover-evoque", "image": "/home/landrover.webp", "href": "/range-rover-evoque-engines", "featured": true }
+  ],
+  "cta": {
+    "label": "All Land Rover Models",
+    "href": "/models"
+  },
+  "trustBadges": [
+    { "label": "All models covered", "icon": "car" },
+    { "label": "Petrol, diesel & hybrid engines", "icon": "fuel" },
+    { "label": "Engine rebuild or replacement", "icon": "gear" },
+    { "label": "12 month warranty", "icon": "shield" },
+    { "label": "Nationwide recovery", "icon": "truck" }
+  ]
+}

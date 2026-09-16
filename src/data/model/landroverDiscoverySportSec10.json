@@ -1,0 +1,99 @@
+{
+  "badge": "10",
+  "headlinePre": "Most Popular",
+  "headlineHighlight": "Land Rover Discovery Sport Rebuilds",
+  "subhead": "Full variant list below covers every Land Rover Discovery Sport engine we work on — these 10 are simply our most requested.",
+  "image": "/model/sec10.webp",
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like.",
+  "cards": [
+    {
+      "number": "01",
+      "model": "Land Rover C180",
+      "spec": "1.6L Petrol (Ford Duratorq)"
+    },
+    {
+      "number": "02",
+      "model": "Land Rover C200",
+      "spec": "2.0L Petrol (Ford Duratorq)"
+    },
+    {
+      "number": "03",
+      "model": "Land Rover C220d",
+      "spec": "2.1L Diesel (Ford Duratorq)"
+    },
+    {
+      "number": "04",
+      "model": "Land Rover C250",
+      "spec": "1.8L Petrol Turbo (M271)"
+    },
+    {
+      "number": "05",
+      "model": "Land Rover C250d",
+      "spec": "2.1L Diesel (Ford Duratorq)"
+    },
+    {
+      "number": "06",
+      "model": "Land Rover C300",
+      "spec": "2.0L Petrol Turbo (Ford Duratorq)"
+    },
+    {
+      "number": "07",
+      "model": "Land Rover C300d",
+      "spec": "2.0L Diesel (Ford Duratorq)"
+    },
+    {
+      "number": "08",
+      "model": "Land Rover C350",
+      "spec": "3.5L Petrol (Ford Duratorq)"
+    },
+    {
+      "number": "09",
+      "model": "Land Rover C43 Land Rover",
+      "spec": "3.0L Petrol Twin-Turbo (Ford Duratorq)"
+    },
+    {
+      "number": "10",
+      "model": "Land Rover C63 Land Rover",
+      "spec": "6.2 / 4.0L Petrol (M156 / Ford Duratorq)"
+    }
+  ],
+  "variants": [
+    {
+      "label": "Discovery Sport eD4"
+    },
+    {
+      "label": "Discovery Sport TD4"
+    },
+    {
+      "label": "Discovery Sport Si4"
+    },
+    {
+      "label": "Discovery Sport P200"
+    },
+    {
+      "label": "Discovery Sport P250"
+    },
+    {
+      "label": "Discovery Sport P300"
+    },
+    {
+      "label": "Discovery Sport P300e"
+    },
+    {
+      "label": "Discovery Sport D150"
+    },
+    {
+      "label": "Discovery Sport D165"
+    },
+    {
+      "label": "Discovery Sport D180"
+    },
+    {
+      "label": "Discovery Sport D200"
+    },
+    {
+      "label": "Discovery Sport D240"
+    }
+  ]
+}

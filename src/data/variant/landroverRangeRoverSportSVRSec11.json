@@ -1,0 +1,90 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Range Rover Sport SVR ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Range Rover Sport SVR has used the same engine throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2015",
+      "generation": "L494",
+      "engineCode": "AJ‑V8 Supercharged",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2016",
+      "generation": "L494",
+      "engineCode": "AJ‑V8 Supercharged",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2017",
+      "generation": "L494",
+      "engineCode": "AJ‑V8 Supercharged",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2018",
+      "generation": "L494",
+      "engineCode": "AJ‑V8 Supercharged",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2019",
+      "generation": "L494",
+      "engineCode": "AJ‑V8 Supercharged",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2020",
+      "generation": "L494",
+      "engineCode": "AJ‑V8 Supercharged",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2021",
+      "generation": "L494",
+      "engineCode": "AJ‑V8 Supercharged",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2022",
+      "generation": "L494",
+      "engineCode": "AJ‑V8 Supercharged",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The engine",
+    "rest": " has been fitted to every Range Rover Sport SVR since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

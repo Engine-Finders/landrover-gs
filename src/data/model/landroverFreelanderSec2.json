@@ -1,0 +1,40 @@
+{
+  "kicker": "Known Issue",
+  "h2": "Freelander K-Series Head Gasket Failure?||",
+  "description": "The 1.8i petrol K-Series is one of the most widely documented head gasket failure patterns in the entire Rover/Land Rover engine range — multiple manufacturer TSBs and specialist sources confirm it. We replace the head gasket and inspect the block as standard on every K-Series rebuild. The BMW-sourced M47 diesel fitted to both Freelander generations shares the same timing-chain stretch and injector-seal pattern found on contemporary BMW 3 Series and 5 Series diesels of the same era.",
+  "descriptionEmphasis": "No hidden extras.",
+  "image": "/model/sec2.webp",
+  "imageMobile": "/model/sec2_mobile.webp",
+  "callout": {
+    "icon": "shield-check",
+    "title": "A Well-Documented Issue",
+    "body": "Rover K-Series injector seal leaks and timing chain wear are widely documented across Land Rover specialist forums and official TSBs."
+  },
+  "heroHook": {
+    "icon": "shield-check",
+    "title": "Include In Hero Hook:",
+    "body": "Yes — both verified: Rover K-Series widely documented with multiple TSBs; M156 pre-2012 established Land Rover specialist pattern."
+  },
+  "features": [
+    {
+      "icon": "link",
+      "title": "New Timing Chains",
+      "body": "Replaced as standard (where worn or damaged)"
+    },
+    {
+      "icon": "gear",
+      "title": "New Tensioners",
+      "body": "For maximum reliability"
+    },
+    {
+      "icon": "guide",
+      "title": "New Injector Seals",
+      "body": "Updated OEM components"
+    },
+    {
+      "icon": "shield-check",
+      "title": "Peace Of Mind",
+      "body": "No hidden extras — just a stronger, longer-lasting engine"
+    }
+  ]
+}

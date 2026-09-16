@@ -1,0 +1,104 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Discovery P400 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Discovery P400 has used the AJ300P (Ingenium 3.0L I6) throughout (D5/L462 (2017–present)). If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2017",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2018",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2019",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2020",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2021",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2022",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2023",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2024",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2025",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2026",
+      "generation": "L462",
+      "engineCode": "AJ300P",
+      "fuel": "Petrol MHEV",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The AJ300P (Ingenium 3.0L I6)",
+    "rest": " has been fitted to every Discovery P400 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

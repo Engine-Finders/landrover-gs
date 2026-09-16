@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Discovery Tdi",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Discovery Tdi"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Discovery"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "Discovery Tdi"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Diesel"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "200Tdi or 300Tdi"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "2.5L I4"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "D1/L318 (1989–1998)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£1,900"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Discovery Tdi uses the 200Tdi or 300Tdi 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Discovery Tdi ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Discovery Tdi has used the 200Tdi or 300Tdi throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "1989",
+      "generation": "D1/L318",
+      "engineCode": "200Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1990",
+      "generation": "D1/L318",
+      "engineCode": "200Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1991",
+      "generation": "D1/L318",
+      "engineCode": "200Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1992",
+      "generation": "D1/L318",
+      "engineCode": "200Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1993",
+      "generation": "D1/L318",
+      "engineCode": "200Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1994",
+      "generation": "D1/L318",
+      "engineCode": "200Tdi/300Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1995",
+      "generation": "D1/L318",
+      "engineCode": "300Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1996",
+      "generation": "D1/L318",
+      "engineCode": "300Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1997",
+      "generation": "D1/L318",
+      "engineCode": "300Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1998",
+      "generation": "D1/L318",
+      "engineCode": "300Tdi",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The 200Tdi or 300Tdi",
+    "rest": " has been fitted to every Discovery Tdi since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

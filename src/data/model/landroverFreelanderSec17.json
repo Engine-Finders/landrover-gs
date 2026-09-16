@@ -1,0 +1,44 @@
+{
+  "kicker": "Full Variant Coverage",
+  "headline": "We Cover Every Land Rover Freelander Variant",
+  "tabs": [
+    "Land Rover Freelander"
+  ],
+  "activeTab": 0,
+  "tabVariants": [
+    [
+      {
+        "label": "Freelander 1.8i"
+      },
+      {
+        "label": "Freelander 2.0 Di / Td4 (L314)"
+      },
+      {
+        "label": "Freelander 2.5 V6"
+      },
+      {
+        "label": "Freelander TD4 (L359)"
+      },
+      {
+        "label": "Freelander eD4"
+      },
+      {
+        "label": "Freelander Si4"
+      },
+      {
+        "label": "Freelander SD4"
+      }
+    ]
+  ],
+  "notice": {
+    "title": "Not seeing your exact variant?",
+    "linkText": "Send us your registration",
+    "rest": " and we'll confirm engine rebuild availability directly."
+  },
+  "priceCta": {
+    "title": "Full Price Breakdown",
+    "body": "See detailed pricing near the top of this page, directly below the Starting From summary.",
+    "image": "/model/sec15_part.webp",
+    "href": "#pricing"
+  }
+}

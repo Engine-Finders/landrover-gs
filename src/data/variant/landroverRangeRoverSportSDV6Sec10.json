@@ -1,0 +1,85 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Range Rover Sport SDV6 ENGINE",
+    "paragraphs": [
+      "The Range Rover Sport SDV6 was offered across two generations — the original L320 (2005–2013) and the L494 (2013–2022). Both use the same 3.0-litre V6 diesel engine, the SDV6, which was also shared with the Range Rover and Discovery models of that era. The SDV6 is one of the most widely fitted diesel engines in the Land Rover range of the 2010s, and its timing chain and injector seal wear patterns are well documented by specialist workshops. The Range Rover Sport SDV6 was discontinued when the L461 generation launched in 2022, but we continue to rebuild and replace engines for every one still on the road."
+    ],
+    "boldParagraph": "We continue to rebuild and replace SDV6 engines for every Range Rover Sport SDV6 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Range Rover Sport SDV6 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "SDV6",
+        "codeRest": "",
+        "body": "A 3.0-litre V6 diesel fitted to the Range Rover Sport SDV6 from 2005 to 2022 across two generations. Known for timing chain tensioner wear and injector seal leaks over time — see the callout above. We replace timing chain components, injector seals, EGR and gaskets as standard on every SDV6 rebuild. Check Your SDV6 Range Rover Sport → [link to quote form]",
+        "cta": "Check Your SDV6 Range Rover Sport SDV6",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Range Rover Sport SDV6 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Range Rover Sport SDV6 uses the same SDV6 engine across both generations, so compatibility is consistent throughout the production run. However, there are subtle differences in ancillaries and ECU calibration between the L320 and L494 that mean we always confirm your exact generation and specification via your registration or VIN before quoting or supplying anything.",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "SDV6",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (SDV6) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (generation)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Range Rover Sport quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Range Rover Sport SDV6 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L320",
+        "chassis": "L320",
+        "years": "2005–2013",
+        "engineCode": "SDV6",
+        "fuel": "Diesel"
+      },
+      {
+        "generation": "L494",
+        "chassis": "L494",
+        "years": "2013–2022",
+        "engineCode": "SDV6",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

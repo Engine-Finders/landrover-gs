@@ -1,0 +1,44 @@
+{
+  "badge": "08",
+  "headline": "What **Land Rover Discovery**|Owners Say",
+  "reviews": [
+    {
+      "platform": "google",
+      "name": "Daniel R.",
+      "text": "Brilliant service from start to finish. My C220d runs better than it ever has. Honest advice, clear pricing and the team know their stuff.",
+      "tag": "C220d Engine Rebuild"
+    },
+    {
+      "platform": "trustpilot",
+      "name": "Mark T.",
+      "text": "They rebuilt my 200Tdi / 300Tdi engine with all the updated parts. No more injector leaks. Smooth process and great communication.",
+      "tag": "C220d Engine Rebuild"
+    },
+    {
+      "platform": "google",
+      "name": "Ryan P.",
+      "text": "Top lads, top job. Picked up and dropped off, engine rebuilt to an extremely high standard. 100% recommend.",
+      "tag": "C300 Engine Rebuild"
+    },
+    {
+      "platform": "trustpilot",
+      "name": "Steve B.",
+      "text": "Saved me thousands compared to a Land Rover dealer quote. Fantastic workmanship and my C250d is running perfectly.",
+      "tag": "C250d Engine Rebuild"
+    },
+    {
+      "platform": "google",
+      "name": "Tom H.",
+      "text": "From quote to collection couldn't fault them. Engine looks brand new inside. Warranty gives great peace of mind.",
+      "tag": "C200 Engine Rebuild"
+    },
+    {
+      "platform": "trustpilot",
+      "name": "James K.",
+      "text": "Professional, reliable and fairly priced. Camshaft adjuster issue on my C63 Land Rover sorted properly and kept me updated throughout.",
+      "tag": "C63 Land Rover Engine Rebuild"
+    }
+  ],
+  "googleCta": "See All Reviews On Google",
+  "trustpilotCta": "See All Reviews On Trustpilot"
+}

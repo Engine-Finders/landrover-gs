@@ -1,0 +1,59 @@
+{
+  "kicker": "Full Variant Coverage",
+  "headline": "We Cover Every Land Rover Range Rover Evoque Variant",
+  "tabs": [
+    "Land Rover Range Rover Evoque"
+  ],
+  "activeTab": 0,
+  "tabVariants": [
+    [
+      {
+        "label": "Range Rover Evoque eD4"
+      },
+      {
+        "label": "Range Rover Evoque TD4"
+      },
+      {
+        "label": "Range Rover Evoque Si4"
+      },
+      {
+        "label": "Range Rover Evoque P200"
+      },
+      {
+        "label": "Range Rover Evoque P250"
+      },
+      {
+        "label": "Range Rover Evoque P300"
+      },
+      {
+        "label": "Range Rover Evoque P300e"
+      },
+      {
+        "label": "Range Rover Evoque D150"
+      },
+      {
+        "label": "Range Rover Evoque D165"
+      },
+      {
+        "label": "Range Rover Evoque D180"
+      },
+      {
+        "label": "Range Rover Evoque D200"
+      },
+      {
+        "label": "Range Rover Evoque D240"
+      }
+    ]
+  ],
+  "notice": {
+    "title": "Not seeing your exact variant?",
+    "linkText": "Send us your registration",
+    "rest": " and we'll confirm engine rebuild availability directly."
+  },
+  "priceCta": {
+    "title": "Full Price Breakdown",
+    "body": "See detailed pricing near the top of this page, directly below the Starting From summary.",
+    "image": "/model/sec15_part.webp",
+    "href": "#pricing"
+  }
+}

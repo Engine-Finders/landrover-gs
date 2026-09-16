@@ -1,0 +1,184 @@
+{
+  "brand": "LAND ROVER GARAGE",
+  "blurb": "Land Rover engine rebuild specialists. Ingenium diesel, TDV6 & TDV8 & more — 4x4s and SUVs. Fixed-price quotes, 12-month unlimited-mileage warranty.",
+  "columns": [
+    {
+      "title": "Company",
+      "links": [
+        {
+          "label": "About Us",
+          "href": "/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        },
+        {
+          "label": "Financing & Payment",
+          "href": "/financing"
+        },
+        {
+          "label": "Pricing & Legal Disclaimer",
+          "href": "/pricing-legal-disclaimer"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy-policy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "/terms-and-conditions"
+        },
+        {
+          "label": "Warranty",
+          "href": "/warranty"
+        }
+      ]
+    },
+    {
+      "title": "Popular Engines",
+      "links": [
+        {
+          "label": "Land Rover 200tdi",
+          "href": "/landrover-200tdi-engine"
+        },
+        {
+          "label": "Land Rover 300tdi",
+          "href": "/landrover-300tdi-engine"
+        },
+        {
+          "label": "Land Rover AJ V8",
+          "href": "/landrover-aj-v8-engine"
+        },
+        {
+          "label": "Land Rover Aj133",
+          "href": "/landrover-aj133-engine"
+        },
+        {
+          "label": "Land Rover Aj150d",
+          "href": "/landrover-aj150d-engine"
+        },
+        {
+          "label": "Land Rover Aj200d",
+          "href": "/landrover-aj200d-engine"
+        },
+        {
+          "label": "Land Rover Aj200p",
+          "href": "/landrover-aj200p-engine"
+        },
+        {
+          "label": "Land Rover Aj300d",
+          "href": "/landrover-aj300d-engine"
+        },
+        {
+          "label": "Land Rover Aj300p",
+          "href": "/landrover-aj300p-engine"
+        },
+        {
+          "label": "Land Rover Aj41",
+          "href": "/landrover-aj41-engine"
+        }
+      ]
+    },
+    {
+      "title": "Popular Models",
+      "links": [
+        {
+          "label": "Land Rover Defender",
+          "href": "/defender-engines"
+        },
+        {
+          "label": "Land Rover Discovery",
+          "href": "/discovery-engines"
+        },
+        {
+          "label": "Land Rover Discovery Sport",
+          "href": "/discovery-sport-engines"
+        },
+        {
+          "label": "Land Rover Freelander",
+          "href": "/freelander-engines"
+        },
+        {
+          "label": "Land Rover Range Rover Evoque",
+          "href": "/range-rover-evoque-engines"
+        },
+        {
+          "label": "Land Rover Range Rover Sport",
+          "href": "/range-rover-sport-engines"
+        },
+        {
+          "label": "Land Rover Range Rover Velar",
+          "href": "/range-rover-velar-engines"
+        }
+      ]
+    },
+    {
+      "title": "Guides",
+      "links": [
+        {
+          "label": "Engine Removal, Refit & Final Testing",
+          "href": "/land-rover-engine-removal-refit-and-final-testing"
+        },
+        {
+          "label": "High-Mileage Engine Rebuild",
+          "href": "/land-rover-high-mileage-engine-rebuild"
+        },
+        {
+          "label": "Inside Our Workshop",
+          "href": "/land-rover-inside-our-workshop"
+        },
+        {
+          "label": "Land Rover Before & After Rebuilds",
+          "href": "/land-rover-before-after-rebuilds"
+        },
+        {
+          "label": "Land Rover BMW‑Sourced V8 Hot‑Vee Repair (N63/S68)",
+          "href": "/land-rover-bmw-sourced-v8-hot-vee-repair"
+        },
+        {
+          "label": "Land Rover Cylinder Head Repair & Rebuild",
+          "href": "/land-rover-cylinder-head-repair-rebuild"
+        },
+        {
+          "label": "Land Rover DC-DC Converter Repair (Ingenium MHEV)",
+          "href": "/land-rover-dc-dc-converter-repair"
+        },
+        {
+          "label": "Land Rover Diesel Timing Chain Repair (TDV6/SDV6/TDV8/SDV8)",
+          "href": "/land-rover-diesel-timing-chain-repair"
+        },
+        {
+          "label": "Land Rover Engine Bearing Replacement",
+          "href": "/land-rover-engine-bearing-replacement"
+        },
+        {
+          "label": "Land Rover Engine Compatibility & Application Matching",
+          "href": "/land-rover-engine-compatibility-application-matching"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "address": "Unit A5 Windsor Road, Commercial Estate, Ramsden Heath, Billericay, CM11 1QE",
+    "phone": "0203 488 4649",
+    "whatsapp": "07975 827 396",
+    "email": "info@landrovergarage.co.uk",
+    "hours": "Mon–Fri 9am–6pm · Sat 11am–2pm"
+  },
+  "social": [
+    {
+      "label": "Facebook",
+      "href": "https://facebook.com/landroverrebuildgarageuk"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com/landroverrebuildgarageuk"
+    },
+    {
+      "label": "TikTok",
+      "href": "https://tiktok.com/@landroverrebuildgarageuk"
+    }
+  ],
+  "copyright": "© 2026 Land Rover Garage — a trading name of JLR Engine Specialists Ltd (Company No. 16500838). Independent Land Rover specialist, not affiliated with Land Rover AG."
+}

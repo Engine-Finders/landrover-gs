@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Freelander 1.8i",
+  "headlinePost": " Engine",
+  "image": "/variant/sec10_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Freelander 1.8i"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Freelander"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "1.8i"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "Rover K-Series"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "1.8L I4"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "L314 (1997–2006)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£1,900"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Freelander 1.8i uses the Rover K-Series 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

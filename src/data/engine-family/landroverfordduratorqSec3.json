@@ -1,0 +1,70 @@
+{
+  "image": "/engine/sec3.webp",
+  "titlePre": "Land Rover Ford Duratorq Applications — ",
+  "titleHighlight": "Every Model & Variant",
+  "columns": [
+    {
+      "label": "Model"
+    },
+    {
+      "label": "Variant"
+    },
+    {
+      "label": "Generation"
+    },
+    {
+      "label": "Chassis"
+    },
+    {
+      "label": "Years"
+    },
+    {
+      "label": "Powertrain Sub-type"
+    }
+  ],
+  "rows": [
+    {
+      "model": "Defender",
+      "variant": "2.2 TDCi",
+      "generation": "L663 (Puma)",
+      "chassis": "L663",
+      "years": "2012–2016",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-defender-engines"
+    },
+    {
+      "model": "Discovery Sport",
+      "variant": "TD4, SD4",
+      "generation": "L550",
+      "chassis": "L550",
+      "years": "2014–2016",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-discovery-sport-engines"
+    },
+    {
+      "model": "Freelander",
+      "variant": "TD4, SD4",
+      "generation": "L359",
+      "chassis": "L359",
+      "years": "2011–2014",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-freelander-engines"
+    },
+    {
+      "model": "Range Rover Evoque",
+      "variant": "TD4, SD4",
+      "generation": "L538",
+      "chassis": "L538",
+      "years": "2011–2016",
+      "powertrain": "Diesel",
+      "modelHref": "/landrover-range-rover-evoque-engines"
+    }
+  ],
+  "prompt": {
+    "icon": "search",
+    "titlePre": "Not seeing your exact model?",
+    "subtext": "Send us your registration and we'll confirm.",
+    "buttonLabel": "Send Us Your Registration →",
+    "href": "#quote-form"
+  }
+}

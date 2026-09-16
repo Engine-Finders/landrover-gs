@@ -1,0 +1,96 @@
+{
+  "badge": "10",
+  "headlinePre": "Most Popular",
+  "headlineHighlight": "Land Rover Range Rover Sport Rebuilds",
+  "subhead": "Full variant list below covers every Land Rover Range Rover Sport engine we work on — these 10 are simply our most requested.",
+  "image": "/model/sec10.webp",
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like.",
+  "cards": [
+    {
+      "number": "01",
+      "model": "Land Rover C180",
+      "spec": "1.6L Petrol (TDV6)"
+    },
+    {
+      "number": "02",
+      "model": "Land Rover C200",
+      "spec": "2.0L Petrol (TDV6)"
+    },
+    {
+      "number": "03",
+      "model": "Land Rover C220d",
+      "spec": "2.1L Diesel (TDV6)"
+    },
+    {
+      "number": "04",
+      "model": "Land Rover C250",
+      "spec": "1.8L Petrol Turbo (M271)"
+    },
+    {
+      "number": "05",
+      "model": "Land Rover C250d",
+      "spec": "2.1L Diesel (TDV6)"
+    },
+    {
+      "number": "06",
+      "model": "Land Rover C300",
+      "spec": "2.0L Petrol Turbo (TDV6)"
+    },
+    {
+      "number": "07",
+      "model": "Land Rover C300d",
+      "spec": "2.0L Diesel (TDV6)"
+    },
+    {
+      "number": "08",
+      "model": "Land Rover C350",
+      "spec": "3.5L Petrol (TDV6)"
+    },
+    {
+      "number": "09",
+      "model": "Land Rover C43 Land Rover",
+      "spec": "3.0L Petrol Twin-Turbo (TDV6)"
+    },
+    {
+      "number": "10",
+      "model": "Land Rover C63 Land Rover",
+      "spec": "6.2 / 4.0L Petrol (M156 / TDV6)"
+    }
+  ],
+  "variants": [
+    {
+      "label": "Range Rover Sport TDV6"
+    },
+    {
+      "label": "Range Rover Sport TDV8"
+    },
+    {
+      "label": "Range Rover Sport SDV6"
+    },
+    {
+      "label": "Range Rover Sport SDV8"
+    },
+    {
+      "label": "Range Rover Sport HSE"
+    },
+    {
+      "label": "Range Rover Sport Autobiography Dynamic"
+    },
+    {
+      "label": "Range Rover Sport SVR"
+    },
+    {
+      "label": "Range Rover Sport P400"
+    },
+    {
+      "label": "Range Rover Sport P460e"
+    },
+    {
+      "label": "Range Rover Sport P525"
+    },
+    {
+      "label": "Range Rover Sport P550e"
+    }
+  ]
+}

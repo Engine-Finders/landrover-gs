@@ -1,0 +1,97 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Defender Td4 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Defender Td4 has used the BMW M47D20 throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "1998",
+      "generation": "Classic 90/110/130",
+      "engineCode": "BMW M47D20",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1999",
+      "generation": "Classic 90/110/130",
+      "engineCode": "BMW M47D20",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2000",
+      "generation": "Classic 90/110/130",
+      "engineCode": "BMW M47D20",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2001",
+      "generation": "Classic 90/110/130",
+      "engineCode": "BMW M47D20",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2002",
+      "generation": "Classic 90/110/130",
+      "engineCode": "BMW M47D20",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2003",
+      "generation": "Classic 90/110/130",
+      "engineCode": "BMW M47D20",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2004",
+      "generation": "Classic 90/110/130",
+      "engineCode": "BMW M47D20",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2005",
+      "generation": "Classic 90/110/130",
+      "engineCode": "BMW M47D20",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2006",
+      "generation": "Classic 90/110/130",
+      "engineCode": "BMW M47D20",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The BMW M47D20",
+    "rest": " has been fitted to every Defender Td4 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

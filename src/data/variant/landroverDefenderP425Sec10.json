@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Defender P425 ENGINE",
+    "paragraphs": [
+      "The Defender P425 is a 2024 variant of the L663-generation Defender, fitted with the AJ133 — a 5.0-litre supercharged V8 that sits alongside the P500 and P525 as part of the same engine family, with the badge tracking the power tune rather than indicating a different engine. The AJ133 is a well-established Jaguar Land Rover V8 platform, shared with models like the Range Rover Sport SVR and Velar SVAutobiography Dynamic Edition, and is known as a generally reliable unit in its class. The P425 was produced as a 2024 model-year offering across the 90, 110 and 130 body styles, making it the most accessible entry point into V8-powered L663 Defender ownership before higher-output tunes arrived."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ133 engines for every Defender P425 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Defender P425 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ133",
+        "codeRest": "",
+        "body": "A 5.0-litre supercharged V8 fitted to the Defender P425 in 2024 (L663 generation). This is the same AJ133 platform used across the P500 and P525 badges, with the number indicating the power output tune rather than a distinct engine design. No Defender-specific issue is confirmed for this application; reliability patterns are inferred from the broader supercharged AJ-V8 family used in sibling models such as the Range Rover Sport SVR and Velar SVAutobiography Dynamic Edition. We replace timing chains, bearings, water pump and gaskets as standard on every AJ133 rebuild. Check Your AJ133 Defender P425 → [link to quote form]",
+        "cta": "Check Your AJ133 Defender P425",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Defender P425 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Defender P425 is a single-year variant that shares its engine platform with the P500 and P525, fitting the correct specification parts matters for maintaining the intended performance and reliability. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ133",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ133)"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L663)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Defender P425 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L663",
+        "chassis": "L663",
+        "years": "2024",
+        "engineCode": "AJ133",
+        "fuel": "Petrol Supercharged"
+      }
+    ]
+  }
+}

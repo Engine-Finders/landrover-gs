@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Td5 ENGINE",
+    "paragraphs": [
+      "The Discovery Td5 uses the Td5 — a 2.5-litre inline-five diesel, fitted from 1998 to 2004 across the D2 generation. It was the last of the classic Discovery diesel engines before the TDV6 era, and remains a popular choice among Land Rover enthusiasts. The Td5 is a completely different engine from the earlier 200Tdi/300Tdi units — electronic injection rather than mechanical, and a five-cylinder layout rather than four. Knowing which engine your Discovery has matters, which is why we confirm your exact engine by registration before quoting."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Td5 engines for every Discovery Td5 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Td5 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Td5",
+        "codeRest": "",
+        "body": "A 2.5-litre inline-five diesel fitted to the Discovery from 1998 to 2004 (D2 generation). Known for injector harness oil contamination and crank sensor failure over time — see the callout above. We replace injector seals, timing chain components, and check the injector harness and crank sensor as standard on every Td5 rebuild. Check Your Td5 Discovery → [link to quote form]",
+        "cta": "Check Your Td5 Discovery Td5",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Td5 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Td5 is specific to the D2 generation Discovery, produced from 1998 to 2004. Fitting the wrong replacement — or assuming a Td5 part from a Defender is identical — risks a compatibility problem. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "Td5",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (Td5)"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (D2)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Td5 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "D2",
+        "chassis": "L318 facelift",
+        "years": "1998–2004",
+        "engineCode": "Td5",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

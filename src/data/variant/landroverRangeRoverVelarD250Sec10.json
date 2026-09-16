@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Range Rover Velar D250 ENGINE",
+    "paragraphs": [
+      "The Velar D250 uses the Ingenium AJ300D — a 3.0-litre inline-six diesel that's part of Jaguar Land Rover's modern engine family. It was introduced with the Velar in 2017 and remains in production today across the L560 generation. The AJ300D sits in the middle of the Velar diesel range, offering a balance of performance and efficiency between the 4-cylinder D200 and the higher-output D300. It's a different unit from the 4-cylinder AJ200D found in the D180 and D200 variants — larger capacity, six cylinders instead of four, and a different architecture with its own specific components."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ300D engines for every Range Rover Velar D250 on the road."
+  },
+  "codes": {
+    "titlePre": "Range Rover Velar D250 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ300D",
+        "codeRest": "",
+        "body": "A 3.0-litre inline-six diesel fitted to the Velar D250 from 2017 to present (L560 generation). Known for timing chain tensioner wear — see the callout above. We replace timing chains, injector seals, bearings and gaskets as standard on every AJ300D rebuild. Check Your AJ300D Velar D250 → [link to quote form]",
+        "cta": "Check Your AJ300D Range Rover Velar D250",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Range Rover Velar D250 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Velar diesel range uses two different Ingenium diesel engines — the 4-cylinder AJ200D and the 6-cylinder AJ300D — fitting the wrong replacement or assuming parts are interchangeable risks a compatibility problem. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ300D",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ300D for the D250)"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L560 — the only generation for Velar)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Range Rover Velar quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Range Rover Velar D250 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L560",
+        "chassis": "L560",
+        "years": "2017–present",
+        "engineCode": "AJ300D",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

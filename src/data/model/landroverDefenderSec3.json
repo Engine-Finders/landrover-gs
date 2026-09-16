@@ -1,0 +1,52 @@
+{
+  "kicker": "Transparent Pricing",
+  "h2": "Land Rover Defender|Rebuild Pricing",
+  "startingFromLabel": "Starting From:",
+  "image": "/model/sec3.webp",
+  "imageMobile": "/model/sec3_mobile.webp",
+  "cardImage": "/model/engine_trim.webp",
+  "cards": [
+    {
+      "titlePre": "Classic Diesel (Td5 / 300Tdi / 200Tdi)",
+      "titleHighlight": "",
+      "code": "",
+      "price": "£1,900",
+      "featured": false
+    },
+    {
+      "titlePre": "L663 4-Cylinder (Ingenium AJ200D / P300e)",
+      "titleHighlight": "",
+      "code": "",
+      "price": "£2,200",
+      "featured": false
+    },
+    {
+      "titlePre": "L663 6-Cylinder (Ingenium AJ300D / P400)",
+      "titleHighlight": "",
+      "code": "",
+      "price": "£2,800",
+      "featured": false
+    },
+    {
+      "titlePre": "L663 V8 (P525 / V8)",
+      "titleHighlight": "",
+      "code": "",
+      "price": "£4,500",
+      "featured": false
+    },
+    {
+      "titlePre": "Nationwide Recovery",
+      "titleHighlight": "",
+      "code": "",
+      "price": "from £70",
+      "featured": false
+    }
+  ],
+  "disclaimer": "Exact price depends on engine code, condition and parts required — full pricing further down this page.",
+  "cta": {
+    "line1": "Get Your Fixed-Price Quote",
+    "line2": "In Under 30 Minutes",
+    "buttonLabel": "Request Quote",
+    "href": "#quote-form"
+  }
+}

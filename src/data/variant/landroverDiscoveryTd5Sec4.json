@@ -1,0 +1,42 @@
+{
+  "headlinePre": "Land Rover Discovery Td5",
+  "headlineHighlight": "ENGINE OPTIONS",
+  "description": "Every Discovery Td5 is different. That's why we offer the right solution for your engine, your car and your budget.",
+  "topImage": "/variant/sec4.webp",
+  "cards": [
+    {
+      "number": "01",
+      "icon": "piston",
+      "badge": "MOST POPULAR",
+      "title": "REBUILDING YOUR DISCOVERY TD5 ENGINE",
+      "body": "Most engine suppliers sell you a used engine of unknown history and hope it matches. We rebuild the engine your Discovery already has instead — strip it down, pressure-test it, and replace every worn or damaged component (injector seals, timing chain components, cooling system parts) with updated OEM parts. You get a near-new engine with a 12-month unlimited-mileage warranty, without the compatibility risk of an unknown used unit. This is the option most Discovery Td5 owners choose, and it's the one we'd recommend for most situations."
+    },
+    {
+      "number": "02",
+      "icon": "pin",
+      "badge": "",
+      "title": "REPLACEMENT DISCOVERY TD5 ENGINES",
+      "body": "If your existing engine is beyond economical repair, we also offer full engine replacement and fitting — sourced and fitted by our team, with the same 12-month unlimited-mileage warranty."
+    },
+    {
+      "number": "03",
+      "icon": "gear",
+      "badge": "",
+      "title": "USED DISCOVERY TD5 ENGINES",
+      "body": "In some cases, a matched low-mileage used engine is the right call — particularly if you need your car back on the road quickly and your existing engine's damage is extensive. We can source and fit these too, though most owners who ask about used engines end up choosing a rebuild once they understand the compatibility risk a used unit carries. Enter your reg below and we'll talk you through both options honestly."
+    }
+  ],
+  "banner": {
+    "image": "/variant/sec3_engine.webp",
+    "title": "NOT SURE WHICH OPTION IS RIGHT FOR YOU?",
+    "body": "Enter your registration below and we'll confirm your Td5 and talk you through the best solution for your Discovery Td5, honestly.",
+    "cta": {
+      "label": "Ask About Your Options",
+      "href": "#quote-form"
+    }
+  },
+  "knownIssue": {
+    "title": "Land Rover Discovery Td5 Injector Harness & Crank Sensor Issues",
+    "body": ""
+  }
+}

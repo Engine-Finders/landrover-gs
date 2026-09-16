@@ -1,0 +1,65 @@
+{
+  "kicker": "Full Breakdown",
+  "headlinePre": "Land Rover Freelander",
+  "headlineHighlight": "Engine Rebuild Price Guide",
+  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide — request a free quote for an exact fixed price on your specific engine.",
+  "columns": [
+    "Engine Code",
+    "Fuel",
+    "Size",
+    "Rebuild Price Range"
+  ],
+  "rows": [
+    {
+      "family": "Rover K-Series",
+      "fuel": "Petrol I4",
+      "size": "1.8L",
+      "chassis": "",
+      "range": "L314"
+    },
+    {
+      "family": "BMW M47D20",
+      "fuel": "Diesel I4",
+      "size": "2.0L",
+      "chassis": "",
+      "range": "L314 / L359"
+    },
+    {
+      "family": "Ford Duratorq",
+      "fuel": "Diesel I4",
+      "size": "2.2L",
+      "chassis": "",
+      "range": "L359 (eD4/SD4)"
+    },
+    {
+      "family": "Ford EcoBoost",
+      "fuel": "Petrol I4",
+      "size": "2.0L",
+      "chassis": "",
+      "range": "L359 (Si4)"
+    }
+  ],
+  "features": [
+    {
+      "icon": "gear",
+      "title": "OEM Components",
+      "body": "Updated components for maximum reliability"
+    },
+    {
+      "icon": "shield-check",
+      "title": "Key Parts Replaced",
+      "body": "Timing chains, injector seals, tensioners & gaskets"
+    },
+    {
+      "icon": "truck",
+      "title": "Recovery From £70",
+      "body": "Nationwide recovery quoted separately"
+    },
+    {
+      "icon": "note",
+      "title": "Prices Exclude VAT",
+      "body": "Unless stated otherwise"
+    }
+  ],
+  "disclaimer": "Every rebuild identifies and replaces worn or damaged timing chains, injector seals, tensioners and gaskets with updated OEM components. Recovery quoted separately from £70. Prices exclude VAT unless stated."
+}

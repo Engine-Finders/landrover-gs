@@ -1,0 +1,38 @@
+{
+  "kicker": "Transparent Pricing",
+  "h2": "Land Rover Range Rover Evoque|Rebuild Pricing",
+  "startingFromLabel": "Starting From:",
+  "image": "/model/sec3.webp",
+  "imageMobile": "/model/sec3_mobile.webp",
+  "cardImage": "/model/engine_trim.webp",
+  "cards": [
+    {
+      "titlePre": "4-Cylinder Diesel/Petrol (Ingenium AJ200D/AJ150D/AJ200P)",
+      "titleHighlight": "",
+      "code": "",
+      "price": "£2,200",
+      "featured": false
+    },
+    {
+      "titlePre": "4-Cylinder Diesel (Ford Duratorq, pre-2016)",
+      "titleHighlight": "",
+      "code": "",
+      "price": "£2,200",
+      "featured": false
+    },
+    {
+      "titlePre": "Nationwide Recovery",
+      "titleHighlight": "",
+      "code": "",
+      "price": "from £70",
+      "featured": false
+    }
+  ],
+  "disclaimer": "Exact price depends on engine code, condition and parts required — full pricing further down this page.",
+  "cta": {
+    "line1": "Get Your Fixed-Price Quote",
+    "line2": "In Under 30 Minutes",
+    "buttonLabel": "Request Quote",
+    "href": "#quote-form"
+  }
+}

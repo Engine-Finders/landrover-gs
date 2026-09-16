@@ -1,0 +1,40 @@
+{
+  "kicker": "Known Issue",
+  "h2": "Discovery Sport Ingenium Diesel Timing Chain Issues?||",
+  "description": "We replace timing chains, tensioners and injector seals as standard on every Ingenium diesel rebuild where worn or damaged. If your Discovery Sport is a pre-2016 model fitted with the earlier Ford Duratorq diesel, we also see injector seal leaks and EGR clogging on that engine specifically.",
+  "descriptionEmphasis": "No hidden extras.",
+  "image": "/model/sec2.webp",
+  "imageMobile": "/model/sec2_mobile.webp",
+  "callout": {
+    "icon": "shield-check",
+    "title": "A Well-Documented Issue",
+    "body": "Ford Duratorq injector seal leaks and timing chain wear are widely documented across Land Rover specialist forums and official TSBs."
+  },
+  "heroHook": {
+    "icon": "shield-check",
+    "title": "Include In Hero Hook:",
+    "body": "Yes — both verified: Ford Duratorq widely documented with multiple TSBs; M156 pre-2012 established Land Rover specialist pattern."
+  },
+  "features": [
+    {
+      "icon": "link",
+      "title": "New Timing Chains",
+      "body": "Replaced as standard (where worn or damaged)"
+    },
+    {
+      "icon": "gear",
+      "title": "New Tensioners",
+      "body": "For maximum reliability"
+    },
+    {
+      "icon": "guide",
+      "title": "New Injector Seals",
+      "body": "Updated OEM components"
+    },
+    {
+      "icon": "shield-check",
+      "title": "Peace Of Mind",
+      "body": "No hidden extras — just a stronger, longer-lasting engine"
+    }
+  ]
+}

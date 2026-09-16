@@ -1,0 +1,96 @@
+{
+  "badge": "10",
+  "headlinePre": "Most Popular",
+  "headlineHighlight": "Land Rover Range Rover Velar Rebuilds",
+  "subhead": "Full variant list below covers every Land Rover Range Rover Velar engine we work on — these 10 are simply our most requested.",
+  "image": "/model/sec10.webp",
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like.",
+  "cards": [
+    {
+      "number": "01",
+      "model": "Land Rover C180",
+      "spec": "1.6L Petrol (Ingenium AJ200D)"
+    },
+    {
+      "number": "02",
+      "model": "Land Rover C200",
+      "spec": "2.0L Petrol (Ingenium AJ200D)"
+    },
+    {
+      "number": "03",
+      "model": "Land Rover C220d",
+      "spec": "2.1L Diesel (Ingenium AJ200D)"
+    },
+    {
+      "number": "04",
+      "model": "Land Rover C250",
+      "spec": "1.8L Petrol Turbo (M271)"
+    },
+    {
+      "number": "05",
+      "model": "Land Rover C250d",
+      "spec": "2.1L Diesel (Ingenium AJ200D)"
+    },
+    {
+      "number": "06",
+      "model": "Land Rover C300",
+      "spec": "2.0L Petrol Turbo (Ingenium AJ200D)"
+    },
+    {
+      "number": "07",
+      "model": "Land Rover C300d",
+      "spec": "2.0L Diesel (Ingenium AJ200D)"
+    },
+    {
+      "number": "08",
+      "model": "Land Rover C350",
+      "spec": "3.5L Petrol (Ingenium AJ200D)"
+    },
+    {
+      "number": "09",
+      "model": "Land Rover C43 Land Rover",
+      "spec": "3.0L Petrol Twin-Turbo (Ingenium AJ200D)"
+    },
+    {
+      "number": "10",
+      "model": "Land Rover C63 Land Rover",
+      "spec": "6.2 / 4.0L Petrol (M156 / Ingenium AJ200D)"
+    }
+  ],
+  "variants": [
+    {
+      "label": "Range Rover Velar D180"
+    },
+    {
+      "label": "Range Rover Velar D200"
+    },
+    {
+      "label": "Range Rover Velar D240"
+    },
+    {
+      "label": "Range Rover Velar D250"
+    },
+    {
+      "label": "Range Rover Velar D300"
+    },
+    {
+      "label": "Range Rover Velar P250"
+    },
+    {
+      "label": "Range Rover Velar P300"
+    },
+    {
+      "label": "Range Rover Velar P340"
+    },
+    {
+      "label": "Range Rover Velar P400"
+    },
+    {
+      "label": "Range Rover Velar P400e"
+    },
+    {
+      "label": "Range Rover Velar SVAutobiography Dynamic Edition"
+    }
+  ]
+}

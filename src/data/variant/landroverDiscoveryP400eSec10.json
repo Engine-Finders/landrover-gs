@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery P400e ENGINE",
+    "paragraphs": [
+      "The Discovery P400e is a plug-in hybrid variant of the current D5 generation, introduced in 2017. It uses the Ingenium AJ300P — a 3.0-litre inline-six petrol engine paired with an electric motor and battery. It is one of the few petrol options in the Discovery range, sitting alongside the diesel D250/D300/D350 and the petrol P360/P400. The P400e's powertrain is shared with other JLR models, and its petrol engine is known to be generally more reliable than its diesel Ingenium counterparts."
+    ],
+    "boldParagraph": "We continue to rebuild and replace engine engines for every Discovery P400e on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery P400e ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "—",
+        "codeRest": "",
+        "body": "A 3.0-litre inline-six petrol fitted to the Discovery P400e from 2017 to present (D5/L462). This is the petrol PHEV engine for the Discovery range. There are no widely-reported known issues specifically for this engine in this application. Check Your Ingenium AJ300P Discovery P400e → [link to quote form]",
+        "cta": "Check Your engine Discovery P400e",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery P400e ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Discovery D5 shares the same AJ300P engine with other variants like the P400, and the range also uses different engines for diesel models (AJ300D) and the P360, it's critical to confirm your exact engine code before any work is carried out. Sourcing the wrong engine or assuming the same parts fit across the range can lead to compatibility issues. We always start with your registration to verify your Discovery P400e's exact engine code.",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "engine",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (engine) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (generation)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Land Rover quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery P400e ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "D5",
+        "chassis": "L462",
+        "years": "2017–present",
+        "engineCode": "Ingenium AJ300P",
+        "fuel": "Petrol PHEV"
+      }
+    ]
+  }
+}

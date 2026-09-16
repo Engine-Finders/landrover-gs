@@ -1,0 +1,8 @@
+{
+  "h1": "Land Rover|Engine Rebuild|Specialists",
+  "subhead": "We rebuild failed Land Rover engines using specialist components, fixed-price quotations and nationwide recovery.",
+  "image": "/home/sec1-2.webp",
+  "mobileImage": "/home/sec1_mobile.webp",
+  "ctaPrimary": { "label": "Check My Land Rover", "href": "#find-my-landrover" },
+  "ctaSecondary": { "label": "Get Fixed Price Quote", "href": "/contact" }
+}

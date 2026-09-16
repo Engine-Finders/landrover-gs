@@ -1,0 +1,104 @@
+{
+  "image": "/variant/sec11.webp",
+  "titlePre": "Land Rover Freelander 2.5 V6 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Freelander 2.5 V6 has used the same engine throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "1997",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1998",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "1999",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2000",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2001",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2002",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2003",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2004",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2005",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "2006",
+      "generation": "L314",
+      "engineCode": "[MISSING: exact engine code not specified]",
+      "fuel": "Petrol",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The engine",
+    "rest": " has been fitted to every Freelander 2.5 V6 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "headlinePre": "Land Rover Range Rover Sport Engine",
+  "headlineHighlight": "Coverage",
+  "kicker": "Engines by Model Year",
+  "description": "Our Land Rover engine specialist garage covers all engine types from 1993 to 2026, across every Range Rover Sport generation.",
+  "image": "/model/sec15.webp",
+  "imageMobile": "/model/sec15_mobile.webp",
+  "partImage": "/model/sec15_part.webp",
+  "generations": [
+    {
+      "years": "1993–2000",
+      "code": "W202",
+      "list": "1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000 Land Rover Range Rover Sport engines"
+    },
+    {
+      "years": "2000–2007",
+      "code": "W203",
+      "list": "2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007 Land Rover Range Rover Sport engines"
+    },
+    {
+      "years": "2007–2014",
+      "code": "W204",
+      "list": "2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Land Rover Range Rover Sport engines"
+    },
+    {
+      "years": "2014–2021",
+      "code": "W205",
+      "list": "2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021 Land Rover Range Rover Sport engines"
+    },
+    {
+      "years": "2021–present",
+      "code": "W206",
+      "list": "2021, 2022, 2023, 2024, 2025, 2026 Land Rover Range Rover Sport engines"
+    }
+  ],
+  "notice": "If your registration year isn't listed, get in touch — we'll confirm availability directly against your reg.",
+  "checklistTitlePre": "We Cover Every",
+  "checklistTitleHighlight": "Land Rover C220d Model:",
+  "checklistLeft": [
+    "Land Rover C220d 2016 Engine Rebuild",
+    "Land Rover C220d 2017 Engine Rebuild",
+    "Land Rover C220d 2018 Engine Rebuild",
+    "Land Rover C220d 2019 Engine Rebuild",
+    "Land Rover C220d 2020 Engine Rebuild"
+  ],
+  "modelYearRange": "2005–2013 (L320):"
+}

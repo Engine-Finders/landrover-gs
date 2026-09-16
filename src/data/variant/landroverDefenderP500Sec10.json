@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Defender P500 ENGINE",
+    "paragraphs": [
+      "The Defender P500 uses the AJ133 — a 5.0-litre supercharged V8, fitted across the L663 generation from 2024 to 2025. This is the same engine family used in high-performance Land Rover and Range Rover models, including the Range Rover Sport SVR and Velar SVAutobiography. The P500 badge tracks a specific power tune of this engine, but it's the same AJ133 unit as the P425 and P525 variants — the badge denotes the output level rather than a different engine."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ133 engines for every Defender P500 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Defender P500 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ133",
+        "codeRest": "",
+        "body": "A 5.0-litre supercharged V8 fitted to the Defender P500 from 2024 to 2025 (L663 generation). The AJ133 is generally reliable in this application, sharing the broader supercharged AJ-V8 pattern used across the Range Rover Sport SVR and Velar SVAutobiography. No Defender-specific issue has been confirmed for this engine. Check Your AJ133 Defender P500 → [link to quote form]",
+        "cta": "Check Your AJ133 Defender P500",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Defender P500 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The AJ133 supercharged V8 was fitted to the Defender as a limited-run performance option between 2024 and 2025. Because it's the same engine family used in other Land Rover models, it's essential to match your specific vehicle's VIN before sourcing or fitting any components — the ECU calibration, ancillaries and cooling system setup can vary between applications. We always start with your registration to confirm your exact spec before quoting anything.",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ133",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ133) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (generation)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Defender P500 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L663",
+        "chassis": "L663",
+        "years": "2024–2025",
+        "engineCode": "AJ133",
+        "fuel": "Petrol Supercharged"
+      }
+    ]
+  }
+}

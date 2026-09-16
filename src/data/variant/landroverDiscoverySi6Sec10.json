@@ -1,0 +1,85 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Si6 ENGINE",
+    "paragraphs": [
+      "The Discovery Si6 is the petrol V6 variant of the Discovery 3 and Discovery 4 ranges, produced from 2004 to 2016. It uses the AJ-V6 — a 3.0-litre petrol V6 that was also used across other Jaguar Land Rover products of the same era. The Si6 badge was primarily used to differentiate it from the diesel TDV6 and SDV6 variants in the Discovery line-up. The engine remained consistent throughout both the D3 and D4 generations, with the same fundamental AJ-V6 design powering both."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ-V6 engines for every Discovery Si6 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Si6 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ-V6",
+        "codeRest": "",
+        "body": "A 3.0-litre V6 petrol fitted to the Discovery Si6 from 2004 to 2016, across both the D3 and D4 generations. No specific known issue confirmed for this application — it's considered a generally reliable petrol V6. Check Your AJ-V6 Discovery Si6 → [link to quote form]",
+        "cta": "Check Your AJ-V6 Discovery Si6",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Si6 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Discovery Si6 uses the same AJ-V6 petrol engine across both the D3 and D4 generations, compatibility is straightforward — the same engine family was fitted throughout the entire 2004–2016 production run. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ-V6",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ-V6) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (D3/L319 or D4/L319 facelift)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Discovery quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Si6 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "D3",
+        "chassis": "L319",
+        "years": "2004–2009",
+        "engineCode": "AJ-V6",
+        "fuel": "Petrol"
+      },
+      {
+        "generation": "D4",
+        "chassis": "L319 facelift",
+        "years": "2009–2016",
+        "engineCode": "AJ-V6",
+        "fuel": "Petrol"
+      }
+    ]
+  }
+}

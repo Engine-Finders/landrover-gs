@@ -1,0 +1,49 @@
+{
+  "titlePre": "OUR ",
+  "titleHighlight": "WORKSHOP",
+  "image": "/variant/sec5.webp",
+  "items": [
+    {
+      "number": "01",
+      "label": "RECOVERY COLLECTION"
+    },
+    {
+      "number": "02",
+      "label": "Ingenium AJ300P ENGINE STRIPPED FOR REBUILD INSPECTION"
+    },
+    {
+      "number": "03",
+      "label": "VALVE COVERS & COOLANT COMPONENT WORK"
+    },
+    {
+      "number": "04",
+      "label": "TECHNICIANS AT WORK"
+    },
+    {
+      "number": "05",
+      "label": "ENGINE TESTING (RIG)"
+    },
+    {
+      "number": "06",
+      "label": "COMPLETED & READY FOR REFIT"
+    },
+    {
+      "number": "07",
+      "label": "CLEAN WORKSHOP BAYS"
+    },
+    {
+      "number": "08",
+      "label": "PARTS & COMPONENTS"
+    },
+    {
+      "number": "09",
+      "label": "BEFORE / AFTER COMPARISON"
+    },
+    {
+      "number": "10",
+      "label": "OUR SPECIALIST TEAM"
+    }
+  ],
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine Land Rover Range Rover Velar P340 rebuild looks like."
+}

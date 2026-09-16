@@ -1,0 +1,66 @@
+{
+  "about": {
+    "image": "/engine/sec9_top.webp",
+    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "kicker": "ABOUT THE",
+    "titlePre": "LAND ROVER",
+    "titleHighlight": "TDV8/SDV8",
+    "titlePost": " ENGINE",
+    "body": "The TDV8/SDV8 is a V8, 3.6L / 4.4L, Diesel engine used across Land Rover's 3 model range, in production 2006–2019. We rebuild every TDV8/SDV8 to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+  },
+  "byModel": {
+    "image": "/engine/sec9_middle.webp",
+    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "kicker": "LAND ROVER TDV8/SDV8",
+    "titlePre": "",
+    "titleHighlight": "APPLICATIONS",
+    "titlePost": " BY MODEL",
+    "body": "The TDV8/SDV8 is fitted across Discovery, Range Rover, Range Rover Sport — see the full applications table above for exact variants, generations and years.",
+    "lineup": [
+      {
+        "label": "Discovery",
+        "code": "L319 (D3/D4)"
+      },
+      {
+        "label": "Range Rover",
+        "code": "L322, L405"
+      },
+      {
+        "label": "Range Rover Sport",
+        "code": "L320, L494"
+      }
+    ]
+  },
+  "compatibility": {
+    "image": "/engine/sec9_bottom.webp",
+    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "kicker": "LAND ROVER TDV8/SDV8",
+    "titlePre": "",
+    "titleHighlight": "ENGINE",
+    "titlePost": " COMPATIBILITY",
+    "body": "Because the TDV8/SDV8 is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
+    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "points": [
+      {
+        "icon": "car",
+        "title": "MODEL",
+        "text": "Confirm your exact model and exact variant."
+      },
+      {
+        "icon": "calendar",
+        "title": "GENERATION",
+        "text": "Identify the correct generation (L319 (D3/D4), L322, L405, L320, L494)."
+      },
+      {
+        "icon": "gears",
+        "title": "DRIVETRAIN",
+        "text": "Specify the variant (45, 45 S, 43)."
+      },
+      {
+        "icon": "clipboard",
+        "title": "CONFIRMED BY REGISTRATION",
+        "text": "We confirm by registration or VIN before quoting."
+      }
+    ]
+  }
+}

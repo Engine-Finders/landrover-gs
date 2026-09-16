@@ -1,0 +1,78 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Freelander TD4 ENGINE",
+    "paragraphs": [
+      "The Freelander TD4 is powered by the BMW M47D20 — a 2.0-litre four-cylinder diesel engine that was fitted to the L359 generation from 2006 through to 2014. This is the same engine family used across a wide range of BMW 3 and 5 Series models of the same era, and it's known as a generally robust unit when properly maintained. However, timing chain stretch and injector seal leaks are a well-documented wear pattern on higher-mileage examples — which is exactly what we address as standard on every rebuild. The Freelander TD4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+    ],
+    "boldParagraph": "We continue to rebuild and replace BMW M47D20 engines for every Freelander TD4 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Freelander TD4 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "BMW M47D20",
+        "codeRest": "",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Freelander TD4 across the entire L359 generation from 2006 to 2014. Known for timing chain stretch and injector seal leaks over time — see the callout above. We replace the timing chain, bearings and gaskets as standard on every M47D20 rebuild. Check Your M47D20 Freelander TD4 → [link to quote form]",
+        "cta": "Check Your BMW M47D20 Freelander TD4",
+        "codeHref": "/landrover-m256-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Freelander TD4 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Freelander TD4 uses the BMW M47D20 across the entire L359 production run — unlike some variants that changed engines partway through — matching your engine is straightforward once we confirm your registration. However, the TD4 is a different engine entirely from the Ford Duratorq units fitted to the eD4 and SD4 variants, or the Rover K-Series and V6 petrol units fitted to other Freelanders. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "BMW M47D20",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (M47D20) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L359, 2006–2014)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Any electronics or ECU considerations specific to your exact build"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Freelander quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Freelander TD4 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "Freelander 2",
+        "chassis": "L359",
+        "years": "2006–2014",
+        "engineCode": "BMW M47D20",
+        "fuel": "Diesel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kicker": "Known Issue",
+  "h2": "Discovery 3/4 TDV6 / SDV6 Timing Chain Issues?||",
+  "description": "Timing-chain tensioner wear, injector-seal leaks and crankshaft bearing failure risk are widely documented on the TDV6/SDV6, backed by multiple TSBs and specialist sources. Injector harness oil contamination and crank sensor failure are an established pattern on the Discovery 2's Td5. The modern Discovery's Ingenium diesel shares the same timing-chain and injector-seal pattern found across the rest of the current Land Rover range.",
+  "descriptionEmphasis": "No hidden extras.",
+  "image": "/model/sec2.webp",
+  "imageMobile": "/model/sec2_mobile.webp",
+  "callout": {
+    "icon": "shield-check",
+    "title": "A Well-Documented Issue",
+    "body": "200Tdi / 300Tdi injector seal leaks and timing chain wear are widely documented across Land Rover specialist forums and official TSBs."
+  },
+  "heroHook": {
+    "icon": "shield-check",
+    "title": "Include In Hero Hook:",
+    "body": "Yes — both verified: 200Tdi / 300Tdi widely documented with multiple TSBs; M156 pre-2012 established Land Rover specialist pattern."
+  },
+  "features": [
+    {
+      "icon": "link",
+      "title": "New Timing Chains",
+      "body": "Replaced as standard (where worn or damaged)"
+    },
+    {
+      "icon": "gear",
+      "title": "New Tensioners",
+      "body": "For maximum reliability"
+    },
+    {
+      "icon": "guide",
+      "title": "New Injector Seals",
+      "body": "Updated OEM components"
+    },
+    {
+      "icon": "shield-check",
+      "title": "Peace Of Mind",
+      "body": "No hidden extras — just a stronger, longer-lasting engine"
+    }
+  ]
+}
