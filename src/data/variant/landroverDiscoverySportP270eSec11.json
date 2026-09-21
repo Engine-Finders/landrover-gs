@@ -1,0 +1,48 @@
+{
+  "image": "/variant/sec11.v2.webp",
+  "titlePre": "Land Rover Discovery Sport P270e ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Discovery Sport P270e has used the 1.5L I3 petrol + electric throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "[MISSING: introduction year]",
+      "generation": "L550",
+      "engineCode": "",
+      "fuel": "Petrol Plug-in Hybrid",
+      "service": "Rebuild / Replacement"
+    },
+    {
+      "year": "Present",
+      "generation": "L550",
+      "engineCode": "",
+      "fuel": "Petrol Plug-in Hybrid",
+      "service": "Rebuild / Replacement"
+    }
+  ],
+  "notice": {
+    "highlight": "The 1.5L I3 petrol + electric",
+    "rest": " has been fitted to every Discovery Sport P270e since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

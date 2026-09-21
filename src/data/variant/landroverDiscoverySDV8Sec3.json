@@ -7,9 +7,16 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "TDV8 or SDV8",
-      "generation": "",
-      "price": "£4,500"
+      "code": "TDV8",
+      "generation": "D3 (2004–2009)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "code": "SDV8",
+      "generation": "D4 (2009–2016)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery SDV8 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(TDV8 or SDV8 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery SDV8 Timing Chain & Injector Wear ",
+    "titleHighlight": "(D3/D4)",
     "paragraphs": [
-      "The TDV8 or SDV8 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older TDV8 or SDV8 V6. We replace timing chains, bearings, water pump and gaskets as standard on every TDV8 or SDV8 rebuild.",
-      "Because the Discovery SDV8 uses a completely different engine family from the V8 M178 fitted to the Discovery 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Discovery SDV8 engines — TDV8 and SDV8, across both the D3 and D4 generations — commonly show the same timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk as the wider TDV6/SDV6 family they're based on. We replace timing chain components, injector seals, EGR components, turbo components and gaskets as standard on every TDV8 and SDV8 rebuild.",
+      "include_in_hero_hook: yes for TDV8/SDV8 — Source: pattern-inferred from sibling TDV6/SDV6 engine family, per VRF-landrover-discovery.md. Applies to both TDV8 and SDV8 across D3/D4 generations."
     ],
-    "source": "Source: Established TDV8 or SDV8 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: pattern-inferred from sibling TDV6/SDV6 engine family, per VRF-landrover-discovery.md. Applies to both TDV8 and SDV8 across D3/D4 generations"
   }
 }

@@ -1,0 +1,44 @@
+{
+  "kicker": "Land Rover Range Rover Velar SVAutobiography Dynamic Edition Specialists",
+  "h1": "Land Rover Range Rover Velar SVAutobiography Dynamic Edition|Engine Rebuild —|From £5,500",
+  "subhead": "Model: Range Rover Velar",
+  "rating": {
+    "stars": 5,
+    "label": "Rated Land Rover Engine Specialists — 1,800+ Engines Rebuilt"
+  },
+  "trustBar": [
+    {
+      "icon": "tech",
+      "label": "Specialist technicians with 10-15 years of experience"
+    },
+    {
+      "icon": "shield-check",
+      "label": "12 Month Unlimited-Mileage Warranty"
+    },
+    {
+      "icon": "truck",
+      "label": "Nationwide Recovery"
+    },
+    {
+      "icon": "search",
+      "label": "Free Engine Matching by Registration"
+    },
+    {
+      "icon": "engine",
+      "label": "Ingenium AJ133 Specialists"
+    }
+  ],
+  "priceCta": {
+    "kicker": "Starting from £5,500 —",
+    "label": "Get a Fixed-Price Quote →",
+    "href": "#quote-form"
+  },
+  "phoneCta": {
+    "icon": "phone",
+    "label": "Call Our Specialists:",
+    "phone": "0203 488 4649",
+    "href": "tel:02034884649"
+  },
+  "image": "/variant/sec1.v2.webp",
+  "imageMobile": "/variant/sec1_mobile.webp"
+}

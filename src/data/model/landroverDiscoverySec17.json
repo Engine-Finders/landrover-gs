@@ -8,49 +8,64 @@
   "tabVariants": [
     [
       {
-        "label": "Discovery Tdi"
+        "label": "Discovery Tdi",
+        "href": "/landrover-discovery-tdi-engines"
       },
       {
-        "label": "Discovery Td5"
+        "label": "Discovery Td5",
+        "href": "/landrover-discovery-td5-engines"
       },
       {
-        "label": "Discovery V8 (3.9/4.0)"
+        "label": "Discovery V8 (3.9/4.0)",
+        "href": "/landrover-discovery-v8-engines"
       },
       {
-        "label": "Discovery TDV6"
+        "label": "Discovery TDV6",
+        "href": "/landrover-discovery-tdv6-engines"
       },
       {
-        "label": "Discovery TDV8"
+        "label": "Discovery TDV8",
+        "href": "/landrover-discovery-tdv8-engines"
       },
       {
-        "label": "Discovery SDV6"
+        "label": "Discovery SDV6",
+        "href": "/landrover-discovery-sdv6-engines"
       },
       {
-        "label": "Discovery SDV8"
+        "label": "Discovery SDV8",
+        "href": "/landrover-discovery-sdv8-engines"
       },
       {
-        "label": "Discovery HSE"
+        "label": "Discovery HSE",
+        "href": "/landrover-discovery-hse-engines"
       },
       {
-        "label": "Discovery Si6"
+        "label": "Discovery Si6",
+        "href": "/landrover-discovery-si6-engines"
       },
       {
-        "label": "Discovery D250"
+        "label": "Discovery D250",
+        "href": "/landrover-discovery-d250-engines"
       },
       {
-        "label": "Discovery D300"
+        "label": "Discovery D300",
+        "href": "/landrover-discovery-d300-engines"
       },
       {
-        "label": "Discovery D350"
+        "label": "Discovery D350",
+        "href": "/landrover-discovery-d350-engines"
       },
       {
-        "label": "Discovery P360"
+        "label": "Discovery P360",
+        "href": "/landrover-discovery-p360-engines"
       },
       {
-        "label": "Discovery P400"
+        "label": "Discovery P400",
+        "href": "/landrover-discovery-p400-engines"
       },
       {
-        "label": "Discovery P400e"
+        "label": "Discovery P400e",
+        "href": "/landrover-discovery-p400e-engines"
       }
     ]
   ],

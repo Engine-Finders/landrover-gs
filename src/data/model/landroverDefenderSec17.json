@@ -8,37 +8,48 @@
   "tabVariants": [
     [
       {
-        "label": "Defender TD5"
+        "label": "Defender TD5",
+        "href": "/landrover-defender-td5-engines"
       },
       {
-        "label": "Defender Td4"
+        "label": "Defender Td4",
+        "href": "/landrover-defender-td4-engines"
       },
       {
-        "label": "Defender 300Tdi"
+        "label": "Defender 300Tdi",
+        "href": "/landrover-defender-300tdi-engines"
       },
       {
-        "label": "Defender 200Tdi"
+        "label": "Defender 200Tdi",
+        "href": "/landrover-defender-200tdi-engines"
       },
       {
-        "label": "Defender D200"
+        "label": "Defender D200",
+        "href": "/landrover-defender-d200-engines"
       },
       {
-        "label": "Defender D250"
+        "label": "Defender D250",
+        "href": "/landrover-defender-d250-engines"
       },
       {
-        "label": "Defender D300"
+        "label": "Defender D300",
+        "href": "/landrover-defender-d300-engines"
       },
       {
-        "label": "Defender D350"
+        "label": "Defender D350",
+        "href": "/landrover-defender-d350-engines"
       },
       {
-        "label": "Defender P400"
+        "label": "Defender P400",
+        "href": "/landrover-defender-p400-engines"
       },
       {
-        "label": "Defender P525 (V8)"
+        "label": "Defender P525 (V8)",
+        "href": "/landrover-defender-p525-engines"
       },
       {
-        "label": "Defender P300e"
+        "label": "Defender P300e",
+        "href": "/landrover-defender-p300e-engines"
       },
       {
         "label": "Defender X-Dynamic"

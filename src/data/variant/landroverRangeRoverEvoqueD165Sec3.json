@@ -8,8 +8,15 @@
   "cards": [
     {
       "code": "Ingenium AJ200D / AJ150D",
-      "generation": "",
-      "price": "£2,200"
+      "generation": "L538 (2016–2018)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj150d-engine"
+    },
+    {
+      "code": "Ingenium AJ200D / AJ150D",
+      "generation": "L551 (2019–present)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj150d-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Evoque D165 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Ingenium AJ200D / AJ150D I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover Evoque D165 Ingenium Diesel Timing Chain Wear ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The Ingenium AJ200D / AJ150D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Ingenium AJ200D / AJ150D V6. We replace timing chains, bearings, water pump and gaskets as standard on every Ingenium AJ200D / AJ150D rebuild.",
-      "Because the Range Rover Evoque D165 uses a completely different engine family from the V8 M178 fitted to the Range Rover Evoque 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Evoque D165 has the Ingenium AJ200D or AJ150D diesel — across both the L538 and L551 generations — timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks are well-documented patterns on this engine family, confirmed by multiple specialist sources and owner forums. We replace the timing chain, injector seals, EGR components, and gaskets as standard on every Ingenium diesel rebuild.",
+      "The Evoque P200 and P250 petrol variants use a different engine family — the Ingenium AJ200P petrol — which doesn't share this specific diesel pattern. The P300e PHEV variant also uses its own powertrain configuration."
     ],
-    "source": "Source: Established Ingenium AJ200D / AJ150D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: shared Ingenium diesel family pattern (Discovery Sport/Evoque platform, per G-BRF). Petrol and PHEV variants explicitly excluded from this claim"
   }
 }

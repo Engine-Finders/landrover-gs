@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "300Tdi",
-      "generation": "",
-      "price": "£1,900"
+      "generation": "Classic 90/110/130 (1994–2007 approx)",
+      "price": "£1,900",
+      "codeHref": "/landrover-300tdi-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Defender 300Tdi Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(300Tdi I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Defender 300Tdi Cylinder Head & Cooling System ",
+    "titleHighlight": "(Classic 90/110/130)",
     "paragraphs": [
-      "The 300Tdi is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older 300Tdi V6. We replace timing chains, bearings, water pump and gaskets as standard on every 300Tdi rebuild.",
-      "Because the Defender 300Tdi uses a completely different engine family from the V8 M178 fitted to the Defender 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Defender is a classic 90, 110 or 130 with the 300Tdi diesel — the 2.5-litre four-cylinder that replaced the 200Tdi — cylinder head cracking is a well-documented issue on this engine, along with cooling system neglect and a critical timing belt interval. We replace the timing belt, inspect and pressure-test the cylinder head, and service the cooling system as standard on every 300Tdi rebuild.",
+      "The classic Defender's earlier 200Tdi shares a similar pattern, as does the later Td5 — but the 300Tdi is the engine most commonly associated with cylinder head cracking in the 2.5-litre diesel family."
     ],
-    "source": "Source: Established 300Tdi specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist pattern, per VRF-landrover-defender.md. 200Tdi and Td5 also flagged separately in the VRF"
   }
 }

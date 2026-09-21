@@ -2,7 +2,7 @@
   "yearBanner": {
     "titlePre": "WE COVER ",
     "titleHighlight": "EVERY",
-    "titlePost": " Range Rover Velar D250 MODEL YEAR:",
+    "titlePost": " Land Rover Range Rover Velar D250 MODEL YEAR:",
     "years": [
       "2017",
       "2018",
@@ -16,12 +16,12 @@
       "2026"
     ],
     "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
-    "vehicleLabel": "Range Rover Velar D250"
+    "vehicleLabel": "Land Rover Range Rover Velar D250"
   },
   "costs": {
-    "titlePre": "Range Rover Velar D250 ENGINE ",
+    "titlePre": "Land Rover Range Rover Velar D250 ENGINE ",
     "titleHighlight": "COSTS",
-    "intro": "A Range Rover Velar D250 engine rebuild starts from",
+    "intro": "A Land Rover Range Rover Velar D250 engine rebuild starts from",
     "price": "£3,200",
     "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
     "image": "/variant/sec10_engine.webp",
@@ -33,30 +33,63 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Velar D250 ENGINE SIZES",
-        "item": "Range Rover Velar D250 3.0 Litre Engine (AJ300D, I6)"
+        "title": "LAND ROVER Range Rover Velar D250 ENGINE SIZES",
+        "item": "Land Rover Range Rover Velar D250 3.0 Litre Engine (AJ300D, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Velar D250 FUEL TYPES",
-        "item": "Range Rover Velar D250 Petrol Mild Hybrid Engine Rebuilds"
+        "title": "LAND ROVER Range Rover Velar D250 FUEL TYPES",
+        "item": "Land Rover Range Rover Velar D250 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
   },
   "bottomInfo": {
     "timeframe": {
       "icon": "clock",
-      "textPre": "Most Range Rover Velar D250 engine rebuilds are completed within ",
+      "textPre": "Most Land Rover Range Rover Velar D250 engine rebuilds are completed within ",
       "textHighlight": "3-5 working days",
       "textPost": "."
     },
-    "recoveryText": "Nationwide recovery and collection available for all Range Rover Velar D250 models.",
+    "recoveryText": "Nationwide recovery and collection available for all Land Rover Range Rover Velar D250 models.",
     "image": "/variant/landrover_car.webp"
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Velar D180 Engine",
+        "href": "/landrover-range-rover-velar-d180-engines"
+      },
+      {
+        "label": "Land Rover Velar D200 Engine",
+        "href": "/landrover-range-rover-velar-d200-engines"
+      },
+      {
+        "label": "Land Rover Velar D240 Engine",
+        "href": "/landrover-range-rover-velar-d240-engines"
+      },
+      {
+        "label": "Land Rover Velar D300 Engine",
+        "href": "/landrover-velar-d300-engines"
+      },
+      {
+        "label": "Land Rover Velar P250 Engine",
+        "href": "/landrover-range-rover-velar-p250-engines"
+      },
+      {
+        "label": "Land Rover Velar P300 Engine",
+        "href": "/landrover-velar-p300-engines"
+      },
+      {
+        "label": "Land Rover Velar P340 Engine",
+        "href": "/landrover-range-rover-velar-p340-engines"
+      },
+      {
+        "label": "Land Rover Velar P400 Engine",
+        "href": "/landrover-range-rover-velar-p400-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-velar-engines"
   }
 }

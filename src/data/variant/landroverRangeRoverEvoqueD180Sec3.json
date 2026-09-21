@@ -7,9 +7,16 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "",
-      "generation": "",
-      "price": "£2,200"
+      "code": "Ingenium AJ200D / AJ150D",
+      "generation": "L538 (2016–2018)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj150d-engine"
+    },
+    {
+      "code": "Ingenium AJ200D / AJ150D",
+      "generation": "L551 (2019–present)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj150d-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Evoque D180 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(engine I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover Evoque D180 Timing Chain & EGR Wear ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The engine is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older engine V6. We replace timing chains, bearings, water pump and gaskets as standard on every engine rebuild.",
-      "Because the Range Rover Evoque D180 uses a completely different engine family from the V8 M178 fitted to the Land Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Range Rover Evoque D180 engines — the Ingenium diesel, across both L538 and L551 generations — commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks. We replace the timing chain, injector seals, and EGR components as standard on every D180 rebuild.",
+      "*include_in_hero_hook: yes, for Ingenium diesel (AJ200D/AJ150D). Source: established Ingenium diesel family pattern (Discovery Sport/Evoque platform, per G-BRF). This known issue applies to the D180 and the broader Ingenium diesel range.*"
     ],
-    "source": "Source: Established engine specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established Ingenium diesel family pattern (Discovery Sport/Evoque platform, per G-BRF). This known issue applies to the D180 and the broader Ingenium diesel range"
   }
 }

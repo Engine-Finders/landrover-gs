@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "Td5",
-      "generation": "",
-      "price": "£1,900"
+      "generation": "D2/L318 facelift (1998–2004)",
+      "price": "£1,900",
+      "codeHref": "/landrover-td5-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery Td5 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Td5 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery Td5 Injector Harness & Crank Sensor Issues ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The Td5 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Td5 V6. We replace timing chains, bearings, water pump and gaskets as standard on every Td5 rebuild.",
-      "Because the Discovery Td5 uses a completely different engine family from the V8 M178 fitted to the Discovery 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Discovery has the Td5 diesel engine — that's the D2 generation, 1998 to 2004 — injector harness oil contamination and crank sensor failure are well-documented patterns on this engine. Oil can migrate through the injector harness to the ECU, causing running issues, while crank sensor failure can leave you stranded. We replace injector seals, timing chain components, and check the injector harness and crank sensor as standard during every Td5 rebuild.",
+      "include_in_hero_hook: yes — Source: established specialist pattern per G-BRF Land Rover."
     ],
-    "source": "Source: Established Td5 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist pattern per G-BRF Land Rover"
   }
 }

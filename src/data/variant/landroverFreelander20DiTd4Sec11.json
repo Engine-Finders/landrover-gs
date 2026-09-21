@@ -1,8 +1,8 @@
 {
-  "image": "/variant/sec11.webp",
-  "titlePre": "Land Rover Freelander 2.0 Di / Td4 ENGINES ",
+  "image": "/variant/sec11.v2.webp",
+  "titlePre": "Land Rover Freelander 2.0 Di  Td4 ENGINES ",
   "titleHighlight": "BY YEAR",
-  "description": "Land Rover Freelander 2.0 Di / Td4 has used the L-Series (early Di) or BMW M47D20 (later Td4) throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "description": "Land Rover Freelander 2.0 Di  Td4 has used the L-Series (early Di) or BMW M47D20 (later Td4) throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
   "columns": [
     {
       "icon": "calendar",
@@ -59,46 +59,52 @@
       "generation": "L314",
       "engineCode": "L-Series / M47D20",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-m47d20-bmw-sourced-engine"
     },
     {
       "year": "2002",
       "generation": "L314",
       "engineCode": "BMW M47D20",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-m47d20-bmw-sourced-engine"
     },
     {
       "year": "2003",
       "generation": "L314",
       "engineCode": "BMW M47D20",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-m47d20-bmw-sourced-engine"
     },
     {
       "year": "2004",
       "generation": "L314",
       "engineCode": "BMW M47D20",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-m47d20-bmw-sourced-engine"
     },
     {
       "year": "2005",
       "generation": "L314",
       "engineCode": "BMW M47D20",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-m47d20-bmw-sourced-engine"
     },
     {
       "year": "2006",
       "generation": "L314",
       "engineCode": "BMW M47D20",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-m47d20-bmw-sourced-engine"
     }
   ],
   "notice": {
     "highlight": "The L-Series (early Di) or BMW M47D20 (later Td4)",
-    "rest": " has been fitted to every Freelander 2.0 Di / Td4 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+    "rest": " has been fitted to every Freelander 2.0 Di  Td4 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
   }
 }

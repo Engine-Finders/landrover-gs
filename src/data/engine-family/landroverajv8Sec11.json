@@ -10,10 +10,10 @@
       "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200"
+    "startingFromPrice": "£4,500"
   },
   "comparison": {
-    "titlePre": "MERCEDES-BENZ AJ-V8",
+    "titlePre": "LAND ROVER AJ-V8",
     "titleHighlight": "REBUILD VS REPLACEMENT VS USED",
     "cards": [
       {
@@ -43,21 +43,21 @@
   "options": [
     {
       "icon": "refresh",
-      "titlePre": "MERCEDES-BENZ AJ-V8",
+      "titlePre": "LAND ROVER AJ-V8",
       "titleHighlight": "RECONDITIONED",
       "titlePost": " ENGINES",
       "body": "\"Reconditioned\" is the term many owners search for when they mean the same thing as a rebuild — a full strip-down, inspection, and replacement of worn parts rather than a straight swap. If that's what you're after, our rebuild service is exactly that."
     },
     {
       "icon": "shield-check",
-      "titlePre": "MERCEDES-BENZ AJ-V8",
+      "titlePre": "LAND ROVER AJ-V8",
       "titleHighlight": "REFURBISHED",
       "titlePost": " ENGINES",
       "body": "\"Refurbished\" often describes the same process from a different angle — restoring your existing engine to full working condition rather than replacing it outright. Our rebuild covers this."
     },
     {
       "icon": "cog",
-      "titlePre": "MERCEDES-BENZ AJ-V8",
+      "titlePre": "LAND ROVER AJ-V8",
       "titleHighlight": "REMANUFACTURED",
       "titlePost": " ENGINES",
       "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers, regardless of which of the six AJ-V8-equipped models you drive."
@@ -98,6 +98,10 @@
         "a": "Yes. The 4.2 SC V8 in the Range Rover Sport L320 is within our workshop capability, with supercharger components inspected and serviced as part of the rebuild."
       },
       {
+        "q": "Can you rebuild an AJ-V8 from a Range Rover Sport?",
+        "a": "Yes. The AJ-V8 in the Range Rover Sport L320 is the primary Land Rover application we work on for this engine family, across both the 4.2 SC V8 and 4.4 V8 variants."
+      },
+      {
         "q": "Do you supply used Land Rover AJ-V8 engines?",
         "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
       },
@@ -118,7 +122,7 @@
   "quote": {
     "icon": "note",
     "headlinePre": "GET YOUR FREE",
-    "headlineHighlight": "MERCEDES-BENZ AJ-V8",
+    "headlineHighlight": "LAND ROVER AJ-V8",
     "headlinePost": "FIXED-PRICE QUOTE",
     "subtext": "Most quotes returned within 30 minutes during working hours.",
     "fields": {

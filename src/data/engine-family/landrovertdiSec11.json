@@ -10,10 +10,10 @@
       "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200"
+    "startingFromPrice": "£1,900"
   },
   "comparison": {
-    "titlePre": "MERCEDES-BENZ Tdi",
+    "titlePre": "LAND ROVER Tdi",
     "titleHighlight": "REBUILD VS REPLACEMENT VS USED",
     "cards": [
       {
@@ -43,21 +43,21 @@
   "options": [
     {
       "icon": "refresh",
-      "titlePre": "MERCEDES-BENZ Tdi",
+      "titlePre": "LAND ROVER Tdi",
       "titleHighlight": "RECONDITIONED",
       "titlePost": " ENGINES",
       "body": "\"Reconditioned\" is the term many owners search for when they mean the same thing as a rebuild — a full strip-down, inspection, and replacement of worn parts rather than a straight swap. If that's what you're after, our rebuild service is exactly that."
     },
     {
       "icon": "shield-check",
-      "titlePre": "MERCEDES-BENZ Tdi",
+      "titlePre": "LAND ROVER Tdi",
       "titleHighlight": "REFURBISHED",
       "titlePost": " ENGINES",
       "body": "\"Refurbished\" often describes the same process from a different angle — restoring your existing engine to full working condition rather than replacing it outright. Our rebuild covers this."
     },
     {
       "icon": "cog",
-      "titlePre": "MERCEDES-BENZ Tdi",
+      "titlePre": "LAND ROVER Tdi",
       "titleHighlight": "REMANUFACTURED",
       "titlePost": " ENGINES",
       "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers, regardless of which of the six Tdi-equipped models you drive."
@@ -76,8 +76,16 @@
         "a": "The Tdi was fitted exclusively to the Discovery 1 (L318) across the full 1989–1998 production run."
       },
       {
+        "q": "Does the Tdi differ between models?",
+        "a": "The Tdi was only fitted to one model — the Discovery 1 — but there are differences between the earlier 200Tdi and later 300Tdi variants. We confirm your exact vehicle before quoting."
+      },
+      {
+        "q": "Is a Tdi from one Land Rover compatible with another?",
+        "a": "The Tdi was only fitted to the Discovery 1, so compatibility questions are straightforward. We match by registration/VIN before confirming any rebuild."
+      },
+      {
         "q": "How much does a Land Rover Tdi engine rebuild cost?",
-        "a": "Rebuilds start from £1,900. Exact price depends on condition and parts required."
+        "a": "Rebuilds start from £1,900. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
       },
       {
         "q": "Do you rebuild Tdi engines?",
@@ -86,8 +94,12 @@
     ],
     "faqRight": [
       {
+        "q": "Can you rebuild a Tdi from a Discovery 1?",
+        "a": "Yes. The Tdi in the Discovery 1 is one of the applications we work on regularly."
+      },
+      {
         "q": "Do you supply used Land Rover Tdi engines?",
-        "a": "Yes, in some cases a matched low-mileage used engine is the right option."
+        "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
       },
       {
         "q": "Can you recover my Land Rover if the engine has failed?",
@@ -106,7 +118,7 @@
   "quote": {
     "icon": "note",
     "headlinePre": "GET YOUR FREE",
-    "headlineHighlight": "MERCEDES-BENZ Tdi",
+    "headlineHighlight": "LAND ROVER Tdi",
     "headlinePost": "FIXED-PRICE QUOTE",
     "subtext": "Most quotes returned within 30 minutes during working hours.",
     "fields": {

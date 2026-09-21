@@ -25,7 +25,7 @@ export default function HomeSec13({ data }) {
             <LandRoverLogo className="absolute -right-1 -top-1 z-10 h-11 w-11 opacity-60" />
             <Image
               src={data.image}
-              alt="Land Rover engine"
+              alt="Engine core"
               fill
               className="scale-[1.35] object-cover"
               sizes="200px"
@@ -42,7 +42,7 @@ export default function HomeSec13({ data }) {
           {data.trustBadges.map((b, i) => (
             <div key={b.label} className="relative flex items-center gap-2.5">
               {i % 2 === 1 && <span className="absolute -left-2 top-0 h-full w-0.5 bg-white/35" />}
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-hero-blue/20 shadow-[0_0_12px_rgba(173,135,92,0.25)]">
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-hero-blue/20 shadow-[0_0_12px_rgba(96,112,86,0.25)]">
                 <Icon name={b.icon} className="h-6 w-6 text-hero-blue" />
               </span>
               <div className="min-w-0">
@@ -71,7 +71,7 @@ export default function HomeSec13({ data }) {
             </div>
 
             <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden">
-              <Image src={data.image} alt="Land Rover engine block" fill className="scale-[1.35] object-cover" sizes="480px" />
+              <Image src={data.image} alt="Engine core" fill className="scale-[1.35] object-cover" sizes="480px" />
             </div>
           </div>
 

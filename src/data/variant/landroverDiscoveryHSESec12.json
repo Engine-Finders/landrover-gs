@@ -25,7 +25,7 @@
     "titlePre": "Land Rover Discovery HSE ENGINE ",
     "titleHighlight": "COSTS",
     "intro": "A Land Rover Discovery HSE engine rebuild starts from",
-    "price": "£3,200",
+    "price": "£2,400",
     "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
     "image": "/variant/sec10_engine.webp",
     "warranty": {
@@ -36,12 +36,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Discovery HSE ENGINE SIZES",
+        "title": "LAND ROVER Discovery HSE ENGINE SIZES",
         "item": "Land Rover Discovery HSE 3.0 Litre Engine (TDV6, SDV6, TDV8, SDV8, or Si6, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Discovery HSE FUEL TYPES",
+        "title": "LAND ROVER Discovery HSE FUEL TYPES",
         "item": "Land Rover Discovery HSE Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -58,8 +58,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Discovery TDV6 Engine",
+        "href": "/landrover-discovery-tdv6-engines"
+      },
+      {
+        "label": "Land Rover Discovery SDV6 Engine",
+        "href": "/landrover-discovery-sdv6-engines"
+      },
+      {
+        "label": "Land Rover Discovery TDV8 Engine",
+        "href": "/landrover-discovery-tdv8-engines"
+      },
+      {
+        "label": "Land Rover Discovery SDV8 Engine",
+        "href": "/landrover-discovery-sdv8-engines"
+      },
+      {
+        "label": "Land Rover Discovery Si6 Engine",
+        "href": "/landrover-discovery-si6-engines"
+      },
+      {
+        "label": "Land Rover Discovery D250 Engine",
+        "href": "/landrover-discovery-d250-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/discovery-engines"
   }
 }

@@ -8,25 +8,32 @@
   "tabVariants": [
     [
       {
-        "label": "Freelander 1.8i"
+        "label": "Freelander 1.8i",
+        "href": "/landrover-freelander-1-8i-engines"
       },
       {
-        "label": "Freelander 2.0 Di / Td4 (L314)"
+        "label": "Freelander 2.0 Di / Td4 (L314)",
+        "href": "/landrover-freelander-2-0-di-td4-engines"
       },
       {
-        "label": "Freelander 2.5 V6"
+        "label": "Freelander 2.5 V6",
+        "href": "/landrover-freelander-2-5-v6-engines"
       },
       {
-        "label": "Freelander TD4 (L359)"
+        "label": "Freelander TD4 (L359)",
+        "href": "/landrover-freelander-td4-engines"
       },
       {
-        "label": "Freelander eD4"
+        "label": "Freelander eD4",
+        "href": "/landrover-freelander-ed4-engines"
       },
       {
-        "label": "Freelander Si4"
+        "label": "Freelander Si4",
+        "href": "/landrover-freelander-si4-engines"
       },
       {
-        "label": "Freelander SD4"
+        "label": "Freelander SD4",
+        "href": "/landrover-freelander-sd4-engines"
       }
     ]
   ],

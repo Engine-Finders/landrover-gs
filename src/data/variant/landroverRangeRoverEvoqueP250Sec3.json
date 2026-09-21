@@ -1,5 +1,5 @@
 {
-  "headlinePre": "Range Rover Evoque P250",
+  "headlinePre": "Land Rover Range Rover Evoque P250",
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,200",
@@ -8,8 +8,15 @@
   "cards": [
     {
       "code": "Ingenium AJ200P",
-      "generation": "",
-      "price": "£2,200"
+      "generation": "L538 (2016–2018)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj200p-engine"
+    },
+    {
+      "code": "Ingenium AJ200P",
+      "generation": "L551 (2019–present)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj200p-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Range Rover Evoque P250 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Ingenium AJ200P I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Range Rover Evoque P250 Known Issues by Engine ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The Ingenium AJ200P is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Ingenium AJ200P V6. We replace timing chains, bearings, water pump and gaskets as standard on every Ingenium AJ200P rebuild.",
-      "Because the Range Rover Evoque P250 uses a completely different engine family from the V8 M178 fitted to the Evoque 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Range Rover Evoque P250 has the Ingenium AJ200P (L663 generation):",
+      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every Ingenium AJ200P rebuild."
     ],
-    "source": "Source: Established Ingenium AJ200P specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
   }
 }

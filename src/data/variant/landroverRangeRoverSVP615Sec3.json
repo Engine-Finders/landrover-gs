@@ -7,9 +7,10 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "",
-      "generation": "",
-      "price": "£6,500"
+      "code": "BMW S68",
+      "generation": "L460 (2022–present)",
+      "price": "£6,500",
+      "codeHref": "/landrover-s68-bmw-sourced-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover SV P615 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(engine I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover SV P615 BMW S68 V8 Hot-Vee Pattern ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The engine is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older engine V6. We replace timing chains, bearings, water pump and gaskets as standard on every engine rebuild.",
-      "Because the Range Rover SV P615 uses a completely different engine family from the V8 M178 fitted to the Land Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "The Range Rover SV (P615) is powered by the BMW S68 twin-turbo V8 — a 4.4-litre unit that shares its hot-vee architecture with the S63 family used in BMW M5, M8, and X5M/X6M models. As with other BMW-sourced performance V8s, the S68 can exhibit the same hot-vee pattern: valve seal wear, coolant line degradation and oil consumption. We replace timing chains, valve seals, and coolant components as standard on every S68 rebuild.",
+      "*include_in_hero_hook: yes — Source: BMW G-BRF N63/S63 pattern, cross-applicable to S68, per VRF-landrover-range-rover.md.*"
     ],
-    "source": "Source: Established engine specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: BMW G-BRF N63/S63 pattern, cross-applicable to S68, per VRF-landrover-range-rover.md"
   }
 }

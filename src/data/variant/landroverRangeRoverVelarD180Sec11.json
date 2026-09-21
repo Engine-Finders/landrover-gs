@@ -1,0 +1,114 @@
+{
+  "image": "/variant/sec11.v2.webp",
+  "titlePre": "Land Rover Range Rover Velar D180 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Range Rover Velar D180 has used the Ingenium AJ200D throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2017",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "year": "2018",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "year": "2019",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "year": "2020",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "year": "2021",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "year": "2022",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "year": "2023",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "year": "2024",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "year": "2025",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "year": "2026",
+      "generation": "L560",
+      "engineCode": "AJ200D",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj200d-engine"
+    }
+  ],
+  "notice": {
+    "highlight": "The Ingenium AJ200D",
+    "rest": " has been fitted to every Range Rover Velar D180 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

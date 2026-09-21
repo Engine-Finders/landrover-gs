@@ -34,13 +34,13 @@
     "image": "/engine/sec10_bottom.webp",
     "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full AJ300P rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,995 cc), Petrol MHEV, Petrol PHEV).",
+    "body": "A full AJ300P rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
     },
     "startingFromLabel": "Starting From:",
-    "startingFromPrice": "£2,200",
+    "startingFromPrice": "£3,200",
     "cta": {
       "label": "Check AJ300P Rebuild Options →",
       "href": "#quote-form"

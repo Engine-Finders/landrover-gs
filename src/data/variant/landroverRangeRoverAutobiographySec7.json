@@ -1,6 +1,6 @@
 {
   "reviews": {
-    "titlePre": "WHAT MERCEDES ",
+    "titlePre": "WHAT LAND ROVER ",
     "titleHighlight": "Range Rover Autobiography OWNERS SAY",
     "items": [
       {
@@ -12,7 +12,7 @@
       {
         "name": "Mark T.",
         "platform": "trustpilot",
-        "text": "They rebuilt my engine with all the updated parts. Smooth process and great communication throughout.",
+        "text": "They rebuilt my BMW N63 or BMW S68 with all the updated parts. Smooth process and great communication throughout.",
         "tag": "Land Rover Range Rover Autobiography Engine Rebuild"
       },
       {
@@ -47,8 +47,8 @@
     "icon": "car",
     "titlePre": "WE COVER YOUR",
     "titleHighlight": "EXACT VEHICLE",
-    "body": "Enter your registration below and we'll confirm your Land Rover Range Rover Autobiography has the right engine, along with an exact rebuild price.",
-    "image": "/variant/sec7.webp",
+    "body": "Enter your registration below and we'll confirm your Land Rover Range Rover Autobiography has the BMW N63 or BMW S68, along with an exact rebuild price.",
+    "image": "/variant/sec7.v2.webp",
     "buttonLabel": "Check Fit",
     "ticks": [
       "Fast",
@@ -57,10 +57,10 @@
     ]
   },
   "whyChoose": {
-    "titlePre": "WHY MERCEDES Range Rover Autobiography ",
+    "titlePre": "WHY LAND ROVER Range Rover Autobiography ",
     "titleHighlight": "OWNERS CHOOSE US",
     "items": [
-      "Engine matched using VIN or registration number",
+      "Engine matched using VIN or registration number — confirms N63 vs S68 before you're quoted",
       "Genuine specialist workshop — not a broker",
       "Specialist technicians with 10-15 years of experience",
       "We don't swap your engine for an unknown used unit",

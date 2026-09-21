@@ -137,6 +137,9 @@ body {
   --color-hero-blue: #607056;
   --color-hero-blue-dark: #4c5a45;
   --color-hero-gold: #607056;
+  --color-bmw-blue: #607056;
+  --color-bmw-violet: #607056;
+  --color-bmw-red: #607056;
 }
 
 .theme-light {
@@ -744,6 +747,21 @@ body {
   pointer-events: none;
 }
 
+/* Green variant — same glow-card shape, swaps the gold accent for the
+   brand green (--color-hero-blue). Add alongside .glow-card. */
+.glow-card--green {
+  border-color: rgba(96, 112, 86, 0.4);
+  box-shadow:
+    inset 0 1px 0 rgba(96, 112, 86, 0.3),
+    0 0 0 1px rgba(96, 112, 86, 0.12);
+}
+.glow-card--green::before {
+  background: radial-gradient(circle, rgba(96, 112, 86, 0.9) 0%, rgba(96, 112, 86, 0) 72%);
+}
+.glow-card--green::after {
+  background: linear-gradient(180deg, rgba(96, 112, 86, 0.2) 0%, rgba(96, 112, 86, 0) 100%);
+}
+
 /* ---------------------------------------------------------------- */
 /* HUD-style photo card: metallic gradient border + halo glow +      */
 /* top-edge lens glint. Reusable anywhere a photo needs to look      */
@@ -754,10 +772,10 @@ body {
   position: relative;
   padding: 2px;
   border-radius: 1rem;
-  background: linear-gradient(145deg, #f3ead9 0%, #d9bd8c 25%, #4a3a1e 55%, #e6cda1 80%, #1a1a1a 100%);
+  background: linear-gradient(145deg, #e9ede6 0%, #a9b6a0 25%, #23291f 55%, #c7d1bf 80%, #1a1a1a 100%);
   box-shadow:
-    0 0 26px 2px rgba(201, 169, 110, 0.35),
-    0 0 6px rgba(230, 205, 161, 0.55);
+    0 0 26px 2px rgba(96, 112, 86, 0.35),
+    0 0 6px rgba(199, 209, 191, 0.55);
 }
 
 .hud-card-inner {

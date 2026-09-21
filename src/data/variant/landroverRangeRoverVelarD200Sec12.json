@@ -33,12 +33,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Velar D200 ENGINE SIZES",
+        "title": "LAND ROVER Range Rover Velar D200 ENGINE SIZES",
         "item": "Land Rover Range Rover Velar D200 3.0 Litre Engine (Ingenium AJ200D, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Velar D200 FUEL TYPES",
+        "title": "LAND ROVER Range Rover Velar D200 FUEL TYPES",
         "item": "Land Rover Range Rover Velar D200 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -55,8 +55,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Velar D180 Engine",
+        "href": "/landrover-range-rover-velar-d180-engines"
+      },
+      {
+        "label": "Land Rover Velar D240 Engine",
+        "href": "/landrover-range-rover-velar-d240-engines"
+      },
+      {
+        "label": "Land Rover Velar D250 Engine",
+        "href": "/landrover-range-rover-velar-d250-engines"
+      },
+      {
+        "label": "Land Rover Velar D300 Engine",
+        "href": "/landrover-velar-d300-engines"
+      },
+      {
+        "label": "Land Rover Velar P250 Engine",
+        "href": "/landrover-range-rover-velar-p250-engines"
+      },
+      {
+        "label": "Land Rover Velar P300 Engine",
+        "href": "/landrover-velar-p300-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-velar-engines"
   }
 }

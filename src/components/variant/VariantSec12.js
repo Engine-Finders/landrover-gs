@@ -20,7 +20,7 @@ export default function VariantSec12({ data }) {
             {yearBanner.years.map((y) => (
               <div key={y} className="flex items-center gap-1.5">
                 <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-black">
-                  <Icon name="check" className="h-4 w-4 text-hero-blue" />
+                  <Icon name="check" className="h-4 w-4 text-[#9fb08c]" />
                 </span>
                 <p className="text-xs leading-tight text-[#101828]">
                   {yearBanner.vehicleLabel || "Land Rover AMG GT 53"} <br /> {y} Engine Rebuild
@@ -46,13 +46,13 @@ export default function VariantSec12({ data }) {
 
           <div className="relative mt-3 flex items-center justify-center gap-4">
             <div className="relative h-44 w-60">
-              <Image src={costs.image} alt="Land Rover AMG GT 53 engine" fill className="object-contain" sizes="240px" />
+              <Image src={costs.image} alt="Land Rover engine" fill className="object-contain" sizes="240px" />
             </div>
             <div className="flex flex-col items-center gap-1.5 text-center">
               <Icon
                 name="shield-check"
                 className="h-11 w-11 shrink-0 text-hero-blue"
-                style={{ filter: "drop-shadow(0 0 10px rgba(173,135,92,0.9))" }}
+                style={{ filter: "drop-shadow(0 0 10px rgba(96,112,86,0.9))" }}
               />
               <p className="text-xs font-extrabold leading-snug text-white">{costs.warranty.line1}</p>
               <p className="label-text leading-snug text-white">{costs.warranty.line2}</p>
@@ -106,7 +106,7 @@ export default function VariantSec12({ data }) {
             </div>
           </div>
           <div className="relative h-28 w-full border-t border-black/10">
-            <Image src={bottomInfo.image} alt="Land Rover AMG GT recovery and collection" fill className="object-contain p-3" sizes="100vw" />
+            <Image src={bottomInfo.image} alt="Land Rover vehicle recovery and collection" fill className="object-contain p-3" sizes="100vw" />
           </div>
         </div>
       </div>
@@ -115,19 +115,19 @@ export default function VariantSec12({ data }) {
       <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
         <div className="relative mx-auto max-w-6xl">
           <div className="glass-card rounded-2xl p-6">
-            <p className="font-title whitespace-nowrap text-2xl font-bold uppercase leading-snug text-[#101828]">
+            <p className="font-title text-2xl font-bold uppercase leading-snug text-[#101828]">
               {yearBanner.titlePre}
               <span className="text-hero-blue">{yearBanner.titleHighlight}</span>
               {yearBanner.titlePost}
             </p>
-            <div className="mt-4 flex items-start justify-between gap-4">
+            <div className="mt-4 grid grid-cols-[repeat(auto-fill,minmax(9.5rem,1fr))] gap-x-4 gap-y-4">
               {yearBanner.years.map((y) => (
                 <div key={y} className="flex items-center gap-2">
                   <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-black">
-                    <Icon name="check" className="h-4 w-4 text-hero-blue" />
+                    <Icon name="check" className="h-4 w-4 text-[#9fb08c]" />
                   </span>
                   <p className="text-sm leading-tight text-[#101828]">
-                    Land Rover AMG GT 53 <br /> {y} Engine Rebuild
+                    <span className="font-bold">{y}</span> <br /> Engine Rebuild
                   </p>
                 </div>
               ))}
@@ -153,13 +153,13 @@ export default function VariantSec12({ data }) {
 
                 <div className="relative grid grid-cols-[auto_minmax(0,1fr)] items-center gap-4">
                   <div className="relative h-52 w-56 shrink-0">
-                    <Image src={costs.image} alt="Land Rover AMG GT 53 engine" fill className="object-contain" sizes="224px" />
+                    <Image src={costs.image} alt="Land Rover engine" fill className="object-contain" sizes="224px" />
                   </div>
                   <div className="flex min-w-0 flex-col items-center gap-2 text-center">
                     <Icon
                       name="shield-check"
                       className="h-16 w-16 shrink-0 text-hero-blue"
-                      style={{ filter: "drop-shadow(0 0 14px rgba(173,135,92,0.9))" }}
+                      style={{ filter: "drop-shadow(0 0 14px rgba(96,112,86,0.9))" }}
                     />
                     <p className="text-base font-extrabold leading-snug text-white">{costs.warranty.line1}</p>
                     <p className="text-sm leading-snug text-white">{costs.warranty.line2}</p>
@@ -215,7 +215,7 @@ export default function VariantSec12({ data }) {
               <p className="text-sm leading-snug text-[#101828]">{bottomInfo.recoveryText}</p>
             </div>
             <div className="relative h-24 w-48 shrink-0">
-              <Image src={bottomInfo.image} alt="Land Rover AMG GT recovery and collection" fill className="object-contain" sizes="192px" />
+              <Image src={bottomInfo.image} alt="Land Rover vehicle recovery and collection" fill className="object-contain" sizes="192px" />
             </div>
           </div>
         </div>

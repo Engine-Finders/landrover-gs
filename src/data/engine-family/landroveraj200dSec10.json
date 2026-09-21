@@ -11,7 +11,7 @@
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The AJ200D is fitted across Defender, Discovery, Discovery Sport, Range Rover Evoque, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The AJ200D is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
     },
     {
       "icon": "wrench",
@@ -34,13 +34,13 @@
     "image": "/engine/sec10_bottom.webp",
     "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full AJ200D rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-4 (I4), 2.0L (1,999 cc), Diesel).",
+    "body": "A full AJ200D rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
     },
     "startingFromLabel": "Starting From:",
-    "startingFromPrice": "£2,200",
+    "startingFromPrice": "£2,000",
     "cta": {
       "label": "Check AJ200D Rebuild Options →",
       "href": "#quote-form"

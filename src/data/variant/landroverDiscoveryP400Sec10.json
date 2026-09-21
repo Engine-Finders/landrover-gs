@@ -15,11 +15,11 @@
     "image": "/variant/sec10_engine.webp",
     "cards": [
       {
-        "codeHighlight": "AJ300P (Ingenium 3.0L I6)",
-        "codeRest": "(D5/L462 (2017–present))",
-        "body": "A 3.0-litre inline-six petrol engine fitted to the Discovery P400 from 2017 to present (D5/L462 generation). The AJ300P is part of JLR's Ingenium engine family and features mild-hybrid (MHEV) technology. We replace timing chains, bearings, water pump and gaskets as standard on every rebuild. Check Your AJ300P Discovery P400 → [link to quote form]",
-        "cta": "Check Your AJ300P (Ingenium 3.0L I6) Discovery P400",
-        "codeHref": "/landrover-m256-engine"
+        "codeHighlight": "AJ300P",
+        "codeRest": "(Ingenium 3.0L I6)",
+        "body": "A 3.0-litre inline-six petrol engine fitted to the Discovery P400 from 2017 to present (D5/L462 generation). The AJ300P is part of JLR's Ingenium engine family and features mild-hybrid (MHEV) technology. We replace timing chains, bearings, water pump and gaskets as standard on every rebuild.",
+        "cta": "Check Your AJ300P Discovery P400",
+        "codeHref": "/landrover-aj300p-engine"
       }
     ]
   },
@@ -37,11 +37,11 @@
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact engine code (AJ300P) via registration or VIN"
+        "text": "Your exact engine code (AJ300P (Ingenium 3.0L I6)) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "Your generation (D5/L462)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Discovery quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery P400 ",
@@ -71,7 +71,8 @@
         "chassis": "L462",
         "years": "2017–present",
         "engineCode": "AJ300P",
-        "fuel": "Petrol MHEV"
+        "fuel": "Petrol MHEV",
+        "codeHref": "/landrover-aj300p-engine"
       }
     ]
   }

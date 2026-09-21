@@ -1,5 +1,5 @@
 {
-  "image": "/variant/sec11.webp",
+  "image": "/variant/sec11.v2.webp",
   "titlePre": "Land Rover Defender Octa ENGINES ",
   "titleHighlight": "BY YEAR",
   "description": "Land Rover Defender Octa has used the S68B44T0 throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
@@ -31,21 +31,24 @@
       "generation": "L663",
       "engineCode": "S68B44T0",
       "fuel": "Petrol Twin-Turbo",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-s68-bmw-sourced-engine"
     },
     {
       "year": "2025",
       "generation": "L663",
       "engineCode": "S68B44T0",
       "fuel": "Petrol Twin-Turbo",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-s68-bmw-sourced-engine"
     },
     {
       "year": "2026",
       "generation": "L663",
       "engineCode": "S68B44T0",
       "fuel": "Petrol Twin-Turbo",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-s68-bmw-sourced-engine"
     }
   ],
   "notice": {

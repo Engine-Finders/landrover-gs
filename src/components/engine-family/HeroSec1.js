@@ -8,7 +8,7 @@ export default function HeroSec1({ data }) {
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
         <div className="absolute inset-0">
-          <Image src={data.imageMobile} alt="Land Rover technician rebuilding an M139 engine block" fill priority className="object-cover" sizes="100vw" />
+          <Image src={data.imageMobile} alt="Land Rover technician rebuilding an engine block" fill priority className="object-cover" sizes="100vw" />
           <div
             className="absolute inset-0"
             style={{ background: "linear-gradient(to right, #0a0a0a 0%, rgba(10,10,10,0.92) 65%, rgba(10,10,10,0.55) 82%, transparent 100%)" }}
@@ -86,7 +86,7 @@ export default function HeroSec1({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden overflow-hidden md:block">
         <div className="absolute inset-0">
-          <Image src={data.image} alt="Land Rover technician rebuilding an M139 engine block" fill priority className="object-cover" sizes="100vw" />
+          <Image src={data.image} alt="Land Rover technician rebuilding an engine block" fill priority className="object-cover" sizes="100vw" />
           <div
             className="absolute inset-0"
             style={{ background: "linear-gradient(to right, rgba(10,10,10,0.85) 0%, rgba(10,10,10,0.55) 42%, rgba(10,10,10,0.15) 60%, transparent 75%)" }}
@@ -148,7 +148,7 @@ export default function HeroSec1({ data }) {
                 <a
                   href={data.priceCta.href}
                   className="flex items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-6 py-3 text-sm font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
-                  style={{ boxShadow: "0 15px 35px -15px rgba(173,135,92,0.6)" }}
+                  style={{ boxShadow: "0 15px 35px -15px rgba(96,112,86,0.6)" }}
                 >
                   {data.priceCta.buttonLabel}
                 </a>

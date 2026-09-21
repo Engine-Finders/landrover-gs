@@ -28,12 +28,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover P440e ENGINE SIZES",
+        "title": "LAND ROVER Range Rover P440e ENGINE SIZES",
         "item": "Land Rover Range Rover P440e 3.0 Litre Engine (AJ300, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover P440e FUEL TYPES",
+        "title": "LAND ROVER Range Rover P440e FUEL TYPES",
         "item": "Land Rover Range Rover P440e Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -50,8 +50,45 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover TDV6 Engine",
+        "href": "/landrover-range-rover-tdv6-engines"
+      },
+      {
+        "label": "Land Rover Range Rover SDV6 Engine",
+        "href": "/landrover-range-rover-sdv6-engines"
+      },
+      {
+        "label": "Land Rover Range Rover TDV8 Engine",
+        "href": "/landrover-range-rover-tdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover SDV8 Engine",
+        "href": "/landrover-range-rover-sdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover P400 Engine",
+        "href": "/landrover-range-rover-p400-engines"
+      },
+      {
+        "label": "Land Rover Range Rover P530 Engine",
+        "href": "/landrover-range-rover-p530-engines"
+      },
+      {
+        "label": "Land Rover Range Rover P460e Engine",
+        "href": "/landrover-range-rover-p460e-engines"
+      },
+      {
+        "label": "Land Rover Range Rover P510e Engine",
+        "href": "/landrover-range-rover-p510e-engines"
+      },
+      {
+        "label": "Land Rover Range Rover P550e Engine",
+        "href": "/landrover-range-rover-p550e-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/models"
   }
 }

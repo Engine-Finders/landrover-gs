@@ -1,0 +1,37 @@
+{
+  "headlinePre": "Land Rover Range Rover Velar SVAutobiography Dynamic Edition",
+  "headlineHighlight": "Engine Rebuild Price",
+  "startingFromLabel": "Starting From",
+  "startingFromPrice": "£5,500",
+  "engineImage": "/variant/sec10_engine.webp",
+  "carImage": "/variant/landrover_car.webp",
+  "cards": [
+    {
+      "code": "AJ133",
+      "generation": "L560 (2019 only)",
+      "price": "£5,500",
+      "codeHref": "/landrover-aj133-engine"
+    }
+  ],
+  "notes": [
+    {
+      "icon": "price",
+      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    }
+  ],
+  "cta": {
+    "icon": "car",
+    "label": "Get Your Fixed-Price Quote",
+    "href": "#quote-form"
+  },
+  "warning": {
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Range Rover Velar SVAutobiography Dynamic Edition Known Issues by Engine ",
+    "titleHighlight": "",
+    "paragraphs": [
+      "If your Range Rover Velar SVAutobiography Dynamic Edition has the AJ133 (L663 generation):",
+      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ133 rebuild."
+    ],
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+  }
+}

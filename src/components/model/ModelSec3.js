@@ -10,14 +10,15 @@ export default function ModelSec3({ data }) {
     <section className="relative overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="theme-dark relative md:hidden">
-        <div className="relative h-72 w-full overflow-hidden">
-          {/* solid dark header band reserved for the title — the car in this photo fills the
-              frame from the very top with no headroom of its own, so the photo is pinned to
-              the bottom of a taller box instead of the whole box, keeping the car clear of the
-              title instead of overlapping it */}
+        <div className="relative w-full overflow-hidden" style={{ height: "max(20rem, calc(4rem + 61.5vw))" }}>
+          {/* dark header band reserved for the title, photo below it. In this photo the car sits in the
+              middle of a tall portrait frame (roughly 38%-65% down), so the crop is centred on the car
+              instead of pinned to the top, which only showed the dark workshop ceiling. The box grows with
+              the screen width (61.5vw of photo + the 4rem title band) so the whole car stays in frame
+              on wider phones too */}
           <div className="absolute inset-x-0 bottom-0 top-16">
-            <Image src={data.imageMobile} alt="Land Rover C-Class in a dark Land Rover service workshop" fill className="object-cover object-top" sizes="100vw" />
-            <div className="absolute inset-0 bg-linear-to-b from-hero-dark/50 via-transparent to-hero-dark" />
+            <Image src={data.imageMobile} alt="Land Rover Defender in a dark Land Rover service workshop" fill className="object-cover object-[50%_52%]" sizes="100vw" />
+            <div className="absolute inset-0 bg-linear-to-b from-hero-dark/50 via-transparent via-70% to-hero-dark" />
           </div>
 
           <div className="relative px-4 pt-6">
@@ -38,7 +39,7 @@ export default function ModelSec3({ data }) {
             {data.startingFromLabel}
             <span
               className="mt-2 block h-0.5 w-full rounded-full bg-hero-blue"
-              style={{ boxShadow: "0 0 14px rgba(173,135,92,0.55), 0 0 26px rgba(173,135,92,0.35)" }}
+              style={{ boxShadow: "0 0 14px rgba(96,112,86,0.55), 0 0 26px rgba(96,112,86,0.35)" }}
             />
           </p>
 
@@ -47,7 +48,7 @@ export default function ModelSec3({ data }) {
               <div
                 key={c.titlePre}
                 className={`card-corner-glare relative rounded-xl border p-3 ${
-                  c.featured ? "border-hero-blue/50 bg-(--color-light-surface)" : "border-hero-blue/30 bg-[#12100a]"
+                  c.featured ? "border-hero-blue/50 bg-(--color-light-surface)" : "border-hero-blue/30 bg-[#121511]"
                 }`}
               >
                 {c.featured && (
@@ -105,7 +106,7 @@ export default function ModelSec3({ data }) {
               href={data.cta.href}
               className="mt-4 flex items-center justify-center gap-2 rounded-lg px-6 py-3.5 text-sm font-bold uppercase tracking-wide text-white"
               style={{
-                background: "linear-gradient(135deg, var(--color-hero-gold) 0%, #8c6c46 100%)",
+                background: "linear-gradient(135deg, var(--color-hero-gold) 0%, #4c5a45 100%)",
                 border: "1px solid rgba(255,255,255,0.25)",
               }}
             >
@@ -116,9 +117,9 @@ export default function ModelSec3({ data }) {
       </div>
 
       {/* ===== desktop ===== */}
-      <div className="relative hidden overflow-hidden px-4 py-10 sm:px-6 md:block lg:px-8">
+      <div className="theme-dark relative hidden overflow-hidden px-4 py-10 sm:px-6 md:block lg:px-8">
       <div className="absolute inset-0">
-        <Image src={data.image} alt="Land Rover C-Class in a dark Land Rover service workshop" fill className="object-cover object-[65%_30%]" sizes="100vw" />
+        <Image src={data.image} alt="Land Rover Defender in a dark Land Rover service workshop" fill className="object-cover object-[65%_30%]" sizes="100vw" />
         <div className="absolute inset-0 bg-linear-to-r from-hero-dark via-hero-dark/75 to-transparent" />
       </div>
 
@@ -137,7 +138,7 @@ export default function ModelSec3({ data }) {
           {data.startingFromLabel}
           <span
             className="mt-2 block h-0.5 w-full rounded-full bg-hero-blue"
-            style={{ boxShadow: "0 0 14px rgba(173,135,92,0.55), 0 0 26px rgba(173,135,92,0.35)" }}
+            style={{ boxShadow: "0 0 14px rgba(96,112,86,0.55), 0 0 26px rgba(96,112,86,0.35)" }}
           />
         </p>
 
@@ -148,7 +149,7 @@ export default function ModelSec3({ data }) {
               className={
                 c.featured
                   ? "card-corner-glare relative rounded-xl border border-hero-blue/50 bg-(--color-light-surface) pb-4 pt-3"
-                  : "card-corner-glare relative rounded-xl border border-hero-blue/50 bg-[#12100a] pb-4 pt-3"
+                  : "card-corner-glare relative rounded-xl border border-hero-blue/50 bg-[#121511] pb-4 pt-3"
               }
             >
               {c.featured ? (

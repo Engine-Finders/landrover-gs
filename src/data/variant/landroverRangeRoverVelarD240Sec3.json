@@ -9,7 +9,8 @@
     {
       "code": "Ingenium AJ200D",
       "generation": "L560 (2017–present)",
-      "price": "£2,200"
+      "price": "£2,200",
+      "codeHref": "/landrover-aj200d-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Velar D240 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Ingenium AJ200D I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Velar D240 Timing Chain & Oil Dilution ",
+    "titleHighlight": "(Ingenium AJ200D)",
     "paragraphs": [
-      "The Ingenium AJ200D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Ingenium AJ200D V6. We replace timing chains, bearings, water pump and gaskets as standard on every Ingenium AJ200D rebuild.",
-      "Because the Range Rover Velar D240 uses a completely different engine family from the V8 M178 fitted to the Range Rover Velar 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Velar D240 has the Ingenium AJ200D 4-cylinder diesel — the engine fitted across the L560 generation — timing chain tensioner wear and oil dilution from DPF regeneration are well-documented patterns on this engine. We replace timing chain components, injector seals, EGR, and gaskets as standard on every AJ200D rebuild.",
+      "One owner-forum source specifically noted the D240 does not share the oil dilution issue affecting other diesels in the range — this is a single source, not independently corroborated, so we treat the broader Ingenium diesel pattern as the confirmed baseline for the D240."
     ],
-    "source": "Source: Established Ingenium AJ200D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: shared Ingenium diesel family pattern, multiple forums. D240 oil dilution exception noted pending confirmation, per VRF"
   }
 }

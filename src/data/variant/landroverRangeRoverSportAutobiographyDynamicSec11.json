@@ -1,0 +1,114 @@
+{
+  "image": "/variant/sec11.v2.webp",
+  "titlePre": "Land Rover Range Rover Sport Autobiography Dynamic ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Range Rover Sport Autobiography Dynamic has used the SDV8 or AJ-V8 throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2013",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "year": "2014",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "year": "2015",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "year": "2016",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "year": "2017",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "year": "2018",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "year": "2019",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "year": "2020",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "year": "2021",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "year": "2022",
+      "generation": "L494",
+      "engineCode": "SDV8 / AJ-V8",
+      "fuel": "Diesel / Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj-v8-engine"
+    }
+  ],
+  "notice": {
+    "highlight": "The SDV8 or AJ-V8",
+    "rest": " has been fitted to every Range Rover Sport Autobiography Dynamic since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

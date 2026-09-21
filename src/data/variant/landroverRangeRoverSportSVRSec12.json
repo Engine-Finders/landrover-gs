@@ -31,12 +31,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Sport SVR ENGINE SIZES",
-        "item": "Land Rover Range Rover Sport SVR 3.0 Litre Engine (engine, I6)"
+        "title": "LAND ROVER Range Rover Sport SVR ENGINE SIZES",
+        "item": "Land Rover Range Rover Sport SVR 3.0 Litre Engine (AJ‑V8 Supercharged, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Sport SVR FUEL TYPES",
+        "title": "LAND ROVER Range Rover Sport SVR FUEL TYPES",
         "item": "Land Rover Range Rover Sport SVR Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -53,8 +53,29 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover Sport SV / P635 Engine",
+        "href": "/landrover-range-rover-sport-sv-p635-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P530 Engine",
+        "href": "/landrover-range-rover-sport-p530-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P400 Engine",
+        "href": "/landrover-range-rover-sport-p400-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport HSE Engine",
+        "href": "/landrover-range-rover-sport-hse-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport Autobiography Dynamic Engine",
+        "href": "/landrover-range-rover-sport-autobiography-dynamic-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-sport-engines"
   }
 }

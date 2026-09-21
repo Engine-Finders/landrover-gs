@@ -7,9 +7,40 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461)",
-      "generation": "",
-      "price": "£2,400"
+      "code": "TDV6 / SDV6",
+      "generation": "L320 (2005–2013)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "TDV6 / SDV6",
+      "generation": "L494 (2013–2022)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "TDV8 / SDV8",
+      "generation": "L320/L494",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "code": "Ingenium AJ300D (D300)",
+      "generation": "L461 (2022–present)",
+      "price": "£2,800",
+      "codeHref": "/landrover-aj300d-engine"
+    },
+    {
+      "code": "Ingenium AJ300P (P400)",
+      "generation": "L461 (2022–present)",
+      "price": "£3,200",
+      "codeHref": "/landrover-aj300p-engine"
+    },
+    {
+      "code": "BMW N63 (P530)",
+      "generation": "L461 (2022–present)",
+      "price": "£6,500",
+      "codeHref": "/landrover-n63-engine"
     }
   ],
   "notes": [
@@ -24,13 +55,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Sport HSE Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461) I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover Sport HSE Timing Chain Wear ",
+    "titleHighlight": "(L320/L494, TDV6/SDV6)",
     "paragraphs": [
-      "The TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461) is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461) V6. We replace timing chains, bearings, water pump and gaskets as standard on every TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461) rebuild.",
-      "Because the Range Rover Sport HSE uses a completely different engine family from the V8 M178 fitted to the Range Rover Sport 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Range Rover Sport HSE is a pre-2022 model with the TDV6 or SDV6 diesel V6 — that's the L320 or L494 generation — timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk are well-documented patterns on this engine family. We replace timing chains, tensioners, injector seals, EGR components and gaskets as standard on every TDV6/SDV6 rebuild.",
+      "The newer L461 generation uses Ingenium diesel and petrol engines — a different design family with improved reliability. It also offers BMW-sourced V8 options (P530) that follow their own well-known hot-vee pattern, but these are not independently confirmed for the Sport specifically at this time."
     ],
-    "source": "Source: Established TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461) specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: same as Range Rover TDV6/SDV6 pattern (per G-BRF). L461 Ingenium MHEV DC-DC risk flagged unconfirmed; PHEV-specific pattern missing; N63/S68 inherited by platform-sharing inference, not independently re-verified for Sport specifically"
   }
 }

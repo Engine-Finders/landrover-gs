@@ -25,21 +25,48 @@
   "rows": [
     {
       "model": "Defender",
-      "variant": "P525 (V8)",
+      "variant": "D200, D250, D300, D350",
       "generation": "L663",
       "chassis": "L663",
       "years": "2020–present",
-      "powertrain": "Supercharged V8",
-      "modelHref": "/landrover-defender-engines"
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/defender-engines"
+    },
+    {
+      "model": "Discovery",
+      "variant": "D250, D300, D350",
+      "generation": "L462",
+      "chassis": "L462",
+      "years": "2020–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/discovery-engines"
+    },
+    {
+      "model": "Range Rover",
+      "variant": "D250, D300, D350",
+      "generation": "L460",
+      "chassis": "L460",
+      "years": "2022–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/models"
+    },
+    {
+      "model": "Range Rover Sport",
+      "variant": "D250, D300, D350",
+      "generation": "L461",
+      "chassis": "L461",
+      "years": "2022–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/range-rover-sport-engines"
     },
     {
       "model": "Range Rover Velar",
-      "variant": "SVAutobiography",
+      "variant": "D200, D250, D300",
       "generation": "L560",
       "chassis": "L560",
-      "years": "2019–2021",
-      "powertrain": "Supercharged V8",
-      "modelHref": "/landrover-range-rover-velar-engines"
+      "years": "2019–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/range-rover-velar-engines"
     }
   ],
   "prompt": {

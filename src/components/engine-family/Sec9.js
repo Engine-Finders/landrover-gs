@@ -41,7 +41,7 @@ export default function Sec9({ data }) {
           <Title {...about} />
         </div>
         <div className="relative -mt-1 aspect-4/3 w-full overflow-hidden md:hidden">
-          <Image src={about.imageMobile} alt="the engine engine on workshop stand" fill className="object-cover" sizes="100vw" />
+          <Image src={about.imageMobile} alt="Land Rover engine on workshop stand" fill className="object-cover" sizes="100vw" />
           <div
             className="pointer-events-none absolute inset-x-0 top-0 h-10"
             style={{ background: "linear-gradient(to bottom, #fff 0%, transparent 100%)" }}
@@ -58,7 +58,7 @@ export default function Sec9({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden overflow-hidden md:block">
           <div className="absolute inset-0">
-            <Image src={about.image} alt="the engine engine on workshop stand" fill className="object-cover" sizes="100vw" />
+            <Image src={about.image} alt="Land Rover engine on workshop stand" fill className="object-cover" sizes="100vw" />
             <div
               className="absolute inset-0"
               style={{ background: "linear-gradient(to right, #fff 0%, #fff 45%, rgba(255,255,255,0.85) 58%, rgba(255,255,255,0.3) 72%, transparent 88%)" }}
@@ -130,7 +130,7 @@ export default function Sec9({ data }) {
 
           <div className="relative mt-5 overflow-hidden rounded-2xl">
             <div className="absolute inset-0">
-              <Image src={compatibility.imageMobile} alt="the engine engine compatibility scan" fill className="object-cover" sizes="100vw" />
+              <Image src={compatibility.imageMobile} alt="Land Rover engine compatibility scan" fill className="object-cover" sizes="100vw" />
               <div className="absolute inset-0 bg-linear-to-b from-white/85 via-white/55 to-white/85" />
             </div>
             <div className="relative space-y-2.5 p-4">
@@ -151,7 +151,7 @@ export default function Sec9({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden overflow-hidden md:block">
           <div className="absolute inset-0">
-            <Image src={compatibility.image} alt="the engine engine compatibility scan" fill className="object-cover" sizes="100vw" />
+            <Image src={compatibility.image} alt="Land Rover engine compatibility scan" fill className="object-cover" sizes="100vw" />
             <div
               className="absolute inset-0"
               style={{ background: "linear-gradient(to right, #fff 0%, #fff 36%, rgba(255,255,255,0.6) 48%, rgba(255,255,255,0.15) 62%, transparent 74%)" }}

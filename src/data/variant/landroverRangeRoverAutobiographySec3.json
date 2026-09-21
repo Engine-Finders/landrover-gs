@@ -7,9 +7,16 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "",
-      "generation": "",
-      "price": "£6,500"
+      "code": "BMW N63",
+      "generation": "L460 (2022–present)",
+      "price": "£6,500",
+      "codeHref": "/landrover-n63-engine"
+    },
+    {
+      "code": "BMW S68",
+      "generation": "L460 (2022–present)",
+      "price": "£6,500",
+      "codeHref": "/landrover-s68-bmw-sourced-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Autobiography Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(engine I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover Autobiography Known Issues by Engine ",
+    "titleHighlight": "(L460, BMW V8s)",
     "paragraphs": [
-      "The engine is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older engine V6. We replace timing chains, bearings, water pump and gaskets as standard on every engine rebuild.",
-      "Because the Range Rover Autobiography uses a completely different engine family from the V8 M178 fitted to the Land Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "The L460-generation Range Rover Autobiography uses BMW-sourced V8s. The specific engine fitted depends on the vehicle's spec, and each carries its own well-documented characteristics.",
+      "If your Autobiography has the BMW N63 (standard V8 tier): The N63 is a \"hot-vee\" design, which has a documented pattern of valve seal wear, cooling system leaks (particularly coolant lines), and higher-than-average oil consumption on some examples. We replace valve seals, coolant components and timing chain components as standard on every N63 rebuild."
     ],
-    "source": "Source: Established engine specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: BMW G-BRF N63/S63 family pattern, cross-applicable per VRF-landrover-range-rover.md, confirmed via Wikipedia L460 article. Both V8s are BMW-sourced and carry the hot-vee family pattern"
   }
 }

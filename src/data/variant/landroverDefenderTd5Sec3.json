@@ -1,0 +1,43 @@
+{
+  "headlinePre": "Land Rover Defender Td5",
+  "headlineHighlight": "Engine Rebuild Price",
+  "startingFromLabel": "Starting From",
+  "startingFromPrice": "£1,900",
+  "engineImage": "/variant/sec10_engine.webp",
+  "carImage": "/variant/landrover_car.webp",
+  "cards": [
+    {
+      "code": "Td5",
+      "generation": "Classic 90/110/130 (1998–2007)",
+      "price": "£1,900",
+      "codeHref": "/landrover-td5-engine"
+    },
+    {
+      "code": "Td5",
+      "generation": "L316 (1990–2016)",
+      "price": "£1,900",
+      "codeHref": "/landrover-td5-engine"
+    }
+  ],
+  "notes": [
+    {
+      "icon": "price",
+      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    }
+  ],
+  "cta": {
+    "icon": "car",
+    "label": "Get Your Fixed-Price Quote",
+    "href": "#quote-form"
+  },
+  "warning": {
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Defender Td5 Injector & Crank Sensor Wear ",
+    "titleHighlight": "(Td5 Engine)",
+    "paragraphs": [
+      "If your Defender is a 1998–2007 model with the Td5 diesel five-cylinder — that's the classic 90/110/130 generation — injector and crank sensor wear is a well-documented pattern on this engine, backed by established Land Rover specialist consensus. We replace injectors, the head gasket, and cooling system components as standard on every Td5 rebuild.",
+      "The older 200Tdi and 300Tdi engines use a completely different mechanical injection system and don't share this specific issue — they have their own known wear patterns (cylinder head cracking and cooling system neglect), which we also cover in our classic Defender rebuilds."
+    ],
+    "source": "Source: established specialist consensus, multiple forums, per VRF-landrover-defender.md. 200Tdi/300Tdi have separate confirmed issues per VRF"
+  }
+}

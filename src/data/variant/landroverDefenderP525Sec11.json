@@ -1,8 +1,8 @@
 {
-  "image": "/variant/sec11.webp",
-  "titlePre": "MERCEDES Defender P525 ENGINES ",
+  "image": "/variant/sec11.v2.webp",
+  "titlePre": "Land Rover Defender P525 ENGINES ",
   "titleHighlight": "BY YEAR",
-  "description": "From the generation's launch in 2023, the Defender P525 has used the engine 3.0-litre inline-six mild hybrid throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "description": "Land Rover Defender P525 has used the AJ133 throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
   "columns": [
     {
       "icon": "calendar",
@@ -27,92 +27,56 @@
   ],
   "rows": [
     {
-      "year": "2014",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2015",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2016",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2017",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2018",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2019",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2020",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
       "year": "2021",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "generation": "L663",
+      "engineCode": "AJ133",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj133-engine"
     },
     {
       "year": "2022",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "generation": "L663",
+      "engineCode": "AJ133",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj133-engine"
     },
     {
       "year": "2023",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "generation": "L663",
+      "engineCode": "AJ133",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj133-engine"
     },
     {
       "year": "2024",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "generation": "L663",
+      "engineCode": "AJ133",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj133-engine"
     },
     {
       "year": "2025",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "generation": "L663",
+      "engineCode": "AJ133",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj133-engine"
+    },
+    {
+      "year": "2026",
+      "generation": "L663",
+      "engineCode": "AJ133",
+      "fuel": "Petrol Supercharged",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj133-engine"
     }
   ],
   "notice": {
-    "highlight": "The engine",
+    "highlight": "The AJ133",
     "rest": " has been fitted to every Defender P525 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
   }
 }

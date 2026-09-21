@@ -12,7 +12,7 @@ export default function Sec2({ data }) {
         {/* specifications */}
         <div className="relative overflow-hidden">
           <div className="relative h-44 w-full overflow-hidden">
-            <Image src={specs.imageMobile} alt="the engine engine" fill className="object-cover" sizes="100vw" />
+            <Image src={specs.imageMobile} alt="Land Rover engine" fill className="object-cover" sizes="100vw" />
             <div
               className="absolute inset-0"
               style={{ background: "linear-gradient(to bottom, transparent 0%, transparent 45%, var(--theme-light-bg) 100%)" }}
@@ -39,7 +39,7 @@ export default function Sec2({ data }) {
             </div>
 
             <div
-              className="-mx-1.5 mt-3 flex items-center gap-3 rounded-xl border border-[#ad875c]/35 bg-white p-3"
+              className="-mx-1.5 mt-3 flex items-center gap-3 rounded-xl border border-[#607056]/35 bg-white p-3"
               style={{ boxShadow: "0 4px 16px -6px rgba(0,0,0,0.12)" }}
             >
               <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-hero-blue bg-white">
@@ -72,7 +72,7 @@ export default function Sec2({ data }) {
           </div>
 
           <div className="relative mt-4 aspect-4/3 w-full overflow-hidden">
-            <Image src={price.imageMobile} alt="the engine engine components" fill className="object-cover" sizes="100vw" />
+            <Image src={price.imageMobile} alt="Land Rover engine components" fill className="object-cover" sizes="100vw" />
             <div
               className="pointer-events-none absolute inset-x-0 top-0 h-10"
               style={{ background: "linear-gradient(to bottom, #fff 0%, transparent 100%)" }}
@@ -104,7 +104,7 @@ export default function Sec2({ data }) {
         {/* specifications — floating white card over a full-bleed workshop photo */}
         <div className="relative overflow-hidden bg-[#0d0d0d] px-6 py-6">
           <div className="absolute inset-0">
-            <Image src={specs.image} alt="the engine engine" fill className="object-cover" sizes="100vw" />
+            <Image src={specs.image} alt="Land Rover engine" fill className="object-cover" sizes="100vw" />
           </div>
 
           <div className="relative mx-auto max-w-6xl">
@@ -129,7 +129,7 @@ export default function Sec2({ data }) {
               </div>
 
               <div
-                className="-mx-3 mt-4 flex items-center gap-4 rounded-2xl border border-[#ad875c]/35 bg-white p-4"
+                className="-mx-3 mt-4 flex items-center gap-4 rounded-2xl border border-[#607056]/35 bg-white p-4"
                 style={{ boxShadow: "0 8px 24px -8px rgba(0,0,0,0.15)" }}
               >
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-hero-blue bg-white">
@@ -153,7 +153,7 @@ export default function Sec2({ data }) {
         {/* rebuild price — full-bleed photo (built-in empty portion on the left for text) */}
         <div className="relative overflow-hidden">
           <div className="absolute inset-0">
-            <Image src={price.image} alt="the engine engine components" fill className="object-cover" sizes="100vw" />
+            <Image src={price.image} alt="Land Rover engine components" fill className="object-cover" sizes="100vw" />
             <div
               className="pointer-events-none absolute inset-0"
               style={{ background: "linear-gradient(90deg, #fff 0%, #fff 42%, rgba(255,255,255,0.9) 55%, rgba(255,255,255,0.35) 68%, transparent 82%)" }}

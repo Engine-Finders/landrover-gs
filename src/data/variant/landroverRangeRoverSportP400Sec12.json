@@ -28,12 +28,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Sport P400 ENGINE SIZES",
+        "title": "LAND ROVER Range Rover Sport P400 ENGINE SIZES",
         "item": "Land Rover Range Rover Sport P400 3.0 Litre Engine (AJ300P, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Sport P400 FUEL TYPES",
+        "title": "LAND ROVER Range Rover Sport P400 FUEL TYPES",
         "item": "Land Rover Range Rover Sport P400 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -50,8 +50,29 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover Sport D300 Engine",
+        "href": "/landrover-range-rover-sport-d300-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P530 Engine",
+        "href": "/landrover-range-rover-sport-p530-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P440e Engine",
+        "href": "/landrover-range-rover-sport-p440e-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P460e Engine",
+        "href": "/landrover-range-rover-sport-p460e-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport SVR Engine",
+        "href": "/landrover-range-rover-sport-svr-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-sport-engines"
   }
 }

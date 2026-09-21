@@ -32,12 +32,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Freelander TD4 ENGINE SIZES",
+        "title": "LAND ROVER Freelander TD4 ENGINE SIZES",
         "item": "Land Rover Freelander TD4 3.0 Litre Engine (BMW M47D20, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Freelander TD4 FUEL TYPES",
+        "title": "LAND ROVER Freelander TD4 FUEL TYPES",
         "item": "Land Rover Freelander TD4 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -54,8 +54,29 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Freelander 1.8i Engine",
+        "href": "/landrover-freelander-1-8i-engines"
+      },
+      {
+        "label": "Land Rover Freelander 2.5 V6 Engine",
+        "href": "/landrover-freelander-2-5-v6-engines"
+      },
+      {
+        "label": "Land Rover Freelander eD4 Engine",
+        "href": "/landrover-freelander-ed4-engines"
+      },
+      {
+        "label": "Land Rover Freelander Si4 Engine",
+        "href": "/landrover-freelander-si4-engines"
+      },
+      {
+        "label": "Land Rover Freelander SD4 Engine",
+        "href": "/landrover-freelander-sd4-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/freelander-engines"
   }
 }

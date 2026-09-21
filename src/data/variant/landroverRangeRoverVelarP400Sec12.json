@@ -33,12 +33,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Velar P400 ENGINE SIZES",
+        "title": "LAND ROVER Range Rover Velar P400 ENGINE SIZES",
         "item": "Land Rover Range Rover Velar P400 3.0 Litre Engine (AJ300P, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Velar P400 FUEL TYPES",
+        "title": "LAND ROVER Range Rover Velar P400 FUEL TYPES",
         "item": "Land Rover Range Rover Velar P400 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -55,8 +55,49 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Velar D180 Engine",
+        "href": "/landrover-range-rover-velar-d180-engines"
+      },
+      {
+        "label": "Land Rover Velar D200 Engine",
+        "href": "/landrover-range-rover-velar-d200-engines"
+      },
+      {
+        "label": "Land Rover Velar D240 Engine",
+        "href": "/landrover-range-rover-velar-d240-engines"
+      },
+      {
+        "label": "Land Rover Velar D250 Engine",
+        "href": "/landrover-range-rover-velar-d250-engines"
+      },
+      {
+        "label": "Land Rover Velar D300 Engine",
+        "href": "/landrover-velar-d300-engines"
+      },
+      {
+        "label": "Land Rover Velar P250 Engine",
+        "href": "/landrover-range-rover-velar-p250-engines"
+      },
+      {
+        "label": "Land Rover Velar P300 Engine",
+        "href": "/landrover-velar-p300-engines"
+      },
+      {
+        "label": "Land Rover Velar P340 Engine",
+        "href": "/landrover-range-rover-velar-p340-engines"
+      },
+      {
+        "label": "Land Rover Velar P400e Engine",
+        "href": "/landrover-velar-p400e-engines"
+      },
+      {
+        "label": "Land Rover Velar SVAutobiography Dynamic Edition Engine",
+        "href": "/landrover-range-rover-velar-svautobiography-dynamic-edition-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-velar-engines"
   }
 }

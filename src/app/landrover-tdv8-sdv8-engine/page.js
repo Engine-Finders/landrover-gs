@@ -34,11 +34,11 @@ export const metadata = {
   alternates: { canonical: PATH },
 };
 
-export default function Landrovertdv8sdv8EnginePage() {
+export default function LandroverTdv8Sdv8EnginePage() {
   return (
     <>
       <JsonLd data={graphDoc([
-        serviceSchema({ name: NAME, description: sec1.subhead, path: PATH, price: sec1.priceCta?.label }),
+        serviceSchema({ name: NAME, description: sec1.subhead, path: PATH, price: (sec1.priceCta?.label || sec1.priceCta?.kicker) }),
         faqSchema(FAQ, PATH),
         breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Engines", path: "/engines" }, { name: NAME, path: PATH }], PATH),
       ])} />

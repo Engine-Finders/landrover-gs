@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "AJ300P + electric motor",
-      "generation": "L663 (2020 only, 110 only — discontinued)",
-      "price": "£2,800"
+      "generation": "L663 (2020, 110 only)",
+      "price": "£2,800",
+      "codeHref": "/landrover-aj300p-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Defender P400e Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(AJ300P + electric motor I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Defender P400e Known Issues by Engine ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The AJ300P + electric motor is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older AJ300P + electric motor V6. We replace timing chains, bearings, water pump and gaskets as standard on every AJ300P + electric motor rebuild.",
-      "Because the Defender P400e uses a completely different engine family from the V8 M178 fitted to the Defender 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Defender P400e has the AJ300P + electric motor (L663 generation):",
+      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ300P + electric motor rebuild."
     ],
-    "source": "Source: Established AJ300P + electric motor specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
   }
 }

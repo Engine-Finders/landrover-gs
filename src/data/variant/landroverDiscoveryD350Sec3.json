@@ -1,0 +1,37 @@
+{
+  "headlinePre": "Land Rover Discovery D350",
+  "headlineHighlight": "Engine Rebuild Price",
+  "startingFromLabel": "Starting From",
+  "startingFromPrice": "£2,800",
+  "engineImage": "/variant/sec10_engine.webp",
+  "carImage": "/variant/landrover_car.webp",
+  "cards": [
+    {
+      "code": "AJ300D",
+      "generation": "D5 (L462, 2017–present)",
+      "price": "£2,800",
+      "codeHref": "/landrover-aj300d-engine"
+    }
+  ],
+  "notes": [
+    {
+      "icon": "price",
+      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    }
+  ],
+  "cta": {
+    "icon": "car",
+    "label": "Get Your Fixed-Price Quote",
+    "href": "#quote-form"
+  },
+  "warning": {
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery D350 Timing Chain Wear ",
+    "titleHighlight": "(AJ300D Ingenium Diesel)",
+    "paragraphs": [
+      "Discovery D350 engines — the AJ300D Ingenium 3.0-litre diesel, fitted across the D5 generation — commonly show timing chain wear over time. This is a well-documented pattern across the Ingenium diesel family, confirmed by specialist consensus and multiple forum sources. We replace the timing chain, tensioners, guides, injector seals, bearings and gaskets as standard on every AJ300D rebuild.",
+      "The AJ300D is a mild-hybrid unit, which shares electrical hardware with the Ingenium MHEV system fitted to other Land Rover models. The DC-DC converter has been identified as a failure point on some MHEV variants, though this has not yet been independently confirmed for the Discovery D5 specifically."
+    ],
+    "source": "Source: G-BRF Ingenium diesel family pattern, specialist consensus. DC-DC converter applicability to Discovery D5 is [MISSING"
+  }
+}

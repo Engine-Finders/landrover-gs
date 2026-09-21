@@ -1,6 +1,6 @@
 {
   "reviews": {
-    "titlePre": "WHAT MERCEDES ",
+    "titlePre": "WHAT LAND ROVER ",
     "titleHighlight": "Defender Octa OWNERS SAY",
     "items": [
       {
@@ -48,7 +48,7 @@
     "titlePre": "WE COVER YOUR",
     "titleHighlight": "EXACT VEHICLE",
     "body": "Enter your registration below and we'll confirm your Land Rover Defender Octa has the S68B44T0, along with an exact rebuild price.",
-    "image": "/variant/sec7.webp",
+    "image": "/variant/sec7.v2.webp",
     "buttonLabel": "Check Fit",
     "ticks": [
       "Fast",
@@ -57,7 +57,7 @@
     ]
   },
   "whyChoose": {
-    "titlePre": "WHY MERCEDES Defender Octa ",
+    "titlePre": "WHY LAND ROVER Defender Octa ",
     "titleHighlight": "OWNERS CHOOSE US",
     "items": [
       "Engine matched using VIN or registration number",

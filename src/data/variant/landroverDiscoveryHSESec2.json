@@ -2,7 +2,7 @@
   "headlinePre": "Your ",
   "headlineHighlight": "Land Rover Discovery HSE",
   "headlinePost": " Engine",
-  "image": "/variant/sec10_engine.webp",
+  "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
@@ -17,7 +17,7 @@
     {
       "icon": "sliders",
       "label": "Variant",
-      "value": "HSE"
+      "value": "Discovery HSE"
     },
     {
       "icon": "fuel",
@@ -42,7 +42,7 @@
     {
       "icon": "price",
       "label": "Rebuild From",
-      "value": "£2,400 – £4,500"
+      "value": "£2,400"
     }
   ],
   "lookup": {

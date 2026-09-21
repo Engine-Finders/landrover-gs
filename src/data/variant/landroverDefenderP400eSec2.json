@@ -2,7 +2,7 @@
   "headlinePre": "Your ",
   "headlineHighlight": "Land Rover Defender P400e",
   "headlinePost": " Engine",
-  "image": "/variant/sec10_engine.webp",
+  "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
@@ -17,7 +17,7 @@
     {
       "icon": "sliders",
       "label": "Variant",
-      "value": "P400e"
+      "value": "Defender P400e"
     },
     {
       "icon": "fuel",
@@ -36,7 +36,7 @@
     },
     {
       "icon": "calendar",
-      "label": "Generation",
+      "label": "Generations",
       "value": "L663 (2020 only, 110 only — discontinued)"
     },
     {

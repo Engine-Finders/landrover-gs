@@ -13,7 +13,7 @@ export default function Sec9c({ data }) {
       </div>
 
       <div className="relative aspect-4/3 w-full overflow-hidden md:hidden">
-        <Image src={data.imageMobile} alt="the engine engine variants" fill className="object-cover" sizes="100vw" />
+        <Image src={data.imageMobile} alt="Land Rover engine variants" fill className="object-cover" sizes="100vw" />
         <div
           className="pointer-events-none absolute inset-x-0 top-0 h-10"
           style={{ background: "linear-gradient(to bottom, var(--theme-light-bg) 0%, transparent 100%)" }}
@@ -50,7 +50,7 @@ export default function Sec9c({ data }) {
 
         <div
           className="mt-5 rounded-2xl bg-(--theme-light-bg) p-4"
-          style={{ border: "1px solid rgba(173,135,92,0.3)", boxShadow: "0 12px 30px -10px rgba(0,0,0,0.18)" }}
+          style={{ border: "1px solid rgba(96,112,86,0.3)", boxShadow: "0 12px 30px -10px rgba(0,0,0,0.18)" }}
         >
           <div className="flex items-center gap-3">
             <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-hero-blue">
@@ -73,7 +73,7 @@ export default function Sec9c({ data }) {
       {/* ===== desktop — full-bleed engine + plate photo behind everything ===== */}
       <div className="relative hidden overflow-hidden md:block">
         <div className="absolute inset-0">
-          <Image src={data.image} alt="the engine engine variants" fill className="object-cover" style={{ objectPosition: "78% center" }} sizes="100vw" />
+          <Image src={data.image} alt="Land Rover engine variants" fill className="object-cover" style={{ objectPosition: "78% center" }} sizes="100vw" />
           {/* solid block — flat-matches the section's #f7f4ee, not a fade, so there's no visible seam */}
           <div className="absolute inset-y-0 left-0 w-[56%]" style={{ background: "var(--theme-light-bg)" }} aria-hidden="true" />
           <div
@@ -116,7 +116,7 @@ export default function Sec9c({ data }) {
 
           <div
             className="relative mt-6 flex items-center justify-between gap-4 rounded-2xl bg-(--theme-light-bg) px-6 py-4"
-            style={{ border: "1px solid rgba(173,135,92,0.3)", boxShadow: "0 12px 30px -10px rgba(0,0,0,0.18)" }}
+            style={{ border: "1px solid rgba(96,112,86,0.3)", boxShadow: "0 12px 30px -10px rgba(0,0,0,0.18)" }}
           >
             <div className="flex min-w-0 items-center gap-3">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-hero-blue">

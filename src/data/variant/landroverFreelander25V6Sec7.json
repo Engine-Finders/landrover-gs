@@ -1,6 +1,6 @@
 {
   "reviews": {
-    "titlePre": "WHAT MERCEDES ",
+    "titlePre": "WHAT LAND ROVER ",
     "titleHighlight": "Freelander 2.5 V6 OWNERS SAY",
     "items": [
       {
@@ -12,7 +12,7 @@
       {
         "name": "Mark T.",
         "platform": "trustpilot",
-        "text": "They rebuilt my engine with all the updated parts. Smooth process and great communication throughout.",
+        "text": "They rebuilt my [MISSING: exact engine code not specified in G-BRF] with all the updated parts. Smooth process and great communication throughout.",
         "tag": "Land Rover Freelander 2.5 V6 Engine Rebuild"
       },
       {
@@ -47,8 +47,8 @@
     "icon": "car",
     "titlePre": "WE COVER YOUR",
     "titleHighlight": "EXACT VEHICLE",
-    "body": "Enter your registration below and we'll confirm your Land Rover Freelander 2.5 V6 has the right engine, along with an exact rebuild price.",
-    "image": "/variant/sec7.webp",
+    "body": "Enter your registration below and we'll confirm your Land Rover Freelander 2.5 V6 has the [MISSING: exact engine code not specified in G-BRF], along with an exact rebuild price.",
+    "image": "/variant/sec7.v2.webp",
     "buttonLabel": "Check Fit",
     "ticks": [
       "Fast",
@@ -57,10 +57,10 @@
     ]
   },
   "whyChoose": {
-    "titlePre": "WHY MERCEDES Freelander 2.5 V6 ",
+    "titlePre": "WHY LAND ROVER Freelander 2.5 V6 ",
     "titleHighlight": "OWNERS CHOOSE US",
     "items": [
-      "Engine matched using VIN or registration number",
+      "Engine matched using VIN or registration number — confirms your exact engine before you're quoted",
       "Genuine specialist workshop — not a broker",
       "Specialist technicians with 10-15 years of experience",
       "We don't swap your engine for an unknown used unit",

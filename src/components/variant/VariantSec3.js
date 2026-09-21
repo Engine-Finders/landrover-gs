@@ -30,19 +30,19 @@ export default function VariantSec3({ data }) {
                     <Image src={data.engineImage} alt={`${c.code} engine`} fill className="object-contain" sizes="56px" />
                   </div>
                   <div>
-                    <p className="text-[10px] font-extrabold uppercase tracking-wide text-[#8a715a]">Engine Code</p>
+                    <p className="text-[10px] font-extrabold uppercase tracking-wide text-[#607056]">Engine Code</p>
                     {c.codeHref ? (
-                      <Link href={c.codeHref} className="mt-1 inline-block w-fit rounded-sm bg-[#a0825a] px-2 py-1 text-xs font-extrabold text-white">
+                      <Link href={c.codeHref} className="mt-1 inline-block w-fit rounded-sm bg-[#607056] px-2 py-1 text-xs font-extrabold text-white">
                         {c.code}
                       </Link>
                     ) : (
-                      <span className="mt-1 inline-block w-fit rounded-sm bg-[#a0825a] px-2 py-1 text-xs font-extrabold text-white">{c.code}</span>
+                      <span className="mt-1 inline-block w-fit rounded-sm bg-[#607056] px-2 py-1 text-xs font-extrabold text-white">{c.code}</span>
                     )}
                   </div>
                 </div>
                 <div className="shrink-0 text-right">
-                  <p className="text-[10px] font-extrabold uppercase tracking-wide text-[#8a715a]">Rebuild From</p>
-                  <p className="text-xl font-extrabold" style={{ color: "#a0825a" }}>
+                  <p className="text-[10px] font-extrabold uppercase tracking-wide text-[#607056]">Rebuild From</p>
+                  <p className="text-xl font-extrabold" style={{ color: "#607056" }}>
                     {c.price}
                   </p>
                 </div>
@@ -58,7 +58,7 @@ export default function VariantSec3({ data }) {
                   </div>
                 )}
                 <div>
-                  <p className="text-[10px] font-extrabold uppercase tracking-wide text-[#8a715a]">Generation</p>
+                  <p className="text-[10px] font-extrabold uppercase tracking-wide text-[#607056]">Generation</p>
                   <p className="text-sm font-bold leading-tight text-[#2a231c]">{c.generation}</p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ export default function VariantSec3({ data }) {
           {data.cta.label} <span aria-hidden>→</span>
         </a>
 
-        <div className="relative mt-5 overflow-hidden rounded-xl bg-[#0d0d0d]">
+        <div className="theme-dark relative mt-5 overflow-hidden rounded-xl bg-[#0d0d0d]">
           <div className="relative p-4">
             <div className="flex items-start gap-2">
               <Icon name="warning" className="mt-0.5 h-6 w-6 shrink-0 text-hero-blue" />
@@ -144,7 +144,7 @@ export default function VariantSec3({ data }) {
                 style={{ background: "rgba(160,130,90,0.08)", borderBottom: "1px solid rgba(160,130,90,0.2)" }}
               >
                 <p className="flex items-center px-4">
-                  <span className="w-fit rounded-sm bg-[#a0825a] px-3 py-2 text-sm font-bold text-white">Engine Code</span>
+                  <span className="w-fit rounded-sm bg-[#607056] px-3 py-2 text-sm font-bold text-white">Engine Code</span>
                 </p>
                 <p className="px-4 text-left text-sm font-bold text-[#2a231c]">
                   Generation
@@ -165,12 +165,12 @@ export default function VariantSec3({ data }) {
                     {c.codeHref ? (
                       <Link
                         href={c.codeHref}
-                        className="absolute left-2.5 top-2.5 z-10 rounded-md bg-[#a0825a] px-2.5 py-1 text-xs font-extrabold text-white"
+                        className="absolute left-2.5 top-2.5 z-10 rounded-md bg-[#607056] px-2.5 py-1 text-xs font-extrabold text-white"
                       >
                         {c.code}
                       </Link>
                     ) : (
-                      <span className="absolute left-2.5 top-2.5 z-10 w-fit rounded-md bg-[#a0825a] px-2.5 py-1 text-xs font-extrabold text-white">
+                      <span className="absolute left-2.5 top-2.5 z-10 w-fit rounded-md bg-[#607056] px-2.5 py-1 text-xs font-extrabold text-white">
                         {c.code}
                       </span>
                     )}
@@ -197,7 +197,7 @@ export default function VariantSec3({ data }) {
                     className="flex items-center justify-center px-4 py-3.5"
                     style={{ borderLeft: "1px solid rgba(160,130,90,0.2)" }}
                   >
-                    <p className="text-3xl font-extrabold" style={{ color: "#a0825a" }}>
+                    <p className="text-3xl font-extrabold" style={{ color: "#607056" }}>
                       {c.price}
                     </p>
                   </div>
@@ -225,7 +225,7 @@ export default function VariantSec3({ data }) {
             </div>
           </div>
 
-          <div className="relative mt-6 grid grid-cols-[1.35fr_1fr] overflow-hidden rounded-2xl bg-[#0d0d0d]">
+          <div className="theme-dark relative mt-6 grid grid-cols-[1.35fr_1fr] overflow-hidden rounded-2xl bg-[#0d0d0d]">
             <div className="relative z-10 px-8 py-6 lg:px-10 lg:py-7">
               <div className="flex items-start gap-3">
                 <Icon name="warning" className="mt-1 h-8 w-8 shrink-0 text-hero-blue" />
@@ -252,10 +252,10 @@ export default function VariantSec3({ data }) {
               </div>
             </div>
 
-            <div className="relative" style={{ borderLeft: "1px solid rgba(173,135,92,0.35)" }}>
+            <div className="relative" style={{ borderLeft: "1px solid rgba(96,112,86,0.35)" }}>
               <Image
                 src={data.warning.bgImage}
-                alt="Land Rover AMG GT 53 timing chain mechanism"
+                alt="Land Rover engine timing chain mechanism"
                 fill
                 className="object-cover"
                 style={{ objectPosition: "68% 50%" }}

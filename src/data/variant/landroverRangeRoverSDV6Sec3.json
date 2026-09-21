@@ -8,8 +8,15 @@
   "cards": [
     {
       "code": "TDV8/SDV8",
-      "generation": "",
-      "price": "£4,500"
+      "generation": "L322 (2001–2012)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "code": "TDV8/SDV8",
+      "generation": "L405 (2012–2021)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover SDV6 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(TDV8/SDV8 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Range Rover SDV6 Timing Chain & Injector Wear ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The TDV8/SDV8 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older TDV8/SDV8 V6. We replace timing chains, bearings, water pump and gaskets as standard on every TDV8/SDV8 rebuild.",
-      "Because the Range Rover SDV6 uses a completely different engine family from the V8 M178 fitted to the Range Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Range Rover SDV6 is a pre-2022 model — that's the L322 or L405 generation with the 4.4-litre TDV8/SDV8 diesel V8 — timing chain and injector wear is a well-documented pattern on this engine family, widely corroborated across Land Rover specialist forums and independent garages. We replace timing chain components, injector seals, EGR components, turbo components and gaskets as standard on every TDV8/SDV8 rebuild.",
+      "The newer L460-generation Range Rover uses different engines entirely — the Ingenium diesel and BMW-sourced V8 units — which don't share this specific issue."
     ],
-    "source": "Source: Established TDV8/SDV8 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: extremely well-corroborated across Land Rover specialist forums and independent garages (per G-BRF). Applies to L322/L405 TDV8/SDV8 only; L460 engines explicitly excluded"
   }
 }

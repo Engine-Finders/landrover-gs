@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
+import GbBadge from "@/components/reusable/GbBadge";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import AMGBadge from "@/components/reusable/AMGBadge";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
@@ -13,7 +14,7 @@ function HexIcon({ icon, boxClass, iconClass, strokeOpacity = 1, strokeWidth = 4
   return (
     <div className={`relative shrink-0 ${boxClass}`}>
       <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full">
-        <polygon points={HEX_POINTS} fill="none" stroke="#ad875c" strokeOpacity={strokeOpacity} strokeWidth={strokeWidth} />
+        <polygon points={HEX_POINTS} fill="none" stroke="#607056" strokeOpacity={strokeOpacity} strokeWidth={strokeWidth} />
       </svg>
       <div className="absolute inset-0 flex items-center justify-center">
         <Icon name={icon} className={`${iconClass} text-hero-blue`} />
@@ -103,7 +104,7 @@ export default function Sec11({ data }) {
         </div>
 
         <div className="relative mt-4 aspect-4/3 w-full overflow-hidden md:hidden">
-          <Image src={costBanner.imageMobile} alt="the engine engine" fill className="object-cover" sizes="100vw" />
+          <Image src={costBanner.imageMobile} alt="Land Rover engine" fill className="object-cover" sizes="100vw" />
           <div
             className="pointer-events-none absolute inset-x-0 top-0 h-10"
             style={{ background: "linear-gradient(to bottom, #0d0d0d 0%, transparent 100%)" }}
@@ -133,7 +134,7 @@ export default function Sec11({ data }) {
         {/* ===== desktop — full-bleed photo (built-in empty portion on the left for text) ===== */}
         <div className="relative hidden overflow-hidden md:block">
           <div className="absolute inset-0">
-            <Image src={costBanner.image} alt="the engine engine" fill className="object-cover" sizes="100vw" />
+            <Image src={costBanner.image} alt="Land Rover engine" fill className="object-cover" sizes="100vw" />
             <div
               className="absolute inset-0"
               style={{ background: "linear-gradient(to right, rgba(13,13,13,0.95) 0%, rgba(13,13,13,0.9) 45%, rgba(13,13,13,0.55) 62%, rgba(13,13,13,0.15) 78%, transparent 92%)" }}
@@ -358,7 +359,7 @@ export default function Sec11({ data }) {
             <label className="block">
               <span className="text-xs font-bold uppercase tracking-wide text-white">{quote.fields.reg.label}</span>
               <div className="mt-1.5 flex h-11 overflow-hidden rounded-lg border border-white/15 bg-white/5">
-                <span className="flex w-12 shrink-0 items-center justify-center bg-hero-blue text-xs font-extrabold text-white">GB</span>
+                <GbBadge className="w-12" />
                 <input
                   type="text"
                   placeholder={quote.fields.reg.placeholder}
@@ -383,7 +384,7 @@ export default function Sec11({ data }) {
             <button
               type="submit"
               className="mt-2 flex w-full items-center justify-center gap-2 rounded-lg py-3.5 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-110"
-              style={{ background: "linear-gradient(135deg, #ad875c 0%, #8c6c46 100%)", boxShadow: "0 8px 20px rgba(173,135,92,0.4)" }}
+              style={{ background: "linear-gradient(135deg, #607056 0%, #4c5a45 100%)", boxShadow: "0 8px 20px rgba(96,112,86,0.4)" }}
             >
               {quote.submitLabel} <span aria-hidden>→</span>
             </button>
@@ -410,7 +411,7 @@ export default function Sec11({ data }) {
               <label className="block">
                 <span className="text-xs font-bold uppercase tracking-wide text-white">{quote.fields.reg.label}</span>
                 <div className="mt-2 flex h-12 overflow-hidden rounded-lg border border-white/15 bg-white/5">
-                  <span className="flex w-14 shrink-0 items-center justify-center bg-hero-blue text-sm font-extrabold text-white">GB</span>
+                  <GbBadge className="w-12" />
                   <input
                     type="text"
                     placeholder={quote.fields.reg.placeholder}
@@ -435,7 +436,7 @@ export default function Sec11({ data }) {
               <button
                 type="submit"
                 className="col-span-2 mt-2 flex items-center justify-center gap-2 rounded-lg py-4 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-110"
-                style={{ background: "linear-gradient(135deg, #ad875c 0%, #8c6c46 100%)", boxShadow: "0 8px 20px rgba(173,135,92,0.4)" }}
+                style={{ background: "linear-gradient(135deg, #607056 0%, #4c5a45 100%)", boxShadow: "0 8px 20px rgba(96,112,86,0.4)" }}
               >
                 {quote.submitLabel} <span aria-hidden>→</span>
               </button>

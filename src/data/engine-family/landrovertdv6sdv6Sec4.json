@@ -1,6 +1,6 @@
 {
   "titlePre": "Land Rover ",
-  "titleHighlight": "TDV6/SDV6 Rebuild Components",
+  "titleHighlight": "TDV6 SDV6 Rebuild Components",
   "cards": [
     {
       "icon": "chain",
@@ -24,7 +24,7 @@
       "icon": "turbo",
       "image": "/engine/sec4.webp",
       "title": "Twin-Scroll Turbocharger",
-      "body": "The TDV6/SDV6's twin-scroll turbocharger is a key component that is removed, inspected, and refurbished or replaced as part of the rebuild."
+      "body": "The TDV6 SDV6's twin-scroll turbocharger is a key component that is removed, inspected, and refurbished or replaced as part of the rebuild."
     },
     {
       "icon": "clipboard",
@@ -33,6 +33,6 @@
       "body": "Fuel injectors, high-pressure fuel pump, PCV system, timing chain tensioners and guides, and cooling system components are all measured and inspected."
     }
   ],
-  "notice": "Components drawn directly from VRF Key Components data. If your TDV6/SDV6's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
+  "notice": "Components drawn directly from VRF Key Components data. If your TDV6 SDV6's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
   "noticeImage": "/model/sec15_part.webp"
 }

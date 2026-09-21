@@ -4,19 +4,19 @@
   "faqLeft": [
     {
       "q": "What engine does the Land Rover Discovery Sport P290 use?",
-      "a": "[MISSING: engine code and specifications not independently confirmed in the VRF. Please send us your registration and we'll confirm your exact engine spec.]"
+      "a": "The Discovery Sport P290 uses the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine. It was produced only from 2019 to 2020 and represents the highest petrol output in the Discovery Sport range."
     },
     {
       "q": "How much does a Land Rover Discovery Sport P290 engine rebuild cost?",
-      "a": "Rebuilds start from £3,200. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "a": "Rebuilds start from £2,000. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
     },
     {
       "q": "Which engine code is fitted to my Discovery Sport P290?",
-      "a": "Enter your registration on this page and we'll confirm your exact engine specification before you're quoted anything."
+      "a": "Enter your registration on this page and we'll confirm whether you have the Ingenium AJ200P before you're quoted anything."
     },
     {
-      "q": "Do you rebuild Discovery Sport P290 engines?",
-      "a": "Yes. We rebuild Discovery Sport P290 petrol engines to full working condition with new OEM components."
+      "q": "Do you rebuild Ingenium AJ200P Discovery Sport P290 engines?",
+      "a": "Yes. We replace timing chains, bearings and gaskets as standard on every AJ200P rebuild."
     }
   ],
   "faqRight": [
@@ -30,7 +30,7 @@
     },
     {
       "q": "How long does a Discovery Sport P290 engine rebuild take?",
-      "a": "Most rebuilds are completed within 3-5 working days from the time your van arrives at our workshop."
+      "a": "Most rebuilds are completed within 3-5 working days from the time your car arrives at our workshop."
     },
     {
       "q": "Is rebuilding better than fitting a used engine?",
@@ -39,7 +39,7 @@
   ],
   "form": {
     "headlinePre": "GET YOUR",
-    "headlineHighlight": "FREE MERCEDES Discovery Sport P290",
+    "headlineHighlight": "FREE LAND ROVER Discovery Sport P290",
     "headlinePost": "FIXED-PRICE QUOTE",
     "fields": {
       "reg": {

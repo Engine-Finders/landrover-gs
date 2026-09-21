@@ -136,7 +136,7 @@ export default function VariantSec8({ data }) {
           {/* bottom summary banner */}
           <div
             className="glass-card relative mt-4 grid grid-cols-[1.3fr_1fr] divide-x divide-black/10 rounded-2xl px-4 py-4"
-            style={{ boxShadow: "0 20px 45px -15px rgba(16,24,40,0.35), 0 0 30px -10px rgba(173,135,92,0.3)" }}
+            style={{ boxShadow: "0 20px 45px -15px rgba(16,24,40,0.35), 0 0 30px -10px rgba(96,112,86,0.3)" }}
           >
             <div className="flex items-center gap-2.5 pr-3">
               <Icon name={howItWorks.summary.timeframe.icon} className="h-11 w-11 shrink-0 text-black" />
@@ -203,6 +203,7 @@ export default function VariantSec8({ data }) {
           </div>
         </div>
       </section>
+
     </>
   );
 }

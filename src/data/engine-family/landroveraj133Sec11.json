@@ -10,10 +10,10 @@
       "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200"
+    "startingFromPrice": "£4,500"
   },
   "comparison": {
-    "titlePre": "MERCEDES-BENZ AJ133",
+    "titlePre": "LAND ROVER AJ133",
     "titleHighlight": "REBUILD VS REPLACEMENT VS USED",
     "cards": [
       {
@@ -43,21 +43,21 @@
   "options": [
     {
       "icon": "refresh",
-      "titlePre": "MERCEDES-BENZ AJ133",
+      "titlePre": "LAND ROVER AJ133",
       "titleHighlight": "RECONDITIONED",
       "titlePost": " ENGINES",
       "body": "\"Reconditioned\" is the term many owners search for when they mean the same thing as a rebuild — a full strip-down, inspection, and replacement of worn parts rather than a straight swap. If that's what you're after, our rebuild service is exactly that."
     },
     {
       "icon": "shield-check",
-      "titlePre": "MERCEDES-BENZ AJ133",
+      "titlePre": "LAND ROVER AJ133",
       "titleHighlight": "REFURBISHED",
       "titlePost": " ENGINES",
       "body": "\"Refurbished\" often describes the same process from a different angle — restoring your existing engine to full working condition rather than replacing it outright. Our rebuild covers this."
     },
     {
       "icon": "cog",
-      "titlePre": "MERCEDES-BENZ AJ133",
+      "titlePre": "LAND ROVER AJ133",
       "titleHighlight": "REMANUFACTURED",
       "titlePost": " ENGINES",
       "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers, regardless of which of the six AJ133-equipped models you drive."
@@ -73,23 +73,23 @@
       },
       {
         "q": "Which Land Rover models use the AJ133?",
-        "a": "Defender (P525, L663, 2020–present) and Range Rover Velar (SVAutobiography, L560, 2019–2021)."
+        "a": "Defender (P525, L663, 2020–present) and Range Rover Velar (SVAutobiography, L560, 2019–2021). See the full applications table above for exact variants and years."
       },
       {
         "q": "What's the difference between naturally aspirated and supercharged AJ133 engines?",
-        "a": "The supercharged AJ133 includes an Eaton supercharger, associated cooling, and higher power outputs (510–575 hp vs 375–385 hp)."
+        "a": "The supercharged AJ133 includes an Eaton supercharger, associated cooling, and higher power outputs (510–575 hp vs 375–385 hp). Supercharged applications also carry additional components such as the supercharger coupler, which we replace as standard during a rebuild."
       },
       {
         "q": "Does the AJ133 differ between Land Rover and Jaguar applications?",
-        "a": "Yes. Ancillaries, engine management, and mounting differ by application, even though the base engine code is the same."
+        "a": "Yes. Ancillaries, engine management, and mounting differ by application, even though the base engine code is the same. We match by registration/VIN before confirming any rebuild."
       },
       {
         "q": "Is an AJ133 from one Land Rover model compatible with another?",
-        "a": "Not automatically. A supercharged AJ133 from a Defender isn't a drop-in match for a naturally aspirated AJ133 from an earlier Discovery."
+        "a": "Not automatically. A supercharged AJ133 from a Defender isn't a drop-in match for a naturally aspirated AJ133 from an earlier Discovery — ancillaries, mounting, and engine management all differ. We always confirm compatibility by registration/VIN."
       },
       {
         "q": "How much does a Land Rover AJ133 engine rebuild cost?",
-        "a": "Naturally aspirated AJ133 rebuilds start from £4,500. Supercharged applications start from £5,500."
+        "a": "Naturally aspirated AJ133 rebuilds start from £4,500. Supercharged applications (Defender P525, Velar SVAutobiography) start from £5,500. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
       }
     ],
     "faqRight": [
@@ -99,11 +99,11 @@
       },
       {
         "q": "Can you rebuild an AJ133 from a Defender P525?",
-        "a": "Yes. The AJ133 in the Defender is one of the applications we work on."
+        "a": "Yes. The AJ133 in the Defender is one of the applications we work on — the supercharged V8 fitted to the Defender P525 from 2020 onwards."
       },
       {
         "q": "Do you supply used Land Rover AJ133 engines?",
-        "a": "Yes, in some cases a matched low-mileage used engine is the right option."
+        "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
       },
       {
         "q": "Can you recover my Land Rover if the engine has failed?",
@@ -122,7 +122,7 @@
   "quote": {
     "icon": "note",
     "headlinePre": "GET YOUR FREE",
-    "headlineHighlight": "MERCEDES-BENZ AJ133",
+    "headlineHighlight": "LAND ROVER AJ133",
     "headlinePost": "FIXED-PRICE QUOTE",
     "subtext": "Most quotes returned within 30 minutes during working hours.",
     "fields": {

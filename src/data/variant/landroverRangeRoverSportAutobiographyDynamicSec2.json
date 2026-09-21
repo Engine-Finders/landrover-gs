@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Range Rover Sport Autobiography Dynamic",
+  "headlinePost": " Engine",
+  "image": "/variant/sec2_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Range Rover Sport Autobiography Dynamic"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Range Rover Sport"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "Range Rover Sport Autobiography Dynamic"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Diesel (SDV8) or Petrol Supercharged (AJ-V8)"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "SDV8 or AJ-V8"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "4.4L V8 (SDV8) or 5.0L V8 (AJ-V8)"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "L494 (2013–2022)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£4,500"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Range Rover Sport Autobiography Dynamic uses the SDV8 or AJ-V8 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

@@ -9,7 +9,7 @@ export default function HomeSec10Cta({ data }) {
         style={{ boxShadow: "0 0 40px -8px rgba(255,255,255,0.25), 0 20px 45px -20px rgba(0,0,0,0.6)" }}
       >
         <div className="absolute inset-0 bg-[#0d0d0d]">
-          <Image src={data.bgImage2} alt="Land Rover-AMG driving through the city at night" fill quality={95} className="object-cover object-right" sizes="100vw" />
+          <Image src={data.bgImage2} alt="Land Rover Defender driving along a wet mountain road at sunset" fill quality={95} className="object-cover object-right" sizes="100vw" />
           <div className="absolute inset-0 bg-linear-to-r from-hero-dark via-hero-dark/70 to-transparent" />
         </div>
 

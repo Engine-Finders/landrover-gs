@@ -45,12 +45,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Sport HSE ENGINE SIZES",
+        "title": "LAND ROVER Range Rover Sport HSE ENGINE SIZES",
         "item": "Land Rover Range Rover Sport HSE 3.0 Litre Engine (TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461), I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Sport HSE FUEL TYPES",
+        "title": "LAND ROVER Range Rover Sport HSE FUEL TYPES",
         "item": "Land Rover Range Rover Sport HSE Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -67,8 +67,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover Sport SDV6 Engine",
+        "href": "/landrover-range-rover-sport-sdv6-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport TDV8 Engine",
+        "href": "/landrover-range-rover-sport-tdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport SDV8 Engine",
+        "href": "/landrover-range-rover-sport-sdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport SVR Engine",
+        "href": "/landrover-range-rover-sport-svr-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport D300 Engine",
+        "href": "/landrover-range-rover-sport-d300-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P400 Engine",
+        "href": "/landrover-range-rover-sport-p400-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-sport-engines"
   }
 }

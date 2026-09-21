@@ -77,8 +77,8 @@ export default function ModelSec8({ data }) {
                 key={r.name}
                 className="glow-card--sm relative flex min-h-64 w-[82%] shrink-0 snap-center flex-col overflow-hidden rounded-2xl p-5"
                 style={{
-                  border: "1px solid rgba(173,135,92, 0.75)",
-                  boxShadow: "0 -10px 20px -6px rgba(173,135,92, 0.65), 0 -2px 10px -2px rgba(173,135,92, 0.4)",
+                  border: "1px solid rgba(96,112,86, 0.75)",
+                  boxShadow: "0 -10px 20px -6px rgba(96,112,86, 0.65), 0 -2px 10px -2px rgba(96,112,86, 0.4)",
                 }}
               >
                 <div
@@ -117,7 +117,7 @@ export default function ModelSec8({ data }) {
               <GoogleG className="h-5 w-5" />
               {data.googleCta} <span aria-hidden className="text-hero-blue">→</span>
             </button>
-            <button className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#12100a] px-6 py-3.5 uppercase text-white">
+            <button className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#121511] px-6 py-3.5 uppercase text-white">
               <Icon name="star" className="h-5 w-5 fill-hero-blue text-hero-blue" />
               {data.trustpilotCta} <span aria-hidden className="text-hero-blue">→</span>
             </button>
@@ -141,8 +141,8 @@ export default function ModelSec8({ data }) {
               key={r.name}
               className="glow-card--sm relative flex min-h-72 flex-col overflow-hidden rounded-xl p-5"
               style={{
-                border: "1px solid rgba(173,135,92, 0.75)",
-                boxShadow: "0 -10px 20px -6px rgba(173,135,92, 0.65), 0 -2px 10px -2px rgba(173,135,92, 0.4)",
+                border: "1px solid rgba(96,112,86, 0.75)",
+                boxShadow: "0 -10px 20px -6px rgba(96,112,86, 0.65), 0 -2px 10px -2px rgba(96,112,86, 0.4)",
               }}
             >
               <div
@@ -173,7 +173,7 @@ export default function ModelSec8({ data }) {
             <GoogleG className="h-5 w-5" />
             {data.googleCta} <span aria-hidden className="text-hero-blue">→</span>
           </button>
-          <button className="btn-text card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-hero-blue/50 bg-[#12100a] px-6 py-3 text-white transition hover:-translate-y-0.5">
+          <button className="btn-text card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-hero-blue/50 bg-[#121511] px-6 py-3 text-white transition hover:-translate-y-0.5">
             <Icon name="star" className="h-5 w-5 fill-hero-blue text-hero-blue" />
             {data.trustpilotCta} <span aria-hidden className="text-hero-blue">→</span>
           </button>

@@ -7,7 +7,7 @@
     "paragraphs": [
       "The Evoque P300e is the plug-in hybrid variant of the current-generation L551 Evoque. It combines the Ingenium AJ200P 2.0-litre petrol engine with an electric motor, making it one of the more complex powertrains in the Evoque range. As a PHEV, it offers the flexibility of petrol-only, electric-only, or combined running, but that also means there's more to service and maintain than a conventional engine."
     ],
-    "boldParagraph": "We continue to rebuild and replace engine engines for every Range Rover Evoque P300e on the road."
+    "boldParagraph": "We continue to rebuild and replace Ingenium AJ200P + electric engines for every Range Rover Evoque P300e on the road."
   },
   "codes": {
     "titlePre": "Land Rover Range Rover Evoque P300e ENGINE ",
@@ -15,11 +15,11 @@
     "image": "/variant/sec10_engine.webp",
     "cards": [
       {
-        "codeHighlight": "—",
-        "codeRest": "",
-        "body": "A 2.0-litre 4-cylinder petrol engine paired with an electric motor, fitted to the L551-generation Evoque P300e. The petrol component shares the broader Ingenium AJ200P family pattern with other JLR models of this era. Check Your Evoque P300e → [link to quote form]",
-        "cta": "Check Your engine Range Rover Evoque P300e",
-        "codeHref": "/landrover-m256-engine"
+        "codeHighlight": "Ingenium AJ200P + electric",
+        "codeRest": "(L551)",
+        "body": "A 2.0-litre 4-cylinder petrol engine paired with an electric motor, fitted to the L551-generation Evoque P300e. The petrol component shares the broader Ingenium AJ200P family pattern with other JLR models of this era.",
+        "cta": "Check Your Ingenium AJ200P + electric Range Rover Evoque P300e",
+        "codeHref": "/landrover-aj200p-engine"
       }
     ]
   },
@@ -30,18 +30,18 @@
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
-      "title": "engine",
+      "title": "Ingenium AJ200P + electric",
       "line1": "Confirmed by VIN",
       "line2": "Match Guaranteed"
     },
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact generation and chassis (L551)"
+        "text": "Your exact engine code (Ingenium AJ200P + electric) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "The specific hybrid system configuration"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Land Rover quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Evoque P300e ",
@@ -71,7 +71,8 @@
         "chassis": "L551",
         "years": "[MISSING: exact introduction year] – present",
         "engineCode": "Ingenium AJ200P + electric",
-        "fuel": "Petrol Plug-in Hybrid"
+        "fuel": "Petrol Plug-in Hybrid",
+        "codeHref": "/landrover-aj200p-engine"
       }
     ]
   }

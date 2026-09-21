@@ -10,10 +10,10 @@
       "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200"
+    "startingFromPrice": "£1,900"
   },
   "comparison": {
-    "titlePre": "MERCEDES-BENZ 200Tdi",
+    "titlePre": "LAND ROVER 200Tdi",
     "titleHighlight": "REBUILD VS REPLACEMENT VS USED",
     "cards": [
       {
@@ -43,21 +43,21 @@
   "options": [
     {
       "icon": "refresh",
-      "titlePre": "MERCEDES-BENZ 200Tdi",
+      "titlePre": "LAND ROVER 200Tdi",
       "titleHighlight": "RECONDITIONED",
       "titlePost": " ENGINES",
       "body": "\"Reconditioned\" is the term many owners search for when they mean the same thing as a rebuild — a full strip-down, inspection, and replacement of worn parts rather than a straight swap. If that's what you're after, our rebuild service is exactly that."
     },
     {
       "icon": "shield-check",
-      "titlePre": "MERCEDES-BENZ 200Tdi",
+      "titlePre": "LAND ROVER 200Tdi",
       "titleHighlight": "REFURBISHED",
       "titlePost": " ENGINES",
       "body": "\"Refurbished\" often describes the same process from a different angle — restoring your existing engine to full working condition rather than replacing it outright. Our rebuild covers this."
     },
     {
       "icon": "cog",
-      "titlePre": "MERCEDES-BENZ 200Tdi",
+      "titlePre": "LAND ROVER 200Tdi",
       "titleHighlight": "REMANUFACTURED",
       "titlePost": " ENGINES",
       "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers, regardless of which of the six 200Tdi-equipped models you drive."
@@ -110,7 +110,7 @@
   "quote": {
     "icon": "note",
     "headlinePre": "GET YOUR FREE",
-    "headlineHighlight": "MERCEDES-BENZ 200Tdi",
+    "headlineHighlight": "LAND ROVER 200Tdi",
     "headlinePost": "FIXED-PRICE QUOTE",
     "subtext": "Most quotes returned within 30 minutes during working hours.",
     "fields": {

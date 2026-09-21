@@ -10,10 +10,10 @@
       "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200"
+    "startingFromPrice": "£6,500"
   },
   "comparison": {
-    "titlePre": "MERCEDES-BENZ N63",
+    "titlePre": "LAND ROVER N63",
     "titleHighlight": "REBUILD VS REPLACEMENT VS USED",
     "cards": [
       {
@@ -43,21 +43,21 @@
   "options": [
     {
       "icon": "refresh",
-      "titlePre": "MERCEDES-BENZ N63",
+      "titlePre": "LAND ROVER N63",
       "titleHighlight": "RECONDITIONED",
       "titlePost": " ENGINES",
       "body": "\"Reconditioned\" is the term many owners search for when they mean the same thing as a rebuild — a full strip-down, inspection, and replacement of worn parts rather than a straight swap. If that's what you're after, our rebuild service is exactly that."
     },
     {
       "icon": "shield-check",
-      "titlePre": "MERCEDES-BENZ N63",
+      "titlePre": "LAND ROVER N63",
       "titleHighlight": "REFURBISHED",
       "titlePost": " ENGINES",
       "body": "\"Refurbished\" often describes the same process from a different angle — restoring your existing engine to full working condition rather than replacing it outright. Our rebuild covers this."
     },
     {
       "icon": "cog",
-      "titlePre": "MERCEDES-BENZ N63",
+      "titlePre": "LAND ROVER N63",
       "titleHighlight": "REMANUFACTURED",
       "titlePost": " ENGINES",
       "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers, regardless of which of the six N63-equipped models you drive."
@@ -90,12 +90,20 @@
       {
         "q": "Do you rebuild N63 engines?",
         "a": "Yes. We work on N63 rebuilds across both Land Rover models it's fitted to, replacing worn components as standard."
+      },
+      {
+        "q": "Do you work on N63 MHEV applications?",
+        "a": "Yes. All Land Rover N63 applications are mild-hybrid, and the relevant 48V system components are accounted for during a rebuild."
       }
     ],
     "faqRight": [
       {
-        "q": "Do you work on N63 MHEV applications?",
-        "a": "Yes. All Land Rover N63 applications are mild-hybrid, and the relevant 48V system components are accounted for during a rebuild."
+        "q": "Can you rebuild an N63 from a Range Rover P530?",
+        "a": "Yes. The N63 in the Range Rover is one of the applications we work on."
+      },
+      {
+        "q": "Can you rebuild an N63 from a Range Rover Sport P530?",
+        "a": "Yes. The N63 in the Range Rover Sport is one of the applications we work on."
       },
       {
         "q": "Do you supply used Land Rover N63 engines?",
@@ -118,7 +126,7 @@
   "quote": {
     "icon": "note",
     "headlinePre": "GET YOUR FREE",
-    "headlineHighlight": "MERCEDES-BENZ N63",
+    "headlineHighlight": "LAND ROVER N63",
     "headlinePost": "FIXED-PRICE QUOTE",
     "subtext": "Most quotes returned within 30 minutes during working hours.",
     "fields": {

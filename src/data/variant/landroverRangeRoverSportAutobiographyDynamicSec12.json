@@ -1,0 +1,91 @@
+{
+  "yearBanner": {
+    "titlePre": "WE COVER ",
+    "titleHighlight": "EVERY",
+    "titlePost": " Land Rover Range Rover Sport Autobiography Dynamic MODEL YEAR:",
+    "years": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
+    "vehicleLabel": "Land Rover Range Rover Sport Autobiography Dynamic"
+  },
+  "costs": {
+    "titlePre": "Land Rover Range Rover Sport Autobiography Dynamic ENGINE ",
+    "titleHighlight": "COSTS",
+    "intro": "A Land Rover Range Rover Sport Autobiography Dynamic engine rebuild starts from",
+    "price": "£4,500",
+    "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
+    "image": "/variant/sec10_engine.webp",
+    "warranty": {
+      "line1": "12 MONTH",
+      "line2": "UNLIMITED-MILEAGE",
+      "line3": "WARRANTY"
+    },
+    "subCards": [
+      {
+        "icon": "engine",
+        "title": "LAND ROVER Range Rover Sport Autobiography Dynamic ENGINE SIZES",
+        "item": "Land Rover Range Rover Sport Autobiography Dynamic 3.0 Litre Engine (SDV8 or AJ-V8, I6)"
+      },
+      {
+        "icon": "fuel",
+        "title": "LAND ROVER Range Rover Sport Autobiography Dynamic FUEL TYPES",
+        "item": "Land Rover Range Rover Sport Autobiography Dynamic Petrol Mild Hybrid Engine Rebuilds"
+      }
+    ]
+  },
+  "bottomInfo": {
+    "timeframe": {
+      "icon": "clock",
+      "textPre": "Most Land Rover Range Rover Sport Autobiography Dynamic engine rebuilds are completed within ",
+      "textHighlight": "3-5 working days",
+      "textPost": "."
+    },
+    "recoveryText": "Nationwide recovery and collection available for all Land Rover Range Rover Sport Autobiography Dynamic models.",
+    "image": "/variant/landrover_car.webp"
+  },
+  "related": {
+    "title": "RELATED LAND ROVER ENGINES",
+    "links": [
+      {
+        "label": "Land Rover Defender D200 Engine",
+        "href": "/landrover-defender-d200-engines"
+      },
+      {
+        "label": "Land Rover Defender D240 Engine",
+        "href": "/landrover-defender-d240-engines"
+      },
+      {
+        "label": "Land Rover Defender D300 Engine",
+        "href": "/landrover-defender-d300-engines"
+      },
+      {
+        "label": "Land Rover Defender D350 Engine",
+        "href": "/landrover-defender-d350-engines"
+      },
+      {
+        "label": "Land Rover Defender P300 Engine",
+        "href": "/landrover-defender-p300-engines"
+      },
+      {
+        "label": "Land Rover Defender P400 Engine",
+        "href": "/landrover-defender-p400-engines"
+      },
+      {
+        "label": "Land Rover Defender TD5 Engine",
+        "href": "/landrover-defender-td5-engines"
+      }
+    ],
+    "viewAll": "View All Land Rover Engines",
+    "viewAllHref": "/defender-engines"
+  }
+}

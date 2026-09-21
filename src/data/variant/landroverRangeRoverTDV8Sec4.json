@@ -2,14 +2,14 @@
   "headlinePre": "Land Rover Range Rover TDV8",
   "headlineHighlight": "ENGINE OPTIONS",
   "description": "Every Range Rover TDV8 is different. That's why we offer the right solution for your engine, your car and your budget.",
-  "topImage": "/variant/sec4.webp",
+  "topImage": "/variant/sec4.v2.webp",
   "cards": [
     {
       "number": "01",
       "icon": "piston",
       "badge": "MOST POPULAR",
       "title": "REBUILDING YOUR RANGE ROVER TDV8 ENGINE",
-      "body": "Most engine suppliers sell you a used engine of unknown history and hope it matches. We rebuild the engine your Range Rover already has instead — strip it down, pressure-test it, and replace every worn or damaged component (timing chain components, injector seals, turbo components, EGR system and gaskets) with updated OEM parts. You get a near-new engine with a 12-month unlimited-mileage warranty, without the compatibility risk of an unknown used unit. This is the option most Range Rover owners choose, and it's the one we'd recommend for most situations."
+      "body": "Most engine suppliers sell you a used engine of unknown history and hope it matches. We rebuild the engine your Range Rover TDV8 already has instead — strip it down, pressure-test it, and replace every worn or damaged component (timing chain, injector seals, bearings, gaskets, DC-DC converter) with updated OEM parts. You get a near-new engine with a 12-month unlimited-mileage warranty, without the compatibility risk of an unknown used unit. This is the option most Range Rover TDV8 owners choose, and it's the one we'd recommend for most situations."
     },
     {
       "number": "02",
@@ -30,7 +30,7 @@
       "icon": "engine",
       "badge": "",
       "title": "REMANUFACTURED RANGE ROVER TDV8 ENGINES",
-      "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers on both the TDV8 and SDV8."
+      "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers on the TDV8 / SDV8."
     },
     {
       "number": "05",
@@ -57,7 +57,7 @@
     }
   },
   "knownIssue": {
-    "title": "Land Rover Range Rover TDV8 Timing Chain & Injector Wear (L322/L405)",
+    "title": "Land Rover Range Rover TDV8 Known Issues by Engine",
     "body": ""
   }
 }

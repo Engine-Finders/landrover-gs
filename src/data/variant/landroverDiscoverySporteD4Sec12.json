@@ -29,12 +29,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Discovery Sport eD4 ENGINE SIZES",
+        "title": "LAND ROVER Discovery Sport eD4 ENGINE SIZES",
         "item": "Land Rover Discovery Sport eD4 3.0 Litre Engine (Ford Duratorq, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Discovery Sport eD4 FUEL TYPES",
+        "title": "LAND ROVER Discovery Sport eD4 FUEL TYPES",
         "item": "Land Rover Discovery Sport eD4 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -51,8 +51,37 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Defender D200 Engine",
+        "href": "/landrover-defender-d200-engines"
+      },
+      {
+        "label": "Land Rover Defender D240 Engine",
+        "href": "/landrover-defender-d240-engines"
+      },
+      {
+        "label": "Land Rover Defender D300 Engine",
+        "href": "/landrover-defender-d300-engines"
+      },
+      {
+        "label": "Land Rover Defender D350 Engine",
+        "href": "/landrover-defender-d350-engines"
+      },
+      {
+        "label": "Land Rover Defender P300 Engine",
+        "href": "/landrover-defender-p300-engines"
+      },
+      {
+        "label": "Land Rover Defender P400 Engine",
+        "href": "/landrover-defender-p400-engines"
+      },
+      {
+        "label": "Land Rover Defender TD5 Engine",
+        "href": "/landrover-defender-td5-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/defender-engines"
   }
 }

@@ -28,12 +28,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Sport P530 ENGINE SIZES",
-        "item": "Land Rover Range Rover Sport P530 3.0 Litre Engine (engine, I6)"
+        "title": "LAND ROVER Range Rover Sport P530 ENGINE SIZES",
+        "item": "Land Rover Range Rover Sport P530 3.0 Litre Engine (BMW N63, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Sport P530 FUEL TYPES",
+        "title": "LAND ROVER Range Rover Sport P530 FUEL TYPES",
         "item": "Land Rover Range Rover Sport P530 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -50,8 +50,29 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover Sport D300 Engine",
+        "href": "/landrover-range-rover-sport-d300-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P400 Engine",
+        "href": "/landrover-range-rover-sport-p400-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P440e/P460e Engine",
+        "href": "/landrover-range-rover-sport-p440e-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport SV / P635 Engine",
+        "href": "/landrover-range-rover-sport-sv-p635-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport SVR Engine",
+        "href": "/landrover-range-rover-sport-svr-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-sport-engines"
   }
 }

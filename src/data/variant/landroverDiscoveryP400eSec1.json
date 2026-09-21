@@ -1,7 +1,7 @@
 {
   "kicker": "Land Rover Discovery P400e Specialists",
   "h1": "Land Rover Discovery P400e|Engine Rebuild —|From £2,800",
-  "subhead": "Specialist Land Rover Discovery P400e engine rebuilds and replacements, with registration-based engine matching, nationwide recovery and a 12-month unlimited-mileage warranty",
+  "subhead": "<!-- LAYER 1 — CONVERSION -->",
   "rating": {
     "stars": 5,
     "label": "Rated Land Rover Engine Specialists — 1,800+ Engines Rebuilt"
@@ -9,15 +9,15 @@
   "trustBar": [
     {
       "icon": "tech",
-      "label": "12 Month Unlimited-Mileage Warranty"
+      "label": "Specialist technicians with 10-15 years of experience"
     },
     {
       "icon": "shield-check",
-      "label": "Nationwide Recovery"
+      "label": "12 Month Unlimited-Mileage Warranty"
     },
     {
       "icon": "truck",
-      "label": "Specialist technicians with 10-15 years of experience"
+      "label": "Nationwide Recovery"
     },
     {
       "icon": "search",
@@ -25,7 +25,7 @@
     },
     {
       "icon": "engine",
-      "label": "Ingenium AJ300P Specialists"
+      "label": "Ingenium Ingenium AJ300P Specialists"
     }
   ],
   "priceCta": {
@@ -39,6 +39,6 @@
     "phone": "0203 488 4649",
     "href": "tel:02034884649"
   },
-  "image": "/variant/sec1.webp",
+  "image": "/variant/sec1.v2.webp",
   "imageMobile": "/variant/sec1_mobile.webp"
 }

@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "Td5",
     "titlePost": " ENGINE",
-    "body": "The Td5 is a Inline-5 (I5), 2.5L (2,498 cc), Diesel engine used across Land Rover's 2 model range, in production 1998–2006. We rebuild every Td5 to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The Td5 is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every Td5 to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
   },
   "byModel": {
     "image": "/engine/sec9_middle.webp",
@@ -15,15 +15,27 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The Td5 is fitted across Defender, Discovery — see the full applications table above for exact variants, generations and years.",
+    "body": "The Td5 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
     "lineup": [
       {
         "label": "Defender",
-        "code": "Defender"
+        "code": "L663"
       },
       {
         "label": "Discovery",
-        "code": "Discovery 2"
+        "code": "L462"
+      },
+      {
+        "label": "Range Rover",
+        "code": "L460"
+      },
+      {
+        "label": "Range Rover Sport",
+        "code": "L461"
+      },
+      {
+        "label": "Range Rover Velar",
+        "code": "L560"
       }
     ]
   },
@@ -45,7 +57,7 @@
       {
         "icon": "calendar",
         "title": "GENERATION",
-        "text": "Identify the correct generation (Defender, Discovery 2)."
+        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
       },
       {
         "icon": "gears",

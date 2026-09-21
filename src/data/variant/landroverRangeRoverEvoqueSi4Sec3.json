@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "Ford EcoBoost",
-      "generation": "",
-      "price": "£2,200"
+      "generation": "L538 (2011–2016)",
+      "price": "£2,200",
+      "codeHref": "/landrover-ford-ecoboost-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Evoque Si4 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Ford EcoBoost I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Range Rover Evoque Si4 Known Issues by Engine ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The Ford EcoBoost is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Ford EcoBoost V6. We replace timing chains, bearings, water pump and gaskets as standard on every Ford EcoBoost rebuild.",
-      "Because the Range Rover Evoque Si4 uses a completely different engine family from the V8 M178 fitted to the Range Rover Evoque 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Range Rover Evoque Si4 has the Ford EcoBoost (L663 generation):",
+      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every Ford EcoBoost rebuild."
     ],
-    "source": "Source: Established Ford EcoBoost specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
   }
 }

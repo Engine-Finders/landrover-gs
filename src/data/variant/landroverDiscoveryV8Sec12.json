@@ -39,12 +39,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Discovery V8 ENGINE SIZES",
-        "item": "Land Rover Discovery V8 3.0 Litre Engine (engine, I6)"
+        "title": "LAND ROVER Discovery V8 ENGINE SIZES",
+        "item": "Land Rover Discovery V8 3.0 Litre Engine (AJ41, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Discovery V8 FUEL TYPES",
+        "title": "LAND ROVER Discovery V8 FUEL TYPES",
         "item": "Land Rover Discovery V8 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -61,8 +61,25 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Discovery Tdi Engine",
+        "href": "/landrover-discovery-tdi-engines"
+      },
+      {
+        "label": "Land Rover Discovery Td5 Engine",
+        "href": "/landrover-discovery-td5-engines"
+      },
+      {
+        "label": "Land Rover Discovery TDV6 Engine",
+        "href": "/landrover-discovery-tdv6-engines"
+      },
+      {
+        "label": "Land Rover Discovery SDV6 Engine",
+        "href": "/landrover-discovery-sdv6-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/discovery-engines"
   }
 }

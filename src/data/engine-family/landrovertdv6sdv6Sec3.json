@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.webp",
-  "titlePre": "Land Rover TDV6/SDV6 Applications — ",
+  "titlePre": "Land Rover TDV6 SDV6 Applications — ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -24,31 +24,49 @@
   ],
   "rows": [
     {
+      "model": "Defender",
+      "variant": "D200, D250, D300, D350",
+      "generation": "L663",
+      "chassis": "L663",
+      "years": "2020–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/defender-engines"
+    },
+    {
       "model": "Discovery",
-      "variant": "TDV6, SDV6",
-      "generation": "L319 (D3/D4)",
-      "chassis": "L319",
-      "years": "2004–2016",
-      "powertrain": "Diesel",
-      "modelHref": "/landrover-discovery-engines"
+      "variant": "D250, D300, D350",
+      "generation": "L462",
+      "chassis": "L462",
+      "years": "2020–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/discovery-engines"
     },
     {
       "model": "Range Rover",
-      "variant": "TDV6, SDV6",
-      "generation": "L322, L405",
-      "chassis": "L322/L405",
-      "years": "2006–2019",
-      "powertrain": "Diesel",
-      "modelHref": "/landrover-range-rover-engines"
+      "variant": "D250, D300, D350",
+      "generation": "L460",
+      "chassis": "L460",
+      "years": "2022–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/models"
     },
     {
       "model": "Range Rover Sport",
-      "variant": "TDV6, SDV6",
-      "generation": "L320, L494",
-      "chassis": "L320/L494",
-      "years": "2005–2019",
-      "powertrain": "Diesel",
-      "modelHref": "/landrover-range-rover-sport-engines"
+      "variant": "D250, D300, D350",
+      "generation": "L461",
+      "chassis": "L461",
+      "years": "2022–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/range-rover-sport-engines"
+    },
+    {
+      "model": "Range Rover Velar",
+      "variant": "D200, D250, D300",
+      "generation": "L560",
+      "chassis": "L560",
+      "years": "2019–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/range-rover-velar-engines"
     }
   ],
   "prompt": {

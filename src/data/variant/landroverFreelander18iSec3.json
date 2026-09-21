@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "Rover K-Series",
-      "generation": "",
-      "price": "£1,900"
+      "generation": "L314 (1997–2006)",
+      "price": "£1,900",
+      "codeHref": "/landrover-rover-k-series-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Freelander 1.8i Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Rover K-Series I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Freelander 1.8i Head Gasket Failure ",
+    "titleHighlight": "(L314, Rover K-Series)",
     "paragraphs": [
-      "The Rover K-Series is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Rover K-Series V6. We replace timing chains, bearings, water pump and gaskets as standard on every Rover K-Series rebuild.",
-      "Because the Freelander 1.8i uses a completely different engine family from the V8 M178 fitted to the Freelander 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Freelander 1.8i has the Rover K-Series engine — that's the L314 generation, produced from 1997 to 2006 — head gasket failure is a well-documented pattern on this engine, backed by multiple manufacturer technical service bulletins and specialist sources. We replace the head gasket, water pump and timing belt as standard on every Freelander 1.8i rebuild.",
+      "include_in_hero_hook: yes — Source: widely known, multiple manufacturer TSBs and specialist sources, per VRF-landrover-freelander.md"
     ],
-    "source": "Source: Established Rover K-Series specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: widely known, multiple manufacturer TSBs and specialist sources, per VRF-landrover-freelander.md"
   }
 }

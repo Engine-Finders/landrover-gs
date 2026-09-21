@@ -30,12 +30,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Discovery Td5 ENGINE SIZES",
+        "title": "LAND ROVER Discovery Td5 ENGINE SIZES",
         "item": "Land Rover Discovery Td5 3.0 Litre Engine (Td5, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Discovery Td5 FUEL TYPES",
+        "title": "LAND ROVER Discovery Td5 FUEL TYPES",
         "item": "Land Rover Discovery Td5 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -52,8 +52,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Discovery Tdi Engine",
+        "href": "/landrover-discovery-tdi-engines"
+      },
+      {
+        "label": "Land Rover Discovery V8 Engine",
+        "href": "/landrover-discovery-v8-engines"
+      },
+      {
+        "label": "Land Rover Discovery TDV6 Engine",
+        "href": "/landrover-discovery-tdv6-engines"
+      },
+      {
+        "label": "Land Rover Discovery SDV6 Engine",
+        "href": "/landrover-discovery-sdv6-engines"
+      },
+      {
+        "label": "Land Rover Discovery D250 Engine",
+        "href": "/landrover-discovery-d250-engines"
+      },
+      {
+        "label": "Land Rover Discovery D300 Engine",
+        "href": "/landrover-discovery-d300-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/discovery-engines"
   }
 }

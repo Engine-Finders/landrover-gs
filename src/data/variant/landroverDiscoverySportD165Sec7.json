@@ -1,6 +1,6 @@
 {
   "reviews": {
-    "titlePre": "WHAT MERCEDES ",
+    "titlePre": "WHAT LAND ROVER ",
     "titleHighlight": "Discovery Sport D165 OWNERS SAY",
     "items": [
       {
@@ -12,7 +12,7 @@
       {
         "name": "Mark T.",
         "platform": "trustpilot",
-        "text": "They rebuilt my engine with all the updated parts. Smooth process and great communication throughout.",
+        "text": "They rebuilt my Ingenium AJ200D / AJ150D with all the updated parts. Smooth process and great communication throughout.",
         "tag": "Land Rover Discovery Sport D165 Engine Rebuild"
       },
       {
@@ -47,8 +47,8 @@
     "icon": "car",
     "titlePre": "WE COVER YOUR",
     "titleHighlight": "EXACT VEHICLE",
-    "body": "Enter your registration below and we'll confirm your Land Rover Discovery Sport D165 has the right engine, along with an exact rebuild price.",
-    "image": "/variant/sec7.webp",
+    "body": "Enter your registration below and we'll confirm your Land Rover Discovery Sport D165 has the Ingenium AJ200D / AJ150D, along with an exact rebuild price.",
+    "image": "/variant/sec7.v2.webp",
     "buttonLabel": "Check Fit",
     "ticks": [
       "Fast",
@@ -57,7 +57,7 @@
     ]
   },
   "whyChoose": {
-    "titlePre": "WHY MERCEDES Discovery Sport D165 ",
+    "titlePre": "WHY LAND ROVER Discovery Sport D165 ",
     "titleHighlight": "OWNERS CHOOSE US",
     "items": [
       "Engine matched using VIN or registration number",

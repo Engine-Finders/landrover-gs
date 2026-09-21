@@ -15,36 +15,41 @@
       "family": "Ford Duratorq",
       "fuel": "Diesel I4",
       "size": "2.2L",
-      "chassis": "L538",
-      "range": "L538 (pre-2016)"
+      "chassis": "L538 (pre-2016)",
+      "range": "£2,200 – £3,000",
+      "familyHref": "/landrover-ford-duratorq-engine"
     },
     {
       "family": "Ingenium AJ150D",
       "fuel": "Diesel I4",
       "size": "1.5L",
-      "chassis": "L538",
-      "range": "L538 / L551"
+      "chassis": "L538 / L551",
+      "range": "£2,200 – £2,900",
+      "familyHref": "/landrover-aj150d-engine"
     },
     {
       "family": "Ingenium AJ200D",
       "fuel": "Diesel I4",
       "size": "2.0L",
-      "chassis": "L538",
-      "range": "L538 / L551"
+      "chassis": "L538 / L551",
+      "range": "£2,200 – £3,000",
+      "familyHref": "/landrover-aj200d-engine"
     },
     {
       "family": "Ingenium AJ200P",
       "fuel": "Petrol I4",
       "size": "2.0L",
-      "chassis": "L538",
-      "range": "L538 / L551"
+      "chassis": "L538 / L551",
+      "range": "£2,200 – £3,000",
+      "familyHref": "/landrover-aj200p-engine"
     },
     {
       "family": "Ford EcoBoost",
       "fuel": "Petrol I4",
       "size": "2.0L",
-      "chassis": "L538",
-      "range": "L538 (Si4)"
+      "chassis": "L538 (Si4)",
+      "range": "£2,200 – £2,900",
+      "familyHref": "/landrover-ford-ecoboost-engine"
     }
   ],
   "features": [

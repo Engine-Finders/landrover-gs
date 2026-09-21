@@ -33,12 +33,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Freelander 1.8i ENGINE SIZES",
+        "title": "LAND ROVER Freelander 1.8i ENGINE SIZES",
         "item": "Land Rover Freelander 1.8i 3.0 Litre Engine (Rover K-Series, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Freelander 1.8i FUEL TYPES",
+        "title": "LAND ROVER Freelander 1.8i FUEL TYPES",
         "item": "Land Rover Freelander 1.8i Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -55,8 +55,21 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Freelander TD4 Engine",
+        "href": "/landrover-freelander-td4-engines"
+      },
+      {
+        "label": "Land Rover Freelander eD4 Engine",
+        "href": "/landrover-freelander-ed4-engines"
+      },
+      {
+        "label": "Land Rover Freelander SD4 Engine",
+        "href": "/landrover-freelander-sd4-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/freelander-engines"
   }
 }

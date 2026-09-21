@@ -8,8 +8,15 @@
   "cards": [
     {
       "code": "TDV6",
-      "generation": "",
-      "price": "£2,400"
+      "generation": "D3/L319 (2004–2009)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "TDV6",
+      "generation": "D4/L319 facelift (2009–2016)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery TDV6 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(TDV6 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery TDV6 Timing Chain & Bearing Wear ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The TDV6 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older TDV6 V6. We replace timing chains, bearings, water pump and gaskets as standard on every TDV6 rebuild.",
-      "Because the Discovery TDV6 uses a completely different engine family from the V8 M178 fitted to the Discovery 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Discovery TDV6 is a D3 or D4 generation model with the TDV6 engine — that's the L319 chassis — timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk are widely documented across multiple manufacturer technical service bulletins and specialist sources. We replace timing chain components, injector seals, and gaskets as standard on every TDV6 rebuild.",
+      "include_in_hero_hook: yes for TDV6 — Source: widely documented, multiple TSBs and specialist sources, per VRF-landrover-discovery.md and G-BRF-LandRover.md."
     ],
-    "source": "Source: Established TDV6 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: widely documented, multiple TSBs and specialist sources, per VRF-landrover-discovery.md and G-BRF-LandRover.md"
   }
 }

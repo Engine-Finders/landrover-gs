@@ -7,9 +7,16 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "200Tdi or 300Tdi",
-      "generation": "",
-      "price": "£1,900"
+      "code": "200Tdi",
+      "generation": "D1/L318 (1989–1994)",
+      "price": "£1,900",
+      "codeHref": "/landrover-200tdi-engine"
+    },
+    {
+      "code": "300Tdi",
+      "generation": "D1/L318 (1994–1998)",
+      "price": "£1,900",
+      "codeHref": "/landrover-300tdi-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery Tdi Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(200Tdi or 300Tdi I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery Tdi Known Issues by Engine ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The 200Tdi or 300Tdi is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older 200Tdi or 300Tdi V6. We replace timing chains, bearings, water pump and gaskets as standard on every 200Tdi or 300Tdi rebuild.",
-      "Because the Discovery Tdi uses a completely different engine family from the V8 M178 fitted to the Discovery 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Discovery Tdi has the 200Tdi or 300Tdi (L663 generation):",
+      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every 200Tdi or 300Tdi rebuild."
     ],
-    "source": "Source: Established 200Tdi or 300Tdi specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
   }
 }

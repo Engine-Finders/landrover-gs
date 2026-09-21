@@ -38,7 +38,7 @@ export default function Landrover200tdiEnginePage() {
   return (
     <>
       <JsonLd data={graphDoc([
-        serviceSchema({ name: NAME, description: sec1.subhead, path: PATH, price: sec1.priceCta?.label }),
+        serviceSchema({ name: NAME, description: sec1.subhead, path: PATH, price: (sec1.priceCta?.label || sec1.priceCta?.kicker) }),
         faqSchema(FAQ, PATH),
         breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Engines", path: "/engines" }, { name: NAME, path: PATH }], PATH),
       ])} />

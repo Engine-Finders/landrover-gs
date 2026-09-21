@@ -17,9 +17,9 @@
       {
         "codeHighlight": "Rover K-Series",
         "codeRest": "",
-        "body": "A 1.8-litre inline-four petrol fitted to the Freelander 1.8i from 1997 to 2006 (L314 generation). Known for well-documented head gasket failure — see the callout above. We replace the head gasket, water pump and timing belt as standard on every Freelander 1.8i rebuild. Check Your Rover K-Series Freelander → [link to quote form]",
+        "body": "A 1.8-litre inline-four petrol fitted to the Freelander 1.8i from 1997 to 2006 (L314 generation). Known for well-documented head gasket failure — see the callout above. We replace the head gasket, water pump and timing belt as standard on every Freelander 1.8i rebuild.",
         "cta": "Check Your Rover K-Series Freelander 1.8i",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-rover-k-series-engine"
       }
     ]
   },
@@ -37,11 +37,11 @@
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact engine code (Rover K-Series)"
+        "text": "Your exact engine code (Rover K-Series) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "Your generation (L314)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Freelander quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Freelander 1.8i ",
@@ -71,7 +71,8 @@
         "chassis": "L314",
         "years": "1997–2006",
         "engineCode": "Rover K-Series",
-        "fuel": "Petrol"
+        "fuel": "Petrol",
+        "codeHref": "/landrover-rover-k-series-engine"
       }
     ]
   }

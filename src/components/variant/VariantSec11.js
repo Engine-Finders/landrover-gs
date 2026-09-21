@@ -66,7 +66,7 @@ export default function VariantSec11({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden overflow-hidden md:block">
         <div className="absolute inset-0">
-          <Image src={data.image} alt="Land Rover AMG GT 53 engine and sedan" fill className="object-cover" sizes="100vw" />
+          <Image src={data.image} alt="Land Rover engine and vehicle" fill className="object-cover" sizes="100vw" />
         </div>
 
         <div className="relative mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
@@ -80,7 +80,7 @@ export default function VariantSec11({ data }) {
 
           <div
             className="glass-card-dark mt-6 max-w-3xl overflow-hidden rounded-2xl"
-            style={{ background: "rgba(10,10,12,0.96)", boxShadow: "0 25px 60px -30px rgba(173,135,92,0.5)" }}
+            style={{ background: "rgba(10,10,12,0.96)", boxShadow: "0 25px 60px -30px rgba(96,112,86,0.5)" }}
           >
             <div className="grid grid-cols-[minmax(0,0.8fr)_minmax(0,1.4fr)_minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,1.6fr)] border-b border-white/10">
               {data.columns.map((c) => (

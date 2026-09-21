@@ -16,10 +16,10 @@
     "cards": [
       {
         "codeHighlight": "TDV6",
-        "codeRest": "",
-        "body": "A 3.0-litre V6 diesel fitted to the Discovery from 2004 to 2016 across two generations. Known for timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk over time — see the callout above. We replace timing chain components, injector seals, and gaskets as standard on every TDV6 rebuild. Check Your TDV6 Discovery → [link to quote form]",
+        "codeRest": "(D3/L319, D4/L319 facelift)",
+        "body": "A 3.0-litre V6 diesel fitted to the Discovery from 2004 to 2016 across two generations. Known for timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk over time — see the callout above. We replace timing chain components, injector seals, and gaskets as standard on every TDV6 rebuild.",
         "cta": "Check Your TDV6 Discovery TDV6",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-tdv6-sdv6-engine"
       }
     ]
   },
@@ -37,11 +37,11 @@
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact generation (D3/L319 or D4/L319 facelift)"
+        "text": "Your exact engine code (TDV6) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "Your engine code (TDV6)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Discovery quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery TDV6 ",
@@ -71,14 +71,16 @@
         "chassis": "L319",
         "years": "2004–2009",
         "engineCode": "TDV6",
-        "fuel": "Diesel"
+        "fuel": "Diesel",
+        "codeHref": "/landrover-tdv6-sdv6-engine"
       },
       {
         "generation": "D4",
         "chassis": "L319 facelift",
         "years": "2009–2016",
         "engineCode": "TDV6",
-        "fuel": "Diesel"
+        "fuel": "Diesel",
+        "codeHref": "/landrover-tdv6-sdv6-engine"
       }
     ]
   }

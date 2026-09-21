@@ -1,8 +1,8 @@
 {
-  "image": "/variant/sec11.webp",
+  "image": "/variant/sec11.v2.webp",
   "titlePre": "Land Rover Freelander 2.5 V6 ENGINES ",
   "titleHighlight": "BY YEAR",
-  "description": "Land Rover Freelander 2.5 V6 has used the same engine throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "description": "Land Rover Freelander 2.5 V6 has used the [MISSING: exact engine code not specified in G-BRF] throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
   "columns": [
     {
       "icon": "calendar",
@@ -98,7 +98,7 @@
     }
   ],
   "notice": {
-    "highlight": "The engine",
+    "highlight": "The [MISSING: exact engine code not specified in G-BRF]",
     "rest": " has been fitted to every Freelander 2.5 V6 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
   }
 }

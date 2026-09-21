@@ -58,7 +58,7 @@ export default function HomeSec7({ data }) {
 
           <div
             className="glass-card -mx-4 mt-5 flex items-stretch rounded-2xl px-1.5 py-4"
-            style={{ boxShadow: "0 0 40px -8px rgba(173,135,92,0.35)" }}
+            style={{ boxShadow: "0 0 40px -8px rgba(96,112,86,0.35)" }}
           >
             {data.trustBadges.map((b, i) => (
               <div key={b.label} className="flex min-w-0 flex-1 items-stretch justify-center">
@@ -98,7 +98,7 @@ export default function HomeSec7({ data }) {
 
           <div
             className="glass-card mt-6 flex items-stretch rounded-2xl px-6 py-6"
-            style={{ boxShadow: "0 0 40px -8px rgba(173,135,92,0.35)" }}
+            style={{ boxShadow: "0 0 40px -8px rgba(96,112,86,0.35)" }}
           >
             {data.trustBadges.map((b, i) => (
               <div key={b.label} className="flex min-w-0 flex-1 items-stretch justify-center">

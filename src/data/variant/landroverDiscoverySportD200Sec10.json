@@ -16,10 +16,10 @@
     "cards": [
       {
         "codeHighlight": "Ingenium AJ200D",
-        "codeRest": "",
-        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D200 from 2020 to the present, within the L550 generation. Known for timing chain tensioner wear, oil dilution from DPF regeneration and EGR cooler leaks — see the callout above. We replace timing chains, injector seals, EGR components and gaskets as standard on every AJ200D rebuild. Check Your Ingenium AJ200D Discovery Sport D200 → [link to quote form]",
+        "codeRest": "(L550, 2020–present)",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D200 from 2020 to the present, within the L550 generation. Known for timing chain tensioner wear, oil dilution from DPF regeneration and EGR cooler leaks — see the callout above. We replace timing chains, injector seals, EGR components and gaskets as standard on every AJ200D rebuild.",
         "cta": "Check Your Ingenium AJ200D Discovery Sport D200",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj200d-engine"
       }
     ]
   },
@@ -41,7 +41,7 @@
       },
       {
         "icon": "car",
-        "text": "Your generation (generation)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport D200 ",
@@ -71,7 +71,8 @@
         "chassis": "L550",
         "years": "2020–present",
         "engineCode": "Ingenium AJ200D",
-        "fuel": "Diesel"
+        "fuel": "Diesel",
+        "codeHref": "/landrover-aj200d-engine"
       }
     ]
   }

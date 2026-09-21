@@ -2,20 +2,15 @@
   "yearBanner": {
     "titlePre": "WE COVER ",
     "titleHighlight": "EVERY",
-    "titlePost": " MERCEDES Range Rover Evoque P300e MODEL YEAR:",
+    "titlePost": " Land Rover Range Rover Evoque P300e MODEL YEAR:",
     "years": [
-      "2014",
-      "2015",
-      "2016",
-      "2017",
-      "2018",
-      "2019",
       "2020",
       "2021",
       "2022",
       "2023",
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
     "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
     "vehicleLabel": "Land Rover Range Rover Evoque P300e"
@@ -35,12 +30,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Evoque P300e ENGINE SIZES",
-        "item": "Land Rover Range Rover Evoque P300e 3.0 Litre Engine (engine, I6)"
+        "title": "LAND ROVER Range Rover Evoque P300e ENGINE SIZES",
+        "item": "Land Rover Range Rover Evoque P300e 3.0 Litre Engine (Ingenium AJ200P + electric, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Evoque P300e FUEL TYPES",
+        "title": "LAND ROVER Range Rover Evoque P300e FUEL TYPES",
         "item": "Land Rover Range Rover Evoque P300e Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -57,8 +52,21 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Evoque TD4 Engine",
+        "href": "/landrover-evoque-td4-engines"
+      },
+      {
+        "label": "Land Rover Evoque D180 Engine",
+        "href": "/landrover-range-rover-velar-d180-engines"
+      },
+      {
+        "label": "Land Rover Evoque P250 Engine",
+        "href": "/landrover-range-rover-velar-p250-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-evoque-engines"
   }
 }

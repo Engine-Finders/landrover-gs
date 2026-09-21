@@ -1,7 +1,7 @@
 {
   "kicker": "Land Rover Range Rover P460e Specialists",
-  "h1": "Land Rover Range Rover P460e|Engine Rebuild —|From ",
-  "subhead": "",
+  "h1": "Land Rover Range Rover P460e|Engine Rebuild —|From £3,200",
+  "subhead": "<!-- ============================================================ --><!-- LAYER 1 — CONVERSION --><!-- ============================================================ -->",
   "rating": {
     "stars": 5,
     "label": "Rated Land Rover Engine Specialists — 1,800+ Engines Rebuilt"
@@ -25,20 +25,20 @@
     },
     {
       "icon": "engine",
-      "label": "AJ300 PHEV Specialists"
+      "label": "Ingenium AJ300 turbo PHEV I6 Specialists"
     }
   ],
   "priceCta": {
-    "kicker": "Starting from  —",
+    "kicker": "Starting from £3,200 —",
     "label": "Get a Fixed-Price Quote →",
     "href": "#quote-form"
   },
   "phoneCta": {
     "icon": "phone",
     "label": "Call Our Specialists:",
-    "phone": "01268 944 234",
+    "phone": "0203 488 4649",
     "href": "tel:02034884649"
   },
-  "image": "/variant/sec1.webp",
+  "image": "/variant/sec1.v2.webp",
   "imageMobile": "/variant/sec1_mobile.webp"
 }

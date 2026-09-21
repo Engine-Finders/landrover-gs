@@ -19,11 +19,7 @@ export default function HomeSec10({ data }) {
 
           <div className="mt-5 grid grid-cols-3 gap-2">
             {data.reasons.map((r) => (
-              <div
-                key={r.label}
-                className="glow-card flex flex-col items-center gap-2 p-3 text-center"
-                style={{ border: "1px solid rgba(173,135,92,0.6)" }}
-              >
+              <div key={r.label} className="glow-card glow-card--green flex flex-col items-center gap-2 p-3 text-center">
                 <Icon name={r.icon} className="h-8 w-8 shrink-0 text-white" />
                 <span className="h-px w-6 bg-hero-blue" />
                 <p className="label-text leading-tight text-white">{r.label}</p>
@@ -51,11 +47,7 @@ export default function HomeSec10({ data }) {
 
             <div className="mt-5 grid grid-cols-3 gap-3 sm:grid-cols-6 lg:max-w-[70%]">
               {data.reasons.map((r) => (
-                <div
-                  key={r.label}
-                  className="glow-card flex flex-col items-center gap-2 p-3 text-center"
-                  style={{ border: "1px solid rgba(173,135,92,0.6)" }}
-                >
+                <div key={r.label} className="glow-card glow-card--green flex flex-col items-center gap-2 p-3 text-center">
                   <Icon name={r.icon} className="h-10 w-10 shrink-0 text-white" />
                   <span className="h-px w-6 bg-hero-blue" />
                   <p className="text-xs leading-tight text-white">{r.label}</p>

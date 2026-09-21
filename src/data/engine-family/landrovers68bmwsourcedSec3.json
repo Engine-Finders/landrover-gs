@@ -30,7 +30,8 @@
       "chassis": "L663",
       "years": "2024–present",
       "powertrain": "Petrol MHEV",
-      "modelHref": "/landrover-defender-engines"
+      "modelHref": "/defender-engines",
+      "variantHref": "/landrover-defender-octa-engines"
     },
     {
       "model": "Range Rover",
@@ -39,7 +40,7 @@
       "chassis": "L460",
       "years": "2024–present",
       "powertrain": "Petrol MHEV",
-      "modelHref": "/landrover-range-rover-engines"
+      "modelHref": "/models"
     },
     {
       "model": "Range Rover Sport",
@@ -48,7 +49,7 @@
       "chassis": "L461",
       "years": "2024–present",
       "powertrain": "Petrol MHEV",
-      "modelHref": "/landrover-range-rover-sport-engines"
+      "modelHref": "/range-rover-sport-engines"
     }
   ],
   "prompt": {

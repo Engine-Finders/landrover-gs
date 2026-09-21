@@ -1,0 +1,79 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery D350 ENGINE",
+    "paragraphs": [
+      "The Discovery D350 is part of the D5 generation (L462), introduced in 2017 and still in production today. Under the bonnet, it uses the AJ300D — a 3.0-litre inline-six diesel engine from the Ingenium family, paired with a mild-hybrid system. This engine replaced earlier diesel V6s (TDV6/SDV6) in the Discovery range, offering more power and improved efficiency. The AJ300D is a different unit from the older 2.7-litre and 3.0-litre V6 diesels used in the Discovery 3 and 4, and it has its own known characteristics — including the timing chain wear pattern documented across the Ingenium diesel family."
+    ],
+    "boldParagraph": "We continue to rebuild and replace AJ300D engines for every Discovery D350 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery D350 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "AJ300D",
+        "codeRest": "(D5, L462)",
+        "body": "A 3.0-litre inline-six diesel fitted to the Discovery D350 from 2017 to present (D5/L462 generation). Part of the Ingenium diesel family, commonly showing timing chain wear — see the callout above. We replace the timing chain, tensioners, guides, bearings, injector seals and gaskets as standard on every AJ300D rebuild.",
+        "cta": "Check Your AJ300D Discovery D350",
+        "codeHref": "/landrover-aj300d-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery D350 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Discovery D5 generation uses the AJ300D Ingenium 3.0-litre diesel as its top diesel offering, alongside the 2.0-litre D250 and the petrol P360/P400. Because the AJ300D is a specific unit with its own component set, wiring, and ECU calibration, fitting the wrong replacement or assuming compatibility with older Discovery diesel engines risks an expensive problem. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "AJ300D",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (AJ300D) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L663)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery D350 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "D5",
+        "chassis": "L462",
+        "years": "2017–present",
+        "engineCode": "AJ300D",
+        "fuel": "Diesel MHEV",
+        "codeHref": "/landrover-aj300d-engine"
+      }
+    ]
+  }
+}

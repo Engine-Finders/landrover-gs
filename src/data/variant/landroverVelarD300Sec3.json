@@ -7,9 +7,10 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "",
-      "generation": "",
-      "price": "£3,200"
+      "code": "AJ300D",
+      "generation": "L560 (2017–present)",
+      "price": "£3,200",
+      "codeHref": "/landrover-aj300d-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Velar D300 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(engine I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Velar D300 Timing Chain & Oil Dilution ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The engine is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older engine V6. We replace timing chains, bearings, water pump and gaskets as standard on every engine rebuild.",
-      "Because the Velar D300 uses a completely different engine family from the V8 M178 fitted to the Land Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Velar D300 engines — and other Ingenium diesel variants in the range — commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks. We replace timing chains, injector seals, bearings, and gaskets as standard on every AJ300D rebuild.",
+      "*include_in_hero_hook: yes — Source: shared Ingenium diesel family pattern (per G-BRF). This pattern is confirmed for the D300 and other Ingenium diesel variants, as per the VRF.*"
     ],
-    "source": "Source: Established engine specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: shared Ingenium diesel family pattern (per G-BRF). This pattern is confirmed for the D300 and other Ingenium diesel variants, as per the VRF"
   }
 }

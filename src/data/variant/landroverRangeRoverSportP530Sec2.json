@@ -2,7 +2,7 @@
   "headlinePre": "Your ",
   "headlineHighlight": "Land Rover Range Rover Sport P530",
   "headlinePost": " Engine",
-  "image": "/variant/sec10_engine.webp",
+  "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
@@ -12,7 +12,7 @@
     {
       "icon": "layers",
       "label": "Model",
-      "value": "Land Rover"
+      "value": "Range Rover Sport"
     },
     {
       "icon": "sliders",
@@ -27,28 +27,27 @@
     {
       "icon": "engine",
       "label": "Engine",
-      "value": "[MISSING: engine code not independently confirmed in VRF]"
+      "value": "BMW N63"
     },
     {
       "icon": "gauge",
       "label": "Capacity",
-      "value": "[MISSING: capacity not independently confirmed in VRF]"
+      "value": "4.4L V8"
     },
     {
       "icon": "calendar",
-      "label": "Generation",
-      "value": "generation (2014–2025, discontinued)"
+      "label": "Generations",
+      "value": "L461 (2022–present)"
     },
     {
       "icon": "price",
       "label": "Rebuild From",
-      "value": "£3,200",
-      "highlight": true
+      "value": "£6,500"
     }
   ],
   "lookup": {
     "title": "Not sure which engine you have?",
-    "body": "The Range Rover Sport P530 uses the engine 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "body": "The Range Rover Sport P530 uses the BMW N63 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
     "badges": [
       {
         "icon": "shield-check",

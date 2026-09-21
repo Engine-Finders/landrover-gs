@@ -1,0 +1,37 @@
+{
+  "headlinePre": "Land Rover Range Rover Velar D180",
+  "headlineHighlight": "Engine Rebuild Price",
+  "startingFromLabel": "Starting From",
+  "startingFromPrice": "£2,200",
+  "engineImage": "/variant/sec10_engine.webp",
+  "carImage": "/variant/landrover_car.webp",
+  "cards": [
+    {
+      "code": "Ingenium AJ200D",
+      "generation": "L560 (2017–present)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj200d-engine"
+    }
+  ],
+  "notes": [
+    {
+      "icon": "price",
+      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    }
+  ],
+  "cta": {
+    "icon": "car",
+    "label": "Get Your Fixed-Price Quote",
+    "href": "#quote-form"
+  },
+  "warning": {
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover Velar D180 Timing Chain & EGR Wear ",
+    "titleHighlight": "(Ingenium AJ200D)",
+    "paragraphs": [
+      "If your Velar D180 is a diesel model with the Ingenium AJ200D — that's every Velar D180 across the L560 generation, from 2017 to present — timing chain tensioner wear and EGR cooler leaks are well-documented patterns on this engine family, shared with other JLR diesel models. We replace the timing chain, tensioners, injector seals, EGR components and gaskets as standard on every Ingenium diesel rebuild.",
+      "The petrol Velar variants use different Ingenium engines (AJ200P/AJ300P) which don't share the same diesel-specific timing chain wear pattern."
+    ],
+    "source": "Source: shared Ingenium diesel family pattern, per VRF-landrover-velar.md. Petrol variants explicitly excluded from this claim, correctly scoped to engine family"
+  }
+}

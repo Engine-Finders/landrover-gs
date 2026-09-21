@@ -5,13 +5,13 @@
   "titleBigPost": " 200Tdi",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the 200Tdi across its 1 model applications."
+    "Here's our practical view of the 200Tdi across its 5 model applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The 200Tdi is fitted across Defender — we see it regularly across the full application range."
+      "body": "The 200Tdi is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
     },
     {
       "icon": "wrench",
@@ -34,13 +34,13 @@
     "image": "/engine/sec10_bottom.webp",
     "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full 200Tdi rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-4 (I4), 2.5L (2,495 cc), Diesel).",
+    "body": "A full 200Tdi rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
     },
     "startingFromLabel": "Starting From:",
-    "startingFromPrice": "£2,200",
+    "startingFromPrice": "£1,900",
     "cta": {
       "label": "Check 200Tdi Rebuild Options →",
       "href": "#quote-form"

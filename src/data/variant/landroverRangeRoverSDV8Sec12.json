@@ -44,12 +44,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover SDV8 ENGINE SIZES",
+        "title": "LAND ROVER Range Rover SDV8 ENGINE SIZES",
         "item": "Land Rover Range Rover SDV8 3.0 Litre Engine (TDV8/SDV8, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover SDV8 FUEL TYPES",
+        "title": "LAND ROVER Range Rover SDV8 FUEL TYPES",
         "item": "Land Rover Range Rover SDV8 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -66,8 +66,29 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover TDV8 Engine",
+        "href": "/landrover-range-rover-tdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Vogue Engine",
+        "href": "/landrover-range-rover-vogue-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Autobiography Engine",
+        "href": "/landrover-range-rover-autobiography-engines"
+      },
+      {
+        "label": "Land Rover Range Rover D300/D350 Engine",
+        "href": "/landrover-range-rover-d300-d350-engines"
+      },
+      {
+        "label": "Land Rover Range Rover P400 Engine",
+        "href": "/landrover-range-rover-p400-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/models"
   }
 }

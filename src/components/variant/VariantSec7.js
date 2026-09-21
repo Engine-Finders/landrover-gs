@@ -67,7 +67,7 @@ export default function VariantSec7({ data }) {
               <div
                 key={r.name}
                 className="glow-card--sm relative flex min-h-56 w-[82%] shrink-0 snap-center flex-col overflow-hidden rounded-2xl p-5"
-                style={{ border: "1px solid rgba(173,135,92,0.6)" }}
+                style={{ border: "1px solid rgba(96,112,86,0.6)" }}
               >
                 <div className="relative flex items-center justify-between">
                   <Stars />
@@ -90,11 +90,11 @@ export default function VariantSec7({ data }) {
           </div>
 
           <div className="mt-6 space-y-3">
-            <button className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#0d0c0a] px-6 py-3.5 uppercase tracking-wide text-hero-blue transition hover:-translate-y-0.5">
+            <button className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#0d0f0c] px-6 py-3.5 uppercase tracking-wide text-hero-blue transition hover:-translate-y-0.5">
               <GoogleG className="h-5 w-5" />
               {reviews.googleCta} <span aria-hidden>→</span>
             </button>
-            <button className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#0d0c0a] px-6 py-3.5 uppercase tracking-wide text-hero-blue transition hover:-translate-y-0.5">
+            <button className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#0d0f0c] px-6 py-3.5 uppercase tracking-wide text-hero-blue transition hover:-translate-y-0.5">
               <Icon name="star" className="h-5 w-5 fill-[#00b67a] text-[#00b67a]" />
               {reviews.trustpilotCta} <span aria-hidden>→</span>
             </button>
@@ -114,8 +114,10 @@ export default function VariantSec7({ data }) {
           </div>
 
           <div className="relative mx-auto max-w-6xl">
-            <div className="flex items-center gap-3">
-              <LandRoverStripe className="h-10 w-16 shrink-0" />
+            <div className="flex items-start gap-3">
+              <span className="h2 flex h-[1.05em] shrink-0 items-center" aria-hidden="true">
+                <LandRoverStripe className="h-[0.85em] w-[1.35em] shrink-0" />
+              </span>
               <h2 className="h2 text-white uppercase">
                 {reviews.titlePre}
                 <span className="text-hero-blue">{reviews.titleHighlight}</span>
@@ -126,14 +128,14 @@ export default function VariantSec7({ data }) {
             <button
               type="button"
               aria-label="Previous reviews"
-              className="absolute left-0 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-[#0d0c0a] text-white shadow-lg transition hover:bg-hero-blue"
+              className="absolute left-0 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-[#0d0f0c] text-white shadow-lg transition hover:bg-hero-blue"
             >
               <Icon name="chevron-left" className="h-4 w-4" />
             </button>
             <button
               type="button"
               aria-label="Next reviews"
-              className="absolute right-0 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-[#0d0c0a] text-white shadow-lg transition hover:bg-hero-blue"
+              className="absolute right-0 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-[#0d0f0c] text-white shadow-lg transition hover:bg-hero-blue"
             >
               <Icon name="chevron-right" className="h-4 w-4" />
             </button>
@@ -142,7 +144,7 @@ export default function VariantSec7({ data }) {
                 <div
                   key={r.name}
                   className="glow-card--sm relative flex min-h-64 flex-col overflow-hidden rounded-xl p-4"
-                  style={{ border: "1px solid rgba(173,135,92,0.6)" }}
+                  style={{ border: "1px solid rgba(96,112,86,0.6)" }}
                 >
                   <div className="relative flex items-center justify-between">
                     <Stars />
@@ -157,11 +159,11 @@ export default function VariantSec7({ data }) {
             </div>
 
             <div className="mt-5 flex justify-center gap-4">
-              <button className="card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-hero-blue/50 bg-[#0d0c0a] px-6 py-3 text-sm font-bold text-hero-blue transition hover:-translate-y-0.5">
+              <button className="card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-hero-blue/50 bg-[#0d0f0c] px-6 py-3 text-sm font-bold text-hero-blue transition hover:-translate-y-0.5">
                 <GoogleG className="h-5 w-5" />
                 {reviews.googleCta} <span aria-hidden>→</span>
               </button>
-              <button className="card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-[#00b67a]/50 bg-[#0d0c0a] px-6 py-3 text-sm font-bold text-hero-blue transition hover:-translate-y-0.5">
+              <button className="card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-[#00b67a]/50 bg-[#0d0f0c] px-6 py-3 text-sm font-bold text-hero-blue transition hover:-translate-y-0.5">
                 <Icon name="star" className="h-5 w-5 fill-[#00b67a] text-[#00b67a]" />
                 {reviews.trustpilotCta} <span aria-hidden>→</span>
               </button>
@@ -213,7 +215,6 @@ export default function VariantSec7({ data }) {
         <div className="relative hidden overflow-hidden md:block">
           <div className="absolute inset-0">
             <Image src={coverage.image} alt="Land Rover front grille" fill className="object-cover object-right" sizes="100vw" />
-            <div className="absolute inset-0 bg-linear-to-r from-white via-white/95 to-transparent" />
           </div>
 
           <div className="relative mx-auto flex max-w-6xl items-center gap-8 px-4 py-10 sm:px-6 lg:px-8">
@@ -274,8 +275,10 @@ export default function VariantSec7({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
-            <div className="flex items-center gap-3">
-              <LandRoverStripe className="h-10 w-16 shrink-0" />
+            <div className="flex items-start gap-3">
+              <span className="h2 flex h-[1.05em] shrink-0 items-center" aria-hidden="true">
+                <LandRoverStripe className="h-[0.85em] w-[1.35em] shrink-0" />
+              </span>
               <h2 className="h2 uppercase">
                 <span className="text-[#101828]">{whyChoose.titlePre}</span>
                 <span className="text-hero-blue">{whyChoose.titleHighlight}</span>

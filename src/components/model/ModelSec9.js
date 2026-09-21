@@ -14,7 +14,7 @@ export default function ModelSec9({ data }) {
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
         <div className="relative h-64">
-          <Image src={data.imageMobile} alt="Land Rover registration lookup diagnostics" fill className="object-cover object-left-top" sizes="100vw" />
+          <Image src={data.imageMobile} alt="Technician running registration and engine diagnostics on a computer beside a Land Rover Defender" fill className="object-cover object-left-top" sizes="100vw" />
           <div className="absolute inset-0 bg-linear-to-r from-white/95 via-white/70 to-transparent" />
 
           <div className="relative max-w-[55%] px-4 pt-6">
@@ -53,7 +53,7 @@ export default function ModelSec9({ data }) {
               />
             </div>
 
-            <button className="btn-text mt-3 flex h-16 w-full items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark uppercase text-white shadow-[0_10px_25px_-8px_rgba(173,135,92,0.7)]">
+            <button className="btn-text mt-3 flex h-16 w-full items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)]">
               <Icon name="search" className="h-6 w-6" />
               {data.lookupButton}
             </button>
@@ -66,19 +66,19 @@ export default function ModelSec9({ data }) {
 
           {/* divider */}
           <div className="relative mt-6 flex items-center">
-            <span className="h-px flex-1" style={{ background: "linear-gradient(90deg, transparent, rgba(173,135,92,0.4))" }} />
+            <span className="h-px flex-1" style={{ background: "linear-gradient(90deg, transparent, rgba(96,112,86,0.4))" }} />
             <p className="label-text relative px-4 font-extrabold uppercase tracking-widest text-[#101828]">
               {data.dividerLabel}
               <span
                 className="pointer-events-none absolute left-1/2 top-full h-1.5 w-14 -translate-x-1/2 translate-y-2"
                 style={{
                   background:
-                    "radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(217,189,140,0.9) 40%, rgba(173,135,92,0.4) 65%, transparent 85%)",
-                  boxShadow: "0 0 15px rgba(217,189,140,0.8), 0 0 4px rgba(255,255,255,0.9)",
+                    "radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(143,160,131,0.9) 40%, rgba(96,112,86,0.4) 65%, transparent 85%)",
+                  boxShadow: "0 0 15px rgba(143,160,131,0.8), 0 0 4px rgba(255,255,255,0.9)",
                 }}
               />
             </p>
-            <span className="h-px flex-1" style={{ background: "linear-gradient(90deg, rgba(173,135,92,0.4), transparent)" }} />
+            <span className="h-px flex-1" style={{ background: "linear-gradient(90deg, rgba(96,112,86,0.4), transparent)" }} />
           </div>
 
           {/* browse grid */}
@@ -112,7 +112,7 @@ export default function ModelSec9({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden px-4 pb-10 pt-16 sm:px-6 md:block lg:px-8">
       <div className="absolute inset-0">
-        <Image src={data.image} alt="Land Rover registration lookup diagnostics" fill className="object-cover object-[80%_10%]" sizes="100vw" />
+        <Image src={data.image} alt="Technician running registration and engine diagnostics on a computer beside a Land Rover Defender" fill className="object-cover object-[80%_10%]" sizes="100vw" />
       </div>
 
       <div className="relative mx-auto max-w-6xl">
@@ -154,7 +154,7 @@ export default function ModelSec9({ data }) {
             />
           </div>
 
-          <button className="btn-text flex h-16 shrink-0 items-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-8 uppercase text-white shadow-[0_10px_25px_-8px_rgba(173,135,92,0.7)] transition hover:-translate-y-0.5 hover:from-hero-blue-dark hover:to-hero-blue hover:shadow-[0_14px_32px_-8px_rgba(173,135,92,0.85)]">
+          <button className="btn-text flex h-16 shrink-0 items-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-8 uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)] transition hover:-translate-y-0.5 hover:from-hero-blue-dark hover:to-hero-blue hover:shadow-[0_14px_32px_-8px_rgba(96,112,86,0.85)]">
             <Icon name="search" className="h-6 w-6" />
             {data.lookupButton}
           </button>
@@ -169,7 +169,7 @@ export default function ModelSec9({ data }) {
         <div className="relative mt-8 flex items-center">
           <span
             className="h-px flex-1"
-            style={{ background: "linear-gradient(90deg, transparent, rgba(173,135,92,0.4))" }}
+            style={{ background: "linear-gradient(90deg, transparent, rgba(96,112,86,0.4))" }}
           />
           <p className="relative px-5 text-xs font-extrabold uppercase tracking-widest text-[#101828]">
             {data.dividerLabel}
@@ -177,14 +177,14 @@ export default function ModelSec9({ data }) {
               className="pointer-events-none absolute left-1/2 top-full h-1.5 w-16 -translate-x-1/2 translate-y-2"
               style={{
                 background:
-                  "radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(217,189,140,0.9) 40%, rgba(173,135,92,0.4) 65%, transparent 85%)",
-                boxShadow: "0 0 15px rgba(217,189,140,0.8), 0 0 4px rgba(255,255,255,0.9)",
+                  "radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(143,160,131,0.9) 40%, rgba(96,112,86,0.4) 65%, transparent 85%)",
+                boxShadow: "0 0 15px rgba(143,160,131,0.8), 0 0 4px rgba(255,255,255,0.9)",
               }}
             />
           </p>
           <span
             className="h-px flex-1"
-            style={{ background: "linear-gradient(90deg, rgba(173,135,92,0.4), transparent)" }}
+            style={{ background: "linear-gradient(90deg, rgba(96,112,86,0.4), transparent)" }}
           />
         </div>
 

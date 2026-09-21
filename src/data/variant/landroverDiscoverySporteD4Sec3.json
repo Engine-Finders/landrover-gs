@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "Ford Duratorq",
-      "generation": "",
-      "price": "£2,000"
+      "generation": "L550 (2014–2019)",
+      "price": "£2,000",
+      "codeHref": "/landrover-ford-duratorq-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery Sport eD4 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Ford Duratorq I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery Sport eD4 Injector Seal Leaks & EGR Clogging ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The Ford Duratorq is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Ford Duratorq V6. We replace timing chains, bearings, water pump and gaskets as standard on every Ford Duratorq rebuild.",
-      "Because the Discovery Sport eD4 uses a completely different engine family from the V8 M178 fitted to the Discovery Sport 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Discovery Sport eD4 is a pre-2019 model with the Ford Duratorq diesel — that's the L550 generation — injector seal leaks and EGR clogging are a well-documented pattern on this engine, established through Ford/Land Rover specialist consensus. We replace injector seals, the EGR valve, and the timing belt as standard on every Ford Duratorq rebuild.",
+      "The later Discovery Sport diesel range (2019–present) uses the Ingenium family of engines, which are different units entirely — D150/D180/D240, then D165/D200 — and don't share the Ford Duratorq pattern documented here."
     ],
-    "source": "Source: Established Ford Duratorq specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established Ford/Land Rover specialist pattern, per VRF-landrover-discovery-sport.md. Applies to Duratorq-fitted pre-2016 models only; Ingenium diesel variants are separate and not covered by this specific claim"
   }
 }

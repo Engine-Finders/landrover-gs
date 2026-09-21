@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "BMW N63",
-      "generation": "",
-      "price": "£6,500"
+      "generation": "L460 (2022–present)",
+      "price": "£6,500",
+      "codeHref": "/landrover-n63-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover P530 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(BMW N63 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover P530 N63 Hot-Vee Pattern ",
+    "titleHighlight": "(L460, BMW N63)",
     "paragraphs": [
-      "The BMW N63 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older BMW N63 V6. We replace timing chains, bearings, water pump and gaskets as standard on every BMW N63 rebuild.",
-      "Because the Range Rover P530 uses a completely different engine family from the V8 M178 fitted to the Range Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Range Rover P530 has the BMW N63 twin-turbo V8 — fitted to the L460 generation from 2022 onward — the N63 hot-vee design has a well-documented pattern across BMW applications. Valve seal wear, coolant line degradation and oil consumption are known considerations on this engine family. We replace timing chains, valve seals and coolant components as standard on every N63 rebuild.",
+      "The N63 is a BMW-sourced engine, and the pattern we see on the P530 is consistent with the broader N63 family experience across BMW models — cross-applicable from the BMW G-BRF N63 pattern."
     ],
-    "source": "Source: Established BMW N63 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: BMW G-BRF N63 pattern, cross-applicable per VRF-landrover-range-rover.md. L460 P530 exclusively uses the BMW N63"
   }
 }

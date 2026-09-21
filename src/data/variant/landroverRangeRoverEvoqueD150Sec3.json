@@ -8,8 +8,15 @@
   "cards": [
     {
       "code": "Ingenium AJ150D / AJ200D",
-      "generation": "",
-      "price": "£2,200"
+      "generation": "L538 (2016–2018)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj150d-engine"
+    },
+    {
+      "code": "Ingenium AJ150D / AJ200D",
+      "generation": "L551 (2019–present)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj150d-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Evoque D150 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Ingenium AJ150D / AJ200D I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover Evoque D150 Ingenium Diesel Timing Chain & EGR Wear ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The Ingenium AJ150D / AJ200D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Ingenium AJ150D / AJ200D V6. We replace timing chains, bearings, water pump and gaskets as standard on every Ingenium AJ150D / AJ200D rebuild.",
-      "Because the Range Rover Evoque D150 uses a completely different engine family from the V8 M178 fitted to the Range Rover Evoque 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Evoque D150 engines — Ingenium AJ150D and AJ200D, across every Range Rover Evoque generation — commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks over time. We replace timing chains, injector seals, EGR components, and gaskets as standard on every Evoque D150 rebuild.",
+      "include_in_hero_hook: yes — Source: shared Ingenium diesel family pattern, Discovery Sport/Evoque platform, per G-BRF and VRF. Applies to all Ingenium diesel Evoque variants, including D150."
     ],
-    "source": "Source: Established Ingenium AJ150D / AJ200D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: shared Ingenium diesel family pattern, Discovery Sport/Evoque platform, per G-BRF and VRF. Applies to all Ingenium diesel Evoque variants, including D150"
   }
 }

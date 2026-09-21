@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "Ingenium AJ200D",
-      "generation": "",
-      "price": "£2,000"
+      "generation": "L550 (2020–present)",
+      "price": "£2,000",
+      "codeHref": "/landrover-aj200d-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery Sport D200 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Ingenium AJ200D I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery Sport D200 Ingenium Diesel Timing Chain & Oil Dilution ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The Ingenium AJ200D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Ingenium AJ200D V6. We replace timing chains, bearings, water pump and gaskets as standard on every Ingenium AJ200D rebuild.",
-      "Because the Discovery Sport D200 uses a completely different engine family from the V8 M178 fitted to the Discovery Sport 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Discovery Sport D200 engines with the Ingenium AJ200D diesel — across the L550 generation — commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks over time. This is a well-documented pattern on Ingenium diesel engines, confirmed by multiple specialist sources and owner forums. We replace timing chains, injector seals, EGR components and gaskets as standard on every D200 rebuild.",
+      "The D200 (introduced in 2020) replaced the earlier D240 badge, but sits on the same Ingenium AJ200D engine family — the known issues apply across the full Ingenium diesel range."
     ],
-    "source": "Source: Established Ingenium AJ200D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: shared Ingenium diesel family pattern (Discovery Sport/Evoque platform), per G-BRF-LandRover.md. Applies to all Ingenium diesel variants including D200"
   }
 }

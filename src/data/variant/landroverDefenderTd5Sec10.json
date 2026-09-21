@@ -1,0 +1,87 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Defender Td5 ENGINE",
+    "paragraphs": [
+      "The Defender Td5 was introduced in 1998 as Land Rover's first electronic diesel engine for the Defender range, replacing the mechanically injected 300Tdi. It's a 2.5-litre five-cylinder diesel that was fitted to the 90, 110 and 130 body styles until around 2007, when production of the classic Defender ended. The Td5 brought improved refinement, better power delivery and electronic engine management to the Defender line, but its electronic components and injector system introduced new wear patterns that earlier mechanical diesels didn't share — most notably injector wear, crank sensor issues and head gasket failure, all of which we address as standard in our rebuilds."
+    ],
+    "boldParagraph": "We continue to rebuild and replace Td5 engines for every Defender Td5 on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Defender Td5 ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "Td5",
+        "codeRest": "",
+        "body": "A 2.5-litre five-cylinder diesel fitted to the Defender from 1998 to 2007 across the 90/110/130 range. Known for injector and crank sensor wear, and head gasket failure — see the callout above. We replace injectors, the head gasket, cooling system components and timing chain as standard on every Td5 rebuild.",
+        "cta": "Check Your Td5 Defender Td5",
+        "codeHref": "/landrover-td5-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Defender Td5 ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Td5 was factory-fitted across the entire Defender 90/110/130 range during its production run, and because it's the same engine code across all body styles, compatibility is straightforward once we've confirmed your specific model year. The key compatibility detail isn't which body style you have — it's whether your Defender genuinely has a Td5 rather than a 200Tdi or 300Tdi, since all three engines were offered across overlapping periods. We confirm your exact engine code via your registration or VIN before we quote or supply anything.",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "M47",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (Td5) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L663)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Defender Td5 ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "Classic 90/110/130",
+        "chassis": "Classic 90/110/130",
+        "years": "1998–2007",
+        "engineCode": "Td5",
+        "fuel": "Diesel",
+        "codeHref": "/landrover-td5-engine"
+      },
+      {
+        "generation": "L316",
+        "chassis": "L316",
+        "years": "1990–2016",
+        "engineCode": "Td5",
+        "fuel": "Diesel",
+        "codeHref": "/landrover-td5-engine"
+      }
+    ]
+  }
+}

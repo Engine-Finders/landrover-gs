@@ -1,0 +1,43 @@
+{
+  "headlinePre": "Land Rover Range Rover Sport Autobiography Dynamic",
+  "headlineHighlight": "Engine Rebuild Price",
+  "startingFromLabel": "Starting From",
+  "startingFromPrice": "£4,500",
+  "engineImage": "/variant/sec10_engine.webp",
+  "carImage": "/variant/landrover_car.webp",
+  "cards": [
+    {
+      "code": "SDV8",
+      "generation": "L494 (2013–2022)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "code": "AJ-V8",
+      "generation": "L494 (2013–2022)",
+      "price": "£5,500",
+      "codeHref": "/landrover-aj-v8-engine"
+    }
+  ],
+  "notes": [
+    {
+      "icon": "price",
+      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    }
+  ],
+  "cta": {
+    "icon": "car",
+    "label": "Get Your Fixed-Price Quote",
+    "href": "#quote-form"
+  },
+  "warning": {
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Range Rover Sport Autobiography Dynamic Known Issues by Engine ",
+    "titleHighlight": "",
+    "paragraphs": [
+      "SDV8 (Diesel, L494) If your Range Rover Sport Autobiography Dynamic has the SDV8 diesel — a 4.4-litre V8 fitted to L494-generation cars — it shares the same timing chain wear pattern as the TDV6 and SDV6 across the Range Rover range. We replace timing chain components, injector seals, and gaskets as standard on every SDV8 rebuild.",
+      "AJ-V8 Supercharged (Petrol, L494) If your Range Rover Sport Autobiography Dynamic has the supercharged AJ-V8 — a 5.0-litre V8 — timing chain wear and coolant system leaks are the established pattern for this engine family. We replace timing chains, valve seals and coolant components as standard on every AJ-V8 rebuild."
+    ],
+    "source": "Source: G-BRF. Both engine codes confirmed for Autobiography Dynamic trim per VRF"
+  }
+}

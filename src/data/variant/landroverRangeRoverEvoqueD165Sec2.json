@@ -2,12 +2,12 @@
   "headlinePre": "Your ",
   "headlineHighlight": "Land Rover Range Rover Evoque D165",
   "headlinePost": " Engine",
-  "image": "/variant/sec10_engine.webp",
+  "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover Evoque"
+      "value": "Land Rover Range Rover Evoque D165"
     },
     {
       "icon": "layers",
@@ -17,7 +17,7 @@
     {
       "icon": "sliders",
       "label": "Variant",
-      "value": "Evoque D165"
+      "value": "Range Rover Evoque D165"
     },
     {
       "icon": "fuel",

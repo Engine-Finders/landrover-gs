@@ -7,9 +7,22 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "",
-      "generation": "",
-      "price": "£2,200"
+      "code": "AJ200D (D200)",
+      "generation": "L663 (2019–present)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "code": "AJ200D (D240)",
+      "generation": "L663 (2019–2020)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj200d-engine"
+    },
+    {
+      "code": "AJ200P (P300)",
+      "generation": "L663 (2019–present)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj200p-engine"
     }
   ],
   "notes": [
@@ -24,13 +37,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Defender D200 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(engine I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Defender D200 Ingenium Timing Chain & DC-DC Converter Issues ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The engine is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older engine V6. We replace timing chains, bearings, water pump and gaskets as standard on every engine rebuild.",
-      "Because the Defender D200 uses a completely different engine family from the V8 M178 fitted to the Land Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Defender D200 is an L663 model with the AJ200D Ingenium diesel engine, two well-documented patterns apply. First, the Ingenium diesel family is known for timing chain wear and related component failure. We replace the timing chain, guides, and tensioners as standard on every AJ200D rebuild. Second, the D200's mild-hybrid system (MHEV) includes a DC-DC converter which is a single point of failure for the entire 12V electrical system. Failure of this component can cause a complete loss of electrical power. We inspect and replace the DC-DC converter if required as part of our MHEV service.",
+      "It's worth noting that the Defender P300 uses the same base 2.0-litre Ingenium engine but without the MHEV system, so it does not share this specific DC-DC converter issue."
     ],
-    "source": "Source: Established engine specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: verified via specialist buying guide (l663.guide) and established specialist pattern. The P300 is explicitly excluded from the MHEV-related DC-DC converter claim per VRF"
   }
 }

@@ -2,7 +2,7 @@
   "headlinePre": "Your ",
   "headlineHighlight": "Land Rover Discovery SDV8",
   "headlinePost": " Engine",
-  "image": "/variant/sec10_engine.webp",
+  "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
@@ -17,7 +17,7 @@
     {
       "icon": "sliders",
       "label": "Variant",
-      "value": "SDV8"
+      "value": "Discovery SDV8"
     },
     {
       "icon": "fuel",

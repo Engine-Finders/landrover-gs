@@ -39,7 +39,7 @@ export default function HomeSec12({ data }) {
         {/* right: the car photo, faded into the left text panel — object-cover so it fills the
             column at the row's natural (content-driven) height, matching bmw-garage's layout */}
         <div className="relative w-[40%] shrink-0 overflow-hidden">
-          <Image src={data.mobileImage} alt="Land Rover-AMG driving through London at night" fill className="object-cover" sizes="45vw" />
+          <Image src={data.mobileImage} alt="Land Rover Defender driving along a wet mountain road at sunset" fill className="object-cover" sizes="45vw" />
           <div className="absolute inset-0 bg-hero-dark/25" />
           <div className="absolute inset-y-0 left-0 w-2/5 bg-linear-to-r from-hero-dark via-hero-dark/70 to-transparent" />
         </div>
@@ -48,7 +48,7 @@ export default function HomeSec12({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden overflow-hidden md:block">
         <div className="absolute inset-0">
-          <Image src={data.bgImage} alt="Land Rover-AMG driving through London at night" fill quality={95} className="object-cover" sizes="100vw" />
+          <Image src={data.bgImage} alt="Land Rover Defender driving along a wet mountain road at sunset" fill quality={95} className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-linear-to-r from-hero-dark via-hero-dark/70 to-transparent" />
         </div>
 

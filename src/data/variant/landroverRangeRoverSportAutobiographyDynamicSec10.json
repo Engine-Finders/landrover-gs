@@ -1,0 +1,94 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Range Rover Sport Autobiography Dynamic ENGINE",
+    "paragraphs": [
+      "The Range Rover Sport Autobiography Dynamic was a premium trim level offered on the L494-generation Range Rover Sport from 2013 to 2022. Under the bonnet, it could be specified with either the SDV8 — a 4.4-litre V8 diesel — or the supercharged AJ-V8, a 5.0-litre V8 petrol. Both are high-performance engines that sit at the top of the Sport range, and both have their own established wear patterns that we address as standard during a rebuild. The Autobiography Dynamic trim is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+    ],
+    "boldParagraph": "We continue to rebuild and replace SDV8 or AJ-V8 engines for every Range Rover Sport Autobiography Dynamic on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Range Rover Sport Autobiography Dynamic ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "SDV8",
+        "codeRest": "(L494)",
+        "body": "A 4.4-litre V8 diesel fitted to the Range Rover Sport Autobiography Dynamic from 2013 to 2022. Shares the same timing chain wear pattern as the TDV6 and SDV6 across the Range Rover range. We replace timing chain components, injector seals, and gaskets as standard on every SDV8 rebuild.",
+        "cta": "Check Your SDV8 Range Rover Sport Autobiography Dynamic",
+        "codeHref": "/landrover-tdv8-sdv8-engine"
+      },
+      {
+        "codeHighlight": "AJ-V8 Supercharged",
+        "codeRest": "(L494)",
+        "body": "A 5.0-litre supercharged V8 petrol fitted to the Range Rover Sport Autobiography Dynamic from 2013 to 2022. Timing chain wear and coolant system leaks are the established pattern for this engine family. We replace timing chains, valve seals and coolant components as standard on every AJ-V8 rebuild.",
+        "cta": "Check Your AJ-V8 Supercharged Range Rover Sport Autobiography Dynamic",
+        "codeHref": "/landrover-aj-v8-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Range Rover Sport Autobiography Dynamic ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "Because the Autobiography Dynamic was offered with two distinct V8 engines, it's essential to confirm which one your car has before any work begins. Fitting the wrong replacement — or assuming an SDV8 part will work on an AJ-V8 car — risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "SDV8 or AJ-V8",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (SDV8 or AJ-V8) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L663)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Range Rover Sport Autobiography Dynamic ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L494",
+        "chassis": "L494",
+        "years": "2013–2022",
+        "engineCode": "SDV8",
+        "fuel": "Diesel",
+        "codeHref": "/landrover-tdv8-sdv8-engine"
+      },
+      {
+        "generation": "L494",
+        "chassis": "L494",
+        "years": "2013–2022",
+        "engineCode": "AJ-V8",
+        "fuel": "Petrol Supercharged",
+        "codeHref": "/landrover-aj-v8-engine"
+      }
+    ]
+  }
+}
