@@ -25,48 +25,48 @@
   "rows": [
     {
       "model": "Defender",
-      "variant": "P400",
+      "variant": "D200, D250, D300, D350",
       "generation": "L663",
       "chassis": "L663",
       "years": "2020–present",
-      "powertrain": "Petrol MHEV",
-      "modelHref": "/landrover-defender-engines"
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/defender-engines"
     },
     {
       "model": "Discovery",
-      "variant": "P360, P400",
+      "variant": "D250, D300, D350",
       "generation": "L462",
       "chassis": "L462",
-      "years": "2021–present",
-      "powertrain": "Petrol MHEV",
-      "modelHref": "/landrover-discovery-engines"
+      "years": "2020–present",
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/discovery-engines"
     },
     {
       "model": "Range Rover",
-      "variant": "P400, P440e, P460e, P550e",
+      "variant": "D250, D300, D350",
       "generation": "L460",
       "chassis": "L460",
       "years": "2022–present",
-      "powertrain": "Petrol MHEV/PHEV",
-      "modelHref": "/landrover-range-rover-engines"
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/models"
     },
     {
       "model": "Range Rover Sport",
-      "variant": "P400, P440e, P460e, P550e",
+      "variant": "D250, D300, D350",
       "generation": "L461",
       "chassis": "L461",
       "years": "2022–present",
-      "powertrain": "Petrol MHEV/PHEV",
-      "modelHref": "/landrover-range-rover-sport-engines"
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/range-rover-sport-engines"
     },
     {
       "model": "Range Rover Velar",
-      "variant": "P340, P400",
+      "variant": "D200, D250, D300",
       "generation": "L560",
       "chassis": "L560",
       "years": "2019–present",
-      "powertrain": "Petrol MHEV",
-      "modelHref": "/landrover-range-rover-velar-engines"
+      "powertrain": "Diesel MHEV",
+      "modelHref": "/range-rover-velar-engines"
     }
   ],
   "prompt": {

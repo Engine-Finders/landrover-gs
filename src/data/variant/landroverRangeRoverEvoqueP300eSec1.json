@@ -25,7 +25,7 @@
     },
     {
       "icon": "engine",
-      "label": "Ingenium Petrol & PHEV Specialists"
+      "label": "Ingenium Ingenium AJ200P + electric Specialists"
     }
   ],
   "priceCta": {
@@ -36,9 +36,9 @@
   "phoneCta": {
     "icon": "phone",
     "label": "Call Our Specialists:",
-    "phone": "01268 944 234",
+    "phone": "0203 488 4649",
     "href": "tel:02034884649"
   },
-  "image": "/variant/sec1.webp",
+  "image": "/variant/sec1.v2.webp",
   "imageMobile": "/variant/sec1_mobile.webp"
 }

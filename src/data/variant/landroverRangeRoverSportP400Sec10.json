@@ -17,9 +17,9 @@
       {
         "codeHighlight": "AJ300P",
         "codeRest": "",
-        "body": "A 3.0-litre inline-six petrol fitted to the Range Rover Sport P400 from 2022 to present (L461 generation). This is JLR's Ingenium petrol engine with mild-hybrid technology. No widely-documented specific known issue is confirmed for this variant — we still recommend a full inspection before any long journey. We replace timing chains, bearings and gaskets as standard on every AJ300P rebuild. Check Your AJ300P Range Rover Sport P400 → [link to quote form]",
+        "body": "A 3.0-litre inline-six petrol fitted to the Range Rover Sport P400 from 2022 to present (L461 generation). This is JLR's Ingenium petrol engine with mild-hybrid technology. No widely-documented specific known issue is confirmed for this variant — we still recommend a full inspection before any long journey. We replace timing chains, bearings and gaskets as standard on every AJ300P rebuild.",
         "cta": "Check Your AJ300P Range Rover Sport P400",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj300p-engine"
       }
     ]
   },
@@ -41,7 +41,7 @@
       },
       {
         "icon": "car",
-        "text": "Your generation (L461)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Range Rover Sport quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Sport P400 ",
@@ -71,7 +71,8 @@
         "chassis": "L461",
         "years": "2022–present",
         "engineCode": "AJ300P",
-        "fuel": "Petrol MHEV"
+        "fuel": "Petrol MHEV",
+        "codeHref": "/landrover-aj300p-engine"
       }
     ]
   }

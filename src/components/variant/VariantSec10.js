@@ -18,7 +18,7 @@ export default function VariantSec10({ data }) {
             <MobileSplitTitle titlePre={about.titlePre} titleHighlight={about.titleHighlight} stripeVariant="left" />
 
             <div className="relative -mx-4 mt-4 aspect-[1881/1144] w-screen overflow-hidden">
-              <Image src={about.imageMobile} alt="Land Rover AMG GT 53 engine and sedan" fill className="object-cover" sizes="100vw" />
+              <Image src={about.imageMobile} alt="Land Rover engine and vehicle" fill className="object-cover" sizes="100vw" />
               <div
                 className="pointer-events-none absolute inset-0"
                 style={{ background: "linear-gradient(to bottom, #fff 0%, transparent 15%, transparent 85%, #fff 100%)" }}
@@ -37,7 +37,7 @@ export default function VariantSec10({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden overflow-hidden md:block">
           <div className="absolute inset-0">
-            <Image src={about.image} alt="Land Rover AMG GT 53 engine and sedan" fill className="object-cover" sizes="100vw" />
+            <Image src={about.image} alt="Land Rover engine and vehicle" fill className="object-cover" sizes="100vw" />
             <div
               className="absolute inset-0"
               style={{ background: "linear-gradient(to right, #fff 0%, #fff 46%, rgba(255,255,255,0.9) 56%, rgba(255,255,255,0.35) 66%, transparent 76%)" }}
@@ -96,8 +96,10 @@ export default function VariantSec10({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
-            <div className="flex items-center gap-3">
-              <LandRoverStripe className="h-10 w-16 shrink-0" />
+            <div className="flex items-start gap-3">
+              <span className="h2 flex h-[1.05em] shrink-0 items-center" aria-hidden="true">
+                <LandRoverStripe className="h-[0.85em] w-[1.35em] shrink-0" />
+              </span>
               <h2 className="h2 uppercase">
                 <span className="text-white">{codes.titlePre}</span>
                 <span className="text-hero-blue">{codes.titleHighlight}</span>
@@ -125,7 +127,7 @@ export default function VariantSec10({ data }) {
                   <div className="relative flex w-52 shrink-0 items-center justify-center pr-10">
                     <div
                       className="pointer-events-none absolute inset-0"
-                      style={{ background: "radial-gradient(circle at center, rgba(173,135,92,0.22) 0%, transparent 70%)" }}
+                      style={{ background: "radial-gradient(circle at center, rgba(96,112,86,0.22) 0%, transparent 70%)" }}
                       aria-hidden="true"
                     />
                     <LandRoverLogo className="relative h-28 w-28" />
@@ -145,7 +147,7 @@ export default function VariantSec10({ data }) {
             <MobileSplitTitle titlePre={compatibility.titlePre} titleHighlight={compatibility.titleHighlight} stripeVariant="left" />
 
             <div className="relative -mx-4 mt-4 aspect-430/363 w-screen overflow-hidden">
-              <Image src={compatibility.imageMobile} alt="Land Rover touring in workshop" fill className="object-cover" sizes="100vw" />
+              <Image src={compatibility.imageMobile} alt="Land Rover Land Rover vehicle in workshop" fill className="object-cover" sizes="100vw" />
               <div
                 className="pointer-events-none absolute inset-0"
                 style={{ background: "linear-gradient(to bottom, #fff 0%, transparent 15%, transparent 85%, #fff 100%)" }}
@@ -170,15 +172,17 @@ export default function VariantSec10({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden overflow-hidden md:block">
           <div className="absolute inset-0">
-            <Image src={compatibility.image} alt="Land Rover touring in workshop" fill className="object-cover" sizes="100vw" />
+            <Image src={compatibility.image} alt="Land Rover Land Rover vehicle in workshop" fill className="object-cover" sizes="100vw" />
             <div
               className="absolute inset-0"
               style={{ background: "linear-gradient(to right, #fff 0%, #fff 48%, rgba(255,255,255,0.9) 60%, transparent 75%)" }}
             />
           </div>
           <div className="relative mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
-            <div className="flex items-center gap-3">
-              <LandRoverStripe className="h-10 w-16 shrink-0" />
+            <div className="flex items-start gap-3">
+              <span className="h2 flex h-[1.05em] shrink-0 items-center" aria-hidden="true">
+                <LandRoverStripe className="h-[0.85em] w-[1.35em] shrink-0" />
+              </span>
               <h2 className="h2 uppercase">
                 <span className="text-[#101828]">{compatibility.titlePre}</span>
                 <span className="text-hero-blue">{compatibility.titleHighlight}</span>

@@ -17,7 +17,13 @@ export default function ModelHeroSec1({ data }) {
         </div>
 
         <div className="relative px-4 pb-4 pt-4">
-          <div className="max-w-[85%]">
+          <div className="relative isolate max-w-[85%]">
+            {/* soft dark fade behind the copy — strongest around the text, fading out to nothing at the edges */}
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute -inset-x-5 -inset-y-4 -z-10"
+              style={{ background: "radial-gradient(ellipse 70% 90% at 20% 50%, rgba(13,13,13,0.34) 0%, rgba(13,13,13,0.16) 50%, rgba(13,13,13,0) 100%)" }}
+            />
             <div className="flex items-center gap-2">
               <LandRoverStripe className="h-4 w-8" />
               <p className="label-text uppercase tracking-widest text-white">{data.kicker}</p>
@@ -41,34 +47,42 @@ export default function ModelHeroSec1({ data }) {
             </div>
           </div>
 
-          {/* five-column feature breakdown */}
-          <div
-            className="glass-luminous card-glare relative mt-2.5 grid grid-cols-5 divide-x divide-white/15 rounded-xl px-1 py-2.5"
-            style={{ border: "1px solid rgba(173,135,92,0.45)" }}
-          >
-            {data.trustBar.map((t) => (
-              <div key={t.label} className="flex flex-col items-center gap-1 px-1 text-center">
-                <Icon name={t.icon} className="h-5 w-5 shrink-0 text-hero-blue" />
-                <p className="text-[8px] font-medium leading-tight text-white">{t.label}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* pricing callout banner */}
-          <a
-            href={data.priceCta.href}
-            className="glass-luminous card-glare relative mt-2.5 flex items-center divide-x divide-white/15 rounded-xl px-2 py-3"
-            style={{ border: "1px solid rgba(173,135,92,0.45)" }}
-          >
-            <div className="flex shrink-0 items-center gap-2 pr-2">
-              <Icon name={data.priceCta.icon} className="h-6 w-6 shrink-0 text-hero-blue" />
-              <div>
-                <p className="label-text whitespace-nowrap uppercase tracking-wide text-white">{data.priceCta.kicker}</p>
-                <p className="whitespace-nowrap text-lg font-extrabold text-white">{data.priceCta.price}</p>
-              </div>
+          {/* badge strip + price banner, on a soft dark fade so they stay legible over the photo */}
+          <div className="relative isolate">
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute -inset-x-5 -inset-y-4 -z-10"
+              style={{ background: "radial-gradient(ellipse 80% 100% at 30% 50%, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.14) 55%, rgba(13,13,13,0) 100%)" }}
+            />
+            {/* five-column feature breakdown */}
+            <div
+              className="glass-luminous card-glare relative mt-2.5 grid grid-cols-5 divide-x divide-white/15 rounded-xl px-1 py-2.5"
+              style={{ border: "1px solid rgba(96,112,86,0.45)" }}
+            >
+              {data.trustBar.map((t) => (
+                <div key={t.label} className="flex flex-col items-center gap-1 px-1 text-center">
+                  <Icon name={t.icon} className="h-5 w-5 shrink-0 text-hero-blue" />
+                  <p className="text-[8px] font-medium leading-tight text-white">{t.label}</p>
+                </div>
+              ))}
             </div>
-            <p className="min-w-0 flex-1 whitespace-nowrap pl-2 text-[10px] font-bold uppercase leading-tight text-hero-blue">{data.priceCta.label}</p>
-          </a>
+
+            {/* pricing callout banner */}
+            <a
+              href={data.priceCta.href}
+              className="glass-luminous card-glare relative mt-2.5 flex items-center divide-x divide-white/15 rounded-xl px-2 py-3"
+              style={{ border: "1px solid rgba(96,112,86,0.45)" }}
+            >
+              <div className="flex shrink-0 items-center gap-2 pr-2">
+                <Icon name={data.priceCta.icon} className="h-6 w-6 shrink-0 text-hero-blue" />
+                <div>
+                  <p className="label-text whitespace-nowrap uppercase tracking-wide text-white">{data.priceCta.kicker}</p>
+                  <p className="whitespace-nowrap text-lg font-extrabold text-white">{data.priceCta.price}</p>
+                </div>
+              </div>
+              <p className="min-w-0 flex-1 whitespace-nowrap pl-2 text-[10px] font-bold uppercase leading-tight text-hero-blue">{data.priceCta.label}</p>
+            </a>
+          </div>
 
           {/* registration lookup */}
           <div className="glass-card-dark mt-2.5 rounded-xl p-3">
@@ -92,7 +106,7 @@ export default function ModelHeroSec1({ data }) {
           <a
             href={data.phoneCta.href}
             className="glass-luminous card-glare relative mt-2.5 flex items-center gap-3 rounded-xl p-3"
-            style={{ border: "1px solid rgba(173,135,92,0.45)" }}
+            style={{ border: "1px solid rgba(96,112,86,0.45)" }}
           >
             <div
               className="pointer-events-none absolute bottom-0 right-0 h-full"
@@ -113,7 +127,7 @@ export default function ModelHeroSec1({ data }) {
           {/* trust footer */}
           <div
             className="glass-luminous card-glare relative mt-2.5 flex items-center justify-center gap-2 rounded-lg px-3 py-2"
-            style={{ border: "1px solid rgba(173,135,92,0.45)" }}
+            style={{ border: "1px solid rgba(96,112,86,0.45)" }}
           >
             <Icon name="shield-check" className="h-4 w-4 shrink-0 text-hero-blue" />
             <p className="label-text font-medium text-white">{data.trustFooter}</p>

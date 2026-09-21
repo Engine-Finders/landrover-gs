@@ -1,0 +1,82 @@
+{
+  "image": "/variant/sec11.v2.webp",
+  "titlePre": "Land Rover Evoque TD4 ENGINES ",
+  "titleHighlight": "BY YEAR",
+  "description": "Land Rover Evoque TD4 has used the Ford Duratorq throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "columns": [
+    {
+      "icon": "calendar",
+      "label": "Year"
+    },
+    {
+      "icon": "car",
+      "label": "Generation"
+    },
+    {
+      "icon": "gear",
+      "label": "Engine Code"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel"
+    },
+    {
+      "icon": "wrench",
+      "label": "Service"
+    }
+  ],
+  "rows": [
+    {
+      "year": "2011",
+      "generation": "L538",
+      "engineCode": "Ford Duratorq",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
+    },
+    {
+      "year": "2012",
+      "generation": "L538",
+      "engineCode": "Ford Duratorq",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
+    },
+    {
+      "year": "2013",
+      "generation": "L538",
+      "engineCode": "Ford Duratorq",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
+    },
+    {
+      "year": "2014",
+      "generation": "L538",
+      "engineCode": "Ford Duratorq",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
+    },
+    {
+      "year": "2015",
+      "generation": "L538",
+      "engineCode": "Ford Duratorq",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
+    },
+    {
+      "year": "2016",
+      "generation": "L538",
+      "engineCode": "Ford Duratorq",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
+    }
+  ],
+  "notice": {
+    "highlight": "The Ford Duratorq",
+    "rest": " has been fitted to every Evoque TD4 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
+  }
+}

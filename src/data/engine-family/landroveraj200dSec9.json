@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ200D",
     "titlePost": " ENGINE",
-    "body": "The AJ200D is a Inline-4 (I4), 2.0L (1,999 cc), Diesel engine used across Land Rover's 5 model range, in production 2015–present. We rebuild every AJ200D to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The AJ200D is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every AJ200D to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
   },
   "byModel": {
     "image": "/engine/sec9_middle.webp",
@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The AJ200D is fitted across Defender, Discovery, Discovery Sport, Range Rover Evoque, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "The AJ200D is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
     "lineup": [
       {
         "label": "Defender",
@@ -26,12 +26,12 @@
         "code": "L462"
       },
       {
-        "label": "Discovery Sport",
-        "code": "L550"
+        "label": "Range Rover",
+        "code": "L460"
       },
       {
-        "label": "Range Rover Evoque",
-        "code": "L551"
+        "label": "Range Rover Sport",
+        "code": "L461"
       },
       {
         "label": "Range Rover Velar",
@@ -57,7 +57,7 @@
       {
         "icon": "calendar",
         "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L550, L551, L560)."
+        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
       },
       {
         "icon": "gears",

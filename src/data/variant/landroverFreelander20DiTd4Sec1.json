@@ -1,6 +1,6 @@
 {
-  "kicker": "Land Rover Freelander 2.0 Di / Td4 Specialists",
-  "h1": "Land Rover Freelander 2.0 Di / Td4|Engine Rebuild —|From £1,900",
+  "kicker": "Land Rover Freelander 2.0 Di  Td4 Specialists",
+  "h1": "Land Rover Freelander 2.0 Di  Td4|Engine Rebuild —|From £1,900",
   "subhead": "Specialist Land Rover Freelander 2.0 Di / Td4 engine rebuilds and replacements, with registration-based engine matching, nationwide recovery and a 12-month unlimited-mileage warranty",
   "rating": {
     "stars": 5,
@@ -25,7 +25,7 @@
     },
     {
       "icon": "engine",
-      "label": "BMW M47 Diesel Specialists"
+      "label": "Ingenium L-Series (early Di) or BMW M47D20 (later Td4) Specialists"
     }
   ],
   "priceCta": {
@@ -36,9 +36,9 @@
   "phoneCta": {
     "icon": "phone",
     "label": "Call Our Specialists:",
-    "phone": "01268 944 234",
+    "phone": "0203 488 4649",
     "href": "tel:02034884649"
   },
-  "image": "/variant/sec1.webp",
+  "image": "/variant/sec1.v2.webp",
   "imageMobile": "/variant/sec1_mobile.webp"
 }

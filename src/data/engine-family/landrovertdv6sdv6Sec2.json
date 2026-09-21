@@ -1,6 +1,6 @@
 {
   "specs": {
-    "titlePre": "Land Rover TDV6/SDV6",
+    "titlePre": "Land Rover TDV6 SDV6",
     "titleHighlight": "Engine Specifications",
     "image": "/engine/sec2.webp",
     "imageMobile": "/engine/sec2_mobile.webp",
@@ -8,37 +8,37 @@
       {
         "icon": "code",
         "label": "Engine Code",
-        "value": "TDV6 / SDV6 (Ford Lion V6 / M57D30 family)"
+        "value": "TDV6 SDV6"
       },
       {
         "icon": "building",
         "label": "Manufacturer",
-        "value": "Ford / Land Rover (joint development)"
+        "value": "Jaguar Land Rover (Ingenium family)"
       },
       {
         "icon": "gear",
         "label": "Configuration",
-        "value": "V6 (60° angle)"
+        "value": "Inline-6 (I6)"
       },
       {
         "icon": "engine",
         "label": "Capacity",
-        "value": "3.0L (2,993 cc)"
+        "value": "3.0L (2,997 cc)"
       },
       {
         "icon": "oil",
         "label": "Fuel",
-        "value": "Diesel"
+        "value": "Diesel, Diesel MHEV"
       },
       {
         "icon": "calendar",
         "label": "Production Years",
-        "value": "2004–2019"
+        "value": "2019–present"
       },
       {
         "icon": "car",
         "label": "Used In",
-        "value": "3 Land Rover models"
+        "value": "5 Land Rover models"
       }
     ],
     "prompt": {
@@ -50,13 +50,13 @@
     }
   },
   "price": {
-    "titlePre": "Land Rover TDV6/SDV6",
+    "titlePre": "Land Rover TDV6 SDV6",
     "titleHighlight": "Engine Rebuild Price",
     "image": "/engine/sec2_bottom.webp",
     "imageMobile": "/engine/sec2_bottom_mobile.webp",
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200",
-    "body": "All TDV6/SDV6 applications use the same 2.0-litre Land Rover four-cylinder engine, so the price tier is consistent across every model it's fitted to. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
+    "startingFromPrice": "£2,400",
+    "body": "All TDV6 SDV6 applications use the same 2.0-litre Land Rover four-cylinder engine, so the price tier is consistent across every model it's fitted to. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
     "cta": {
       "label": "Get Your Fixed-Price Quote →",
       "href": "#quote-form"

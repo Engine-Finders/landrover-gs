@@ -14,29 +14,33 @@
       "family": "Rover K-Series",
       "fuel": "Petrol I4",
       "size": "1.8L",
-      "chassis": "",
-      "range": "L314"
+      "chassis": "L314",
+      "range": "£1,900 – £2,600",
+      "familyHref": "/landrover-rover-k-series-engine"
     },
     {
       "family": "BMW M47D20",
       "fuel": "Diesel I4",
       "size": "2.0L",
-      "chassis": "",
-      "range": "L314 / L359"
+      "chassis": "L314 / L359",
+      "range": "£1,900 – £2,700",
+      "familyHref": "/landrover-m47d20-bmw-sourced-engine"
     },
     {
       "family": "Ford Duratorq",
       "fuel": "Diesel I4",
       "size": "2.2L",
-      "chassis": "",
-      "range": "L359 (eD4/SD4)"
+      "chassis": "L359 (eD4/SD4)",
+      "range": "£1,900 – £2,700",
+      "familyHref": "/landrover-ford-duratorq-engine"
     },
     {
       "family": "Ford EcoBoost",
       "fuel": "Petrol I4",
       "size": "2.0L",
-      "chassis": "",
-      "range": "L359 (Si4)"
+      "chassis": "L359 (Si4)",
+      "range": "£1,900 – £2,600",
+      "familyHref": "/landrover-ford-ecoboost-engine"
     }
   ],
   "features": [

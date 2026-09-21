@@ -8,37 +8,48 @@
   "tabVariants": [
     [
       {
-        "label": "Range Rover Velar D180"
+        "label": "Range Rover Velar D180",
+        "href": "/landrover-range-rover-velar-d180-engines"
       },
       {
-        "label": "Range Rover Velar D200"
+        "label": "Range Rover Velar D200",
+        "href": "/landrover-range-rover-velar-d200-engines"
       },
       {
-        "label": "Range Rover Velar D240"
+        "label": "Range Rover Velar D240",
+        "href": "/landrover-range-rover-velar-d240-engines"
       },
       {
-        "label": "Range Rover Velar D250"
+        "label": "Range Rover Velar D250",
+        "href": "/landrover-range-rover-velar-d250-engines"
       },
       {
-        "label": "Range Rover Velar D300"
+        "label": "Range Rover Velar D300",
+        "href": "/landrover-velar-d300-engines"
       },
       {
-        "label": "Range Rover Velar P250"
+        "label": "Range Rover Velar P250",
+        "href": "/landrover-range-rover-velar-p250-engines"
       },
       {
-        "label": "Range Rover Velar P300"
+        "label": "Range Rover Velar P300",
+        "href": "/landrover-velar-p300-engines"
       },
       {
-        "label": "Range Rover Velar P340"
+        "label": "Range Rover Velar P340",
+        "href": "/landrover-range-rover-velar-p340-engines"
       },
       {
-        "label": "Range Rover Velar P400"
+        "label": "Range Rover Velar P400",
+        "href": "/landrover-range-rover-velar-p400-engines"
       },
       {
-        "label": "Range Rover Velar P400e"
+        "label": "Range Rover Velar P400e",
+        "href": "/landrover-velar-p400e-engines"
       },
       {
-        "label": "Range Rover Velar SVAutobiography Dynamic Edition"
+        "label": "Range Rover Velar SVAutobiography Dynamic Edition",
+        "href": "/landrover-range-rover-velar-svautobiography-dynamic-edition-engines"
       }
     ]
   ],

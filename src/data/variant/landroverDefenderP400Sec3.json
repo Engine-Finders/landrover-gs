@@ -9,7 +9,8 @@
     {
       "code": "AJ300P",
       "generation": "L663 (2019–present)",
-      "price": "£2,800"
+      "price": "£2,800",
+      "codeHref": "/landrover-aj300p-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Defender P400 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(AJ300P I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Defender P400 DC-DC Converter Failure ",
+    "titleHighlight": "(MHEV)",
     "paragraphs": [
-      "The AJ300P is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older AJ300P V6. We replace timing chains, bearings, water pump and gaskets as standard on every AJ300P rebuild.",
-      "Because the Defender P400 uses a completely different engine family from the V8 M178 fitted to the Defender 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Defender P400 is a mild-hybrid model — which all P400s are — the DC-DC converter is a known single point of failure for the entire 12V electrical system. Failure can cause complete loss of electrical power, sometimes while driving. We replace the DC-DC converter as standard on every P400 rebuild, along with timing chains, bearings and gaskets.",
+      "The P300 Defender (non-MHEV petrol) is NOT affected by this issue, as it doesn't use the same mild-hybrid system."
     ],
-    "source": "Source: Established AJ300P specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: verified via specialist buying guide (l663.guide), independently corroborated, per VRF-landrover-defender.md. P300 explicitly excluded from this claim per VRF"
   }
 }

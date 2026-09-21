@@ -16,7 +16,7 @@ export default function HomeSec4_5({ data }) {
             the footer down to the photo's bottom edge instead of collapsing to content height */}
         <div className="relative w-full" style={{ aspectRatio: "819 / 1900" }}>
           <div className="absolute inset-0">
-            <Image src={data.mobileImage} alt="Land Rover-AMG driving through London at dusk" fill className="object-cover" sizes="100vw" />
+            <Image src={data.mobileImage} alt="Land Rover Defender driving along a wet mountain road under a stormy sky" fill className="object-cover" sizes="100vw" />
             <div className="absolute inset-0 bg-hero-dark/35" />
             {/* solid black behind the whole top text block for legibility over the busy photo */}
             <div className="absolute inset-x-0 top-0 h-[58%] bg-linear-to-b from-black via-black to-transparent" />
@@ -68,7 +68,7 @@ export default function HomeSec4_5({ data }) {
 
             <a
               href={data.cta.href}
-              className="mx-auto mt-3 block w-fit whitespace-nowrap rounded-sm border-2 border-hero-blue bg-hero-blue btn-text px-8 py-3 text-center uppercase text-white shadow-[0_0_20px_rgba(173,135,92,0.4)] transition-colors hover:bg-transparent hover:text-hero-blue"
+              className="mx-auto mt-3 block w-fit whitespace-nowrap rounded-sm border-2 border-hero-blue bg-hero-blue btn-text px-8 py-3 text-center uppercase text-white shadow-[0_0_20px_rgba(96,112,86,0.4)] transition-colors hover:bg-transparent hover:text-hero-blue"
             >
               {data.cta.label} →
             </a>
@@ -88,7 +88,7 @@ export default function HomeSec4_5({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden md:block">
         <div className="absolute inset-0">
-          <Image src={data.bgImage} alt="Land Rover-AMG driving through London at dusk" fill quality={95} className="object-cover" sizes="100vw" />
+          <Image src={data.bgImage} alt="Land Rover Defender driving along a wet mountain road under a stormy sky" fill quality={95} className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-hero-dark/45" />
           <div className="absolute inset-0 bg-linear-to-t from-hero-dark via-transparent to-hero-dark/30" />
         </div>

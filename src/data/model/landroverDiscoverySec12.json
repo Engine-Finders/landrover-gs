@@ -24,62 +24,62 @@
   ],
   "cards": [
     {
-      "model": "Land Rover C220d",
+      "model": "Discovery Tdi",
       "icon": "truck",
       "tag": "Recovery"
     },
     {
-      "model": "Land Rover C300d",
+      "model": "Discovery Td5",
       "icon": "search",
       "tag": "Diagnostics"
     },
     {
-      "model": "Land Rover C200",
+      "model": "Discovery V8 (3.9/4.0)",
       "icon": "gear",
       "tag": "Stripped Engine"
     },
     {
-      "model": "Land Rover C63 Land Rover",
+      "model": "Discovery TDV6",
       "icon": "chain",
       "tag": "Timing Chain Replacement"
     },
     {
-      "model": "Land Rover C180",
+      "model": "Discovery TDV8",
       "icon": "wrench",
       "tag": "In For Rebuild"
     },
     {
-      "model": "Land Rover C250d",
+      "model": "Discovery SDV6",
       "icon": "gear",
       "tag": "Rebuild In Progress"
     },
     {
-      "model": "Land Rover C220d",
+      "model": "Discovery SDV8",
       "icon": "truck",
       "tag": "Nationwide Recovery"
     },
     {
-      "model": "Land Rover C300",
+      "model": "Discovery HSE",
       "icon": "gear",
       "tag": "Engine Stripped"
     },
     {
-      "model": "Land Rover C350",
+      "model": "Discovery Si6",
       "icon": "tech",
       "tag": "Testing & Checks"
     },
     {
-      "model": "Land Rover C43 Land Rover",
+      "model": "Discovery D250",
       "icon": "check",
       "tag": "Ready For Collection"
     },
     {
-      "model": "Land Rover C63 Land Rover",
+      "model": "Discovery D300",
       "icon": "gear",
-      "tag": "M156 Rebuild"
+      "tag": "Engine Rebuild"
     },
     {
-      "model": "Land Rover C250",
+      "model": "Discovery D350",
       "icon": "wrench",
       "tag": "Workshop Bay"
     }

@@ -10,7 +10,7 @@ export default function HomeSec1({ hero, lookup }) {
       <div className="md:hidden">
         <div className="relative w-full">
           <div className="absolute inset-0 overflow-hidden">
-            <Image src={hero.mobileImage} alt="Land Rover engine rebuild workshop" fill priority quality={95} className="object-cover" sizes="100vw" />
+            <Image src={hero.mobileImage} alt="Land Rover technician working on an engine block beneath a Defender on a workshop lift" fill priority quality={95} className="object-cover" sizes="100vw" />
             <div className="absolute inset-0 bg-linear-to-b from-hero-dark/75 via-hero-dark/15 to-hero-dark" />
             <div className="absolute inset-0 bg-linear-to-r from-hero-dark/60 via-transparent to-transparent" />
             <div className="absolute inset-x-0 top-0 h-2/3 bg-linear-to-b from-black/70 via-black/35 to-transparent" />
@@ -86,7 +86,7 @@ export default function HomeSec1({ hero, lookup }) {
             card below can bleed past its bottom edge */}
         <div className="relative">
           <div className="absolute inset-0 overflow-hidden">
-            <Image src={hero.image} alt="Land Rover engine rebuild workshop" fill priority quality={95} className="object-cover" sizes="100vw" />
+            <Image src={hero.image} alt="Land Rover technician working on an engine block beneath a Defender on a workshop lift" fill priority quality={95} className="object-cover" sizes="100vw" />
             <div className="absolute inset-0 bg-linear-to-r from-hero-dark via-hero-dark/55 to-transparent" />
             <div className="absolute inset-0 bg-linear-to-t from-hero-dark via-transparent to-transparent" />
           </div>

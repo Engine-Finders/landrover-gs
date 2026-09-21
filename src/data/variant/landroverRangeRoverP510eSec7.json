@@ -1,6 +1,6 @@
 {
   "reviews": {
-    "titlePre": "WHAT MERCEDES ",
+    "titlePre": "WHAT LAND ROVER ",
     "titleHighlight": "Range Rover P510e OWNERS SAY",
     "items": [
       {
@@ -12,7 +12,7 @@
       {
         "name": "Mark T.",
         "platform": "trustpilot",
-        "text": "They rebuilt my engine with all the updated parts. Smooth process and great communication throughout.",
+        "text": "They rebuilt my AJ300P (3.0L I6 + 105kW electric motor) with all the updated parts. Smooth process and great communication throughout.",
         "tag": "Land Rover Range Rover P510e Engine Rebuild"
       },
       {
@@ -47,8 +47,8 @@
     "icon": "car",
     "titlePre": "WE COVER YOUR",
     "titleHighlight": "EXACT VEHICLE",
-    "body": "Enter your registration below and we'll confirm your Land Rover Range Rover P510e has the right engine, along with an exact rebuild price.",
-    "image": "/variant/sec7.webp",
+    "body": "Enter your registration below and we'll confirm your Land Rover Range Rover P510e has the AJ300P (3.0L I6 + 105kW electric motor), along with an exact rebuild price.",
+    "image": "/variant/sec7.v2.webp",
     "buttonLabel": "Check Fit",
     "ticks": [
       "Fast",
@@ -57,10 +57,10 @@
     ]
   },
   "whyChoose": {
-    "titlePre": "WHY MERCEDES Range Rover P510e ",
+    "titlePre": "WHY LAND ROVER Range Rover P510e ",
     "titleHighlight": "OWNERS CHOOSE US",
     "items": [
-      "Engine matched using VIN or registration number",
+      "Engine matched using VIN or registration number — confirms your exact AJ300P PHEV spec before you're quoted",
       "Genuine specialist workshop — not a broker",
       "Specialist technicians with 10-15 years of experience",
       "We don't swap your engine for an unknown used unit",
@@ -68,7 +68,7 @@
       "12 month unlimited-mileage warranty",
       "All engine ancillaries serviced as part of the rebuild",
       "Trade & public enquiries welcome",
-      "Dedicated advisor from quote to fit"
+      "Dedicated advisor from quote to fit No widely-reported engine issue for this variant — we still recommend a full inspection before any long journey. --- ## Our Most Recent Range Rover Recoveries & Rebuilds `RECENT JOBS GALLERY — 10-12 image cards, reused portfolio across all Range Rover pages, not dated claims`"
     ]
   }
 }

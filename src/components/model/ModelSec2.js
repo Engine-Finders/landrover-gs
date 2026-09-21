@@ -29,7 +29,7 @@ export default function ModelSec2({ data }) {
     <section className="theme-light relative overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
-        <div className="relative bg-(--color-light-surface) px-4 pb-0 pt-8">
+        <div className="relative z-10 bg-(--color-light-surface) px-4 pb-0 pt-8">
           <div className="flex items-center gap-2">
             <Icon name="warning" className="h-4 w-4 shrink-0 text-hero-blue" />
             <p className="label-text uppercase tracking-widest text-[#101828]">{data.kicker}</p>
@@ -54,9 +54,14 @@ export default function ModelSec2({ data }) {
         <div className="relative mt-2 h-56 w-full overflow-hidden">
           <div className="absolute inset-0" style={{ clipPath: "polygon(0 10%, 100% -14%, 100% 100%, 0% 100%)" }}>
             <div className="absolute inset-0" style={{ transform: "scale(2.3)", transformOrigin: "88% 45%" }}>
-              <Image src={data.image} alt="Land Rover OM651 timing chain assembly" fill className="object-cover" style={{ objectPosition: "88% 45%" }} sizes="100vw" />
+              <Image src={data.image} alt="Classic Land Rover diesel engine with exposed timing belt and camshaft pulleys on an engine stand" fill className="object-cover" style={{ objectPosition: "88% 45%" }} sizes="100vw" />
             </div>
           </div>
+          <div
+            className="pointer-events-none absolute inset-x-0 top-0 h-2/3"
+            style={{ background: "linear-gradient(to bottom, color-mix(in srgb, var(--color-light-surface) 80%, transparent) 0%, color-mix(in srgb, var(--color-light-surface) 45%, transparent) 45%, transparent 100%)" }}
+            aria-hidden="true"
+          />
           <div
             className="pointer-events-none absolute inset-0"
             style={{ boxShadow: "inset 0 0 32px 18px var(--color-light-surface), inset 0 -20px 24px -4px var(--color-light-surface)" }}
@@ -70,7 +75,7 @@ export default function ModelSec2({ data }) {
               background: "var(--color-hero-gold)",
               transform: "rotate(-8deg) scaleX(1.02)",
               transformOrigin: "left center",
-              boxShadow: "0 0 8px rgba(173,135,92,0.55)",
+              boxShadow: "0 0 8px rgba(96,112,86,0.55)",
             }}
             aria-hidden="true"
           />
@@ -105,10 +110,15 @@ export default function ModelSec2({ data }) {
               the reference exactly — sized to the photo's own aspect ratio so there's no dead
               space below the text, text sits directly on it with no extra frosted panel */}
           <div className="relative min-h-[25rem] w-full lg:min-h-[28rem]">
-            <Image src={data.image} alt="Land Rover OM651 timing chain assembly" fill className="object-cover" sizes="1152px" />
+            <Image src={data.image} alt="Classic Land Rover diesel engine with exposed timing belt and camshaft pulleys on an engine stand" fill className="object-cover" sizes="1152px" />
 
             <div className="relative flex flex-col px-8 pb-8 pt-8 lg:px-10 lg:pb-10 lg:pt-10">
-              <div className="max-w-[46%]">
+              <div className="relative isolate max-w-[46%]">
+                <div
+                  className="pointer-events-none absolute -inset-x-10 -inset-y-8 -z-10"
+                  style={{ background: "radial-gradient(ellipse 75% 70% at 42% 48%, color-mix(in srgb, var(--theme-light-bg) 88%, transparent) 0%, color-mix(in srgb, var(--theme-light-bg) 65%, transparent) 50%, transparent 100%)" }}
+                  aria-hidden="true"
+                />
                 <div className="flex items-center gap-2">
                   <Icon name="warning" className="h-4 w-4 shrink-0 text-hero-blue" />
                   <p className="label-text uppercase tracking-widest text-[#101828]">{data.kicker}</p>

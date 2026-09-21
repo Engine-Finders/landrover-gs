@@ -9,7 +9,8 @@
     {
       "code": "AJ300P (Ingenium 3.0L I6)",
       "generation": "D5/L462 (2017–present)",
-      "price": "£2,800"
+      "price": "£2,800",
+      "codeHref": "/landrover-aj300p-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery P400 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(AJ300P (Ingenium 3.0L I6) I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery P400 Known Issues by Engine ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The AJ300P (Ingenium 3.0L I6) is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older AJ300P (Ingenium 3.0L I6) V6. We replace timing chains, bearings, water pump and gaskets as standard on every AJ300P (Ingenium 3.0L I6) rebuild.",
-      "Because the Discovery P400 uses a completely different engine family from the V8 M178 fitted to the Discovery 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Discovery P400 has the AJ300P (Ingenium 3.0L I6) (L663 generation):",
+      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ300P (Ingenium 3.0L I6) rebuild."
     ],
-    "source": "Source: Established AJ300P (Ingenium 3.0L I6) specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
   }
 }

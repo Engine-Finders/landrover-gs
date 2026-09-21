@@ -28,12 +28,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover P400 ENGINE SIZES",
+        "title": "LAND ROVER Range Rover P400 ENGINE SIZES",
         "item": "Land Rover Range Rover P400 3.0 Litre Engine (AJ300P, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover P400 FUEL TYPES",
+        "title": "LAND ROVER Range Rover P400 FUEL TYPES",
         "item": "Land Rover Range Rover P400 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -50,8 +50,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover SDV6 Engine",
+        "href": "/landrover-range-rover-sdv6-engines"
+      },
+      {
+        "label": "Land Rover Range Rover TDV8 Engine",
+        "href": "/landrover-range-rover-tdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover SDV8 Engine",
+        "href": "/landrover-range-rover-sdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover D300/D350 Engine",
+        "href": "/landrover-range-rover-d300-d350-engines"
+      },
+      {
+        "label": "Land Rover Range Rover P530 Engine",
+        "href": "/landrover-range-rover-p530-engines"
+      },
+      {
+        "label": "Land Rover Range Rover SV/P615 Engine",
+        "href": "/landrover-range-rover-sv-p615-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/models"
   }
 }

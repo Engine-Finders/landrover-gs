@@ -2,12 +2,12 @@
   "headlinePre": "Your ",
   "headlineHighlight": "Land Rover Range Rover Sport P400",
   "headlinePost": " Engine",
-  "image": "/variant/sec10_engine.webp",
+  "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Range Rover Sport P400"
+      "value": "Land Rover Range Rover Sport P400"
     },
     {
       "icon": "layers",
@@ -17,7 +17,7 @@
     {
       "icon": "sliders",
       "label": "Variant",
-      "value": "P400"
+      "value": "Range Rover Sport P400"
     },
     {
       "icon": "fuel",

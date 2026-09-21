@@ -1,7 +1,6 @@
 {
   "h2": "Follow One|Land Rover|Through The Entire Rebuild",
   "bgImage": "/home/sec8.webp",
-  "mobileImage": "/home/sec8_mobile.webp",
   "highlights": [
     { "label": "Every rebuild is documented.", "icon": "camera" },
     { "label": "Every component is inspected.", "icon": "search" },

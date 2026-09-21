@@ -39,12 +39,12 @@ export default function ModelSec17({ data }) {
                 onClick={() => setActiveTab(i)}
                 className="relative flex flex-col items-center gap-1 rounded-md px-1 py-2.5 text-center"
                 style={{
-                  background: "linear-gradient(135deg, rgba(58,44,26,0.95) 0%, rgba(15,11,7,1) 100%)",
-                  border: "1.5px solid rgba(217,189,140,0.8)",
-                  boxShadow: "inset 0 1px 0 rgba(255,255,255,0.9), 0 0 20px rgba(173,135,92,0.5)",
+                  background: "linear-gradient(135deg, rgba(38,46,34,0.95) 0%, rgba(10,12,9,1) 100%)",
+                  border: "1.5px solid rgba(143,160,131,0.8)",
+                  boxShadow: "inset 0 1px 0 rgba(255,255,255,0.9), 0 0 20px rgba(96,112,86,0.5)",
                 }}
               >
-                <Icon name="car" className="h-5 w-5 shrink-0 text-hero-blue" />
+                <Icon name="car" className="h-5 w-5 shrink-0 text-[#607056]" />
                 <span className="label-text font-bold leading-tight text-white">{tab}</span>
               </button>
             ) : (
@@ -65,8 +65,8 @@ export default function ModelSec17({ data }) {
         <div
           className="relative mt-0 rounded-lg p-4"
           style={{
-            background: "linear-gradient(135deg, #1a140c 0%, #0d0a06 100%)",
-            boxShadow: "0 0 0 1px rgba(173,135,92,0.35), 0 25px 60px -25px rgba(173,135,92,0.4)",
+            background: "linear-gradient(135deg, #161a14 0%, #0b0d0a 100%)",
+            boxShadow: "0 0 0 1px rgba(96,112,86,0.35), 0 25px 60px -25px rgba(96,112,86,0.4)",
           }}
         >
           <div className="grid grid-cols-4 gap-2">
@@ -111,14 +111,14 @@ export default function ModelSec17({ data }) {
             href={data.priceCta.href}
             className="relative flex items-center gap-4 rounded-lg p-5"
             style={{
-              background: "linear-gradient(135deg, #1a140c 0%, #0d0a06 100%)",
-              border: "1px solid rgba(173,135,92,0.4)",
-              boxShadow: "0 0 30px -8px rgba(173,135,92,0.6)",
+              background: "linear-gradient(135deg, #161a14 0%, #0b0d0a 100%)",
+              border: "1px solid rgba(96,112,86,0.4)",
+              boxShadow: "0 0 30px -8px rgba(96,112,86,0.6)",
             }}
           >
             <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 overflow-hidden rounded-r-lg">
               <Image src={data.priceCta.image} alt="" fill className="object-cover" sizes="25vw" />
-              <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, #1a140c 0%, transparent 70%)" }} />
+              <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, #161a14 0%, transparent 70%)" }} />
             </div>
 
             <span className="relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-2 border-hero-blue text-base text-hero-blue">
@@ -154,15 +154,15 @@ export default function ModelSec17({ data }) {
                 onClick={() => setActiveTab(i)}
                 className="relative z-10 flex h-14 w-82.5 items-center gap-3 pl-6 pr-4 text-sm font-bold text-white"
                 style={{
-                  background: "linear-gradient(135deg, rgba(58,44,26,0.95) 0%, rgba(15,11,7,1) 100%)",
+                  background: "linear-gradient(135deg, rgba(38,46,34,0.95) 0%, rgba(10,12,9,1) 100%)",
                   clipPath:
                     "path('M16,0 H284 Q300,0 300,16 V32 C300,46 310,56 326,56 H0 V16 Q0,0 16,0 Z')",
-                  border: "1.5px solid rgba(217,189,140,0.8)",
+                  border: "1.5px solid rgba(143,160,131,0.8)",
                   borderBottom: "none",
-                  boxShadow: "inset 0 1px 0 rgba(255,255,255,0.9), 0 0 20px rgba(173,135,92,0.5)",
+                  boxShadow: "inset 0 1px 0 rgba(255,255,255,0.9), 0 0 20px rgba(96,112,86,0.5)",
                 }}
               >
-                <Icon name="car" className="h-6 w-6 shrink-0 text-hero-blue" />
+                <Icon name="car" className="h-6 w-6 shrink-0 text-[#607056]" />
                 {tab}
               </button>
             ) : (
@@ -185,8 +185,8 @@ export default function ModelSec17({ data }) {
         <div
           className="relative rounded-2xl rounded-tl-none p-6"
           style={{
-            background: "linear-gradient(135deg, #1a140c 0%, #0d0a06 100%)",
-            boxShadow: "0 0 0 1px rgba(173,135,92,0.35), 0 25px 60px -25px rgba(173,135,92,0.4)",
+            background: "linear-gradient(135deg, #161a14 0%, #0b0d0a 100%)",
+            boxShadow: "0 0 0 1px rgba(96,112,86,0.35), 0 25px 60px -25px rgba(96,112,86,0.4)",
           }}
         >
           <div className="flex flex-wrap gap-3">
@@ -231,16 +231,16 @@ export default function ModelSec17({ data }) {
             href={data.priceCta.href}
             className="relative flex items-center gap-4 rounded-2xl p-6"
             style={{
-              background: "linear-gradient(135deg, #1a140c 0%, #0d0a06 100%)",
-              border: "1px solid rgba(173,135,92,0.4)",
-              boxShadow: "0 0 30px -8px rgba(173,135,92,0.6)",
+              background: "linear-gradient(135deg, #161a14 0%, #0b0d0a 100%)",
+              border: "1px solid rgba(96,112,86,0.4)",
+              boxShadow: "0 0 30px -8px rgba(96,112,86,0.6)",
             }}
           >
             <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 overflow-hidden rounded-2xl opacity-40">
               <Image src={data.priceCta.image} alt="" fill className="object-cover" sizes="33vw" />
               <div
                 className="absolute inset-0"
-                style={{ background: "linear-gradient(90deg, #1a140c 0%, transparent 60%)" }}
+                style={{ background: "linear-gradient(90deg, #161a14 0%, transparent 60%)" }}
               />
             </div>
 

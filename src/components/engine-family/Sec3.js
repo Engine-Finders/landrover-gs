@@ -18,7 +18,7 @@ export default function Sec3({ data }) {
           <div className="no-scrollbar -mx-4 mt-5 overflow-x-auto px-4">
             <div
               className="relative min-w-[780px] overflow-hidden rounded-xl"
-              style={{ background: "rgba(13,13,13,0.96)", border: "1px solid rgba(173,135,92,0.35)" }}
+              style={{ background: "rgba(13,13,13,0.96)", border: "1px solid rgba(96,112,86,0.35)" }}
             >
               <div className={`grid ${GRID_COLS} divide-x divide-white/10 border-b border-white/10`}>
                 {data.columns.map((c) => (
@@ -80,7 +80,7 @@ export default function Sec3({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden overflow-hidden md:block">
         <div className="absolute inset-0">
-          <Image src={data.image} alt="the engine engine" fill className="object-cover" sizes="100vw" />
+          <Image src={data.image} alt="Land Rover engine" fill className="object-cover" sizes="100vw" />
         </div>
 
         <div className="relative mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
@@ -96,8 +96,8 @@ export default function Sec3({ data }) {
             className="mt-6 max-w-4xl overflow-hidden rounded-2xl"
             style={{
               background: "rgba(13,13,13,0.96)",
-              border: "1px solid rgba(173,135,92,0.35)",
-              boxShadow: "0 25px 60px -30px rgba(173,135,92,0.5)",
+              border: "1px solid rgba(96,112,86,0.35)",
+              boxShadow: "0 25px 60px -30px rgba(96,112,86,0.5)",
             }}
           >
             <div className="relative divide-y divide-white/10">

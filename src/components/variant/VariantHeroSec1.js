@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
+import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 import RegLookupForm from "@/components/reusable/RegLookupForm";
 
 export default function VariantHeroSec1({ data }) {
@@ -13,7 +13,7 @@ export default function VariantHeroSec1({ data }) {
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
         <div className="absolute inset-0">
-          <Image src={data.imageMobile} alt="Land Rover technician rebuilding a AMG GT 53 engine block" fill priority className="object-cover object-[65%_18%]" sizes="100vw" />
+          <Image src={data.imageMobile} alt="Land Rover technician rebuilding an engine block" fill priority className="object-cover object-[65%_18%]" sizes="100vw" />
           <div className="absolute inset-0 bg-linear-to-b from-transparent via-hero-dark/10 to-hero-dark" />
           <div
             className="absolute inset-0"
@@ -22,7 +22,7 @@ export default function VariantHeroSec1({ data }) {
         </div>
 
         <div className="relative px-4 pb-4 pt-3">
-          <LandRoverLogo className="h-9 w-9" />
+          <LandRoverStripe className="h-5 w-10" />
 
           <h1 className="h1 origin-left scale-y-110 scale-x-90 mt-1.5 uppercase">
             <span className="block whitespace-nowrap text-white">{line1}</span>
@@ -68,7 +68,7 @@ export default function VariantHeroSec1({ data }) {
                 background: "linear-gradient(135deg, rgba(24,19,12,0.75) 0%, rgba(12,10,6,0.85) 100%)",
                 backdropFilter: "blur(16px)",
                 WebkitBackdropFilter: "blur(16px)",
-                border: "1px solid rgba(173,135,92,0.45)",
+                border: "1px solid rgba(96,112,86,0.45)",
               }}
             >
               <p className="text-[10px] leading-tight font-medium text-white">{data.priceCta.kicker}</p>
@@ -78,7 +78,7 @@ export default function VariantHeroSec1({ data }) {
             <a
               href={data.phoneCta.href}
               className="glass-luminous card-glare relative flex min-w-0 items-center gap-2.5 overflow-hidden rounded-xl px-3 py-3 transition-transform hover:scale-[1.02]"
-              style={{ border: "1px solid rgba(173,135,92,0.45)" }}
+              style={{ border: "1px solid rgba(96,112,86,0.45)" }}
             >
               <span className="relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-hero-blue">
                 <Icon name={data.phoneCta.icon} className="h-4.5 w-4.5 text-white" />
@@ -100,7 +100,7 @@ export default function VariantHeroSec1({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden overflow-hidden md:block">
         <div className="absolute inset-0">
-          <Image src={data.image} alt="Land Rover technician rebuilding a AMG GT 53 engine block" fill priority className="object-cover" sizes="100vw" />
+          <Image src={data.image} alt="Land Rover technician rebuilding an engine block" fill priority className="object-cover" sizes="100vw" />
         </div>
 
         <div
@@ -110,14 +110,14 @@ export default function VariantHeroSec1({ data }) {
             width: "6px",
             background: "linear-gradient(180deg, var(--color-bmw-blue), var(--color-bmw-red))",
             transform: "skewX(-12deg)",
-            boxShadow: "0 0 24px 4px rgba(173,135,92,0.55)",
+            boxShadow: "0 0 24px 4px rgba(96,112,86,0.55)",
           }}
           aria-hidden="true"
         />
 
         <div className="relative mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
           <div className="max-w-2xl">
-            <LandRoverLogo className="h-12 w-12" />
+            <LandRoverStripe className="h-7 w-14" />
 
             <h1 className="h1 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
               <span className="block whitespace-nowrap text-white">{line1}</span>
@@ -127,7 +127,7 @@ export default function VariantHeroSec1({ data }) {
 
             <p className="mt-3 max-w-md text-sm text-white lg:text-base">{data.subhead}</p>
 
-            <div className="glass-luminous card-glare relative mt-3 inline-flex items-center gap-3 rounded-lg px-5 py-3" style={{ border: "1px solid rgba(173,135,92,0.45)" }}>
+            <div className="glass-luminous card-glare relative mt-3 inline-flex items-center gap-3 rounded-lg px-5 py-3" style={{ border: "1px solid rgba(96,112,86,0.45)" }}>
               <div className="flex shrink-0 gap-1 text-[#ffcc00]">
                 {Array.from({ length: data.rating.stars }).map((_, i) => (
                   <Icon key={i} name="star" className="h-4 w-4 fill-current" />
@@ -156,7 +156,7 @@ export default function VariantHeroSec1({ data }) {
               <a
                 href={data.phoneCta.href}
                 className="glass-luminous card-glare relative flex w-60 shrink-0 items-center gap-3 rounded-lg px-5 py-4 transition-transform hover:scale-[1.02]"
-                style={{ border: "1px solid rgba(173,135,92,0.45)" }}
+                style={{ border: "1px solid rgba(96,112,86,0.45)" }}
               >
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-hero-blue">
                   <Icon name={data.phoneCta.icon} className="h-5 w-5 text-white" />
@@ -172,7 +172,7 @@ export default function VariantHeroSec1({ data }) {
           {/* bottom feature bar */}
           <div
             className="glass-luminous card-glare relative z-10 mt-6 flex items-stretch justify-between divide-x divide-white/15 rounded-xl px-4 py-5"
-            style={{ border: "1px solid rgba(173,135,92,0.45)", background: "rgba(10,9,7,0.6)" }}
+            style={{ border: "1px solid rgba(96,112,86,0.45)", background: "rgba(10,9,7,0.6)" }}
           >
             {data.trustBar.map((t) => (
               <div key={t.label} className="flex min-w-0 flex-1 items-center gap-3 px-3">

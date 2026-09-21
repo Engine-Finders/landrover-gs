@@ -14,9 +14,9 @@ function SectionHeader({ icon, title, dark = true }) {
 
 export default function ModelSec16({ data }) {
   return (
-    <section className="relative overflow-hidden text-white">
+    <section className="theme-dark relative overflow-hidden text-white">
       {/* ===== mobile ===== */}
-      <div className="relative md:hidden" style={{ background: "linear-gradient(135deg, #15100a 0%, #0a0806 100%)" }}>
+      <div className="relative md:hidden" style={{ background: "linear-gradient(135deg, #141813 0%, #0a0c09 100%)" }}>
         <div className="relative px-4 pb-8 pt-10">
           {/* engine sizes */}
           <SectionHeader icon={data.engineSizes.icon} title={data.engineSizes.title} />
@@ -98,12 +98,12 @@ export default function ModelSec16({ data }) {
       {/* ===== desktop ===== */}
       <div
         className="relative hidden px-4 py-12 sm:px-6 md:block lg:px-8"
-        style={{ background: "linear-gradient(135deg, #15100a 0%, #0a0806 100%)" }}
+        style={{ background: "linear-gradient(135deg, #141813 0%, #0a0c09 100%)" }}
       >
       <div
         className="pointer-events-none absolute inset-y-0 right-0 w-1/3 opacity-40"
         style={{
-          backgroundImage: "radial-gradient(rgba(173,135,92,0.35) 1px, transparent 1px)",
+          backgroundImage: "radial-gradient(rgba(96,112,86,0.35) 1px, transparent 1px)",
           backgroundSize: "18px 18px",
         }}
         aria-hidden="true"
@@ -146,7 +146,7 @@ export default function ModelSec16({ data }) {
                   style={{
                     borderColor: "var(--color-hero-gold)",
                     background: "linear-gradient(135deg, rgba(40,30,10,0.7) 0%, rgba(10,8,5,0.9) 100%)",
-                    boxShadow: "0 0 0 3px rgba(173,135,92,0.18), 0 0 30px -4px rgba(173,135,92,0.75)",
+                    boxShadow: "0 0 0 3px rgba(96,112,86,0.18), 0 0 30px -4px rgba(96,112,86,0.75)",
                   }}
                 >
                   <Icon name={f.icon} className="h-13 w-13 shrink-0 text-hero-blue" />

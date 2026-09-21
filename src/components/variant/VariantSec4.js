@@ -7,7 +7,7 @@ export default function VariantSec4({ data }) {
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
         <div className="relative h-40 w-full overflow-hidden">
-          <Image src={data.topImage} alt="Land Rover AMG GT 53 engine block" fill className="object-cover" sizes="100vw" />
+          <Image src={data.topImage} alt="Land Rover engine block" fill className="object-cover" sizes="100vw" />
           <div
             className="absolute inset-0"
             style={{ background: "linear-gradient(to right, var(--theme-light-bg) 0%, var(--theme-light-bg) 62%, rgba(241,237,232,0.85) 72%, transparent 88%)" }}
@@ -78,8 +78,10 @@ export default function VariantSec4({ data }) {
 
       {/* ===== desktop ===== */}
       <div className="relative hidden md:block">
-        <div className="relative h-64 w-full overflow-hidden lg:h-72">
-          <Image src={data.topImage} alt="Land Rover AMG GT 53 engine block" fill className="object-cover" sizes="100vw" />
+        <div className="relative h-64 w-full overflow-hidden bg-[#e6eade] lg:h-72">
+          <div className="absolute inset-y-0 left-[24%] right-0">
+            <Image src={data.topImage} alt="Land Rover engine block" fill className="object-cover" sizes="100vw" />
+          </div>
 
           <div className="relative z-10 mx-auto flex h-full max-w-6xl items-center px-4 sm:px-6 lg:px-8">
             <div className="max-w-lg">

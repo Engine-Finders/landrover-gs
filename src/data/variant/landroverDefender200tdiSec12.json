@@ -1,0 +1,82 @@
+{
+  "yearBanner": {
+    "titlePre": "WE COVER ",
+    "titleHighlight": "EVERY",
+    "titlePost": " Land Rover Defender 200Tdi MODEL YEAR:",
+    "years": [
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994"
+    ],
+    "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
+    "vehicleLabel": "Land Rover Defender 200Tdi"
+  },
+  "costs": {
+    "titlePre": "Land Rover Defender 200Tdi ENGINE ",
+    "titleHighlight": "COSTS",
+    "intro": "A Land Rover Defender 200Tdi engine rebuild starts from",
+    "price": "£1,900",
+    "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
+    "image": "/variant/sec10_engine.webp",
+    "warranty": {
+      "line1": "12 MONTH",
+      "line2": "UNLIMITED-MILEAGE",
+      "line3": "WARRANTY"
+    },
+    "subCards": [
+      {
+        "icon": "engine",
+        "title": "LAND ROVER Defender 200Tdi ENGINE SIZES",
+        "item": "Land Rover Defender 200Tdi 3.0 Litre Engine (200Tdi, I6)"
+      },
+      {
+        "icon": "fuel",
+        "title": "LAND ROVER Defender 200Tdi FUEL TYPES",
+        "item": "Land Rover Defender 200Tdi Petrol Mild Hybrid Engine Rebuilds"
+      }
+    ]
+  },
+  "bottomInfo": {
+    "timeframe": {
+      "icon": "clock",
+      "textPre": "Most Land Rover Defender 200Tdi engine rebuilds are completed within ",
+      "textHighlight": "3-5 working days",
+      "textPost": "."
+    },
+    "recoveryText": "Nationwide recovery and collection available for all Land Rover Defender 200Tdi models.",
+    "image": "/variant/landrover_car.webp"
+  },
+  "related": {
+    "title": "RELATED LAND ROVER ENGINES",
+    "links": [
+      {
+        "label": "Land Rover Defender Td5 Engine",
+        "href": "/landrover-defender-td5-engines"
+      },
+      {
+        "label": "Land Rover Defender 300Tdi Engine",
+        "href": "/landrover-defender-300tdi-engines"
+      },
+      {
+        "label": "Land Rover Defender D200 Engine",
+        "href": "/landrover-defender-d200-engines"
+      },
+      {
+        "label": "Land Rover Defender D250 Engine",
+        "href": "/landrover-defender-d250-engines"
+      },
+      {
+        "label": "Land Rover Defender D300 Engine",
+        "href": "/landrover-defender-d300-engines"
+      },
+      {
+        "label": "Land Rover Defender P400 Engine",
+        "href": "/landrover-defender-p400-engines"
+      }
+    ],
+    "viewAll": "View All Land Rover Engines",
+    "viewAllHref": "/defender-engines"
+  }
+}

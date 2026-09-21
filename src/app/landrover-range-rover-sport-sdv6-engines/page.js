@@ -38,7 +38,7 @@ export const metadata = {
   alternates: { canonical: PATH },
 };
 
-export default function LandroverRangeRoverSportSDV6EnginesPage() {
+export default function LandroverRangeRoverSportSdv6EnginesPage() {
   return (
     <>
       <JsonLd data={graphDoc([

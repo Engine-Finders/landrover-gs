@@ -31,12 +31,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Defender P300 ENGINE SIZES",
+        "title": "LAND ROVER Defender P300 ENGINE SIZES",
         "item": "Land Rover Defender P300 3.0 Litre Engine (AJ200P, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Defender P300 FUEL TYPES",
+        "title": "LAND ROVER Defender P300 FUEL TYPES",
         "item": "Land Rover Defender P300 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -53,8 +53,37 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Defender D200 Engine",
+        "href": "/landrover-defender-d200-engines"
+      },
+      {
+        "label": "Land Rover Defender D250 Engine",
+        "href": "/landrover-defender-d250-engines"
+      },
+      {
+        "label": "Land Rover Defender D300 Engine",
+        "href": "/landrover-defender-d300-engines"
+      },
+      {
+        "label": "Land Rover Defender D350 Engine",
+        "href": "/landrover-defender-d350-engines"
+      },
+      {
+        "label": "Land Rover Defender P400 Engine",
+        "href": "/landrover-defender-p400-engines"
+      },
+      {
+        "label": "Land Rover Defender P525 Engine",
+        "href": "/landrover-defender-p525-engines"
+      },
+      {
+        "label": "Land Rover Defender Octa Engine",
+        "href": "/landrover-defender-octa-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/defender-engines"
   }
 }

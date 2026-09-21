@@ -16,10 +16,10 @@
     "cards": [
       {
         "codeHighlight": "Ford Duratorq",
-        "codeRest": "",
-        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport TD4 from 2014 to 2019. Known for injector seal leaks and EGR clogging over time — see the callout above. We replace the timing belt, injectors and EGR components as standard on every Duratorq rebuild. Check Your Ford Duratorq Discovery Sport TD4 → [link to quote form]",
+        "codeRest": "(L550, 2014–2019)",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport TD4 from 2014 to 2019. Known for injector seal leaks and EGR clogging over time — see the callout above. We replace the timing belt, injectors and EGR components as standard on every Duratorq rebuild.",
         "cta": "Check Your Ford Duratorq Discovery Sport TD4",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-ford-duratorq-engine"
       }
     ]
   },
@@ -37,11 +37,11 @@
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact engine code (Ford Duratorq)"
+        "text": "Your exact engine code (Ford Duratorq) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "Your generation (L550, 2014–2019)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport TD4 ",
@@ -71,7 +71,8 @@
         "chassis": "L550",
         "years": "2014–2019",
         "engineCode": "Ford Duratorq",
-        "fuel": "Diesel"
+        "fuel": "Diesel",
+        "codeHref": "/landrover-ford-duratorq-engine"
       }
     ]
   }

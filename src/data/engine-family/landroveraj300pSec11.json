@@ -10,10 +10,10 @@
       "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200"
+    "startingFromPrice": "£3,200"
   },
   "comparison": {
-    "titlePre": "MERCEDES-BENZ AJ300P",
+    "titlePre": "LAND ROVER AJ300P",
     "titleHighlight": "REBUILD VS REPLACEMENT VS USED",
     "cards": [
       {
@@ -43,21 +43,21 @@
   "options": [
     {
       "icon": "refresh",
-      "titlePre": "MERCEDES-BENZ AJ300P",
+      "titlePre": "LAND ROVER AJ300P",
       "titleHighlight": "RECONDITIONED",
       "titlePost": " ENGINES",
       "body": "\"Reconditioned\" is the term many owners search for when they mean the same thing as a rebuild — a full strip-down, inspection, and replacement of worn parts rather than a straight swap. If that's what you're after, our rebuild service is exactly that."
     },
     {
       "icon": "shield-check",
-      "titlePre": "MERCEDES-BENZ AJ300P",
+      "titlePre": "LAND ROVER AJ300P",
       "titleHighlight": "REFURBISHED",
       "titlePost": " ENGINES",
       "body": "\"Refurbished\" often describes the same process from a different angle — restoring your existing engine to full working condition rather than replacing it outright. Our rebuild covers this."
     },
     {
       "icon": "cog",
-      "titlePre": "MERCEDES-BENZ AJ300P",
+      "titlePre": "LAND ROVER AJ300P",
       "titleHighlight": "REMANUFACTURED",
       "titlePost": " ENGINES",
       "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers, regardless of which of the six AJ300P-equipped models you drive."
@@ -73,7 +73,7 @@
       },
       {
         "q": "Which Land Rover models use the AJ300P?",
-        "a": "Defender (L663), Discovery (L462), Range Rover (L460), Range Rover Sport (L461) and Range Rover Velar (L560)."
+        "a": "Defender (L663), Discovery (L462), Range Rover (L460), Range Rover Sport (L461) and Range Rover Velar (L560) — see the full applications table above for exact variants and years."
       },
       {
         "q": "Does the AJ300P differ between Land Rover models?",
@@ -85,17 +85,25 @@
       },
       {
         "q": "How much does a Land Rover AJ300P engine rebuild cost?",
-        "a": "Rebuilds start from £3,200, regardless of which model it's fitted to. Exact price depends on condition and parts required."
+        "a": "Rebuilds start from £3,200, regardless of which model it's fitted to. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
       },
       {
         "q": "Do you rebuild AJ300P engines?",
         "a": "Yes. We work on AJ300P rebuilds across every model it's fitted to, replacing worn components as standard."
+      },
+      {
+        "q": "Do you work on AJ300P hybrid applications?",
+        "a": "Yes. AJ300P MHEV and PHEV applications are within our workshop capability, with the relevant hybrid-system ancillaries accounted for once your exact model is confirmed."
       }
     ],
     "faqRight": [
       {
-        "q": "Do you work on AJ300P hybrid applications?",
-        "a": "Yes. AJ300P MHEV and PHEV applications are within our workshop capability, with the relevant hybrid-system ancillaries accounted for once your exact model is confirmed."
+        "q": "Can you rebuild an AJ300P from a Defender P400?",
+        "a": "Yes. The AJ300P in the Defender is one of the applications we work on regularly."
+      },
+      {
+        "q": "Can you rebuild an AJ300P from a Range Rover P550e?",
+        "a": "Yes. The AJ300P in the Range Rover P550e PHEV application is within our workshop capability."
       },
       {
         "q": "Do you supply used Land Rover AJ300P engines?",
@@ -118,7 +126,7 @@
   "quote": {
     "icon": "note",
     "headlinePre": "GET YOUR FREE",
-    "headlineHighlight": "MERCEDES-BENZ AJ300P",
+    "headlineHighlight": "LAND ROVER AJ300P",
     "headlinePost": "FIXED-PRICE QUOTE",
     "subtext": "Most quotes returned within 30 minutes during working hours.",
     "fields": {

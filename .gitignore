@@ -73,3 +73,9 @@ _src_content/
 /scripts/output/
 
 .vercel
+
+# reference UI folders, source zips, python cache
+/ModelPageUI
+/Variant Page
+*.zip
+__pycache__/

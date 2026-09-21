@@ -44,12 +44,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover TDV6 ENGINE SIZES",
+        "title": "LAND ROVER Range Rover TDV6 ENGINE SIZES",
         "item": "Land Rover Range Rover TDV6 3.0 Litre Engine (TDV6 or SDV6 (M57D30), I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover TDV6 FUEL TYPES",
+        "title": "LAND ROVER Range Rover TDV6 FUEL TYPES",
         "item": "Land Rover Range Rover TDV6 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -66,8 +66,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover SDV6 Engine",
+        "href": "/landrover-range-rover-sdv6-engines"
+      },
+      {
+        "label": "Land Rover Range Rover TDV8 Engine",
+        "href": "/landrover-range-rover-tdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover SDV8 Engine",
+        "href": "/landrover-range-rover-sdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Vogue Engine",
+        "href": "/landrover-range-rover-vogue-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Autobiography Engine",
+        "href": "/landrover-range-rover-autobiography-engines"
+      },
+      {
+        "label": "Land Rover Range Rover P400 Engine",
+        "href": "/landrover-range-rover-p400-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/models"
   }
 }

@@ -7,9 +7,28 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "TDV6 & SDV6",
-      "generation": "",
-      "price": "£2,400"
+      "code": "TDV6",
+      "generation": "L320 (2005–2013)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "TDV6",
+      "generation": "L494 (2013–2022)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "SDV6",
+      "generation": "L320 (2005–2013)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "SDV6",
+      "generation": "L494 (2013–2022)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
     }
   ],
   "notes": [
@@ -24,13 +43,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Sport TDV6 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(TDV6 & SDV6 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Range Rover Sport TDV6 Timing Chain & Injector Seal Wear ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The TDV6 & SDV6 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older TDV6 & SDV6 V6. We replace timing chains, bearings, water pump and gaskets as standard on every TDV6 & SDV6 rebuild.",
-      "Because the Range Rover Sport TDV6 uses a completely different engine family from the V8 M178 fitted to the Range Rover Sport 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Range Rover Sport TDV6 and SDV6 engines — across both the L320 and L494 generations — commonly show timing chain tensioner wear, injector seal leaks, and crankshaft bearing wear over time. We replace timing chains, tensioners, injector seals, and gaskets as standard on every TDV6 and SDV6 rebuild.",
+      "The later, current-generation L461 Range Rover Sport uses a more recent Ingenium 3.0-litre diesel engine, which does not share this specific pattern."
     ],
-    "source": "Source: Established TDV6 & SDV6 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: widely documented Land Rover specialist pattern, per VRF-landrover-range-rover-sport.md. L461 Ingenium diesel explicitly excluded from this claim per VRF"
   }
 }

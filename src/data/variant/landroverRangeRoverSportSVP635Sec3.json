@@ -1,5 +1,5 @@
 {
-  "headlinePre": "Land Rover Range Rover Sport SV / P635",
+  "headlinePre": "Land Rover Range Rover Sport SV  P635",
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£6,500",
@@ -9,7 +9,8 @@
     {
       "code": "BMW S68",
       "generation": "L461 (2023–present)",
-      "price": "£6,500"
+      "price": "£6,500",
+      "codeHref": "/landrover-s68-bmw-sourced-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Sport SV / P635 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(BMW S68 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover Sport SV Hot-Vee Pattern ",
+    "titleHighlight": "(L461, BMW S68)",
     "paragraphs": [
-      "The BMW S68 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older BMW S68 V6. We replace timing chains, bearings, water pump and gaskets as standard on every BMW S68 rebuild.",
-      "Because the Range Rover Sport SV / P635 uses a completely different engine family from the V8 M178 fitted to the Range Rover Sport 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Range Rover Sport SV has the BMW S68 twin-turbo V8 — that's the L461 generation, fitted from 2023 — it shares the same hot-vee architecture as the wider BMW S63/S68 family. Like the N63 and S63 engines that came before it, the S68 can show timing chain and valve seal wear, coolant system leaks, and bearing wear over time. We replace timing chains, valve seals, coolant components, and bearings as standard on every S68 rebuild.",
+      "include_in_hero_hook: yes — Source: S68/S63 hot-vee pattern inherited from Range Rover finding, via platform-sharing inference between L460 and L461 (MLA-Flex platform). Not independently re-verified for Sport specifically this session, but reasonably inferred — per VRF-Range-Rover-Sport.md."
     ],
-    "source": "Source: Established BMW S68 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: S68/S63 hot-vee pattern inherited from Range Rover finding, via platform-sharing inference between L460 and L461 (MLA-Flex platform). Not independently re-verified for Sport specifically this session, but reasonably inferred — per VRF-Range-Rover-Sport.md"
   }
 }

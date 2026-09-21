@@ -8,37 +8,37 @@
       {
         "icon": "code",
         "label": "Engine Code",
-        "value": "K-Series"
+        "value": "Rover K-Series"
       },
       {
         "icon": "building",
         "label": "Manufacturer",
-        "value": "Rover"
+        "value": "Jaguar Land Rover (Ingenium family)"
       },
       {
         "icon": "gear",
         "label": "Configuration",
-        "value": "Inline-4 (I4)"
+        "value": "Inline-6 (I6)"
       },
       {
         "icon": "engine",
         "label": "Capacity",
-        "value": "1.8L (1,796 cc)"
+        "value": "3.0L (2,997 cc)"
       },
       {
         "icon": "oil",
         "label": "Fuel",
-        "value": "Petrol"
+        "value": "Diesel, Diesel MHEV"
       },
       {
         "icon": "calendar",
         "label": "Production Years",
-        "value": "1997–2006"
+        "value": "2019–present"
       },
       {
         "icon": "car",
         "label": "Used In",
-        "value": "1 model (Freelander 1)"
+        "value": "5 Land Rover models"
       }
     ],
     "prompt": {

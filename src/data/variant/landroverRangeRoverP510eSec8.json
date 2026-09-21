@@ -1,7 +1,7 @@
 {
   "gallery": {
     "titlePre": "OUR MOST RECENT",
-    "titleHighlight": "MERCEDES RECOVERIES & REBUILDS",
+    "titleHighlight": "LAND ROVER RECOVERIES & REBUILDS",
     "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection — this is what genuine engine work looks like.",
     "image": "/model/sec12.webp",
     "items": [
@@ -58,7 +58,7 @@
       {
         "icon": "gear",
         "model": "Land Rover Range Rover P510e",
-        "status": "engine REBUILD"
+        "status": "AJ300P (3.0L I6 + 105kW electric motor) REBUILD"
       },
       {
         "icon": "wrench",
@@ -95,7 +95,7 @@
     "summary": {
       "timeframe": {
         "icon": "clock",
-        "text": "Most Land Rover models are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
+        "text": "Most Defender models are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
       },
       "urgency": {
         "icon": "calendar",

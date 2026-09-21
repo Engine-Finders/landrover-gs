@@ -1,0 +1,77 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Discovery Sport P270e ENGINE",
+    "paragraphs": [
+      "The Discovery Sport P270e is the plug-in hybrid variant of Land Rover's compact SUV, pairing a 1.5-litre three-cylinder petrol engine with an electric motor. It sits alongside the P300e in the Discovery Sport PHEV range and is understood to have been introduced as a later badge variant — though the exact introduction year is not confirmed. The P270e shares the same 1.5-litre I3 petrol architecture as the P300e, with the badge denoting a different power output tune rather than a distinct engine family."
+    ],
+    "boldParagraph": "We continue to rebuild and replace 1.5L I3 petrol + electric engines for every Discovery Sport P270e on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Discovery Sport P270e ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "1.5L I3 petrol + electric",
+        "codeRest": "",
+        "body": "The Discovery Sport P270e is the plug-in hybrid variant of Land Rover's compact SUV, pairing a 1.5-litre three-cylinder petrol engine with an electric motor. It sits alongside the P300e in the Discovery Sport PHEV range and is understood to have been introduced as a later badge variant — though the exact introduction year is not confirmed. The P270e shares the same 1.5-litre I3 petrol architecture as the P300e, with the badge denoting a different power output tune rather than a distinct engine family.",
+        "cta": "Check Your 1.5L I3 petrol + electric Discovery Sport P270e"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Discovery Sport P270e ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The Discovery Sport P270e is a plug-in hybrid, which means its powertrain combines a 1.5-litre three-cylinder petrol engine with an electric motor and battery pack. The petrol engine is derived from the Ingenium family and is shared with the P300e, though the P270e badge represents a different output tune. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "1.5L I3 petrol + electric",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (1.5L I3 petrol + electric) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L663)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Discovery Sport P270e ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "L550",
+        "chassis": "L550",
+        "years": "[MISSING: introduction year]–present",
+        "engineCode": "1.5L I3 PHEV",
+        "fuel": "Petrol Plug-in Hybrid"
+      }
+    ]
+  }
+}

@@ -16,10 +16,10 @@
     "cards": [
       {
         "codeHighlight": "AJ200D",
-        "codeRest": "",
-        "body": "A 2.0-litre four-cylinder diesel fitted to the Defender D240 from 2019 to 2020. The AJ200D shares the Ingenium diesel family's known timing chain pattern — see the callout above. We inspect and replace timing chain components, injector seals, EGR components and gaskets as standard on every AJ200D rebuild. Check Your AJ200D Defender D240 → [link to quote form]",
+        "codeRest": "(L663, 2019–2020)",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Defender D240 from 2019 to 2020. The AJ200D shares the Ingenium diesel family's known timing chain pattern — see the callout above. We inspect and replace timing chain components, injector seals, EGR components and gaskets as standard on every AJ200D rebuild.",
         "cta": "Check Your AJ200D Defender D240",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj200d-engine"
       }
     ]
   },
@@ -41,7 +41,7 @@
       },
       {
         "icon": "car",
-        "text": "Your generation (generation)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,7 +49,7 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
     "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
@@ -71,7 +71,8 @@
         "chassis": "L663",
         "years": "2019–2020",
         "engineCode": "AJ200D",
-        "fuel": "Diesel"
+        "fuel": "Diesel",
+        "codeHref": "/landrover-aj200d-engine"
       }
     ]
   }

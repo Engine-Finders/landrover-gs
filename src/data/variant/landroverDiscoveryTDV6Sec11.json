@@ -1,8 +1,8 @@
 {
-  "image": "/variant/sec11.webp",
-  "titlePre": "MERCEDES Discovery TDV6 ENGINES ",
+  "image": "/variant/sec11.v2.webp",
+  "titlePre": "Land Rover Discovery TDV6 ENGINES ",
   "titleHighlight": "BY YEAR",
-  "description": "From the generation's launch in 2023, the Discovery TDV6 has used the TDV6 3.0-litre inline-six mild hybrid throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "description": "Land Rover Discovery TDV6 has used the TDV6 throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
   "columns": [
     {
       "icon": "calendar",
@@ -27,88 +27,108 @@
   ],
   "rows": [
     {
+      "year": "2004",
+      "generation": "D3",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "year": "2005",
+      "generation": "D3",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "year": "2006",
+      "generation": "D3",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "year": "2007",
+      "generation": "D3",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "year": "2008",
+      "generation": "D3",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "year": "2009",
+      "generation": "D3/D4",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "year": "2010",
+      "generation": "D4",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "year": "2011",
+      "generation": "D4",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "year": "2012",
+      "generation": "D4",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "year": "2013",
+      "generation": "D4",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
       "year": "2014",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "generation": "D4",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "year": "2015",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "generation": "D4",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "year": "2016",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2017",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2018",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2019",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2020",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2021",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2022",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2023",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2024",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
-    },
-    {
-      "year": "2025",
-      "generation": "generation",
-      "engineCode": "[MISSING]",
-      "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "generation": "D4",
+      "engineCode": "TDV6",
+      "fuel": "Diesel",
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
     }
   ],
   "notice": {

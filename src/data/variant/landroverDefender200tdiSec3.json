@@ -1,0 +1,37 @@
+{
+  "headlinePre": "Land Rover Defender 200Tdi",
+  "headlineHighlight": "Engine Rebuild Price",
+  "startingFromLabel": "Starting From",
+  "startingFromPrice": "£1,900",
+  "engineImage": "/variant/sec10_engine.webp",
+  "carImage": "/variant/landrover_car.webp",
+  "cards": [
+    {
+      "code": "200Tdi",
+      "generation": "Classic 90/110/130 (1990–1994)",
+      "price": "£1,900",
+      "codeHref": "/landrover-200tdi-engine"
+    }
+  ],
+  "notes": [
+    {
+      "icon": "price",
+      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    }
+  ],
+  "cta": {
+    "icon": "car",
+    "label": "Get Your Fixed-Price Quote",
+    "href": "#quote-form"
+  },
+  "warning": {
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Defender 200Tdi Cylinder Head & Timing Belt Considerations ",
+    "titleHighlight": "",
+    "paragraphs": [
+      "If your Defender is a 1990–1994 model with the 200Tdi — that's the classic 90/110/130 generation — cylinder head cracking and cooling system neglect are established patterns on this engine, backed by multiple specialist sources and forums. We replace the timing belt, inspect the cylinder head and cooling system, and replace injectors as standard on every 200Tdi rebuild.",
+      "The 300Tdi that followed uses the same underlying pattern with a different injection system, but for the 200Tdi specifically, these are the well-documented wear points to address during a rebuild."
+    ],
+    "source": "Source: established specialist pattern, per VRF-landrover-defender.md. This applies to the 200Tdi specifically"
+  }
+}

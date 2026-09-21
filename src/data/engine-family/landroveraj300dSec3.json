@@ -30,7 +30,7 @@
       "chassis": "L663",
       "years": "2020–present",
       "powertrain": "Diesel MHEV",
-      "modelHref": "/landrover-defender-engines"
+      "modelHref": "/defender-engines"
     },
     {
       "model": "Discovery",
@@ -39,7 +39,7 @@
       "chassis": "L462",
       "years": "2020–present",
       "powertrain": "Diesel MHEV",
-      "modelHref": "/landrover-discovery-engines"
+      "modelHref": "/discovery-engines"
     },
     {
       "model": "Range Rover",
@@ -48,7 +48,7 @@
       "chassis": "L460",
       "years": "2022–present",
       "powertrain": "Diesel MHEV",
-      "modelHref": "/landrover-range-rover-engines"
+      "modelHref": "/models"
     },
     {
       "model": "Range Rover Sport",
@@ -57,7 +57,7 @@
       "chassis": "L461",
       "years": "2022–present",
       "powertrain": "Diesel MHEV",
-      "modelHref": "/landrover-range-rover-sport-engines"
+      "modelHref": "/range-rover-sport-engines"
     },
     {
       "model": "Range Rover Velar",
@@ -66,7 +66,7 @@
       "chassis": "L560",
       "years": "2019–present",
       "powertrain": "Diesel MHEV",
-      "modelHref": "/landrover-range-rover-velar-engines"
+      "modelHref": "/range-rover-velar-engines"
     }
   ],
   "prompt": {

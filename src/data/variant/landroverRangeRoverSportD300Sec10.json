@@ -16,10 +16,10 @@
     "cards": [
       {
         "codeHighlight": "AJ300D",
-        "codeRest": "(L461 (2022–present))",
-        "body": "A 3.0-litre inline-six diesel with mild-hybrid assistance, fitted to the Range Rover Sport D300 from 2022 to present. No widely-reported engine issue confirmed for this variant specifically — the AJ300D is an improved design over earlier Land Rover diesel engines and does not share the well-documented timing chain pattern of the older TDV6/SDV6 family. Check Your AJ300D Range Rover Sport D300 → [link to quote form]",
+        "codeRest": "(L461)",
+        "body": "A 3.0-litre inline-six diesel with mild-hybrid assistance, fitted to the Range Rover Sport D300 from 2022 to present. No widely-reported engine issue confirmed for this variant specifically — the AJ300D is an improved design over earlier Land Rover diesel engines and does not share the well-documented timing chain pattern of the older TDV6/SDV6 family.",
         "cta": "Check Your AJ300D Range Rover Sport D300",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj300d-engine"
       }
     ]
   },
@@ -37,11 +37,11 @@
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact engine code via registration or VIN"
+        "text": "Your exact engine code (AJ300D) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "Your generation (L461)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Range Rover Sport quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Sport D300 ",
@@ -71,7 +71,8 @@
         "chassis": "L461",
         "years": "2022–present",
         "engineCode": "AJ300D",
-        "fuel": "Diesel MHEV"
+        "fuel": "Diesel MHEV",
+        "codeHref": "/landrover-aj300d-engine"
       }
     ]
   }

@@ -15,57 +15,63 @@
       "family": "TDV6",
       "fuel": "Diesel I6",
       "size": "3.0L",
-      "chassis": "L320",
-      "range": "L320 / L494"
+      "chassis": "L320 / L494",
+      "range": "£2,400 – £3,400",
+      "familyHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "family": "SDV6",
       "fuel": "Diesel I6 (higher output)",
       "size": "3.0L",
-      "chassis": "L320",
-      "range": "L320 / L494"
+      "chassis": "L320 / L494",
+      "range": "£2,600 – £3,600",
+      "familyHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "family": "Ingenium I6 Diesel",
       "fuel": "Diesel I6",
       "size": "3.0L",
-      "chassis": "L320",
-      "range": "L461"
+      "chassis": "L461",
+      "range": "£2,600 – £3,600",
+      "familyHref": "/landrover-aj300d-engine"
     },
     {
       "family": "TDV8",
       "fuel": "Diesel V8",
       "size": "4.4L",
-      "chassis": "L320",
-      "range": "L320 / L494"
+      "chassis": "L320 / L494",
+      "range": "£4,500 – £5,800",
+      "familyHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "family": "SDV8",
       "fuel": "Diesel V8 (higher output)",
       "size": "4.4L",
-      "chassis": "L320",
-      "range": "L320 / L494"
+      "chassis": "L320 / L494",
+      "range": "£4,800 – £6,000"
     },
     {
       "family": "Ingenium AJ300P",
       "fuel": "Petrol I6",
       "size": "3.0L",
-      "chassis": "L320",
-      "range": "L461"
+      "chassis": "L461",
+      "range": "£3,200 – £4,200",
+      "familyHref": "/landrover-aj300p-engine"
     },
     {
       "family": "AJ-V8 Supercharged (SVR)",
       "fuel": "Petrol V8",
       "size": "5.0L",
-      "chassis": "L320",
-      "range": "L494"
+      "chassis": "L494",
+      "range": "£5,500 – £7,500"
     },
     {
       "family": "BMW-sourced V8 (P525)",
       "fuel": "Petrol V8",
       "size": "4.4L",
-      "chassis": "L320",
-      "range": "L461"
+      "chassis": "L461",
+      "range": "£5,500 – £7,500",
+      "familyHref": "/landrover-s68-bmw-sourced-engine"
     }
   ],
   "features": [

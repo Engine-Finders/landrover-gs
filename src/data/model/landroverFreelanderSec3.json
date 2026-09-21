@@ -7,11 +7,12 @@
   "cardImage": "/model/engine_trim.webp",
   "cards": [
     {
-      "titlePre": "4-Cylinder Rebuild (K-Series / M47 / Duratorq / EcoBoost)",
+      "titlePre": "4-Cylinder Rebuild",
       "titleHighlight": "",
-      "code": "",
+      "code": "(K-Series / M47 / Duratorq / EcoBoost)",
       "price": "£1,900",
-      "featured": false
+      "featured": false,
+      "codeHref": "/landrover-rover-k-series-engine"
     },
     {
       "titlePre": "Nationwide Recovery",

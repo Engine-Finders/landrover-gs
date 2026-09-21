@@ -17,9 +17,9 @@
       {
         "codeHighlight": "Ingenium AJ200D",
         "codeRest": "",
-        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D240 from 2019 to 2020 (L550 generation). Known for timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks across the Ingenium diesel family. We replace timing chains, injector seals, EGR components and gaskets as standard on every rebuild. Check Your Ingenium AJ200D Discovery Sport → [link to quote form]",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D240 from 2019 to 2020 (L550 generation). Known for timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks across the Ingenium diesel family. We replace timing chains, injector seals, EGR components and gaskets as standard on every rebuild.",
         "cta": "Check Your Ingenium AJ200D Discovery Sport D240",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj200d-engine"
       }
     ]
   },
@@ -37,11 +37,11 @@
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact engine code (AJ200D) via registration or VIN"
+        "text": "Your exact engine code (Ingenium AJ200D) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "Your generation (L550)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Land Rover Discovery Sport D240 Applications"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport D240 ",
@@ -67,11 +67,12 @@
     ],
     "rows": [
       {
-        "generation": "L550",
-        "chassis": "L550",
-        "years": "2019–2020",
+        "generation": "L663",
+        "chassis": "L663",
+        "years": "2020–present",
         "engineCode": "Ingenium AJ200D",
-        "fuel": "Diesel"
+        "fuel": "Diesel MHEV",
+        "codeHref": "/landrover-aj200d-engine"
       }
     ]
   }

@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "AJ200D",
-      "generation": "",
-      "price": "£2,200"
+      "generation": "L663",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj200d-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Defender D240 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(AJ200D I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Defender D240 Timing Chain Wear ",
+    "titleHighlight": "(AJ200D)",
     "paragraphs": [
-      "The AJ200D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older AJ200D V6. We replace timing chains, bearings, water pump and gaskets as standard on every AJ200D rebuild.",
-      "Because the Defender D240 uses a completely different engine family from the V8 M178 fitted to the Defender 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Defender D240 has the Ingenium AJ200D diesel — that's every D240 ever built, since it was only produced during 2019–2020 — the Ingenium timing chain pattern is a known consideration on this engine family. We inspect and replace timing chain components, injector seals, EGR components and gaskets as standard on every AJ200D rebuild.",
+      "include_in_hero_hook: yes for AJ200D — Source: established specialist pattern, per VRF-landrover-defender.md. Note: one forum source specifically claims the D240 does NOT share the oil-dilution issue affecting other Ingenium diesels — this is flagged for awareness only and not stated as fact on the page."
     ],
-    "source": "Source: Established AJ200D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist pattern, per VRF-landrover-defender.md. Note: one forum source specifically claims the D240 does NOT share the oil-dilution issue affecting other Ingenium diesels — this is flagged for awareness only and not stated as fact on the page"
   }
 }

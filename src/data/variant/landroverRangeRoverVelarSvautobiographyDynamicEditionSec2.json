@@ -1,0 +1,67 @@
+{
+  "headlinePre": "Your ",
+  "headlineHighlight": "Land Rover Range Rover Velar SVAutobiography Dynamic Edition",
+  "headlinePost": " Engine",
+  "image": "/variant/sec2_engine.webp",
+  "specs": [
+    {
+      "icon": "car",
+      "label": "Vehicle",
+      "value": "Land Rover Range Rover Velar SVAutobiography Dynamic Edition"
+    },
+    {
+      "icon": "layers",
+      "label": "Model",
+      "value": "Range Rover Velar"
+    },
+    {
+      "icon": "sliders",
+      "label": "Variant",
+      "value": "Range Rover Velar SVAutobiography Dynamic Edition"
+    },
+    {
+      "icon": "fuel",
+      "label": "Fuel",
+      "value": "Petrol Supercharged"
+    },
+    {
+      "icon": "engine",
+      "label": "Engine",
+      "value": "AJ133"
+    },
+    {
+      "icon": "gauge",
+      "label": "Capacity",
+      "value": "5.0L V8"
+    },
+    {
+      "icon": "calendar",
+      "label": "Generations",
+      "value": "L560 (2019 only)"
+    },
+    {
+      "icon": "price",
+      "label": "Rebuild From",
+      "value": "£5,500"
+    }
+  ],
+  "lookup": {
+    "title": "Not sure which engine you have?",
+    "body": "The Range Rover Velar SVAutobiography Dynamic Edition uses the AJ133 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "badges": [
+      {
+        "icon": "shield-check",
+        "label": "DVLA & VIN verified"
+      },
+      {
+        "icon": "lock",
+        "label": "100% secure & private"
+      },
+      {
+        "icon": "note",
+        "label": "No obligation quote"
+      }
+    ],
+    "buttonLabel": "Check My Exact Engine"
+  }
+}

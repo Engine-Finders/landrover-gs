@@ -1,5 +1,5 @@
 {
-  "headlinePre": "Range Rover Velar D250",
+  "headlinePre": "Land Rover Range Rover Velar D250",
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£3,200",
@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "AJ300D",
-      "generation": "",
-      "price": "£3,200"
+      "generation": "L560 (2017–present)",
+      "price": "£3,200",
+      "codeHref": "/landrover-aj300d-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Range Rover Velar D250 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(AJ300D I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover Velar D250 Timing Chain Wear ",
+    "titleHighlight": "(Ingenium Diesel)",
     "paragraphs": [
-      "The AJ300D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older AJ300D V6. We replace timing chains, bearings, water pump and gaskets as standard on every AJ300D rebuild.",
-      "Because the Range Rover Velar D250 uses a completely different engine family from the V8 M178 fitted to the Range Rover Velar 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Velar D250 has the 3.0-litre AJ300D Ingenium diesel — fitted across the entire L560 generation from 2017 — timing chain tensioner wear is a well-documented pattern on this engine family. We replace timing chains, injector seals, bearings and gaskets as standard on every AJ300D rebuild.",
+      "The petrol Ingenium engines in the Velar range use different components and don't share this specific timing chain pattern — they're generally considered more reliable in this area."
     ],
-    "source": "Source: Established AJ300D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: shared Ingenium diesel family pattern per VRF-landrover-velar.md. Petrol Ingenium engines explicitly excluded from this claim per VRF"
   }
 }

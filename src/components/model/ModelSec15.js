@@ -15,7 +15,7 @@ export default function ModelSec15({ data }) {
         {/* div 1: split hero */}
         <div className="relative h-56">
           <div className="absolute inset-0">
-            <Image src={data.imageMobile} alt="Land Rover C-Class in a bright Land Rover specialist workshop" fill className="object-cover object-right" sizes="100vw" />
+            <Image src={data.imageMobile} alt="Classic green Land Rover Defender 90 in a bright Land Rover specialist workshop" fill className="object-cover object-right" sizes="100vw" />
             {/* solid overlay behind the text, fading into the photo on the right */}
             <div className="absolute inset-0 bg-linear-to-r from-(--color-light-surface) via-(--color-light-surface) via-60% to-transparent" />
           </div>
@@ -117,7 +117,7 @@ export default function ModelSec15({ data }) {
       <div className="relative hidden px-4 pb-10 pt-16 sm:px-6 md:block lg:px-8">
       {/* full-bleed background across the whole section */}
       <div className="absolute inset-0">
-        <Image src={data.image} alt="Land Rover C-Class in a bright Land Rover specialist workshop" fill className="object-cover object-right-top" sizes="100vw" />
+        <Image src={data.image} alt="Classic green Land Rover Defender 90 in a bright Land Rover specialist workshop" fill className="object-cover object-right-top" sizes="100vw" />
       </div>
 
       <div className="relative mx-auto max-w-6xl">
@@ -178,7 +178,7 @@ export default function ModelSec15({ data }) {
 
           {/* right column */}
           <div className="flex">
-            <div className="card-glare-light relative flex min-h-[20rem] w-full flex-col overflow-hidden rounded-2xl border border-hero-blue/25 bg-white/90 p-6 pb-10 shadow-[0_25px_60px_-25px_rgba(173,135,92,0.35)] backdrop-blur-xl">
+            <div className="card-glare-light relative flex min-h-[20rem] w-full flex-col overflow-hidden rounded-2xl border border-hero-blue/25 bg-white/90 p-6 pb-10 shadow-[0_25px_60px_-25px_rgba(96,112,86,0.35)] backdrop-blur-xl">
               <div
                 className="pointer-events-none absolute bottom-0 right-0 h-44 w-64 opacity-25"
                 style={{ clipPath: "polygon(38% 100%, 100% 100%, 100% 15%)" }}

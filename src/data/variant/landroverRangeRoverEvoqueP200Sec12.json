@@ -34,12 +34,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Evoque P200 ENGINE SIZES",
+        "title": "LAND ROVER Range Rover Evoque P200 ENGINE SIZES",
         "item": "Land Rover Range Rover Evoque P200 3.0 Litre Engine (AJ200P, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Evoque P200 FUEL TYPES",
+        "title": "LAND ROVER Range Rover Evoque P200 FUEL TYPES",
         "item": "Land Rover Range Rover Evoque P200 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -56,8 +56,21 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Evoque TD4 Engine",
+        "href": "/landrover-evoque-td4-engines"
+      },
+      {
+        "label": "Land Rover Evoque D180 Engine",
+        "href": "/landrover-range-rover-velar-d180-engines"
+      },
+      {
+        "label": "Land Rover Evoque P250 Engine",
+        "href": "/landrover-range-rover-velar-p250-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-evoque-engines"
   }
 }

@@ -14,7 +14,7 @@ export default function ModelSec12({ data }) {
       <div className="relative md:hidden">
         <div
           className="pointer-events-none absolute right-0 top-0 h-72 w-72"
-          style={{ background: "radial-gradient(ellipse at top right, rgba(173,135,92,0.45) 0%, transparent 70%)" }}
+          style={{ background: "radial-gradient(ellipse at top right, rgba(96,112,86,0.45) 0%, transparent 70%)" }}
           aria-hidden="true"
         />
 
@@ -34,7 +34,7 @@ export default function ModelSec12({ data }) {
                 </div>
                 <div className="px-3 py-2" style={{ background: "rgba(5,12,28,0.9)" }}>
                   <div className="flex items-center gap-1.5">
-                    <Icon name={c.icon} className="h-4 w-4 shrink-0 text-hero-blue" />
+                    <Icon name={c.icon} className="h-4 w-4 shrink-0 text-[#607056]" />
                     <p className="truncate text-xs font-extrabold uppercase text-white">
                       {c.href ? <Link href={c.href}>{c.model}</Link> : c.model}
                     </p>
@@ -74,7 +74,7 @@ export default function ModelSec12({ data }) {
       <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
       <div
         className="pointer-events-none absolute right-0 top-0 h-96 w-xl"
-        style={{ background: "radial-gradient(ellipse at top right, rgba(173,135,92,0.55) 0%, transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse at top right, rgba(96,112,86,0.55) 0%, transparent 70%)" }}
         aria-hidden="true"
       />
       <div
@@ -104,7 +104,7 @@ export default function ModelSec12({ data }) {
                   {c.href ? <Link href={c.href}>{c.model}</Link> : c.model}
                 </p>
                 <div className="mt-1 flex items-center gap-1.5">
-                  <Icon name={c.icon} className="h-3.5 w-3.5 shrink-0 text-hero-blue" />
+                  <Icon name={c.icon} className="h-3.5 w-3.5 shrink-0 text-[#607056]" />
                   <p className="label-text truncate uppercase tracking-wide text-white">{c.tag}</p>
                 </div>
               </div>

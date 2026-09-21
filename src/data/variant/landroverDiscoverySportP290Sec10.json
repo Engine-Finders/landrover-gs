@@ -16,10 +16,10 @@
     "cards": [
       {
         "codeHighlight": "Ingenium AJ200P",
-        "codeRest": "",
-        "body": "A 2.0-litre four-cylinder petrol engine, fitted to the Discovery Sport P290 from 2019 to 2020. This is the highest-output petrol tune of the Ingenium AJ200P in the Discovery Sport range, producing 286bhp. No specific known issue has been independently confirmed for this variant's application of the AJ200P — the engine generally follows the broader Ingenium petrol pattern, which tends to be more reliable than its diesel counterparts. Check Your Ingenium AJ200P P290 → [link to quote form]",
+        "codeRest": "(L550, 2019-2020)",
+        "body": "A 2.0-litre four-cylinder petrol engine, fitted to the Discovery Sport P290 from 2019 to 2020. This is the highest-output petrol tune of the Ingenium AJ200P in the Discovery Sport range, producing 286bhp. No specific known issue has been independently confirmed for this variant's application of the AJ200P — the engine generally follows the broader Ingenium petrol pattern, which tends to be more reliable than its diesel counterparts.",
         "cta": "Check Your Ingenium AJ200P Discovery Sport P290",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj200p-engine"
       }
     ]
   },
@@ -41,7 +41,7 @@
       },
       {
         "icon": "car",
-        "text": "Your generation (L550)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport P290 ",
@@ -71,7 +71,8 @@
         "chassis": "L550",
         "years": "2019–2020",
         "engineCode": "Ingenium AJ200P",
-        "fuel": "Petrol"
+        "fuel": "Petrol",
+        "codeHref": "/landrover-aj200p-engine"
       }
     ]
   }

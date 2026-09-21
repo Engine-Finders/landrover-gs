@@ -17,9 +17,9 @@
       {
         "codeHighlight": "AJ200P",
         "codeRest": "",
-        "body": "A 2.0-litre four-cylinder petrol engine fitted to the Defender P300 from 2019 to present (L663). No specific known issue is confirmed for this engine in this application. We replace timing chains, bearings and gaskets as standard on every rebuild. Check Your AJ200P Defender P300 → [link to quote form]",
+        "body": "A 2.0-litre four-cylinder petrol engine fitted to the Defender P300 from 2019 to present (L663). No specific known issue is confirmed for this engine in this application. We replace timing chains, bearings and gaskets as standard on every rebuild.",
         "cta": "Check Your AJ200P Defender P300",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj200p-engine"
       }
     ]
   },
@@ -41,7 +41,7 @@
       },
       {
         "icon": "car",
-        "text": "Your generation (generation)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,7 +49,7 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
     "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
@@ -71,7 +71,8 @@
         "chassis": "90/110/130",
         "years": "2019–present",
         "engineCode": "AJ200P",
-        "fuel": "Petrol"
+        "fuel": "Petrol",
+        "codeHref": "/landrover-aj200p-engine"
       }
     ]
   }

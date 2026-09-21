@@ -9,7 +9,7 @@ export default function Sec7({ data }) {
       <div className="relative px-4 py-7 md:hidden">
         <div
           className="relative overflow-hidden rounded-2xl p-4"
-          style={{ border: "1px solid rgba(173,135,92,0.4)", boxShadow: "0 0 25px -8px rgba(173,135,92,0.35)" }}
+          style={{ border: "1px solid rgba(96,112,86,0.4)", boxShadow: "0 0 25px -8px rgba(96,112,86,0.35)" }}
         >
         <div className="flex items-center gap-2">
           <LandRoverLogo className="h-8 w-8" />
@@ -33,7 +33,7 @@ export default function Sec7({ data }) {
                 className="relative z-10 flex h-10 w-10 shrink-0 rounded-full p-[1.5px]"
                 style={{
                   background:
-                    "conic-gradient(from 0deg, var(--color-bmw-blue) 0deg, rgba(173,135,92,0.15) 60deg, transparent 100deg, transparent 260deg, rgba(173,135,92,0.15) 300deg, var(--color-bmw-red) 360deg), rgba(13,13,13,0.9)",
+                    "conic-gradient(from 0deg, var(--color-bmw-blue) 0deg, rgba(96,112,86,0.15) 60deg, transparent 100deg, transparent 260deg, rgba(96,112,86,0.15) 300deg, var(--color-bmw-red) 360deg), rgba(13,13,13,0.9)",
                   boxShadow: "0 8px 18px -6px rgba(0,0,0,0.5)",
                 }}
               >
@@ -56,7 +56,7 @@ export default function Sec7({ data }) {
       <div className="relative hidden px-4 py-12 sm:px-6 md:block lg:px-8">
         <div
           className="relative mx-auto max-w-6xl overflow-hidden rounded-2xl p-10"
-          style={{ border: "1px solid rgba(173,135,92,0.4)", boxShadow: "0 0 45px -12px rgba(173,135,92,0.35)" }}
+          style={{ border: "1px solid rgba(96,112,86,0.4)", boxShadow: "0 0 45px -12px rgba(96,112,86,0.35)" }}
         >
           <div className="flex items-center gap-5">
             <LandRoverLogo className="h-24 w-24 shrink-0" />
@@ -84,7 +84,7 @@ export default function Sec7({ data }) {
                   className="relative z-10 flex h-[72px] w-[72px] shrink-0 rounded-full p-0.5"
                   style={{
                     background:
-                      "conic-gradient(from 0deg, var(--color-bmw-blue) 0deg, rgba(173,135,92,0.15) 60deg, transparent 100deg, transparent 260deg, rgba(173,135,92,0.15) 300deg, var(--color-bmw-red) 360deg), rgba(13,13,13,0.9)",
+                      "conic-gradient(from 0deg, var(--color-bmw-blue) 0deg, rgba(96,112,86,0.15) 60deg, transparent 100deg, transparent 260deg, rgba(96,112,86,0.15) 300deg, var(--color-bmw-red) 360deg), rgba(13,13,13,0.9)",
                     boxShadow: "0 12px 26px -8px rgba(0,0,0,0.5)",
                   }}
                 >

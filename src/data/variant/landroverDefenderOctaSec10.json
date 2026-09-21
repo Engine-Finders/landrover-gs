@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender Octa ENGINE",
     "paragraphs": [
-      "The Defender Octa is the flagship performance variant of the modern L663 Defender, launched in 2024. At its heart sits the BMW S68B44T0 — a 4.4-litre twin-turbocharged V8. This is the only BMW-sourced engine in the Defender range, sharing its basic architecture with BMW's S63/N63 hot-vee family but featuring a cross-plane crank and mild-hybrid assistance.\n\nThe Octa represents a significant departure from the rest of the Defender powertrain line-up — it's not an Ingenium-based unit, and it has its own distinct characteristics, including a 48V mild-hybrid system that's BMW's own hardware, separate from the Ingenium MHEV system used elsewhere in the range."
+      "The Defender Octa is the flagship performance variant of the modern L663 Defender, launched in 2024. At its heart sits the BMW S68B44T0 — a 4.4-litre twin-turbocharged V8. This is the only BMW-sourced engine in the Defender range, sharing its basic architecture with BMW's S63/N63 hot-vee family but featuring a cross-plane crank and mild-hybrid assistance."
     ],
     "boldParagraph": "We continue to rebuild and replace S68B44T0 engines for every Defender Octa on the road."
   },
@@ -17,9 +17,9 @@
       {
         "codeHighlight": "S68B44T0",
         "codeRest": "",
-        "body": "A 4.4-litre twin-turbo V8 fitted to the Defender Octa from 2024 to present (L663 generation). BMW's latest performance V8 architecture, featuring a hot-vee design with turbos positioned between the cylinder banks. We replace timing chains, bearings, water pump and gaskets as standard on every S68 rebuild. Check Your S68 Defender Octa → [link to quote form]",
+        "body": "A 4.4-litre twin-turbo V8 fitted to the Defender Octa from 2024 to present (L663 generation). BMW's latest performance V8 architecture, featuring a hot-vee design with turbos positioned between the cylinder banks. We replace timing chains, bearings, water pump and gaskets as standard on every S68 rebuild.",
         "cta": "Check Your S68B44T0 Defender Octa",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-s68-bmw-sourced-engine"
       }
     ]
   },
@@ -49,7 +49,7 @@
       },
       {
         "icon": "code",
-        "text": "BMW-sourced hardware considerations specific to this engine"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
     "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
@@ -71,7 +71,8 @@
         "chassis": "L663",
         "years": "2024–present",
         "engineCode": "S68B44T0",
-        "fuel": "Petrol Twin-Turbo"
+        "fuel": "Petrol Twin-Turbo",
+        "codeHref": "/landrover-s68-bmw-sourced-engine"
       }
     ]
   }

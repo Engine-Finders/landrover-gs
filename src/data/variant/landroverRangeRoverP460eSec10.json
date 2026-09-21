@@ -17,9 +17,8 @@
       {
         "codeHighlight": "AJ300 turbo PHEV I6",
         "codeRest": "",
-        "body": "A 3.0-litre turbocharged petrol inline-six with a 105kW electric motor, fitted to the Range Rover P460e from 2022 onwards (L460 generation). PHEV components are integrated with the petrol engine as part of the hybrid system. Check Your AJ300 P460e → [link to quote form]",
-        "cta": "Check Your AJ300 turbo PHEV I6 Range Rover P460e",
-        "codeHref": "/landrover-m256-engine"
+        "body": "A 3.0-litre turbocharged petrol inline-six with a 105kW electric motor, fitted to the Range Rover P460e from 2022 onwards (L460 generation). PHEV components are integrated with the petrol engine as part of the hybrid system.",
+        "cta": "Check Your AJ300 turbo PHEV I6 Range Rover P460e"
       }
     ]
   },
@@ -37,22 +36,22 @@
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact engine code (AJ300 turbo PHEV I6)"
+        "text": "Your exact engine code (AJ300 turbo PHEV I6) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "Your generation (L460)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
-        "text": "Drivetrain and PHEV component specification"
+        "text": "Drivetrain and ancillary specification"
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Range Rover quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover P460e ",

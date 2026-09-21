@@ -12,7 +12,7 @@ export default function HomeSec6({ data }) {
     <section className="theme-light px-4 py-8 sm:px-6 lg:px-8">
       <div
         className="theme-light relative mx-auto max-w-6xl rounded-2xl border border-hero-blue/20 px-4 py-6 sm:px-6 sm:py-8"
-        style={{ boxShadow: "0 0 60px -8px rgba(173,135,92,0.25), 0 0 20px rgba(0,0,0,0.06)" }}
+        style={{ boxShadow: "0 0 60px -8px rgba(96,112,86,0.25), 0 0 20px rgba(0,0,0,0.06)" }}
       >
         {/* logo sits half on / half off the card's own top edge */}
         <LandRoverLogo className="absolute left-1/2 top-0 z-10 h-18 w-18 -translate-x-1/2 -translate-y-1/2" />

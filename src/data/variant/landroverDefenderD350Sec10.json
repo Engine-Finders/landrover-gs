@@ -17,9 +17,9 @@
       {
         "codeHighlight": "AJ300D",
         "codeRest": "",
-        "body": "A 3.0-litre inline-six diesel MHEV fitted to the Defender D350 from 2019 to present (L663 generation). Known for the DC-DC converter failure pattern affecting the entire 12V electrical system on mild-hybrid variants, plus the broader Ingenium timing chain pattern. Early production (2019-2020) also shows electrical injector faults. We replace timing chain components, injector seals, bearings, gaskets and the DC-DC converter as standard on every AJ300D rebuild. Check Your AJ300D Defender D350 → [link to quote form]",
+        "body": "A 3.0-litre inline-six diesel MHEV fitted to the Defender D350 from 2019 to present (L663 generation). Known for the DC-DC converter failure pattern affecting the entire 12V electrical system on mild-hybrid variants, plus the broader Ingenium timing chain pattern. Early production (2019-2020) also shows electrical injector faults. We replace timing chain components, injector seals, bearings, gaskets and the DC-DC converter as standard on every AJ300D rebuild.",
         "cta": "Check Your AJ300D Defender D350",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj300d-engine"
       }
     ]
   },
@@ -49,7 +49,7 @@
       },
       {
         "icon": "code",
-        "text": "Any MHEV system considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
     "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
@@ -71,7 +71,8 @@
         "chassis": "L663",
         "years": "2019–present",
         "engineCode": "AJ300D",
-        "fuel": "Diesel MHEV"
+        "fuel": "Diesel MHEV",
+        "codeHref": "/landrover-aj300d-engine"
       }
     ]
   }

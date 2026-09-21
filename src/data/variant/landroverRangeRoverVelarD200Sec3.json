@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "Ingenium AJ200D",
-      "generation": "",
-      "price": "£2,200"
+      "generation": "L560 (2017–present)",
+      "price": "£2,200",
+      "codeHref": "/landrover-aj200d-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Velar D200 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(Ingenium AJ200D I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Velar D200 Ingenium Diesel Timing Chain Wear ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The Ingenium AJ200D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older Ingenium AJ200D V6. We replace timing chains, bearings, water pump and gaskets as standard on every Ingenium AJ200D rebuild.",
-      "Because the Range Rover Velar D200 uses a completely different engine family from the V8 M178 fitted to the Range Rover Velar 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Velar D200 is a 2017–present model with the Ingenium AJ200D 2.0-litre diesel — that's the L560 generation — timing chain tensioner wear is a well-documented pattern on this engine family, backed by established Land Rover specialist consensus. We replace worn timing chains, injector seals, EGR components and gaskets as standard on every AJ200D rebuild.",
+      "include_in_hero_hook: yes for Ingenium AJ200D — Source: shared Ingenium diesel family pattern, per VRF-landrover-velar.md. Applies to the Velar D200 specifically."
     ],
-    "source": "Source: Established Ingenium AJ200D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: shared Ingenium diesel family pattern, per VRF-landrover-velar.md. Applies to the Velar D200 specifically"
   }
 }

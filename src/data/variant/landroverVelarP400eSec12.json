@@ -32,12 +32,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Velar P400e ENGINE SIZES",
-        "item": "Land Rover Velar P400e 3.0 Litre Engine (engine, I6)"
+        "title": "LAND ROVER Velar P400e ENGINE SIZES",
+        "item": "Land Rover Velar P400e 3.0 Litre Engine (Ingenium AJ200P, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Velar P400e FUEL TYPES",
+        "title": "LAND ROVER Velar P400e FUEL TYPES",
         "item": "Land Rover Velar P400e Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -54,8 +54,41 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Velar D180 Engine",
+        "href": "/landrover-range-rover-velar-d180-engines"
+      },
+      {
+        "label": "Land Rover Velar D200 Engine",
+        "href": "/landrover-range-rover-velar-d200-engines"
+      },
+      {
+        "label": "Land Rover Velar D250 Engine",
+        "href": "/landrover-range-rover-velar-d250-engines"
+      },
+      {
+        "label": "Land Rover Velar D300 Engine",
+        "href": "/landrover-velar-d300-engines"
+      },
+      {
+        "label": "Land Rover Velar P250 Engine",
+        "href": "/landrover-range-rover-velar-p250-engines"
+      },
+      {
+        "label": "Land Rover Velar P300 Engine",
+        "href": "/landrover-velar-p300-engines"
+      },
+      {
+        "label": "Land Rover Velar P340 Engine",
+        "href": "/landrover-range-rover-velar-p340-engines"
+      },
+      {
+        "label": "Land Rover Velar P400 Engine",
+        "href": "/landrover-range-rover-velar-p400-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-velar-engines"
   }
 }

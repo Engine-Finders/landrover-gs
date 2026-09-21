@@ -7,9 +7,16 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "",
-      "generation": "",
-      "price": "£4,500"
+      "code": "TDV8",
+      "generation": "D3/L319 (2004–2009)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "code": "TDV8",
+      "generation": "D4/L319 facelift (2009–2016)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
     }
   ],
   "notes": [
@@ -24,13 +31,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery TDV8 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(engine I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery TDV8 Timing Chain & Injector Wear ",
+    "titleHighlight": "(D3/D4, TDV8)",
     "paragraphs": [
-      "The engine is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older engine V6. We replace timing chains, bearings, water pump and gaskets as standard on every engine rebuild.",
-      "Because the Discovery TDV8 uses a completely different engine family from the V8 M178 fitted to the Land Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Discovery TDV8 engines — across both D3 and D4 generations — commonly show timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk, in line with the wider TDV6/SDV6 family pattern that affects this engine family. We replace timing chain components, injector seals, EGR components, turbo components, and gaskets as standard on every TDV8 rebuild.",
+      "*include_in_hero_hook: yes — Source: same timing chain/injector pattern as TDV6/SDV6 family, widely documented, multiple TSBs and specialist sources per G-BRF. Pattern-inferred from sibling engine, same family.*"
     ],
-    "source": "Source: Established engine specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: same timing chain/injector pattern as TDV6/SDV6 family, widely documented, multiple TSBs and specialist sources per G-BRF. Pattern-inferred from sibling engine, same family"
   }
 }

@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "AJ300D",
-      "generation": "",
-      "price": "£2,800"
+      "generation": "L663 (2019–present)",
+      "price": "£2,800",
+      "codeHref": "/landrover-aj300d-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Defender D350 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(AJ300D I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Defender D350 DC-DC Converter & Timing Chain ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The AJ300D is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older AJ300D V6. We replace timing chains, bearings, water pump and gaskets as standard on every AJ300D rebuild.",
-      "Because the Defender D350 uses a completely different engine family from the V8 M178 fitted to the Defender 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Defender D350 engines with the Ingenium AJ300D — fitted across the L663 generation — are part of the Ingenium diesel family. The timing chain pattern is well-documented across this engine family, and the DC-DC converter failure pattern applies to mild-hybrid variants (which the D350 is). The DC-DC converter is a single point of failure for the entire 12V electrical system — failure causes complete loss of electrical power, sometimes while driving. We replace the DC-DC converter, timing chain components, injector seals, bearings and gaskets as standard on every AJ300D rebuild.",
+      "Early production D350s (2019-2020) also show electrical injector faults, which we inspect and replace as part of the rebuild."
     ],
-    "source": "Source: Established AJ300D specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: verified via specialist buying guide (l663.guide), independently corroborated, per VRF-landrover-defender.md. Confirmed for AJ300D (D250/D300/D350) MHEV Ingenium variants. P300 (no MHEV) and Octa (BMW's own 48V hardware) explicitly excluded from this specific pattern"
   }
 }

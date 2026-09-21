@@ -1,8 +1,8 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Range Rover Velar D250",
+  "headlineHighlight": "Land Rover Range Rover Velar D250",
   "headlinePost": " Engine",
-  "image": "/variant/sec10_engine.webp",
+  "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
@@ -17,7 +17,7 @@
     {
       "icon": "sliders",
       "label": "Variant",
-      "value": "D250"
+      "value": "Range Rover Velar D250"
     },
     {
       "icon": "fuel",

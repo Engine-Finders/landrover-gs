@@ -1,0 +1,77 @@
+{
+  "kicker": "FREQUENTLY ASKED",
+  "kickerHighlight": "QUESTIONS",
+  "faqLeft": [
+    {
+      "q": "What engine does the Land Rover Range Rover Sport Autobiography Dynamic use?",
+      "a": "It depends on the specification. The Autobiography Dynamic was offered with two engines: the SDV8 — a 4.4-litre V8 diesel — and the supercharged AJ-V8 — a 5.0-litre V8 petrol. Send us your registration and we'll confirm which one your car has."
+    },
+    {
+      "q": "How much does a Land Rover Range Rover Sport Autobiography Dynamic engine rebuild cost?",
+      "a": "Rebuilds start from £4,500 for the SDV8 diesel, or £5,500 for the supercharged AJ-V8. Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+    },
+    {
+      "q": "Which engine code is fitted to my Autobiography Dynamic?",
+      "a": "Enter your registration on this page and we'll confirm whether you have the SDV8 or the AJ-V8 before you're quoted anything."
+    },
+    {
+      "q": "Do you rebuild SDV8 Range Rover Sport Autobiography Dynamic engines?",
+      "a": "Yes. We replace timing chain components, injector seals and gaskets as standard on every SDV8 rebuild."
+    },
+    {
+      "q": "Do you rebuild AJ-V8 Range Rover Sport Autobiography Dynamic engines?",
+      "a": "Yes. We replace timing chains, valve seals and coolant components as standard on every AJ-V8 rebuild."
+    }
+  ],
+  "faqRight": [
+    {
+      "q": "Do you supply used Range Rover Sport Autobiography Dynamic engines?",
+      "a": "Yes, in some cases a matched low-mileage used engine is the right option. Our team will advise honestly once we've matched your registration and understood your situation."
+    },
+    {
+      "q": "Can you recover my Range Rover Sport Autobiography Dynamic if the engine has failed?",
+      "a": "Yes — nationwide recovery is available from £70, and most vehicles are collected within a few hours of booking."
+    },
+    {
+      "q": "How long does a Range Rover Sport Autobiography Dynamic engine rebuild take?",
+      "a": "Most rebuilds are completed within 3-5 working days from the time your car arrives at our workshop."
+    },
+    {
+      "q": "Is rebuilding better than fitting a used engine?",
+      "a": "For most Range Rover Sport owners, yes. A rebuild removes the compatibility risk that comes with an unknown used unit's history, and comes with a 12-month unlimited-mileage warranty — often longer and more comprehensive than what a used engine supplier offers."
+    }
+  ],
+  "form": {
+    "headlinePre": "GET YOUR",
+    "headlineHighlight": "FREE LAND ROVER Range Rover Sport Autobiography Dynamic",
+    "headlinePost": "FIXED-PRICE QUOTE",
+    "fields": {
+      "reg": {
+        "label": "Registration Number",
+        "placeholder": "e.g. YG19 XJL"
+      },
+      "postcode": {
+        "label": "Postcode",
+        "placeholder": "e.g. SS1 1AA"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "e.g. 07XXX XXXXXX"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@example.com"
+      },
+      "enquiry": {
+        "label": "Issue / Enquiry Type",
+        "placeholder": "Select an option"
+      }
+    },
+    "submitLabel": "Get My Fixed-Price Quote",
+    "guarantee": "Most quotes returned within 30 minutes during working hours."
+  }
+}

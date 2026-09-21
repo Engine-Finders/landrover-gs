@@ -7,9 +7,52 @@
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
-      "code": "",
-      "generation": "",
-      "price": "£2,400"
+      "code": "TDV6",
+      "generation": "L322 (2001–2012)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "SDV6",
+      "generation": "L322 (2001–2012)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "TDV6",
+      "generation": "L405 (2012–2021)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "SDV6",
+      "generation": "L405 (2012–2021)",
+      "price": "£2,400",
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "code": "TDV8",
+      "generation": "L322 (2001–2012)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "code": "SDV8",
+      "generation": "L322 (2001–2012)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "code": "TDV8",
+      "generation": "L405 (2012–2021)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "code": "SDV8",
+      "generation": "L405 (2012–2021)",
+      "price": "£4,500",
+      "codeHref": "/landrover-tdv8-sdv8-engine"
     }
   ],
   "notes": [
@@ -24,13 +67,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Range Rover Vogue Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(engine I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Range Rover Vogue Timing Chain & Injector Wear ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The engine is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older engine V6. We replace timing chains, bearings, water pump and gaskets as standard on every engine rebuild.",
-      "Because the Range Rover Vogue uses a completely different engine family from the V8 M178 fitted to the Land Rover 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Range Rover Vogue engines — TDV6, SDV6, TDV8 and SDV8, across the L322 and L405 generations — commonly show timing chain and injector wear over time. This is a well-documented pattern across Land Rover specialist forums and independent garages. We replace the timing chain assembly, injector seals, and gaskets as standard on every rebuild.",
+      "*include_in_hero_hook: yes — Source: extremely well-corroborated across Land Rover specialist forums and independent garages, per VRF-landrover-range-rover.md.*"
     ],
-    "source": "Source: Established engine specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: extremely well-corroborated across Land Rover specialist forums and independent garages, per VRF-landrover-range-rover.md"
   }
 }

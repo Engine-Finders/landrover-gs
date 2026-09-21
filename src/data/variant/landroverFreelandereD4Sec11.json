@@ -1,8 +1,8 @@
 {
-  "image": "/variant/sec11.webp",
+  "image": "/variant/sec11.v2.webp",
   "titlePre": "Land Rover Freelander eD4 ENGINES ",
   "titleHighlight": "BY YEAR",
-  "description": "Land Rover Freelander eD4 has used the same engine throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "description": "Land Rover Freelander eD4 has used the Ford Duratorq throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
   "columns": [
     {
       "icon": "calendar",
@@ -31,67 +31,76 @@
       "generation": "L359",
       "engineCode": "Ford Duratorq",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
     },
     {
       "year": "2007",
       "generation": "L359",
       "engineCode": "Ford Duratorq",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
     },
     {
       "year": "2008",
       "generation": "L359",
       "engineCode": "Ford Duratorq",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
     },
     {
       "year": "2009",
       "generation": "L359",
       "engineCode": "Ford Duratorq",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
     },
     {
       "year": "2010",
       "generation": "L359",
       "engineCode": "Ford Duratorq",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
     },
     {
       "year": "2011",
       "generation": "L359",
       "engineCode": "Ford Duratorq",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
     },
     {
       "year": "2012",
       "generation": "L359",
       "engineCode": "Ford Duratorq",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
     },
     {
       "year": "2013",
       "generation": "L359",
       "engineCode": "Ford Duratorq",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
     },
     {
       "year": "2014",
       "generation": "L359",
       "engineCode": "Ford Duratorq",
       "fuel": "Diesel",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-ford-duratorq-engine"
     }
   ],
   "notice": {
-    "highlight": "The engine",
+    "highlight": "The Ford Duratorq",
     "rest": " has been fitted to every Freelander eD4 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
   }
 }

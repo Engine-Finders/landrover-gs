@@ -1,6 +1,6 @@
 {
   "reviews": {
-    "titlePre": "WHAT MERCEDES ",
+    "titlePre": "WHAT LAND ROVER ",
     "titleHighlight": "Discovery P400 OWNERS SAY",
     "items": [
       {
@@ -48,7 +48,7 @@
     "titlePre": "WE COVER YOUR",
     "titleHighlight": "EXACT VEHICLE",
     "body": "Enter your registration below and we'll confirm your Land Rover Discovery P400 has the AJ300P (Ingenium 3.0L I6), along with an exact rebuild price.",
-    "image": "/variant/sec7.webp",
+    "image": "/variant/sec7.v2.webp",
     "buttonLabel": "Check Fit",
     "ticks": [
       "Fast",
@@ -57,10 +57,10 @@
     ]
   },
   "whyChoose": {
-    "titlePre": "WHY MERCEDES Discovery P400 ",
+    "titlePre": "WHY LAND ROVER Discovery P400 ",
     "titleHighlight": "OWNERS CHOOSE US",
     "items": [
-      "Engine matched using VIN or registration number",
+      "Engine matched using VIN or registration number — confirms your exact AJ300P spec before you're quoted",
       "Genuine specialist workshop — not a broker",
       "Specialist technicians with 10-15 years of experience",
       "We don't swap your engine for an unknown used unit",

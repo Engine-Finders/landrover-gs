@@ -16,10 +16,9 @@
     "cards": [
       {
         "codeHighlight": "AJ300",
-        "codeRest": "",
-        "body": "A 3.0-litre turbocharged inline-six petrol engine fitted to the Range Rover P440e from 2022 to present (L460 generation). This is a plug-in hybrid powertrain combining the AJ300 petrol engine with a 105kW electric motor. The AJ300 engine family is shared across all four PHEV badges — P440e, P460e, P510e and P550e — with output varying by tune. Check Your AJ300 Range Rover P440e → [link to quote form]",
-        "cta": "Check Your AJ300 Range Rover P440e",
-        "codeHref": "/landrover-m256-engine"
+        "codeRest": "(L460)",
+        "body": "A 3.0-litre turbocharged inline-six petrol engine fitted to the Range Rover P440e from 2022 to present (L460 generation). This is a plug-in hybrid powertrain combining the AJ300 petrol engine with a 105kW electric motor. The AJ300 engine family is shared across all four PHEV badges — P440e, P460e, P510e and P550e — with output varying by tune.",
+        "cta": "Check Your AJ300 Range Rover P440e"
       }
     ]
   },
@@ -37,22 +36,22 @@
     "points": [
       {
         "icon": "piston",
-        "text": "Your generation (L460 only)"
+        "text": "Your exact engine code (AJ300) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "Hybrid system condition and specification"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Drivetrain and ancillary specification"
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Range Rover quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover P440e ",

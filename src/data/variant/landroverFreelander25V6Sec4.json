@@ -2,14 +2,14 @@
   "headlinePre": "Land Rover Freelander 2.5 V6",
   "headlineHighlight": "ENGINE OPTIONS",
   "description": "Every Freelander 2.5 V6 is different. That's why we offer the right solution for your engine, your car and your budget.",
-  "topImage": "/variant/sec4.webp",
+  "topImage": "/variant/sec4.v2.webp",
   "cards": [
     {
       "number": "01",
       "icon": "piston",
       "badge": "MOST POPULAR",
       "title": "REBUILDING YOUR FREELANDER 2.5 V6 ENGINE",
-      "body": "Most engine suppliers sell you a used engine of unknown history and hope it matches. We rebuild the engine your Freelander 2.5 V6 already has instead — strip it down, pressure-test it, and replace every worn or damaged component with updated OEM parts. You get a near-new engine with a 12-month unlimited-mileage warranty, without the compatibility risk of an unknown used unit. This is the option most Freelander owners choose, and it's the one we'd recommend for most situations."
+      "body": "Most engine suppliers sell you a used engine of unknown history and hope it matches. We rebuild the engine your Freelander 2.5 V6 already has instead — strip it down, pressure-test it, and replace every worn or damaged component (timing chain, injector seals, bearings, gaskets, DC-DC converter) with updated OEM parts. You get a near-new engine with a 12-month unlimited-mileage warranty, without the compatibility risk of an unknown used unit. This is the option most Freelander 2.5 V6 owners choose, and it's the one we'd recommend for most situations."
     },
     {
       "number": "02",
@@ -30,7 +30,7 @@
       "icon": "engine",
       "badge": "",
       "title": "REMANUFACTURED FREELANDER 2.5 V6 ENGINES",
-      "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers."
+      "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers on the [MISSING: exact engine code not specified in G-BRF]."
     },
     {
       "number": "05",
@@ -50,10 +50,14 @@
   "banner": {
     "image": "/variant/sec3_engine.webp",
     "title": "NOT SURE WHICH OPTION IS RIGHT FOR YOU?",
-    "body": "Enter your registration below and we'll confirm your engine and talk you through the best solution for your Freelander 2.5 V6, honestly.",
+    "body": "Enter your registration below and we'll confirm your [MISSING: exact engine code not specified in G-BRF] and talk you through the best solution for your Freelander 2.5 V6, honestly.",
     "cta": {
       "label": "Ask About Your Options",
       "href": "#quote-form"
     }
+  },
+  "knownIssue": {
+    "title": "Land Rover Freelander 2.5 V6 Known Issues by Engine",
+    "body": ""
   }
 }

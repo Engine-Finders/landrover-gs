@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "BMW M47D20",
-      "generation": "",
-      "price": "£1,900"
+      "generation": "L359 (2006–2014)",
+      "price": "£1,900",
+      "codeHref": "/landrover-m47d20-bmw-sourced-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Freelander TD4 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(BMW M47D20 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Freelander TD4 Timing Chain & Injector Wear ",
+    "titleHighlight": "(L359, BMW M47D20)",
     "paragraphs": [
-      "The BMW M47D20 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older BMW M47D20 V6. We replace timing chains, bearings, water pump and gaskets as standard on every BMW M47D20 rebuild.",
-      "Because the Freelander TD4 uses a completely different engine family from the V8 M178 fitted to the Freelander 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Freelander TD4 has the BMW M47D20 diesel engine — fitted to the L359 generation from 2006 to 2014 — timing chain stretch and injector seal leaks are a well-documented pattern on this engine, shared with BMW 3 and 5 Series models of the same era. We replace the timing chain, bearings and gaskets as standard on every M47D20 rebuild.",
+      "Other Freelander variants use different engines — the 1.8i has the Rover K-Series petrol, the 2.5 V6 is a different petrol unit, and the eD4/SD4 use Ford Duratorq diesels — so this specific issue only affects the TD4 with the BMW M47D20."
     ],
-    "source": "Source: Established BMW M47D20 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: BMW M47 pattern, shared with BMW 3/5 Series of same era, per VRF-landrover-freelander.md. Only the M47D20-fitted TD4 is affected by this specific pattern"
   }
 }

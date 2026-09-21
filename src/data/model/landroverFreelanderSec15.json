@@ -35,7 +35,7 @@
   ],
   "notice": "If your registration year isn't listed, get in touch — we'll confirm availability directly against your reg.",
   "checklistTitlePre": "We Cover Every",
-  "checklistTitleHighlight": "Land Rover C220d Model:",
+  "checklistTitleHighlight": "Land Rover Freelander Model:",
   "checklistLeft": [
     "Land Rover C220d 2016 Engine Rebuild",
     "Land Rover C220d 2017 Engine Rebuild",
@@ -43,5 +43,6 @@
     "Land Rover C220d 2019 Engine Rebuild",
     "Land Rover C220d 2020 Engine Rebuild"
   ],
-  "modelYearRange": "1997–2006 (Freelander 1 / L314):"
+  "modelYearRange": "1997–2006 (Freelander 1 / L314):",
+  "checklistHref": "#quote-form"
 }

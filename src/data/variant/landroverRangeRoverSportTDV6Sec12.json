@@ -41,12 +41,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Sport TDV6 ENGINE SIZES",
+        "title": "LAND ROVER Range Rover Sport TDV6 ENGINE SIZES",
         "item": "Land Rover Range Rover Sport TDV6 3.0 Litre Engine (TDV6 & SDV6, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Sport TDV6 FUEL TYPES",
+        "title": "LAND ROVER Range Rover Sport TDV6 FUEL TYPES",
         "item": "Land Rover Range Rover Sport TDV6 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -63,8 +63,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover Sport SDV6 Engine",
+        "href": "/landrover-range-rover-sport-sdv6-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport TDV8 Engine",
+        "href": "/landrover-range-rover-sport-tdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport SDV8 Engine",
+        "href": "/landrover-range-rover-sport-sdv8-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport HSE Engine",
+        "href": "/landrover-range-rover-sport-hse-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport Autobiography Dynamic Engine",
+        "href": "/landrover-range-rover-sport-autobiography-dynamic-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport SVR Engine",
+        "href": "/landrover-range-rover-sport-svr-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-sport-engines"
   }
 }

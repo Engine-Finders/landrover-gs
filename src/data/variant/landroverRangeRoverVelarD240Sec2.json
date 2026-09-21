@@ -2,12 +2,12 @@
   "headlinePre": "Your ",
   "headlineHighlight": "Land Rover Range Rover Velar D240",
   "headlinePost": " Engine",
-  "image": "/variant/sec10_engine.webp",
+  "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Velar D240"
+      "value": "Land Rover Range Rover Velar D240"
     },
     {
       "icon": "layers",
@@ -17,7 +17,7 @@
     {
       "icon": "sliders",
       "label": "Variant",
-      "value": "Velar D240"
+      "value": "Range Rover Velar D240"
     },
     {
       "icon": "fuel",
@@ -36,7 +36,7 @@
     },
     {
       "icon": "calendar",
-      "label": "Generation",
+      "label": "Generations",
       "value": "L560 (2017–present)"
     },
     {

@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "Ford EcoBoost",
     "titlePost": " ENGINE",
-    "body": "The Ford EcoBoost is a Inline-4 (I4), 2.0L (1,999 cc), Petrol engine used across Land Rover's 3 model range, in production 2013–2019. We rebuild every Ford EcoBoost to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The Ford EcoBoost is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every Ford EcoBoost to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
   },
   "byModel": {
     "image": "/engine/sec9_middle.webp",
@@ -15,19 +15,27 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The Ford EcoBoost is fitted across Discovery Sport, Freelander, Range Rover Evoque — see the full applications table above for exact variants, generations and years.",
+    "body": "The Ford EcoBoost is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
     "lineup": [
       {
-        "label": "Discovery Sport",
-        "code": "L550"
+        "label": "Defender",
+        "code": "L663"
       },
       {
-        "label": "Freelander",
-        "code": "L359"
+        "label": "Discovery",
+        "code": "L462"
       },
       {
-        "label": "Range Rover Evoque",
-        "code": "L538"
+        "label": "Range Rover",
+        "code": "L460"
+      },
+      {
+        "label": "Range Rover Sport",
+        "code": "L461"
+      },
+      {
+        "label": "Range Rover Velar",
+        "code": "L560"
       }
     ]
   },
@@ -49,7 +57,7 @@
       {
         "icon": "calendar",
         "title": "GENERATION",
-        "text": "Identify the correct generation (L550, L359, L538)."
+        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
       },
       {
         "icon": "gears",

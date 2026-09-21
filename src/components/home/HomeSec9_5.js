@@ -69,13 +69,13 @@ export default function HomeSec9_5({ data }) {
               }}
             >
               <div className="relative h-full w-full" style={{ transform: `rotate(${f.rotate}deg)` }}>
-                <Image src={data.partImage} alt="Engine component" fill className="object-contain" sizes="150px" />
+                <Image src={data.partImage} alt="Timing chain, sprockets and bolts from an engine rebuild kit" fill className="object-contain" sizes="150px" />
               </div>
             </div>
           ))}
 
           <div className="animate-float-core absolute inset-[4%] z-10">
-            <Image src={data.engineImage} alt="Land Rover-AMG engine core" fill className="object-contain" sizes="700px" priority={false} />
+            <Image src={data.engineImage} alt="Engine core" fill className="object-contain" sizes="700px" priority={false} />
           </div>
         </div>
       </div>

@@ -17,9 +17,9 @@
       {
         "codeHighlight": "BMW M47D20",
         "codeRest": "",
-        "body": "A 2.0-litre four-cylinder diesel fitted to the Freelander TD4 across the entire L359 generation from 2006 to 2014. Known for timing chain stretch and injector seal leaks over time — see the callout above. We replace the timing chain, bearings and gaskets as standard on every M47D20 rebuild. Check Your M47D20 Freelander TD4 → [link to quote form]",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Freelander TD4 across the entire L359 generation from 2006 to 2014. Known for timing chain stretch and injector seal leaks over time — see the callout above. We replace the timing chain, bearings and gaskets as standard on every M47D20 rebuild.",
         "cta": "Check Your BMW M47D20 Freelander TD4",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-m47d20-bmw-sourced-engine"
       }
     ]
   },
@@ -30,18 +30,18 @@
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
-      "title": "BMW M47D20",
+      "title": "M47",
       "line1": "Confirmed by VIN",
       "line2": "Match Guaranteed"
     },
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact engine code (M47D20) via registration or VIN"
+        "text": "Your exact engine code (BMW M47D20) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "Your generation (L359, 2006–2014)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Freelander quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Freelander TD4 ",
@@ -71,7 +71,8 @@
         "chassis": "L359",
         "years": "2006–2014",
         "engineCode": "BMW M47D20",
-        "fuel": "Diesel"
+        "fuel": "Diesel",
+        "codeHref": "/landrover-m47d20-bmw-sourced-engine"
       }
     ]
   }

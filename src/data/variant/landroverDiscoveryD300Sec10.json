@@ -16,10 +16,10 @@
     "cards": [
       {
         "codeHighlight": "AJ300D",
-        "codeRest": "",
-        "body": "A 3.0-litre inline-six diesel fitted to the Discovery D300 from 2017 to present (D5/L462 generation). This Ingenium diesel shares the same broad timing chain family pattern as other JLR Ingenium diesel applications. We replace timing chain components, injector seals, bearings, and gaskets as standard on every rebuild. Check Your AJ300D Discovery D300 → [link to quote form]",
+        "codeRest": "(D5/L462)",
+        "body": "A 3.0-litre inline-six diesel fitted to the Discovery D300 from 2017 to present (D5/L462 generation). This Ingenium diesel shares the same broad timing chain family pattern as other JLR Ingenium diesel applications. We replace timing chain components, injector seals, bearings, and gaskets as standard on every rebuild.",
         "cta": "Check Your AJ300D Discovery D300",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj300d-engine"
       }
     ]
   },
@@ -41,7 +41,7 @@
       },
       {
         "icon": "car",
-        "text": "Your generation (D5/L462)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +49,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Discovery quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery D300 ",
@@ -71,7 +71,8 @@
         "chassis": "L462",
         "years": "2017–present",
         "engineCode": "AJ300D",
-        "fuel": "Diesel MHEV"
+        "fuel": "Diesel MHEV",
+        "codeHref": "/landrover-aj300d-engine"
       }
     ]
   }

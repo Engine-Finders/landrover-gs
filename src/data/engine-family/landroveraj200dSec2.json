@@ -8,7 +8,7 @@
       {
         "icon": "code",
         "label": "Engine Code",
-        "value": "AJ200D (also 204D, 204DTD)"
+        "value": "AJ200D"
       },
       {
         "icon": "building",
@@ -18,22 +18,22 @@
       {
         "icon": "gear",
         "label": "Configuration",
-        "value": "Inline-4 (I4)"
+        "value": "Inline-6 (I6)"
       },
       {
         "icon": "engine",
         "label": "Capacity",
-        "value": "2.0L (1,999 cc)"
+        "value": "3.0L (2,997 cc)"
       },
       {
         "icon": "oil",
         "label": "Fuel",
-        "value": "Diesel"
+        "value": "Diesel, Diesel MHEV"
       },
       {
         "icon": "calendar",
         "label": "Production Years",
-        "value": "2015–present"
+        "value": "2019–present"
       },
       {
         "icon": "car",
@@ -55,7 +55,7 @@
     "image": "/engine/sec2_bottom.webp",
     "imageMobile": "/engine/sec2_bottom_mobile.webp",
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200",
+    "startingFromPrice": "£2,000",
     "body": "All AJ200D applications use the same 2.0-litre Land Rover four-cylinder engine, so the price tier is consistent across every model it's fitted to. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
     "cta": {
       "label": "Get Your Fixed-Price Quote →",

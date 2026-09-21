@@ -13,32 +13,32 @@
       {
         "icon": "building",
         "label": "Manufacturer",
-        "value": "Land Rover"
+        "value": "Jaguar Land Rover (Ingenium family)"
       },
       {
         "icon": "gear",
         "label": "Configuration",
-        "value": "Inline-4 (I4)"
+        "value": "Inline-6 (I6)"
       },
       {
         "icon": "engine",
         "label": "Capacity",
-        "value": "2.5L (2,495 cc)"
+        "value": "3.0L (2,997 cc)"
       },
       {
         "icon": "oil",
         "label": "Fuel",
-        "value": "Diesel"
+        "value": "Diesel, Diesel MHEV"
       },
       {
         "icon": "calendar",
         "label": "Production Years",
-        "value": "1990–1994"
+        "value": "2019–present"
       },
       {
         "icon": "car",
         "label": "Used In",
-        "value": "1 Land Rover model"
+        "value": "5 Land Rover models"
       }
     ],
     "prompt": {
@@ -55,7 +55,7 @@
     "image": "/engine/sec2_bottom.webp",
     "imageMobile": "/engine/sec2_bottom_mobile.webp",
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200",
+    "startingFromPrice": "£1,900",
     "body": "All 200Tdi applications use the same 2.0-litre Land Rover four-cylinder engine, so the price tier is consistent across every model it's fitted to. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
     "cta": {
       "label": "Get Your Fixed-Price Quote →",

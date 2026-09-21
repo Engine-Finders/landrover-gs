@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "AJ200D (Ingenium)",
-      "generation": "",
-      "price": "£2,800"
+      "generation": "D5/L462 (2017–present)",
+      "price": "£2,800",
+      "codeHref": "/landrover-aj200d-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery D250 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(AJ200D (Ingenium) I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery D250 Timing Chain Wear ",
+    "titleHighlight": "(Ingenium Diesel)",
     "paragraphs": [
-      "The AJ200D (Ingenium) is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older AJ200D (Ingenium) V6. We replace timing chains, bearings, water pump and gaskets as standard on every AJ200D (Ingenium) rebuild.",
-      "Because the Discovery D250 uses a completely different engine family from the V8 M178 fitted to the Discovery 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "Discovery D250 engines with the Ingenium AJ200D 2.0-litre diesel — fitted across the D5/L462 generation — share the same timing chain pattern as other JLR Ingenium diesel models. We replace timing chain components, tensioners, injector seals and gaskets as standard on every AJ200D rebuild.",
+      "Note: given the Defender VRF's DC-DC converter finding on Ingenium MHEV variants, Discovery D5's mild-hybrid diesels likely carry the same risk — this has NOT been independently confirmed for Discovery specifically and should not be stated as fact until checked."
     ],
-    "source": "Source: Established AJ200D (Ingenium) specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist pattern, per G-BRF Land Rover Section 5. DC-DC converter caveat noted per VRF Section 2 — pending confirmation for Discovery specifically"
   }
 }

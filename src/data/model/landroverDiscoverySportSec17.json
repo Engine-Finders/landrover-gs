@@ -8,40 +8,52 @@
   "tabVariants": [
     [
       {
-        "label": "Discovery Sport eD4"
+        "label": "Discovery Sport eD4",
+        "href": "/landrover-discovery-sport-ed4-engines"
       },
       {
-        "label": "Discovery Sport TD4"
+        "label": "Discovery Sport TD4",
+        "href": "/landrover-discovery-sport-td4-engines"
       },
       {
-        "label": "Discovery Sport Si4"
+        "label": "Discovery Sport Si4",
+        "href": "/landrover-discovery-sport-si4-engines"
       },
       {
-        "label": "Discovery Sport P200"
+        "label": "Discovery Sport P200",
+        "href": "/landrover-discovery-sport-p200-engines"
       },
       {
-        "label": "Discovery Sport P250"
+        "label": "Discovery Sport P250",
+        "href": "/landrover-discovery-sport-p250-engines"
       },
       {
-        "label": "Discovery Sport P300"
+        "label": "Discovery Sport P300",
+        "href": "/landrover-discovery-sport-p300e-engines"
       },
       {
-        "label": "Discovery Sport P300e"
+        "label": "Discovery Sport P300e",
+        "href": "/landrover-discovery-sport-p300e-engines"
       },
       {
-        "label": "Discovery Sport D150"
+        "label": "Discovery Sport D150",
+        "href": "/landrover-discovery-sport-d150-engines"
       },
       {
-        "label": "Discovery Sport D165"
+        "label": "Discovery Sport D165",
+        "href": "/landrover-discovery-sport-d165-engines"
       },
       {
-        "label": "Discovery Sport D180"
+        "label": "Discovery Sport D180",
+        "href": "/landrover-discovery-sport-d180-engines"
       },
       {
-        "label": "Discovery Sport D200"
+        "label": "Discovery Sport D200",
+        "href": "/landrover-discovery-sport-d200-engines"
       },
       {
-        "label": "Discovery Sport D240"
+        "label": "Discovery Sport D240",
+        "href": "/landrover-discovery-sport-d240-engines"
       }
     ]
   ],

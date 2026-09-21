@@ -126,7 +126,7 @@ export default function Sec9b({ data }) {
 
           <div
             className="relative mt-6 flex items-center justify-between gap-4 overflow-hidden rounded-2xl px-6 py-4"
-            style={{ background: "rgba(15,15,15,0.85)", border: "1px solid rgba(173,135,92,0.3)" }}
+            style={{ background: "rgba(15,15,15,0.85)", border: "1px solid rgba(96,112,86,0.3)" }}
           >
             <div className="flex min-w-0 items-center gap-3">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-hero-blue">

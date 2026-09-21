@@ -1,68 +1,68 @@
 {
   "gallery": {
     "titlePre": "OUR MOST RECENT",
-    "titleHighlight": "MERCEDES RECOVERIES & REBUILDS",
+    "titleHighlight": "LAND ROVER RECOVERIES & REBUILDS",
     "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection — this is what genuine engine work looks like.",
     "image": "/model/sec12.webp",
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "L-Series (early Di) or BMW M47D20 (later Td4) REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Freelander 2.0 Di / Td4",
+        "model": "Land Rover Freelander 2.0 Di  Td4",
         "status": "WORKSHOP BAY"
       }
     ]
@@ -95,7 +95,7 @@
     "summary": {
       "timeframe": {
         "icon": "clock",
-        "text": "Most Freelander models are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
+        "text": "Most Defender models are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
       },
       "urgency": {
         "icon": "calendar",

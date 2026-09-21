@@ -2,14 +2,14 @@
   "headlinePre": "Land Rover Range Rover P530",
   "headlineHighlight": "ENGINE OPTIONS",
   "description": "Every Range Rover P530 is different. That's why we offer the right solution for your engine, your car and your budget.",
-  "topImage": "/variant/sec4.webp",
+  "topImage": "/variant/sec4.v2.webp",
   "cards": [
     {
       "number": "01",
       "icon": "piston",
       "badge": "MOST POPULAR",
       "title": "REBUILDING YOUR RANGE ROVER P530 ENGINE",
-      "body": "Most engine suppliers sell you a used engine of unknown history and hope it matches. We rebuild the engine your Range Rover P530 already has instead — strip it down, pressure-test it, and replace every worn or damaged component (timing chains, valve seals, coolant components, bearings) with updated OEM parts. You get a near-new engine with a 12-month unlimited-mileage warranty, without the compatibility risk of an unknown used unit. This is the option most Range Rover P530 owners choose, and it's the one we'd recommend for most situations."
+      "body": "Most engine suppliers sell you a used engine of unknown history and hope it matches. We rebuild the engine your Range Rover P530 already has instead — strip it down, pressure-test it, and replace every worn or damaged component (timing chain, injector seals, bearings, gaskets, DC-DC converter) with updated OEM parts. You get a near-new engine with a 12-month unlimited-mileage warranty, without the compatibility risk of an unknown used unit. This is the option most Range Rover P530 owners choose, and it's the one we'd recommend for most situations."
     },
     {
       "number": "02",
@@ -30,7 +30,7 @@
       "icon": "engine",
       "badge": "",
       "title": "REMANUFACTURED RANGE ROVER P530 ENGINES",
-      "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers on the BMW N63 V8."
+      "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers on the BMW N63."
     },
     {
       "number": "05",
@@ -57,7 +57,7 @@
     }
   },
   "knownIssue": {
-    "title": "Range Rover P530 N63 Hot-Vee Pattern (L460, BMW N63)",
+    "title": "Land Rover Range Rover P530 Known Issues by Engine",
     "body": ""
   }
 }

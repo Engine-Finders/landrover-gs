@@ -1,6 +1,6 @@
 {
   "reviews": {
-    "titlePre": "WHAT MERCEDES ",
+    "titlePre": "WHAT LAND ROVER ",
     "titleHighlight": "Defender P300e OWNERS SAY",
     "items": [
       {
@@ -48,7 +48,7 @@
     "titlePre": "WE COVER YOUR",
     "titleHighlight": "EXACT VEHICLE",
     "body": "Enter your registration below and we'll confirm your Land Rover Defender P300e has the AJ200P, along with an exact rebuild price.",
-    "image": "/variant/sec7.webp",
+    "image": "/variant/sec7.v2.webp",
     "buttonLabel": "Check Fit",
     "ticks": [
       "Fast",
@@ -57,10 +57,10 @@
     ]
   },
   "whyChoose": {
-    "titlePre": "WHY MERCEDES Defender P300e ",
+    "titlePre": "WHY LAND ROVER Defender P300e ",
     "titleHighlight": "OWNERS CHOOSE US",
     "items": [
-      "Engine matched using VIN or registration number",
+      "Engine matched using VIN or registration number — confirms your P300e spec before you're quoted",
       "Genuine specialist workshop — not a broker",
       "Specialist technicians with 10-15 years of experience",
       "We don't swap your engine for an unknown used unit",
@@ -68,7 +68,7 @@
       "12 month unlimited-mileage warranty",
       "All engine ancillaries serviced as part of the rebuild",
       "Trade & public enquiries welcome",
-      "Dedicated advisor from quote to fit"
+      "Dedicated advisor from quote to fit The Defender P300e is a relatively recent addition to the Defender range with no widely-reported engine issue confirmed for this specific application — we still recommend a full inspection before any long journey."
     ]
   }
 }

@@ -71,8 +71,10 @@ export default function VariantSec5({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
         <div className="relative mx-auto max-w-6xl">
-          <div className="flex items-center gap-3">
-            <LandRoverStripe className="h-10 w-16 shrink-0" />
+          <div className="flex items-start gap-3">
+            <span className="h2 flex h-[1.05em] shrink-0 items-center" aria-hidden="true">
+              <LandRoverStripe className="h-[0.85em] w-[1.35em] shrink-0" />
+            </span>
             <h2 className="h2 uppercase">
               {data.titlePre}
               <span className="text-hero-blue">{data.titleHighlight}</span>

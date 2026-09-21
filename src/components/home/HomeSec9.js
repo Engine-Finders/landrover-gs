@@ -35,7 +35,7 @@ export default function HomeSec9({ data }) {
         </div>
 
         <div className="mt-6 flex flex-col items-center gap-3">
-          <div className="w-fit rounded-sm p-0.5" style={{ background: "linear-gradient(90deg, #fff 0%, #ad875c 55%, #8c6c46 100%)" }}>
+          <div className="w-fit rounded-sm p-0.5" style={{ background: "linear-gradient(90deg, #fff 0%, #607056 55%, #3b402b 100%)" }}>
             <a
               href={data.cta.href}
               className="block whitespace-nowrap rounded-[3px] bg-hero-blue px-8 py-2.5 text-center text-sm font-bold text-white transition-colors hover:bg-hero-dark hover:text-hero-blue"
@@ -89,7 +89,7 @@ export default function HomeSec9({ data }) {
         </div>
 
         <div className="mt-8 flex items-center justify-center gap-4">
-          <div className="rounded-sm p-0.5" style={{ background: "linear-gradient(90deg, #fff 0%, #ad875c 55%, #8c6c46 100%)" }}>
+          <div className="rounded-sm p-0.5" style={{ background: "linear-gradient(90deg, #fff 0%, #607056 55%, #3b402b 100%)" }}>
             <a
               href={data.cta.href}
               className="block rounded-[3px] bg-hero-blue px-6 py-2.5 text-sm font-bold text-white transition-colors hover:bg-hero-dark hover:text-hero-blue"

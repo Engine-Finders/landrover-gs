@@ -1,0 +1,79 @@
+{
+  "about": {
+    "image": "/variant/sec10_top_div.webp",
+    "imageMobile": "/variant/sec10_top_div_mobile.webp",
+    "titlePre": "ABOUT THE",
+    "titleHighlight": "Land Rover Defender 200Tdi ENGINE",
+    "paragraphs": [
+      "The Defender 200Tdi was fitted to classic 90/110/130 models from approximately 1990 to 1994. It's a 2.5-litre inline-four diesel with mechanical injection — a robust, simple engine that's become a favourite among classic Defender owners for its character and relative ease of maintenance. While the engine itself is generally durable, cylinder head cracking and cooling system neglect are the well-documented weak points to watch, along with the critical timing belt interval. The 200Tdi was succeeded by the 300Tdi, which shares the same broad engine family but with a different injection system and some component revisions."
+    ],
+    "boldParagraph": "We continue to rebuild and replace 200Tdi engines for every Defender 200Tdi on the road."
+  },
+  "codes": {
+    "titlePre": "Land Rover Defender 200Tdi ENGINE ",
+    "titleHighlight": "CODES",
+    "image": "/variant/sec10_engine.webp",
+    "cards": [
+      {
+        "codeHighlight": "200Tdi",
+        "codeRest": "",
+        "body": "A 2.5-litre inline-four diesel fitted to the Defender 90/110/130 from 1990 to 1994 (classic generation). Known for cylinder head cracking and cooling system neglect as the key wear patterns — see the callout above. We replace the timing belt, inspect the cylinder head, and service the cooling system as standard on every 200Tdi rebuild.",
+        "cta": "Check Your 200Tdi Defender 200Tdi",
+        "codeHref": "/landrover-200tdi-engine"
+      }
+    ]
+  },
+  "compatibility": {
+    "titlePre": "Land Rover Defender 200Tdi ENGINE ",
+    "titleHighlight": "COMPATIBILITY",
+    "intro": "The 200Tdi is a mechanical injection diesel — a very different engine from the later Td5 electronic unit or the modern L663 Ingenium diesels. When it comes to rebuilds, compatibility is straightforward on the engine itself, but the ancillary setup, injector pump, and timing components need to match your specific classic 90/110/130 configuration. Before we quote or supply anything, we confirm:",
+    "image": "/variant/sec10_third_div.webp",
+    "imageMobile": "/variant/sec10_third_div_mobile.webp",
+    "badge": {
+      "title": "M47",
+      "line1": "Confirmed by VIN",
+      "line2": "Match Guaranteed"
+    },
+    "points": [
+      {
+        "icon": "piston",
+        "text": "Your exact engine code (200Tdi) via registration or VIN"
+      },
+      {
+        "icon": "car",
+        "text": "Your generation (L663)"
+      },
+      {
+        "icon": "gears",
+        "text": "Drivetrain and ancillary specification"
+      },
+      {
+        "icon": "code",
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
+      }
+    ],
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+  },
+  "applications": {
+    "titlePre": "Land Rover Defender 200Tdi ",
+    "titleHighlight": "APPLICATIONS BY GENERATION",
+    "image": "/variant/landrover_car.webp",
+    "columns": [
+      "Generation",
+      "Chassis",
+      "Years",
+      "Engine Code",
+      "Fuel"
+    ],
+    "rows": [
+      {
+        "generation": "Classic 90/110/130",
+        "chassis": "Classic 90/110/130",
+        "years": "1990–1994",
+        "engineCode": "200Tdi",
+        "fuel": "Diesel",
+        "codeHref": "/landrover-200tdi-engine"
+      }
+    ]
+  }
+}

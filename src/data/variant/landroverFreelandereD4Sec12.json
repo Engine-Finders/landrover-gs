@@ -32,12 +32,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Freelander eD4 ENGINE SIZES",
-        "item": "Land Rover Freelander eD4 3.0 Litre Engine (engine, I6)"
+        "title": "LAND ROVER Freelander eD4 ENGINE SIZES",
+        "item": "Land Rover Freelander eD4 3.0 Litre Engine (Ford Duratorq, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Freelander eD4 FUEL TYPES",
+        "title": "LAND ROVER Freelander eD4 FUEL TYPES",
         "item": "Land Rover Freelander eD4 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -54,8 +54,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Freelander 1.8i Engine",
+        "href": "/landrover-freelander-1-8i-engines"
+      },
+      {
+        "label": "Land Rover Freelander 2.0 Di / Td4 Engine",
+        "href": "/landrover-freelander-2-0-di-td4-engines"
+      },
+      {
+        "label": "Land Rover Freelander 2.5 V6 Engine",
+        "href": "/landrover-freelander-2-5-v6-engines"
+      },
+      {
+        "label": "Land Rover Freelander TD4 Engine",
+        "href": "/landrover-freelander-td4-engines"
+      },
+      {
+        "label": "Land Rover Freelander Si4 Engine",
+        "href": "/landrover-freelander-si4-engines"
+      },
+      {
+        "label": "Land Rover Freelander SD4 Engine",
+        "href": "/landrover-freelander-sd4-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/freelander-engines"
   }
 }

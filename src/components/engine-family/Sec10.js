@@ -11,9 +11,9 @@ function HexIcon({ icon, boxClass, iconClass }) {
       <svg
         viewBox="0 0 100 100"
         className="absolute inset-0 h-full w-full"
-        style={{ filter: "drop-shadow(0 0 10px rgba(173,135,92,0.9)) drop-shadow(0 0 4px rgba(173,135,92,0.9))" }}
+        style={{ filter: "drop-shadow(0 0 10px rgba(96,112,86,0.9)) drop-shadow(0 0 4px rgba(96,112,86,0.9))" }}
       >
-        <polygon points={HEX_POINTS} fill="#0d0d0d" stroke="#ad875c" strokeWidth="4" />
+        <polygon points={HEX_POINTS} fill="#0d0d0d" stroke="#607056" strokeWidth="4" />
       </svg>
       <div className="absolute inset-0 flex items-center justify-center">
         <Icon name={icon} className={`${iconClass} text-white`} />
@@ -64,7 +64,7 @@ export default function Sec10({ data }) {
             <div
               key={c.title}
               className="glass-card-dark w-[78%] shrink-0 snap-center rounded-2xl p-5 text-center"
-              style={{ boxShadow: "0 20px 45px -20px rgba(173,135,92,0.35)" }}
+              style={{ boxShadow: "0 20px 45px -20px rgba(96,112,86,0.35)" }}
             >
               <HexIcon icon={c.icon} boxClass="h-20 w-20" iconClass="h-11 w-11" />
               <p className="mt-3 text-sm font-extrabold uppercase tracking-wide text-hero-blue">{c.title}</p>
@@ -116,10 +116,10 @@ export default function Sec10({ data }) {
                   <span className="pointer-events-none absolute -left-4 top-0 h-full w-px" aria-hidden="true">
                     <span
                       className="absolute inset-0"
-                      style={{ background: "linear-gradient(to bottom, transparent 0%, rgba(173,135,92,0.6) 12%, rgba(173,135,92,0.6) 88%, transparent 100%)" }}
+                      style={{ background: "linear-gradient(to bottom, transparent 0%, rgba(96,112,86,0.6) 12%, rgba(96,112,86,0.6) 88%, transparent 100%)" }}
                     />
-                    <span className="absolute -left-[3px] -top-1 h-2 w-2 rounded-full bg-hero-blue" style={{ boxShadow: "0 0 8px rgba(173,135,92,0.9)" }} />
-                    <span className="absolute -bottom-1 -left-[3px] h-2 w-2 rounded-full bg-hero-blue" style={{ boxShadow: "0 0 8px rgba(173,135,92,0.9)" }} />
+                    <span className="absolute -left-[3px] -top-1 h-2 w-2 rounded-full bg-hero-blue" style={{ boxShadow: "0 0 8px rgba(96,112,86,0.9)" }} />
+                    <span className="absolute -bottom-1 -left-[3px] h-2 w-2 rounded-full bg-hero-blue" style={{ boxShadow: "0 0 8px rgba(96,112,86,0.9)" }} />
                   </span>
                 )}
                 <HexIcon icon={c.icon} boxClass="h-32 w-32" iconClass="h-16 w-16" />
@@ -155,7 +155,7 @@ export default function Sec10({ data }) {
         </div>
 
         <div className="relative mt-4 aspect-square w-full overflow-hidden bg-(--theme-light-bg) md:hidden">
-          <Image src={data.typical.imageMobile} alt="the engine exploded engine components" fill className="object-contain" sizes="100vw" />
+          <Image src={data.typical.imageMobile} alt="Land Rover exploded engine components" fill className="object-contain" sizes="100vw" />
         </div>
 
         <div className="relative px-4 pb-7 md:hidden">
@@ -188,7 +188,7 @@ export default function Sec10({ data }) {
         {/* ===== desktop — full-bleed exploded-parts photo on the right ===== */}
         <div className="relative hidden overflow-hidden md:block">
           <div className="absolute inset-0">
-            <Image src={data.typical.image} alt="the engine exploded engine components" fill className="object-cover" sizes="100vw" />
+            <Image src={data.typical.image} alt="Land Rover exploded engine components" fill className="object-cover" sizes="100vw" />
             <div
               className="absolute inset-0"
               style={{ background: "linear-gradient(to right, var(--theme-light-bg) 0%, var(--theme-light-bg) 42%, rgba(241,237,232,0.85) 54%, rgba(241,237,232,0.3) 68%, transparent 82%)" }}

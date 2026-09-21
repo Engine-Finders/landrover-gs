@@ -17,9 +17,9 @@
       {
         "codeHighlight": "AJ300D",
         "codeRest": "",
-        "body": "A 3.0-litre inline-six diesel fitted to the Defender D250 from 2020 to present (L663 generation). Known for timing chain wear (shared with other Ingenium diesel engines), DC-DC converter failure on MHEV variants, and early production (2019-2020) electrical injector faults. We replace timing chains, injector seals, bearings, gaskets and the DC-DC converter as standard on every AJ300D rebuild. Check Your AJ300D Defender D250 → [link to quote form]",
+        "body": "A 3.0-litre inline-six diesel fitted to the Defender D250 from 2020 to present (L663 generation). Known for timing chain wear (shared with other Ingenium diesel engines), DC-DC converter failure on MHEV variants, and early production (2019-2020) electrical injector faults. We replace timing chains, injector seals, bearings, gaskets and the DC-DC converter as standard on every AJ300D rebuild.",
         "cta": "Check Your AJ300D Defender D250",
-        "codeHref": "/landrover-m256-engine"
+        "codeHref": "/landrover-aj300d-engine"
       }
     ]
   },
@@ -71,7 +71,8 @@
         "chassis": "L663",
         "years": "2020–present",
         "engineCode": "AJ300D",
-        "fuel": "Diesel MHEV"
+        "fuel": "Diesel MHEV",
+        "codeHref": "/landrover-aj300d-engine"
       }
     ]
   }

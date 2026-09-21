@@ -33,12 +33,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Discovery D300 ENGINE SIZES",
+        "title": "LAND ROVER Discovery D300 ENGINE SIZES",
         "item": "Land Rover Discovery D300 3.0 Litre Engine (AJ300D, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Discovery D300 FUEL TYPES",
+        "title": "LAND ROVER Discovery D300 FUEL TYPES",
         "item": "Land Rover Discovery D300 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -55,8 +55,37 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Discovery D250 Engine",
+        "href": "/landrover-discovery-d250-engines"
+      },
+      {
+        "label": "Land Rover Discovery D350 Engine",
+        "href": "/landrover-discovery-d350-engines"
+      },
+      {
+        "label": "Land Rover Discovery P360 Engine",
+        "href": "/landrover-discovery-p360-engines"
+      },
+      {
+        "label": "Land Rover Discovery P400 Engine",
+        "href": "/landrover-discovery-p400-engines"
+      },
+      {
+        "label": "Land Rover Discovery P400e Engine",
+        "href": "/landrover-discovery-p400e-engines"
+      },
+      {
+        "label": "Land Rover Discovery TDV6 Engine",
+        "href": "/landrover-discovery-tdv6-engines"
+      },
+      {
+        "label": "Land Rover Discovery SDV6 Engine",
+        "href": "/landrover-discovery-sdv6-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/discovery-engines"
   }
 }

@@ -24,62 +24,62 @@
   ],
   "cards": [
     {
-      "model": "Land Rover C220d",
+      "model": "Range Rover Velar D180",
       "icon": "truck",
       "tag": "Recovery"
     },
     {
-      "model": "Land Rover C300d",
+      "model": "Range Rover Velar D200",
       "icon": "search",
       "tag": "Diagnostics"
     },
     {
-      "model": "Land Rover C200",
+      "model": "Range Rover Velar D240",
       "icon": "gear",
       "tag": "Stripped Engine"
     },
     {
-      "model": "Land Rover C63 Land Rover",
+      "model": "Range Rover Velar D250",
       "icon": "chain",
       "tag": "Timing Chain Replacement"
     },
     {
-      "model": "Land Rover C180",
+      "model": "Range Rover Velar D300",
       "icon": "wrench",
       "tag": "In For Rebuild"
     },
     {
-      "model": "Land Rover C250d",
+      "model": "Range Rover Velar P250",
       "icon": "gear",
       "tag": "Rebuild In Progress"
     },
     {
-      "model": "Land Rover C220d",
+      "model": "Range Rover Velar P300",
       "icon": "truck",
       "tag": "Nationwide Recovery"
     },
     {
-      "model": "Land Rover C300",
+      "model": "Range Rover Velar P340",
       "icon": "gear",
       "tag": "Engine Stripped"
     },
     {
-      "model": "Land Rover C350",
+      "model": "Range Rover Velar P400",
       "icon": "tech",
       "tag": "Testing & Checks"
     },
     {
-      "model": "Land Rover C43 Land Rover",
+      "model": "Range Rover Velar P400e",
       "icon": "check",
       "tag": "Ready For Collection"
     },
     {
-      "model": "Land Rover C63 Land Rover",
+      "model": "Range Rover Velar SVAutobiography Dynamic Edition",
       "icon": "gear",
-      "tag": "M156 Rebuild"
+      "tag": "Engine Rebuild"
     },
     {
-      "model": "Land Rover C250",
+      "model": "Range Rover Velar D180",
       "icon": "wrench",
       "tag": "Workshop Bay"
     }

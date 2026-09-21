@@ -17,7 +17,7 @@ export default function ModelSec6({ data }) {
 
         <div
           className="glass-card-dark grid grid-cols-4 divide-x divide-white/15 rounded-2xl border border-hero-blue/50 px-2 py-2"
-          style={{ boxShadow: "0 0 14px rgba(173,135,92,0.5)" }}
+          style={{ boxShadow: "0 0 14px rgba(96,112,86,0.5)" }}
         >
           {data.metrics.map((m) => (
             <div key={m.label} className="flex flex-col items-center gap-1.5 px-1 text-center">
@@ -35,7 +35,7 @@ export default function ModelSec6({ data }) {
       <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
         <div
           className="glass-card-dark relative mx-auto grid max-w-6xl grid-cols-4 divide-x divide-white/25 rounded-2xl border border-hero-blue/50 px-6 py-6"
-          style={{ boxShadow: "0 0 18px rgba(173,135,92,0.5)" }}
+          style={{ boxShadow: "0 0 18px rgba(96,112,86,0.5)" }}
         >
           {data.metrics.map((m) => (
             <div key={m.label} className="flex flex-col items-center gap-2 px-4 text-center">

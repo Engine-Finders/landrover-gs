@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Freelander 2.0 Di / Td4",
+  "headlineHighlight": "Land Rover Freelander 2.0 Di  Td4",
   "headlinePost": " Engine",
-  "image": "/variant/sec10_engine.webp",
+  "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Freelander 2.0 Di / Td4"
+      "value": "Land Rover Freelander 2.0 Di  Td4"
     },
     {
       "icon": "layers",
@@ -17,7 +17,7 @@
     {
       "icon": "sliders",
       "label": "Variant",
-      "value": "2.0 Di / Td4"
+      "value": "Freelander 2.0 Di  Td4"
     },
     {
       "icon": "fuel",
@@ -47,7 +47,7 @@
   ],
   "lookup": {
     "title": "Not sure which engine you have?",
-    "body": "The Freelander 2.0 Di / Td4 uses the L-Series (early Di) or BMW M47D20 (later Td4) 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "body": "The Freelander 2.0 Di  Td4 uses the L-Series (early Di) or BMW M47D20 (later Td4) 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
     "badges": [
       {
         "icon": "shield-check",

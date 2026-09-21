@@ -7,25 +7,28 @@
   "cardImage": "/model/engine_trim.webp",
   "cards": [
     {
-      "titlePre": "6-Cylinder Diesel (TDV6 / SDV6 / Ingenium I6)",
+      "titlePre": "6-Cylinder Diesel",
       "titleHighlight": "",
-      "code": "",
+      "code": "(TDV6 / SDV6 / Ingenium I6)",
       "price": "£2,400",
-      "featured": false
+      "featured": false,
+      "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
-      "titlePre": "V8 Diesel (TDV8 / SDV8)",
+      "titlePre": "V8 Diesel",
       "titleHighlight": "",
-      "code": "",
+      "code": "(TDV8 / SDV8)",
       "price": "£4,500",
-      "featured": false
+      "featured": false,
+      "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
-      "titlePre": "V8 Supercharged (SVR)",
+      "titlePre": "V8 Supercharged",
       "titleHighlight": "",
-      "code": "",
+      "code": "(SVR)",
       "price": "£5,500",
-      "featured": false
+      "featured": false,
+      "codeHref": "/landrover-aj-v8-engine"
     },
     {
       "titlePre": "Nationwide Recovery",

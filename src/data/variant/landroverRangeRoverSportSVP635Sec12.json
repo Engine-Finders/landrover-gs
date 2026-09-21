@@ -2,7 +2,7 @@
   "yearBanner": {
     "titlePre": "WE COVER ",
     "titleHighlight": "EVERY",
-    "titlePost": " Land Rover Range Rover Sport SV / P635 MODEL YEAR:",
+    "titlePost": " Land Rover Range Rover Sport SV  P635 MODEL YEAR:",
     "years": [
       "2023",
       "2024",
@@ -10,12 +10,12 @@
       "2026"
     ],
     "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
-    "vehicleLabel": "Land Rover Range Rover Sport SV / P635"
+    "vehicleLabel": "Land Rover Range Rover Sport SV  P635"
   },
   "costs": {
-    "titlePre": "Land Rover Range Rover Sport SV / P635 ENGINE ",
+    "titlePre": "Land Rover Range Rover Sport SV  P635 ENGINE ",
     "titleHighlight": "COSTS",
-    "intro": "A Land Rover Range Rover Sport SV / P635 engine rebuild starts from",
+    "intro": "A Land Rover Range Rover Sport SV  P635 engine rebuild starts from",
     "price": "£6,500",
     "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
     "image": "/variant/sec10_engine.webp",
@@ -27,30 +27,51 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Range Rover Sport SV / P635 ENGINE SIZES",
-        "item": "Land Rover Range Rover Sport SV / P635 3.0 Litre Engine (BMW S68, I6)"
+        "title": "LAND ROVER Range Rover Sport SV  P635 ENGINE SIZES",
+        "item": "Land Rover Range Rover Sport SV  P635 3.0 Litre Engine (BMW S68, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Range Rover Sport SV / P635 FUEL TYPES",
-        "item": "Land Rover Range Rover Sport SV / P635 Petrol Mild Hybrid Engine Rebuilds"
+        "title": "LAND ROVER Range Rover Sport SV  P635 FUEL TYPES",
+        "item": "Land Rover Range Rover Sport SV  P635 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
   },
   "bottomInfo": {
     "timeframe": {
       "icon": "clock",
-      "textPre": "Most Land Rover Range Rover Sport SV / P635 engine rebuilds are completed within ",
+      "textPre": "Most Land Rover Range Rover Sport SV  P635 engine rebuilds are completed within ",
       "textHighlight": "3-5 working days",
       "textPost": "."
     },
-    "recoveryText": "Nationwide recovery and collection available for all Land Rover Range Rover Sport SV / P635 models.",
+    "recoveryText": "Nationwide recovery and collection available for all Land Rover Range Rover Sport SV  P635 models.",
     "image": "/variant/landrover_car.webp"
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Range Rover Sport P400 Engine",
+        "href": "/landrover-range-rover-sport-p400-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport D300 Engine",
+        "href": "/landrover-range-rover-sport-d300-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P440e Engine",
+        "href": "/landrover-range-rover-sport-p440e-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport P460e Engine",
+        "href": "/landrover-range-rover-sport-p460e-engines"
+      },
+      {
+        "label": "Land Rover Range Rover Sport SVR Engine",
+        "href": "/landrover-range-rover-sport-svr-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/range-rover-sport-engines"
   }
 }

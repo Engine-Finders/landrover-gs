@@ -15,11 +15,11 @@
     "image": "/variant/sec10_engine.webp",
     "cards": [
       {
-        "codeHighlight": "Ingenium AJ200P + electric motor",
+        "codeHighlight": "Ingenium AJ200P + Electric Motor",
         "codeRest": "",
-        "body": "The P300e pairs the 2.0-litre Ingenium AJ200P petrol engine with an electric motor integrated into the drivetrain. Fitted to the Discovery Sport from 2020 onwards across the L550 generation. The petrol engine itself shares the Ingenium petrol family architecture with the P200 and P250 variants, though PHEV-specific considerations — hybrid cooling systems, high-voltage safety procedures, and drivetrain integration — require specialist handling beyond a standard petrol-engine rebuild. Check Your Discovery Sport P300e → [link to quote form]",
-        "cta": "Check Your Ingenium AJ200P + electric motor Discovery Sport P300e",
-        "codeHref": "/landrover-m256-engine"
+        "body": "The P300e pairs the 2.0-litre Ingenium AJ200P petrol engine with an electric motor integrated into the drivetrain. Fitted to the Discovery Sport from 2020 onwards across the L550 generation. The petrol engine itself shares the Ingenium petrol family architecture with the P200 and P250 variants, though PHEV-specific considerations — hybrid cooling systems, high-voltage safety procedures, and drivetrain integration — require specialist handling beyond a standard petrol-engine rebuild.",
+        "cta": "Check Your Ingenium AJ200P + Electric Motor Discovery Sport P300e",
+        "codeHref": "/landrover-aj200p-engine"
       }
     ]
   },
@@ -37,22 +37,22 @@
     "points": [
       {
         "icon": "piston",
-        "text": "Your exact vehicle specification via registration or VIN"
+        "text": "Your exact engine code (Ingenium AJ200P + electric motor) via registration or VIN"
       },
       {
         "icon": "car",
-        "text": "The L550 generation (2020–present)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
-        "text": "Hybrid system health and any related component considerations"
+        "text": "Drivetrain and ancillary specification"
       },
       {
         "icon": "code",
-        "text": "Ancillary and electronics compatibility specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Discovery Sport quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport P300e ",
@@ -71,7 +71,8 @@
         "chassis": "L550",
         "years": "2020–present",
         "engineCode": "Ingenium AJ200P + electric",
-        "fuel": "Petrol PHEV"
+        "fuel": "Petrol PHEV",
+        "codeHref": "/landrover-aj200p-engine"
       }
     ]
   }

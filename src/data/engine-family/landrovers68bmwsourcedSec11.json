@@ -13,7 +13,7 @@
     "startingFromPrice": "£2,200"
   },
   "comparison": {
-    "titlePre": "MERCEDES-BENZ S68 (BMW-sourced)",
+    "titlePre": "LAND ROVER S68 (BMW-sourced)",
     "titleHighlight": "REBUILD VS REPLACEMENT VS USED",
     "cards": [
       {
@@ -43,21 +43,21 @@
   "options": [
     {
       "icon": "refresh",
-      "titlePre": "MERCEDES-BENZ S68 (BMW-sourced)",
+      "titlePre": "LAND ROVER S68 (BMW-sourced)",
       "titleHighlight": "RECONDITIONED",
       "titlePost": " ENGINES",
       "body": "\"Reconditioned\" is the term many owners search for when they mean the same thing as a rebuild — a full strip-down, inspection, and replacement of worn parts rather than a straight swap. If that's what you're after, our rebuild service is exactly that."
     },
     {
       "icon": "shield-check",
-      "titlePre": "MERCEDES-BENZ S68 (BMW-sourced)",
+      "titlePre": "LAND ROVER S68 (BMW-sourced)",
       "titleHighlight": "REFURBISHED",
       "titlePost": " ENGINES",
       "body": "\"Refurbished\" often describes the same process from a different angle — restoring your existing engine to full working condition rather than replacing it outright. Our rebuild covers this."
     },
     {
       "icon": "cog",
-      "titlePre": "MERCEDES-BENZ S68 (BMW-sourced)",
+      "titlePre": "LAND ROVER S68 (BMW-sourced)",
       "titleHighlight": "REMANUFACTURED",
       "titlePost": " ENGINES",
       "body": "Some owners specifically search for a \"remanufactured\" engine, expecting a unit rebuilt to original specification with updated components. That's consistent with what our rebuild service delivers, regardless of which of the six S68 (BMW-sourced)-equipped models you drive."
@@ -118,7 +118,7 @@
   "quote": {
     "icon": "note",
     "headlinePre": "GET YOUR FREE",
-    "headlineHighlight": "MERCEDES-BENZ S68 (BMW-sourced)",
+    "headlineHighlight": "LAND ROVER S68 (BMW-sourced)",
     "headlinePost": "FIXED-PRICE QUOTE",
     "subtext": "Most quotes returned within 30 minutes during working hours.",
     "fields": {

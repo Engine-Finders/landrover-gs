@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Icon from "@/components/reusable/Icon";
+import GbBadge from "@/components/reusable/GbBadge";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
 function FaqCard({ item, isOpen, onToggle }) {
@@ -77,10 +78,10 @@ export default function ModelSec18({ data }) {
         {/* quote form */}
         <form
           onSubmit={handleSubmit}
-          className="relative mt-8 overflow-hidden rounded-2xl p-5"
+          className="theme-dark relative mt-8 overflow-hidden rounded-2xl p-5"
           style={{
-            background: "linear-gradient(135deg, #15100a 0%, #0a0806 100%)",
-            boxShadow: "0 0 0 1px rgba(173,135,92,0.3), 0 25px 60px -20px rgba(173,135,92,0.4)",
+            background: "linear-gradient(135deg, #141813 0%, #0a0c09 100%)",
+            boxShadow: "0 0 0 1px rgba(96,112,86,0.3), 0 25px 60px -20px rgba(96,112,86,0.4)",
           }}
         >
           <LandRoverStripe className="absolute right-5 top-5 h-6 w-12" />
@@ -100,9 +101,7 @@ export default function ModelSec18({ data }) {
                 {data.form.fields.reg.label} <span className="text-bmw-red">*</span>
               </span>
               <div className="mt-2 flex h-13 overflow-hidden rounded-lg border border-white/15 bg-white/5">
-                <span className="flex w-14 shrink-0 items-center justify-center bg-hero-blue text-sm font-extrabold text-white">
-                  GB
-                </span>
+                <GbBadge className="w-14" />
                 <input
                   type="text"
                   placeholder={data.form.fields.reg.placeholder}
@@ -141,8 +140,8 @@ export default function ModelSec18({ data }) {
             type="submit"
             className="mt-6 flex w-full items-center justify-center gap-2 rounded-lg py-4 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-110"
             style={{
-              background: "linear-gradient(135deg, var(--color-hero-gold) 0%, #8c6c46 100%)",
-              boxShadow: "0 8px 20px rgba(173,135,92,0.4)",
+              background: "linear-gradient(135deg, var(--color-hero-gold) 0%, #4c5a45 100%)",
+              boxShadow: "0 8px 20px rgba(96,112,86,0.4)",
             }}
           >
             {data.form.submitLabel} <span aria-hidden>→</span>
@@ -183,10 +182,10 @@ export default function ModelSec18({ data }) {
         {/* quote form */}
         <form
           onSubmit={handleSubmit}
-          className="relative mt-8 overflow-hidden rounded-2xl p-8"
+          className="theme-dark relative mt-8 overflow-hidden rounded-2xl p-8"
           style={{
-            background: "linear-gradient(135deg, #15100a 0%, #0a0806 100%)",
-            boxShadow: "0 0 0 1px rgba(173,135,92,0.3), 0 25px 60px -20px rgba(173,135,92,0.4)",
+            background: "linear-gradient(135deg, #141813 0%, #0a0c09 100%)",
+            boxShadow: "0 0 0 1px rgba(96,112,86,0.3), 0 25px 60px -20px rgba(96,112,86,0.4)",
           }}
         >
           <LandRoverStripe className="absolute right-6 top-6 h-8 w-16" />
@@ -202,9 +201,7 @@ export default function ModelSec18({ data }) {
                 {data.form.fields.reg.label} <span className="text-bmw-red">*</span>
               </span>
               <div className="mt-2 flex h-13 overflow-hidden rounded-lg border border-white/15 bg-white/5">
-                <span className="flex w-14 shrink-0 items-center justify-center bg-hero-blue text-sm font-extrabold text-white">
-                  GB
-                </span>
+                <GbBadge className="w-14" />
                 <input
                   type="text"
                   placeholder={data.form.fields.reg.placeholder}
@@ -243,8 +240,8 @@ export default function ModelSec18({ data }) {
             type="submit"
             className="mt-6 flex w-full items-center justify-center gap-2 rounded-lg py-4 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-110"
             style={{
-              background: "linear-gradient(135deg, var(--color-hero-gold) 0%, #8c6c46 100%)",
-              boxShadow: "0 8px 20px rgba(173,135,92,0.4)",
+              background: "linear-gradient(135deg, var(--color-hero-gold) 0%, #4c5a45 100%)",
+              boxShadow: "0 8px 20px rgba(96,112,86,0.4)",
             }}
           >
             {data.form.submitLabel} <span aria-hidden>→</span>

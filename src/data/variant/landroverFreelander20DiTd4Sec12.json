@@ -2,7 +2,7 @@
   "yearBanner": {
     "titlePre": "WE COVER ",
     "titleHighlight": "EVERY",
-    "titlePost": " Land Rover Freelander 2.0 Di / Td4 MODEL YEAR:",
+    "titlePost": " Land Rover Freelander 2.0 Di  Td4 MODEL YEAR:",
     "years": [
       "1997",
       "1998",
@@ -16,12 +16,12 @@
       "2006"
     ],
     "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
-    "vehicleLabel": "Land Rover Freelander 2.0 Di / Td4"
+    "vehicleLabel": "Land Rover Freelander 2.0 Di  Td4"
   },
   "costs": {
-    "titlePre": "Land Rover Freelander 2.0 Di / Td4 ENGINE ",
+    "titlePre": "Land Rover Freelander 2.0 Di  Td4 ENGINE ",
     "titleHighlight": "COSTS",
-    "intro": "A Land Rover Freelander 2.0 Di / Td4 engine rebuild starts from",
+    "intro": "A Land Rover Freelander 2.0 Di  Td4 engine rebuild starts from",
     "price": "£1,900",
     "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
     "image": "/variant/sec10_engine.webp",
@@ -33,30 +33,55 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Freelander 2.0 Di / Td4 ENGINE SIZES",
-        "item": "Land Rover Freelander 2.0 Di / Td4 3.0 Litre Engine (L-Series (early Di) or BMW M47D20 (later Td4), I6)"
+        "title": "LAND ROVER Freelander 2.0 Di  Td4 ENGINE SIZES",
+        "item": "Land Rover Freelander 2.0 Di  Td4 3.0 Litre Engine (L-Series (early Di) or BMW M47D20 (later Td4), I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Freelander 2.0 Di / Td4 FUEL TYPES",
-        "item": "Land Rover Freelander 2.0 Di / Td4 Petrol Mild Hybrid Engine Rebuilds"
+        "title": "LAND ROVER Freelander 2.0 Di  Td4 FUEL TYPES",
+        "item": "Land Rover Freelander 2.0 Di  Td4 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
   },
   "bottomInfo": {
     "timeframe": {
       "icon": "clock",
-      "textPre": "Most Land Rover Freelander 2.0 Di / Td4 engine rebuilds are completed within ",
+      "textPre": "Most Land Rover Freelander 2.0 Di  Td4 engine rebuilds are completed within ",
       "textHighlight": "3-5 working days",
       "textPost": "."
     },
-    "recoveryText": "Nationwide recovery and collection available for all Land Rover Freelander 2.0 Di / Td4 models.",
+    "recoveryText": "Nationwide recovery and collection available for all Land Rover Freelander 2.0 Di  Td4 models.",
     "image": "/variant/landrover_car.webp"
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Freelander 1.8i Engine",
+        "href": "/landrover-freelander-1-8i-engines"
+      },
+      {
+        "label": "Land Rover Freelander 2.5 V6 Engine",
+        "href": "/landrover-freelander-2-5-v6-engines"
+      },
+      {
+        "label": "Land Rover Freelander TD4 (L359) Engine",
+        "href": "/landrover-freelander-td4-engines"
+      },
+      {
+        "label": "Land Rover Freelander eD4 Engine",
+        "href": "/landrover-freelander-ed4-engines"
+      },
+      {
+        "label": "Land Rover Freelander Si4 Engine",
+        "href": "/landrover-freelander-si4-engines"
+      },
+      {
+        "label": "Land Rover Freelander SD4 Engine",
+        "href": "/landrover-freelander-sd4-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/freelander-engines"
   }
 }

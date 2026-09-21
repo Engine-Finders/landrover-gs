@@ -8,37 +8,47 @@
   "tabVariants": [
     [
       {
-        "label": "Range Rover Sport TDV6"
+        "label": "Range Rover Sport TDV6",
+        "href": "/landrover-range-rover-sport-tdv6-engines"
       },
       {
-        "label": "Range Rover Sport TDV8"
+        "label": "Range Rover Sport TDV8",
+        "href": "/landrover-range-rover-sport-tdv8-engines"
       },
       {
-        "label": "Range Rover Sport SDV6"
+        "label": "Range Rover Sport SDV6",
+        "href": "/landrover-range-rover-sport-sdv6-engines"
       },
       {
-        "label": "Range Rover Sport SDV8"
+        "label": "Range Rover Sport SDV8",
+        "href": "/landrover-range-rover-sport-sdv8-engines"
       },
       {
-        "label": "Range Rover Sport HSE"
+        "label": "Range Rover Sport HSE",
+        "href": "/landrover-range-rover-sport-hse-engines"
       },
       {
-        "label": "Range Rover Sport Autobiography Dynamic"
+        "label": "Range Rover Sport Autobiography Dynamic",
+        "href": "/landrover-range-rover-sport-autobiography-dynamic-engines"
       },
       {
-        "label": "Range Rover Sport SVR"
+        "label": "Range Rover Sport SVR",
+        "href": "/landrover-range-rover-sport-svr-engines"
       },
       {
-        "label": "Range Rover Sport P400"
+        "label": "Range Rover Sport P400",
+        "href": "/landrover-range-rover-sport-p400-engines"
       },
       {
-        "label": "Range Rover Sport P460e"
+        "label": "Range Rover Sport P460e",
+        "href": "/landrover-range-rover-sport-p460e-engines"
       },
       {
         "label": "Range Rover Sport P525"
       },
       {
-        "label": "Range Rover Sport P550e"
+        "label": "Range Rover Sport P550e",
+        "href": "/landrover-range-rover-p550e-engines"
       }
     ]
   ],

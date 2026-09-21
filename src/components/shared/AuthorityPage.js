@@ -50,7 +50,7 @@ function FramedImage({ src, alt, className = "" }) {
       <div className="absolute -inset-3 -z-10 rounded-2xl border border-hero-blue/40" aria-hidden="true" />
       <div
         className="absolute -inset-3 -z-10 rounded-2xl"
-        style={{ background: "linear-gradient(135deg, rgba(173,135,92,0.18), transparent 60%)" }}
+        style={{ background: "linear-gradient(135deg, rgba(96,112,86,0.18), transparent 60%)" }}
         aria-hidden="true"
       />
       <div className="relative aspect-4/3 overflow-hidden rounded-xl">
@@ -73,7 +73,7 @@ function ImageBand({ src, alt, kicker, title, cta }) {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(90deg, rgba(10,10,10,0.9) 0%, rgba(10,10,10,0.6) 45%, rgba(173,135,92,0.25) 100%)",
+              "linear-gradient(90deg, rgba(10,10,10,0.9) 0%, rgba(10,10,10,0.6) 45%, rgba(96,112,86,0.25) 100%)",
           }}
         />
       </div>
@@ -148,7 +148,7 @@ function Blocks({ blocks }) {
             <div
               key={i}
               className="card-glare relative overflow-hidden rounded-2xl border border-hero-blue/30 bg-white p-5"
-              style={{ boxShadow: "0 16px 40px -18px rgba(173,135,92,0.4)" }}
+              style={{ boxShadow: "0 16px 40px -18px rgba(96,112,86,0.4)" }}
             >
               <span className="absolute left-0 top-0 h-full w-1 bg-hero-blue" aria-hidden="true" />
               {b.heading ? (

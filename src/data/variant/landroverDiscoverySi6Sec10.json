@@ -17,9 +17,8 @@
       {
         "codeHighlight": "AJ-V6",
         "codeRest": "",
-        "body": "A 3.0-litre V6 petrol fitted to the Discovery Si6 from 2004 to 2016, across both the D3 and D4 generations. No specific known issue confirmed for this application — it's considered a generally reliable petrol V6. Check Your AJ-V6 Discovery Si6 → [link to quote form]",
-        "cta": "Check Your AJ-V6 Discovery Si6",
-        "codeHref": "/landrover-m256-engine"
+        "body": "A 3.0-litre V6 petrol fitted to the Discovery Si6 from 2004 to 2016, across both the D3 and D4 generations. No specific known issue confirmed for this application — it's considered a generally reliable petrol V6.",
+        "cta": "Check Your AJ-V6 Discovery Si6"
       }
     ]
   },
@@ -41,7 +40,7 @@
       },
       {
         "icon": "car",
-        "text": "Your generation (D3/L319 or D4/L319 facelift)"
+        "text": "Your generation (L663)"
       },
       {
         "icon": "gears",
@@ -49,10 +48,10 @@
       },
       {
         "icon": "code",
-        "text": "Any electronics or ECU considerations specific to your exact build"
+        "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Discovery quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Si6 ",

@@ -36,12 +36,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Discovery Si6 ENGINE SIZES",
+        "title": "LAND ROVER Discovery Si6 ENGINE SIZES",
         "item": "Land Rover Discovery Si6 3.0 Litre Engine (AJ-V6, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Discovery Si6 FUEL TYPES",
+        "title": "LAND ROVER Discovery Si6 FUEL TYPES",
         "item": "Land Rover Discovery Si6 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -58,8 +58,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Discovery TDV6 Engine",
+        "href": "/landrover-discovery-tdv6-engines"
+      },
+      {
+        "label": "Land Rover Discovery SDV6 Engine",
+        "href": "/landrover-discovery-sdv6-engines"
+      },
+      {
+        "label": "Land Rover Discovery TDV8 Engine",
+        "href": "/landrover-discovery-tdv8-engines"
+      },
+      {
+        "label": "Land Rover Discovery SDV8 Engine",
+        "href": "/landrover-discovery-sdv8-engines"
+      },
+      {
+        "label": "Land Rover Discovery D250 Engine",
+        "href": "/landrover-discovery-d250-engines"
+      },
+      {
+        "label": "Land Rover Discovery D300 Engine",
+        "href": "/landrover-discovery-d300-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/discovery-engines"
   }
 }

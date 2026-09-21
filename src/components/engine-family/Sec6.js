@@ -88,7 +88,7 @@ export default function Sec6({ data }) {
               <div
                 key={r.name}
                 className="glow-card--sm relative flex min-h-56 w-[82%] shrink-0 snap-center flex-col overflow-hidden rounded-2xl p-5"
-                style={{ background: "rgba(13,13,13,0.95)", border: "1px solid rgba(173,135,92,0.35)", boxShadow: "0 15px 35px -20px rgba(0,0,0,0.5)" }}
+                style={{ background: "rgba(13,13,13,0.95)", border: "1px solid rgba(96,112,86,0.35)", boxShadow: "0 15px 35px -20px rgba(0,0,0,0.5)" }}
               >
                 <div className="relative flex items-center justify-between">
                   <Stars />
@@ -153,7 +153,7 @@ export default function Sec6({ data }) {
                 <div
                   key={r.name}
                   className="glow-card--sm relative flex min-h-64 flex-col overflow-hidden rounded-xl p-4"
-                  style={{ background: "rgba(13,13,13,0.95)", border: "1px solid rgba(173,135,92,0.35)", boxShadow: "0 15px 35px -20px rgba(0,0,0,0.5)" }}
+                  style={{ background: "rgba(13,13,13,0.95)", border: "1px solid rgba(96,112,86,0.35)", boxShadow: "0 15px 35px -20px rgba(0,0,0,0.5)" }}
                 >
                   <div className="relative flex items-center justify-between">
                     <Stars />

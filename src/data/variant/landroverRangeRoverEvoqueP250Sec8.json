@@ -1,68 +1,68 @@
 {
   "gallery": {
     "titlePre": "OUR MOST RECENT",
-    "titleHighlight": "MERCEDES RECOVERIES & REBUILDS",
+    "titleHighlight": "LAND ROVER RECOVERIES & REBUILDS",
     "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection — this is what genuine engine work looks like.",
     "image": "/model/sec12.webp",
     "items": [
       {
         "icon": "truck",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "Ingenium AJ200P REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Range Rover Evoque P250",
+        "model": "Land Rover Range Rover Evoque P250",
         "status": "WORKSHOP BAY"
       }
     ]
@@ -95,7 +95,7 @@
     "summary": {
       "timeframe": {
         "icon": "clock",
-        "text": "Most Evoque models are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
+        "text": "Most Defender models are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
       },
       "urgency": {
         "icon": "calendar",

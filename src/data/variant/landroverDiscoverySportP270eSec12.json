@@ -1,0 +1,79 @@
+{
+  "yearBanner": {
+    "titlePre": "WE COVER ",
+    "titleHighlight": "EVERY",
+    "titlePost": " Land Rover Discovery Sport P270e MODEL YEAR:",
+    "years": [
+      "[MISSING: introduction year]",
+      "Present"
+    ],
+    "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
+    "vehicleLabel": "Land Rover Discovery Sport P270e"
+  },
+  "costs": {
+    "titlePre": "Land Rover Discovery Sport P270e ENGINE ",
+    "titleHighlight": "COSTS",
+    "intro": "A Land Rover Discovery Sport P270e engine rebuild starts from",
+    "price": "£2,000",
+    "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
+    "image": "/variant/sec10_engine.webp",
+    "warranty": {
+      "line1": "12 MONTH",
+      "line2": "UNLIMITED-MILEAGE",
+      "line3": "WARRANTY"
+    },
+    "subCards": [
+      {
+        "icon": "engine",
+        "title": "LAND ROVER Discovery Sport P270e ENGINE SIZES",
+        "item": "Land Rover Discovery Sport P270e 3.0 Litre Engine (1.5L I3 petrol + electric, I6)"
+      },
+      {
+        "icon": "fuel",
+        "title": "LAND ROVER Discovery Sport P270e FUEL TYPES",
+        "item": "Land Rover Discovery Sport P270e Petrol Mild Hybrid Engine Rebuilds"
+      }
+    ]
+  },
+  "bottomInfo": {
+    "timeframe": {
+      "icon": "clock",
+      "textPre": "Most Land Rover Discovery Sport P270e engine rebuilds are completed within ",
+      "textHighlight": "3-5 working days",
+      "textPost": "."
+    },
+    "recoveryText": "Nationwide recovery and collection available for all Land Rover Discovery Sport P270e models.",
+    "image": "/variant/landrover_car.webp"
+  },
+  "related": {
+    "title": "RELATED LAND ROVER ENGINES",
+    "links": [
+      {
+        "label": "Land Rover Discovery Sport D165 Engine",
+        "href": "/landrover-discovery-sport-d165-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport D200 Engine",
+        "href": "/landrover-discovery-sport-d200-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport P200 Engine",
+        "href": "/landrover-discovery-sport-p200-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport P250 Engine",
+        "href": "/landrover-discovery-sport-p250-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport P300e Engine",
+        "href": "/landrover-discovery-sport-p300e-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport D150 Engine",
+        "href": "/landrover-discovery-sport-d150-engines"
+      }
+    ],
+    "viewAll": "View All Land Rover Engines",
+    "viewAllHref": "/discovery-sport-engines"
+  }
+}

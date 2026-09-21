@@ -31,12 +31,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Discovery Sport P200 ENGINE SIZES",
+        "title": "LAND ROVER Discovery Sport P200 ENGINE SIZES",
         "item": "Land Rover Discovery Sport P200 3.0 Litre Engine (Ingenium AJ200P, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Discovery Sport P200 FUEL TYPES",
+        "title": "LAND ROVER Discovery Sport P200 FUEL TYPES",
         "item": "Land Rover Discovery Sport P200 Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -53,8 +53,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Discovery Sport D165 Engine",
+        "href": "/landrover-discovery-sport-d165-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport D200 Engine",
+        "href": "/landrover-discovery-sport-d200-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport P250 Engine",
+        "href": "/landrover-discovery-sport-p250-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport P300e Engine",
+        "href": "/landrover-discovery-sport-p300e-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport eD4 Engine",
+        "href": "/landrover-discovery-sport-ed4-engines"
+      },
+      {
+        "label": "Land Rover Discovery Sport TD4 Engine",
+        "href": "/landrover-discovery-sport-td4-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/discovery-sport-engines"
   }
 }

@@ -37,12 +37,12 @@
     "subCards": [
       {
         "icon": "engine",
-        "title": "MERCEDES Defender 300Tdi ENGINE SIZES",
+        "title": "LAND ROVER Defender 300Tdi ENGINE SIZES",
         "item": "Land Rover Defender 300Tdi 3.0 Litre Engine (300Tdi, I6)"
       },
       {
         "icon": "fuel",
-        "title": "MERCEDES Defender 300Tdi FUEL TYPES",
+        "title": "LAND ROVER Defender 300Tdi FUEL TYPES",
         "item": "Land Rover Defender 300Tdi Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
@@ -59,8 +59,33 @@
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
-    "links": [],
+    "links": [
+      {
+        "label": "Land Rover Defender Td5 Engine",
+        "href": "/landrover-defender-td5-engines"
+      },
+      {
+        "label": "Land Rover Defender 200Tdi Engine",
+        "href": "/landrover-defender-200tdi-engines"
+      },
+      {
+        "label": "Land Rover Defender D200 Engine",
+        "href": "/landrover-defender-d200-engines"
+      },
+      {
+        "label": "Land Rover Defender D250 Engine",
+        "href": "/landrover-defender-d250-engines"
+      },
+      {
+        "label": "Land Rover Defender D300 Engine",
+        "href": "/landrover-defender-d300-engines"
+      },
+      {
+        "label": "Land Rover Defender P400 Engine",
+        "href": "/landrover-defender-p400-engines"
+      }
+    ],
     "viewAll": "View All Land Rover Engines",
-    "viewAllHref": "/engines"
+    "viewAllHref": "/defender-engines"
   }
 }

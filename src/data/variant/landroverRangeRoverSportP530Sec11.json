@@ -1,8 +1,8 @@
 {
-  "image": "/variant/sec11.webp",
+  "image": "/variant/sec11.v2.webp",
   "titlePre": "Land Rover Range Rover Sport P530 ENGINES ",
   "titleHighlight": "BY YEAR",
-  "description": "Land Rover Range Rover Sport P530 has used the same engine throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
+  "description": "Land Rover Range Rover Sport P530 has used the BMW N63 throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
   "columns": [
     {
       "icon": "calendar",
@@ -31,39 +31,44 @@
       "generation": "L461",
       "engineCode": "BMW N63",
       "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-n63-engine"
     },
     {
       "year": "2023",
       "generation": "L461",
       "engineCode": "BMW N63",
       "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-n63-engine"
     },
     {
       "year": "2024",
       "generation": "L461",
       "engineCode": "BMW N63",
       "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-n63-engine"
     },
     {
       "year": "2025",
       "generation": "L461",
       "engineCode": "BMW N63",
       "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-n63-engine"
     },
     {
       "year": "2026",
       "generation": "L461",
       "engineCode": "BMW N63",
       "fuel": "Petrol",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-n63-engine"
     }
   ],
   "notice": {
-    "highlight": "The engine",
+    "highlight": "The BMW N63",
     "rest": " has been fitted to every Range Rover Sport P530 since launch — if your registration year isn't listed above, get in touch and we'll confirm availability directly against your reg."
   }
 }

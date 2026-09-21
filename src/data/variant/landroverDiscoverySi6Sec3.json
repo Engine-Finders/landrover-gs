@@ -8,7 +8,12 @@
   "cards": [
     {
       "code": "AJ-V6",
-      "generation": "",
+      "generation": "D3/L319 (2004–2009)",
+      "price": "£2,200"
+    },
+    {
+      "code": "AJ-V6",
+      "generation": "D4/L319 facelift (2009–2016)",
       "price": "£2,200"
     }
   ],
@@ -24,13 +29,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Discovery Si6 Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(AJ-V6 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Discovery Si6 Known Issues by Engine ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The AJ-V6 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older AJ-V6 V6. We replace timing chains, bearings, water pump and gaskets as standard on every AJ-V6 rebuild.",
-      "Because the Discovery Si6 uses a completely different engine family from the V8 M178 fitted to the Discovery 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Discovery Si6 has the AJ-V6 (L663 generation):",
+      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ-V6 rebuild."
     ],
-    "source": "Source: Established AJ-V6 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
   }
 }

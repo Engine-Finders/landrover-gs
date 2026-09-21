@@ -8,8 +8,9 @@
   "cards": [
     {
       "code": "S68B44T0",
-      "generation": "",
-      "price": "£6,500"
+      "generation": "L663 (2024–present)",
+      "price": "£6,500",
+      "codeHref": "/landrover-s68-bmw-sourced-engine"
     }
   ],
   "notes": [
@@ -24,13 +25,13 @@
     "href": "#quote-form"
   },
   "warning": {
-    "bgImage": "/variant/sec3.webp",
-    "titlePre": "Land Rover Defender Octa Oil Leaks & Coolant System Wear ",
-    "titleHighlight": "(S68B44T0 I6)",
+    "bgImage": "/variant/sec3.v2.webp",
+    "titlePre": "Land Rover Defender Octa Known Issues by Engine ",
+    "titleHighlight": "",
     "paragraphs": [
-      "The S68B44T0 is a sophisticated 3.0-litre inline-six with an integrated starter-generator and electric auxiliary compressor — a more modern and efficient design than the older S68B44T0 V6. We replace timing chains, bearings, water pump and gaskets as standard on every S68B44T0 rebuild.",
-      "Because the Defender Octa uses a completely different engine family from the V8 M178 fitted to the Defender 63 and GT 63 S, parts and rebuild specifications don't cross over between them."
+      "If your Defender Octa has the S68B44T0 (L663 generation):",
+      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every S68B44T0 rebuild."
     ],
-    "source": "Source: Established S68B44T0 specialist pattern — timing chain, bearing and gasket wear across integrated-starter-generator inline-six units."
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
   }
 }

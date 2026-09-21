@@ -1,8 +1,8 @@
 {
-  "image": "/variant/sec11.webp",
+  "image": "/variant/sec11.v2.webp",
   "titlePre": "Land Rover Defender P400e ENGINES ",
   "titleHighlight": "BY YEAR",
-  "description": "Land Rover Defender P400e has used the AJ300P + electric motor throughout (L663 (2020 only, 110 only — discontinued)). If you're unsure of your exact spec, we'll confirm it before you book.",
+  "description": "Land Rover Defender P400e has used the AJ300P + electric motor throughout. If you're unsure of your exact spec, we'll confirm it before you book.",
   "columns": [
     {
       "icon": "calendar",
@@ -31,7 +31,8 @@
       "generation": "L663 110",
       "engineCode": "AJ300P + electric motor",
       "fuel": "Petrol Plug-in Hybrid",
-      "service": "Rebuild / Replacement"
+      "service": "Rebuild / Replacement",
+      "codeHref": "/landrover-aj300p-engine"
     }
   ],
   "notice": {

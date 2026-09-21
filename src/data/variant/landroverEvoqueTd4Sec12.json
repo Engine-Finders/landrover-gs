@@ -1,0 +1,67 @@
+{
+  "yearBanner": {
+    "titlePre": "WE COVER ",
+    "titleHighlight": "EVERY",
+    "titlePost": " Land Rover Evoque TD4 MODEL YEAR:",
+    "years": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "footer": "If your registration year isn't listed above, get in touch — we'll confirm availability directly against your reg.",
+    "vehicleLabel": "Land Rover Evoque TD4"
+  },
+  "costs": {
+    "titlePre": "Land Rover Evoque TD4 ENGINE ",
+    "titleHighlight": "COSTS",
+    "intro": "A Land Rover Evoque TD4 engine rebuild starts from",
+    "price": "£2,200",
+    "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes.",
+    "image": "/variant/sec10_engine.webp",
+    "warranty": {
+      "line1": "12 MONTH",
+      "line2": "UNLIMITED-MILEAGE",
+      "line3": "WARRANTY"
+    },
+    "subCards": [
+      {
+        "icon": "engine",
+        "title": "LAND ROVER Evoque TD4 ENGINE SIZES",
+        "item": "Land Rover Evoque TD4 3.0 Litre Engine (Ford Duratorq, I6)"
+      },
+      {
+        "icon": "fuel",
+        "title": "LAND ROVER Evoque TD4 FUEL TYPES",
+        "item": "Land Rover Evoque TD4 Petrol Mild Hybrid Engine Rebuilds"
+      }
+    ]
+  },
+  "bottomInfo": {
+    "timeframe": {
+      "icon": "clock",
+      "textPre": "Most Land Rover Evoque TD4 engine rebuilds are completed within ",
+      "textHighlight": "3-5 working days",
+      "textPost": "."
+    },
+    "recoveryText": "Nationwide recovery and collection available for all Land Rover Evoque TD4 models.",
+    "image": "/variant/landrover_car.webp"
+  },
+  "related": {
+    "title": "RELATED LAND ROVER ENGINES",
+    "links": [
+      {
+        "label": "Land Rover Evoque D180 Engine",
+        "href": "/landrover-range-rover-velar-d180-engines"
+      },
+      {
+        "label": "Land Rover Evoque P250 Engine",
+        "href": "/landrover-range-rover-velar-p250-engines"
+      }
+    ],
+    "viewAll": "View All Land Rover Engines",
+    "viewAllHref": "/range-rover-evoque-engines"
+  }
+}

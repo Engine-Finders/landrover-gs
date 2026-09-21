@@ -23,12 +23,12 @@
       {
         "icon": "engine",
         "label": "Capacity",
-        "value": "3.0L (2,995 cc)"
+        "value": "3.0L (2,997 cc)"
       },
       {
         "icon": "oil",
         "label": "Fuel",
-        "value": "Petrol MHEV, Petrol PHEV"
+        "value": "Diesel, Diesel MHEV"
       },
       {
         "icon": "calendar",
@@ -55,7 +55,7 @@
     "image": "/engine/sec2_bottom.webp",
     "imageMobile": "/engine/sec2_bottom_mobile.webp",
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200",
+    "startingFromPrice": "£3,200",
     "body": "All AJ300P applications use the same 2.0-litre Land Rover four-cylinder engine, so the price tier is consistent across every model it's fitted to. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
     "cta": {
       "label": "Get Your Fixed-Price Quote →",
