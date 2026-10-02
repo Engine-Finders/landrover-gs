@@ -71,26 +71,21 @@ export default function ModelSec16({ data }) {
         </div>
 
         {/* services available */}
-        <div className="relative mt-2 rounded-t-3xl bg-(--color-light-surface) px-4 pb-16 pt-6">
+        <div className="relative mt-2 overflow-hidden rounded-t-3xl bg-(--color-light-surface) px-3 pb-3 pt-6">
           <SectionHeader icon="cog" title={data.services.title} dark={false} />
 
-          <div className="mt-5 grid grid-cols-5 divide-x divide-black/10">
-            {data.services.items.map((s) => (
-              <div key={s.label} className="flex flex-col items-center gap-1.5 px-1 text-center">
-                <Icon name={s.icon} className="h-8 w-8 shrink-0 text-hero-blue" />
-                <p className="label-text font-semibold leading-tight text-[#101828]">{s.label}</p>
-              </div>
-            ))}
-          </div>
-
-          <div
-            className="pointer-events-none absolute bottom-0 right-0 flex h-14 gap-1.5"
-            style={{ transform: "skewX(-25deg)", transformOrigin: "bottom right" }}
-            aria-hidden="true"
-          >
-            <span className="h-full w-6" style={{ background: "var(--color-bmw-blue)" }} />
-            <span className="h-full w-6" style={{ background: "var(--color-bmw-violet)" }} />
-            <span className="h-full w-6" style={{ background: "var(--color-bmw-red)" }} />
+          {/* BMW mobile ref (S-16): tight 5-col row, short 2-line labels, "(where suitable)" as small subtext */}
+          <div className="mt-5 grid grid-cols-5 items-start divide-x divide-black/10">
+            {data.services.items.map((s) => {
+              const [main, note] = s.label.split(/\s*(\(.*\))\s*$/);
+              return (
+                <div key={s.label} className="flex min-w-0 flex-col items-center gap-2 px-1 text-center">
+                  <Icon name={s.icon} className="h-7 w-7 shrink-0 text-hero-blue" />
+                  <p className="text-[11px] font-medium leading-tight text-[#101828] [hyphens:auto]">{main}</p>
+                  {note && <p className="-mt-1 text-[9px] leading-tight text-[#4a5568]">{note}</p>}
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
