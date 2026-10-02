@@ -3,14 +3,22 @@
     "titlePre": "Land Rover TDV6 SDV6",
     "titleHighlight": "ENGINE REBUILD",
     "titlePost": " COST",
-    "image": "/engine/sec11_top.webp",
-    "imageMobile": "/engine/sec11_top_mobile.webp",
+    "image": "/engine/sec10_rebuild_cost.jpg",
+    "imageMobile": "/engine/sec10_rebuild_cost_mv2.webp",
     "paragraphs": [
-      "A Land Rover TDV6 SDV6 engine rebuild starts from £3,600, regardless of which of the six models it's fitted to — the price tier is set by the engine, not the badge on the boot. A full replacement engine and fitting service is also available.",
-      "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
+      "Service\tTypical Starting Point"
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,400"
+    "startingFromPrice": "£2,400",
+    "priceFactors": [
+      "Extent of internal damage (crankshaft condition is critical)",
+      "Crankshaft condition",
+      "Timing chain condition",
+      "Cylinder/head condition",
+      "Turbocharger condition",
+      "Labour required",
+      "Submit your registration for a fixed-price quote within 30 minutes."
+    ]
   },
   "comparison": {
     "titlePre": "LAND ROVER TDV6 SDV6",
@@ -148,5 +156,6 @@
       }
     },
     "submitLabel": "Submit Enquiry"
-  }
+  },
+  "appsCount": 3
 }

@@ -61,7 +61,7 @@ export function businessGraph() {
       {
         "@type": ["AutoRepair", "LocalBusiness"],
         "@id": AUTOREPAIR_ID,
-        name: `${BUSINESS.name} – Land Rover-Benz Engine Rebuild Specialists`,
+        name: `${BUSINESS.name} – Land Rover Engine Rebuild Specialists`,
         url: SITE_URL,
         telephone: BUSINESS.telephone,
         email: BUSINESS.email,
@@ -74,7 +74,7 @@ export function businessGraph() {
         aggregateRating: BUSINESS.aggregateRating,
         sameAs: BUSINESS.sameAs,
         parentOrganization: { "@id": ORG_ID },
-        brand: { "@type": "Brand", name: "Land Rover-Benz" },
+        brand: { "@type": "Brand", name: "Land Rover" },
       },
       {
         "@type": "WebSite",
@@ -100,7 +100,7 @@ export function serviceSchema({ name, description, path, price, serviceType }) {
     "@type": "Service",
     "@id": `${url}#service`,
     name,
-    serviceType: serviceType || "Land Rover-Benz Engine Rebuild & Replacement",
+    serviceType: serviceType || "Land Rover Engine Rebuild & Replacement",
     url,
     provider: { "@id": AUTOREPAIR_ID },
     areaServed: { "@type": "Country", name: "United Kingdom" },

@@ -1,74 +1,101 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "M47D20 (BMW-Sourced)",
     "titlePost": " ENGINE",
-    "body": "The M47D20 (BMW-Sourced) is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every M47D20 (BMW-Sourced) to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The M47D20 is a BMW-sourced 2.0-litre turbocharged diesel engine, used in Land Rover applications between 2000 and 2006. It's an inline-four common-rail diesel, also found in BMW 3 Series and 5 Series of the same era. In Land Rover form, it appears in the Defender Td4 and Freelander 1 TD4, where it replaced earlier diesel options and offered improved refinement and efficiency."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER M47D20 (BMW-Sourced)",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The M47D20 (BMW-Sourced) is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "In the Defender (L316), the M47D20 was fitted as the Td4 between 2002 and 2006. In the Freelander 1 (L314), it was fitted as the TD4 between 2000 and 2006 — one of the engine options during that model's production run.",
     "lineup": [
       {
         "label": "Defender",
-        "code": "L663"
+        "code": "L316"
       },
       {
-        "label": "Discovery",
-        "code": "L462"
-      },
-      {
-        "label": "Range Rover",
-        "code": "L460"
-      },
-      {
-        "label": "Range Rover Sport",
-        "code": "L461"
-      },
-      {
-        "label": "Range Rover Velar",
-        "code": "L560"
+        "label": "Freelander",
+        "code": "L314"
       }
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER M47D20 (BMW-Sourced)",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the M47D20 (BMW-Sourced) is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "The M47D20 is a BMW engine, not a JLR-designed engine. While the base engine is shared with BMW applications, the specific ancillaries and mounting differ by Land Rover application. Registration/VIN matching is required — M47D20 variants differ by power output (82 kW / 112 hp) and the specific vehicle installation.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "2000–2006 (Land Rover applications)"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "M47D20 (BMW-Sourced)"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Defender L316, Freelander L314"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover M47D20 (BMW-Sourced)",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "M47D20 in the Defender (L316) — Td4 (2002–2006)",
+        "model": "Defender",
+        "chassis": "L316",
+        "years": "2002–2006",
+        "variant": "Td4",
+        "body": "The M47D20 in the Defender is one of the applications we work on regularly. It was fitted as the Td4 between 2002 and 2006.",
+        "price": "£1,900",
+        "ctaLabel": "Check your Defender M47D20",
+        "generation": "Defender",
+        "powertrain": "Diesel",
+        "href": "/landrover-defender-td4-engines",
+        "title": "M47D20 (BMW-Sourced) in the Defender",
+        "subtitle": "(L316, 2002–2006)"
+      },
+      {
+        "heading": "M47D20 in the Freelander (L314) — TD4 (2000–2006)",
+        "model": "Freelander",
+        "chassis": "L314",
+        "years": "2000–2006",
+        "variant": "TD4",
+        "body": "The M47D20 in the Freelander is one of the applications we work on regularly. It was fitted as the TD4 between 2000 and 2006.",
+        "price": "£1,900",
+        "ctaLabel": "Check your Freelander M47D20",
+        "generation": "Freelander 1",
+        "powertrain": "Diesel",
+        "href": "/landrover-freelander-td4-engines",
+        "title": "M47D20 (BMW-Sourced) in the Freelander",
+        "subtitle": "(L314, 2000–2006)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

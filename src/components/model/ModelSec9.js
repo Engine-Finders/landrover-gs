@@ -13,13 +13,16 @@ export default function ModelSec9({ data }) {
     <section className="theme-light relative mt-10 overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
-        <div className="relative h-64">
-          <Image src={data.imageMobile} alt="Technician running registration and engine diagnostics on a computer beside a Land Rover Defender" fill className="object-cover object-left-top" sizes="100vw" />
-          <div className="absolute inset-0 bg-linear-to-r from-white/95 via-white/70 to-transparent" />
+        {/* 70/30 split: text gets the left 70%, the photo's right edge (technician at the lookup
+            screen) shows in the remaining 30%. Uses the desktop photo — the mobile crop has a blank
+            white panel baked in behind the technician. Box grows with the text, min 16rem. */}
+        <div className="relative min-h-64 pb-6">
+          <Image src={data.image} alt="Technician running registration and engine diagnostics on a computer beside a Land Rover Defender" fill className="object-cover object-right-top" sizes="100vw" />
+          <div className="absolute inset-0 bg-linear-to-r from-white/95 via-white/85 via-55% to-transparent to-80%" />
 
-          <div className="relative max-w-[55%] px-4 pt-6">
+          <div className="relative max-w-[70%] pl-6 pr-2 pt-6">
             <LandRoverStripe className="h-4 w-8" />
-            <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
+            <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase" style={{ fontSize: "34px" }}>
               <span className="block text-[#101828]">{line1}</span>
               <span className="block text-hero-blue">{line2}</span>
             </h2>
@@ -131,14 +134,8 @@ export default function ModelSec9({ data }) {
         <div className="pointer-events-none absolute right-[8%] top-[55%] h-48 w-48 rounded-full bg-hero-blue/10 blur-3xl" />
 
         {/* reg lookup card */}
-        <div
-          className="relative mt-10 flex items-center gap-6 overflow-hidden rounded-2xl px-6 py-6"
-          style={{
-            background: "var(--theme-light-bg)",
-            boxShadow: "0 0 0 1px rgba(16,24,40,0.12), 0 18px 40px -14px rgba(16,24,40,0.35)",
-          }}
-        >
-          <div className="flex h-20 flex-1 overflow-hidden rounded-lg border-2 border-[#101828]/80 bg-white shadow-sm">
+        <div className="glass-card relative mt-10 flex items-center gap-6 overflow-hidden rounded-2xl px-6 py-6">
+          <div className="flex h-20 flex-1 overflow-hidden rounded-lg border border-white/80 bg-white/45 shadow-sm backdrop-blur-md">
             <span className="flex w-16 shrink-0 flex-col items-center justify-center gap-1.5 bg-[#1a1a1a] text-white">
               <span className="flex h-5 w-5 items-center justify-center rounded-full border border-[var(--color-hero-gold)] text-[10px] leading-none text-[var(--color-hero-gold)]">★</span>
               <span className="text-sm font-extrabold tracking-wide">GB</span>
@@ -149,8 +146,7 @@ export default function ModelSec9({ data }) {
               onChange={(e) => setReg(e.target.value.toUpperCase())}
               placeholder="ENTER REG"
               maxLength={8}
-              className="min-w-0 flex-1 px-3 text-center text-3xl font-black tracking-widest text-[#101828] outline-none placeholder:text-[#101828]/40"
-              style={{ background: "var(--theme-light-bg)" }}
+              className="min-w-0 flex-1 bg-transparent px-3 text-center text-3xl font-black tracking-widest text-[#101828] outline-none placeholder:text-[#101828]/40"
             />
           </div>
 
@@ -193,11 +189,7 @@ export default function ModelSec9({ data }) {
           {data.browseCards.map((c) => (
             <button
               key={c.label}
-              className="relative flex items-center justify-between gap-2 rounded-xl bg-white/55 px-4 py-6 text-left backdrop-blur-2xl transition hover:-translate-y-0.5"
-              style={{
-                boxShadow:
-                  "0 0 0 1px rgba(16,24,40,0.1), inset 0 1px 0 rgba(255,255,255,0.9), 0 6px 18px -8px rgba(16,24,40,0.18)",
-              }}
+              className="glass-card relative flex items-center justify-between gap-2 rounded-xl px-4 py-6 text-left transition hover:-translate-y-0.5"
             >
               <span className="flex items-center gap-2">
                 <Icon name={c.icon} className="h-5 w-5 shrink-0 text-hero-blue" />

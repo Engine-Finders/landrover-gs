@@ -5,23 +5,23 @@
   "titleBigPost": " Ford EcoBoost",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the Ford EcoBoost across its 5 model applications."
+    "Here's our practical view of the Ford EcoBoost across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The Ford EcoBoost is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The EcoBoost appears in three Land Rover models — Discovery Sport, Freelander and Range Rover Evoque — all as the Si4 petrol variant."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain, bearings, and gaskets as standard on every rebuild, with turbocharger and direct-injection system components inspected and assessed for condition."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the Ford EcoBoost across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "The EcoBoost is known for timing chain stretch — rattling at startup is a telltale sign. Turbocharger issues and carbon buildup on intake valves are also common on higher-mileage examples, characteristic of direct-injection engines. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild or replacement. EcoBoost Applications We Work On Ford EcoBoost in the Discovery Sport (L550, 2015–2019) The EcoBoost in the Discovery Sport is one of the applications we work on regularly — the Si4 petrol variant across the L550 generation. Starting from: £2,200 Check your Discovery Sport EcoBoost → [link to Discovery Sport variant page] Ford EcoBoost in the Freelander (L359, 2013–2014) The EcoBoost in the Freelander is one of the applications we work on — the Si4 petrol variant during the model's final years. Starting from: £2,200 Check your Freelander EcoBoost → [link to Freelander variant page] Ford EcoBoost in the Range Rover Evoque (L538, 2013–2019) The EcoBoost in the Range Rover Evoque is one of the applications we work on regularly — the Si4 petrol variant across the first-generation L538 model. Starting from: £2,200 Check your Range Rover Evoque EcoBoost → [link to Range Rover Evoque variant page] Not seeing your exact model above? Send us your registration and we'll confirm your exact spec."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER Ford EcoBoost REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full Ford EcoBoost rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The EcoBoost's timing chain is a known wear point — chains can stretch prematurely, causing rattling at startup and incorrect timing. On higher-mileage examples, the turbocharger is inspected for wear, and the direct-injection system is assessed for carbon buildup on intake valves. A full rebuild also includes inspection of the PCV system and high-pressure fuel pump.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing chain, bearings, gaskets, plus turbo and direct-injection system inspection"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£2,200",

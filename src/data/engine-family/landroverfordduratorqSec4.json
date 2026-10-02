@@ -34,5 +34,40 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your Ford Duratorq's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing chain assembly (chains, guides, tensioners) — chain-driven",
+        "Main bearings and connecting rod bearings",
+        "Complete gasket and seal set",
+        "Oil filter housing gasket"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft",
+        "Cylinder head",
+        "Timing chain tensioners — known wear",
+        "EGR cooler — critical known issue",
+        "Turbo actuator — critical known issue",
+        "Injector seals — known issue",
+        "Variable-geometry turbocharger",
+        "DPF components",
+        "EGR valve (carbon-choke trio with DPF and VNT turbo on EU5 engines)"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "Vehicle-specific ancillaries",
+        "Single vs twin-turbo variants"
+      ]
+    }
+  ]
 }

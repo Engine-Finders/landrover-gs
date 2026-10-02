@@ -6,6 +6,18 @@ import Icon from "@/components/reusable/Icon";
 
 const MOBILE_VISIBLE_COUNT = 6;
 
+function GalleryHighlight({ text = "" }) {
+  const m = text.match(/^(Land Rover)\s+(.*)$/i);
+  return m ? (
+    <span className="block">
+      <span className="text-hero-blue">{m[1]} </span>
+      <span className="text-[#c9a96e]">{m[2]}</span>
+    </span>
+  ) : (
+    <span className="block text-hero-blue">{text}</span>
+  );
+}
+
 export default function Sec8({ data }) {
   const { gallery, howItWorks } = data;
   const [showAll, setShowAll] = useState(false);
@@ -27,12 +39,12 @@ export default function Sec8({ data }) {
             {mobileGalleryItems.map((it, i) => (
               <div key={`${it.model}-${i}`} className="glass-card relative overflow-hidden rounded-xl">
                 <div className="relative aspect-[4/3]">
-                  <Image src={it.image} alt={it.model} fill className="object-cover" sizes="50vw" />
+                  <Image src={it.image} alt={`Land Rover ${it.model} — ${it.status.toLowerCase()}`} fill className="object-cover" sizes="50vw" />
                 </div>
                 <div className="px-3 py-2">
                   <div className="flex items-center gap-1.5">
                     <Icon name={it.icon} className="h-4 w-4 shrink-0 text-hero-blue" />
-                    <p className="truncate text-xs font-extrabold uppercase text-[#101828]">{it.model}</p>
+                    <p className="text-xs font-extrabold uppercase leading-tight text-[#101828]">{it.model}</p>
                   </div>
                   <p className="mt-0.5 truncate text-[9px] uppercase tracking-wide text-hero-blue">{it.status}</p>
                 </div>
@@ -58,12 +70,19 @@ export default function Sec8({ data }) {
 
         {/* ===== desktop ===== */}
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
+          {gallery.headerImage && (
+            <div className="pointer-events-none absolute right-0 top-0 h-72 w-[55%]" aria-hidden="true">
+              <Image src={gallery.headerImage} alt="" fill className="object-cover object-center" sizes="55vw" />
+              <div className="absolute inset-0 bg-linear-to-r from-(--theme-light-bg) via-(--theme-light-bg)/40 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-(--theme-light-bg) via-transparent to-transparent" />
+            </div>
+          )}
           <div className="relative mx-auto max-w-6xl">
             <h2 className="h2 uppercase">
               <span className="block text-[#101828]">{gallery.titlePre}</span>
-              <span className="block text-hero-blue">{gallery.titleHighlight}</span>
+              <GalleryHighlight text={gallery.titleHighlight} />
             </h2>
-            <p className="mt-2 max-w-2xl text-sm text-[#101828]">{gallery.description}</p>
+            <p className="mt-3 max-w-xl text-sm leading-relaxed text-[#101828]">{gallery.description}</p>
 
             <div className="mt-6 grid grid-cols-6 gap-4">
               {gallery.items.map((it, i) => (
@@ -72,13 +91,13 @@ export default function Sec8({ data }) {
                   className="glass-card relative overflow-hidden rounded-xl transition-transform hover:-translate-y-0.5"
                 >
                   <div className="relative aspect-square">
-                    <Image src={it.image} alt={it.model} fill className="object-cover" sizes="16vw" />
+                    <Image src={it.image} alt={`Land Rover ${it.model} — ${it.status.toLowerCase()}`} fill className="object-cover" sizes="16vw" />
                   </div>
                   <div className="px-3 py-2.5">
-                    <p className="truncate text-xs font-extrabold uppercase text-[#101828]">{it.model}</p>
+                    <p className="text-xs font-extrabold uppercase leading-tight text-[#101828]">{it.model}</p>
                     <div className="mt-1 flex items-center gap-1.5">
                       <Icon name={it.icon} className="h-3.5 w-3.5 shrink-0 text-hero-blue" />
-                      <p className="truncate text-[10px] uppercase tracking-wide text-hero-blue">{it.status}</p>
+                      <p className="text-[10px] uppercase leading-tight tracking-wide text-hero-blue">{it.status}</p>
                     </div>
                   </div>
                 </div>
@@ -161,24 +180,20 @@ export default function Sec8({ data }) {
               {howItWorks.steps.map((s, i) => (
                 <Fragment key={s.linePre}>
                   <div
-                    className="glass-card-dark relative flex min-w-0 items-center gap-3 rounded-2xl px-5 py-3"
+                    className="relative flex min-w-0 flex-col items-center rounded-xl border border-white/10 bg-white/[0.03] px-5 pb-6 pt-8 text-center"
                     style={{ boxShadow: "0 15px 35px -20px rgba(0,0,0,0.5)" }}
                   >
-                    <span className="relative ml-2 mt-2 shrink-0">
-                      <span className="flex h-16 w-16 items-center justify-center rounded-xl bg-hero-blue/15">
-                        <Icon name={s.icon} className="h-9 w-9 text-hero-blue" />
-                      </span>
-                      <span className="absolute -left-4 -top-4 flex h-5 w-5 items-center justify-center rounded-full bg-hero-blue text-[10px] font-extrabold text-white">
-                        {i + 1}
-                      </span>
+                    <span className="absolute left-4 top-4 flex h-8 w-8 items-center justify-center rounded-md bg-hero-blue text-base font-extrabold text-white">
+                      {i + 1}
                     </span>
-                    <p className="min-w-0 text-sm leading-tight">
-                      <span className="block font-bold text-white">{s.linePre}</span>
-                      <span className="block font-bold text-hero-blue">{s.lineHighlight}</span>
+                    <Icon name={s.icon} className="h-16 w-16 text-[#c9a96e]" />
+                    <p className="mt-4 text-base font-bold uppercase leading-tight">
+                      <span className="block text-white">{s.linePre}</span>
+                      <span className="block text-hero-blue">{s.lineHighlight}</span>
                     </p>
                   </div>
                   {i < howItWorks.steps.length - 1 && (
-                    <span className="flex items-center text-xl text-white" aria-hidden="true">
+                    <span className="flex items-center text-2xl text-[#c9a96e]" aria-hidden="true">
                       →
                     </span>
                   )}
@@ -194,7 +209,7 @@ export default function Sec8({ data }) {
               <div className="flex min-w-0 flex-1 items-center gap-4 pl-8">
                 <Icon name={howItWorks.summary.urgency.icon} className="h-12 w-12 shrink-0 text-hero-blue" />
                 <p className="min-w-0 text-base leading-snug">
-                  <span className="block font-bold text-white">{howItWorks.summary.urgency.textPre}</span>
+                  <span className="block text-white">{howItWorks.summary.urgency.textPre}</span>
                   <span className="block font-bold text-hero-blue">{howItWorks.summary.urgency.textHighlight}</span>
                 </p>
               </div>

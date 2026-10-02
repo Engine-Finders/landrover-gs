@@ -7,7 +7,7 @@ const PATH = "/models";
 
 export const metadata = {
   title: "Land Rover Models | Land Rover Garage",
-  description: "Engine rebuild and replacement coverage for every Land Rover-Benz model line.",
+  description: "Engine rebuild and replacement coverage for every Land Rover model line.",
   alternates: { canonical: PATH },
 };
 
@@ -16,7 +16,7 @@ export default function ModelsPage() {
     <>
       <JsonLd
         data={graphDoc([
-          webPageSchema({ name: "Land Rover Models | Land Rover Garage", description: "Engine rebuild and replacement coverage for every Land Rover-Benz model line.", path: PATH, type: "CollectionPage" }),
+          webPageSchema({ name: "Land Rover Models | Land Rover Garage", description: "Engine rebuild and replacement coverage for every Land Rover model line.", path: PATH, type: "CollectionPage" }),
           breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Land Rover Models", path: PATH }], PATH),
         ])}
       />

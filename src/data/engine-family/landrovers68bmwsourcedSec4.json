@@ -34,5 +34,40 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your S68 (BMW-sourced)'s exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing chain assembly (chains, guides, tensioners)",
+        "Valve seals",
+        "Coolant system components",
+        "Main bearings and connecting rod bearings",
+        "Complete gasket and seal set",
+        "Oil filter housing gasket"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft",
+        "Cylinder head",
+        "Timing chain tensioners and guides",
+        "Turbocharger components — twin-turbo, hot-vee mounted",
+        "48V mild-hybrid system components",
+        "Fuel injectors",
+        "High-pressure fuel pump"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "48V MHEV system components",
+        "Vehicle-specific ancillaries"
+      ]
+    }
+  ]
 }

@@ -60,7 +60,7 @@ export default function ModelSec18({ data }) {
   return (
     <section id="quote-form" className="theme-light relative scroll-mt-6 overflow-hidden">
       {/* ===== mobile ===== */}
-      <div className="relative px-4 py-10 md:hidden">
+      <div className="relative px-4 pb-10 pt-4 md:hidden">
         <div className="flex items-center gap-2">
           <LandRoverStripe className="h-6 w-12 shrink-0" />
           <h2 className="h2 origin-left scale-y-110 scale-x-90 whitespace-nowrap uppercase">

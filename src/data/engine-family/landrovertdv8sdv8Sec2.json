@@ -2,43 +2,43 @@
   "specs": {
     "titlePre": "Land Rover TDV8 SDV8",
     "titleHighlight": "Engine Specifications",
-    "image": "/engine/sec2.webp",
-    "imageMobile": "/engine/sec2_mobile.webp",
+    "image": "/engine/sec2.jpg",
+    "imageMobile": "/engine/sec2_mv2.webp",
     "rows": [
       {
         "icon": "code",
         "label": "Engine Code",
-        "value": "TDV8 SDV8"
+        "value": "TDV8 / SDV8 (Ford Lion V8 family)"
       },
       {
         "icon": "building",
         "label": "Manufacturer",
-        "value": "Jaguar Land Rover (Ingenium family)"
+        "value": "Ford / Land Rover (joint development)"
       },
       {
-        "icon": "gear",
+        "icon": "piston",
         "label": "Configuration",
-        "value": "Inline-6 (I6)"
+        "value": "V8"
       },
       {
-        "icon": "engine",
+        "icon": "gauge",
         "label": "Capacity",
-        "value": "3.0L (2,997 cc)"
+        "value": "3.6L / 4.4L"
       },
       {
-        "icon": "oil",
+        "icon": "fuel",
         "label": "Fuel",
-        "value": "Diesel, Diesel MHEV"
+        "value": "Diesel"
       },
       {
         "icon": "calendar",
         "label": "Production Years",
-        "value": "2019–present"
+        "value": "2006–2019"
       },
       {
         "icon": "car",
         "label": "Used In",
-        "value": "5 Land Rover models"
+        "value": "3 Land Rover models"
       }
     ],
     "prompt": {
@@ -56,7 +56,7 @@
     "imageMobile": "/engine/sec2_bottom_mobile.webp",
     "startingFromLabel": "Starting From",
     "startingFromPrice": "£4,500",
-    "body": "All TDV8 SDV8 applications use the same 2.0-litre Land Rover four-cylinder engine, so the price tier is consistent across every model it's fitted to. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
+    "body": "Both TDV8 and SDV8 applications sit on the same V8 rebuild tier. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
     "cta": {
       "label": "Get Your Fixed-Price Quote →",
       "href": "#quote-form"

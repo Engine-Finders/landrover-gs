@@ -29,7 +29,9 @@ export default function ModelSec5({ data }) {
         <div className="absolute inset-0">
           <Image src={data.imageMobile} alt="Precision-machined Land Rover engine block" fill className="object-cover object-top" sizes="100vw" />
           {/* dark scrim behind the text column, fading out toward the engine photo */}
-          <div className="absolute inset-0 bg-linear-to-r from-hero-dark/90 via-hero-dark/70 via-55% to-transparent" />
+          {/* text column runs to ~78% width, so the scrim stays strong across it and only the
+              engine's far-right edge shows through at full brightness */}
+          <div className="absolute inset-0 bg-linear-to-r from-hero-dark/95 via-hero-dark/80 via-70% to-hero-dark/35" />
         </div>
 
         <div className="relative px-4 pb-8 pt-10">

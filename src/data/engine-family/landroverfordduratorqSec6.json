@@ -8,31 +8,31 @@
         "name": "Daniel R.",
         "platform": "google",
         "text": "Brilliant service from start to finish. My Ford Duratorq runs better than it ever has. Honest advice, clear pricing and the team know their stuff.",
-        "tag": "Defender D200, D250, D300, D350 – Ford Duratorq Rebuild"
+        "tag": "Defender Ford Duratorq"
       },
       {
         "name": "Mark T.",
         "platform": "trustpilot",
         "text": "They rebuilt my Ford Duratorq engine with all the updated parts. No more rattling chains. Smooth process and great communication.",
-        "tag": "Discovery D250, D300, D350 – Ford Duratorq Rebuild"
+        "tag": "Discovery Sport Ford Duratorq"
       },
       {
         "name": "Ryan P.",
         "platform": "google",
         "text": "Top lads, top job. Picked up and dropped off, engine rebuilt to an extremely high standard. 100% recommend.",
-        "tag": "Range Rover D250, D300, D350 – Ford Duratorq Rebuild"
+        "tag": "Freelander Ford Duratorq"
       },
       {
         "name": "Steve B.",
         "platform": "trustpilot",
         "text": "Saved me thousands compared to a main dealer quote. Fantastic workmanship and my Ford Duratorq is running perfectly.",
-        "tag": "Range Rover Sport D250, D300, D350 – Ford Duratorq Rebuild"
+        "tag": "Range Rover Evoque Ford Duratorq"
       },
       {
         "name": "Tom H.",
         "platform": "google",
         "text": "From quote to collection couldn't fault them. Engine looks brand new inside. Warranty gives great peace of mind.",
-        "tag": "Range Rover Velar D200, D250, D300 – Ford Duratorq Rebuild"
+        "tag": "Defender Ford Duratorq"
       }
     ],
     "googleCta": "See All Reviews On Google",
@@ -43,7 +43,7 @@
     "titlePre": "WE COVER YOUR",
     "titleHighlight": "EXACT VEHICLE",
     "body": "Enter your registration below and we'll confirm whether your Land Rover has the Ford Duratorq before you're quoted anything.",
-    "image": "/variant/sec7_middle_div.webp",
+    "image": "/engine/cover_defender.webp",
     "buttonLabel": "Check Fit",
     "ticks": [
       "Fast",
@@ -107,6 +107,7 @@
       "line1": "No widely-reported pattern is confirmed for the Ford Duratorq —",
       "line2": "we still recommend a full inspection before any long journey.",
       "image": "/model/sec15_part.webp"
-    }
+    },
+    "image": "/engine/sec9b.jpg"
   }
 }

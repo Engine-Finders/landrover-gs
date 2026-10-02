@@ -1,5 +1,5 @@
 {
-  "image": "/engine/sec3.webp",
+  "image": "/engine/sec3.jpg",
   "titlePre": "Land Rover AJ133 Applications — ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
@@ -25,47 +25,20 @@
   "rows": [
     {
       "model": "Defender",
-      "variant": "D200, D250, D300, D350",
+      "variant": "P525 (V8)",
       "generation": "L663",
       "chassis": "L663",
       "years": "2020–present",
-      "powertrain": "Diesel MHEV",
+      "powertrain": "Supercharged V8",
       "modelHref": "/defender-engines"
     },
     {
-      "model": "Discovery",
-      "variant": "D250, D300, D350",
-      "generation": "L462",
-      "chassis": "L462",
-      "years": "2020–present",
-      "powertrain": "Diesel MHEV",
-      "modelHref": "/discovery-engines"
-    },
-    {
-      "model": "Range Rover",
-      "variant": "D250, D300, D350",
-      "generation": "L460",
-      "chassis": "L460",
-      "years": "2022–present",
-      "powertrain": "Diesel MHEV",
-      "modelHref": "/models"
-    },
-    {
-      "model": "Range Rover Sport",
-      "variant": "D250, D300, D350",
-      "generation": "L461",
-      "chassis": "L461",
-      "years": "2022–present",
-      "powertrain": "Diesel MHEV",
-      "modelHref": "/range-rover-sport-engines"
-    },
-    {
       "model": "Range Rover Velar",
-      "variant": "D200, D250, D300",
+      "variant": "SVAutobiography",
       "generation": "L560",
       "chassis": "L560",
-      "years": "2019–present",
-      "powertrain": "Diesel MHEV",
+      "years": "2019–2021",
+      "powertrain": "Supercharged V8",
       "modelHref": "/range-rover-velar-engines"
     }
   ],

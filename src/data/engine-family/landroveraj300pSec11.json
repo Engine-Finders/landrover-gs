@@ -3,14 +3,21 @@
     "titlePre": "Land Rover AJ300P",
     "titleHighlight": "ENGINE REBUILD",
     "titlePost": " COST",
-    "image": "/engine/sec11_top.webp",
-    "imageMobile": "/engine/sec11_top_mobile.webp",
+    "image": "/engine/sec10_rebuild_cost.jpg",
+    "imageMobile": "/engine/sec10_rebuild_cost_mv2.webp",
     "paragraphs": [
-      "A Land Rover AJ300P engine rebuild starts from £3,600, regardless of which of the six models it's fitted to — the price tier is set by the engine, not the badge on the boot. A full replacement engine and fitting service is also available.",
-      "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
+      "A Land Rover AJ300P engine rebuild starts from £3,200, regardless of which of the five models it's fitted to — the price tier is set by the engine, not the badge on the vehicle. A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£3,200"
+    "startingFromPrice": "£3,200",
+    "priceFactors": [
+      "Extent of internal damage",
+      "Crankshaft condition",
+      "Cylinder/head condition",
+      "Turbocharger condition",
+      "Hybrid system components (MHEV/PHEV)",
+      "Labour required"
+    ]
   },
   "comparison": {
     "titlePre": "LAND ROVER AJ300P",
@@ -156,5 +163,6 @@
       }
     },
     "submitLabel": "Submit Enquiry"
-  }
+  },
+  "appsCount": 5
 }

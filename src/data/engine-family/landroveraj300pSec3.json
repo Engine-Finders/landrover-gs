@@ -1,5 +1,5 @@
 {
-  "image": "/engine/sec3.webp",
+  "image": "/engine/sec3.jpg",
   "titlePre": "Land Rover AJ300P Applications — ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
@@ -25,47 +25,47 @@
   "rows": [
     {
       "model": "Defender",
-      "variant": "D200, D250, D300, D350",
+      "variant": "P400",
       "generation": "L663",
       "chassis": "L663",
       "years": "2020–present",
-      "powertrain": "Diesel MHEV",
+      "powertrain": "Petrol MHEV",
       "modelHref": "/defender-engines"
     },
     {
       "model": "Discovery",
-      "variant": "D250, D300, D350",
+      "variant": "P360, P400",
       "generation": "L462",
       "chassis": "L462",
-      "years": "2020–present",
-      "powertrain": "Diesel MHEV",
+      "years": "2021–present",
+      "powertrain": "Petrol MHEV",
       "modelHref": "/discovery-engines"
     },
     {
       "model": "Range Rover",
-      "variant": "D250, D300, D350",
+      "variant": "P400, P440e, P460e, P550e",
       "generation": "L460",
       "chassis": "L460",
       "years": "2022–present",
-      "powertrain": "Diesel MHEV",
+      "powertrain": "Petrol MHEV/PHEV",
       "modelHref": "/models"
     },
     {
       "model": "Range Rover Sport",
-      "variant": "D250, D300, D350",
+      "variant": "P400, P440e, P460e, P550e",
       "generation": "L461",
       "chassis": "L461",
       "years": "2022–present",
-      "powertrain": "Diesel MHEV",
+      "powertrain": "Petrol MHEV/PHEV",
       "modelHref": "/range-rover-sport-engines"
     },
     {
       "model": "Range Rover Velar",
-      "variant": "D200, D250, D300",
+      "variant": "P340, P400",
       "generation": "L560",
       "chassis": "L560",
       "years": "2019–present",
-      "powertrain": "Diesel MHEV",
+      "powertrain": "Petrol MHEV",
       "modelHref": "/range-rover-velar-engines"
     }
   ],

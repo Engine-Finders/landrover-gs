@@ -3,14 +3,20 @@
     "titlePre": "Land Rover Ford Duratorq",
     "titleHighlight": "ENGINE REBUILD",
     "titlePost": " COST",
-    "image": "/engine/sec11_top.webp",
-    "imageMobile": "/engine/sec11_top_mobile.webp",
+    "image": "/engine/sec10_rebuild_cost.jpg",
+    "imageMobile": "/engine/sec10_rebuild_cost_mv2.webp",
     "paragraphs": [
-      "A Land Rover Ford Duratorq engine rebuild starts from £3,600, regardless of which of the six models it's fitted to — the price tier is set by the engine, not the badge on the boot. A full replacement engine and fitting service is also available.",
-      "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
+      "A Land Rover Ford Duratorq engine rebuild starts from £1,900, regardless of which of the four models it's fitted to — the price tier is set by the engine, not the model. A full replacement engine and fitting service is also available."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£1,900"
+    "startingFromPrice": "£1,900",
+    "priceFactors": [
+      "Extent of internal damage",
+      "EGR cooler condition",
+      "Turbo actuator condition",
+      "Timing chain condition",
+      "Labour required"
+    ]
   },
   "comparison": {
     "titlePre": "LAND ROVER Ford Duratorq",
@@ -156,5 +162,6 @@
       }
     },
     "submitLabel": "Submit Enquiry"
-  }
+  },
+  "appsCount": 4
 }

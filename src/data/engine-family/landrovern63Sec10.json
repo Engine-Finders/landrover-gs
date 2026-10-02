@@ -5,23 +5,23 @@
   "titleBigPost": " N63",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the N63 across its 5 model applications."
+    "Here's our practical view of the N63 across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The N63 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The N63 appears in two Land Rover models — the Range Rover (L460) and Range Rover Sport (L461) — both as the P530 variant."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain, bearings, valve seals, coolant system components, and gaskets as standard on every rebuild, with 48V MHEV components additionally accounted for."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the N63 across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "Fuel injector failures are documented on this engine. Check engine light after hot restart and longer cranking time can indicate air in the cooling system. The hot-vee design means turbochargers sit inside the V of the engine, which is a genuine platform characteristic that adds complexity to accessing certain components — a consideration we account for when carrying out any rebuild work on this engine."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER N63 REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full N63 rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The N63's hot-vee design — where the turbochargers sit inside the V of the engine — adds complexity to accessing certain components. This is a genuine platform characteristic we account for when quoting and carrying out any rebuild work on this engine in either Land Rover application. A full rebuild includes timing chain replacement, valve seals, coolant system components, and careful reassembly of the 48V mild-hybrid ancillaries, which are present across all N63 applications in the Land Rover range.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing chain assembly, bearings, valve seals, coolant system components, gaskets, 48V MHEV system components"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£6,500",

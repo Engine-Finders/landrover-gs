@@ -34,5 +34,40 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your AJ133's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing chain assembly (chains, guides, tensioners) — critical known issue",
+        "Main bearings and connecting rod bearings",
+        "Complete gasket and seal set",
+        "Supercharger coupler (where applicable)",
+        "Oil filter housing gasket"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft",
+        "Cylinder head",
+        "Timing chain tensioners and guides (aluminium guide rails weaker than steel tensioners)",
+        "Timing chain (can stretch while tensioner/guide combo is failing)",
+        "Cam phasers (cam phaser failure is also common)",
+        "Supercharger",
+        "Cooling system components",
+        "Fuel injectors",
+        "PCV system"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "Vehicle-specific ancillaries"
+      ]
+    }
+  ]
 }

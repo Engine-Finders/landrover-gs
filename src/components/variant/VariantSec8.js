@@ -3,7 +3,6 @@
 import { Fragment, useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 const MOBILE_VISIBLE_COUNT = 6;
 
@@ -65,7 +64,6 @@ export default function VariantSec8({ data }) {
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
             <div className="flex items-start gap-3">
-              <LandRoverLogo className="h-14 w-14 shrink-0" />
               <h2 className="h2 uppercase">
                 <span className="block text-white">{gallery.titlePre}</span>
                 <span className="block text-hero-blue">{gallery.titleHighlight}</span>

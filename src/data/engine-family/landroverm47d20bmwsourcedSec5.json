@@ -5,54 +5,65 @@
     {
       "number": "01",
       "label": "RECOVERY COLLECTION",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Nationwide collection of your Land Rover M47D20 (BMW-Sourced)."
     },
     {
       "number": "02",
       "label": "STRIPPED ENGINE BLOCK",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "M47D20 (BMW-Sourced) engine stripped down and inspected thoroughly."
     },
     {
       "number": "03",
       "label": "TIMING CHAIN REPLACEMENT",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Timing components replaced — a critical M47D20 (BMW-Sourced) wear point."
     },
     {
       "number": "04",
       "label": "TECHNICIANS AT WORK",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Skilled M47D20 (BMW-Sourced) specialists rebuilding with precision and care."
     },
     {
       "number": "05",
       "label": "ENGINE TESTING (RIG)",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Every M47D20 (BMW-Sourced) engine is tested to ensure perfect performance."
     },
     {
       "number": "06",
       "label": "COMPLETED & READY FOR REFIT",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Fully rebuilt M47D20 (BMW-Sourced) engine, ready to go back in."
     },
     {
       "number": "07",
       "label": "CLEAN WORKSHOP BAYS",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Modern, clean and organised workshop environment."
     },
     {
       "number": "08",
       "label": "PARTS & COMPONENTS",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Genuine and quality components for every M47D20 (BMW-Sourced) rebuild."
     },
     {
       "number": "09",
       "label": "BEFORE / AFTER COMPARISON",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "See the transformation of a M47D20 (BMW-Sourced) during our rebuild process."
     },
     {
       "number": "10",
       "label": "OUR SPECIALIST TEAM",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Experienced M47D20 (BMW-Sourced) specialists you can trust."
     }
   ],
   "viewMoreLabel": "View More",
-  "footerNote": "Real photos from our workshop — not stock imagery."
+  "footerNote": "Real photos from our workshop — not stock imagery.",
+  "engineCode": "M47D20 (BMW-Sourced)"
 }

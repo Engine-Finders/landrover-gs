@@ -1,5 +1,5 @@
 {
-  "image": "/engine/sec3.webp",
+  "image": "/engine/sec3.jpg",
   "titlePre": "Land Rover S68 (BMW-sourced) Applications — ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
@@ -30,8 +30,7 @@
       "chassis": "L663",
       "years": "2024–present",
       "powertrain": "Petrol MHEV",
-      "modelHref": "/defender-engines",
-      "variantHref": "/landrover-defender-octa-engines"
+      "modelHref": "/defender-engines"
     },
     {
       "model": "Range Rover",

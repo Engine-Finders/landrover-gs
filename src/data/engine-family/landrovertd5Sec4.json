@@ -34,5 +34,39 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your Td5's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing chain assembly (chains, guides, tensioners)",
+        "Main bearings and connecting rod bearings",
+        "Complete gasket and seal set",
+        "Injector wiring harness — critical known issue",
+        "Oil filter housing gasket"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft",
+        "Cylinder head",
+        "Timing chain tensioners and guides",
+        "Injector harness (oil wicking check) — critical",
+        "Injector seals — critical",
+        "High-pressure fuel pump",
+        "Turbocharger components",
+        "Oil for metal debris"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "Vehicle-specific ancillaries"
+      ]
+    }
+  ]
 }

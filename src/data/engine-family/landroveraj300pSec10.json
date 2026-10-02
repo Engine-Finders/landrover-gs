@@ -5,23 +5,23 @@
   "titleBigPost": " AJ300P",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the AJ300P across its 5 model applications."
+    "Here's our practical view of the AJ300P across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The AJ300P is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The AJ300P is the petrol six-cylinder option across the Land Rover range — five model lines spanning Defender, Discovery, Range Rover, Range Rover Sport and Range Rover Velar."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain, bearings, and gaskets as standard on every rebuild, with MHEV/PHEV ancillaries additionally accounted for on hybrid applications."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the AJ300P across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "No widely-reported pattern is confirmed for the AJ300P across any of its five applications — it's considered generally reliable. That's a genuinely different situation from several other engines in our network where a specific wear pattern is well-documented — for the AJ300P, we don't have one to report, and we won't invent one to sound more thorough."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER AJ300P REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full AJ300P rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The AJ300P is part of the Ingenium family and follows the same rebuild pattern as other Ingenium six-cylinder engines. The twin-scroll turbocharger, timing chain system and gasket set are all replaced as standard. On MHEV applications, the 48V mild-hybrid components are inspected and accounted for during the rebuild. On PHEV applications, the full hybrid-system ancillary set is handled alongside the combustion engine work. Full engine replacements require DME software matching.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection, plus hybrid-system ancillaries on MHEV/PHEV applications"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£3,200",

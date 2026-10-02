@@ -1,30 +1,22 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "N63",
     "titlePost": " ENGINE",
-    "body": "The N63 is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every N63 to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The N63 is BMW's 4.4-litre twin-turbo V8 petrol engine, used in Land Rover applications from 2022. It's a BMW-sourced engine — not a JLR-designed unit — fitted to the current-generation Range Rover (L460) and Range Rover Sport (L461) as the P530 variant. The engine uses a hot-vee design where the turbochargers sit inside the V of the engine, which is a genuine platform characteristic that affects access to certain components during a rebuild. Our workshop capability covers this engine's specific configuration, including the 48V mild-hybrid system that accompanies it in all Land Rover applications."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER N63",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The N63 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "The Range Rover (L460) uses the N63 in the P530 variant from 2022 onward. The Range Rover Sport (L461) uses the same engine in the P530 variant from 2023 onward. Both applications are petrol MHEV, meaning the 48V mild-hybrid system is present in addition to the combustion engine work.",
     "lineup": [
-      {
-        "label": "Defender",
-        "code": "L663"
-      },
-      {
-        "label": "Discovery",
-        "code": "L462"
-      },
       {
         "label": "Range Rover",
         "code": "L460"
@@ -32,43 +24,78 @@
       {
         "label": "Range Rover Sport",
         "code": "L461"
-      },
-      {
-        "label": "Range Rover Velar",
-        "code": "L560"
       }
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER N63",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the N63 is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "The N63 is a BMW-sourced engine, not a JLR-designed engine. Registration/VIN matching is required — different applications vary by tuning. The hot-vee design adds complexity to accessing certain components, which we account for when quoting and carrying out a rebuild. The 48V mild-hybrid system components vary by application and generation, so we confirm your exact vehicle specification before any work begins.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "2022–present"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "N63"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Range Rover L460, Range Rover Sport L461"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover N63",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "N63 in the Range Rover (L460)",
+        "model": "Range Rover",
+        "chassis": "L460",
+        "years": "2022–present",
+        "variant": "",
+        "body": "The N63 in the Range Rover is one of the applications we work on — the P530 variant, from 2022 onward.",
+        "price": "£6,500",
+        "ctaLabel": "Check your Range Rover N63",
+        "generation": "L460",
+        "powertrain": "Petrol MHEV",
+        "href": "/models",
+        "title": "N63 in the Range Rover",
+        "subtitle": "(L460, 2022–present)"
+      },
+      {
+        "heading": "N63 in the Range Rover Sport (L461)",
+        "model": "Range Rover Sport",
+        "chassis": "L461",
+        "years": "2023–present",
+        "variant": "",
+        "body": "The N63 in the Range Rover Sport is one of the applications we work on — the P530 variant, from 2023 onward.",
+        "price": "£6,500",
+        "ctaLabel": "Check your Range Rover Sport N63",
+        "generation": "L461",
+        "powertrain": "Petrol MHEV",
+        "href": "/range-rover-sport-engines",
+        "title": "N63 in the Range Rover Sport",
+        "subtitle": "(L461, 2023–present)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

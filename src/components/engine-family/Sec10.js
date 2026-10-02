@@ -1,237 +1,228 @@
 import Image from "next/image";
+import EdgeFade from "@/components/reusable/EdgeFade";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
-import AMGBadge from "@/components/reusable/AMGBadge";
 
-const HEX_POINTS = "50,2 96,25 96,75 50,98 4,75 4,25";
+const GOLD = "text-[#c9a96e]";
 
-function HexIcon({ icon, boxClass, iconClass }) {
+// the three illustrative stages shown in "A Typical … Rebuild"
+const STAGES = [
+  { n: "01", icon: "tool", title: "Inspection & Strip-Down", body: "Careful inspection of the crankshaft, cylinder head, and timing components during strip-down.", image: "/engine/sec4.webp" },
+  { n: "02", icon: "wrench", title: "Component Replacement", body: "Main bearings, connecting rod bearings, gaskets, seals and timing components replaced as required.", image: "/engine/sec4.webp" },
+  { n: "03", icon: "shield-check", title: "Quality Checks", body: "All major rotating assemblies, oil pump, and cooling system components inspected for long-term reliability.", image: "/engine/sec4.webp" },
+];
+
+function HexIcon({ name, compact = false }) {
   return (
-    <div className={`relative mx-auto ${boxClass}`}>
-      <svg
-        viewBox="0 0 100 100"
-        className="absolute inset-0 h-full w-full"
-        style={{ filter: "drop-shadow(0 0 10px rgba(96,112,86,0.9)) drop-shadow(0 0 4px rgba(96,112,86,0.9))" }}
-      >
-        <polygon points={HEX_POINTS} fill="#0d0d0d" stroke="#607056" strokeWidth="4" />
-      </svg>
-      <div className="absolute inset-0 flex items-center justify-center">
-        <Icon name={icon} className={`${iconClass} text-white`} />
-      </div>
-    </div>
-  );
-}
-
-function ColumnAccent({ className = "" }) {
-  return (
-    <span className={`mx-auto mt-1.5 flex items-center justify-center gap-1 ${className}`} aria-hidden="true">
-      <span className="h-0.5 w-6 bg-hero-blue" />
-      <span
-        className="h-0.5 w-6"
-        style={{ backgroundImage: "repeating-linear-gradient(90deg, var(--color-bmw-red) 0px, var(--color-bmw-red) 3px, transparent 3px, transparent 6px)" }}
-      />
+    <span
+      className={`flex shrink-0 items-center justify-center bg-white ${compact ? "h-14 w-14" : "h-24 w-24"}`}
+      style={{ clipPath: "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)", boxShadow: "inset 0 0 0 2px #dfe3dc" }}
+    >
+      <Icon name={name} className={`${compact ? "h-7 w-7" : "h-11 w-11"} text-[#101828]`} />
     </span>
   );
 }
 
 export default function Sec10({ data }) {
+  const t = data.typical;
+  const code = (data.titleBigPost || "").trim();
+
   return (
-    <section className="theme-dark relative overflow-hidden">
-      {/* ===== mobile ===== */}
-      <div className="relative px-4 py-7 md:hidden">
-        <div className="flex items-center gap-2">
-          <LandRoverLogo className="h-8 w-8" />
-          <AMGBadge className="h-3.5" />
-        </div>
-        <h2 className="h2 mt-2 uppercase text-white">{data.titlePre}</h2>
-        <h2 className="h2 uppercase">
-          <span className="text-white">{data.titleBigPre}</span>
-          <span className="text-hero-blue">{data.titleBigHighlight}</span>
-          <span className="text-white">{data.titleBigPost}</span>
-        </h2>
-        <span className="mt-2 block h-0.5 w-24 bg-linear-to-r from-hero-blue via-white to-hero-blue" />
-
-        <div className="mt-3 space-y-1">
-          {data.subtext.map((l) => (
-            <p key={l} className="text-xs leading-snug text-white">
-              {l}
-            </p>
-          ))}
-        </div>
-
-        <div className="no-scrollbar relative -mx-4 mt-7 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-1">
-          {data.columns.map((c) => (
-            <div
-              key={c.title}
-              className="glass-card-dark w-[78%] shrink-0 snap-center rounded-2xl p-5 text-center"
-              style={{ boxShadow: "0 20px 45px -20px rgba(96,112,86,0.35)" }}
-            >
-              <HexIcon icon={c.icon} boxClass="h-20 w-20" iconClass="h-11 w-11" />
-              <p className="mt-3 text-sm font-extrabold uppercase tracking-wide text-hero-blue">{c.title}</p>
-              <ColumnAccent />
-              <p className="mx-auto mt-2 max-w-xs text-xs leading-relaxed text-white">{c.body}</p>
-            </div>
-          ))}
-        </div>
-
-        <div className="glass-card-dark relative mt-6 flex items-start gap-3 overflow-hidden rounded-xl px-4 py-3.5">
-          <span className="absolute bottom-0 left-0 top-0 w-1 bg-hero-blue" aria-hidden="true" />
-          <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2 border-hero-blue text-xs font-bold text-hero-blue">
-            i
-          </span>
-          <p className="text-xs italic leading-snug text-white">
-            <span className="font-bold not-italic text-white">{data.notice.highlight}</span>
-            {data.notice.rest}
-          </p>
-        </div>
-      </div>
-
-      {/* ===== desktop ===== */}
-      <div className="relative hidden px-4 py-14 sm:px-6 md:block lg:px-8">
-        <div className="relative mx-auto max-w-6xl">
-          <div className="flex items-center gap-3">
-            <LandRoverLogo className="h-11 w-11" />
-            <AMGBadge className="h-5" />
-          </div>
-          <h2 className="h2 mt-3 uppercase text-white">{data.titlePre}</h2>
-          <h2 className="h2 uppercase">
-            <span className="text-white">{data.titleBigPre}</span>
-            <span className="text-hero-blue">{data.titleBigHighlight}</span>
-            <span className="text-white">{data.titleBigPost}</span>
-          </h2>
-          <span className="mt-4 block h-0.5 w-40 bg-linear-to-r from-hero-blue via-white to-hero-blue" />
-
-          <div className="mt-4 max-w-2xl space-y-1">
-            {data.subtext.map((l) => (
-              <p key={l} className="text-base text-white">
-                {l}
-              </p>
-            ))}
-          </div>
-
-          <div className="relative mt-12 grid grid-cols-3 gap-8">
-            {data.columns.map((c, i) => (
-              <div key={c.title} className="relative text-center">
-                {i > 0 && (
-                  <span className="pointer-events-none absolute -left-4 top-0 h-full w-px" aria-hidden="true">
-                    <span
-                      className="absolute inset-0"
-                      style={{ background: "linear-gradient(to bottom, transparent 0%, rgba(96,112,86,0.6) 12%, rgba(96,112,86,0.6) 88%, transparent 100%)" }}
-                    />
-                    <span className="absolute -left-[3px] -top-1 h-2 w-2 rounded-full bg-hero-blue" style={{ boxShadow: "0 0 8px rgba(96,112,86,0.9)" }} />
-                    <span className="absolute -bottom-1 -left-[3px] h-2 w-2 rounded-full bg-hero-blue" style={{ boxShadow: "0 0 8px rgba(96,112,86,0.9)" }} />
-                  </span>
-                )}
-                <HexIcon icon={c.icon} boxClass="h-32 w-32" iconClass="h-16 w-16" />
-                <p className="mt-4 text-lg font-extrabold uppercase tracking-wide text-hero-blue">{c.title}</p>
-                <ColumnAccent className="mt-2" />
-                <p className="mx-auto mt-3 max-w-xs text-sm leading-relaxed text-white">{c.body}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="glass-card-dark relative mt-10 flex items-center gap-4 overflow-hidden rounded-2xl px-6 py-5">
-            <span className="absolute bottom-0 left-0 top-0 w-1 bg-hero-blue" aria-hidden="true" />
-            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 border-hero-blue text-sm font-bold text-hero-blue">
-              i
-            </span>
-            <p className="text-sm italic leading-relaxed text-white">
-              <span className="font-bold not-italic text-white">{data.notice.highlight}</span>
-              {data.notice.rest}
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* ============ a typical rebuild ============ */}
-      <div className="relative border-t border-white/10 theme-light">
+    <>
+      {/* ============ our workshop view ============ */}
+      <section className="theme-light relative overflow-hidden">
         {/* ===== mobile ===== */}
-        <div className="relative px-4 pt-7 md:hidden">
-          <p className="text-xs font-bold uppercase tracking-widest text-hero-blue">{data.typical.kicker}</p>
-          <h3 className="h3 mt-1 uppercase text-[#101828]">
-            {data.typical.title}
-          </h3>
-          <span className="mt-2 block h-0.5 w-24 bg-linear-to-r from-hero-blue via-white to-hero-blue" />
-        </div>
-
-        <div className="relative mt-4 aspect-square w-full overflow-hidden bg-(--theme-light-bg) md:hidden">
-          <Image src={data.typical.imageMobile} alt="Land Rover exploded engine components" fill className="object-contain" sizes="100vw" />
-        </div>
-
-        <div className="relative px-4 pb-7 md:hidden">
-          <p className="mt-4 text-xs italic leading-relaxed text-[#4a5568]">{data.typical.intro}</p>
-          <p className="mt-3 text-xs leading-relaxed text-[#101828]">{data.typical.body}</p>
-
-          <div className="glass-card relative mt-5 flex flex-col gap-3 rounded-2xl p-4">
-            <div className="flex items-start gap-3">
-              <Icon name="chain" className="mt-0.5 h-6 w-6 shrink-0 text-hero-blue" />
-              <div>
-                <p className="text-[10px] font-bold uppercase tracking-wide text-[#101828]">{data.typical.scope.label}</p>
-                <p className="mt-0.5 text-xs leading-snug text-[#4a5568]">{data.typical.scope.text}</p>
-              </div>
-            </div>
-            <div className="border-t border-black/10 pt-3">
-              <div className="flex items-center gap-2">
-                <p className="text-[10px] font-bold uppercase tracking-wide text-[#101828]">{data.typical.startingFromLabel}</p>
-                <p className="text-2xl font-extrabold text-hero-blue">{data.typical.startingFromPrice}</p>
-              </div>
-              <a
-                href={data.typical.cta.href}
-                className="mt-3 flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-4 py-3 text-xs font-bold uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
-              >
-                {data.typical.cta.label}
-              </a>
-            </div>
+        <div className="relative px-4 py-8 md:hidden">
+          <div className="flex items-center gap-2.5">
+            <LandRoverLogo className="h-8 w-14" />
+            <p className="text-sm font-bold italic uppercase text-hero-blue">{data.titlePre}</p>
           </div>
-        </div>
-
-        {/* ===== desktop — full-bleed exploded-parts photo on the right ===== */}
-        <div className="relative hidden overflow-hidden md:block">
-          <div className="absolute inset-0">
-            <Image src={data.typical.image} alt="Land Rover exploded engine components" fill className="object-cover" sizes="100vw" />
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to right, var(--theme-light-bg) 0%, var(--theme-light-bg) 42%, rgba(241,237,232,0.85) 54%, rgba(241,237,232,0.3) 68%, transparent 82%)" }}
-            />
+          <h2 className="h2 mt-2 uppercase">
+            <span className="block text-hero-blue">
+              {data.titleBigPre}
+              {data.titleBigHighlight}
+            </span>
+            <span className={`block ${GOLD}`}>{code}</span>
+          </h2>
+          <span className="gold-rule mt-3 block w-28" aria-hidden="true" />
+          <div className="relative -mx-4 mt-4 aspect-[4/3] overflow-hidden">
+            <Image src="/engine/sec9b_mv2.webp" alt={`Land Rover ${code} engine on a workshop stand`} fill className="object-cover object-right" sizes="100vw" />
+            <EdgeFade color="var(--theme-light-bg)" />
           </div>
-
-          <div className="relative px-4 py-14 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-6xl">
-            <div className="max-w-xl">
-              <p className="text-sm font-bold uppercase tracking-widest text-hero-blue">{data.typical.kicker}</p>
-              <h3 className="h3 mt-1 uppercase text-[#101828]">
-                {data.typical.title}
-              </h3>
-              <span className="mt-4 block h-0.5 w-40 bg-linear-to-r from-hero-blue via-white to-hero-blue" />
-
-              <p className="mt-5 text-sm italic leading-relaxed text-[#4a5568]">{data.typical.intro}</p>
-              <p className="mt-4 text-sm leading-relaxed text-[#101828]">{data.typical.body}</p>
-            </div>
-
-            <div className="glass-card relative mt-8 grid grid-cols-[minmax(0,1.6fr)_auto_minmax(0,1fr)_auto] items-center gap-6 rounded-2xl p-6">
-              <div className="flex min-w-0 items-start gap-3">
-                <Icon name="chain" className="mt-0.5 h-8 w-8 shrink-0 text-hero-blue" />
+          <div className="mt-4 space-y-2 text-sm leading-relaxed text-[#101828]">
+            {data.subtext.map((s) => (
+              <p key={s}>{s}</p>
+            ))}
+          </div>
+          <div className="mt-5 space-y-3">
+            {data.columns.map((c) => (
+              <div key={c.title} className="glass-card flex gap-4 rounded-xl p-4">
+                <HexIcon name={c.icon} compact />
                 <div className="min-w-0">
-                  <p className="text-xs font-bold uppercase tracking-wide text-[#101828]">{data.typical.scope.label}</p>
-                  <p className="mt-1 text-sm leading-snug text-[#4a5568]">{data.typical.scope.text}</p>
+                  <p className="font-title text-base font-bold italic uppercase text-hero-blue">{c.title}</p>
+                  <p className="mt-1 text-sm leading-relaxed text-[#101828]">{c.body}</p>
                 </div>
               </div>
-              <span className="h-16 w-px shrink-0 bg-black/10" aria-hidden="true" />
-              <div className="shrink-0">
-                <p className="text-xs font-bold uppercase tracking-wide text-[#101828]">{data.typical.startingFromLabel}</p>
-                <p className="text-3xl font-extrabold text-hero-blue">{data.typical.startingFromPrice}</p>
-              </div>
-              <a
-                href={data.typical.cta.href}
-                className="flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-6 py-3.5 text-sm font-bold uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
-              >
-                {data.typical.cta.label}
-              </a>
-            </div>
-          </div>
+            ))}
           </div>
         </div>
-      </div>
-    </section>
+
+        {/* ===== desktop ===== */}
+        <div className="relative hidden md:block">
+          {/* sec9b.jpg is 16:9 with a white left half — full width, height compressed to the header (no cropping) */}
+          {/* photo band starts 18% in, so the engine (right half of sec9b) clears the heading/subtext;
+              the image's own left side is white, so the uncovered strip is plain white too */}
+          <div className="absolute inset-x-0 top-0 h-[26rem] bg-white" aria-hidden="true">
+            <div className="absolute inset-y-0 left-[18%] right-0">
+              <Image src="/engine/sec9b.jpg" alt="" fill className="object-fill" sizes="82vw" />
+            </div>
+            <div className="absolute inset-x-0 bottom-0 h-24 bg-linear-to-t from-(--theme-light-bg) to-transparent" />
+          </div>
+
+          <div className="relative mx-auto max-w-6xl px-4 pb-12 pt-12 sm:px-6 lg:px-8">
+            <div className="max-w-xl">
+              <LandRoverLogo className="h-12 w-20" />
+              <h2 className="h2 mt-3 whitespace-nowrap uppercase text-[#101828]">{data.titlePre}</h2>
+              <h2 className="h2 whitespace-nowrap uppercase">
+                <span className="text-hero-blue">
+                  {data.titleBigPre}
+                  {data.titleBigHighlight}
+                </span>{" "}
+                <span className={GOLD}>{code}</span>
+              </h2>
+              <span className="gold-rule mt-5 block w-32" aria-hidden="true" />
+              <div className="mt-5 space-y-3 text-sm leading-relaxed text-[#101828]">
+                {data.subtext.map((s) => (
+                  <p key={s}>{s}</p>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-10 grid grid-cols-3 gap-5">
+              {data.columns.map((c) => (
+                <div key={c.title} className="glass-card flex gap-5 rounded-xl p-6">
+                  <HexIcon name={c.icon} />
+                  <div className="min-w-0">
+                    <p className="font-title text-base font-bold italic uppercase text-hero-blue">{c.title}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-[#101828]">{c.body}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ a typical rebuild ============ */}
+      <section className="theme-dark relative overflow-hidden bg-[#0b0d0b]">
+        <div className="absolute inset-0 opacity-25" aria-hidden="true">
+          <Image src="/engine/sec11_faq_mv2.webp" alt="" fill className="object-cover md:hidden" sizes="100vw" />
+          <Image src="/engine/sec11_faq.jpg" alt="" fill className="hidden object-fill md:block" sizes="100vw" />
+        </div>
+
+        {/* ===== mobile ===== */}
+        <div className="relative px-4 py-8 md:hidden">
+          <div className="flex items-center gap-2.5">
+            <LandRoverLogo className="h-8 w-14" />
+            <p className="text-sm font-bold uppercase text-white">{t.kicker}</p>
+          </div>
+          <h2 className="h2 mt-2 uppercase text-white">{t.title}</h2>
+          <span className="gold-rule mt-3 block w-28" aria-hidden="true" />
+          <p className="mt-4 text-sm leading-relaxed text-white/90">{t.intro}</p>
+          {t.body && <p className="mt-3 text-sm leading-relaxed text-white/90">{t.body}</p>}
+
+          <div className="no-scrollbar -mx-4 mt-5 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-1">
+            {STAGES.map((s) => (
+              <div key={s.n} className="w-[70vw] shrink-0 snap-start overflow-hidden rounded-xl border border-white/15 bg-black/45 backdrop-blur-sm">
+                <div className="relative aspect-4/3">
+                  <Image src={s.image} alt={s.title} fill className="object-cover" sizes="70vw" />
+                  <span className="absolute left-2 top-2 rounded-md bg-hero-blue px-2 py-1 text-sm font-extrabold text-white">{s.n}</span>
+                </div>
+                <div className="p-4">
+                  <p className="flex items-center gap-2 font-title text-base font-bold italic uppercase text-white">
+                    <Icon name={s.icon} className={`h-5 w-5 ${GOLD}`} />
+                    {s.title}
+                  </p>
+                  <p className="mt-2 text-xs leading-relaxed text-white/85">{s.body}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="glass-card-dark mt-5 rounded-xl p-4" style={{ borderColor: "rgba(201,169,110,0.25)" }}>
+            <p className={`font-title text-lg font-bold italic uppercase ${GOLD}`}>{t.scope.label}</p>
+            <p className="mt-1 text-sm text-white">{t.scope.text}</p>
+            <div className="mt-4 border-t border-white/10 pt-4 text-center">
+              <p className="text-sm uppercase text-white">{t.startingFromLabel}</p>
+              <p className="gold-text text-4xl font-extrabold">{t.startingFromPrice}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* ===== desktop ===== */}
+        <div className="relative hidden px-4 py-14 sm:px-6 md:block lg:px-8">
+          <div className="mx-auto max-w-6xl">
+            <div className="grid grid-cols-[minmax(0,0.85fr)_minmax(0,2fr)] gap-6">
+              <div>
+                <div className="flex items-center gap-3">
+                  <LandRoverLogo className="h-12 w-20" />
+                  <p className="text-sm font-bold uppercase text-white">{t.kicker}</p>
+                </div>
+                <h3 className="h3 mt-3 uppercase text-white">{t.title}</h3>
+                <span className="gold-rule mt-5 block w-32" aria-hidden="true" />
+                <p className="mt-6 text-sm leading-relaxed text-white/90">{t.intro}</p>
+                {t.body && <p className="mt-4 text-sm leading-relaxed text-white/90">{t.body}</p>}
+              </div>
+
+              {/* cards: compact (no empty filler), pushed to the bottom of the row so they sit just above the scope bar */}
+              <div className="grid grid-cols-3 items-end gap-4 self-end">
+                {STAGES.map((s) => (
+                  <div key={s.n} className="flex flex-col overflow-hidden rounded-xl border border-white/15 bg-black/45 backdrop-blur-sm">
+                    <div className="relative aspect-[4/3]">
+                      <Image src={s.image} alt={s.title} fill className="object-cover" sizes="20vw" />
+                      <span className="absolute left-3 top-3 rounded-md bg-hero-blue px-2.5 py-1 text-base font-extrabold text-white">{s.n}</span>
+                    </div>
+                    <div className="px-5 pb-5 pt-4">
+                      <p className="flex items-center gap-2.5 font-title text-base font-bold italic uppercase leading-tight text-white">
+                        <Icon name={s.icon} className={`h-7 w-7 shrink-0 ${GOLD}`} />
+                        {s.title}
+                      </p>
+                      <p className="mt-3 text-sm leading-relaxed text-white/85">{s.body}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="glass-card-dark mt-8 grid grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)] items-center divide-x divide-white/10 rounded-2xl px-8 py-6" style={{ borderColor: "rgba(201,169,110,0.25)" }}>
+              <div className="flex items-center gap-6 pr-8">
+                <HexDark />
+                <div>
+                  <p className={`font-title text-lg font-bold italic uppercase ${GOLD}`}>{t.scope.label}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-white">{t.scope.text}</p>
+                </div>
+              </div>
+              <div className="pl-8 text-center">
+                <p className="text-sm uppercase text-white">{t.startingFromLabel}</p>
+                <p className="gold-text text-4xl font-extrabold leading-tight">{t.startingFromPrice}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+function HexDark() {
+  return (
+    <span
+      className="flex h-20 w-20 shrink-0 items-center justify-center"
+      style={{ clipPath: "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)", background: "linear-gradient(145deg, rgba(201,169,110,0.5), rgba(201,169,110,0.15))" }}
+    >
+      <span className="flex h-[74px] w-[74px] items-center justify-center bg-[#101410]" style={{ clipPath: "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)" }}>
+        <Icon name="cog" className="h-9 w-9 text-[#c9a96e]" />
+      </span>
+    </span>
   );
 }

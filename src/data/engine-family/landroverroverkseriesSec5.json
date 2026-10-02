@@ -5,54 +5,65 @@
     {
       "number": "01",
       "label": "RECOVERY COLLECTION",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Nationwide collection of your Land Rover Rover K-Series."
     },
     {
       "number": "02",
       "label": "STRIPPED ENGINE BLOCK",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Rover K-Series engine stripped down and inspected thoroughly."
     },
     {
       "number": "03",
       "label": "TIMING CHAIN REPLACEMENT",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Timing components replaced — a critical Rover K-Series wear point."
     },
     {
       "number": "04",
       "label": "TECHNICIANS AT WORK",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Skilled Rover K-Series specialists rebuilding with precision and care."
     },
     {
       "number": "05",
       "label": "ENGINE TESTING (RIG)",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Every Rover K-Series engine is tested to ensure perfect performance."
     },
     {
       "number": "06",
       "label": "COMPLETED & READY FOR REFIT",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Fully rebuilt Rover K-Series engine, ready to go back in."
     },
     {
       "number": "07",
       "label": "CLEAN WORKSHOP BAYS",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Modern, clean and organised workshop environment."
     },
     {
       "number": "08",
       "label": "PARTS & COMPONENTS",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Genuine and quality components for every Rover K-Series rebuild."
     },
     {
       "number": "09",
       "label": "BEFORE / AFTER COMPARISON",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "See the transformation of a Rover K-Series during our rebuild process."
     },
     {
       "number": "10",
       "label": "OUR SPECIALIST TEAM",
-      "image": "/engine/sec5.webp"
+      "image": "/engine/sec5.webp",
+      "body": "Experienced Rover K-Series specialists you can trust."
     }
   ],
   "viewMoreLabel": "View More",
-  "footerNote": "Real photos from our workshop — not stock imagery."
+  "footerNote": "Real photos from our workshop — not stock imagery.",
+  "engineCode": "Rover K-Series"
 }

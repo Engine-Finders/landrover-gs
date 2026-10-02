@@ -1,4 +1,3 @@
-import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
 export default function MobileSplitTitle({ titlePre, titleHighlight, className = "", baseColorClass = "text-[#101828]", stripeVariant = "right" }) {
   const words = [
@@ -20,7 +19,6 @@ export default function MobileSplitTitle({ titlePre, titleHighlight, className =
   if (stripeVariant === "left") {
     return (
       <h2 className={`h2 uppercase ${className}`}>
-        <LandRoverStripe className="float-left mr-2 mt-0.5 h-6 w-12 shrink-0" />
         {words.map((t, i) => (
           <span key={i} className={t.highlight ? "text-hero-blue" : baseColorClass}>
             {t.w}

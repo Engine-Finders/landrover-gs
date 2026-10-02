@@ -34,5 +34,38 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your AJ41's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing chain assembly — chains, guides, and tensioners replaced as standard",
+        "Main bearings and connecting rod bearings — replaced during every rebuild",
+        "Complete gasket and seal set — full set replaced",
+        "Head gasket — replaced as standard",
+        "Oil filter housing gasket — replaced during rebuild"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft — inspected for wear and measured for tolerances",
+        "Cylinder head — checked for cracking and warping",
+        "Timing chain tensioners and guides — inspected for wear and measured",
+        "Oil pump — inspected for wear and pressure tested",
+        "Cooling system components — inspected for condition",
+        "Fuel injectors — inspected and cleaned where possible",
+        "Ignition coils — inspected for condition"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "Vehicle-specific ancillaries"
+      ]
+    }
+  ]
 }

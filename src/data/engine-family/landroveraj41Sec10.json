@@ -5,23 +5,23 @@
   "titleBigPost": " AJ41",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the AJ41 across its 5 model applications."
+    "Here's our practical view of the AJ41 across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The AJ41 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The AJ41 appears in the Discovery 2 — the V8 petrol option for the second-generation Discovery."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain, bearings, gaskets, and head gasket as standard on every rebuild."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the AJ41 across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "Head gasket failure is common on higher-mileage examples, and oil leaks are typical on older engines. When properly maintained, the Rover V8 is a robust engine — most of the failures we see stem from cooling system neglect or simply high mileage."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER AJ41 REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full AJ41 rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The AJ41 is a pushrod V8 — a simpler layout than the overhead-cam engines that followed it in the Land Rover range. The absence of overhead cams means fewer components to inspect at the top of the engine, though the timing chain and cylinder heads still require thorough inspection. The cooling system deserves particular attention on any AJ41 rebuild — the Rover V8 family is known to be sensitive to cooling system condition, and an overheated engine is a much more expensive proposition than a well-maintained one.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing chain, bearings, gaskets, head gasket, oil pump inspection, cooling system component inspection"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£4,500",

@@ -1,74 +1,82 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ41",
     "titlePost": " ENGINE",
-    "body": "The AJ41 is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every AJ41 to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The AJ41 is the 4.0-litre Rover V8, part of the long-running Rover V8 engine family that powered countless Land Rover and Rover vehicles across several decades. In Land Rover applications, it was fitted to the Discovery 2 (L318) from 1999 to 2004, serving as the petrol V8 option alongside the Td5 diesel. The AJ41 is a naturally aspirated V8 with a 90° angle and pushrod-operated overhead valves — a traditional V8 layout that's robust and straightforward to work on. Beyond Land Rover, the Rover V8 family also appeared in various Rover saloons and sports cars, and later in MG applications, though our work focuses specifically on the Land Rover Discovery 2 installation."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER AJ41",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The AJ41 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "Across the Discovery 2 (L318, 1999–2004), the AJ41 was the 4.0-litre V8 petrol option. It was available in both standard and higher-spec trims, though the engine itself remained the same across all Discovery 2 V8 applications.",
     "lineup": [
       {
-        "label": "Defender",
-        "code": "L663"
-      },
-      {
         "label": "Discovery",
-        "code": "L462"
-      },
-      {
-        "label": "Range Rover",
-        "code": "L460"
-      },
-      {
-        "label": "Range Rover Sport",
-        "code": "L461"
-      },
-      {
-        "label": "Range Rover Velar",
-        "code": "L560"
+        "code": "L318"
       }
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER AJ41",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the AJ41 is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "Because the AJ41 is part of the Rover V8 family, compatibility across applications depends on confirming the exact capacity — Rover produced 3.5L, 3.9L, 4.0L, 4.2L and 4.6L versions of this engine at different points. For Discovery 2 applications, it's always the 4.0L (3,948 cc) variant, but we confirm by registration/VIN before any rebuild or replacement.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "1996–2004"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "AJ41"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Discovery L318"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover AJ41",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "AJ41 in the Discovery 2 (L318, 1999–2004)",
+        "model": "Discovery 2",
+        "chassis": "L318",
+        "years": "1999–2004",
+        "variant": "",
+        "body": "The AJ41 in the Discovery 2 is one of the applications we work on regularly — the 4.0 V8, fitted across the Discovery 2 range from 1999 to 2004.",
+        "price": "£4,500",
+        "ctaLabel": "Check your Discovery 2 AJ41",
+        "generation": "Discovery 2",
+        "powertrain": "Petrol",
+        "href": "/discovery-engines",
+        "title": "AJ41 in the Discovery 2",
+        "subtitle": "(L318, 1999–2004)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

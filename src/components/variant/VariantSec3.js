@@ -140,7 +140,7 @@ export default function VariantSec3({ data }) {
               style={{ background: "#f7f4ee", border: "1px solid rgba(160,130,90,0.2)", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" }}
             >
               <div
-                className="grid grid-cols-[1.2fr_1.4fr_1fr] items-center py-1.5"
+                className="grid grid-cols-[minmax(0,1.2fr)_minmax(0,1.4fr)_minmax(0,1fr)] items-center py-1.5"
                 style={{ background: "rgba(160,130,90,0.08)", borderBottom: "1px solid rgba(160,130,90,0.2)" }}
               >
                 <p className="flex items-center px-4">
@@ -157,7 +157,7 @@ export default function VariantSec3({ data }) {
               {data.cards.map((c, i) => (
                 <div
                   key={`${c.code}-${i}`}
-                  className="grid grid-cols-[1.2fr_1.4fr_1fr] items-stretch"
+                  className="grid grid-cols-[minmax(0,1.2fr)_minmax(0,1.4fr)_minmax(0,1fr)] items-stretch"
                   style={{ borderTop: i > 0 ? "1px solid rgba(160,130,90,0.2)" : undefined }}
                 >
                   {/* col 1: engine code + render */}

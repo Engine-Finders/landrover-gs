@@ -34,5 +34,29 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your 300Tdi's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing Belt",
+        "Main Bearings and Connecting Rod Bearings",
+        "Complete Gasket and Seal Set",
+        "Oil Filter Housing Gasket"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft",
+        "Cylinder Head",
+        "Timing Belt",
+        "VE Fuel Injection Pump",
+        "Turbocharger",
+        "Cooling System Components"
+      ]
+    }
+  ]
 }

@@ -2,81 +2,82 @@
   "gallery": {
     "titlePre": "OUR MOST RECENT",
     "titleHighlight": "LAND ROVER RECOVERIES & REBUILDS",
-    "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection — this is what genuine engine work looks like.",
+    "description": "Real Land Rovers brought into our workshop. Open bonnets, stripped blocks, and vehicles ready for collection — this is what genuine engine work looks like.",
     "items": [
       {
         "icon": "truck",
-        "model": "Defender Octa",
-        "status": "RECOVERY",
-        "image": "/engine/sec8.webp"
+        "model": "Defender 90",
+        "status": "Recovery",
+        "image": "/engine/sec9a.jpg"
       },
       {
         "icon": "search",
-        "model": "Range Rover SV",
-        "status": "DIAGNOSTICS",
-        "image": "/engine/sec8.webp"
+        "model": "Defender 110",
+        "status": "Diagnostics",
+        "image": "/engine/sec9a.jpg"
       },
       {
         "icon": "gear",
-        "model": "Range Rover Sport SV",
-        "status": "STRIPPED ENGINE",
-        "image": "/engine/sec8.webp"
-      },
-      {
-        "icon": "chain",
-        "model": "Defender Octa",
-        "status": "TIMING CHAIN REPLACEMENT",
-        "image": "/engine/sec8.webp"
+        "model": "Defender 90",
+        "status": "Stripped Engine",
+        "image": "/engine/sec9a.jpg"
       },
       {
         "icon": "wrench",
-        "model": "Range Rover SV",
-        "status": "IN FOR REBUILD",
-        "image": "/engine/sec8.webp"
+        "model": "Defender 110",
+        "status": "Timing Chain Replacement",
+        "image": "/engine/sec9a.jpg"
+      },
+      {
+        "icon": "tool",
+        "model": "Discovery 4",
+        "status": "In For Rebuild",
+        "image": "/engine/sec9a.jpg"
       },
       {
         "icon": "gear",
-        "model": "Range Rover Sport SV",
-        "status": "REBUILD IN PROGRESS",
-        "image": "/engine/sec8.webp"
+        "model": "Defender 110",
+        "status": "Rebuild In Progress",
+        "image": "/engine/sec9a.jpg"
       },
       {
         "icon": "truck",
-        "model": "Defender Octa",
-        "status": "NATIONWIDE RECOVERY",
-        "image": "/engine/sec8.webp"
+        "model": "Defender 110",
+        "status": "Nationwide Recovery",
+        "image": "/engine/sec9a.jpg"
       },
       {
         "icon": "gear",
-        "model": "Range Rover SV",
-        "status": "ENGINE STRIPPED",
-        "image": "/engine/sec8.webp"
+        "model": "Discovery 3",
+        "status": "Engine Stripped",
+        "image": "/engine/sec9a.jpg"
       },
       {
-        "icon": "knock",
-        "model": "Range Rover Sport SV",
-        "status": "TESTING & CHECKS",
-        "image": "/engine/sec8.webp"
+        "icon": "pulse",
+        "model": "Freelander 2",
+        "status": "Testing & Checks",
+        "image": "/engine/sec9a.jpg"
       },
       {
-        "icon": "shield-check",
-        "model": "Defender Octa",
-        "status": "READY FOR COLLECTION",
-        "image": "/engine/sec8.webp"
+        "icon": "check",
+        "model": "Range Rover Sport",
+        "status": "Ready For Collection",
+        "image": "/engine/sec9a.jpg"
       },
       {
         "icon": "gear",
-        "model": "Range Rover SV",
-        "status": "S63 REBUILD",
-        "image": "/engine/sec8.webp"
+        "model": "Defender 90",
+        "status": "Rebuild Complete",
+        "image": "/engine/sec9a.jpg"
       },
       {
         "icon": "wrench",
-        "model": "Range Rover Sport SV",
-        "status": "WORKSHOP BAY",
-        "image": "/engine/sec8.webp"
+        "model": "Discovery 4",
+        "status": "Workshop Bay",
+        "image": "/engine/sec9a.jpg"
       }
-    ]
+    ],
+    "headerImage": "/engine/sec9a.jpg"
   },
   "howItWorks": {
     "titlePre": "HOW IT ",
@@ -106,12 +107,12 @@
     "summary": {
       "timeframe": {
         "icon": "clock",
-        "text": "Most cars are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
+        "text": "Most vehicles are recovered within a few hours of booking."
       },
       "urgency": {
         "icon": "calendar",
-        "textPre": "Workshop slots fill up fast — ",
-        "textHighlight": "book your recovery today."
+        "textPre": "Most rebuilds are completed within ",
+        "textHighlight": "3-5 working days."
       }
     }
   }

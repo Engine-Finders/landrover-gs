@@ -4,7 +4,6 @@ import { Fragment, useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import GbBadge from "@/components/reusable/GbBadge";
-import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 function FaqCard({ item, isOpen, onToggle, compact = false }) {
@@ -78,7 +77,6 @@ export default function VariantSec13({ data }) {
       {/* ===== mobile ===== */}
       <div className="relative px-4 pb-7 pt-5 md:hidden">
         <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-          <LandRoverStripe className="float-left mr-2 mt-0.5 h-6 w-12 shrink-0" />
           <span className="text-[#101828]">{data.kicker} </span>
           <span className="text-hero-blue">{data.kickerHighlight}</span>
         </h2>
@@ -102,7 +100,6 @@ export default function VariantSec13({ data }) {
 
           <div className="relative">
             <h3 className="h3 origin-left scale-y-110 scale-x-90 uppercase">
-              <LandRoverLogo className="float-left mr-2 mt-0.5 h-8 w-8 shrink-0" />
               <span className="text-white">{data.form.headlinePre} </span>
               <span className="text-hero-blue">{data.form.headlineHighlight}</span>{" "}
               <span className="text-white">{data.form.headlinePost}</span>
@@ -164,19 +161,23 @@ export default function VariantSec13({ data }) {
       </div>
 
       {/* ===== desktop ===== */}
-      <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
-        <div className="relative mx-auto max-w-6xl">
-          {/* title banner */}
-          <div className="relative overflow-hidden rounded-2xl">
-            <Image src="/variant/sec13.v2.webp" alt="Land Rover Defender parked on open moorland" fill className="object-cover object-right" sizes="1152px" />
-            <div className="relative flex items-center gap-5 px-8 py-8">
-              <LandRoverLogo className="h-20 w-20 shrink-0" />
-              <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-                <span className="block text-[#101828]">{data.kicker}</span>
-                <span className="block text-hero-blue">{data.kickerHighlight}</span>
-              </h2>
-            </div>
+      <div className="relative hidden pb-10 md:block">
+        {/* title banner: full-bleed, no box. sec13_faq.webp is sec13.v2 with its mint panel keyed
+            out to transparency, so only the Defender photo shows, fading into the page background */}
+        <div className="relative overflow-hidden">
+          <div className="absolute inset-y-0 right-0 w-[70%]">
+            <Image src="/variant/sec13_faq.webp" alt="Land Rover Defender parked on open moorland" fill className="object-cover object-right" sizes="70vw" />
           </div>
+          <div className="relative mx-auto max-w-[76rem] px-4 py-10 sm:px-6 lg:px-8">
+            <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
+              <span className="block text-[#101828]">{data.kicker}</span>
+              <span className="block text-hero-blue">{data.kickerHighlight}</span>
+            </h2>
+          </div>
+        </div>
+
+        <div className="px-4 sm:px-6 lg:px-8">
+        <div className="relative mx-auto max-w-6xl">
 
           <div className="mt-6 grid grid-cols-2 items-start gap-4">
             <div className="space-y-4">
@@ -283,6 +284,7 @@ export default function VariantSec13({ data }) {
               </div>
             </div>
           </form>
+        </div>
         </div>
       </div>
     </section>

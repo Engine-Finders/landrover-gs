@@ -5,23 +5,23 @@
   "titleBigPost": " 300Tdi",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the 300Tdi across its 5 model applications."
+    "Here's our practical view of the 300Tdi across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The 300Tdi is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The 300Tdi is a single-application engine, fitted exclusively to the Defender (L316) from 1994 to 1998."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing belt and tensioner, main bearings, connecting rod bearings, head gasket, complete gasket and seal set, oil filter housing gasket."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the 300Tdi across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "The 300Tdi is an interference engine — timing belt failure causes piston-to-valve contact. Turbocharger bearing failure and VE fuel injection pump leaks are also known issues on higher-mileage examples. Head gasket failure is common."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER 300Tdi REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full 300Tdi rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "A full 300Tdi rebuild involves stripping the 2.5L (2,495 cc) Inline-4 (I4) diesel engine down, inspecting the crankshaft, cylinder head and VE injection pump, and replacing the timing belt, bearings, gaskets and seals with updated OEM-specification parts.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing Belt, Main Bearings and Connecting Rod Bearings, Complete Gasket and Seal Set, Oil Filter Housing Gasket"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£1,900",

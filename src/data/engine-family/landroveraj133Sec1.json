@@ -1,10 +1,10 @@
 {
-  "image": "/engine/sec1.webp",
-  "imageMobile": "/engine/sec1_mobile.webp",
+  "image": "/engine/sec1.jpg",
+  "imageMobile": "/engine/sec1_mv2.webp",
   "titlePre": "AJ133",
   "titleHighlight": "ENGINE",
   "titleLine2": "REBUILD & REPLACEMENT",
-  "subhead": "Specialist Land Rover AJ133 engine rebuilds and replacements, fitted across Defender, Discovery, Range Rover, Range Rover Sport and Range Rover Velar. Nationwide recovery, registration-based engine matching, 12-month unlimited-mileage warranty.",
+  "subhead": "Specialist Land Rover AJ133 engine rebuilds and replacements, fitted across Defender and Range Rover Velar. Nationwide recovery, registration-based engine matching, 12-month unlimited-mileage warranty.",
   "rating": {
     "stars": 5,
     "label": "Rated Land Rover Engine Specialists — 1,800+ Engines Rebuilt"
@@ -28,7 +28,7 @@
     },
     {
       "icon": "layers",
-      "label": "Fitted Across 5 Land Rover Models"
+      "label": "Fitted Across Land Rover & Jaguar Models"
     }
   ],
   "priceCta": {

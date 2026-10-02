@@ -1,29 +1,25 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "S68",
     "titlePost": " ENGINE",
-    "body": "The S68 is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every S68 to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The S68 is BMW M's twin-turbocharged 4.4-litre V8 petrol engine, used in Land Rover applications from 2024. It's the highest-performance combustion engine in the current Land Rover range, fitted to the Defender Octa, Range Rover SV and Range Rover Sport SV. The S68 is a BMW M-sourced engine — the same engine family that powers BMW's own M performance models — and it's the first time this specific engine has appeared in Land Rover's portfolio."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER S68",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The S68 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "Across the Defender, the S68 powers the Octa (L663, 2024–present) — the most powerful production Defender ever made, producing up to 635 hp. The Range Rover uses the S68 in the SV (L460, 2024–present), a high-performance luxury SUV variant. The Range Rover Sport follows the same pattern with the SV (L461, 2024–present), offering the same S68 powerplant in a sportier body shell. All three applications use the S68 with 48V mild-hybrid assistance.",
     "lineup": [
       {
         "label": "Defender",
         "code": "L663"
-      },
-      {
-        "label": "Discovery",
-        "code": "L462"
       },
       {
         "label": "Range Rover",
@@ -32,43 +28,93 @@
       {
         "label": "Range Rover Sport",
         "code": "L461"
-      },
-      {
-        "label": "Range Rover Velar",
-        "code": "L560"
       }
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER S68",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the S68 is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "The S68 is a BMW M engine — not a JLR-designed engine. Compatibility comes down to confirming your exact model and generation, which we do by registration. All three Land Rover applications (Defender Octa, Range Rover SV, Range Rover Sport SV) use the same base S68 engine, but specific ancillaries and tuning vary by application. Before we quote or supply anything, we confirm your exact vehicle and variant.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "2023–present"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "S68"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Defender L663, Range Rover L460, Range Rover Sport L461"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover S68",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "S68 in the Defender Octa (L663, 2024–present)",
+        "model": "Defender Octa",
+        "chassis": "L663",
+        "years": "2024–present",
+        "variant": "",
+        "body": "The S68 in the Defender Octa is one of the applications we work on. The Octa is the most powerful production Defender ever produced, powered by BMW's S68 twin-turbo V8 producing 635 hp with 48V mild-hybrid assistance.",
+        "price": "£6,500",
+        "ctaLabel": "Check your Defender Octa S68",
+        "generation": "L663",
+        "powertrain": "Petrol MHEV",
+        "href": "/defender-engines",
+        "title": "S68 in the Defender Octa",
+        "subtitle": "(L663, 2024–present)"
+      },
+      {
+        "heading": "S68 in the Range Rover SV (L460, 2024–present)",
+        "model": "Range Rover SV",
+        "chassis": "L460",
+        "years": "2024–present",
+        "variant": "",
+        "body": "The S68 in the Range Rover SV is one of the applications we work on, powering the high-performance luxury SUV variant with the same BMW-sourced twin-turbo V8.",
+        "price": "£6,500",
+        "ctaLabel": "Check your Range Rover SV S68",
+        "generation": "L460",
+        "powertrain": "Petrol MHEV",
+        "href": "/models",
+        "title": "S68 in the Range Rover SV",
+        "subtitle": "(L460, 2024–present)"
+      },
+      {
+        "heading": "S68 in the Range Rover Sport SV (L461, 2024–present)",
+        "model": "Range Rover Sport SV",
+        "chassis": "L461",
+        "years": "2024–present",
+        "variant": "",
+        "body": "The S68 in the Range Rover Sport SV is one of the applications we work on — the sportiest S68 application in the Land Rover range, offering the same 4.4-litre twin-turbo V8 with 48V mild-hybrid assistance.",
+        "price": "£6,500",
+        "ctaLabel": "Check your Range Rover Sport SV S68",
+        "generation": "L461",
+        "powertrain": "Petrol MHEV",
+        "href": "/range-rover-sport-engines",
+        "title": "S68 in the Range Rover Sport SV",
+        "subtitle": "(L461, 2024–present)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

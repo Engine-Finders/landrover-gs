@@ -113,12 +113,7 @@ export default function ModelSec2({ data }) {
             <Image src={data.image} alt="Classic Land Rover diesel engine with exposed timing belt and camshaft pulleys on an engine stand" fill className="object-cover" sizes="1152px" />
 
             <div className="relative flex flex-col px-8 pb-8 pt-8 lg:px-10 lg:pb-10 lg:pt-10">
-              <div className="relative isolate max-w-[46%]">
-                <div
-                  className="pointer-events-none absolute -inset-x-10 -inset-y-8 -z-10"
-                  style={{ background: "radial-gradient(ellipse 75% 70% at 42% 48%, color-mix(in srgb, var(--theme-light-bg) 88%, transparent) 0%, color-mix(in srgb, var(--theme-light-bg) 65%, transparent) 50%, transparent 100%)" }}
-                  aria-hidden="true"
-                />
+              <div className="relative max-w-[46%]">
                 <div className="flex items-center gap-2">
                   <Icon name="warning" className="h-4 w-4 shrink-0 text-hero-blue" />
                   <p className="label-text uppercase tracking-widest text-[#101828]">{data.kicker}</p>
