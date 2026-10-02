@@ -34,5 +34,39 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your Rover K-Series's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Head gasket — critical known issue",
+        "Cooling system components — critical known issue",
+        "Timing belt",
+        "Main bearings and connecting rod bearings",
+        "Complete gasket and seal set",
+        "Oil filter housing gasket"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft",
+        "Cylinder head (check for cracking/warping)",
+        "Head gasket",
+        "Cooling system (thermostat, water pump, hoses)",
+        "Ignition leads",
+        "Fuel injectors",
+        "Exhaust manifold"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "Vehicle-specific ancillaries"
+      ]
+    }
+  ]
 }

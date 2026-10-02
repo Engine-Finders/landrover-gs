@@ -1,21 +1,21 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ300P",
     "titlePost": " ENGINE",
-    "body": "The AJ300P is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every AJ300P to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The AJ300P is Jaguar Land Rover's 3.0-litre inline-six petrol engine, part of the Ingenium family introduced in 2019. It's fitted across five Land Rover model lines — Defender, Discovery, Range Rover, Range Rover Sport and Range Rover Velar — and is available in both mild-hybrid (MHEV) and plug-in hybrid (PHEV) configurations. The AJ300P uses a twin-scroll turbocharger and forms the petrol six-cylinder option across the Land Rover range where larger V8 power isn't specified."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER AJ300P",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The AJ300P is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "Across the Defender (L663), the AJ300P powers the P400 variant from 2020 onwards in mild-hybrid form. The Discovery (L462) uses it in P360 and P400 badging from 2021. Both the Range Rover (L460) and Range Rover Sport (L461) employ the AJ300P across a wider spectrum — P400 in MHEV form, plus P440e, P460e and P550e in PHEV configurations from 2022. The Range Rover Velar (L560) carries the AJ300P in P340 and P400 badging from 2019, all in mild-hybrid form.",
     "lineup": [
       {
         "label": "Defender",
@@ -40,35 +40,119 @@
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER AJ300P",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the AJ300P is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "Because the AJ300P spans five different models and multiple configurations — some in mild-hybrid form, others as plug-in hybrids — compatibility comes down to confirming your exact model, generation, and drivetrain spec, which we do by registration. MHEV and PHEV variants differ significantly in their hybrid-system components, and a Defender AJ300P isn't a drop-in match for a Range Rover AJ300P even though it's the same base engine code — ancillaries, mounting, and hybrid-system integration all differ. Before we quote or supply anything, we confirm your exact vehicle.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "2019–present"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "AJ300P"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Defender L663, Discovery L462, Range Rover L460, Range Rover Sport L461, Range Rover Velar L560"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover AJ300P",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "AJ300P in the Defender (L663)",
+        "model": "Defender",
+        "chassis": "L663",
+        "years": "2020–present",
+        "variant": "",
+        "body": "The AJ300P in the Defender is one of the applications we work on regularly — the P400 variant from 2020 onwards in mild-hybrid form.",
+        "price": "£3,200",
+        "ctaLabel": "Check your Defender AJ300P",
+        "generation": "L663",
+        "powertrain": "Petrol MHEV",
+        "href": "/defender-engines",
+        "title": "AJ300P in the Defender",
+        "subtitle": "(L663, 2020–present)"
+      },
+      {
+        "heading": "AJ300P in the Discovery (L462)",
+        "model": "Discovery",
+        "chassis": "L462",
+        "years": "2021–present",
+        "variant": "",
+        "body": "The AJ300P in the Discovery is one of the applications we work on — the P360 and P400 variants from 2021 onwards in mild-hybrid form.",
+        "price": "£3,200",
+        "ctaLabel": "Check your Discovery AJ300P",
+        "generation": "L462",
+        "powertrain": "Petrol MHEV",
+        "href": "/discovery-engines",
+        "title": "AJ300P in the Discovery",
+        "subtitle": "(L462, 2021–present)"
+      },
+      {
+        "heading": "AJ300P in the Range Rover (L460)",
+        "model": "Range Rover",
+        "chassis": "L460",
+        "years": "2022–present",
+        "variant": "",
+        "body": "The AJ300P in the Range Rover spans both MHEV and PHEV configurations — P400 in mild-hybrid form, and P440e, P460e and P550e as plug-in hybrids from 2022 onwards. See the Powertrain Variant section below for the PHEV-specific ancillary scope.",
+        "price": "£3,200",
+        "ctaLabel": "Check your Range Rover AJ300P",
+        "generation": "L460",
+        "powertrain": "Petrol MHEV/PHEV",
+        "href": "/models",
+        "title": "AJ300P in the Range Rover",
+        "subtitle": "(L460, 2022–present)"
+      },
+      {
+        "heading": "AJ300P in the Range Rover Sport (L461)",
+        "model": "Range Rover Sport",
+        "chassis": "L461",
+        "years": "2022–present",
+        "variant": "",
+        "body": "The AJ300P in the Range Rover Sport follows the same pattern as the Range Rover — P400 MHEV and P440e, P460e, P550e PHEV applications from 2022.",
+        "price": "£3,200",
+        "ctaLabel": "Check your Range Rover Sport AJ300P",
+        "generation": "L461",
+        "powertrain": "Petrol MHEV/PHEV",
+        "href": "/range-rover-sport-engines",
+        "title": "AJ300P in the Range Rover Sport",
+        "subtitle": "(L461, 2022–present)"
+      },
+      {
+        "heading": "AJ300P in the Range Rover Velar (L560)",
+        "model": "Range Rover Velar",
+        "chassis": "L560",
+        "years": "2019–present",
+        "variant": "",
+        "body": "The AJ300P in the Range Rover Velar is one of the applications we work on — the P340 and P400 variants from 2019 onwards, all in mild-hybrid form.",
+        "price": "£3,200",
+        "ctaLabel": "Check your Range Rover Velar AJ300P",
+        "generation": "L560",
+        "powertrain": "Petrol MHEV",
+        "href": "/range-rover-velar-engines",
+        "title": "AJ300P in the Range Rover Velar",
+        "subtitle": "(L560, 2019–present)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

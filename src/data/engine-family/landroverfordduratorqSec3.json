@@ -1,5 +1,5 @@
 {
-  "image": "/engine/sec3.webp",
+  "image": "/engine/sec3.jpg",
   "titlePre": "Land Rover Ford Duratorq Applications — ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
@@ -25,48 +25,39 @@
   "rows": [
     {
       "model": "Defender",
-      "variant": "D200, D250, D300, D350",
-      "generation": "L663",
+      "variant": "2.2 TDCi",
+      "generation": "L663 (Puma)",
       "chassis": "L663",
-      "years": "2020–present",
-      "powertrain": "Diesel MHEV",
+      "years": "2012–2016",
+      "powertrain": "Diesel",
       "modelHref": "/defender-engines"
     },
     {
-      "model": "Discovery",
-      "variant": "D250, D300, D350",
-      "generation": "L462",
-      "chassis": "L462",
-      "years": "2020–present",
-      "powertrain": "Diesel MHEV",
-      "modelHref": "/discovery-engines"
+      "model": "Discovery Sport",
+      "variant": "TD4, SD4",
+      "generation": "L550",
+      "chassis": "L550",
+      "years": "2014–2016",
+      "powertrain": "Diesel",
+      "modelHref": "/discovery-sport-engines"
     },
     {
-      "model": "Range Rover",
-      "variant": "D250, D300, D350",
-      "generation": "L460",
-      "chassis": "L460",
-      "years": "2022–present",
-      "powertrain": "Diesel MHEV",
-      "modelHref": "/models"
+      "model": "Freelander",
+      "variant": "TD4, SD4",
+      "generation": "L359",
+      "chassis": "L359",
+      "years": "2011–2014",
+      "powertrain": "Diesel",
+      "modelHref": "/freelander-engines"
     },
     {
-      "model": "Range Rover Sport",
-      "variant": "D250, D300, D350",
-      "generation": "L461",
-      "chassis": "L461",
-      "years": "2022–present",
-      "powertrain": "Diesel MHEV",
-      "modelHref": "/range-rover-sport-engines"
-    },
-    {
-      "model": "Range Rover Velar",
-      "variant": "D200, D250, D300",
-      "generation": "L560",
-      "chassis": "L560",
-      "years": "2019–present",
-      "powertrain": "Diesel MHEV",
-      "modelHref": "/range-rover-velar-engines"
+      "model": "Range Rover Evoque",
+      "variant": "TD4, SD4",
+      "generation": "L538",
+      "chassis": "L538",
+      "years": "2011–2016",
+      "powertrain": "Diesel",
+      "modelHref": "/range-rover-evoque-engines"
     }
   ],
   "prompt": {

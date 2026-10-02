@@ -5,23 +5,23 @@
   "titleBigPost": " AJ150D",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the AJ150D across its 5 model applications."
+    "Here's our practical view of the AJ150D across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The AJ150D is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The AJ150D is one of the more focused applications we work on — the same base engine across two model lines (Discovery Sport and Range Rover Evoque), both carrying the D150 badge."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain assembly, bearings, and complete gasket set as standard on every rebuild, with vehicle-specific ancillaries confirmed on a per-application basis."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the AJ150D across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "No widely-reported catastrophic issue pattern has been confirmed for the AJ150D across either of its two applications. The three-cylinder diesel is considered generally reliable, though it shares some Ingenium diesel family characteristics with the AJ200D (timing chain and balance shaft bearing concerns). We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild or replacement."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER AJ150D REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full AJ150D rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The AJ150D is a 1.5-litre three-cylinder diesel, part of the Ingenium family. As with other Ingenium diesel engines, the timing chain system is a known wear point that we inspect thoroughly on every rebuild. The three-cylinder configuration means certain components are specific to this engine variant — including the balance shaft arrangement, which we check carefully during strip-down. Full engine replacements for the AJ150D require DME software matching to ensure the engine control unit is correctly configured for the specific application.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing chain assembly, bearings, gaskets, balance shaft inspection"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£2,000",

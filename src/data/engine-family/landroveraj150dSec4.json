@@ -34,5 +34,36 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your AJ150D's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing Chain Assembly",
+        "Main Bearings and Connecting Rod Bearings",
+        "Complete Gasket and Seal Set"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft — inspected for wear and measured against specification",
+        "Cylinder head — checked for condition and flatness",
+        "Timing chain tensioners and guides — inspected for wear",
+        "EGR valve and cooler — checked for clogging",
+        "DPF components — inspected for blockage",
+        "Turbocharger — checked for shaft play and carbon buildup",
+        "High-pressure fuel pump — inspected for condition"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "Vehicle-specific ancillaries"
+      ]
+    }
+  ]
 }

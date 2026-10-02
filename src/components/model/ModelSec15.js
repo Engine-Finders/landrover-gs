@@ -116,8 +116,10 @@ export default function ModelSec15({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden px-4 pb-10 pt-16 sm:px-6 md:block lg:px-8">
       {/* full-bleed background across the whole section */}
-      <div className="absolute inset-0">
-        <Image src={data.image} alt="Classic green Land Rover Defender 90 in a bright Land Rover specialist workshop" fill className="object-cover object-right-top" sizes="100vw" />
+      {/* photo pushed 10vw past the right edge so the diagonal stripe clears the headline/description;
+          any strip uncovered on the left is filled with the photo's own flat left-panel colour */}
+      <div className="absolute inset-0 overflow-hidden bg-[#f2f8f2]">
+        <Image src={data.image} alt="Classic green Land Rover Defender 90 in a bright Land Rover specialist workshop" fill className="object-cover" style={{ objectPosition: "right -10vw top 0" }} sizes="100vw" />
       </div>
 
       <div className="relative mx-auto max-w-6xl">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
+import ClampedText from "@/components/reusable/ClampedText";
 
 export default function VariantSec4({ data }) {
   return (
@@ -39,9 +40,9 @@ export default function VariantSec4({ data }) {
                   </div>
                 </div>
                 <p className="mt-2 text-xs font-extrabold uppercase leading-tight text-[#101828]">{c.title}</p>
-                <p className="body-text mt-1.5 line-clamp-4 leading-snug text-[#4a5568]">{c.body}</p>
+                <div className="mt-1.5"><ClampedText className="body-text leading-snug text-[#4a5568]">{c.body}</ClampedText></div>
                 <a href="#quote-form" className="label-text mt-2 inline-flex w-fit items-center gap-1 font-bold text-hero-blue">
-                  {c.link} <span aria-hidden>→</span>
+                  {c.link || "Learn more"} <span aria-hidden>→</span>
                 </a>
               </div>
             ))}
@@ -83,7 +84,7 @@ export default function VariantSec4({ data }) {
             <Image src={data.topImage} alt="Land Rover engine block" fill className="object-cover" sizes="100vw" />
           </div>
 
-          <div className="relative z-10 mx-auto flex h-full max-w-6xl items-center px-4 sm:px-6 lg:px-8">
+          <div className="relative z-10 mx-auto flex h-full max-w-[76rem] items-center px-4 sm:px-6 lg:px-8">
             <div className="max-w-lg">
               <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
                 <span className="block text-[#101828]">{data.headlinePre}</span>
@@ -117,10 +118,10 @@ export default function VariantSec4({ data }) {
                         <p className="mt-1 text-base font-extrabold uppercase leading-tight text-[#101828]">{c.title}</p>
                       </div>
                     </div>
-                    <p className="mt-4 text-sm leading-relaxed text-[#4a5568]">{c.body}</p>
+                    <div className="mt-4"><ClampedText className="text-sm leading-relaxed text-[#4a5568]">{c.body}</ClampedText></div>
                   </div>
                   <a href="#quote-form" className="mt-4 inline-flex w-fit items-center gap-1.5 text-sm font-bold text-hero-blue">
-                    {c.link} <span aria-hidden>→</span>
+                    {c.link || "Learn more"} <span aria-hidden>→</span>
                   </a>
                 </div>
               ))}

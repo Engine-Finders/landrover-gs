@@ -3,7 +3,6 @@
 import { useRef, useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 import RegLookupForm from "@/components/reusable/RegLookupForm";
 
 function GoogleG({ className = "h-5 w-5" }) {
@@ -53,7 +52,6 @@ export default function VariantSec7({ data }) {
         <div className="relative md:hidden">
           <div className="relative px-4 pb-8 pt-8">
           <h2 className="h2 text-white uppercase">
-            <LandRoverStripe className="float-left mr-2 mt-0.5 h-6 w-12 shrink-0" />
             {reviews.titlePre}
             <span className="text-hero-blue">{reviews.titleHighlight}</span>
           </h2>
@@ -114,15 +112,10 @@ export default function VariantSec7({ data }) {
           </div>
 
           <div className="relative mx-auto max-w-6xl">
-            <div className="flex items-start gap-3">
-              <span className="h2 flex h-[1.05em] shrink-0 items-center" aria-hidden="true">
-                <LandRoverStripe className="h-[0.85em] w-[1.35em] shrink-0" />
-              </span>
-              <h2 className="h2 text-white uppercase">
-                {reviews.titlePre}
-                <span className="text-hero-blue">{reviews.titleHighlight}</span>
-              </h2>
-            </div>
+            <h2 className="h2 text-white uppercase">
+              {reviews.titlePre}
+              <span className="text-hero-blue">{reviews.titleHighlight}</span>
+            </h2>
 
             <div className="relative mt-6 px-11">
             <button
@@ -217,7 +210,7 @@ export default function VariantSec7({ data }) {
             <Image src={coverage.image} alt="Land Rover front grille" fill className="object-cover object-right" sizes="100vw" />
           </div>
 
-          <div className="relative mx-auto flex max-w-6xl items-center gap-8 px-4 py-10 sm:px-6 lg:px-8">
+          <div className="relative mx-auto flex max-w-[76rem] items-center gap-8 px-4 py-10 sm:px-6 lg:px-8">
             <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-black/10 bg-white shadow-sm">
               <Icon name={coverage.icon} className="h-8 w-8 text-hero-blue" />
             </span>
@@ -253,7 +246,6 @@ export default function VariantSec7({ data }) {
         {/* ===== mobile ===== */}
         <div className="relative px-4 pb-10 pt-7 md:hidden">
           <h2 className="h2 uppercase">
-            <LandRoverStripe className="float-left mr-2 mt-0.5 h-6 w-12 shrink-0" />
             {whyChooseWords.map((t, i) => (
               <span key={i} className={t.highlight ? "text-hero-blue" : "text-[#101828]"}>
                 {t.w}
@@ -275,15 +267,10 @@ export default function VariantSec7({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
-            <div className="flex items-start gap-3">
-              <span className="h2 flex h-[1.05em] shrink-0 items-center" aria-hidden="true">
-                <LandRoverStripe className="h-[0.85em] w-[1.35em] shrink-0" />
-              </span>
-              <h2 className="h2 uppercase">
-                <span className="text-[#101828]">{whyChoose.titlePre}</span>
-                <span className="text-hero-blue">{whyChoose.titleHighlight}</span>
-              </h2>
-            </div>
+            <h2 className="h2 uppercase">
+              <span className="text-[#101828]">{whyChoose.titlePre}</span>
+              <span className="text-hero-blue">{whyChoose.titleHighlight}</span>
+            </h2>
 
             <div className="mt-8 grid grid-cols-3 gap-x-10 gap-y-6">
               {whyChoose.items.map((item) => (

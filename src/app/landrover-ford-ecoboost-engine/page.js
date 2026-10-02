@@ -7,6 +7,7 @@ import Sec6 from "@/components/engine-family/Sec6";
 import Sec7 from "@/components/engine-family/Sec7";
 import Sec8 from "@/components/engine-family/Sec8";
 import Sec9 from "@/components/engine-family/Sec9";
+import SecApps from "@/components/engine-family/SecApps";
 import Sec10 from "@/components/engine-family/Sec10";
 import Sec11 from "@/components/engine-family/Sec11";
 import JsonLd from "@/components/shared/JsonLd";
@@ -51,6 +52,7 @@ export default function LandroverFordEcoboostEnginePage() {
       <Sec7 data={sec7} />
       <Sec8 data={sec8} />
       <Sec9 data={sec9} />
+      <SecApps data={sec9.apps} />
       <Sec10 data={sec10} />
       <Sec11 data={sec11} />
     </>

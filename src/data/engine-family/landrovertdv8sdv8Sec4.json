@@ -34,5 +34,39 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your TDV8 SDV8's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing chain assembly (chains, guides, tensioners)",
+        "Main bearings and connecting rod bearings",
+        "Complete gasket and seal set",
+        "Oil cooler gaskets — known issue",
+        "Oil filter housing gasket"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft",
+        "Cylinder head",
+        "Timing chain tensioners and guides",
+        "Turbocharger components (twin-turbo)",
+        "EGR valve (failing/stuck EGR valves)",
+        "DPF components",
+        "High-pressure fuel pump — known failure on SDV8s",
+        "Auxiliary belt tensioner — weak point"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "3.6L vs 4.4L variants"
+      ]
+    }
+  ]
 }

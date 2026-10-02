@@ -5,23 +5,23 @@
   "titleBigPost": " Ford Duratorq",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the Ford Duratorq across its 5 model applications."
+    "Here's our practical view of the Ford Duratorq across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The Ford Duratorq is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The Duratorq is a Ford-sourced engine we work on across four Land Rover model lines — Defender, Discovery Sport, Freelander and Range Rover Evoque — primarily in TD4 and SD4 variants from the 2011–2016 production window."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain assembly, bearings and gaskets as standard on every rebuild, with thorough inspection of the EGR cooler, turbo actuator, injector seals, and the EGR/DPF/VNT turbo carbon-choke system."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the Ford Duratorq across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "Confirmed issues include EGR cooler failure (the \"coolant-in-oil nightmare\"), turbo actuator failure (restricted performance and limp home mode), timing chain tensioner wear, injector seal problems, and the interlinked carbon-choke system on EU5 engines. These are well-documented patterns across Land Rover Duratorq applications — we inspect for all of them during every strip-down. Generations/Revisions The Duratorq 2.2L appeared across multiple Land Rover applications between 2011 and 2016. There was no single generational change for the engine itself within Land Rover applications — the same underlying Puma-family engine was used throughout, with the key difference being TD4 vs SD4 tuning (150 PS vs 190 PS). Engine ancillaries and mounting differ by application and model generation, which is why we match by registration/VIN before confirming any rebuild."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER Ford Duratorq REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full Ford Duratorq rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The Duratorq uses a chain-driven timing system, not a belt — which means timing chain tensioner wear is the primary timing-system concern rather than a belt replacement interval. During a full rebuild, the EGR cooler is a critical inspection point — failure here can allow coolant into the exhaust circuit, causing milky oil on the dipstick. The turbo actuator is also inspected thoroughly, as manufacturing defects in turbo actuators are a known cause of restricted performance and limp home mode on these engines. The EGR, DPF and variable-vane turbo behave as one interlinked system that clogs with soot on short-trip, low-speed use, so all three are accounted for during strip-down and reassembly.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing chain, bearings, gaskets, EGR cooler inspection, turbo actuator inspection, EGR/DPF/VNT turbo assessment"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£1,900",

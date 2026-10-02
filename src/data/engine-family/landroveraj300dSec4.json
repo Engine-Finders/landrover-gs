@@ -34,5 +34,40 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your AJ300D's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing chain assembly (chains, guides, tensioners)",
+        "Main bearings and connecting rod bearings",
+        "Complete gasket and seal set",
+        "Oil filter housing gasket"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft",
+        "Cylinder head",
+        "Timing chain tensioners and guides",
+        "Twin-turbocharger components (sequential turbo setup)",
+        "EGR valve and cooler (cleaning every 40–50k km recommended)",
+        "DPF and SCR components",
+        "48V mild-hybrid system components",
+        "High-pressure fuel pump",
+        "Oil for fuel dilution"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "48V MHEV system components",
+        "Vehicle-specific ancillaries"
+      ]
+    }
+  ]
 }

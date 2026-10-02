@@ -6,7 +6,7 @@ export default function VariantSec9({ data }) {
       <div className="absolute inset-0" aria-hidden="true">
         <Image src="/variant/sec8.webp" alt="" fill className="object-cover object-right" sizes="100vw" />
       </div>
-      <div className="relative mx-auto flex max-w-6xl flex-col gap-5 px-4 py-6 sm:px-6 md:flex-row md:items-center md:justify-between md:gap-8 md:py-7 lg:px-8">
+      <div className="relative mx-auto flex max-w-[76rem] flex-col gap-5 px-4 py-6 sm:px-6 md:flex-row md:items-center md:justify-between md:gap-8 md:py-7 lg:px-8">
         <div className="md:max-w-[62%]">
           <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
             <span className="block text-white">{data.headlinePre}</span>

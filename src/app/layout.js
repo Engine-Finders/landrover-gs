@@ -48,7 +48,7 @@ export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Land Rover Engine Rebuild Specialists | Land Rover Garage",
   description:
-    "Land Rover-Benz engine rebuild specialists. OM651, OM642, AMG V8, V12 & more. Cars, SUVs, AMG and commercial vehicles. Fixed-price quotes from £2,200, 12-month unlimited-mileage warranty.",
+    "Land Rover engine rebuild specialists. Td5, 300Tdi, Ingenium, V6 & V8 across Defender, Discovery and Range Rover. Fixed-price quotes from £1,900, 12-month unlimited-mileage warranty.",
   alternates: { canonical: "/" },
   robots: {
     index: true,

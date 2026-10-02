@@ -797,3 +797,20 @@ body {
   pointer-events: none;
   z-index: 5;
 }
+
+/* ---------------------------------------------------------------- */
+/* Muted gold accents (engine-family reference UI): gradient text for */
+/* prices/highlights, plus a matching rule line.                      */
+/* ---------------------------------------------------------------- */
+.gold-text {
+  background: linear-gradient(180deg, #ecd59b 0%, #c9a96e 50%, #9c7d45 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gold-rule {
+  height: 2px;
+  background: linear-gradient(90deg, rgba(201, 169, 110, 0) 0%, #e3c27d 35%, rgba(201, 169, 110, 0) 100%);
+  box-shadow: 0 0 10px rgba(227, 194, 125, 0.45);
+}

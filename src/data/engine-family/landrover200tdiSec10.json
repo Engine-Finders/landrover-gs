@@ -5,23 +5,23 @@
   "titleBigPost": " 200Tdi",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the 200Tdi across its 5 model applications."
+    "Here's our practical view of the 200Tdi across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The 200Tdi is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The 200Tdi is a classic Land Rover engine, fitted to the Defender L316 from 1990 to 1994. It's one of the simpler and more robust Land Rover diesel engines we work on."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing belt, tensioner, VE injection pump, head gasket, bearings, and gaskets as standard on every rebuild."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the 200Tdi across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "Timing belt failure (the 200Tdi is an interference engine — belt failure causes valve-to-piston contact), VE fuel injection pump leaks, head gasket failure, and fuel system issues including lumpy idle and stalling."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER 200Tdi REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full 200Tdi rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The 200Tdi is one of the simpler diesel engines we work on — it uses mechanical fuel injection rather than common-rail, which means no high-pressure injector pump or complex electronic management to recalibrate. The engine's simplicity means a full rebuild is more straightforward than many of the later, more complex engines in the Land Rover range.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing belt, tensioner, injection pump, head gasket, bearings, gaskets"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£1,900",

@@ -5,23 +5,23 @@
   "titleBigPost": " TDV6 SDV6",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the TDV6 SDV6 across its 5 model applications."
+    "Here's our practical view of the TDV6 SDV6 across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The TDV6 SDV6 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The TDV6/SDV6 appears across three Land Rover model lines — Discovery, Range Rover and Range Rover Sport — spanning multiple generations from 2004 to 2019. The SDV6 (twin-turbo) is a higher-output variant of the same engine."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain assembly, main bearings, connecting rod bearings, crankshaft inspection and replacement where necessary, complete gasket and seal set, and oil filter housing gasket as standard on every rebuild. Single vs twin-turbo variants are accounted for during strip-down."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the TDV6 SDV6 across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "Crankshaft failure (snapped crankshaft) is the most feared failure on this engine — we inspect the crankshaft thoroughly on every rebuild. Crankshaft bearing rotation/failure is also a critical concern. Timing chain tensioner failure is well-documented; cold-start chain rattle that clears after 10 to 15 seconds is not normal. Oil dilution from DPF regeneration and turbocharger failures (particularly secondary turbo faults on SDV6) are also confirmed issues."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER TDV6 SDV6 REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full TDV6 SDV6 rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The TDV6/SDV6's crankshaft is a known critical wear point — it is the most feared failure on this engine, and we inspect it thoroughly on every rebuild. Cold-start chain rattle that clears after 10 to 15 seconds is not normal and indicates timing chain tensioner wear requiring attention. Oil quality is critical — extended oil change intervals can lead to oil starvation and bearing failure, and incorrect oil spec can cause problems. The TDV6 typically uses a single turbocharger, while the SDV6 uses twin turbochargers, and we account for the relevant turbo configuration during strip-down.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Crankshaft inspection, timing chain assembly, main bearings and connecting rod bearings, complete gasket and seal set, turbocharger inspection (single or twin depending on variant)"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£2,400",

@@ -21,8 +21,14 @@ function withEmphasis(text) {
 export default function ModelSec4({ data }) {
   const [disclaimerLine1, disclaimerLine2] = data.disclaimer.split(/(?<=components\.)\s+/);
   const hasChassis = data.columns.length > 4;
-  const mobileGridCols = hasChassis ? "grid-cols-[1.1fr_0.65fr_0.65fr_0.8fr_1fr]" : "grid-cols-[1.3fr_0.75fr_0.75fr_1.1fr]";
-  const desktopGridCols = hasChassis ? "grid-cols-[1.4fr_0.8fr_0.8fr_0.9fr_1.2fr]" : "grid-cols-[1.6fr_0.9fr_0.9fr_1.3fr]";
+  // minmax(0,…) so every row (each its own grid) gets identical column widths — a bare `fr`
+  // track grows to fit its longest word, which made rows like "Classic (90/110/130)" misalign
+  const mobileGridCols = hasChassis
+    ? "grid-cols-[minmax(0,1.1fr)_minmax(0,0.65fr)_minmax(0,0.75fr)_minmax(0,0.8fr)_minmax(0,0.95fr)]"
+    : "grid-cols-[minmax(0,1.15fr)_minmax(0,0.75fr)_minmax(0,1.05fr)_minmax(0,0.95fr)]";
+  const desktopGridCols = hasChassis
+    ? "grid-cols-[minmax(0,1.4fr)_minmax(0,0.8fr)_minmax(0,0.8fr)_minmax(0,0.9fr)_minmax(0,1.2fr)]"
+    : "grid-cols-[minmax(0,1.6fr)_minmax(0,0.9fr)_minmax(0,0.9fr)_minmax(0,1.3fr)]";
 
   return (
     <section className="theme-light relative overflow-hidden">
@@ -55,25 +61,25 @@ export default function ModelSec4({ data }) {
           {/* pricing table */}
           <div className="glass-card mt-5 overflow-hidden rounded-2xl">
             <div className={`grid ${mobileGridCols} divide-x divide-black/10 border-b border-black/10 bg-white/60`}>
-              <div className="flex min-w-0 flex-col items-start gap-1 px-1.5 py-2">
+              <div className="flex min-w-0 flex-col items-start gap-1 px-2 py-2">
                 <Icon name="gear" className="h-3.5 w-3.5 shrink-0 text-hero-blue" />
                 <p className="label-text min-w-0 font-extrabold uppercase leading-tight tracking-wide text-hero-blue">{data.columns[0]}</p>
               </div>
-              <div className="flex min-w-0 flex-col items-start gap-1 px-1.5 py-2">
+              <div className="flex min-w-0 flex-col items-start gap-1 px-2 py-2">
                 <Icon name="fuel" className="h-3.5 w-3.5 shrink-0 text-hero-blue" />
                 <p className="label-text min-w-0 font-extrabold uppercase leading-tight tracking-wide text-hero-blue">{data.columns[1]}</p>
               </div>
-              <div className="flex min-w-0 flex-col items-start gap-1 px-1.5 py-2">
+              <div className="flex min-w-0 flex-col items-start gap-1 px-2 py-2">
                 <Icon name="gears" className="h-3.5 w-3.5 shrink-0 text-hero-blue" />
                 <p className="label-text min-w-0 font-extrabold uppercase leading-tight tracking-wide text-hero-blue">{data.columns[2]}</p>
               </div>
               {hasChassis && (
-                <div className="flex min-w-0 flex-col items-start gap-1 px-1.5 py-2">
+                <div className="flex min-w-0 flex-col items-start gap-1 px-2 py-2">
                   <Icon name="car" className="h-3.5 w-3.5 shrink-0 text-hero-blue" />
                   <p className="label-text min-w-0 font-extrabold uppercase leading-tight tracking-wide text-hero-blue">{data.columns[3]}</p>
                 </div>
               )}
-              <div className="flex min-w-0 flex-col items-start gap-1 px-1.5 py-2">
+              <div className="flex min-w-0 flex-col items-start gap-1 px-2 py-2">
                 <Icon name="price" className="h-3.5 w-3.5 shrink-0 text-hero-blue" />
                 <p className="label-text font-extrabold uppercase leading-tight tracking-wide text-hero-blue">{data.columns[hasChassis ? 4 : 3]}</p>
               </div>
@@ -84,15 +90,15 @@ export default function ModelSec4({ data }) {
                 key={r.family}
                 className={`grid ${mobileGridCols} divide-x divide-black/10 ${i > 0 ? "border-t border-black/10" : ""} ${i % 2 === 1 ? "bg-white/40" : ""}`}
               >
-                <p className="label-text px-2 py-2.5 font-bold leading-tight text-[#101828]">
+                <p className="label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] font-bold leading-tight text-[#101828]">
                   {r.familyHref ? <Link href={r.familyHref} >{r.family}</Link> : r.family}
                 </p>
-                <p className={`label-text px-2 py-2.5 font-semibold leading-tight ${r.fuel === "Petrol" ? "text-bmw-red" : "text-hero-blue"}`}>
+                <p className={`label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] font-semibold leading-tight ${r.fuel === "Petrol" ? "text-bmw-red" : "text-hero-blue"}`}>
                   {r.fuel}
                 </p>
-                <p className="label-text px-2 py-2.5 leading-tight text-[#101828]">{r.size}</p>
-                {hasChassis && <p className="label-text px-2 py-2.5 leading-tight text-[#101828]">{r.chassis}</p>}
-                <p className="label-text px-2 py-2.5 font-bold leading-tight text-[#101828]">{r.range}</p>
+                <p className="label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] leading-tight text-[#101828]">{r.size}</p>
+                {hasChassis && <p className="label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] leading-tight text-[#101828]">{r.chassis}</p>}
+                <p className="label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] font-bold leading-tight text-[#101828]">{r.range}</p>
               </div>
             ))}
           </div>

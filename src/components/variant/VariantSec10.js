@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
-import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import MobileSplitTitle from "@/components/variant/MobileSplitTitle";
 
@@ -43,10 +42,9 @@ export default function VariantSec10({ data }) {
               style={{ background: "linear-gradient(to right, #fff 0%, #fff 46%, rgba(255,255,255,0.9) 56%, rgba(255,255,255,0.35) 66%, transparent 76%)" }}
             />
           </div>
-          <div className="relative mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
+          <div className="relative mx-auto max-w-[76rem] px-4 py-10 sm:px-6 lg:px-8">
             <div className="max-w-lg">
-              <LandRoverStripe className="h-10 w-16 shrink-0" />
-              <h2 className="h2 mt-3 uppercase">
+              <h2 className="h2 uppercase">
                 {about.titlePre} <span className="block text-hero-blue">{about.titleHighlight}</span>
               </h2>
               <div className="mt-4 space-y-3 text-sm leading-relaxed text-[#101828]">
@@ -65,7 +63,6 @@ export default function VariantSec10({ data }) {
         {/* ===== mobile ===== */}
         <div className="relative px-4 pb-8 pt-6 md:hidden">
           <h2 className="h2 uppercase">
-            <LandRoverStripe className="float-left mr-2 mt-0.5 h-6 w-12 shrink-0" />
             <span className="text-white">{codes.titlePre}</span>
             <span className="text-hero-blue">{codes.titleHighlight}</span>
           </h2>
@@ -97,9 +94,6 @@ export default function VariantSec10({ data }) {
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
             <div className="flex items-start gap-3">
-              <span className="h2 flex h-[1.05em] shrink-0 items-center" aria-hidden="true">
-                <LandRoverStripe className="h-[0.85em] w-[1.35em] shrink-0" />
-              </span>
               <h2 className="h2 uppercase">
                 <span className="text-white">{codes.titlePre}</span>
                 <span className="text-hero-blue">{codes.titleHighlight}</span>
@@ -178,11 +172,8 @@ export default function VariantSec10({ data }) {
               style={{ background: "linear-gradient(to right, #fff 0%, #fff 48%, rgba(255,255,255,0.9) 60%, transparent 75%)" }}
             />
           </div>
-          <div className="relative mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
+          <div className="relative mx-auto max-w-[76rem] px-4 py-10 sm:px-6 lg:px-8">
             <div className="flex items-start gap-3">
-              <span className="h2 flex h-[1.05em] shrink-0 items-center" aria-hidden="true">
-                <LandRoverStripe className="h-[0.85em] w-[1.35em] shrink-0" />
-              </span>
               <h2 className="h2 uppercase">
                 <span className="text-[#101828]">{compatibility.titlePre}</span>
                 <span className="text-hero-blue">{compatibility.titleHighlight}</span>

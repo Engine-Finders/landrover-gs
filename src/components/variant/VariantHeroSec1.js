@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 import RegLookupForm from "@/components/reusable/RegLookupForm";
 
 export default function VariantHeroSec1({ data }) {
@@ -22,9 +21,7 @@ export default function VariantHeroSec1({ data }) {
         </div>
 
         <div className="relative px-4 pb-4 pt-3">
-          <LandRoverStripe className="h-5 w-10" />
-
-          <h1 className="h1 origin-left scale-y-110 scale-x-90 mt-1.5 uppercase">
+          <h1 className="h1 origin-left scale-y-110 scale-x-90 mt-1 uppercase">
             <span className="block whitespace-nowrap text-white">{line1}</span>
             <span className="block text-hero-blue">{line2Mobile}</span>
             <span className="block text-white">{line3Mobile}</span>
@@ -115,11 +112,9 @@ export default function VariantHeroSec1({ data }) {
           aria-hidden="true"
         />
 
-        <div className="relative mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+        <div className="relative mx-auto max-w-[76rem] px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
           <div className="max-w-2xl">
-            <LandRoverStripe className="h-7 w-14" />
-
-            <h1 className="h1 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
+            <h1 className="h1 origin-left scale-y-110 scale-x-90 uppercase">
               <span className="block whitespace-nowrap text-white">{line1}</span>
               <span className="block whitespace-nowrap text-hero-blue">{line2}</span>
               <span className="block text-white">{line3}</span>

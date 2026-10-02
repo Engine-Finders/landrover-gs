@@ -1,74 +1,82 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ-V8",
     "titlePost": " ENGINE",
-    "body": "The AJ-V8 is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every AJ-V8 to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The AJ-V8 is Jaguar Land Rover's second-generation V8 petrol engine, in production from 1998 to 2015. It was fitted to the Range Rover Sport L320 across two main configurations: the 4.2-litre supercharged V8 and the 4.4-litre naturally aspirated V8. This engine family represents the earlier generation of JLR V8s, preceding the later 5.0-litre AJ133 that would replace it in the model line-up. The L320 Range Rover Sport was the primary application for this engine in the Land Rover range, offered from launch in 2005 through to the model's replacement in 2013."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER AJ-V8",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The AJ-V8 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "The Range Rover Sport L320 (2005–2013) carried the AJ-V8 in two distinct forms. The 4.2 SC V8 delivered supercharged performance, using a belt-driven supercharger to increase power output. The 4.4 V8 was the naturally aspirated option, offering the same basic engine architecture without the supercharger. Both variants share the same underlying block and timing chain system, but the supercharged application carries additional components — most notably the supercharger unit itself and its associated cooling system — that require specific attention during a rebuild.",
     "lineup": [
       {
-        "label": "Defender",
-        "code": "L663"
-      },
-      {
-        "label": "Discovery",
-        "code": "L462"
-      },
-      {
-        "label": "Range Rover",
-        "code": "L460"
-      },
-      {
         "label": "Range Rover Sport",
-        "code": "L461"
-      },
-      {
-        "label": "Range Rover Velar",
-        "code": "L560"
+        "code": "L320"
       }
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER AJ-V8",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the AJ-V8 is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "Because the AJ-V8 spans two distinct configurations — naturally aspirated 4.4-litre and supercharged 4.2-litre — compatibility comes down to confirming your exact variant and specification. A supercharged AJ-V8 from a Range Rover Sport isn't a drop-in match for a naturally aspirated version; the supercharger, ancillaries, and ECU mapping all differ. Before we quote or supply anything, we confirm your exact vehicle and specification by registration/VIN.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "1998–2015"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "AJ-V8"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Range Rover Sport L320"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover AJ-V8",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "AJ-V8 in the Range Rover Sport (L320)",
+        "model": "Range Rover Sport",
+        "chassis": "L320",
+        "years": "2005–2013",
+        "variant": "",
+        "body": "The AJ-V8 in the Range Rover Sport L320 is one of the applications we work on regularly, spanning both the 4.2 SC V8 (supercharged) and 4.4 V8 (naturally aspirated) variants across the 2005–2013 production period.",
+        "price": "£4,500",
+        "ctaLabel": "Check your Range Rover Sport AJ-V8",
+        "generation": "L320",
+        "powertrain": "Petrol / Supercharged",
+        "href": "/range-rover-sport-engines",
+        "title": "AJ-V8 in the Range Rover Sport",
+        "subtitle": "(L320, 2005–2013)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

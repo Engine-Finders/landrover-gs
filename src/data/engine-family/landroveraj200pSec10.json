@@ -5,23 +5,23 @@
   "titleBigPost": " AJ200P",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the AJ200P across its 5 model applications."
+    "Here's our practical view of the AJ200P across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The AJ200P is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The AJ200P is one of the most broadly-applied petrol engines in the modern Land Rover range — five model lines, three output variants, spanning the entire product line from Evoque to Defender."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain assembly, bearings, gaskets, and oil filter housing gasket as standard on every rebuild, with VVT solenoids and the twin-scroll turbocharger inspected and measured during strip-down."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the AJ200P across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "Timing chain stretch is a well-documented issue on petrol Ingenium engines, with chains known to fail at around 100,000 miles. VVT solenoid issues can cause performance problems and rattle. Higher-than-acceptable oil consumption has been reported on some applications, and turbo pipes can fail. Oil pump malfunction can occur on some applications."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER AJ200P REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full AJ200P rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The AJ200P is the petrol version of the 2.0-litre Ingenium engine, introduced a year after the diesel AJ200D. It uses a twin-scroll turbocharger for improved response, and two timing chains with phasers on both camshafts. The timing chain system is a known critical wear point — we inspect it thoroughly on every rebuild, with particular attention to the VVT solenoid components which are known to cause issues. A full rebuild includes replacement of the timing chain assembly, main bearings, connecting rod bearings, and all gaskets and seals as standard.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing chain assembly, main bearings, connecting rod bearings, all gaskets and seals, twin-scroll turbo inspection, VVT solenoid inspection, PCV system check, fuel injector check"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£2,200",

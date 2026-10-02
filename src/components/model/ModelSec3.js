@@ -51,13 +51,6 @@ export default function ModelSec3({ data }) {
                   c.featured ? "border-hero-blue/50 bg-(--color-light-surface)" : "border-hero-blue/30 bg-[#121511]"
                 }`}
               >
-                {c.featured && (
-                  <div className="mb-1.5 flex items-center gap-1">
-                    <LandRoverStripe className="h-3 w-6" />
-                    <span className="text-sm font-black italic text-[#101828]">M</span>
-                  </div>
-                )}
-
                 <div className="flex items-center gap-2.5">
                   <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg">
                     <Image src={data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="56px" />
@@ -118,8 +111,10 @@ export default function ModelSec3({ data }) {
 
       {/* ===== desktop ===== */}
       <div className="theme-dark relative hidden overflow-hidden px-4 py-10 sm:px-6 md:block lg:px-8">
-      <div className="absolute inset-0">
-        <Image src={data.image} alt="Land Rover Defender in a dark Land Rover service workshop" fill className="object-cover object-[65%_30%]" sizes="100vw" />
+      {/* photo layer lifted above the section top so the car sits higher, as in the reference
+          (the photo's lower half is plain black, so the extra height below is invisible) */}
+      <div className="absolute inset-x-0 -top-[14%] bottom-0">
+        <Image src={data.image} alt="Land Rover Defender in a dark Land Rover service workshop" fill className="object-cover object-[65%_0%]" sizes="100vw" />
         <div className="absolute inset-0 bg-linear-to-r from-hero-dark via-hero-dark/75 to-transparent" />
       </div>
 
@@ -142,7 +137,12 @@ export default function ModelSec3({ data }) {
           />
         </p>
 
-        <div className="mt-5 grid max-w-3xl grid-cols-4 gap-4">
+        {/* all cards on one row spanning the full content width, as in the reference; models with
+            only 2-3 cards keep a capped card width instead of stretching */}
+        <div
+          className="mt-5 grid gap-4"
+          style={{ gridTemplateColumns: `repeat(${data.cards.length}, ${data.cards.length >= 4 ? "minmax(0, 1fr)" : "minmax(0, 16rem)"})` }}
+        >
           {data.cards.map((c) => (
             <div
               key={c.titlePre}
@@ -152,13 +152,6 @@ export default function ModelSec3({ data }) {
                   : "card-corner-glare relative rounded-xl border border-hero-blue/50 bg-[#121511] pb-4 pt-3"
               }
             >
-              {c.featured ? (
-                <div className="mb-1 flex items-center justify-center gap-0.5">
-                  <LandRoverStripe className="h-4 w-8" />
-                  <span className="text-lg font-black italic text-[#101828]">M</span>
-                </div>
-              ) : null}
-
               <div className="relative mx-auto h-28 w-full overflow-hidden">
                 <Image src={data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="160px" />
               </div>
@@ -184,12 +177,12 @@ export default function ModelSec3({ data }) {
           ))}
         </div>
 
-        <p className="mt-4 flex max-w-3xl items-center gap-2 text-xs text-white">
+        <p className="mt-4 flex items-center gap-2 text-xs text-white">
           <Icon name="info" className="h-4 w-4 shrink-0 text-hero-blue" />
           {data.disclaimer}
         </p>
 
-        <div className="glass-card-dark card-corner-glare relative mt-6 flex max-w-3xl items-center justify-between gap-6 rounded-xl border border-hero-blue/50 px-6 py-4">
+        <div className="glass-card-dark card-corner-glare relative mt-6 flex items-center justify-between gap-6 rounded-xl border border-hero-blue/50 px-6 py-4">
           <div className="flex items-center gap-3">
             <Icon name="clock" className="h-9 w-9 shrink-0 text-hero-blue" />
             <p className="text-sm font-extrabold uppercase leading-tight text-white">

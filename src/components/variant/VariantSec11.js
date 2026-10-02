@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
-import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 import MobileSplitTitle from "@/components/variant/MobileSplitTitle";
 
 export default function VariantSec11({ data }) {
@@ -69,7 +68,7 @@ export default function VariantSec11({ data }) {
           <Image src={data.image} alt="Land Rover engine and vehicle" fill className="object-cover" sizes="100vw" />
         </div>
 
-        <div className="relative mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+        <div className="relative mx-auto max-w-[76rem] px-4 py-8 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
             <h2 className="h2 uppercase">
               <span className="text-white">{data.titlePre}</span>

@@ -3,14 +3,19 @@
     "titlePre": "Land Rover 200Tdi",
     "titleHighlight": "ENGINE REBUILD",
     "titlePost": " COST",
-    "image": "/engine/sec11_top.webp",
-    "imageMobile": "/engine/sec11_top_mobile.webp",
+    "image": "/engine/sec10_rebuild_cost.jpg",
+    "imageMobile": "/engine/sec10_rebuild_cost_mv2.webp",
     "paragraphs": [
-      "A Land Rover 200Tdi engine rebuild starts from £3,600, regardless of which of the six models it's fitted to — the price tier is set by the engine, not the badge on the boot. A full replacement engine and fitting service is also available.",
-      "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
+      "A Land Rover 200Tdi engine rebuild starts from £1,900. A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£1,900"
+    "startingFromPrice": "£1,900",
+    "priceFactors": [
+      "Extent of internal damage (timing belt failure causes catastrophic damage)",
+      "Cylinder/head condition",
+      "Fuel system condition",
+      "Labour required"
+    ]
   },
   "comparison": {
     "titlePre": "LAND ROVER 200Tdi",
@@ -140,5 +145,6 @@
       }
     },
     "submitLabel": "Submit Enquiry"
-  }
+  },
+  "appsCount": 1
 }

@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import LandRoverStripe from "@/components/reusable/LandRoverStripe";
+import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import RegLookupForm from "@/components/reusable/RegLookupForm";
 
 function GoogleG({ className = "h-5 w-5" }) {
@@ -39,10 +39,22 @@ function Stars() {
 
 function SectionTitle({ children }) {
   return (
-    <div>
-      <LandRoverStripe className="float-left mr-3 mt-1.5 h-10 w-16 shrink-0" />
-      {children}
+    <div className="flex items-center gap-5">
+      <LandRoverLogo className="h-12 w-20" />
+      <div>
+        {children}
+        <span className="gold-rule mt-3 block w-28" aria-hidden="true" />
+      </div>
     </div>
+  );
+}
+
+// boxed icon tile used beside the coverage + why-choose titles
+function IconTile({ name, compact = false }) {
+  return (
+    <span className={`glass-card flex shrink-0 items-center justify-center rounded-xl ${compact ? "h-11 w-11" : "h-20 w-20"}`}>
+      <Icon name={name} className={`${compact ? "h-6 w-6" : "h-10 w-10"} text-[#101828]`} />
+    </span>
   );
 }
 
@@ -72,7 +84,6 @@ export default function Sec6({ data }) {
         <div className="relative md:hidden">
           <div className="relative px-4 pb-8 pt-8">
           <div className="overflow-hidden">
-            <LandRoverStripe className="float-left mr-2 mt-0.5 h-6 w-12 shrink-0" />
             <h2 className="h2 uppercase">
               <span className="text-[#101828]">{reviews.titlePre}</span>
               <span className="text-hero-blue">{reviews.titleHighlight}</span>
@@ -88,7 +99,7 @@ export default function Sec6({ data }) {
               <div
                 key={r.name}
                 className="glow-card--sm relative flex min-h-56 w-[82%] shrink-0 snap-center flex-col overflow-hidden rounded-2xl p-5"
-                style={{ background: "rgba(13,13,13,0.95)", border: "1px solid rgba(96,112,86,0.35)", boxShadow: "0 15px 35px -20px rgba(0,0,0,0.5)" }}
+                style={{ background: "linear-gradient(180deg, #16211a 0%, #0e1610 100%)", border: "1px solid rgba(201,169,110,0.2)", boxShadow: "0 15px 35px -20px rgba(0,0,0,0.5)" }}
               >
                 <div className="relative flex items-center justify-between">
                   <Stars />
@@ -128,8 +139,8 @@ export default function Sec6({ data }) {
           <div className="relative mx-auto max-w-6xl">
             <SectionTitle>
               <h2 className="h2 uppercase">
-                <span className="text-[#101828]">{reviews.titlePre}</span>
-                <span className="text-hero-blue">{reviews.titleHighlight}</span>
+                <span className="whitespace-nowrap text-[#101828]">{reviews.titlePre} </span>
+                <span className="whitespace-nowrap text-hero-blue">{reviews.titleHighlight}</span>
               </h2>
             </SectionTitle>
 
@@ -148,12 +159,12 @@ export default function Sec6({ data }) {
             >
               <Icon name="chevron-right" className="h-4 w-4" />
             </button>
-            <div className="grid grid-cols-5 gap-3">
+            <div className="grid gap-3" style={{ gridTemplateColumns: `repeat(${reviews.items.length}, minmax(0, 1fr))` }}>
               {reviews.items.map((r) => (
                 <div
                   key={r.name}
                   className="glow-card--sm relative flex min-h-64 flex-col overflow-hidden rounded-xl p-4"
-                  style={{ background: "rgba(13,13,13,0.95)", border: "1px solid rgba(96,112,86,0.35)", boxShadow: "0 15px 35px -20px rgba(0,0,0,0.5)" }}
+                  style={{ background: "linear-gradient(180deg, #16211a 0%, #0e1610 100%)", border: "1px solid rgba(201,169,110,0.2)", boxShadow: "0 15px 35px -20px rgba(0,0,0,0.5)" }}
                 >
                   <div className="relative flex items-center justify-between">
                     <Stars />
@@ -161,7 +172,7 @@ export default function Sec6({ data }) {
                   </div>
                   <p className="mt-3 text-sm font-bold text-white">{r.name}</p>
                   <p className="mt-2 text-xs leading-relaxed text-white">&ldquo;{r.text}&rdquo;</p>
-                  <p className="mt-auto pt-3 text-[11px] font-bold uppercase tracking-wide text-hero-blue">{r.tag}</p>
+                  <p className="mt-auto pt-3 text-[11px] font-bold tracking-wide text-[#c9a96e]">{r.tag}</p>
                 </div>
               ))}
             </div>
@@ -182,10 +193,7 @@ export default function Sec6({ data }) {
       </section>
 
       {/* ============ coverage banner ============ */}
-      <section
-        className="relative z-10 border-y border-black/10 bg-white"
-        style={{ boxShadow: "0 25px 45px -15px rgba(16,24,40,0.55), 0 -25px 45px -15px rgba(16,24,40,0.55)" }}
-      >
+      <section className="theme-light relative z-10" style={{ boxShadow: "0 22px 40px -18px rgba(16,24,40,0.35), 0 -22px 40px -18px rgba(16,24,40,0.35)" }}>
         {/* ===== mobile ===== */}
         <div className="relative px-4 py-6 md:hidden">
           <div className="flex items-center gap-3">
@@ -222,17 +230,20 @@ export default function Sec6({ data }) {
 
         {/* ===== desktop ===== */}
         <div className="relative hidden overflow-hidden md:block">
-          <div className="absolute inset-0">
-            <Image src={coverage.image} alt="Land Rover front grille" fill className="object-cover object-right" sizes="100vw" />
-            <div className="absolute inset-0 bg-linear-to-r from-white via-white/95 to-transparent" />
+          {/* full-bleed band: white canvas with the Defender on the right (cover_defender.webp) */}
+          {/* white band; Defender confined to a fixed slot at the far right so it never sits under the form */}
+          <div className="absolute inset-0" style={{ backgroundColor: "#fff" }} aria-hidden="true">
+            <div className="absolute inset-y-0 right-0 w-[18rem]">
+              <Image src={coverage.image} alt="" fill className="object-cover object-right" sizes="288px" />
+              <div className="absolute inset-y-0 left-0 w-16 bg-linear-to-r from-white to-transparent" />
+            </div>
           </div>
 
-          <div className="relative mx-auto flex max-w-6xl items-center gap-8 px-4 py-10 sm:px-6 lg:px-8">
-            <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-black/10 bg-white shadow-sm">
-              <Icon name={coverage.icon} className="h-8 w-8 text-hero-blue" />
-            </span>
+          <div className="relative mx-auto max-w-[76rem] px-4 sm:px-6 lg:px-8">
+          <div className="relative flex items-center gap-6 py-10">
+            <IconTile name={coverage.icon} />
 
-            <div className="shrink-0 border-r border-black/10 pr-8">
+            <div className="shrink-0 border-r border-black/10 pr-6">
               <h2 className="h2 uppercase">
                 <span className="block text-[#101828]">{coverage.titlePre}</span>
                 <span className="block text-hero-blue">{coverage.titleHighlight}</span>
@@ -240,20 +251,43 @@ export default function Sec6({ data }) {
               <p className="mt-2 max-w-xs text-sm text-[#101828]">{coverage.body}</p>
             </div>
 
-            <div className="max-w-md flex-1">
-              <RegLookupForm buttonLabel={coverage.buttonLabel} row />
-              <div className="mt-3 flex items-center gap-4">
-                {coverage.ticks.map((t, i) => (
-                  <span key={t} className="flex items-center gap-3 text-sm font-medium text-[#101828]">
-                    {i > 0 && <span className="h-1 w-1 rounded-full bg-[#101828]/30" aria-hidden="true" />}
-                    <span className="flex items-center gap-1.5">
-                      <Icon name="check" className="h-4 w-4 shrink-0 rounded-full border border-hero-blue text-hero-blue" />
-                      {t}
-                    </span>
+            <div className="w-full min-w-[24rem] max-w-[31rem] flex-1">
+              {/* reference: green UK strip + white search input, separate green CHECK FIT button */}
+              <form onSubmit={(e) => e.preventDefault()} className="flex items-stretch gap-3">
+                <div className="flex h-14 min-w-0 flex-1 overflow-hidden rounded-lg border border-black/15 bg-white shadow-sm">
+                  <span className="flex w-11 shrink-0 flex-col items-center justify-center gap-1 bg-[#1e3a26] text-white">
+                    <svg viewBox="0 0 20 20" className="h-4 w-4" aria-hidden="true">
+                      {Array.from({ length: 12 }, (_, i) => {
+                        const a = (i / 12) * 2 * Math.PI;
+                        return <circle key={i} cx={(10 + 7 * Math.sin(a)).toFixed(2)} cy={(10 - 7 * Math.cos(a)).toFixed(2)} r="1" fill="#e3c27d" />;
+                      })}
+                    </svg>
+                    <span className="text-[10px] font-bold leading-none">UK</span>
+                  </span>
+                  <input
+                    type="text"
+                    aria-label="Registration number"
+                    placeholder="Search by Registration"
+                    className="min-w-0 flex-1 bg-transparent px-4 text-base text-[#101828] uppercase placeholder:normal-case placeholder:text-[#101828]/45 outline-none"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className="flex h-14 shrink-0 items-center gap-2 whitespace-nowrap rounded-lg bg-[#1e3a26] px-5 text-sm font-bold uppercase tracking-wide text-white shadow-sm transition-colors hover:bg-[#28502f]"
+                >
+                  {coverage.buttonLabel} <span aria-hidden>→</span>
+                </button>
+              </form>
+              <div className="mt-4 flex items-center divide-x divide-black/15">
+                {coverage.ticks.map((t) => (
+                  <span key={t} className="flex items-center gap-2 whitespace-nowrap px-5 text-sm font-medium text-[#101828] first:pl-1">
+                    <Icon name="check" className="h-5 w-5 shrink-0 rounded-full border border-hero-blue p-0.5 text-hero-blue" />
+                    {t}
                   </span>
                 ))}
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>
@@ -263,7 +297,6 @@ export default function Sec6({ data }) {
         {/* ===== mobile ===== */}
         <div className="relative px-4 py-7 md:hidden">
           <h2 className="h2 uppercase">
-            <LandRoverStripe className="float-left mr-2 mt-0.5 h-6 w-12 shrink-0" />
             {whyChooseWords.map((t, i) => (
               <span key={i} className={t.highlight ? "text-hero-blue" : "text-[#101828]"}>
                 {t.w}
@@ -299,38 +332,49 @@ export default function Sec6({ data }) {
         </div>
 
         {/* ===== desktop ===== */}
-        <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
-          <div className="relative mx-auto max-w-6xl">
-            <SectionTitle>
-              <h2 className="h2 uppercase">
-                <span className="text-[#101828]">{whyChoose.titlePre}</span>
-                <span className="text-hero-blue">{whyChoose.titleHighlight}</span>
-              </h2>
-            </SectionTitle>
+        <div className="relative hidden overflow-hidden md:block">
+          {/* full-bleed: sec9b.jpg (16:9, white left half, engine right) across the whole section width,
+              height compressed to the section — no cropping, no card */}
+          {/* reference: engine photo in its own slot at the far right, fully visible, text never over it */}
+          <div className="pointer-events-none absolute inset-0 bg-white" aria-hidden="true">
+            <div className="absolute inset-y-0 right-0 w-[32%]">
+              <Image src={whyChoose.image} alt="" fill className="object-cover object-right" sizes="32vw" />
+              <div className="absolute inset-y-0 left-0 w-24 bg-linear-to-r from-white to-transparent" />
+            </div>
+          </div>
+          <div className="relative mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
 
-            <div className="mt-8 grid grid-cols-3 gap-x-10 gap-y-6">
-              {whyChoose.items.map((item) => (
-                <div key={item.title} className="flex min-w-0 items-center gap-3">
-                  <Icon name={item.icon} className="h-9 w-9 shrink-0 text-hero-blue" />
-                  <div className="min-w-0">
-                    <p className="min-w-0 text-sm font-bold leading-snug text-[#101828]">{item.title}</p>
-                    <p className="min-w-0 text-xs leading-snug text-[#4a5568]">{item.subtext}</p>
-                  </div>
+            <div className="relative flex items-center gap-6">
+              <IconTile name="shield-check" />
+              <div>
+                <h2 className="h2 uppercase">
+                  <span className="block whitespace-nowrap text-[#101828]">{whyChoose.titlePre}</span>
+                  <span className="block whitespace-nowrap text-hero-blue">{whyChoose.titleHighlight}</span>
+                </h2>
+                <span className="gold-rule mt-3 block w-28" aria-hidden="true" />
+              </div>
+            </div>
+
+            <div className="relative mt-8 grid max-w-[66%] grid-cols-3 gap-x-8 divide-x divide-black/10">
+              {[0, 1, 2].map((col) => (
+                <div key={col} className={`divide-y divide-black/8 ${col > 0 ? "pl-8" : ""}`}>
+                  {whyChoose.items
+                    .filter((_, i) => i % 3 === col)
+                    .map((item) => (
+                      <div key={item.title} className="flex items-start gap-3 py-3">
+                        <Icon name="check" className="mt-0.5 h-5 w-5 shrink-0 rounded-full border border-hero-blue p-0.5 text-hero-blue" />
+                        <p className="min-w-0 text-sm leading-snug text-[#101828]">{item.title}</p>
+                      </div>
+                    ))}
                 </div>
               ))}
             </div>
 
-            <div className="glass-card relative mt-8 grid grid-cols-[minmax(0,1.7fr)_minmax(0,1fr)] items-stretch overflow-hidden rounded-2xl">
-              <div className="relative z-10 flex items-center gap-4 px-6 py-5">
-                <Icon name={whyChoose.notice.icon} className="h-8 w-8 shrink-0 text-hero-blue" />
-                <p className="text-sm leading-relaxed text-[#101828]">
-                  <span className="font-semibold">{whyChoose.notice.line1}</span> {whyChoose.notice.line2}
-                </p>
-              </div>
-              <div className="relative overflow-hidden bg-(--theme-light-bg)">
-                <Image src={whyChoose.notice.image} alt="" fill className="object-cover opacity-25" sizes="320px" />
-                <div className="absolute inset-0 bg-linear-to-r from-white via-white/40 to-transparent" />
-              </div>
+            <div className="relative mt-6 flex max-w-[66%] items-start gap-3 border-t border-black/10 pt-5">
+              <Icon name={whyChoose.notice.icon} className="h-6 w-6 shrink-0 text-hero-blue" />
+              <p className="text-sm leading-relaxed text-[#101828]">
+                <span className="font-semibold">{whyChoose.notice.line1}</span> {whyChoose.notice.line2}
+              </p>
             </div>
           </div>
         </div>

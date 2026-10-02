@@ -5,23 +5,23 @@
   "titleBigPost": " Td5",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the Td5 across its 5 model applications."
+    "Here's our practical view of the Td5 across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The Td5 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The Td5 is found in two core Land Rover model lines — the Defender (L316) and the Discovery 2 (L318)."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain, bearings, and gaskets as standard on every rebuild, with the injector wiring harness being a critical component we inspect and often replace due to known issues."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the Td5 across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "The Td5 has well-documented issues with injector wiring harness oil wicking and injector seal leakage. We address these as part of our standard rebuild scope."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER Td5 REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full Td5 rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The Td5 is a common-rail diesel engine with a chain-driven timing system. A full rebuild includes inspecting the injector harness for oil wicking — a known critical issue — and replacing it if necessary. Injector seal replacement is also standard practice. The high-pressure fuel pump and turbocharger are inspected for condition.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing chain, bearings, gaskets, injector wiring harness inspection/replacement, injector seals"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£1,900",

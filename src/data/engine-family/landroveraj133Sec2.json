@@ -2,43 +2,43 @@
   "specs": {
     "titlePre": "Land Rover AJ133",
     "titleHighlight": "Engine Specifications",
-    "image": "/engine/sec2.webp",
-    "imageMobile": "/engine/sec2_mobile.webp",
+    "image": "/engine/sec2.jpg",
+    "imageMobile": "/engine/sec2_mv2.webp",
     "rows": [
       {
         "icon": "code",
         "label": "Engine Code",
-        "value": "AJ133"
+        "value": "AJ133 (AJ-V8 Gen III)"
       },
       {
         "icon": "building",
         "label": "Manufacturer",
-        "value": "Jaguar Land Rover (Ingenium family)"
+        "value": "Jaguar Land Rover"
       },
       {
-        "icon": "gear",
+        "icon": "piston",
         "label": "Configuration",
-        "value": "Inline-6 (I6)"
+        "value": "V8 (90° angle)"
       },
       {
-        "icon": "engine",
+        "icon": "gauge",
         "label": "Capacity",
-        "value": "3.0L (2,997 cc)"
+        "value": "5.0L (5,000 cc)"
       },
       {
-        "icon": "oil",
+        "icon": "fuel",
         "label": "Fuel",
-        "value": "Diesel, Diesel MHEV"
+        "value": "Petrol, Petrol Supercharged"
       },
       {
         "icon": "calendar",
         "label": "Production Years",
-        "value": "2019–present"
+        "value": "2009–2024"
       },
       {
         "icon": "car",
         "label": "Used In",
-        "value": "5 Land Rover models"
+        "value": "2 Land Rover models"
       }
     ],
     "prompt": {
@@ -56,7 +56,7 @@
     "imageMobile": "/engine/sec2_bottom_mobile.webp",
     "startingFromLabel": "Starting From",
     "startingFromPrice": "£4,500",
-    "body": "All AJ133 applications use the same 2.0-litre Land Rover four-cylinder engine, so the price tier is consistent across every model it's fitted to. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
+    "body": "Every AJ133 application — naturally aspirated or supercharged — sits on the same V8 rebuild tier. Supercharged applications start from £5,500. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
     "cta": {
       "label": "Get Your Fixed-Price Quote →",
       "href": "#quote-form"

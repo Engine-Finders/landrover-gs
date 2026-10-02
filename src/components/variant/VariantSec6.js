@@ -1,17 +1,11 @@
 import Icon from "@/components/reusable/Icon";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
-import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
 export default function VariantSec6({ data }) {
   return (
     <section className="theme-light relative overflow-hidden">
       {/* ===== mobile ===== */}
-      <div
-        className="relative rounded-xl px-4 pb-10 pt-7 md:hidden"
-        style={{ boxShadow: "0 12px 28px -18px rgba(16,24,40,0.35)" }}
-      >
+      <div className="relative px-4 pb-10 pt-7 md:hidden">
         <h2 className="h2 text-[#101828] uppercase">
-          <LandRoverStripe className="float-left mr-2 mt-0.5 h-6 w-12 shrink-0" />
           {data.titlePre}
           <span className="text-hero-blue">{data.titleHighlight}</span>
         </h2>
@@ -49,12 +43,8 @@ export default function VariantSec6({ data }) {
 
       {/* ===== desktop ===== */}
       <div className="relative hidden px-4 py-12 sm:px-6 md:block lg:px-8">
-        <div
-          className="relative mx-auto max-w-6xl rounded-2xl px-8 py-10 lg:px-12"
-          style={{ boxShadow: "0 16px 34px -20px rgba(16,24,40,0.35)" }}
-        >
+        <div className="relative mx-auto max-w-6xl">
           <div className="flex items-start gap-3">
-            <LandRoverLogo className="h-14 w-14 shrink-0" />
             <h2 className="h2 text-[#101828] uppercase">
               {data.titlePre}
               <span className="text-hero-blue">{data.titleHighlight}</span>

@@ -3,14 +3,20 @@
     "titlePre": "Land Rover S68 (BMW-sourced)",
     "titleHighlight": "ENGINE REBUILD",
     "titlePost": " COST",
-    "image": "/engine/sec11_top.webp",
-    "imageMobile": "/engine/sec11_top_mobile.webp",
+    "image": "/engine/sec10_rebuild_cost.jpg",
+    "imageMobile": "/engine/sec10_rebuild_cost_mv2.webp",
     "paragraphs": [
-      "A Land Rover S68 (BMW-sourced) engine rebuild starts from £3,600, regardless of which of the six models it's fitted to — the price tier is set by the engine, not the badge on the boot. A full replacement engine and fitting service is also available.",
-      "Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
+      "A Land Rover S68 engine rebuild starts from £6,500, across all three applications — the Defender Octa, Range Rover SV and Range Rover Sport SV. A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required — submit your registration for a fixed-price quote within 30 minutes."
     ],
     "startingFromLabel": "Starting From",
-    "startingFromPrice": "£2,200"
+    "startingFromPrice": "£6,500",
+    "priceFactors": [
+      "Extent of internal damage",
+      "Turbocharger condition",
+      "Oil consumption severity",
+      "48V system components",
+      "Labour required"
+    ]
   },
   "comparison": {
     "titlePre": "LAND ROVER S68 (BMW-sourced)",
@@ -148,5 +154,6 @@
       }
     },
     "submitLabel": "Submit Enquiry"
-  }
+  },
+  "appsCount": 3
 }

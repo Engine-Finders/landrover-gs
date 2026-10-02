@@ -1,74 +1,82 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "Rover K-Series",
     "titlePost": " ENGINE",
-    "body": "The Rover K-Series is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every Rover K-Series to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The K-Series is Rover's 1.8-litre inline-four petrol engine, used by Land Rover exclusively in the Freelander 1 (L314) from 1997 to 2006. It was one of the few petrol options in the early Freelander range and has a long production history across multiple Rover and MG applications. The 1.8 K-Series has an inherent design fault — it is notoriously prone to head gasket failure, driven by cooling system faults and overheating. Small coolant leaks can lead to overheating and head gasket failure, and engines don't just blow head gaskets — they can drop liners, requiring a new engine."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER Rover K-Series",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The Rover K-Series is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "The Freelander 1 (L314, 1997–2006) is the only Land Rover model to use the K-Series engine. It was offered as the 1.8-litre petrol option throughout the Freelander 1's production run.",
     "lineup": [
       {
-        "label": "Defender",
-        "code": "L663"
-      },
-      {
-        "label": "Discovery",
-        "code": "L462"
-      },
-      {
-        "label": "Range Rover",
-        "code": "L460"
-      },
-      {
-        "label": "Range Rover Sport",
-        "code": "L461"
-      },
-      {
-        "label": "Range Rover Velar",
-        "code": "L560"
+        "label": "Freelander",
+        "code": "L314"
       }
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER Rover K-Series",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the Rover K-Series is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "Because the K-Series spans multiple capacities and specifications across different applications, compatibility comes down to confirming your exact model, generation, and engine spec, which we do by registration. Registration/VIN matching is required — K-Series variants differ by capacity and specification.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "1997–2006"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "Rover K-Series"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Freelander L314"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover Rover K-Series",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "K-Series in the Freelander (L314, 1997–2006)",
+        "model": "Freelander",
+        "chassis": "L314",
+        "years": "1997–2006",
+        "variant": "",
+        "body": "The K-Series in the Freelander is one of the applications we work on regularly. It's the engine we see most often in the Freelander 1 range.",
+        "price": "£2,200",
+        "ctaLabel": "Check your Freelander K-Series",
+        "generation": "Freelander 1",
+        "powertrain": "Petrol",
+        "href": "/freelander-engines",
+        "title": "Rover K-Series in the Freelander",
+        "subtitle": "(L314, 1997–2006)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

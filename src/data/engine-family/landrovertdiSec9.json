@@ -1,74 +1,82 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "Tdi",
     "titlePost": " ENGINE",
-    "body": "The Tdi is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every Tdi to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The Tdi is Land Rover's 2.5-litre turbocharged diesel inline-four engine, produced from 1989 to 1998. It powered the Discovery 1 across its entire production run. The engine is an interference design — if the timing belt fails, pistons collide with valves, causing significant internal damage. Because of this, we replace the timing belt and tensioner as standard during every rebuild. The Tdi uses a mechanical VE injection pump, not a common-rail system. Rebuilds start from £1,900."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER Tdi",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The Tdi is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "The Tdi was fitted exclusively to the Discovery 1 (L318) across the full 1989–1998 production run. It succeeded the earlier 200Tdi and was later replaced by the Td5.",
     "lineup": [
       {
-        "label": "Defender",
-        "code": "L663"
-      },
-      {
         "label": "Discovery",
-        "code": "L462"
-      },
-      {
-        "label": "Range Rover",
-        "code": "L460"
-      },
-      {
-        "label": "Range Rover Sport",
-        "code": "L461"
-      },
-      {
-        "label": "Range Rover Velar",
-        "code": "L560"
+        "code": "L318"
       }
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER Tdi",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the Tdi is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "Because the Tdi spans both the 200Tdi and 300Tdi variants, compatibility comes down to confirming your exact vehicle's production year and specification. Earlier and later Tdi engines differ, and we always confirm your exact vehicle before quoting or supplying anything.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "1989–1998"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "Tdi"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Discovery L318"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover Tdi",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "Tdi in the Discovery (L318, 1989–1998)",
+        "model": "Discovery",
+        "chassis": "L318",
+        "years": "1989–1998",
+        "variant": "",
+        "body": "The Tdi in the Discovery 1 is one of the applications we work on regularly — across the full production run from 1989 to 1998.",
+        "price": "£1,900",
+        "ctaLabel": "Check your Discovery Tdi",
+        "generation": "Discovery 1",
+        "powertrain": "Diesel",
+        "href": "/landrover-discovery-tdi-engines",
+        "title": "Tdi in the Discovery",
+        "subtitle": "(L318, 1989–1998)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

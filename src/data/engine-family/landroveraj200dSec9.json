@@ -1,21 +1,21 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ200D",
     "titlePost": " ENGINE",
-    "body": "The AJ200D is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every AJ200D to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The AJ200D is Jaguar Land Rover's 2.0-litre four-cylinder diesel engine, part of the Ingenium family introduced in 2015. It's fitted across five Land Rover models — the Defender, Discovery, Discovery Sport, Range Rover Evoque and Range Rover Velar — making it one of the most widely-deployed engines in the modern Land Rover range. The engine is available in both single-turbo and twin-turbo configurations, with power outputs ranging from 150 hp to 240 hp depending on the application."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER AJ200D",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The AJ200D is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "Across the Defender (L663), the AJ200D powers the D150, D165, D180 and D200 variants from 2020 onward. The Discovery (L462) uses it in D165, D180, D200 and D250 specification from 2017. The Discovery Sport (L550) carries the AJ200D across D150, D165, D180 and D200 variants from 2015. The Range Rover Evoque (L551) uses it in D150, D165, D180 and D200 from 2019. And the Range Rover Velar (L560) uses the AJ200D in D180 and D200 from 2017.",
     "lineup": [
       {
         "label": "Defender",
@@ -26,12 +26,12 @@
         "code": "L462"
       },
       {
-        "label": "Range Rover",
-        "code": "L460"
+        "label": "Discovery Sport",
+        "code": "L550"
       },
       {
-        "label": "Range Rover Sport",
-        "code": "L461"
+        "label": "Range Rover Evoque",
+        "code": "L551"
       },
       {
         "label": "Range Rover Velar",
@@ -40,35 +40,119 @@
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER AJ200D",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the AJ200D is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "Registration/VIN matching is required — early vs late production variants differ (improvements from 2019 onwards). Single vs twin-turbo variants also differ. A single-turbo AJ200D from a Discovery Sport isn't a direct match for a twin-turbo AJ200D from a Defender, even though it's the same base engine code — ancillaries, turbo setup, and ECU calibration all differ. Before we quote or supply anything, we confirm your exact vehicle.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "2015–present"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "AJ200D"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Defender L663, Discovery L462, Discovery Sport L550, Range Rover Evoque L551, Range Rover Velar L560"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover AJ200D",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "AJ200D in the Defender (L663, 2020–present)",
+        "model": "Defender",
+        "chassis": "L663",
+        "years": "2020–present",
+        "variant": "",
+        "body": "The AJ200D in the Defender is one of the applications we work on regularly — the D150, D165, D180 and D200 variants across the current-generation L663.",
+        "price": "£2,000",
+        "ctaLabel": "Check your Defender AJ200D",
+        "generation": "L663",
+        "powertrain": "Diesel",
+        "href": "/defender-engines",
+        "title": "AJ200D in the Defender",
+        "subtitle": "(L663, 2020–present)"
+      },
+      {
+        "heading": "AJ200D in the Discovery (L462, 2017–present)",
+        "model": "Discovery",
+        "chassis": "L462",
+        "years": "2017–present",
+        "variant": "",
+        "body": "The AJ200D in the Discovery is one of the applications we work on regularly — the D165, D180, D200 and D250 variants across the L462 generation.",
+        "price": "£2,000",
+        "ctaLabel": "Check your Discovery AJ200D",
+        "generation": "L462",
+        "powertrain": "Diesel",
+        "href": "/discovery-engines",
+        "title": "AJ200D in the Discovery",
+        "subtitle": "(L462, 2017–present)"
+      },
+      {
+        "heading": "AJ200D in the Discovery Sport (L550, 2015–present)",
+        "model": "Discovery Sport",
+        "chassis": "L550",
+        "years": "2015–present",
+        "variant": "",
+        "body": "The AJ200D in the Discovery Sport is one of the applications we work on regularly — the D150, D165, D180 and D200 variants across the L550 generation.",
+        "price": "£2,000",
+        "ctaLabel": "Check your Discovery Sport AJ200D",
+        "generation": "L550",
+        "powertrain": "Diesel",
+        "href": "/discovery-sport-engines",
+        "title": "AJ200D in the Discovery Sport",
+        "subtitle": "(L550, 2015–present)"
+      },
+      {
+        "heading": "AJ200D in the Range Rover Evoque (L551, 2019–present)",
+        "model": "Range Rover Evoque",
+        "chassis": "L551",
+        "years": "2019–present",
+        "variant": "",
+        "body": "The AJ200D in the Range Rover Evoque is one of the applications we work on regularly — the D150, D165, D180 and D200 variants across the L551 generation.",
+        "price": "£2,000",
+        "ctaLabel": "Check your Range Rover Evoque AJ200D",
+        "generation": "L551",
+        "powertrain": "Diesel",
+        "href": "/range-rover-evoque-engines",
+        "title": "AJ200D in the Range Rover Evoque",
+        "subtitle": "(L551, 2019–present)"
+      },
+      {
+        "heading": "AJ200D in the Range Rover Velar (L560, 2017–present)",
+        "model": "Range Rover Velar",
+        "chassis": "L560",
+        "years": "2017–present",
+        "variant": "",
+        "body": "The AJ200D in the Range Rover Velar is one of the applications we work on regularly — the D180 and D200 variants across the L560 generation.",
+        "price": "£2,000",
+        "ctaLabel": "Check your Range Rover Velar AJ200D",
+        "generation": "L560",
+        "powertrain": "Diesel",
+        "href": "/range-rover-velar-engines",
+        "title": "AJ200D in the Range Rover Velar",
+        "subtitle": "(L560, 2017–present)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

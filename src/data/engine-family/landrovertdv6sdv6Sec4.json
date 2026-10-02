@@ -34,5 +34,41 @@
     }
   ],
   "notice": "Components drawn directly from VRF Key Components data. If your TDV6 SDV6's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
-  "noticeImage": "/model/sec15_part.webp"
+  "noticeImage": "/model/sec15_part.webp",
+  "groups": [
+    {
+      "title": "Replaced as Standard",
+      "icon": "gear",
+      "items": [
+        "Timing chain assembly (chains, guides, tensioners) — critical known issue",
+        "Main bearings and connecting rod bearings — critical known issue",
+        "Crankshaft — critical known issue",
+        "Complete gasket and seal set",
+        "Oil filter housing gasket"
+      ]
+    },
+    {
+      "title": "Inspected and Measured",
+      "icon": "search",
+      "items": [
+        "Crankshaft — most feared failure is a snapped crankshaft",
+        "Crankshaft bearings — rotation issue",
+        "Cylinder head",
+        "Timing chain tensioners (cold-start chain rattle that clears after 10–15 seconds is not normal)",
+        "Timing belt (on some variants — belt breakage causes catastrophic failure)",
+        "Turbocharger components (single or twin-turbo depending on variant)",
+        "EGR valve and cooler",
+        "DPF components",
+        "High-pressure fuel pump",
+        "Oil for metal debris"
+      ]
+    },
+    {
+      "title": "Application-Dependent",
+      "icon": "puzzle",
+      "items": [
+        "Single vs twin-turbo variants"
+      ]
+    }
+  ]
 }

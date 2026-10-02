@@ -77,5 +77,6 @@ _src_content/
 # reference UI folders, source zips, python cache
 /ModelPageUI
 /Variant Page
+/EnginePageUI
 *.zip
 __pycache__/

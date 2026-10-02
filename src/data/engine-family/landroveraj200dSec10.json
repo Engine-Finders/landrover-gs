@@ -5,23 +5,23 @@
   "titleBigPost": " AJ200D",
   "subtext": [
     "Built, rebuilt and tested by engineers who work on Land Rover engines every day.",
-    "Here's our practical view of the AJ200D across its 5 model applications."
+    "Here's our practical view of the AJ200D across its Land Rover applications."
   ],
   "columns": [
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The AJ200D is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — we see it regularly across the full application range."
+      "body": "The AJ200D is one of the most common engines we work on — the same base engine across five model lines, spanning the entire modern Land Rover range."
     },
     {
       "icon": "wrench",
       "title": "WHAT WE REPLACE:",
-      "body": "Bearings, timing chain components, gaskets, and twin-scroll turbocharger components as standard. We also inspect and measure the cylinder head, crankshaft, and other critical components."
+      "body": "Timing chain assembly, balance shaft bearings, main bearings, connecting rod bearings, and full gasket set as standard on every rebuild."
     },
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported failure pattern is confirmed for the AJ200D across its applications. We don't treat this engine as having one universal failure mode; diagnosis is required to establish whether an engine needs repair, rebuild, or replacement."
+      "body": "The AJ200D has several well-documented issues: timing chain stretch and tensioner weakness (metallic rattle on cold start is often the first clue), balance shaft bearing wear (one bearing point is located near the exhaust system, exposing it to higher temperatures), oil dilution from DPF regeneration (incomplete regenerations allow diesel fuel to seep into the sump), plastic chain guide fragmentation (guides can shed fragments which circulate through the lubrication system), crankshaft breakage (one of the most dramatic failures — the engine stops instantly and cannot be restarted), and injector problems on higher-mileage examples. From 2019, JLR introduced an upgraded timing chain and revised intermediate sprocket starting with engine number 19090300001."
     }
   ],
   "notice": {
@@ -31,13 +31,11 @@
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER AJ200D REBUILD",
-    "image": "/engine/sec10_bottom.webp",
-    "imageMobile": "/engine/sec10_bottom_mobile.webp",
     "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "A full AJ200D rebuild involves stripping the engine down, inspecting the crankshaft, cylinder head and timing components, and replacing worn bearings, gaskets and seals with updated OEM-specification parts (Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV).",
+    "body": "The AJ200D's timing chain is a known critical wear point — we inspect it thoroughly on every rebuild. A metallic rattle on cold start is often the first clue that chain tension or guide wear is developing. Balance shaft bearing wear is also a well-documented issue on four-cylinder Ingenium diesels, with one bearing point located near the exhaust system, exposing it to higher temperatures. Oil quality is critical — extended service intervals make oil dilution from DPF regeneration worse, so we check oil for fuel dilution and metallic debris as part of every inspection. From 2019, JLR introduced an upgraded timing chain and revised intermediate sprocket starting with engine number 19090300001. Full engine replacements require DME software matching.",
     "scope": {
       "label": "Typical Scope:",
-      "text": "Timing chain, bearings, gaskets, twin-scroll turbocharger inspection/refurbishment, calibration of fuel injection system"
+      "text": "Timing chain assembly, balance shaft bearings, main bearings, connecting rod bearings, full gasket set, plus turbocharger inspection and oil system flush"
     },
     "startingFromLabel": "Starting From:",
     "startingFromPrice": "£2,000",

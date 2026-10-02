@@ -1,74 +1,120 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "Ford EcoBoost",
     "titlePost": " ENGINE",
-    "body": "The Ford EcoBoost is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every Ford EcoBoost to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The Ford EcoBoost 2.0 — also known as the Ford GTDI — is a turbocharged 2.0-litre inline-four petrol engine. It was used by Land Rover as an alternative to the Ingenium petrol engine in earlier models, spanning three model lines: the Range Rover Evoque (L538, 2013–2019), Freelander (L359, 2013–2014), and Discovery Sport (L550, 2015–2019)."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER Ford EcoBoost",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The Ford EcoBoost is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "Across the Discovery Sport (L550, 2015–2019), the EcoBoost powered the Si4 variant. In the Freelander (L359, 2013–2014), the same Si4 badge covered the engine's short run in the model's final years. The Range Rover Evoque (L538, 2013–2019) used it throughout the first-generation model's lifecycle.",
     "lineup": [
       {
-        "label": "Defender",
-        "code": "L663"
+        "label": "Discovery Sport",
+        "code": "L550"
       },
       {
-        "label": "Discovery",
-        "code": "L462"
+        "label": "Freelander",
+        "code": "L359"
       },
       {
-        "label": "Range Rover",
-        "code": "L460"
-      },
-      {
-        "label": "Range Rover Sport",
-        "code": "L461"
-      },
-      {
-        "label": "Range Rover Velar",
-        "code": "L560"
+        "label": "Range Rover Evoque",
+        "code": "L538"
       }
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER Ford EcoBoost",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the Ford EcoBoost is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "Because the EcoBoost spans three different Land Rover models over varying production years — each with its own vehicle-specific ancillaries and mounting — compatibility comes down to confirming your exact model and generation, which we do by registration. An EcoBoost from an Evoque isn't necessarily a drop-in match for one from a Discovery Sport, even though it's the same base engine. Before we quote or supply anything, we confirm your exact vehicle.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "2013–2019"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "Ford EcoBoost"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Discovery Sport L550, Freelander L359, Range Rover Evoque L538"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover Ford EcoBoost",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "Ford EcoBoost in the Discovery Sport (L550, 2015–2019)",
+        "model": "Discovery Sport",
+        "chassis": "L550",
+        "years": "2015–2019",
+        "variant": "",
+        "body": "The EcoBoost in the Discovery Sport is one of the applications we work on regularly — the Si4 petrol variant across the L550 generation.",
+        "price": "£2,200",
+        "ctaLabel": "Check your Discovery Sport EcoBoost",
+        "generation": "L550",
+        "powertrain": "Petrol",
+        "href": "/discovery-sport-engines",
+        "title": "Ford EcoBoost in the Discovery Sport",
+        "subtitle": "(L550, 2015–2019)"
+      },
+      {
+        "heading": "Ford EcoBoost in the Freelander (L359, 2013–2014)",
+        "model": "Freelander",
+        "chassis": "L359",
+        "years": "2013–2014",
+        "variant": "",
+        "body": "The EcoBoost in the Freelander is one of the applications we work on — the Si4 petrol variant during the model's final years.",
+        "price": "£2,200",
+        "ctaLabel": "Check your Freelander EcoBoost",
+        "generation": "L359",
+        "powertrain": "Petrol",
+        "href": "/freelander-engines",
+        "title": "Ford EcoBoost in the Freelander",
+        "subtitle": "(L359, 2013–2014)"
+      },
+      {
+        "heading": "Ford EcoBoost in the Range Rover Evoque (L538, 2013–2019)",
+        "model": "Range Rover Evoque",
+        "chassis": "L538",
+        "years": "2013–2019",
+        "variant": "",
+        "body": "The EcoBoost in the Range Rover Evoque is one of the applications we work on regularly — the Si4 petrol variant across the first-generation L538 model.",
+        "price": "£2,200",
+        "ctaLabel": "Check your Range Rover Evoque EcoBoost",
+        "generation": "L538",
+        "powertrain": "Petrol",
+        "href": "/range-rover-evoque-engines",
+        "title": "Ford EcoBoost in the Range Rover Evoque",
+        "subtitle": "(L538, 2013–2019)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

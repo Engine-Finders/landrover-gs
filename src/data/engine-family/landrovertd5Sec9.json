@@ -1,74 +1,101 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "Td5",
     "titlePost": " ENGINE",
-    "body": "The Td5 is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every Td5 to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The Td5 is Land Rover's 2.5-litre inline-five diesel engine, produced from 1998 to 2006. It was the first common-rail diesel engine fitted to Land Rover models, powering the Defender (L316) from 1999 and the Discovery 2 (L318) from 1998. The Td5 is a chain-driven engine, using a timing chain rather than a belt, and was replaced by Ford-sourced diesel engines in later models."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER Td5",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The Td5 is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "The Td5 is found in two core Land Rover model lines. In the Defender (L316), it was fitted from 1999 to 2006. In the Discovery 2 (L318), it was fitted from 1998 to 2004. These are the only applications we work on for this engine.",
     "lineup": [
       {
         "label": "Defender",
-        "code": "L663"
+        "code": "L316"
       },
       {
         "label": "Discovery",
-        "code": "L462"
-      },
-      {
-        "label": "Range Rover",
-        "code": "L460"
-      },
-      {
-        "label": "Range Rover Sport",
-        "code": "L461"
-      },
-      {
-        "label": "Range Rover Velar",
-        "code": "L560"
+        "code": "L318"
       }
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER Td5",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the Td5 is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "Because the Td5 spans two different model lines and multiple production years, compatibility comes down to confirming your exact model, generation, and spec. A Td5 from a Defender isn't a drop-in match for a Td5 from a Discovery 2, even though it's the same base engine code — ancillaries, mounting, and ECU software all differ. Before we quote or supply anything, we confirm your exact vehicle.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "1998–2006"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "Td5"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Defender L316, Discovery L318"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover Td5",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "Td5 in the Defender (L316)",
+        "model": "Defender",
+        "chassis": "L316",
+        "years": "1999–2006",
+        "variant": "",
+        "body": "The Td5 in the Defender is one of the applications we work on regularly, spanning the 1999–2006 production years.",
+        "price": "£1,900",
+        "ctaLabel": "Check your Defender Td5",
+        "generation": "Defender",
+        "powertrain": "Diesel",
+        "href": "/landrover-defender-td5-engines",
+        "title": "Td5 in the Defender",
+        "subtitle": "(L316, 1999–2006)"
+      },
+      {
+        "heading": "Td5 in the Discovery 2 (L318)",
+        "model": "Discovery 2",
+        "chassis": "L318",
+        "years": "1998–2004",
+        "variant": "",
+        "body": "The Td5 in the Discovery 2 is one of the applications we work on regularly, spanning the 1998–2004 production years.",
+        "price": "£1,900",
+        "ctaLabel": "Check your Discovery Td5",
+        "generation": "Discovery 2",
+        "powertrain": "Diesel",
+        "href": "/discovery-engines",
+        "title": "Td5 in the Discovery 2",
+        "subtitle": "(L318, 1998–2004)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

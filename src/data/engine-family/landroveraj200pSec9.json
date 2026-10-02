@@ -1,21 +1,21 @@
 {
   "about": {
-    "image": "/engine/sec9_top.webp",
-    "imageMobile": "/engine/sec9_top_mobile.webp",
+    "image": "/engine/sec9_top.jpg",
+    "imageMobile": "/engine/sec9_top_mv2.webp",
     "kicker": "ABOUT THE",
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ200P",
     "titlePost": " ENGINE",
-    "body": "The AJ200P is a Inline-6 (I6), 3.0L (2,997 cc), Diesel, Diesel MHEV engine used across Land Rover's 5 model range, in production 2019–present. We rebuild every AJ200P to original specification, replacing worn timing components, bearings, gaskets and seals as standard."
+    "body": "The AJ200P is Land Rover's 2.0-litre turbocharged inline-four petrol engine, part of the Ingenium family introduced a year after the diesel AJ200D. It's fitted across five Land Rover model lines — Defender, Discovery, Discovery Sport, Range Rover Evoque and Range Rover Velar — in outputs ranging from 200 to 300 hp. The AJ200P is the petrol counterpart to the AJ200D, sharing the same basic architecture while using a twin-scroll turbocharger for improved response and different timing and valvetrain components."
   },
   "byModel": {
-    "image": "/engine/sec9_middle.webp",
-    "imageMobile": "/engine/sec9_middle_mobile.webp",
+    "image": "/engine/sec9_middle.jpg",
+    "imageMobile": "/engine/sec9_middle_mv2.webp",
     "kicker": "LAND ROVER AJ200P",
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The AJ200P is fitted across Defender, Discovery, Range Rover, Range Rover Sport, Range Rover Velar — see the full applications table above for exact variants, generations and years.",
+    "body": "In the Defender (L663), the AJ200P powers the P300 variant from 2020 onwards. The Discovery (L462) uses the same P300 designation from 2017. The Discovery Sport (L550) has the widest spread of AJ200P outputs — P200, P250 and P290 (the latter discontinued after 2020). The Range Rover Evoque (L551) carries P200 and P250 variants from 2019, while the Range Rover Velar (L560) uses P250 and P300 outputs from 2017.",
     "lineup": [
       {
         "label": "Defender",
@@ -26,12 +26,12 @@
         "code": "L462"
       },
       {
-        "label": "Range Rover",
-        "code": "L460"
+        "label": "Discovery Sport",
+        "code": "L550"
       },
       {
-        "label": "Range Rover Sport",
-        "code": "L461"
+        "label": "Range Rover Evoque",
+        "code": "L551"
       },
       {
         "label": "Range Rover Velar",
@@ -40,35 +40,119 @@
     ]
   },
   "compatibility": {
-    "image": "/engine/sec9_bottom.webp",
-    "imageMobile": "/engine/sec9_bottom_mobile.webp",
+    "image": "/engine/sec9_bottom.jpg",
+    "imageMobile": "/engine/sec9_bottom_mv2.webp",
     "kicker": "LAND ROVER AJ200P",
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the AJ200P is fitted across multiple Land Rover models, compatibility comes down to confirming your exact model, generation and specification. We confirm by registration or VIN before quoting or supplying anything.",
-    "boldNote": "We confirm by registration/VIN before quoting or supplying anything.",
+    "body": "Because the AJ200P spans five different models across multiple generations — with outputs ranging from 200 to 300 hp — compatibility comes down to confirming your exact model, generation, and ECU calibration. Early vs late production variants differ, with improvements made from 2019 onwards. Registration/VIN matching is required before we confirm any rebuild or replacement. A Defender P300's AJ200P isn't a drop-in match for a Discovery Sport P200's unit, even though it's the same base engine code — ancillaries, mounting, and ECU software all differ.",
+    "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
         "icon": "car",
-        "title": "MODEL",
-        "text": "Confirm your exact model and exact variant."
+        "title": "Confirmed by",
+        "text": "Registration / VIN"
       },
       {
         "icon": "calendar",
-        "title": "GENERATION",
-        "text": "Identify the correct generation (L663, L462, L460, L461, L560)."
+        "title": "Model year",
+        "text": "2016–present"
       },
       {
-        "icon": "gears",
-        "title": "DRIVETRAIN",
-        "text": "Specify the variant (45, 45 S, 43)."
+        "icon": "engine",
+        "title": "Engine code",
+        "text": "AJ200P"
       },
       {
-        "icon": "clipboard",
-        "title": "CONFIRMED BY REGISTRATION",
-        "text": "We confirm by registration or VIN before quoting."
+        "icon": "wrench",
+        "title": "Fitted to",
+        "text": "Defender L663, Discovery L462, Discovery Sport L550, Range Rover Evoque L551, Range Rover Velar L560"
       }
     ]
+  },
+  "apps": {
+    "titlePre": "Land Rover AJ200P",
+    "titleHighlight": "Applications We Work On",
+    "image": "/engine/sec9a.jpg",
+    "items": [
+      {
+        "heading": "AJ200P in the Defender (L663, 2020–present)",
+        "model": "Defender",
+        "chassis": "L663",
+        "years": "2020–present",
+        "variant": "",
+        "body": "The AJ200P in the Defender is one of the applications we work on regularly, powering the P300 variant across all body styles.",
+        "price": "£2,200",
+        "ctaLabel": "Check your Defender AJ200P",
+        "generation": "L663",
+        "powertrain": "Petrol",
+        "href": "/defender-engines",
+        "title": "AJ200P in the Defender",
+        "subtitle": "(L663, 2020–present)"
+      },
+      {
+        "heading": "AJ200P in the Discovery (L462, 2017–present)",
+        "model": "Discovery",
+        "chassis": "L462",
+        "years": "2017–present",
+        "variant": "",
+        "body": "The AJ200P in the Discovery is one of the applications we work on regularly, fitted to the P300 variant.",
+        "price": "£2,200",
+        "ctaLabel": "Check your Discovery AJ200P",
+        "generation": "L462",
+        "powertrain": "Petrol",
+        "href": "/discovery-engines",
+        "title": "AJ200P in the Discovery",
+        "subtitle": "(L462, 2017–present)"
+      },
+      {
+        "heading": "AJ200P in the Discovery Sport (L550, 2015–present)",
+        "model": "Discovery Sport",
+        "chassis": "L550",
+        "years": "2015–present",
+        "variant": "",
+        "body": "The AJ200P in the Discovery Sport is one of the most common applications we see — P200, P250 and P290 variants, with the P290 discontinued after 2020.",
+        "price": "£2,200",
+        "ctaLabel": "Check your Discovery Sport AJ200P",
+        "generation": "L550",
+        "powertrain": "Petrol",
+        "href": "/discovery-sport-engines",
+        "title": "AJ200P in the Discovery Sport",
+        "subtitle": "(L550, 2015–present)"
+      },
+      {
+        "heading": "AJ200P in the Range Rover Evoque (L551, 2019–present)",
+        "model": "Range Rover Evoque",
+        "chassis": "L551",
+        "years": "2019–present",
+        "variant": "",
+        "body": "The AJ200P in the Range Rover Evoque is one of the applications we work on regularly, in P200 and P250 outputs.",
+        "price": "£2,200",
+        "ctaLabel": "Check your Range Rover Evoque AJ200P",
+        "generation": "L551",
+        "powertrain": "Petrol",
+        "href": "/range-rover-evoque-engines",
+        "title": "AJ200P in the Range Rover Evoque",
+        "subtitle": "(L551, 2019–present)"
+      },
+      {
+        "heading": "AJ200P in the Range Rover Velar (L560, 2017–present)",
+        "model": "Range Rover Velar",
+        "chassis": "L560",
+        "years": "2017–present",
+        "variant": "",
+        "body": "The AJ200P in the Range Rover Velar is one of the applications we work on regularly, in P250 and P300 outputs.",
+        "price": "£2,200",
+        "ctaLabel": "Check your Range Rover Velar AJ200P",
+        "generation": "L560",
+        "powertrain": "Petrol",
+        "href": "/range-rover-velar-engines",
+        "title": "AJ200P in the Range Rover Velar",
+        "subtitle": "(L560, 2017–present)"
+      }
+    ],
+    "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",
+    "imageMobile": "/engine/sec9a_mv2.webp"
   }
 }

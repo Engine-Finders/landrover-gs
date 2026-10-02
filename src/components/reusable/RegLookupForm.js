@@ -20,6 +20,7 @@ export default function RegLookupForm({
   bigButtonText = false,
   short = false,
   darkField = false,
+  whiteField = false,
 }) {
   const [reg, setReg] = useState("");
   const [loading, setLoading] = useState(false);
@@ -67,11 +68,23 @@ export default function RegLookupForm({
         }`}
       >
         <span
-          className={`flex ${row ? "w-8" : stacked ? "w-9" : "w-12 sm:w-14"} shrink-0 flex-col items-center justify-center gap-1 text-[var(--color-hero-gold)] ${darkField ? "bg-[#232323]" : "bg-[#1a1a1a]"}`}
+          className={`flex ${row ? "w-8" : stacked ? "w-9" : "w-12 sm:w-14"} shrink-0 flex-col items-center justify-center gap-1 ${
+            whiteField ? "bg-[#003399] text-white" : `text-[var(--color-hero-gold)] ${darkField ? "bg-[#232323]" : "bg-[#1a1a1a]"}`
+          }`}
         >
-          <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full border border-[var(--color-hero-gold)] text-[10px] leading-none">
-            ★
-          </span>
+          {whiteField ? (
+            // UK plate EU-style band: ring of 12 yellow stars
+            <svg viewBox="0 0 20 20" className="h-4 w-4" aria-hidden="true">
+              {Array.from({ length: 12 }, (_, i) => {
+                const a = (i / 12) * 2 * Math.PI;
+                return <circle key={i} cx={(10 + 7 * Math.sin(a)).toFixed(2)} cy={(10 - 7 * Math.cos(a)).toFixed(2)} r="1.1" fill="#ffcc00" />;
+              })}
+            </svg>
+          ) : (
+            <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full border border-[var(--color-hero-gold)] text-[10px] leading-none">
+              ★
+            </span>
+          )}
           <span className={`${row || stacked ? "text-[9px]" : "text-[11px] sm:text-xs"} font-extrabold tracking-wide`}>GB</span>
         </span>
         <input
@@ -84,6 +97,8 @@ export default function RegLookupForm({
           className={`min-w-0 flex-1 px-2 text-center tracking-wide outline-none ${
             darkField
               ? "bg-[#232323] text-white placeholder:italic placeholder:text-white/40"
+              : whiteField
+              ? "bg-white text-black placeholder:italic placeholder:text-black/70"
               : "bg-[#e4e8ec] text-black placeholder:italic placeholder:text-black"
           } ${
             row

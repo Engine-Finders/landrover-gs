@@ -1,5 +1,5 @@
 {
-  "image": "/engine/sec3.webp",
+  "image": "/engine/sec3.jpg",
   "titlePre": "Land Rover AJ200D Applications — ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
@@ -25,47 +25,47 @@
   "rows": [
     {
       "model": "Defender",
-      "variant": "D200, D250, D300, D350",
+      "variant": "D150, D165, D180, D200",
       "generation": "L663",
       "chassis": "L663",
       "years": "2020–present",
-      "powertrain": "Diesel MHEV",
+      "powertrain": "Diesel",
       "modelHref": "/defender-engines"
     },
     {
       "model": "Discovery",
-      "variant": "D250, D300, D350",
+      "variant": "D165, D180, D200, D250",
       "generation": "L462",
       "chassis": "L462",
-      "years": "2020–present",
-      "powertrain": "Diesel MHEV",
+      "years": "2017–present",
+      "powertrain": "Diesel",
       "modelHref": "/discovery-engines"
     },
     {
-      "model": "Range Rover",
-      "variant": "D250, D300, D350",
-      "generation": "L460",
-      "chassis": "L460",
-      "years": "2022–present",
-      "powertrain": "Diesel MHEV",
-      "modelHref": "/models"
+      "model": "Discovery Sport",
+      "variant": "D150, D165, D180, D200",
+      "generation": "L550",
+      "chassis": "L550",
+      "years": "2015–present",
+      "powertrain": "Diesel",
+      "modelHref": "/discovery-sport-engines"
     },
     {
-      "model": "Range Rover Sport",
-      "variant": "D250, D300, D350",
-      "generation": "L461",
-      "chassis": "L461",
-      "years": "2022–present",
-      "powertrain": "Diesel MHEV",
-      "modelHref": "/range-rover-sport-engines"
+      "model": "Range Rover Evoque",
+      "variant": "D150, D165, D180, D200",
+      "generation": "L551",
+      "chassis": "L551",
+      "years": "2019–present",
+      "powertrain": "Diesel",
+      "modelHref": "/range-rover-evoque-engines"
     },
     {
       "model": "Range Rover Velar",
-      "variant": "D200, D250, D300",
+      "variant": "D180, D200",
       "generation": "L560",
       "chassis": "L560",
-      "years": "2019–present",
-      "powertrain": "Diesel MHEV",
+      "years": "2017–present",
+      "powertrain": "Diesel",
       "modelHref": "/range-rover-velar-engines"
     }
   ],

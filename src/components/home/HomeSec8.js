@@ -51,7 +51,7 @@ export default function HomeSec8({ data }) {
 
           <div className="mt-6 flex items-center justify-center gap-2">
             <LandRoverLogo className="h-9 w-9" />
-            <span className="text-xs font-semibold text-white">Land Rover-Benz</span>
+            <span className="text-xs font-semibold text-white">Land Rover</span>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ export default function HomeSec8({ data }) {
           <span className="h-px w-16 bg-hero-blue/50" />
           <div className="flex items-center gap-3">
             <LandRoverLogo className="h-16 w-16" />
-            <span className="text-2xl font-semibold text-white">Land Rover-Benz</span>
+            <span className="text-2xl font-semibold text-white">Land Rover</span>
           </div>
           <span className="h-px w-16 bg-hero-blue/50" />
         </div>

@@ -83,7 +83,7 @@ export default function VariantSec2({ data }) {
           </h2>
           <span className="mt-3 block h-0.5 w-40 bg-linear-to-r from-bmw-blue via-white to-bmw-red lg:w-48" />
 
-          <div className="mt-8 grid grid-cols-2 items-center gap-10">
+          <div className="mt-4 grid grid-cols-2 items-center gap-10">
             <div className="relative divide-y divide-black/10">
               <span className="pointer-events-none absolute bottom-0 top-0 left-40 w-px bg-black/10" aria-hidden="true" />
               {data.specs.map((s) => (
@@ -106,7 +106,7 @@ export default function VariantSec2({ data }) {
           </div>
 
           <div
-            className="theme-dark card-glare relative mt-8 grid grid-cols-[minmax(0,0.75fr)_minmax(0,1.65fr)] items-center gap-6 rounded-2xl p-8"
+            className="theme-dark card-glare relative mt-4 grid grid-cols-[minmax(0,0.75fr)_minmax(0,1.65fr)] items-center gap-6 rounded-2xl p-8"
             style={{
               background: "linear-gradient(135deg, rgba(10,12,9,0.75) 0%, rgba(6,8,5,0.88) 100%)",
               backdropFilter: "blur(16px)",
@@ -127,7 +127,7 @@ export default function VariantSec2({ data }) {
             <div className="relative border-l border-white/15 pl-8">
               <div className="flex items-center gap-3">
                 <div className="min-w-0 flex-1">
-                  <RegLookupForm buttonLabel={data.lookup.buttonLabel} row hideButton darkField />
+                  <RegLookupForm buttonLabel={data.lookup.buttonLabel} row hideButton whiteField />
                 </div>
                 <a
                   href="#quote-form"
