@@ -14,6 +14,7 @@ export default function RegLookupForm({
   compactButton = false,
   hideArrow = false,
   hideButton = false,
+  formId,
   darkButton = false,
   whiteBorder = false,
   matchHeight = false,
@@ -47,6 +48,7 @@ export default function RegLookupForm({
 
   return (
     <form
+      id={formId}
       onSubmit={handleSubmit}
       className={
         row

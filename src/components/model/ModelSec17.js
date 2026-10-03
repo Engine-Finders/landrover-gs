@@ -16,7 +16,7 @@ export default function ModelSec17({ data }) {
   const href = (v) => (typeof v === "string" ? null : v.href);
 
   return (
-    <section className="theme-light relative overflow-hidden">
+    <section id="variant-coverage" className="theme-light relative overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="relative px-4 pb-6 pt-2 md:hidden">
         <div className="flex items-center gap-1.5">
@@ -98,7 +98,7 @@ export default function ModelSec17({ data }) {
             <p className="text-sm text-[#101828]">
               <span className="block text-base font-extrabold text-[#101828]">{data.notice.title}</span>
               <span className="mt-1 block">
-                <a href="#quote" className="inline-flex items-center gap-1 font-semibold text-hero-blue">
+                <a href="#quote-form" className="inline-flex items-center gap-1 font-semibold text-hero-blue">
                   {data.notice.linkText}
                   <Icon name="link" className="h-3.5 w-3.5" />
                 </a>
@@ -218,7 +218,7 @@ export default function ModelSec17({ data }) {
             <p className="text-sm text-[#101828]">
               <span className="block text-base font-extrabold text-[#101828]">{data.notice.title}</span>
               <span className="mt-1 block">
-                <a href="#quote" className="inline-flex items-center gap-1 font-semibold text-hero-blue">
+                <a href="#quote-form" className="inline-flex items-center gap-1 font-semibold text-hero-blue">
                   {data.notice.linkText}
                   <Icon name="link" className="h-3.5 w-3.5" />
                 </a>

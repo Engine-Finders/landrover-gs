@@ -26,7 +26,7 @@
         "codeRest": "(Performance/Flagship Tier)",
         "body": "A 4.4-litre twin-turbo V8 fitted to the SV / performance-flagship Autobiography from 2022 onwards. This is a more powerful derivative of the same engine family (shared with the Defender Octa and high-performance BMW M models). It carries the same hot-vee characteristics as the N63, with the same pattern of valve seal wear and cooling system attention required over time. We replace timing chains, valve seals, and coolant components as standard on every S68 rebuild.",
         "cta": "Check Your BMW S68 Range Rover Autobiography",
-        "codeHref": "/landrover-s68-bmw-sourced-engine"
+        "codeHref": "/landrover-s68-engine"
       }
     ]
   },
@@ -87,7 +87,7 @@
         "years": "2022–present",
         "engineCode": "BMW S68",
         "fuel": "Petrol Twin-Turbo",
-        "codeHref": "/landrover-s68-bmw-sourced-engine"
+        "codeHref": "/landrover-s68-engine"
       }
     ]
   }

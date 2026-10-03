@@ -9,7 +9,7 @@ export default function ModelSec15({ data }) {
   const mobileLine2 = `${headlineWords[headlineWords.length - 1]} ${data.headlineHighlight}`;
 
   return (
-    <section className="theme-light relative mt-10 overflow-hidden">
+    <section id="model-year-coverage" className="theme-light relative mt-10 overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
         {/* div 1: split hero */}

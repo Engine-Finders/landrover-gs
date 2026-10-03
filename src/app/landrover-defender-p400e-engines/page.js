@@ -11,6 +11,7 @@ import VariantSec10 from "@/components/variant/VariantSec10";
 import VariantSec11 from "@/components/variant/VariantSec11";
 import VariantSec12 from "@/components/variant/VariantSec12";
 import VariantSec13 from "@/components/variant/VariantSec13";
+import { clipDescription, withBrand } from "@/lib/seo";
 import JsonLd from "@/components/shared/JsonLd";
 import { serviceSchema, faqSchema, breadcrumbSchema, graphDoc } from "@/lib/schema";
 
@@ -33,8 +34,8 @@ const NAME = variantSec1.h1?.replaceAll("|", " ") || "landrover-defender-p400e-e
 const FAQ = [...(variantSec13.faqLeft || []), ...(variantSec13.faqRight || [])];
 
 export const metadata = {
-  title: NAME,
-  description: variantSec1.subhead || "",
+  title: variantSec1.metaTitle || withBrand(NAME),
+  description: variantSec1.metaDescription ? clipDescription(variantSec1.metaDescription) : clipDescription(variantSec1.subhead),
   alternates: { canonical: PATH },
 };
 

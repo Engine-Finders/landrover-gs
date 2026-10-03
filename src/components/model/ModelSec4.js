@@ -31,7 +31,7 @@ export default function ModelSec4({ data }) {
     : "grid-cols-[minmax(0,1.6fr)_minmax(0,0.9fr)_minmax(0,0.9fr)_minmax(0,1.3fr)]";
 
   return (
-    <section className="theme-light relative overflow-hidden">
+    <section id="pricing" className="theme-light relative overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="relative px-4 pb-8 pt-8 md:hidden">
         <div

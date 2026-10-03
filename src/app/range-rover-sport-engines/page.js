@@ -44,7 +44,7 @@ const FAQ = [...(modelSec18.faqLeft || []), ...(modelSec18.faqRight || [])];
 
 export const metadata = {
   title: "Range Rover Sport Engine Rebuild & Replacement | Land Rover Specialists",
-  description: "Range Rover Sport rebuilt engines from £2,400. Specialist SVR/AJ-V8 supercharged issues, TDV6, HSE & all variants. Supply & fit, recovery, 12-month warranty. Free quote in 30 mins.",
+  description: "Range Rover Sport rebuilt engines from £2,400. Specialist SVR/AJ-V8 supercharged issues, TDV6, HSE & all variants. Supply & fit, recovery, 12-month warranty.",
   alternates: { canonical: PATH },
 };
 

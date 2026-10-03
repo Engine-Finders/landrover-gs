@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import EdgeFade from "@/components/reusable/EdgeFade";
+import useLeadForm, { LeadStatus } from "@/components/reusable/useLeadForm";
 import Icon from "@/components/reusable/Icon";
 import GbBadge from "@/components/reusable/GbBadge";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
@@ -141,11 +142,11 @@ const QUOTE_BENEFITS = [
   { icon: "clock", title: "Quick response", text: "Most quotes returned within 30 minutes during working hours." },
 ];
 
-function IconField({ icon, label, type = "text" }) {
+function IconField({ icon, label, name, type = "text" }) {
   return (
     <label className="flex h-12 items-center gap-3 rounded-lg border border-white/15 bg-white/5 px-4">
       <Icon name={icon} className="h-4.5 w-4.5 shrink-0 text-[#c9a96e]" />
-      <input type={type} aria-label={label} placeholder={label} className="min-w-0 flex-1 bg-transparent text-sm uppercase text-white placeholder:text-white/60 outline-none" />
+      <input name={name} required type={type} aria-label={label} placeholder={label} className="min-w-0 flex-1 bg-transparent text-sm uppercase text-white placeholder:text-white/60 outline-none" />
     </label>
   );
 }
@@ -169,11 +170,13 @@ function FaqCard({ item, isOpen, onToggle }) {
   );
 }
 
-function Field({ label, placeholder, type = "text", compact = false }) {
+function Field({ label, name, placeholder, type = "text", compact = false }) {
   return (
     <label className="block">
       <span className="text-xs font-bold uppercase tracking-wide text-white">{label}</span>
       <input
+        name={name}
+        required
         type={type}
         placeholder={placeholder}
         className={`w-full rounded-lg border border-white/15 bg-white/5 px-4 text-sm text-white placeholder:text-white/40 outline-none focus:border-hero-blue ${
@@ -205,10 +208,8 @@ export default function Sec11({ data }) {
     });
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    // Lead form — dev to wire up submission endpoint.
-  }
+  const lead = useLeadForm();
+  const handleSubmit = lead.handleSubmit;
 
   return (
     <>
@@ -477,21 +478,24 @@ export default function Sec11({ data }) {
               <div className="mt-1.5 flex h-11 overflow-hidden rounded-lg border border-white/15 bg-white/5">
                 <GbBadge className="w-12" />
                 <input
-                  type="text"
+                  name="vehicle_vrm" required maxLength={8} type="text"
                   placeholder={quote.fields.reg.placeholder}
                   className="min-w-0 flex-1 bg-transparent px-3 text-sm text-white placeholder:text-white/40 outline-none"
                 />
               </div>
             </label>
-            <Field label={quote.fields.postcode.label} placeholder={quote.fields.postcode.placeholder} compact />
-            <Field label={quote.fields.name.label} placeholder={quote.fields.name.placeholder} compact />
-            <Field label={quote.fields.phone.label} placeholder={quote.fields.phone.placeholder} type="tel" compact />
-            <Field label={quote.fields.email.label} placeholder={quote.fields.email.placeholder} type="email" compact />
+            <Field name="postcode" label={quote.fields.postcode.label} placeholder={quote.fields.postcode.placeholder} compact />
+            <Field name="name" label={quote.fields.name.label} placeholder={quote.fields.name.placeholder} compact />
+            <Field name="number" label={quote.fields.phone.label} placeholder={quote.fields.phone.placeholder} type="tel" compact />
+            <Field name="email" label={quote.fields.email.label} placeholder={quote.fields.email.placeholder} type="email" compact />
             <label className="block">
               <span className="text-xs font-bold uppercase tracking-wide text-white">{quote.fields.enquiry.label}</span>
               <div className="relative mt-1.5">
-                <select className="h-11 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white outline-none">
-                  <option>{quote.fields.enquiry.placeholder}</option>
+                <select name="description" required className="h-11 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white outline-none">
+                  <option value="">{quote.fields.enquiry.placeholder}</option>
+                  {["Engine Failure", "Replacement Needed", "General Enquiry"].map((o) => (
+                    <option key={o} value={o}>{o}</option>
+                  ))}
                 </select>
                 <Icon name="chevron-down" className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white" />
               </div>
@@ -499,11 +503,13 @@ export default function Sec11({ data }) {
 
             <button
               type="submit"
+            disabled={lead.status === "loading"}
               className="mt-2 flex w-full items-center justify-center gap-2 rounded-lg py-3.5 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-110"
               style={{ background: "linear-gradient(135deg, #607056 0%, #4c5a45 100%)", boxShadow: "0 8px 20px rgba(96,112,86,0.4)" }}
             >
               {quote.submitLabel} <span aria-hidden>→</span>
             </button>
+          <LeadStatus lead={lead} />
           </form>
         </div>
 
@@ -554,19 +560,19 @@ export default function Sec11({ data }) {
                 <div className="mt-5 space-y-3">
                   <div className="flex h-12 overflow-hidden rounded-lg border border-white/15 bg-white/5">
                     <GbBadge className="w-12" />
-                    <input type="text" aria-label={quote.fields.reg.label} placeholder={quote.fields.reg.label} className="min-w-0 flex-1 bg-transparent px-4 text-sm uppercase text-white placeholder:text-white/60 outline-none" />
+                    <input name="vehicle_vrm" required maxLength={8} type="text" aria-label={quote.fields.reg.label} placeholder={quote.fields.reg.label} className="min-w-0 flex-1 bg-transparent px-4 text-sm uppercase text-white placeholder:text-white/60 outline-none" />
                   </div>
-                  <IconField icon="pin" label={quote.fields.postcode.label} />
+                  <IconField name="postcode" icon="pin" label={quote.fields.postcode.label} />
                   <div className="grid grid-cols-2 gap-3">
-                    <IconField icon="tech" label={quote.fields.name.label} />
-                    <IconField icon="phone" label={quote.fields.phone.label} type="tel" />
+                    <IconField name="name" icon="tech" label={quote.fields.name.label} />
+                    <IconField name="number" icon="phone" label={quote.fields.phone.label} type="tel" />
                   </div>
-                  <IconField icon="note" label={quote.fields.email.label} type="email" />
+                  <IconField name="email" icon="note" label={quote.fields.email.label} type="email" />
                   <div className="relative">
-                    <select aria-label={quote.fields.enquiry.label} className="h-12 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm uppercase text-white/80 outline-none">
-                      <option>{quote.fields.enquiry.label}</option>
-                      {quote.fields.enquiry.placeholder.split("/").map((o) => (
-                        <option key={o}>{o.trim()}</option>
+                    <select name="description" required aria-label={quote.fields.enquiry.label} className="h-12 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm uppercase text-white/80 outline-none">
+                      <option value="">{quote.fields.enquiry.label}</option>
+                      {["Engine Failure", "Replacement Needed", "General Enquiry"].map((o) => (
+                        <option key={o} value={o}>{o}</option>
                       ))}
                     </select>
                     <Icon name="chevron-down" className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white" />
@@ -576,11 +582,13 @@ export default function Sec11({ data }) {
 
                 <button
                   type="submit"
+            disabled={lead.status === "loading"}
                   className="mt-4 flex w-full items-center justify-center gap-2 rounded-lg py-4 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-110"
                   style={{ background: "linear-gradient(180deg, #d4b47a 0%, #a8874f 100%)", boxShadow: "0 8px 20px rgba(201,169,110,0.3)" }}
                 >
                   Get My Quote <span aria-hidden>→</span>
                 </button>
+                <LeadStatus lead={lead} />
 
                 <a href="tel:02034884649" className="mt-5 flex items-center gap-3 border-t border-white/10 pt-4">
                   <Icon name="phone" className={`h-8 w-8 ${GOLD}`} />

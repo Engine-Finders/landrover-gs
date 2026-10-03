@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
@@ -91,9 +92,9 @@ export default function VariantSec5({ data }) {
           </div>
 
           <div className="mt-6 flex justify-center">
-            <button className="flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10">
+            <Link href="/land-rover-inside-our-workshop" className="flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10">
               {data.viewMoreLabel} <span className="text-hero-blue" aria-hidden>→</span>
-            </button>
+            </Link>
           </div>
 
           <div className="glass-card-dark relative mt-6 flex items-center justify-between gap-3 overflow-hidden rounded-xl px-6 py-5">

@@ -12,6 +12,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // duplicate of /landrover-s68-engine: consolidate to one canonical URL
+      { source: "/landrover-s68-bmw-sourced-engine", destination: "/landrover-s68-engine", permanent: true },
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.landrovergarage.co.uk" }],

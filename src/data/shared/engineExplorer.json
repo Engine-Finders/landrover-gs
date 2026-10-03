@@ -324,7 +324,7 @@
       "model": "Defender",
       "modelHref": "/defender-engines",
       "engineCode": "S68 (BMW-sourced)",
-      "engineHref": "/landrover-s68-bmw-sourced-engine",
+      "engineHref": "/landrover-s68-engine",
       "fuel": "Petrol MHEV",
       "generation": "L663"
     },
@@ -332,7 +332,7 @@
       "model": "Range Rover",
       "modelHref": "/models",
       "engineCode": "S68 (BMW-sourced)",
-      "engineHref": "/landrover-s68-bmw-sourced-engine",
+      "engineHref": "/landrover-s68-engine",
       "fuel": "Petrol MHEV",
       "generation": "L460"
     },
@@ -340,7 +340,7 @@
       "model": "Range Rover Sport",
       "modelHref": "/range-rover-sport-engines",
       "engineCode": "S68 (BMW-sourced)",
-      "engineHref": "/landrover-s68-bmw-sourced-engine",
+      "engineHref": "/landrover-s68-engine",
       "fuel": "Petrol MHEV",
       "generation": "L461"
     },

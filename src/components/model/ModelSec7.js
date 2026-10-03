@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
@@ -42,9 +43,9 @@ export default function ModelSec7({ data }) {
         </div>
 
         <div className="mt-5 flex justify-center">
-          <button className="btn-text flex items-center gap-2 rounded-lg border-2 border-hero-blue bg-white/70 px-5 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white">
+          <Link href="/land-rover-inside-our-workshop" className="btn-text flex items-center gap-2 rounded-lg border-2 border-hero-blue bg-white/70 px-5 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white">
             {data.viewMoreLabel} <span aria-hidden>→</span>
-          </button>
+          </Link>
         </div>
 
         <div className="relative mt-5 flex items-center gap-3 overflow-hidden rounded-xl border border-black/10 bg-white/60 px-4 py-3.5">
@@ -102,9 +103,9 @@ export default function ModelSec7({ data }) {
         </div>
 
         <div className="mt-6 flex justify-center">
-          <button className="btn-text flex items-center gap-2 rounded-md border-2 border-hero-blue bg-white/70 px-6 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white">
+          <Link href="/land-rover-inside-our-workshop" className="btn-text flex items-center gap-2 rounded-md border-2 border-hero-blue bg-white/70 px-6 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white">
             {data.viewMoreLabel} <span aria-hidden>→</span>
-          </button>
+          </Link>
         </div>
 
         <div className="relative mt-6 flex items-center justify-between overflow-hidden border-t border-black/10 pt-5">

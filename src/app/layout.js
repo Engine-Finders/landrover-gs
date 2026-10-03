@@ -48,8 +48,15 @@ export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Land Rover Engine Rebuild Specialists | Land Rover Garage",
   description:
-    "Land Rover engine rebuild specialists. Td5, 300Tdi, Ingenium, V6 & V8 across Defender, Discovery and Range Rover. Fixed-price quotes from £1,900, 12-month unlimited-mileage warranty.",
+    "Land Rover engine rebuild specialists. Td5, 300Tdi, Ingenium, V6 & V8 for Defender, Discovery & Range Rover. Fixed-price quotes from £1,900 with a 12-month warranty.",
   alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: "Land Rover Garage",
+    locale: "en_GB",
+    images: [{ url: "/home/landscape.webp", width: 1000, height: 406, alt: "Land Rover Garage engine rebuild specialists" }],
+  },
+  twitter: { card: "summary_large_image" },
   robots: {
     index: true,
     follow: true,

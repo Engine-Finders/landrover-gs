@@ -7,7 +7,7 @@ const PATH = "/terms-and-conditions";
 
 export const metadata = {
   title: "Terms & Conditions | Land Rover Garage",
-  description: "Terms and conditions for engine rebuilds, replacements, and repairs. Warranty terms, customer obligations, payment terms, and legal disclaimers for Land Rover Garage.",
+  description: "Terms and conditions for engine rebuilds, replacements, and repairs. Warranty terms, customer obligations, payment terms, and legal disclaimers for Land Rover…",
   alternates: { canonical: PATH },
 };
 
@@ -16,7 +16,7 @@ export default function TermsAndConditionsPage() {
     <>
       <JsonLd
         data={graphDoc([
-          webPageSchema({ name: "Terms & Conditions | Land Rover Garage", description: "Terms and conditions for engine rebuilds, replacements, and repairs. Warranty terms, customer obligations, payment terms, and legal disclaimers for Land Rover Garage.", path: PATH, type: "WebPage" }),
+          webPageSchema({ name: "Terms & Conditions | Land Rover Garage", description: "Terms and conditions for engine rebuilds, replacements, and repairs. Warranty terms, customer obligations, payment terms, and legal disclaimers for Land Rover…", path: PATH, type: "WebPage" }),
           breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Terms & Conditions", path: PATH }], PATH),
         ])}
       />
