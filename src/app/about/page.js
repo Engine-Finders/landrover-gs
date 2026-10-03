@@ -7,7 +7,7 @@ const PATH = "/about";
 
 export const metadata = {
   title: "About Land Rover Garage | Independent Land Rover Engine Rebuild Specialists",
-  description: "Independent Land Rover engine rebuild specialists based in Billericay, Essex. 15+ years of hands-on industry experience. Honest pricing, 12-month warranty, nationwide service.",
+  description: "Independent Land Rover engine rebuild specialists based in Billericay, Essex. 15+ years of hands-on industry experience.",
   alternates: { canonical: PATH },
 };
 
@@ -16,7 +16,7 @@ export default function AboutPage() {
     <>
       <JsonLd
         data={graphDoc([
-          webPageSchema({ name: "About Land Rover Garage | Independent Land Rover Engine Rebuild Specialists", description: "Independent Land Rover engine rebuild specialists based in Billericay, Essex. 15+ years of hands-on industry experience. Honest pricing, 12-month warranty, nationwide service.", path: PATH, type: "AboutPage" }),
+          webPageSchema({ name: "About Land Rover Garage | Independent Land Rover Engine Rebuild Specialists", description: "Independent Land Rover engine rebuild specialists based in Billericay, Essex. 15+ years of hands-on industry experience.", path: PATH, type: "AboutPage" }),
           breadcrumbSchema([{ name: "Home", path: "/" }, { name: "About Land Rover Garage", path: PATH }], PATH),
         ])}
       />

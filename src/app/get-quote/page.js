@@ -4,6 +4,7 @@ import GetQuoteClient from "./GetQuoteClient";
 export const metadata = {
   title: "Get Your Land Rover Engine Quote | Land Rover Garage",
   description: "Get a fast, no-obligation Land Rover engine rebuild quote. Compare prices from trusted Land Rover specialists.",
+  alternates: { canonical: "/get-quote" },
   robots: { index: false, follow: false },
 };
 

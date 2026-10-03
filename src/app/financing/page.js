@@ -7,7 +7,7 @@ const PATH = "/financing";
 
 export const metadata = {
   title: "Financing & Payment Options | Pay Monthly for Your Engine Rebuild | Land Rover Garage",
-  description: "Flexible payment options for engine rebuilds and replacements. No deposit required, pay on completion. Third-party financing coming soon. Based in Billericay, serving the UK.",
+  description: "Flexible payment options for engine rebuilds and replacements. No deposit required, pay on completion. Third-party financing coming soon.",
   alternates: { canonical: PATH },
 };
 
@@ -16,7 +16,7 @@ export default function FinancingPage() {
     <>
       <JsonLd
         data={graphDoc([
-          webPageSchema({ name: "Financing & Payment Options | Pay Monthly for Your Engine Rebuild | Land Rover Garage", description: "Flexible payment options for engine rebuilds and replacements. No deposit required, pay on completion. Third-party financing coming soon. Based in Billericay, serving the UK.", path: PATH, type: "WebPage" }),
+          webPageSchema({ name: "Financing & Payment Options | Pay Monthly for Your Engine Rebuild | Land Rover Garage", description: "Flexible payment options for engine rebuilds and replacements. No deposit required, pay on completion. Third-party financing coming soon.", path: PATH, type: "WebPage" }),
           breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Financing & Payment Options", path: PATH }], PATH),
         ])}
       />

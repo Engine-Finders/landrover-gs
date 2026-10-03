@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
@@ -68,9 +69,9 @@ export default function Sec5({ data }) {
           ))}
         </div>
         <div className="mt-5 flex justify-center">
-          <button className="flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-8 py-3 text-sm font-bold uppercase tracking-wide text-white">
+          <Link href="/land-rover-inside-our-workshop" className="flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-8 py-3 text-sm font-bold uppercase tracking-wide text-white">
             {data.viewMoreLabel} <span aria-hidden>→</span>
-          </button>
+          </Link>
         </div>
         <div className="mt-5">
           <Footer data={data} compact />
@@ -89,9 +90,9 @@ export default function Sec5({ data }) {
           </div>
 
           <div className="mt-6 flex justify-center">
-            <button className="flex items-center gap-3 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-16 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10">
+            <Link href="/land-rover-inside-our-workshop" className="flex items-center gap-3 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-16 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10">
               {data.viewMoreLabel} <span aria-hidden>→</span>
-            </button>
+            </Link>
           </div>
 
           <div className="mt-6">

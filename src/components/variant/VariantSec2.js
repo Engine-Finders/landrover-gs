@@ -52,13 +52,7 @@ export default function VariantSec2({ data }) {
           </div>
 
           <div className="mt-4">
-            <RegLookupForm buttonLabel={data.lookup.buttonLabel} stacked hideButton />
-            <button
-              type="button"
-              className="mt-3 flex h-11 w-full items-center justify-center rounded-sm border-2 border-hero-blue bg-hero-blue text-sm font-bold text-white transition-colors hover:bg-white hover:text-hero-blue"
-            >
-              {data.lookup.buttonLabel} →
-            </button>
+            <RegLookupForm buttonLabel={data.lookup.buttonLabel} stacked />
           </div>
 
           <div className="relative mt-4 flex items-stretch">
@@ -127,14 +121,12 @@ export default function VariantSec2({ data }) {
             <div className="relative border-l border-white/15 pl-8">
               <div className="flex items-center gap-3">
                 <div className="min-w-0 flex-1">
-                  <RegLookupForm buttonLabel={data.lookup.buttonLabel} row hideButton whiteField />
+                  <RegLookupForm buttonLabel={data.lookup.buttonLabel} row hideButton whiteField formId="variant-reg-lookup" />
                 </div>
-                <a
-                  href="#quote-form"
-                  className="btn-text flex h-15 w-64 shrink-0 items-center justify-center whitespace-nowrap rounded-lg border-2 border-hero-blue bg-linear-to-br from-hero-blue to-hero-blue-dark px-2 uppercase text-white shadow-lg transition-all hover:scale-[1.02] hover:bg-none hover:bg-white hover:text-hero-blue"
-                >
+                <button type="submit" form="variant-reg-lookup"
+                  className="btn-text flex h-15 w-64 shrink-0 items-center justify-center whitespace-nowrap rounded-lg border-2 border-hero-blue bg-linear-to-br from-hero-blue to-hero-blue-dark px-2 uppercase text-white shadow-lg transition-all hover:scale-[1.02] hover:bg-none hover:bg-white hover:text-hero-blue">
                   {data.lookup.buttonLabel} <span className="ml-1.5" aria-hidden>→</span>
-                </a>
+                </button>
               </div>
 
               <div className="relative mt-5 flex items-stretch">

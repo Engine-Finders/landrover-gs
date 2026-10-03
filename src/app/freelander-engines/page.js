@@ -44,7 +44,7 @@ const FAQ = [...(modelSec18.faqLeft || []), ...(modelSec18.faqRight || [])];
 
 export const metadata = {
   title: "Freelander Engine Rebuild & Replacement | Land Rover Specialists",
-  description: "Land Rover Freelander rebuilt engines from £1,900. Specialist K-Series head gasket, M47 timing chain & Duratorq issues, TD4, Si4 & all variants. Supply & fit, recovery, 12-month warranty.",
+  description: "Land Rover Freelander rebuilt engines from £1,900. Specialist K-Series head gasket, M47 timing chain & Duratorq issues, TD4, Si4 & all variants.",
   alternates: { canonical: PATH },
 };
 

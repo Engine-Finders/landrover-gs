@@ -1,9 +1,11 @@
 "use client";
 
+import { REVIEW_URLS } from "@/lib/site";
 import { useRef, useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
+import useRegLookup from "@/components/reusable/useRegLookup";
 import RegLookupForm from "@/components/reusable/RegLookupForm";
 
 function GoogleG({ className = "h-5 w-5" }) {
@@ -66,6 +68,7 @@ export default function Sec6({ data }) {
   ];
   const scrollRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const lookup = useRegLookup();
 
   function handleScroll() {
     const el = scrollRef.current;
@@ -122,14 +125,14 @@ export default function Sec6({ data }) {
           </div>
 
           <div className="mt-6 space-y-3">
-            <button className="relative flex w-full items-center justify-center gap-2 rounded-lg border border-black/10 bg-white px-6 py-3.5 text-xs font-bold uppercase tracking-wide text-[#101828] shadow-sm transition hover:-translate-y-0.5">
+            <a href={REVIEW_URLS.google} target="_blank" rel="noopener noreferrer" className="relative flex w-full items-center justify-center gap-2 rounded-lg border border-black/10 bg-white px-6 py-3.5 text-xs font-bold uppercase tracking-wide text-[#101828] shadow-sm transition hover:-translate-y-0.5">
               <GoogleG className="h-5 w-5" />
               <CtaLabel text={reviews.googleCta} /> <span aria-hidden className="text-hero-blue">→</span>
-            </button>
-            <button className="relative flex w-full items-center justify-center gap-2 rounded-lg border border-black/10 bg-white px-6 py-3.5 text-xs font-bold uppercase tracking-wide text-[#101828] shadow-sm transition hover:-translate-y-0.5">
+            </a>
+            <a href={REVIEW_URLS.trustpilot} target="_blank" rel="noopener noreferrer" className="relative flex w-full items-center justify-center gap-2 rounded-lg border border-black/10 bg-white px-6 py-3.5 text-xs font-bold uppercase tracking-wide text-[#101828] shadow-sm transition hover:-translate-y-0.5">
               <Icon name="star" className="h-5 w-5 fill-[#00b67a] text-[#00b67a]" />
               <CtaLabel text={reviews.trustpilotCta} /> <span aria-hidden className="text-hero-blue">→</span>
-            </button>
+            </a>
           </div>
           </div>
         </div>
@@ -145,20 +148,6 @@ export default function Sec6({ data }) {
             </SectionTitle>
 
             <div className="relative mt-6 px-11">
-            <button
-              type="button"
-              aria-label="Previous reviews"
-              className="absolute left-0 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-black/10 bg-white text-hero-blue shadow-lg transition hover:bg-hero-blue hover:text-white"
-            >
-              <Icon name="chevron-left" className="h-4 w-4" />
-            </button>
-            <button
-              type="button"
-              aria-label="Next reviews"
-              className="absolute right-0 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-black/10 bg-white text-hero-blue shadow-lg transition hover:bg-hero-blue hover:text-white"
-            >
-              <Icon name="chevron-right" className="h-4 w-4" />
-            </button>
             <div className="grid gap-3" style={{ gridTemplateColumns: `repeat(${reviews.items.length}, minmax(0, 1fr))` }}>
               {reviews.items.map((r) => (
                 <div
@@ -179,14 +168,14 @@ export default function Sec6({ data }) {
             </div>
 
             <div className="mt-5 flex justify-center gap-4">
-              <button className="relative flex items-center justify-center gap-2 rounded-md border border-black/10 bg-white px-6 py-3 text-sm font-bold text-[#101828] shadow-sm transition hover:-translate-y-0.5">
+              <a href={REVIEW_URLS.google} target="_blank" rel="noopener noreferrer" className="relative flex items-center justify-center gap-2 rounded-md border border-black/10 bg-white px-6 py-3 text-sm font-bold text-[#101828] shadow-sm transition hover:-translate-y-0.5">
                 <GoogleG className="h-5 w-5" />
                 <CtaLabel text={reviews.googleCta} /> <span aria-hidden className="text-hero-blue">→</span>
-              </button>
-              <button className="relative flex items-center justify-center gap-2 rounded-md border border-black/10 bg-white px-6 py-3 text-sm font-bold text-[#101828] shadow-sm transition hover:-translate-y-0.5">
+              </a>
+              <a href={REVIEW_URLS.trustpilot} target="_blank" rel="noopener noreferrer" className="relative flex items-center justify-center gap-2 rounded-md border border-black/10 bg-white px-6 py-3 text-sm font-bold text-[#101828] shadow-sm transition hover:-translate-y-0.5">
                 <Icon name="star" className="h-5 w-5 fill-[#00b67a] text-[#00b67a]" />
                 <CtaLabel text={reviews.trustpilotCta} /> <span aria-hidden className="text-hero-blue">→</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -209,13 +198,7 @@ export default function Sec6({ data }) {
           <p className="mt-3 text-xs text-[#101828]">{coverage.body}</p>
 
           <div className="mt-4">
-            <RegLookupForm buttonLabel={coverage.buttonLabel} stacked hideButton />
-            <button
-              type="button"
-              className="mt-3 flex h-11 w-full items-center justify-center rounded-sm border-2 border-hero-blue bg-hero-blue text-sm font-bold text-white transition-colors hover:bg-white hover:text-hero-blue"
-            >
-              {coverage.buttonLabel} →
-            </button>
+            <RegLookupForm buttonLabel={coverage.buttonLabel} stacked />
           </div>
 
           <div className="mt-3 flex items-center justify-center gap-3">
@@ -253,7 +236,7 @@ export default function Sec6({ data }) {
 
             <div className="w-full min-w-[24rem] max-w-[31rem] flex-1">
               {/* reference: green UK strip + white search input, separate green CHECK FIT button */}
-              <form onSubmit={(e) => e.preventDefault()} className="flex items-stretch gap-3">
+              <form onSubmit={lookup.submit} className="flex items-stretch gap-3">
                 <div className="flex h-14 min-w-0 flex-1 overflow-hidden rounded-lg border border-black/15 bg-white shadow-sm">
                   <span className="flex w-11 shrink-0 flex-col items-center justify-center gap-1 bg-[#1e3a26] text-white">
                     <svg viewBox="0 0 20 20" className="h-4 w-4" aria-hidden="true">
@@ -268,16 +251,21 @@ export default function Sec6({ data }) {
                     type="text"
                     aria-label="Registration number"
                     placeholder="Search by Registration"
+                    value={lookup.reg}
+                    onChange={(e) => lookup.setReg(e.target.value)}
+                    maxLength={8}
                     className="min-w-0 flex-1 bg-transparent px-4 text-base text-[#101828] uppercase placeholder:normal-case placeholder:text-[#101828]/45 outline-none"
                   />
                 </div>
                 <button
                   type="submit"
+                  disabled={lookup.loading}
                   className="flex h-14 shrink-0 items-center gap-2 whitespace-nowrap rounded-lg bg-[#1e3a26] px-5 text-sm font-bold uppercase tracking-wide text-white shadow-sm transition-colors hover:bg-[#28502f]"
                 >
                   {coverage.buttonLabel} <span aria-hidden>→</span>
                 </button>
               </form>
+              {lookup.error && <p className="mt-2 text-xs font-semibold text-red-600">{lookup.error}</p>}
               <div className="mt-4 flex items-center divide-x divide-black/15">
                 {coverage.ticks.map((t) => (
                   <span key={t} className="flex items-center gap-2 whitespace-nowrap px-5 text-sm font-medium text-[#101828] first:pl-1">

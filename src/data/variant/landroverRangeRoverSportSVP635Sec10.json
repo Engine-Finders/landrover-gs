@@ -19,7 +19,7 @@
         "codeRest": "(L461)",
         "body": "A 4.4-litre twin-turbo V8 fitted to the Range Rover Sport SV / P635 from 2023 to present (L461). BMW's hot-vee performance engine, sharing architecture with the S63 and N63 families. Known for timing chain and valve seal wear, coolant system leaks, and bearing wear over time — see the callout above. We replace timing chains, valve seals, coolant components, and bearings as standard on every S68 rebuild.",
         "cta": "Check Your BMW S68 Range Rover Sport SV  P635",
-        "codeHref": "/landrover-s68-bmw-sourced-engine"
+        "codeHref": "/landrover-s68-engine"
       }
     ]
   },
@@ -72,7 +72,7 @@
         "years": "2023–present",
         "engineCode": "BMW S68",
         "fuel": "Petrol Twin-Turbo",
-        "codeHref": "/landrover-s68-bmw-sourced-engine"
+        "codeHref": "/landrover-s68-engine"
       }
     ]
   }

@@ -1,5 +1,6 @@
 "use client";
 
+import { REVIEW_URLS } from "@/lib/site";
 import { useRef, useState } from "react";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
@@ -113,14 +114,14 @@ export default function ModelSec8({ data }) {
           </div>
 
           <div className="mt-6 space-y-3">
-            <button className="btn-text card-glare-light relative flex w-full items-center justify-center gap-2 rounded-lg border border-black/10 bg-white px-6 py-3.5 uppercase text-hero-blue">
+            <a href={REVIEW_URLS.google} target="_blank" rel="noopener noreferrer" className="btn-text card-glare-light relative flex w-full items-center justify-center gap-2 rounded-lg border border-black/10 bg-white px-6 py-3.5 uppercase text-hero-blue">
               <GoogleG className="h-5 w-5" />
               {data.googleCta} <span aria-hidden className="text-hero-blue">→</span>
-            </button>
-            <button className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#121511] px-6 py-3.5 uppercase text-white">
+            </a>
+            <a href={REVIEW_URLS.trustpilot} target="_blank" rel="noopener noreferrer" className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#121511] px-6 py-3.5 uppercase text-white">
               <Icon name="star" className="h-5 w-5 fill-hero-blue text-hero-blue" />
               {data.trustpilotCta} <span aria-hidden className="text-hero-blue">→</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -169,14 +170,14 @@ export default function ModelSec8({ data }) {
         </div>
 
         <div className="mt-5 flex justify-center gap-4">
-          <button className="btn-text card-glare-light relative flex items-center justify-center gap-2 rounded-md border border-black/10 bg-white px-6 py-3 text-hero-blue transition hover:-translate-y-0.5">
+          <a href={REVIEW_URLS.google} target="_blank" rel="noopener noreferrer" className="btn-text card-glare-light relative flex items-center justify-center gap-2 rounded-md border border-black/10 bg-white px-6 py-3 text-hero-blue transition hover:-translate-y-0.5">
             <GoogleG className="h-5 w-5" />
             {data.googleCta} <span aria-hidden className="text-hero-blue">→</span>
-          </button>
-          <button className="btn-text card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-hero-blue/50 bg-[#121511] px-6 py-3 text-white transition hover:-translate-y-0.5">
+          </a>
+          <a href={REVIEW_URLS.trustpilot} target="_blank" rel="noopener noreferrer" className="btn-text card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-hero-blue/50 bg-[#121511] px-6 py-3 text-white transition hover:-translate-y-0.5">
             <Icon name="star" className="h-5 w-5 fill-hero-blue text-hero-blue" />
             {data.trustpilotCta} <span aria-hidden className="text-hero-blue">→</span>
-          </button>
+          </a>
         </div>
       </div>
       </div>

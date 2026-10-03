@@ -1,9 +1,15 @@
+const esc = (v) =>
+  String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
 export async function POST(request) {
-  const payload = await request.json();
+  const payload = await request.json().catch(() => null);
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
+    return Response.json({ status: "error", message: "Invalid request." }, { status: 400 });
+  }
 
   const rows = Object.entries(payload)
     .filter(([, value]) => value !== undefined && value !== null && value !== "")
-    .map(([key, value]) => `<tr><td style="font-weight:bold;padding:4px 12px 4px 0;">${key}</td><td>${value}</td></tr>`)
+    .map(([key, value]) => `<tr><td style="font-weight:bold;padding:4px 12px 4px 0;">${esc(key)}</td><td>${esc(value)}</td></tr>`)
     .join("");
 
   const emailResult = await fetch(process.env.MAIL_RELAY_URL, {

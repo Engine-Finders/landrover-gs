@@ -843,5 +843,15 @@
     "type": "variant",
     "slug": "landrover-velar-p400e-engines",
     "title": "Land Rover Velar P400e Engine Rebuild"
+  },
+  {
+    "type": "engine",
+    "slug": "landrover-aj300d-engine",
+    "title": "Land Rover AJ300D Engine"
+  },
+  {
+    "type": "directory",
+    "slug": "guides",
+    "title": "Land Rover Guides"
   }
 ]

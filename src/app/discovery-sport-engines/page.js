@@ -44,7 +44,7 @@ const FAQ = [...(modelSec18.faqLeft || []), ...(modelSec18.faqRight || [])];
 
 export const metadata = {
   title: "Discovery Sport Engine Rebuild & Replacement | Land Rover Specialists",
-  description: "Discovery Sport rebuilt engines from £2,000. Specialist Ingenium diesel timing chain issues, D165, D180 & all variants. Supply & fit, recovery, 12-month warranty. Free quote in 30 mins.",
+  description: "Discovery Sport rebuilt engines from £2,000. Specialist Ingenium diesel timing chain issues, D165, D180 & all variants.",
   alternates: { canonical: PATH },
 };
 

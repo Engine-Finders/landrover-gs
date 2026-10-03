@@ -1,13 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import Link from "next/link";
+import useRegLookup from "@/components/reusable/useRegLookup";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
 export default function ModelSec9({ data }) {
   const [line1, line2] = data.h2.split("|");
-  const [reg, setReg] = useState("");
+  const { reg, setReg, loading, error, submit } = useRegLookup();
+  const BROWSE_HREFS = ["#model-year-coverage", "/engines", "/engines", "/engines", "#variant-coverage"];
 
   return (
     <section className="theme-light relative mt-10 overflow-hidden">
@@ -33,7 +35,8 @@ export default function ModelSec9({ data }) {
 
         <div className="relative px-4 pb-8">
           {/* reg lookup card */}
-          <div
+          <form
+            onSubmit={submit}
             className="relative mt-6 rounded-2xl p-5"
             style={{
               background: "var(--theme-light-bg)",
@@ -48,7 +51,7 @@ export default function ModelSec9({ data }) {
               <input
                 type="text"
                 value={reg}
-                onChange={(e) => setReg(e.target.value.toUpperCase())}
+                onChange={(e) => setReg(e.target.value)}
                 placeholder="ENTER REG"
                 maxLength={8}
                 className="min-w-0 flex-1 px-3 text-center text-2xl font-black tracking-widest text-[#101828] outline-none placeholder:text-[#101828]/40"
@@ -56,16 +59,17 @@ export default function ModelSec9({ data }) {
               />
             </div>
 
-            <button className="btn-text mt-3 flex h-16 w-full items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)]">
+            {error && <p className="mt-2 text-xs font-semibold text-red-600">{error}</p>}
+            <button type="submit" disabled={loading} className="btn-text mt-3 flex h-16 w-full items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)] disabled:cursor-wait disabled:opacity-70">
               <Icon name="search" className="h-6 w-6" />
-              {data.lookupButton}
+              {loading ? "Searching…" : data.lookupButton}
             </button>
 
             <div className="mt-3 flex items-start gap-2 border-t border-black/10 pt-3">
               <Icon name="info" className="h-4 w-4 shrink-0 text-hero-blue" />
               <p className="text-xs leading-snug text-[#101828]">{data.apiNote}</p>
             </div>
-          </div>
+          </form>
 
           {/* divider */}
           <div className="relative mt-6 flex items-center">
@@ -87,7 +91,8 @@ export default function ModelSec9({ data }) {
           {/* browse grid */}
           <div className="mt-5 grid grid-cols-2 gap-3">
             {data.browseCards.map((c, i) => (
-              <button
+              <Link
+                href={BROWSE_HREFS[i] || "/engines"}
                 key={c.label}
                 className={`relative flex items-center justify-between gap-2 rounded-xl bg-white/70 px-4 py-4 text-left backdrop-blur-2xl ${i === 4 ? "col-span-2" : ""}`}
                 style={{
@@ -101,7 +106,7 @@ export default function ModelSec9({ data }) {
                 <span className="text-hero-blue" aria-hidden>
                   ›
                 </span>
-              </button>
+              </Link>
             ))}
           </div>
 
@@ -134,7 +139,7 @@ export default function ModelSec9({ data }) {
         <div className="pointer-events-none absolute right-[8%] top-[55%] h-48 w-48 rounded-full bg-hero-blue/10 blur-3xl" />
 
         {/* reg lookup card */}
-        <div className="glass-card relative mt-10 flex items-center gap-6 overflow-hidden rounded-2xl px-6 py-6">
+        <form onSubmit={submit} className="glass-card relative mt-10 flex items-center gap-6 overflow-hidden rounded-2xl px-6 py-6">
           <div className="flex h-20 flex-1 overflow-hidden rounded-lg border border-white/80 bg-white/45 shadow-sm backdrop-blur-md">
             <span className="flex w-16 shrink-0 flex-col items-center justify-center gap-1.5 bg-[#1a1a1a] text-white">
               <span className="flex h-5 w-5 items-center justify-center rounded-full border border-[var(--color-hero-gold)] text-[10px] leading-none text-[var(--color-hero-gold)]">★</span>
@@ -143,23 +148,24 @@ export default function ModelSec9({ data }) {
             <input
               type="text"
               value={reg}
-              onChange={(e) => setReg(e.target.value.toUpperCase())}
+              onChange={(e) => setReg(e.target.value)}
               placeholder="ENTER REG"
               maxLength={8}
               className="min-w-0 flex-1 bg-transparent px-3 text-center text-3xl font-black tracking-widest text-[#101828] outline-none placeholder:text-[#101828]/40"
             />
           </div>
 
-          <button className="btn-text flex h-16 shrink-0 items-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-8 uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)] transition hover:-translate-y-0.5 hover:from-hero-blue-dark hover:to-hero-blue hover:shadow-[0_14px_32px_-8px_rgba(96,112,86,0.85)]">
+          <button type="submit" disabled={loading} className="btn-text flex h-16 shrink-0 items-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-8 uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)] transition hover:-translate-y-0.5 hover:from-hero-blue-dark hover:to-hero-blue hover:shadow-[0_14px_32px_-8px_rgba(96,112,86,0.85)] disabled:cursor-wait disabled:opacity-70">
             <Icon name="search" className="h-6 w-6" />
-            {data.lookupButton}
+            {loading ? "Searching…" : data.lookupButton}
           </button>
 
           <div className="flex max-w-56 items-start gap-2 border-l border-black/10 pl-6">
             <Icon name="info" className="h-4 w-4 shrink-0 text-hero-blue" />
             <p className="text-xs leading-snug text-[#101828]">{data.apiNote}</p>
           </div>
-        </div>
+          {error && <p className="absolute bottom-1 left-6 text-xs font-semibold text-red-600">{error}</p>}
+        </form>
 
         {/* divider */}
         <div className="relative mt-8 flex items-center">
@@ -186,8 +192,9 @@ export default function ModelSec9({ data }) {
 
         {/* browse grid */}
         <div className="mt-5 grid grid-cols-5 gap-4">
-          {data.browseCards.map((c) => (
-            <button
+          {data.browseCards.map((c, i) => (
+            <Link
+              href={BROWSE_HREFS[i] || "/engines"}
               key={c.label}
               className="glass-card relative flex items-center justify-between gap-2 rounded-xl px-4 py-6 text-left transition hover:-translate-y-0.5"
             >
@@ -196,7 +203,7 @@ export default function ModelSec9({ data }) {
                 <span className="text-xs font-extrabold uppercase tracking-wide text-[#101828]">{c.label}</span>
               </span>
               <span className="text-hero-blue" aria-hidden>›</span>
-            </button>
+            </Link>
           ))}
         </div>
 

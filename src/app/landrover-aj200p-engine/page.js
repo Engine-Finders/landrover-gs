@@ -10,6 +10,7 @@ import Sec9 from "@/components/engine-family/Sec9";
 import SecApps from "@/components/engine-family/SecApps";
 import Sec10 from "@/components/engine-family/Sec10";
 import Sec11 from "@/components/engine-family/Sec11";
+import { clipDescription, withBrand } from "@/lib/seo";
 import JsonLd from "@/components/shared/JsonLd";
 import { serviceSchema, faqSchema, breadcrumbSchema, graphDoc } from "@/lib/schema";
 
@@ -26,12 +27,12 @@ import sec10 from "@/data/engine-family/landroveraj200pSec10.json";
 import sec11 from "@/data/engine-family/landroveraj200pSec11.json";
 
 const PATH = "/landrover-aj200p-engine";
-const NAME = [sec1.titlePre, sec1.titleHighlight, sec1.titleLine2].filter(Boolean).join(" ") || "landrover-aj200p-engine";
+const NAME = `Land Rover ${sec1.titlePre.trim()} Engine Rebuild & Replacement`;
 const FAQ = [...(sec11.faq?.faqLeft || []), ...(sec11.faq?.faqRight || [])];
 
 export const metadata = {
-  title: NAME,
-  description: sec1.subhead || "",
+  title: withBrand(NAME),
+  description: clipDescription(sec1.subhead),
   alternates: { canonical: PATH },
 };
 

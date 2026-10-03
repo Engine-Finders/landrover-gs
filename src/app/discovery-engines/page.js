@@ -44,7 +44,7 @@ const FAQ = [...(modelSec18.faqLeft || []), ...(modelSec18.faqRight || [])];
 
 export const metadata = {
   title: "Discovery Engine Rebuild & Replacement | Land Rover Specialists",
-  description: "Land Rover Discovery rebuilt engines from £1,900. Specialist TDV6/SDV6, Td5 & Ingenium timing chain issues, all generations. Supply & fit, recovery, 12-month warranty. Free quote in 30 mins.",
+  description: "Land Rover Discovery rebuilt engines from £1,900. Specialist TDV6/SDV6, Td5 & Ingenium timing chain issues, all generations.",
   alternates: { canonical: PATH },
 };
 

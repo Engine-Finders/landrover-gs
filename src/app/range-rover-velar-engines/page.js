@@ -44,7 +44,7 @@ const FAQ = [...(modelSec18.faqLeft || []), ...(modelSec18.faqRight || [])];
 
 export const metadata = {
   title: "Range Rover Velar Engine Rebuild & Replacement | Land Rover Specialists",
-  description: "Range Rover Velar rebuilt engines from £2,200. Specialist Ingenium diesel timing chain issues, D240, P300 & all variants. Supply & fit, recovery, 12-month warranty. Free quote in 30 mins.",
+  description: "Range Rover Velar rebuilt engines from £2,200. Specialist Ingenium diesel timing chain issues, D240, P300 & all variants.",
   alternates: { canonical: PATH },
 };
 

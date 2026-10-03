@@ -44,7 +44,7 @@ const FAQ = [...(modelSec18.faqLeft || []), ...(modelSec18.faqRight || [])];
 
 export const metadata = {
   title: "Defender Engine Rebuild & Replacement | Land Rover Specialists",
-  description: "Land Rover Defender rebuilt engines from £1,900. Specialist Td5/300Tdi & Ingenium timing chain issues, classic and L663. Supply & fit, recovery, 12-month warranty. Free quote in 30 mins.",
+  description: "Land Rover Defender rebuilt engines from £1,900. Specialist Td5/300Tdi & Ingenium timing chain issues, classic and L663.",
   alternates: { canonical: PATH },
 };
 

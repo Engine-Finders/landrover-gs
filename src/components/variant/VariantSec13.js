@@ -2,6 +2,7 @@
 
 import { Fragment, useState } from "react";
 import Image from "next/image";
+import useLeadForm, { LeadStatus } from "@/components/reusable/useLeadForm";
 import Icon from "@/components/reusable/Icon";
 import GbBadge from "@/components/reusable/GbBadge";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
@@ -24,13 +25,15 @@ function FaqCard({ item, isOpen, onToggle, compact = false }) {
   );
 }
 
-function Field({ label, placeholder, type = "text", compact = false }) {
+function Field({ label, name, placeholder, type = "text", compact = false }) {
   return (
     <label className="block">
       <span className="label-text uppercase tracking-wide text-white">
         {label} <span className="text-bmw-red">*</span>
       </span>
       <input
+        name={name}
+        required
         type={type}
         placeholder={placeholder}
         className={`w-full rounded-lg border border-white/15 bg-white/5 px-4 text-sm text-white placeholder:text-white/40 outline-none focus:border-hero-blue ${
@@ -41,13 +44,15 @@ function Field({ label, placeholder, type = "text", compact = false }) {
   );
 }
 
-function LightField({ label, placeholder, type = "text" }) {
+function LightField({ label, name, placeholder, type = "text" }) {
   return (
     <label className="block">
       <span className="label-text uppercase tracking-wide text-white">
         {label} <span className="text-[#9fb08c]">*</span>
       </span>
       <input
+        name={name}
+        required
         type={type}
         placeholder={placeholder}
         className="mt-2 h-12 w-full rounded-md bg-white px-4 text-sm text-[#101828] placeholder:text-[#101828]/40 outline-none"
@@ -67,10 +72,8 @@ export default function VariantSec13({ data }) {
     });
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    // Lead form — dev to wire up submission endpoint.
-  }
+  const lead = useLeadForm();
+  const handleSubmit = lead.handleSubmit;
 
   return (
     <section id="quote-form" className="theme-light relative scroll-mt-6 overflow-hidden">
@@ -113,25 +116,28 @@ export default function VariantSec13({ data }) {
                 <div className="mt-1.5 flex h-11 overflow-hidden rounded-lg border border-white/15 bg-white/5">
                   <GbBadge className="w-12" />
                   <input
-                    type="text"
+                    name="vehicle_vrm" required maxLength={8} type="text"
                     placeholder={data.form.fields.reg.placeholder}
                     className="min-w-0 flex-1 bg-transparent px-3 text-sm text-white placeholder:text-white/40 outline-none"
                   />
                 </div>
               </label>
 
-              <Field label={data.form.fields.postcode.label} placeholder={data.form.fields.postcode.placeholder} compact />
-              <Field label={data.form.fields.name.label} placeholder={data.form.fields.name.placeholder} compact />
-              <Field label={data.form.fields.phone.label} placeholder={data.form.fields.phone.placeholder} type="tel" compact />
-              <Field label={data.form.fields.email.label} placeholder={data.form.fields.email.placeholder} type="email" compact />
+              <Field name="postcode" label={data.form.fields.postcode.label} placeholder={data.form.fields.postcode.placeholder} compact />
+              <Field name="name" label={data.form.fields.name.label} placeholder={data.form.fields.name.placeholder} compact />
+              <Field name="number" label={data.form.fields.phone.label} placeholder={data.form.fields.phone.placeholder} type="tel" compact />
+              <Field name="email" label={data.form.fields.email.label} placeholder={data.form.fields.email.placeholder} type="email" compact />
 
               <label className="block">
                 <span className="label-text uppercase tracking-wide text-white">
                   {data.form.fields.enquiry.label} <span className="text-bmw-red">*</span>
                 </span>
                 <div className="relative mt-1.5">
-                  <select className="h-11 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white outline-none">
-                    <option>{data.form.fields.enquiry.placeholder}</option>
+                  <select name="description" required className="h-11 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white outline-none">
+                    <option value="">{data.form.fields.enquiry.placeholder}</option>
+                  {["Engine Failure", "Replacement Needed", "General Enquiry"].map((o) => (
+                    <option key={o} value={o}>{o}</option>
+                  ))}
                   </select>
                   <Icon
                     name="chevron-down"
@@ -143,6 +149,7 @@ export default function VariantSec13({ data }) {
 
             <button
               type="submit"
+            disabled={lead.status === "loading"}
               className="mt-4 flex w-full items-center justify-center gap-2 rounded-lg py-3 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-110"
               style={{
                 background: "linear-gradient(135deg, #607056 0%, #4c5a45 100%)",
@@ -151,6 +158,7 @@ export default function VariantSec13({ data }) {
             >
               {data.form.submitLabel} <span aria-hidden>→</span>
             </button>
+          <LeadStatus lead={lead} />
 
             <p className="mt-3 flex items-center justify-center gap-2 text-center text-xs text-white">
               <Icon name="shield-check" className="h-4 w-4 shrink-0 text-hero-blue" />
@@ -246,23 +254,26 @@ export default function VariantSec13({ data }) {
                     <div className="mt-2 flex h-12 overflow-hidden rounded-md bg-white">
                       <GbBadge className="w-12" />
                       <input
-                        type="text"
+                        name="vehicle_vrm" required maxLength={8} type="text"
                         placeholder={data.form.fields.reg.placeholder}
                         className="min-w-0 flex-1 bg-transparent px-3 text-sm text-[#101828] placeholder:text-[#101828]/40 outline-none"
                       />
                     </div>
                   </label>
-                  <LightField label={data.form.fields.postcode.label} placeholder={data.form.fields.postcode.placeholder} />
-                  <LightField label={data.form.fields.name.label} placeholder={data.form.fields.name.placeholder} />
-                  <LightField label={data.form.fields.phone.label} placeholder={data.form.fields.phone.placeholder} type="tel" />
-                  <LightField label={data.form.fields.email.label} placeholder={data.form.fields.email.placeholder} type="email" />
+                  <LightField name="postcode" label={data.form.fields.postcode.label} placeholder={data.form.fields.postcode.placeholder} />
+                  <LightField name="name" label={data.form.fields.name.label} placeholder={data.form.fields.name.placeholder} />
+                  <LightField name="number" label={data.form.fields.phone.label} placeholder={data.form.fields.phone.placeholder} type="tel" />
+                  <LightField name="email" label={data.form.fields.email.label} placeholder={data.form.fields.email.placeholder} type="email" />
                   <label className="block">
                     <span className="label-text uppercase tracking-wide text-white">
                       {data.form.fields.enquiry.label} <span className="text-[#9fb08c]">*</span>
                     </span>
                     <div className="relative mt-2">
-                      <select className="h-12 w-full appearance-none rounded-md bg-white px-4 pr-10 text-sm text-[#101828]/60 outline-none">
-                        <option>{data.form.fields.enquiry.placeholder}</option>
+                      <select name="description" required className="h-12 w-full appearance-none rounded-md bg-white px-4 pr-10 text-sm text-[#101828]/60 outline-none">
+                        <option value="">{data.form.fields.enquiry.placeholder}</option>
+                  {["Engine Failure", "Replacement Needed", "General Enquiry"].map((o) => (
+                    <option key={o} value={o}>{o}</option>
+                  ))}
                       </select>
                       <Icon name="chevron-down" className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#101828]" />
                     </div>
@@ -271,11 +282,13 @@ export default function VariantSec13({ data }) {
 
                 <button
                   type="submit"
+            disabled={lead.status === "loading"}
                   className="mt-5 flex w-full items-center justify-center gap-3 rounded-md border border-[#9fb08c]/50 py-4 text-base font-extrabold uppercase tracking-wide text-white transition hover:brightness-110"
                   style={{ background: "linear-gradient(135deg, #3f5a3a 0%, #2c4128 100%)" }}
                 >
                   {data.form.submitLabel} <span aria-hidden>→</span>
                 </button>
+          <LeadStatus lead={lead} />
 
                 <p className="mt-3 flex items-center justify-center gap-2 text-sm text-white">
                   <Icon name="shield-check" className="h-4 w-4 shrink-0 text-[#9fb08c]" />

@@ -1,5 +1,6 @@
 "use client";
 
+import { REVIEW_URLS } from "@/lib/site";
 import { useRef, useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
@@ -88,14 +89,14 @@ export default function VariantSec7({ data }) {
           </div>
 
           <div className="mt-6 space-y-3">
-            <button className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#0d0f0c] px-6 py-3.5 uppercase tracking-wide text-hero-blue transition hover:-translate-y-0.5">
+            <a href={REVIEW_URLS.google} target="_blank" rel="noopener noreferrer" className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#0d0f0c] px-6 py-3.5 uppercase tracking-wide text-hero-blue transition hover:-translate-y-0.5">
               <GoogleG className="h-5 w-5" />
               {reviews.googleCta} <span aria-hidden>→</span>
-            </button>
-            <button className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#0d0f0c] px-6 py-3.5 uppercase tracking-wide text-hero-blue transition hover:-translate-y-0.5">
+            </a>
+            <a href={REVIEW_URLS.trustpilot} target="_blank" rel="noopener noreferrer" className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#0d0f0c] px-6 py-3.5 uppercase tracking-wide text-hero-blue transition hover:-translate-y-0.5">
               <Icon name="star" className="h-5 w-5 fill-[#00b67a] text-[#00b67a]" />
               {reviews.trustpilotCta} <span aria-hidden>→</span>
-            </button>
+            </a>
           </div>
           </div>
         </div>
@@ -118,20 +119,6 @@ export default function VariantSec7({ data }) {
             </h2>
 
             <div className="relative mt-6 px-11">
-            <button
-              type="button"
-              aria-label="Previous reviews"
-              className="absolute left-0 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-[#0d0f0c] text-white shadow-lg transition hover:bg-hero-blue"
-            >
-              <Icon name="chevron-left" className="h-4 w-4" />
-            </button>
-            <button
-              type="button"
-              aria-label="Next reviews"
-              className="absolute right-0 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-[#0d0f0c] text-white shadow-lg transition hover:bg-hero-blue"
-            >
-              <Icon name="chevron-right" className="h-4 w-4" />
-            </button>
             <div className="grid grid-cols-6 gap-3">
               {reviews.items.map((r) => (
                 <div
@@ -152,14 +139,14 @@ export default function VariantSec7({ data }) {
             </div>
 
             <div className="mt-5 flex justify-center gap-4">
-              <button className="card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-hero-blue/50 bg-[#0d0f0c] px-6 py-3 text-sm font-bold text-hero-blue transition hover:-translate-y-0.5">
+              <a href={REVIEW_URLS.google} target="_blank" rel="noopener noreferrer" className="card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-hero-blue/50 bg-[#0d0f0c] px-6 py-3 text-sm font-bold text-hero-blue transition hover:-translate-y-0.5">
                 <GoogleG className="h-5 w-5" />
                 {reviews.googleCta} <span aria-hidden>→</span>
-              </button>
-              <button className="card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-[#00b67a]/50 bg-[#0d0f0c] px-6 py-3 text-sm font-bold text-hero-blue transition hover:-translate-y-0.5">
+              </a>
+              <a href={REVIEW_URLS.trustpilot} target="_blank" rel="noopener noreferrer" className="card-corner-glare relative flex items-center justify-center gap-2 rounded-md border border-[#00b67a]/50 bg-[#0d0f0c] px-6 py-3 text-sm font-bold text-hero-blue transition hover:-translate-y-0.5">
                 <Icon name="star" className="h-5 w-5 fill-[#00b67a] text-[#00b67a]" />
                 {reviews.trustpilotCta} <span aria-hidden>→</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -185,13 +172,7 @@ export default function VariantSec7({ data }) {
           <p className="mt-3 text-xs text-[#101828]">{coverage.body}</p>
 
           <div className="mt-4">
-            <RegLookupForm buttonLabel={coverage.buttonLabel} stacked hideButton />
-            <button
-              type="button"
-              className="mt-3 flex h-11 w-full items-center justify-center rounded-sm border-2 border-hero-blue bg-hero-blue text-sm font-bold text-white transition-colors hover:bg-white hover:text-hero-blue"
-            >
-              {coverage.buttonLabel} →
-            </button>
+            <RegLookupForm buttonLabel={coverage.buttonLabel} stacked />
           </div>
 
           <div className="mt-3 flex items-center justify-center gap-3">
