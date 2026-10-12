@@ -36,8 +36,8 @@ function inline(text, keyBase) {
             key={`${keyBase}-l${i}`}
             href={href}
             className="text-hero-blue underline underline-offset-2"
-            target="_blank"
-            rel="noopener noreferrer"
+            target={href.startsWith("http") ? "_blank" : undefined}
+            rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
           >
             {m[2]}
           </a>

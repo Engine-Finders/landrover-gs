@@ -44,7 +44,26 @@ export default function Footer({ data }) {
           <div className="space-y-1">
             <p>{data.contact.address}</p>
             <p>
-              {data.contact.phone} &nbsp;·&nbsp; {data.contact.email}
+              <a href={`tel:${data.contact.phone.replace(/\s+/g, "")}`} className="hover:text-white/70 transition-colors">
+                {data.contact.phone}
+              </a>
+              {data.contact.whatsapp && (
+                <>
+                  &nbsp;·&nbsp;
+                  <a
+                    href={`https://wa.me/44${data.contact.whatsapp.replace(/\s+/g, "").replace(/^0/, "")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-white/70 transition-colors"
+                  >
+                    WhatsApp {data.contact.whatsapp}
+                  </a>
+                </>
+              )}
+              &nbsp;·&nbsp;
+              <a href={`mailto:${data.contact.email}`} className="hover:text-white/70 transition-colors">
+                {data.contact.email}
+              </a>
             </p>
             <p className="text-white">{data.contact.hours}</p>
           </div>
