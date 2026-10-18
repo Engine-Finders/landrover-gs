@@ -58,7 +58,7 @@
   "applications": {
     "titlePre": "Land Rover Velar D300 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/variant/landrover_car.webp",
+    "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,6 +69,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L663",
         "years": "2020–present",
         "engineCode": "AJ300D",

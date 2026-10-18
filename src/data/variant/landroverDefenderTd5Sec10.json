@@ -57,7 +57,7 @@
   "applications": {
     "titlePre": "Land Rover Defender Td5 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/variant/landrover_car.webp",
+    "image": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -77,6 +77,7 @@
       },
       {
         "generation": "L316",
+        "image": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
         "chassis": "L316",
         "years": "1990–2016",
         "engineCode": "Td5",

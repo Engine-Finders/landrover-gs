@@ -64,7 +64,7 @@
   "applications": {
     "titlePre": "Land Rover Range Rover Autobiography ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/variant/landrover_car.webp",
+    "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -84,6 +84,7 @@
       },
       {
         "generation": "L460",
+        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L460",
         "years": "2022–present",
         "engineCode": "BMW S68",

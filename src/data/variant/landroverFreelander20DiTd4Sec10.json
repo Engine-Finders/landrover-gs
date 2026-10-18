@@ -63,7 +63,7 @@
   "applications": {
     "titlePre": "Land Rover Freelander 2.0 Di  Td4 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/variant/landrover_car.webp",
+    "image": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -82,6 +82,7 @@
       },
       {
         "generation": "Freelander 1",
+        "image": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
         "chassis": "L314",
         "years": "1997–2006",
         "engineCode": "BMW M47D20 (later Td4)",

@@ -4,7 +4,7 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£1,900",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/variant/landrover_car.webp",
+  "carImage": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
   "cards": [
     {
       "code": "Td5",
@@ -15,6 +15,7 @@
     },
     {
       "code": "Td5",
+      "carImage": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
       "generation": "L316 (1990–2016)",
       "price": "£1,900",
       "codeHref": "/landrover-td5-engine"

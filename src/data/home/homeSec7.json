@@ -1,14 +1,14 @@
 {
   "h2": "Find Your Land Rover Model",
   "models": [
-    { "name": "Defender", "slug": "defender", "image": "/home/landrover.webp", "href": "/defender-engines" },
-    { "name": "Discovery", "slug": "discovery", "image": "/home/landrover.webp", "href": "/discovery-engines" },
-    { "name": "Discovery Sport", "slug": "discovery-sport", "image": "/home/landrover.webp", "href": "/discovery-sport-engines" },
-    { "name": "Freelander", "slug": "freelander", "image": "/home/landrover.webp", "href": "/freelander-engines" },
-    { "name": "Range Rover", "slug": "range-rover", "image": "/home/landrover.webp", "href": "/landrover-range-rover-tdv6-engines", "featured": true },
-    { "name": "Range Rover Sport", "slug": "range-rover-sport", "image": "/home/landrover.webp", "href": "/range-rover-sport-engines" },
-    { "name": "Range Rover Velar", "slug": "range-rover-velar", "image": "/home/landrover.webp", "href": "/range-rover-velar-engines" },
-    { "name": "Range Rover Evoque", "slug": "range-rover-evoque", "image": "/home/landrover.webp", "href": "/range-rover-evoque-engines", "featured": true }
+    { "name": "Defender", "slug": "defender", "image": "/cars/land-rover-defender-l663-130-5-door-suv-2022-new-carpathian-142b.webp", "href": "/defender-engines" },
+    { "name": "Discovery", "slug": "discovery", "image": "/cars/land-rover-discovery-l462-s-5-door-suv-2026-new-tasman-blue-867b.webp", "href": "/discovery-engines" },
+    { "name": "Discovery Sport", "slug": "discovery-sport", "image": "/cars/land-rover-discovery-sport-l550-lci-dynamic-hse-compact-suv-f91c.webp", "href": "/discovery-sport-engines" },
+    { "name": "Freelander", "slug": "freelander", "image": "/cars/land-rover-freelander-l359-lci-se-dynamic-compact-suv-201420-a831.webp", "href": "/freelander-engines" },
+    { "name": "Range Rover", "slug": "range-rover", "image": "/cars/land-rover-range-rover-l460-hse-suv-2022-new-eiger-grey-l460-263f.webp", "href": "/landrover-range-rover-tdv6-engines", "featured": true },
+    { "name": "Range Rover Sport", "slug": "range-rover-sport", "image": "/cars/range-rover-sport-l461-dynamic-hse-suv-2022-new-eiger-grey-l-78f7.webp", "href": "/range-rover-sport-engines" },
+    { "name": "Range Rover Velar", "slug": "range-rover-velar", "image": "/cars/range-rover-velar-l560-lci-belgravia-edition-suv-2026-specia-0967.webp", "href": "/range-rover-velar-engines" },
+    { "name": "Range Rover Evoque", "slug": "range-rover-evoque", "image": "/cars/range-rover-evoque-l551-lci-dynamic-hse-5-door-suv-2023-new-be93.webp", "href": "/range-rover-evoque-engines", "featured": true }
   ],
   "cta": {
     "label": "All Land Rover Models",
