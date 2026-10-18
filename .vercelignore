@@ -9,5 +9,6 @@ ModelPageUI
 *.md
 !README.md
 
-# Local dev artifacts
-scripts
+# Local dev artifacts (the part-image index script is needed by the build, so it stays)
+scripts/*
+!scripts/build-part-index.mjs
