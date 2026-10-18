@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Defender P525 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
     "cards": [
       {
         "codeHighlight": "AJ133",
+        "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
         "codeRest": "",
         "body": "A 5.0-litre supercharged V8 fitted to the Defender P525 from 2021 (90) and 2026 (US-market 110). The P525 badge reflects the power output tune of this engine. While the AJ133 is generally reliable and shares the broader supercharged V8 pattern used across other Land Rover models, no Defender-specific issue is confirmed for this application. We replace timing chains, bearings, water pump and gaskets as standard on every P525 rebuild.",
         "cta": "Check Your AJ133 Defender P525",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "90",
         "years": "2021–present",
         "engineCode": "AJ133",
@@ -76,6 +78,7 @@
       },
       {
         "generation": "L663",
+        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "110 (US market)",
         "years": "2026",
         "engineCode": "AJ133",

@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Velar P400 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300P",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "",
         "body": "A 3.0-litre inline-six petrol fitted to the Velar P400 from 2017 to present (L560 generation). Generally reliable with no specific pattern of catastrophic failure — cooling system issues are occasionally noted in specialist circles, but there's no established pattern equivalent to the timing chain concerns seen on the Ingenium diesel range. We replace timing chains, bearings, water pump and gaskets as standard on every rebuild.",
         "cta": "Check Your AJ300P Range Rover Velar P400",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L560",
+        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
         "years": "2017–present",
         "engineCode": "AJ300P",

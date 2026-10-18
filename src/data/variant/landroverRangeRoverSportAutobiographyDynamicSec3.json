@@ -3,17 +3,21 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£4,500",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/land-rover-jlr-aj133-engine-hero.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "SDV8",
+      "image": "/variant/sec10_engine.webp",
+      "carImage": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
       "generation": "L494 (2013–2022)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "AJ-V8",
+      "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
+      "carImage": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
       "generation": "L494 (2013–2022)",
       "price": "£5,500",
       "codeHref": "/landrover-aj-v8-engine"

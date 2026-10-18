@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { partImageFor } from "@/lib/partImage";
 import Link from "next/link";
 
 function inline(text, keyBase) {
@@ -44,7 +45,7 @@ function inline(text, keyBase) {
 }
 
 /* offset gold frame around an image — the "fancy touch", kept cheap */
-function FramedImage({ src, alt, className = "" }) {
+function FramedImage({ src, alt, className = "", contain = false, backdrop }) {
   return (
     <div className={`relative ${className}`}>
       <div className="absolute -inset-3 -z-10 rounded-2xl border border-hero-blue/40" aria-hidden="true" />
@@ -54,7 +55,8 @@ function FramedImage({ src, alt, className = "" }) {
         aria-hidden="true"
       />
       <div className="relative aspect-4/3 overflow-hidden rounded-xl">
-        <Image src={src} alt={alt} fill className="object-cover" sizes="(min-width:768px) 40vw, 100vw" />
+        {contain && <Image src={backdrop} alt="" fill className="object-cover opacity-30" sizes="(min-width:768px) 40vw, 100vw" />}
+        <Image src={src} alt={alt} fill className={contain ? "object-contain p-8 drop-shadow-[0_10px_30px_rgba(0,0,0,0.6)]" : "object-cover"} sizes="(min-width:768px) 40vw, 100vw" />
         <div
           className="pointer-events-none absolute inset-0"
           style={{ background: "linear-gradient(180deg, transparent 55%, rgba(10,10,10,0.5))" }}
@@ -273,6 +275,7 @@ function FaqSection({ s, idx }) {
 
 export default function AuthorityPage({ data }) {
   const imgs = data.images || [];
+  const heroPart = partImageFor(data.h1);
   const sections = data.sections || [];
   const bandAt = Math.min(2, Math.max(1, Math.floor(sections.length / 3)));
   const faqIdx = sections.findIndex((s) => s.kind === "faq");
@@ -316,7 +319,7 @@ export default function AuthorityPage({ data }) {
           </div>
           {imgs[0] ? (
             <div className="hidden lg:block">
-              <FramedImage src={imgs[0]} alt={`${data.h1} — Land Rover Garage workshop`} />
+              <FramedImage src={heroPart || imgs[0]} alt={`${data.h1} — Land Rover Garage workshop`} contain={!!heroPart} backdrop={imgs[0]} />
             </div>
           ) : null}
         </div>

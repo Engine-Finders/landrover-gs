@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery HSE ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-276dt-tdv6-engine.webp",
     "cards": [
       {
         "codeHighlight": "TDV6, SDV6, TDV8, SDV8, or Si6",
+        "image": "/engines/jaguar-276dt-tdv6-engine.webp",
         "codeRest": "",
         "body": "Since HSE is a trim badge, the engine fitted depends entirely on the specific vehicle specification. The TDV6, SDV6, Si6, TDV8 and SDV8 are all possible — each with its own characteristics and components. We confirm your exact engine code before quoting any work.",
         "cta": "Check Your TDV6, SDV6, TDV8, SDV8, or Si6 Discovery HSE",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "D3",
+        "image": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
         "chassis": "L319",
         "years": "2004–2009",
         "engineCode": "TDV6 / TDV8 / Si6",
@@ -76,6 +78,7 @@
       },
       {
         "generation": "D4",
+        "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
         "chassis": "L319 facelift",
         "years": "2009–2016",
         "engineCode": "SDV6 / SDV8 / Si6",

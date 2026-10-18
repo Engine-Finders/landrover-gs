@@ -8,6 +8,7 @@
   "cards": [
     {
       "code": "Rover K-Series",
+      "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
       "generation": "L314 (1997–2006)",
       "price": "£1,900",
       "codeHref": "/landrover-rover-k-series-engine"

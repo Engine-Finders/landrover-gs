@@ -27,7 +27,7 @@ export default function VariantSec3({ data }) {
               <div className="flex items-center justify-between gap-3">
                 <div className="flex items-center gap-3">
                   <div className="relative h-12 w-14 shrink-0">
-                    <Image src={data.engineImage} alt={`${c.code} engine`} fill className="object-contain" sizes="56px" />
+                    <Image src={c.image ?? data.engineImage} alt={`${c.code} engine`} fill className="object-contain" sizes="56px" />
                   </div>
                   <div>
                     <p className="text-[10px] font-extrabold uppercase tracking-wide text-[#607056]">Engine Code</p>
@@ -54,7 +54,7 @@ export default function VariantSec3({ data }) {
               >
                 {data.carImage && (
                   <div className="relative h-10 w-16 shrink-0">
-                    <Image src={data.carImage} alt={c.generation} fill className="object-contain" sizes="64px" />
+                    <Image src={c.carImage ?? data.carImage} alt={c.generation} fill className="object-contain" sizes="64px" />
                   </div>
                 )}
                 <div>
@@ -175,7 +175,7 @@ export default function VariantSec3({ data }) {
                       </span>
                     )}
                     <div className="relative mt-3.5 h-20 w-24 shrink-0">
-                      <Image src={data.engineImage} alt={`${c.code} engine`} fill className="object-contain" sizes="96px" />
+                      <Image src={c.image ?? data.engineImage} alt={`${c.code} engine`} fill className="object-contain" sizes="96px" />
                     </div>
                   </div>
 
@@ -187,7 +187,7 @@ export default function VariantSec3({ data }) {
                     <p className="text-sm font-bold text-[#2a231c]">{c.generation}</p>
                     {data.carImage && (
                       <div className="relative h-16 w-32 shrink-0">
-                        <Image src={data.carImage} alt={c.generation} fill className="object-contain" sizes="128px" />
+                        <Image src={c.carImage ?? data.carImage} alt={c.generation} fill className="object-contain" sizes="128px" />
                       </div>
                     )}
                   </div>

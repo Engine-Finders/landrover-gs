@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery Sport P250 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ200P",
+        "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
         "codeRest": "",
         "body": "A 2.0-litre four-cylinder petrol engine fitted to the Discovery Sport P250 from 2019 to the present. No specific known issue has been independently confirmed for this application.",
         "cta": "Check Your AJ200P Discovery Sport P250",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L550",
+        "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
         "chassis": "L550",
         "years": "2019–present",
         "engineCode": "AJ200P",

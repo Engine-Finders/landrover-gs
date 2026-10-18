@@ -10,7 +10,7 @@
       "symptom": "Timing chain wear, oil leaks, turbo faults",
       "cost": "From £2,400",
       "turnaround": "3-5 working days",
-      "image": "/home/engine_trim.webp",
+      "image": "/engines/jaguar-276dt-tdv6-engine.webp",
       "href": "/landrover-tdv6-sdv6-engine"
     },
     {
@@ -21,7 +21,7 @@
       "symptom": "Timing chain wear, DC-DC converter faults",
       "cost": "From £1,900–£2,200",
       "turnaround": "3-5 working days",
-      "image": "/home/engine_trim.webp",
+      "image": "/engines/jaguar-aj200d-engine.webp",
       "href": "/landrover-aj200d-engine"
     },
     {
@@ -54,7 +54,7 @@
       "symptom": "Timing belt wear, DPF and EGR faults",
       "cost": "From £1,900–£2,200",
       "turnaround": "3-5 working days",
-      "image": "/home/engine_trim.webp",
+      "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
       "href": "/landrover-ford-duratorq-engine"
     },
     {
@@ -76,7 +76,7 @@
       "symptom": "Timing chain, tensioner and guide wear",
       "cost": "From £5,500",
       "turnaround": "3-5 working days",
-      "image": "/home/engine_trim.webp",
+      "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
       "href": "/landrover-aj-v8-engine"
     }
   ],

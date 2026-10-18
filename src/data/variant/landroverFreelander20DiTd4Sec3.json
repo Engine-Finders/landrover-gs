@@ -8,11 +8,13 @@
   "cards": [
     {
       "code": "L-Series (early)",
+      "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
       "generation": "L314 (1997–2006)",
       "price": "£1,900"
     },
     {
       "code": "BMW M47D20 (later Td4)",
+      "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
       "generation": "L314 (1997–2006)",
       "price": "£1,900",
       "codeHref": "/landrover-m47d20-bmw-sourced-engine"

@@ -8,6 +8,7 @@
   "cards": [
     {
       "code": "Ford EcoBoost",
+      "carImage": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
       "generation": "L550 (2015–2019)",
       "price": "£2,000",
       "codeHref": "/landrover-ford-ecoboost-engine"

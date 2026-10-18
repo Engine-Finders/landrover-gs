@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
+import GalleryPhoto from "@/components/reusable/GalleryPhoto";
 import Icon from "@/components/reusable/Icon";
 
 const MOBILE_VISIBLE_COUNT = 6;
@@ -26,7 +27,7 @@ export default function VariantSec5({ data }) {
           {mobileItems.map((it) => (
             <div key={it.number} className="neon-card neon-card--soft relative rounded-xl">
               <div className="relative aspect-[4/3]">
-                <Image src={data.image} alt={it.label} fill className="object-cover" sizes="50vw" />
+                <GalleryPhoto src={data.image} label={it.label} sizes="50vw" />
                 <span className="absolute bottom-2 left-2 rounded-sm bg-hero-blue px-1.5 py-0.5 text-[9px] font-extrabold text-white">{it.number}</span>
               </div>
               <div className="px-2.5 py-2" style={{ background: "rgba(5,12,28,0.9)" }}>
@@ -81,7 +82,7 @@ export default function VariantSec5({ data }) {
             {data.items.map((it) => (
               <div key={it.number} className="neon-card neon-card--soft relative rounded-xl">
                 <div className="relative aspect-square">
-                  <Image src={data.image} alt={it.label} fill className="object-cover" sizes="20vw" />
+                  <GalleryPhoto src={data.image} label={it.label} sizes="20vw" />
                   <span className="absolute bottom-2 left-2 rounded-sm bg-hero-blue px-2 py-1 text-[11px] font-extrabold text-white">{it.number}</span>
                 </div>
                 <div className="px-3 py-2.5 backdrop-blur-md" style={{ background: "rgba(5,12,28,0.9)" }}>

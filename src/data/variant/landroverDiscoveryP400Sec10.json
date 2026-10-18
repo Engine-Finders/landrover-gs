@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery P400 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300P",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "(Ingenium 3.0L I6)",
         "body": "A 3.0-litre inline-six petrol engine fitted to the Discovery P400 from 2017 to present (D5/L462 generation). The AJ300P is part of JLR's Ingenium engine family and features mild-hybrid (MHEV) technology. We replace timing chains, bearings, water pump and gaskets as standard on every rebuild.",
         "cta": "Check Your AJ300P Discovery P400",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "Discovery 5",
+        "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
         "chassis": "L462",
         "years": "2017–present",
         "engineCode": "AJ300P",

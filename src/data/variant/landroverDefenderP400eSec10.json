@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Defender P400e ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300P + Electric Motor",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "(L663, 2020 only)",
         "body": "A 3.0-litre inline-six petrol engine paired with a plug-in hybrid electric motor, fitted exclusively to the L663-generation Defender 110 in 2020. We rebuild the internal combustion engine component to the same standard as our other Defender petrol rebuilds, with timing chains, bearings and gaskets replaced as standard.",
         "cta": "Check Your AJ300P + Electric Motor Defender P400e",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "110",
         "years": "2020 only",
         "engineCode": "AJ300P + electric motor",

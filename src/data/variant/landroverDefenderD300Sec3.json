@@ -3,11 +3,13 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,800",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/jaguar-d300-engine.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "AJ300D (D300)",
+      "image": "/engines/jaguar-d300-engine.webp",
+      "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
       "generation": "L663 90/110/130",
       "price": "£2,800",
       "codeHref": "/landrover-aj300d-engine"

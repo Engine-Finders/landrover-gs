@@ -8,12 +8,14 @@
   "cards": [
     {
       "code": "TDV8",
+      "carImage": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
       "generation": "L320 (2005–2013)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "SDV8",
+      "carImage": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
       "generation": "L494 (2013–2022)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"

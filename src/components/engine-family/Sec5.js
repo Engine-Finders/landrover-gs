@@ -1,4 +1,5 @@
 import Image from "next/image";
+import GalleryPhoto from "@/components/reusable/GalleryPhoto";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
@@ -20,7 +21,7 @@ function Card({ it, code, compact = false }) {
   return (
     <div className="relative flex flex-col overflow-hidden rounded-xl border border-white/10 bg-[#121812]">
       <div className="relative aspect-[5/4] w-full overflow-hidden">
-        <Image src={it.image} alt={`Land Rover ${code} — ${it.label.toLowerCase()}`} fill className="object-cover" sizes={compact ? "50vw" : "20vw"} />
+        <GalleryPhoto src={it.image} label={it.label} sizes={compact ? "50vw" : "20vw"} />
         <span className={`absolute bottom-2 left-2 rounded-md bg-hero-blue font-extrabold text-white ${compact ? "px-1.5 py-0.5 text-[10px]" : "px-2 py-1 text-xs"}`}>
           {it.number}
         </span>

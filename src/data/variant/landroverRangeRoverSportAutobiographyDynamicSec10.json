@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Sport Autobiography Dynamic ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
     "cards": [
       {
         "codeHighlight": "SDV8",
+        "image": "/variant/sec10_engine.webp",
         "codeRest": "(L494)",
         "body": "A 4.4-litre V8 diesel fitted to the Range Rover Sport Autobiography Dynamic from 2013 to 2022. Shares the same timing chain wear pattern as the TDV6 and SDV6 across the Range Rover range. We replace timing chain components, injector seals, and gaskets as standard on every SDV8 rebuild.",
         "cta": "Check Your SDV8 Range Rover Sport Autobiography Dynamic",
@@ -23,6 +24,7 @@
       },
       {
         "codeHighlight": "AJ-V8 Supercharged",
+        "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
         "codeRest": "(L494)",
         "body": "A 5.0-litre supercharged V8 petrol fitted to the Range Rover Sport Autobiography Dynamic from 2013 to 2022. Timing chain wear and coolant system leaks are the established pattern for this engine family. We replace timing chains, valve seals and coolant components as standard on every AJ-V8 rebuild.",
         "cta": "Check Your AJ-V8 Supercharged Range Rover Sport Autobiography Dynamic",
@@ -75,6 +77,7 @@
     "rows": [
       {
         "generation": "L494",
+        "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
         "chassis": "L494",
         "years": "2013–2022",
         "engineCode": "SDV8",

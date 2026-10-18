@@ -72,7 +72,7 @@ export default function VariantSec10({ data }) {
               <div key={c.codeHighlight} className="relative overflow-hidden border-t border-white/10 pt-5 first:border-t-0 first:pt-0">
                 <div className="flex items-center gap-4">
                   <div className="relative h-24 w-28 shrink-0">
-                    <Image src={codes.image} alt={c.codeHighlight} fill className="object-contain" sizes="112px" />
+                    <Image src={c.image ?? codes.image} alt={c.codeHighlight} fill className="object-contain" sizes="112px" />
                   </div>
                   <p className="text-base font-bold leading-tight">
                     {c.codeHref ? <Link href={c.codeHref} ><span className="text-hero-blue">{c.codeHighlight}</span></Link> : <span className="text-hero-blue">{c.codeHighlight}</span>} <span className="text-white">{c.codeRest}</span>
@@ -104,7 +104,7 @@ export default function VariantSec10({ data }) {
               {codes.cards.map((c) => (
                 <div key={c.codeHighlight} className="relative flex items-stretch gap-6">
                   <div className="relative w-64 shrink-0">
-                    <Image src={codes.image} alt={c.codeHighlight} fill className="object-cover" sizes="256px" />
+                    <Image src={c.image ?? codes.image} alt={c.codeHighlight} fill className="object-contain p-4" sizes="256px" />
                   </div>
                   <div className="flex min-w-0 flex-1 flex-col justify-center gap-3 py-8 pr-4">
                     <p className="text-lg font-bold leading-tight">
@@ -226,8 +226,8 @@ export default function VariantSec10({ data }) {
                   className={`grid grid-cols-5 items-center ${i > 0 ? "border-t border-black/10" : ""} ${i % 2 === 1 ? "bg-white/40" : ""}`}
                 >
                   <div className="flex min-w-0 items-center justify-between gap-2 px-4 py-1.5">
-                    <div className="relative h-10 w-16 shrink-0 overflow-hidden rounded bg-white">
-                      <Image src={applications.image} alt={r.generation} fill className="object-contain" sizes="64px" />
+                    <div className={`relative h-10 w-16 shrink-0 overflow-hidden rounded ${r.image ? "" : "bg-white"}`}>
+                      <Image src={r.image ?? applications.image} alt={r.generation} fill className="object-contain" sizes="64px" />
                     </div>
                     <p className="min-w-0 whitespace-nowrap text-xs font-bold text-[#101828]">{r.generation}</p>
                   </div>
@@ -277,8 +277,8 @@ export default function VariantSec10({ data }) {
                   className={`grid grid-cols-5 items-center ${i > 0 ? "border-t border-black/10" : ""} ${i % 2 === 1 ? "bg-white/40" : ""}`}
                 >
                   <div className="flex min-w-0 items-center justify-between gap-3 px-6 py-1.5">
-                    <div className="relative h-12 w-28 shrink-0 overflow-hidden rounded bg-white">
-                      <Image src={applications.image} alt={r.generation} fill className="object-contain" sizes="112px" />
+                    <div className={`relative h-12 w-28 shrink-0 overflow-hidden rounded ${r.image ? "" : "bg-white"}`}>
+                      <Image src={r.image ?? applications.image} alt={r.generation} fill className="object-contain" sizes="112px" />
                     </div>
                     <p className="min-w-0 truncate text-sm font-bold text-[#101828]">{r.generation}</p>
                   </div>

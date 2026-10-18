@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Sport HSE ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-276dt-tdv6-engine.webp",
     "cards": [
       {
         "codeHighlight": "TDV6 / SDV6",
+        "image": "/engines/jaguar-276dt-tdv6-engine.webp",
         "codeRest": "(L320, L494)",
         "body": "3.0-litre V6 diesels fitted to the Range Rover Sport HSE from 2005 to 2022. Known for timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk — see the callout above. We replace timing chains, tensioners, injector seals, EGR components and gaskets as standard on every rebuild.",
         "cta": "Check Your TDV6 / SDV6 Range Rover Sport HSE",
@@ -23,6 +24,7 @@
       },
       {
         "codeHighlight": "TDV8 / SDV8",
+        "image": "/variant/sec10_engine.webp",
         "codeRest": "(L320, L494)",
         "body": "4.4-litre V8 diesels fitted across the same L320 and L494 generations. Shares the same timing chain pattern as the TDV6/SDV6 family. We replace timing chains, injector seals, EGR components and gaskets as standard.",
         "cta": "Check Your TDV8 / SDV8 Range Rover Sport HSE",
@@ -30,6 +32,7 @@
       },
       {
         "codeHighlight": "Ingenium AJ300D",
+        "image": "/engines/jaguar-d300-engine.webp",
         "codeRest": "(D300, L461)",
         "body": "3.0-litre inline-six diesel mild-hybrid fitted from 2022. A newer design with improved reliability. The DC-DC converter caveat associated with Ingenium MHEV systems is flagged but not independently confirmed for the Range Rover Sport specifically.",
         "cta": "Check Your Ingenium AJ300D Range Rover Sport HSE",
@@ -37,6 +40,7 @@
       },
       {
         "codeHighlight": "Ingenium AJ300P",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "(P400, L461)",
         "body": "3.0-litre inline-six petrol mild-hybrid fitted from 2022. Generally regarded as more reliable than earlier diesel V6s. The same DC-DC converter caveat applies, pending confirmation.",
         "cta": "Check Your Ingenium AJ300P Range Rover Sport HSE",
@@ -44,6 +48,7 @@
       },
       {
         "codeHighlight": "BMW N63",
+        "image": "/variant/sec10_engine.webp",
         "codeRest": "(P530, L461)",
         "body": "4.4-litre twin-turbo V8 from BMW, fitted from 2022. Inherited from the Range Rover N63/S68 split via platform-sharing — not independently re-verified for Sport specifically, but a low-risk inference given the shared MLA-Flex platform. The N63 hot-vee pattern applies.",
         "cta": "Check Your BMW N63 Range Rover Sport HSE",
@@ -96,6 +101,7 @@
     "rows": [
       {
         "generation": "L320",
+        "image": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
         "chassis": "L320",
         "years": "2005–2013",
         "engineCode": "TDV6 / SDV6 / TDV8 / SDV8",
@@ -104,6 +110,7 @@
       },
       {
         "generation": "L494",
+        "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
         "chassis": "L494",
         "years": "2013–2022",
         "engineCode": "TDV6 / SDV6 / TDV8 / SDV8",
@@ -112,6 +119,7 @@
       },
       {
         "generation": "L461",
+        "image": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
         "chassis": "L461",
         "years": "2022–present",
         "engineCode": "AJ300D / AJ300P / BMW N63",

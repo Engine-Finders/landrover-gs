@@ -17,7 +17,7 @@
     {
       "titlePre": "L663 4-Cylinder",
       "titleHighlight": "",
-      "code": "(Ingenium AJ200D / P300e)",
+      "code": "(Ingenium AJ200D / P300e)", "image": "/engines/jaguar-aj200d-engine.webp",
       "price": "£2,200",
       "featured": false,
       "codeHref": "/landrover-aj200d-engine"
@@ -25,7 +25,7 @@
     {
       "titlePre": "L663 6-Cylinder",
       "titleHighlight": "",
-      "code": "(Ingenium AJ300D / P400)",
+      "code": "(Ingenium AJ300D / P400)", "image": "/engines/jaguar-d300-engine.webp",
       "price": "£2,800",
       "featured": false,
       "codeHref": "/landrover-aj300d-engine"

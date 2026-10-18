@@ -1,3 +1,5 @@
+import iconFiles from "./iconMap";
+
 const paths = {
   engine: "M4 13h2v-2h3V9h6v2h3v2h2M4 13v4h16v-4M7 13V9h2v4M15 13V9h2v4",
   star: "M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z",
@@ -65,6 +67,19 @@ const paths = {
 };
 
 export default function Icon({ name, className = "w-6 h-6", style }) {
+  const file = iconFiles[name];
+  if (file) {
+    // client icon set: drawn as a mask so it takes the surrounding text colour (text-hero-blue, text-white ...)
+    const url = `url(/icons/${file}.webp)`;
+    return (
+      <span className={`inline-block ${className}`} style={style} aria-hidden="true">
+        <span
+          className="block h-full w-full bg-current"
+          style={{ WebkitMask: `${url} center / contain no-repeat`, mask: `${url} center / contain no-repeat` }}
+        />
+      </span>
+    );
+  }
   const d = paths[name] || paths.gear;
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className={className} style={style}>

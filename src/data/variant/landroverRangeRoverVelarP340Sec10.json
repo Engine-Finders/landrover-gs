@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Velar P340 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ingenium AJ300P",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "",
         "body": "A 3.0-litre six-cylinder petrol engine fitted to the Velar P340 from 2017 to the present day. No specific known issue is confirmed for this application, though cooling system maintenance is always important on modern high-output petrol engines. We replace timing chains, bearings, and gaskets as standard on every AJ300P rebuild.",
         "cta": "Check Your Ingenium AJ300P Range Rover Velar P340",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L560",
+        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
         "years": "2017–present",
         "engineCode": "Ingenium AJ300P",

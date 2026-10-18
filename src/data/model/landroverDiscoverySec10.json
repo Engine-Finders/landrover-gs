@@ -29,42 +29,49 @@
       "number": "04",
       "model": "Discovery TDV6",
       "spec": "2.7L / 3.0L V6 Diesel (TDV6)",
+      "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
       "href": "/landrover-discovery-tdv6-engines"
     },
     {
       "number": "05",
       "model": "Discovery TDV8",
       "spec": "4.4L V8 Diesel (TDV8)",
+      "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
       "href": "/landrover-discovery-tdv8-engines"
     },
     {
       "number": "06",
       "model": "Discovery SDV6",
       "spec": "3.0L V6 Diesel (SDV6)",
+      "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
       "href": "/landrover-discovery-sdv6-engines"
     },
     {
       "number": "07",
       "model": "Discovery SDV8",
       "spec": "4.4L V8 Diesel (SDV8)",
+      "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
       "href": "/landrover-discovery-sdv8-engines"
     },
     {
       "number": "08",
       "model": "Discovery HSE",
       "spec": "V6 / V8 (varies by spec)",
+      "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
       "href": "/landrover-discovery-hse-engines"
     },
     {
       "number": "09",
       "model": "Discovery Si6",
       "spec": "3.0L V6 Petrol (AJ-V6)",
+      "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
       "href": "/landrover-discovery-si6-engines"
     },
     {
       "number": "10",
       "model": "Discovery D250",
       "spec": "3.0L I6 Diesel MHEV (AJ300D)",
+      "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
       "href": "/landrover-discovery-d250-engines"
     }
   ],

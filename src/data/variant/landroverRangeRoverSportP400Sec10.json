@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Sport P400 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300P",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "",
         "body": "A 3.0-litre inline-six petrol fitted to the Range Rover Sport P400 from 2022 to present (L461 generation). This is JLR's Ingenium petrol engine with mild-hybrid technology. No widely-documented specific known issue is confirmed for this variant — we still recommend a full inspection before any long journey. We replace timing chains, bearings and gaskets as standard on every AJ300P rebuild.",
         "cta": "Check Your AJ300P Range Rover Sport P400",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L461",
+        "image": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
         "chassis": "L461",
         "years": "2022–present",
         "engineCode": "AJ300P",

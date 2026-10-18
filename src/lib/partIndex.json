@@ -1,0 +1,917 @@
+[
+ {
+  "base": "12v-car-battery",
+  "files": [
+   "12v-car-battery"
+  ],
+  "phrases": [
+   "12v car battery",
+   "12v car",
+   "car battery"
+  ]
+ },
+ {
+  "base": "48v-battery",
+  "files": [
+   "48v-battery"
+  ],
+  "phrases": [
+   "48v battery"
+  ]
+ },
+ {
+  "base": "adblue-tank-assembly",
+  "files": [
+   "adblue-tank-assembly"
+  ],
+  "phrases": [
+   "adblue tank"
+  ]
+ },
+ {
+  "base": "air-suspension-bag",
+  "files": [
+   "air-suspension-bag"
+  ],
+  "phrases": [
+   "air suspension bag",
+   "suspension bag"
+  ]
+ },
+ {
+  "base": "air-suspension-compressor",
+  "files": [
+   "air-suspension-compressor"
+  ],
+  "phrases": [
+   "air suspension compressor",
+   "suspension compressor",
+   "compressor"
+  ]
+ },
+ {
+  "base": "air-suspension-valve-block",
+  "files": [
+   "air-suspension-valve-block"
+  ],
+  "phrases": [
+   "air suspension valve block",
+   "air suspension valve",
+   "suspension valve",
+   "suspension valve block",
+   "valve block"
+  ]
+ },
+ {
+  "base": "airbag-module",
+  "files": [
+   "airbag-module"
+  ],
+  "phrases": [
+   "airbag"
+  ]
+ },
+ {
+  "base": "auxiliary-heater-unit",
+  "files": [
+   "auxiliary-heater-unit"
+  ],
+  "phrases": [
+   "auxiliary heater",
+   "auxiliary"
+  ]
+ },
+ {
+  "base": "balance-shaft",
+  "files": [
+   "balance-shaft"
+  ],
+  "phrases": [
+   "balance shaft",
+   "balance"
+  ]
+ },
+ {
+  "base": "battery-cooling-pump",
+  "files": [
+   "battery-cooling-pump"
+  ],
+  "phrases": [
+   "battery cooling pump",
+   "battery cooling",
+   "cooling pump",
+   "cooling"
+  ]
+ },
+ {
+  "base": "camshaft",
+  "files": [
+   "camshaft"
+  ],
+  "phrases": [
+   "camshaft"
+  ]
+ },
+ {
+  "base": "catalytic-converter",
+  "files": [
+   "catalytic-converter"
+  ],
+  "phrases": [
+   "catalytic converter",
+   "catalytic"
+  ]
+ },
+ {
+  "base": "central-locking-module",
+  "files": [
+   "central-locking-module"
+  ],
+  "phrases": [
+   "central locking",
+   "central",
+   "locking"
+  ]
+ },
+ {
+  "base": "connecting-rod-bearing",
+  "files": [
+   "connecting-rod-bearing"
+  ],
+  "phrases": [
+   "connecting rod bearing",
+   "connecting rod",
+   "rod bearing",
+   "connecting"
+  ]
+ },
+ {
+  "base": "coolant-crossover-pipe",
+  "files": [
+   "coolant-crossover-pipe"
+  ],
+  "phrases": [
+   "coolant crossover pipe",
+   "coolant crossover",
+   "crossover pipe",
+   "crossover"
+  ]
+ },
+ {
+  "base": "coolant-expansion-tank",
+  "files": [
+   "coolant-expansion-tank"
+  ],
+  "phrases": [
+   "coolant expansion tank",
+   "coolant expansion",
+   "expansion tank",
+   "expansion"
+  ]
+ },
+ {
+  "base": "crank-hub",
+  "files": [
+   "crank-hub"
+  ],
+  "phrases": [
+   "crank hub"
+  ]
+ },
+ {
+  "base": "crankshaft",
+  "files": [
+   "crankshaft"
+  ],
+  "phrases": [
+   "crankshaft"
+  ]
+ },
+ {
+  "base": "crankshaft-bearing",
+  "files": [
+   "crankshaft-bearing"
+  ],
+  "phrases": [
+   "crankshaft bearing"
+  ]
+ },
+ {
+  "base": "crankshaft-position-sensor",
+  "files": [
+   "crankshaft-position-sensor"
+  ],
+  "phrases": [
+   "crankshaft position sensor",
+   "crankshaft position",
+   "position sensor",
+   "position"
+  ]
+ },
+ {
+  "base": "crankshaft-pulley",
+  "files": [
+   "crankshaft-pulley"
+  ],
+  "phrases": [
+   "crankshaft pulley"
+  ]
+ },
+ {
+  "base": "cylinder-head",
+  "files": [
+   "cylinder-head",
+   "cylinder-head-2",
+   "cylinder-head-3"
+  ],
+  "phrases": [
+   "cylinder head"
+  ]
+ },
+ {
+  "base": "cylinder-liner",
+  "files": [
+   "cylinder-liner",
+   "cylinder-liner-2"
+  ],
+  "phrases": [
+   "cylinder liner"
+  ]
+ },
+ {
+  "base": "dc-dc-converter",
+  "files": [
+   "dc-dc-converter"
+  ],
+  "phrases": [
+   "dc dc converter",
+   "dc dc",
+   "dc converter"
+  ]
+ },
+ {
+  "base": "diesel-particulate-filter",
+  "files": [
+   "diesel-particulate-filter"
+  ],
+  "phrases": [
+   "diesel particulate filter",
+   "diesel particulate",
+   "particulate filter",
+   "particulate"
+  ]
+ },
+ {
+  "base": "differential",
+  "files": [
+   "differential"
+  ],
+  "phrases": [
+   "differential"
+  ]
+ },
+ {
+  "base": "door-seal",
+  "files": [
+   "door-seal"
+  ],
+  "phrases": [
+   "door seal"
+  ]
+ },
+ {
+  "base": "driveshaft-cv-joint",
+  "files": [
+   "driveshaft-cv-joint"
+  ],
+  "phrases": [
+   "driveshaft cv joint",
+   "driveshaft cv",
+   "cv joint",
+   "driveshaft"
+  ]
+ },
+ {
+  "base": "egr-cooler",
+  "files": [
+   "egr-cooler"
+  ],
+  "phrases": [
+   "egr cooler"
+  ]
+ },
+ {
+  "base": "egr-valve",
+  "files": [
+   "egr-valve"
+  ],
+  "phrases": [
+   "egr valve"
+  ]
+ },
+ {
+  "base": "electric-drive-motor",
+  "files": [
+   "electric-drive-motor"
+  ],
+  "phrases": [
+   "electric drive motor",
+   "electric drive",
+   "drive motor",
+   "electric"
+  ]
+ },
+ {
+  "base": "engine-mount",
+  "files": [
+   "engine-mount"
+  ],
+  "phrases": [
+   "engine mount"
+  ]
+ },
+ {
+  "base": "engine-oil-dipstick",
+  "files": [
+   "engine-oil-dipstick"
+  ],
+  "phrases": [
+   "engine oil dipstick",
+   "engine oil",
+   "oil dipstick",
+   "dipstick"
+  ]
+ },
+ {
+  "base": "ev-charging-port",
+  "files": [
+   "ev-charging-port"
+  ],
+  "phrases": [
+   "ev charging port",
+   "ev charging",
+   "charging port",
+   "charging"
+  ]
+ },
+ {
+  "base": "exhaust-flap-actuator",
+  "files": [
+   "exhaust-flap-actuator"
+  ],
+  "phrases": [
+   "exhaust flap actuator",
+   "exhaust flap",
+   "flap actuator",
+   "exhaust"
+  ]
+ },
+ {
+  "base": "fuel-filter",
+  "files": [
+   "fuel-filter"
+  ],
+  "phrases": [
+   "fuel filter"
+  ]
+ },
+ {
+  "base": "fuel-filter-drainpipe",
+  "files": [
+   "fuel-filter-drainpipe"
+  ],
+  "phrases": [
+   "fuel filter drainpipe",
+   "filter drainpipe",
+   "drainpipe"
+  ]
+ },
+ {
+  "base": "fuel-filter-housing",
+  "files": [
+   "fuel-filter-housing"
+  ],
+  "phrases": [
+   "fuel filter housing"
+  ]
+ },
+ {
+  "base": "fuel-injection-pump",
+  "files": [
+   "fuel-injection-pump"
+  ],
+  "phrases": [
+   "fuel injection pump",
+   "fuel injection",
+   "injection pump",
+   "injection"
+  ]
+ },
+ {
+  "base": "fuel-injector",
+  "files": [
+   "fuel-injector"
+  ],
+  "phrases": [
+   "fuel injector"
+  ]
+ },
+ {
+  "base": "fuel-injector-seal",
+  "files": [
+   "fuel-injector-seal"
+  ],
+  "phrases": [
+   "fuel injector seal",
+   "injector seal"
+  ]
+ },
+ {
+  "base": "gearbox-mechatronic-unit",
+  "files": [
+   "gearbox-mechatronic-unit"
+  ],
+  "phrases": [
+   "gearbox mechatronic",
+   "gearbox",
+   "mechatronic"
+  ]
+ },
+ {
+  "base": "glow-plug",
+  "files": [
+   "glow-plug"
+  ],
+  "phrases": [
+   "glow plug"
+  ]
+ },
+ {
+  "base": "glow-plug-relay",
+  "files": [
+   "glow-plug-relay"
+  ],
+  "phrases": [
+   "glow plug relay",
+   "plug relay"
+  ]
+ },
+ {
+  "base": "head-gasket",
+  "files": [
+   "head-gasket"
+  ],
+  "phrases": [
+   "head gasket"
+  ]
+ },
+ {
+  "base": "high-pressure-fuel-pump",
+  "files": [
+   "high-pressure-fuel-pump"
+  ],
+  "phrases": [
+   "high pressure fuel pump",
+   "high pressure",
+   "high pressure fuel",
+   "pressure fuel",
+   "pressure fuel pump",
+   "fuel pump",
+   "pressure"
+  ]
+ },
+ {
+  "base": "high-voltage-battery-pack",
+  "files": [
+   "high-voltage-battery-pack"
+  ],
+  "phrases": [
+   "high voltage battery",
+   "high voltage",
+   "voltage battery",
+   "voltage"
+  ]
+ },
+ {
+  "base": "ignition-coil",
+  "files": [
+   "ignition-coil"
+  ],
+  "phrases": [
+   "ignition coil",
+   "ignition"
+  ]
+ },
+ {
+  "base": "infotainment-head-unit",
+  "files": [
+   "infotainment-head-unit"
+  ],
+  "phrases": [
+   "infotainment head",
+   "infotainment"
+  ]
+ },
+ {
+  "base": "injector-wiring-harness",
+  "files": [
+   "injector-wiring-harness"
+  ],
+  "phrases": [
+   "injector wiring harness",
+   "injector wiring",
+   "wiring harness",
+   "harness"
+  ]
+ },
+ {
+  "base": "intake-valve-inlet-manifold",
+  "files": [
+   "intake-valve-inlet-manifold"
+  ],
+  "phrases": [
+   "intake valve inlet manifold",
+   "intake valve",
+   "intake valve inlet",
+   "valve inlet",
+   "valve inlet manifold",
+   "inlet manifold",
+   "manifold"
+  ]
+ },
+ {
+  "base": "integrated-starter-generator",
+  "files": [
+   "integrated-starter-generator"
+  ],
+  "phrases": [
+   "integrated starter generator",
+   "integrated starter",
+   "starter generator",
+   "integrated",
+   "starter",
+   "generator"
+  ]
+ },
+ {
+  "base": "intercooler",
+  "files": [
+   "intercooler"
+  ],
+  "phrases": [
+   "intercooler"
+  ]
+ },
+ {
+  "base": "intercooler-hose",
+  "files": [
+   "intercooler-hose"
+  ],
+  "phrases": [
+   "intercooler hose"
+  ]
+ },
+ {
+  "base": "nox-sensor",
+  "files": [
+   "nox-sensor"
+  ],
+  "phrases": [
+   "nox sensor"
+  ]
+ },
+ {
+  "base": "oil-cooler-assembly",
+  "files": [
+   "oil-cooler-assembly"
+  ],
+  "phrases": [
+   "oil cooler"
+  ]
+ },
+ {
+  "base": "oil-filter-housing",
+  "files": [
+   "oil-filter-housing"
+  ],
+  "phrases": [
+   "oil filter housing",
+   "oil filter"
+  ]
+ },
+ {
+  "base": "oil-pump-assembly",
+  "files": [
+   "oil-pump-assembly"
+  ],
+  "phrases": [
+   "oil pump"
+  ]
+ },
+ {
+  "base": "on-board-charger",
+  "files": [
+   "on-board-charger"
+  ],
+  "phrases": [
+   "on board charger",
+   "on board",
+   "board charger",
+   "charger"
+  ]
+ },
+ {
+  "base": "pcv-valve",
+  "files": [
+   "pcv-valve"
+  ],
+  "phrases": [
+   "pcv valve"
+  ]
+ },
+ {
+  "base": "power-transfer-unit",
+  "files": [
+   "power-transfer-unit"
+  ],
+  "phrases": [
+   "power transfer"
+  ]
+ },
+ {
+  "base": "propshaft-u-joint",
+  "files": [
+   "propshaft-u-joint"
+  ],
+  "phrases": [
+   "propshaft u joint",
+   "propshaft u",
+   "u joint",
+   "propshaft"
+  ]
+ },
+ {
+  "base": "radiator",
+  "files": [
+   "radiator"
+  ],
+  "phrases": [
+   "radiator"
+  ]
+ },
+ {
+  "base": "radiator-fan-relay",
+  "files": [
+   "radiator-fan-relay"
+  ],
+  "phrases": [
+   "radiator fan relay",
+   "radiator fan",
+   "fan relay"
+  ]
+ },
+ {
+  "base": "rear-subframe",
+  "files": [
+   "rear-subframe"
+  ],
+  "phrases": [
+   "rear subframe",
+   "subframe"
+  ]
+ },
+ {
+  "base": "ride-height-sensor",
+  "files": [
+   "ride-height-sensor"
+  ],
+  "phrases": [
+   "ride height sensor",
+   "ride height",
+   "height sensor"
+  ]
+ },
+ {
+  "base": "rocker-arm",
+  "files": [
+   "rocker-arm"
+  ],
+  "phrases": [
+   "rocker arm"
+  ]
+ },
+ {
+  "base": "smg-hydraulic-pump",
+  "files": [
+   "smg-hydraulic-pump"
+  ],
+  "phrases": [
+   "smg hydraulic pump",
+   "smg hydraulic",
+   "hydraulic pump",
+   "hydraulic"
+  ]
+ },
+ {
+  "base": "spark-plug",
+  "files": [
+   "spark-plug"
+  ],
+  "phrases": [
+   "spark plug"
+  ]
+ },
+ {
+  "base": "steering-rack",
+  "files": [
+   "steering-rack"
+  ],
+  "phrases": [
+   "steering rack",
+   "steering"
+  ]
+ },
+ {
+  "base": "supercharger-coupler",
+  "files": [
+   "supercharger-coupler"
+  ],
+  "phrases": [
+   "supercharger coupler",
+   "supercharger",
+   "coupler"
+  ]
+ },
+ {
+  "base": "suspension-bush",
+  "files": [
+   "suspension-bush",
+   "suspension-bush-2"
+  ],
+  "phrases": [
+   "suspension bush"
+  ]
+ },
+ {
+  "base": "terrain-response-control-module",
+  "files": [
+   "terrain-response-control-module"
+  ],
+  "phrases": [
+   "terrain response control",
+   "terrain response",
+   "response control",
+   "terrain",
+   "response"
+  ]
+ },
+ {
+  "base": "thermostat-housing",
+  "files": [
+   "thermostat-housing"
+  ],
+  "phrases": [
+   "thermostat housing",
+   "thermostat"
+  ]
+ },
+ {
+  "base": "throttle-actuator",
+  "files": [
+   "throttle-actuator"
+  ],
+  "phrases": [
+   "throttle actuator"
+  ]
+ },
+ {
+  "base": "throttle-body",
+  "files": [
+   "throttle-body"
+  ],
+  "phrases": [
+   "throttle body"
+  ]
+ },
+ {
+  "base": "timing-belt",
+  "files": [
+   "timing-belt"
+  ],
+  "phrases": [
+   "timing belt"
+  ]
+ },
+ {
+  "base": "timing-chain-kit",
+  "files": [
+   "timing-chain-kit"
+  ],
+  "phrases": [
+   "timing chain"
+  ]
+ },
+ {
+  "base": "timing-cover-gasket",
+  "files": [
+   "timing-cover-gasket"
+  ],
+  "phrases": [
+   "timing cover gasket",
+   "timing cover"
+  ]
+ },
+ {
+  "base": "torque-converter",
+  "files": [
+   "torque-converter"
+  ],
+  "phrases": [
+   "torque converter"
+  ]
+ },
+ {
+  "base": "transfer-box",
+  "files": [
+   "transfer-box"
+  ],
+  "phrases": [
+   "transfer box"
+  ]
+ },
+ {
+  "base": "turbocharger",
+  "files": [
+   "turbocharger"
+  ],
+  "phrases": [
+   "turbocharger"
+  ]
+ },
+ {
+  "base": "valve-cover-gasket",
+  "files": [
+   "valve-cover-gasket"
+  ],
+  "phrases": [
+   "valve cover gasket",
+   "valve cover"
+  ]
+ },
+ {
+  "base": "valve-stem-seal",
+  "files": [
+   "valve-stem-seal"
+  ],
+  "phrases": [
+   "valve stem seal",
+   "valve stem",
+   "stem seal"
+  ]
+ },
+ {
+  "base": "valvetronic-eccentric-shaft-sensor",
+  "files": [
+   "valvetronic-eccentric-shaft-sensor"
+  ],
+  "phrases": [
+   "valvetronic eccentric shaft sensor",
+   "valvetronic eccentric",
+   "valvetronic eccentric shaft",
+   "eccentric shaft",
+   "eccentric shaft sensor",
+   "shaft sensor",
+   "valvetronic",
+   "eccentric"
+  ]
+ },
+ {
+  "base": "vanos-solenoid",
+  "files": [
+   "vanos-solenoid"
+  ],
+  "phrases": [
+   "vano solenoid",
+   "solenoid"
+  ]
+ },
+ {
+  "base": "water-pump",
+  "files": [
+   "water-pump"
+  ],
+  "phrases": [
+   "water pump"
+  ]
+ },
+ {
+  "base": "window-regulator",
+  "files": [
+   "window-regulator"
+  ],
+  "phrases": [
+   "window regulator",
+   "regulator"
+  ]
+ }
+]

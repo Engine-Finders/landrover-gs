@@ -26,7 +26,7 @@ export default function ModelSec10({ data }) {
                 className="flex h-full flex-col overflow-hidden rounded-xl border border-black/5 bg-(--color-light-surface) shadow-sm"
               >
                 <div className="relative aspect-[1536/840] bg-(--color-light-surface)">
-                  <Image src={c.image || data.image} alt={c.model} fill className="object-cover" sizes="50vw" />
+                  <Image src={c.image || data.image} alt={c.model} fill className={c.image?.startsWith("/cars/") ? "object-contain px-3 pb-2 pt-5" : "object-cover"} sizes="50vw" />
                   <span
                     className="absolute left-0 top-0 flex h-6 items-center bg-hero-blue px-2.5 text-xs font-bold text-white"
                     style={{ clipPath: "polygon(0 0, 100% 0, 78% 100%, 0% 100%)" }}
@@ -85,7 +85,7 @@ export default function ModelSec10({ data }) {
                 className="flex h-full flex-col overflow-hidden rounded-xl border border-black/5 bg-(--color-light-surface) shadow-sm transition-shadow hover:shadow-md"
               >
                 <div className="relative aspect-[1536/840] bg-(--color-light-surface)">
-                  <Image src={c.image || data.image} alt={c.model} fill className="object-cover" sizes="25vw" />
+                  <Image src={c.image || data.image} alt={c.model} fill className={c.image?.startsWith("/cars/") ? "object-contain px-3 pb-2 pt-5" : "object-cover"} sizes="25vw" />
                   <span
                     className="absolute left-0 top-0 flex h-8 items-center bg-hero-blue px-3 text-sm font-bold text-white"
                     style={{ clipPath: "polygon(0 0, 100% 0, 78% 100%, 0% 100%)" }}

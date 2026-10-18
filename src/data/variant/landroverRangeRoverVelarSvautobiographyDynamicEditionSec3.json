@@ -3,11 +3,13 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£5,500",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/land-rover-jlr-aj133-engine-hero.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "AJ133",
+      "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
+      "carImage": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
       "generation": "L560 (2019 only)",
       "price": "£5,500",
       "codeHref": "/landrover-aj133-engine"

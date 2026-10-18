@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery Sport P300e ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ingenium AJ200P + Electric Motor",
+        "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
         "codeRest": "",
         "body": "The P300e pairs the 2.0-litre Ingenium AJ200P petrol engine with an electric motor integrated into the drivetrain. Fitted to the Discovery Sport from 2020 onwards across the L550 generation. The petrol engine itself shares the Ingenium petrol family architecture with the P200 and P250 variants, though PHEV-specific considerations — hybrid cooling systems, high-voltage safety procedures, and drivetrain integration — require specialist handling beyond a standard petrol-engine rebuild.",
         "cta": "Check Your Ingenium AJ200P + Electric Motor Discovery Sport P300e",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L550",
+        "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
         "chassis": "L550",
         "years": "2020–present",
         "engineCode": "Ingenium AJ200P + electric",

@@ -8,6 +8,7 @@
   "cards": [
     {
       "code": "300Tdi",
+      "carImage": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
       "generation": "Classic 90/110/130 (1994–2007 approx)",
       "price": "£1,900",
       "codeHref": "/landrover-300tdi-engine"

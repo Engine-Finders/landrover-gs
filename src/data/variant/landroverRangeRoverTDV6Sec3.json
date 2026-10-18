@@ -3,17 +3,21 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,400",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/jaguar-276dt-tdv6-engine.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "TDV6",
+      "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "carImage": "/cars/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
       "generation": "L322 (2001–2012)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "SDV6",
+      "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "carImage": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
       "generation": "L405 (2012–2021)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"

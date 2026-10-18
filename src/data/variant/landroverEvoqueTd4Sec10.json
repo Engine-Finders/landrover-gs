@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Evoque TD4 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ford Duratorq",
+        "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
         "codeRest": "(L538)",
         "body": "A 2.0-litre diesel fitted to the Evoque TD4 from 2011 to 2016, across the L538 generation. Known for injector seal leaks and EGR clogging over time — see the callout above. We replace worn injector seals, clean or replace the EGR, and replace gaskets as standard on every Ford Duratorq rebuild.",
         "cta": "Check Your Ford Duratorq Evoque TD4",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L538",
+        "image": "/cars/range-rover-evoque-l538-pure-5-door-suv-20112015-new-fuji-wh-d9c9.webp",
         "chassis": "L538",
         "years": "2011–2016",
         "engineCode": "Ford Duratorq",

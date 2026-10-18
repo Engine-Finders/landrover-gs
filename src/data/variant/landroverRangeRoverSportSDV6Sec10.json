@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Sport SDV6 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-276dt-tdv6-engine.webp",
     "cards": [
       {
         "codeHighlight": "SDV6",
+        "image": "/engines/jaguar-276dt-tdv6-engine.webp",
         "codeRest": "(L320, L494)",
         "body": "A 3.0-litre V6 diesel fitted to the Range Rover Sport SDV6 from 2005 to 2022 across two generations. Known for timing chain tensioner wear and injector seal leaks over time — see the callout above. We replace timing chain components, injector seals, EGR and gaskets as standard on every SDV6 rebuild.",
         "cta": "Check Your SDV6 Range Rover Sport SDV6",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L320",
+        "image": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
         "chassis": "L320",
         "years": "2005–2013",
         "engineCode": "SDV6",
@@ -76,6 +78,7 @@
       },
       {
         "generation": "L494",
+        "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
         "chassis": "L494",
         "years": "2013–2022",
         "engineCode": "SDV6",

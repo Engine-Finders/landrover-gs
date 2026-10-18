@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Velar D250 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-d300-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300D",
+        "image": "/engines/jaguar-d300-engine.webp",
         "codeRest": "",
         "body": "A 3.0-litre inline-six diesel fitted to the Velar D250 from 2017 to present (L560 generation). Known for timing chain tensioner wear — see the callout above. We replace timing chains, injector seals, bearings and gaskets as standard on every AJ300D rebuild.",
         "cta": "Check Your AJ300D Range Rover Velar D250",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L560",
+        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
         "years": "2017–present",
         "engineCode": "AJ300D",

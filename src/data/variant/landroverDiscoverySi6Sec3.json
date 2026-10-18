@@ -8,11 +8,13 @@
   "cards": [
     {
       "code": "AJ-V6",
+      "carImage": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
       "generation": "D3/L319 (2004–2009)",
       "price": "£2,200"
     },
     {
       "code": "AJ-V6",
+      "carImage": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
       "generation": "D4/L319 facelift (2009–2016)",
       "price": "£2,200"
     }

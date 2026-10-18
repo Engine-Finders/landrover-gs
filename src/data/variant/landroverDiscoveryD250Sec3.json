@@ -3,11 +3,13 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,800",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/jaguar-aj200d-engine.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "AJ200D (Ingenium)",
+      "image": "/engines/jaguar-aj200d-engine.webp",
+      "carImage": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
       "generation": "D5/L462 (2017–present)",
       "price": "£2,800",
       "codeHref": "/landrover-aj200d-engine"

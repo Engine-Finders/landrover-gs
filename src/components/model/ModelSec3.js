@@ -53,7 +53,7 @@ export default function ModelSec3({ data }) {
               >
                 <div className="flex items-center gap-2.5">
                   <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg">
-                    <Image src={data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="56px" />
+                    <Image src={c.image ?? data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="56px" />
                   </div>
 
                   <div className="min-w-0 flex-1">
@@ -153,7 +153,7 @@ export default function ModelSec3({ data }) {
               }
             >
               <div className="relative mx-auto h-28 w-full overflow-hidden">
-                <Image src={data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="160px" />
+                <Image src={c.image ?? data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="160px" />
               </div>
 
               <p className={`mt-2 px-3 text-center text-sm font-extrabold uppercase leading-tight ${c.featured ? "text-[#101828]" : "text-white"}`}>

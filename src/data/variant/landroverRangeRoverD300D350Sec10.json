@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover D300 D350 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-d300-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300D",
+        "image": "/engines/jaguar-d300-engine.webp",
         "codeRest": "(L460)",
         "body": "A 3.0-litre inline-six diesel mild-hybrid fitted to the Range Rover D300 and D350 from 2022 onwards (L460 generation). The Ingenium I6 is broadly considered an improved design compared to its predecessor, with fewer documented catastrophic failures.",
         "cta": "Check Your AJ300D Range Rover D300 D350",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L460",
+        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L460",
         "years": "2022–present",
         "engineCode": "AJ300D",

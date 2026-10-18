@@ -67,6 +67,7 @@
     "rows": [
       {
         "generation": "D3",
+        "image": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
         "chassis": "L319",
         "years": "2004–2009",
         "engineCode": "AJ-V6",
@@ -74,6 +75,7 @@
       },
       {
         "generation": "D4",
+        "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
         "chassis": "L319 facelift",
         "years": "2009–2016",
         "engineCode": "AJ-V6",
