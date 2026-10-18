@@ -4,11 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,400",
   "engineImage": "/engines/jaguar-276dt-tdv6-engine.webp",
-  "carImage": "/variant/landrover_car.webp",
+  "carImage": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
   "cards": [
     {
       "code": "TDV6 (3.0L V6 Diesel)",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "carImage": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
       "generation": "D3/D4 (2004–2016)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
@@ -16,6 +17,7 @@
     {
       "code": "SDV6 (3.0L V6 Diesel)",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "carImage": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
       "generation": "D3/D4 (2004–2016)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
@@ -23,12 +25,14 @@
     {
       "code": "Si6 (3.0L V6 Petrol)",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "carImage": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
       "generation": "D3/D4 (2004–2016)",
       "price": "£2,400"
     },
     {
       "code": "TDV8/SDV8 (4.4L V8 Diesel)",
       "image": "/variant/sec10_engine.webp",
+      "carImage": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
       "generation": "D3/D4 (2004–2016)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"

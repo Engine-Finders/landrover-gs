@@ -57,7 +57,7 @@
   "applications": {
     "titlePre": "Land Rover Range Rover SV P615 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/variant/landrover_car.webp",
+    "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,6 +68,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L663",
         "years": "2020–present",
         "engineCode": "BMW S68",

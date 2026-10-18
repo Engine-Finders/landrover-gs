@@ -44,7 +44,8 @@ const iconFiles = {
   "gem": "niche-style-icon",
   "chart": "trend-icon",
   "refresh": "gearbox-problem-icon",
-  "pulse": "live-feed-icon"
+  "pulse": "live-feed-icon",
+  "check": "good-choice"
 };
 
 export default iconFiles;
