@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Defender D200 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-aj200d-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ200D",
+        "image": "/engines/jaguar-aj200d-engine.webp",
         "codeRest": "(D200)",
         "body": "A 2.0-litre 4-cylinder diesel fitted to the Defender D200 from 2019. This is an Ingenium diesel with a mild-hybrid system. Known for the Ingenium timing chain pattern and DC-DC converter failure pattern — see the callout above. We replace timing chain components, injector seals, and service the DC-DC converter as standard where applicable.",
         "cta": "Check Your AJ200D Defender D200",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "90/110/130",
         "years": "2019–present",
         "engineCode": "AJ200D (D200)",

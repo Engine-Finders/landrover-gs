@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "parts:index": "node scripts/build-part-index.mjs",
+    "predev": "npm run parts:index",
+    "prebuild": "npm run parts:index",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

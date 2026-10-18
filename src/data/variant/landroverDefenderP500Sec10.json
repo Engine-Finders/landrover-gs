@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Defender P500 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
     "cards": [
       {
         "codeHighlight": "AJ133",
+        "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
         "codeRest": "",
         "body": "A 5.0-litre supercharged V8 fitted to the Defender P500 from 2024 to 2025 (L663 generation). The AJ133 is generally reliable in this application, sharing the broader supercharged AJ-V8 pattern used across the Range Rover Sport SVR and Velar SVAutobiography. No Defender-specific issue has been confirmed for this engine.",
         "cta": "Check Your AJ133 Defender P500",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "L663",
         "years": "2024–2025",
         "engineCode": "AJ133",

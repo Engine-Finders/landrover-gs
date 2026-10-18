@@ -3,11 +3,13 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£3,200",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "AJ300 PHEV",
+      "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
+      "carImage": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
       "generation": "L461 (2022–present)",
       "price": "£3,200",
       "codeHref": "/landrover-aj300p-engine"

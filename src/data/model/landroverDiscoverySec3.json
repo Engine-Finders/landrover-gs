@@ -17,7 +17,7 @@
     {
       "titlePre": "6-Cylinder Diesel",
       "titleHighlight": "",
-      "code": "(TDV6 / SDV6 / Ingenium I6)",
+      "code": "(TDV6 / SDV6 / Ingenium I6)", "image": "/engines/jaguar-276dt-tdv6-engine.webp",
       "price": "£2,400",
       "featured": false,
       "codeHref": "/landrover-tdv6-sdv6-engine"
@@ -33,7 +33,7 @@
     {
       "titlePre": "V8",
       "titleHighlight": "",
-      "code": "(classic 3.9/4.0, TDV8/SDV8, AJ-V8)",
+      "code": "(classic 3.9/4.0, TDV8/SDV8, AJ-V8)", "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
       "price": "£4,500",
       "featured": true,
       "codeHref": "/landrover-tdv8-sdv8-engine"

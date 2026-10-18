@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Evoque D165 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-aj200d-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ingenium AJ200D / AJ150D",
+        "image": "/engines/jaguar-aj200d-engine.webp",
         "codeRest": "",
         "body": "A 2.0-litre four-cylinder diesel fitted to the Evoque D165 across the L538 and L551 generations. The AJ200D and AJ150D are closely related variants of the same Ingenium diesel family, with the D165 badge representing the 163PS power output level. Known for timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks — see the callout above. We replace the timing chain, tensioner, guides, injector seals, EGR components, and gaskets as standard on every rebuild.",
         "cta": "Check Your Ingenium AJ200D / AJ150D Range Rover Evoque D165",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L538",
+        "image": "/cars/range-rover-evoque-l538-se-5-door-suv-20152018-new-corris-gr-19e8.webp",
         "chassis": "L538",
         "years": "2016–2018",
         "engineCode": "Ingenium AJ200D / AJ150D",
@@ -76,6 +78,7 @@
       },
       {
         "generation": "L551",
+        "image": "/cars/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
         "chassis": "L551",
         "years": "2019–present",
         "engineCode": "Ingenium AJ200D / AJ150D",

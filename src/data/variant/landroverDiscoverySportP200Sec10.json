@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery Sport P200 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ingenium AJ200P",
+        "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
         "codeRest": "",
         "body": "The Discovery Sport P200 is powered by the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine. It was introduced with the 2019 L550 facelift and remains in production today. The AJ200P is part of JLR's modular Ingenium engine family, designed for both petrol and diesel applications across the range. While the diesel Ingenium variants share a well-documented timing chain and oil dilution pattern, the petrol AJ200P is a different unit with its own characteristics — generally considered more reliable than its diesel counterparts.",
         "cta": "Check Your Ingenium AJ200P Discovery Sport P200",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L550",
+        "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
         "chassis": "L550",
         "years": "2019–present",
         "engineCode": "Ingenium AJ200P",

@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Defender P400 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300P",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "(L663)",
         "body": "A 3.0-litre inline-six petrol MHEV fitted to the Defender P400 from 2019 to present (L663 generation). Known for DC-DC converter failure — see the callout above. We replace the DC-DC converter, timing chains, bearings and gaskets as standard on every rebuild.",
         "cta": "Check Your AJ300P Defender P400",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "L663",
         "years": "2019–present",
         "engineCode": "AJ300P",

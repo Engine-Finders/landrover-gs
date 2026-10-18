@@ -3,11 +3,13 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,400",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/jaguar-276dt-tdv6-engine.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "SDV6",
+      "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "carImage": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
       "generation": "D3/L319 (2004–2009) · D4/L319 facelift (2009–2016)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"

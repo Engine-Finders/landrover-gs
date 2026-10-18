@@ -11,24 +11,28 @@
       "number": "01",
       "model": "Range Rover Velar D180",
       "spec": "2.0L I4 Diesel (AJ200D)",
+      "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
       "href": "/landrover-range-rover-velar-d180-engines"
     },
     {
       "number": "02",
       "model": "Range Rover Velar D200",
       "spec": "2.0L I4 Diesel (AJ200D)",
+      "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
       "href": "/landrover-range-rover-velar-d200-engines"
     },
     {
       "number": "03",
       "model": "Range Rover Velar D240",
       "spec": "2.0L I4 Diesel (AJ200D)",
+      "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
       "href": "/landrover-range-rover-velar-d240-engines"
     },
     {
       "number": "04",
       "model": "Range Rover Velar D250",
       "spec": "3.0L I6 Diesel MHEV (AJ300D)",
+      "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
       "href": "/landrover-range-rover-velar-d250-engines"
     },
     {
@@ -41,30 +45,35 @@
       "number": "06",
       "model": "Range Rover Velar P250",
       "spec": "2.0L I4 Petrol (AJ200P)",
+      "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
       "href": "/landrover-range-rover-velar-p250-engines"
     },
     {
       "number": "07",
       "model": "Range Rover Velar P300",
       "spec": "2.0L I4 Petrol (AJ200P)",
+      "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
       "href": "/landrover-velar-p300-engines"
     },
     {
       "number": "08",
       "model": "Range Rover Velar P340",
       "spec": "3.0L V6 Petrol Supercharged (AJ126)",
+      "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
       "href": "/landrover-range-rover-velar-p340-engines"
     },
     {
       "number": "09",
       "model": "Range Rover Velar P400",
       "spec": "3.0L I6 Petrol MHEV (AJ300P)",
+      "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
       "href": "/landrover-range-rover-velar-p400-engines"
     },
     {
       "number": "10",
       "model": "Range Rover Velar P400e",
       "spec": "2.0L I4 Petrol PHEV (AJ200P)",
+      "image": "/cars/range-rover-velar-l560-lci-s-suv-20212024-new-ostuni-white-v-c0f3.webp",
       "href": "/landrover-velar-p400e-engines"
     }
   ],

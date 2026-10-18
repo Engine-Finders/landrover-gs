@@ -3,11 +3,13 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£1,900",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/jaguar-2-2d-and-qjba-engine.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "Ford Duratorq",
+      "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
+      "carImage": "/cars/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
       "generation": "L359 (2006–2014)",
       "price": "£1,900",
       "codeHref": "/landrover-ford-duratorq-engine"

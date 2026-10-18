@@ -8,6 +8,7 @@
   "cards": [
     {
       "code": "200Tdi",
+      "carImage": "/cars/land-rover-defender-defender-90-county-3-door-4x4-19901998-n-547b.webp",
       "generation": "Classic 90/110/130 (1990–1994)",
       "price": "£1,900",
       "codeHref": "/landrover-200tdi-engine"

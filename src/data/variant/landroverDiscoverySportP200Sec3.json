@@ -3,11 +3,13 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,000",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/engines-2-0-ingenium-petrol-engine.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "Ingenium AJ200P",
+      "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
+      "carImage": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
       "generation": "L550 (2019–present)",
       "price": "£2,000",
       "codeHref": "/landrover-aj200p-engine"

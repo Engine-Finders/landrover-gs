@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Velar SVAutobiography Dynamic Edition ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
     "cards": [
       {
         "codeHighlight": "AJ133",
+        "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
         "codeRest": "",
         "body": "A 5.0-litre supercharged V8 fitted to the Velar SVAutobiography Dynamic Edition in 2019 only (L560). Known for timing chain wear and cooling-system leaks over time — see the callout above. We replace timing chains, valve seals, coolant components and bearings as standard on every AJ133 rebuild.",
         "cta": "Check Your AJ133 Range Rover Velar SVAutobiography Dynamic Edition",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L560",
+        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
         "years": "2019 only",
         "engineCode": "AJ133",

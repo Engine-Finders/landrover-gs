@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery TDV6 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-276dt-tdv6-engine.webp",
     "cards": [
       {
         "codeHighlight": "TDV6",
+        "image": "/engines/jaguar-276dt-tdv6-engine.webp",
         "codeRest": "(D3/L319, D4/L319 facelift)",
         "body": "A 3.0-litre V6 diesel fitted to the Discovery from 2004 to 2016 across two generations. Known for timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk over time — see the callout above. We replace timing chain components, injector seals, and gaskets as standard on every TDV6 rebuild.",
         "cta": "Check Your TDV6 Discovery TDV6",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "D3",
+        "image": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
         "chassis": "L319",
         "years": "2004–2009",
         "engineCode": "TDV6",
@@ -76,6 +78,7 @@
       },
       {
         "generation": "D4",
+        "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
         "chassis": "L319 facelift",
         "years": "2009–2016",
         "engineCode": "TDV6",

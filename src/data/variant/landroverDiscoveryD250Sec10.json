@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery D250 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-aj200d-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ200D (Ingenium)",
+        "image": "/engines/jaguar-aj200d-engine.webp",
         "codeRest": "",
         "body": "The Discovery D250 is part of the fifth-generation Discovery range (L462, 2017–present), using the Ingenium AJ200D 2.0-litre four-cylinder diesel. The D250 sits in the middle of the diesel lineup, offering a balance of power and efficiency. Like other JLR Ingenium diesel models, it uses the same engine family as the D300 and D350 but with a lower output tune.",
         "cta": "Check Your AJ200D (Ingenium) Discovery D250",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "D5",
+        "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
         "chassis": "L462",
         "years": "2017–present",
         "engineCode": "AJ200D (Ingenium)",

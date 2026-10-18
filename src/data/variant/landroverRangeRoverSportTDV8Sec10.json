@@ -75,6 +75,7 @@
     "rows": [
       {
         "generation": "L320",
+        "image": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
         "chassis": "L320",
         "years": "2005–2013",
         "engineCode": "TDV8",
@@ -83,6 +84,7 @@
       },
       {
         "generation": "L494",
+        "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
         "chassis": "L494",
         "years": "2013–2022",
         "engineCode": "SDV8",

@@ -3,11 +3,13 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,000",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/jaguar-aj200d-engine.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "AJ200D / AJ150D",
+      "image": "/engines/jaguar-aj200d-engine.webp",
+      "carImage": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
       "generation": "L550 (2020–present)",
       "price": "£2,000",
       "codeHref": "/landrover-aj150d-engine"

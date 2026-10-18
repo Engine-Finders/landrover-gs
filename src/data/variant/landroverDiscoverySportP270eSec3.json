@@ -8,6 +8,7 @@
   "cards": [
     {
       "code": "1.5L I3 PHEV",
+      "carImage": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
       "generation": "L550",
       "price": "£2,000"
     }

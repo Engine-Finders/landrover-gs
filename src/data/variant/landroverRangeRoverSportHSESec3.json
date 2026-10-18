@@ -3,41 +3,53 @@
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,400",
-  "engineImage": "/variant/sec10_engine.webp",
+  "engineImage": "/engines/jaguar-276dt-tdv6-engine.webp",
   "carImage": "/variant/landrover_car.webp",
   "cards": [
     {
       "code": "TDV6 / SDV6",
+      "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "carImage": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
       "generation": "L320 (2005–2013)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "TDV6 / SDV6",
+      "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "carImage": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
       "generation": "L494 (2013–2022)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "TDV8 / SDV8",
+      "image": "/variant/sec10_engine.webp",
+      "carImage": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
       "generation": "L320/L494",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "Ingenium AJ300D (D300)",
+      "image": "/engines/jaguar-d300-engine.webp",
+      "carImage": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
       "generation": "L461 (2022–present)",
       "price": "£2,800",
       "codeHref": "/landrover-aj300d-engine"
     },
     {
       "code": "Ingenium AJ300P (P400)",
+      "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
+      "carImage": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
       "generation": "L461 (2022–present)",
       "price": "£3,200",
       "codeHref": "/landrover-aj300p-engine"
     },
     {
       "code": "BMW N63 (P530)",
+      "image": "/variant/sec10_engine.webp",
+      "carImage": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
       "generation": "L461 (2022–present)",
       "price": "£6,500",
       "codeHref": "/landrover-n63-engine"

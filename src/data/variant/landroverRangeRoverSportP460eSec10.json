@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Sport P460e ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300 PHEV",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "",
         "body": "The Range Rover Sport P460e is a plug-in hybrid variant introduced on the L461 generation from 2022. It combines a 3.0-litre inline-six petrol engine with an electric motor, delivering 460PS of combined output. The P460e shares its AJ300 powertrain architecture with the P440e PHEV variant, with a higher power tune. As the L461-generation Range Rover Sport continues in production, the P460e remains a current variant across the latest model years.",
         "cta": "Check Your AJ300 PHEV Range Rover Sport P460e",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L461",
+        "image": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
         "chassis": "L461",
         "years": "2022–present",
         "engineCode": "AJ300 PHEV",

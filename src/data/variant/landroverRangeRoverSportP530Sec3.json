@@ -8,6 +8,7 @@
   "cards": [
     {
       "code": "BMW N63",
+      "carImage": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
       "generation": "L461 (2022–present)",
       "price": "£6,500",
       "codeHref": "/landrover-n63-engine"

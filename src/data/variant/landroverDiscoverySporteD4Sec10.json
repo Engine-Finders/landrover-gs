@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery Sport eD4 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ford Duratorq",
+        "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
         "codeRest": "",
         "body": "A ~2.0-litre 4-cylinder diesel fitted to the Discovery Sport eD4 from 2014 to 2019 (L550). Known for injector seal leaks and EGR clogging over time — see the callout above. We replace injector seals, the EGR valve, and the timing belt as standard on every Ford Duratorq rebuild.",
         "cta": "Check Your Ford Duratorq Discovery Sport eD4",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L550",
+        "image": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
         "chassis": "L550",
         "years": "2014–2019",
         "engineCode": "Ford Duratorq",

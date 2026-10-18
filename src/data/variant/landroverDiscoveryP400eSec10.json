@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery P400e ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ingenium AJ300P",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "",
         "body": "A 3.0-litre inline-six petrol fitted to the Discovery P400e from 2017 to present (D5/L462). This is the petrol PHEV engine for the Discovery range. There are no widely-reported known issues specifically for this engine in this application.",
         "cta": "Check Your Ingenium AJ300P Discovery P400e",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "D5",
+        "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
         "chassis": "L462",
         "years": "2017–present",
         "engineCode": "Ingenium AJ300P",

@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Vogue ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-276dt-tdv6-engine.webp",
     "cards": [
       {
         "codeHighlight": "TDV6",
+        "image": "/engines/jaguar-276dt-tdv6-engine.webp",
         "codeRest": "(L322, L405)",
         "body": "A 3.0-litre V6 diesel fitted to the Range Rover Vogue across both the L322 and L405 generations. Known for timing chain and injector wear over time — see the callout above. We replace these as standard on every TDV6 rebuild, along with EGR, turbo and gasket components.",
         "cta": "Check Your TDV6 Range Rover Vogue",
@@ -23,6 +24,7 @@
       },
       {
         "codeHighlight": "SDV6",
+        "image": "/engines/jaguar-276dt-tdv6-engine.webp",
         "codeRest": "(L322, L405)",
         "body": "A higher-output 3.0-litre V6 diesel, also fitted across L322 and L405 generations. Shares the same timing chain and injector wear pattern as the TDV6. We service it to the same standard.",
         "cta": "Check Your SDV6 Range Rover Vogue",
@@ -30,6 +32,7 @@
       },
       {
         "codeHighlight": "TDV8",
+        "image": "/variant/sec10_engine.webp",
         "codeRest": "(L322, L405)",
         "body": "A 4.4-litre V8 diesel fitted to the Range Rover Vogue across both generations. Known for the same timing chain and injector wear pattern as its six-cylinder siblings — this is a consistent trait across the engine family.",
         "cta": "Check Your TDV8 Range Rover Vogue",
@@ -37,6 +40,7 @@
       },
       {
         "codeHighlight": "SDV8",
+        "image": "/variant/sec10_engine.webp",
         "codeRest": "(L322, L405)",
         "body": "A higher-output 4.4-litre V8 diesel, also fitted across L322 and L405 generations. Shares the same engine family traits as the TDV8.",
         "cta": "Check Your SDV8 Range Rover Vogue",
@@ -89,6 +93,7 @@
     "rows": [
       {
         "generation": "L322",
+        "image": "/cars/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
         "chassis": "L322",
         "years": "2001–2012",
         "engineCode": "TDV6, SDV6, TDV8, SDV8",
@@ -97,6 +102,7 @@
       },
       {
         "generation": "L405",
+        "image": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
         "chassis": "L405",
         "years": "2012–2021",
         "engineCode": "TDV6, SDV6, TDV8, SDV8",

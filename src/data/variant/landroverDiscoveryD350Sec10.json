@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery D350 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-d300-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300D",
+        "image": "/engines/jaguar-d300-engine.webp",
         "codeRest": "(D5, L462)",
         "body": "A 3.0-litre inline-six diesel fitted to the Discovery D350 from 2017 to present (D5/L462 generation). Part of the Ingenium diesel family, commonly showing timing chain wear — see the callout above. We replace the timing chain, tensioners, guides, bearings, injector seals and gaskets as standard on every AJ300D rebuild.",
         "cta": "Check Your AJ300D Discovery D350",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "D5",
+        "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
         "chassis": "L462",
         "years": "2017–present",
         "engineCode": "AJ300D",

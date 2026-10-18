@@ -8,6 +8,7 @@
   "cards": [
     {
       "code": "BMW M47D20",
+      "carImage": "/cars/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
       "generation": "L359 (2006–2014)",
       "price": "£1,900",
       "codeHref": "/landrover-m47d20-bmw-sourced-engine"

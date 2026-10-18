@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Freelander eD4 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ford Duratorq",
+        "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
         "codeRest": "(L359)",
         "body": "A 2.2-litre four-cylinder diesel fitted to the Freelander eD4 from 2006 to 2014 (L359 generation). Known for injector failure and DPF clogging over time — see the callout above. We replace injectors, the EGR valve and the timing belt as standard on every Duratorq rebuild.",
         "cta": "Check Your Ford Duratorq Freelander eD4",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L359",
+        "image": "/cars/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
         "chassis": "L359",
         "years": "2006–2014",
         "engineCode": "Ford Duratorq",

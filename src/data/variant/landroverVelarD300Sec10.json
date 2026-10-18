@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Velar D300 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-d300-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300D",
+        "image": "/engines/jaguar-d300-engine.webp",
         "codeRest": "",
         "body": "A 3.0-litre inline-six diesel fitted to the Velar D300 from 2017 to the present (L560 generation). Known for timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks — see the callout above. We replace timing chains, injector seals, bearings, and gaskets as standard on every AJ300D rebuild.",
         "cta": "Check Your AJ300D Velar D300",

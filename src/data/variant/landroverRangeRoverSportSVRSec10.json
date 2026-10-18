@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Sport SVR ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
     "cards": [
       {
         "codeHighlight": "AJ‑V8 Supercharged",
+        "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
         "codeRest": "",
         "body": "The Range Rover Sport SVR uses the AJ‑V8 — a 5.0‑litre supercharged V8 petrol engine. It was fitted from 2015 to 2022 across the L494 generation. It was the performance flagship of the Sport range until replaced by the newer BMW‑sourced V8 in the L461 generation. The SVR is no longer in production, but we continue to rebuild and replace engines for every one still on the road.",
         "cta": "Check Your AJ‑V8 Supercharged Range Rover Sport SVR",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L494",
+        "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
         "chassis": "L494",
         "years": "2015–2022",
         "engineCode": "AJ‑V8 Supercharged",

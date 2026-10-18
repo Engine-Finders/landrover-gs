@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover Velar D200 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-aj200d-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ingenium AJ200D",
+        "image": "/engines/jaguar-aj200d-engine.webp",
         "codeRest": "",
         "body": "A 2.0-litre four-cylinder diesel fitted to the Velar D200 from 2017 to present (L560 generation). Known for timing chain tensioner wear, oil dilution and EGR cooler leaks — see the callout above. We replace worn timing chain components, injector seals, EGR and gaskets as standard on every AJ200D rebuild.",
         "cta": "Check Your Ingenium AJ200D Range Rover Velar D200",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L560",
+        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
         "years": "2017–present",
         "engineCode": "Ingenium AJ200D",

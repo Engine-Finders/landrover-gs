@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery Sport D165 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-aj200d-engine.webp",
     "cards": [
       {
         "codeHighlight": "Ingenium AJ200D / AJ150D",
+        "image": "/engines/jaguar-aj200d-engine.webp",
         "codeRest": "",
         "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D165 from 2020 onwards. It's a common-rail turbo-diesel with a timing chain-driven valvetrain. The Ingenium diesel family is known for timing chain tensioner wear and EGR cooler leaks — which we address as standard on every rebuild.",
         "cta": "Check Your Ingenium AJ200D / AJ150D Discovery Sport D165",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L550",
+        "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
         "chassis": "L550",
         "years": "2020–present",
         "engineCode": "AJ200D / AJ150D",

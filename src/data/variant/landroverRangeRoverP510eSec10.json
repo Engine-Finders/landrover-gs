@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Range Rover P510e ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300P (3.0L I6 + 105kW electric motor)",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "",
         "body": "The Range Rover P510e is part of the current-generation L460 range, introduced in 2022. It uses the AJ300P — a 3.0-litre inline-six petrol engine developed by Jaguar Land Rover as part of the Ingenium engine family. What makes the P510e distinct within the Range Rover line-up is its plug-in hybrid system: the AJ300P is paired with a 105kW electric motor, and the badge tracks the combined power output. The same underlying engine family appears across all four PHEV badges in the current Range Rover range — P440e, P460e, P510e and P550e — with different combined power outputs calibrated for each tier.",
         "cta": "Check Your AJ300P (3.0L I6 + 105kW electric motor) Range Rover P510e",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L460",
+        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L460",
         "years": "2022–present",
         "engineCode": "AJ300P",

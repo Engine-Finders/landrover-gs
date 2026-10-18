@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Defender P300e ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ200P",
+        "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
         "codeRest": "",
         "body": "A 2.0-litre four-cylinder petrol unit fitted to the Defender P300e (and other L663 petrol variants). Part of the Ingenium engine family shared across JLR's modern range. No Defender-specific issue confirmed for this application. We replace timing chains, bearings and gaskets as standard on every AJ200P rebuild.",
         "cta": "Check Your AJ200P Defender P300e",
@@ -23,6 +24,7 @@
       },
       {
         "codeHighlight": "AJ200P",
+        "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
         "codeRest": "",
         "body": "Note: PHEV-specific components (electric motor, battery, charging system) are not part of the engine rebuild scope. Our rebuild covers the petrol engine only — we can advise separately on PHEV ancillaries.",
         "cta": "Check Your AJ200P Defender P300e",
@@ -75,6 +77,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "L663",
         "years": "2019–present",
         "engineCode": "AJ200P",

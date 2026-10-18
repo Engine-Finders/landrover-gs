@@ -8,12 +8,14 @@
   "cards": [
     {
       "code": "TDV8/SDV8",
+      "carImage": "/cars/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
       "generation": "L322 (2001–2012)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "TDV8/SDV8",
+      "carImage": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
       "generation": "L405 (2012–2021)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"

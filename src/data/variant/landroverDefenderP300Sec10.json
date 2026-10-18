@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Defender P300 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ200P",
+        "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
         "codeRest": "",
         "body": "A 2.0-litre four-cylinder petrol engine fitted to the Defender P300 from 2019 to present (L663). No specific known issue is confirmed for this engine in this application. We replace timing chains, bearings and gaskets as standard on every rebuild.",
         "cta": "Check Your AJ200P Defender P300",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "90/110/130",
         "years": "2019–present",
         "engineCode": "AJ200P",

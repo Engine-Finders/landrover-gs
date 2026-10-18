@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Discovery P360 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300P",
+        "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "",
         "body": "A 3.0-litre inline-six petrol fitted to the Discovery P360 from 2017 to present (D5/L462). Part of the Ingenium family, the AJ300P is a modern petrol unit with mild-hybrid technology. We replace timing chains, bearings and gaskets as standard on every AJ300P rebuild.",
         "cta": "Check Your AJ300P Discovery P360",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "D5",
+        "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
         "chassis": "L462",
         "years": "2017–present",
         "engineCode": "AJ300P",

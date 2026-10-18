@@ -8,6 +8,7 @@
   "cards": [
     {
       "code": "BMW M47D20",
+      "carImage": "/cars/land-rover-defender-defender-90-county-3-door-4x4-19901998-n-547b.webp",
       "generation": "Classic 90/110/130",
       "price": "£1,900",
       "codeHref": "/landrover-m47d20-bmw-sourced-engine"

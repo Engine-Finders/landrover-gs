@@ -12,10 +12,11 @@
   "codes": {
     "titlePre": "Land Rover Defender D350 ENGINE ",
     "titleHighlight": "CODES",
-    "image": "/variant/sec10_engine.webp",
+    "image": "/engines/jaguar-d300-engine.webp",
     "cards": [
       {
         "codeHighlight": "AJ300D",
+        "image": "/engines/jaguar-d300-engine.webp",
         "codeRest": "",
         "body": "A 3.0-litre inline-six diesel MHEV fitted to the Defender D350 from 2019 to present (L663 generation). Known for the DC-DC converter failure pattern affecting the entire 12V electrical system on mild-hybrid variants, plus the broader Ingenium timing chain pattern. Early production (2019-2020) also shows electrical injector faults. We replace timing chain components, injector seals, bearings, gaskets and the DC-DC converter as standard on every AJ300D rebuild.",
         "cta": "Check Your AJ300D Defender D350",
@@ -68,6 +69,7 @@
     "rows": [
       {
         "generation": "L663",
+        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "L663",
         "years": "2019–present",
         "engineCode": "AJ300D",
