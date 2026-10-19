@@ -10,7 +10,7 @@
     { "label": "5. Known Issue", "icon": "warning", "placeholder": "Select Known Issue" }
   ],
   "ctaButton": "Find My Engine",
-  "image": "/home/sec9.5.webp",
+  "image": "/home/engine-core.webp",
   "trustBadges": [
     { "value": "3-5 Days", "label": "Typical Turnaround", "icon": "clock" },
     { "value": "12 Month Warranty", "label": "Unlimited Mileage", "icon": "shield" },

@@ -1,0 +1,206 @@
+{
+  "slug": "land-rover-repair-vs-full-rebuild",
+  "metaTitle": "Land Rover Repair vs Full Rebuild | Land Rover Garage",
+  "metaDescription": "Understand the difference between a targeted engine repair and a comprehensive full rebuild — and decide which is right for your Land Rover.",
+  "h1": "Land Rover Repair vs Full Rebuild",
+  "lede": "",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Get My Fixed-Price Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/model/sec7.webp",
+    "/engine/sec2.webp",
+    "/model/sec3.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What's the difference?",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "In the workshop, an engine repair and a full rebuild are two fundamentally different approaches. A repair is targeted and localised — it fixes a specific issue with minimal disassembly. A full rebuild is a complete overhaul: the engine is stripped to its component parts, everything is inspected and machined where needed, and all wear items are replaced. The choice depends on the condition of your engine, its mileage, and how you use your vehicle."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "**Starting from £1,900** for a 4-cylinder Land Rover engine repair or rebuild (depending on scope). [See pricing disclaimer →](/pricing-legal-disclaimer)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Which Land Rover models does this apply to?",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We carry out both targeted repairs and full rebuilds across the full Land Rover range. The decision always depends on the condition of your specific engine — but these are the models we see most often."
+        },
+        {
+          "t": "linkgrid",
+          "items": [
+            {
+              "label": "Discovery",
+              "href": "/discovery-engines"
+            },
+            {
+              "label": "Range Rover",
+              "href": "/models"
+            },
+            {
+              "label": "Range Rover Sport",
+              "href": "/range-rover-sport-engines"
+            },
+            {
+              "label": "Defender",
+              "href": "/defender-engines"
+            },
+            {
+              "label": "Velar",
+              "href": "/range-rover-velar-engines"
+            },
+            {
+              "label": "Evoque",
+              "href": "/range-rover-evoque-engines"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Not sure which option fits your Land Rover? [Contact us for a quote](/get-quote)."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our decision process",
+      "steps": [
+        {
+          "title": "Inspection & diagnosis",
+          "body": "We fully inspect your engine to identify the root cause and the extent of wear."
+        },
+        {
+          "title": "Scope assessment",
+          "body": "We determine whether the problem is isolated or whether multiple systems are affected."
+        },
+        {
+          "title": "Cost & value analysis",
+          "body": "We compare the cost of a repair against a full rebuild, factoring in your vehicle's age and value."
+        },
+        {
+          "title": "Recommendation",
+          "body": "We recommend the best option — repair, rebuild, or replacement — based on real workshop data."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why choose Land Rover Garage",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Established in 2009 — Land Rover specialists from the start",
+            "12-month unlimited-mileage warranty on every full rebuild",
+            "Transparent fixed-price quoting after thorough inspection",
+            "All work carried out in our Essex workshop by Land Rover technicians",
+            "Nationwide recovery available from £70"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[About us →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How we decide — repair or rebuild?",
+      "steps": [
+        {
+          "title": "Full inspection",
+          "body": "We assess the engine's internal condition to identify the root cause of the problem."
+        },
+        {
+          "title": "Evaluate wear",
+          "body": "We check for wear across all critical components — bearings, timing chains, cylinder bores."
+        },
+        {
+          "title": "Cost vs value",
+          "body": "We compare the repair cost against a full rebuild, considering your vehicle's age and value."
+        },
+        {
+          "title": "Recommendation",
+          "body": "We recommend the option that gives you the best long-term value and reliability."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Land Rover services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Engine Rebuild](/land-rover-engine-rebuild-process)",
+            "[Engine Replacement](/land-rover-engine-replacement)",
+            "[Diesel Timing Chain Repair](/land-rover-diesel-timing-chain-repair)",
+            "[V8 Supercharged Repair](/land-rover-v8-supercharged-repair)",
+            "[Engine Inspection & Assessment](/land-rover-engine-inspection-assessment)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "q": "When is a repair better than a full rebuild?",
+          "a": "A repair is better when the problem is isolated — for example, a single leaking injector or a failed turbocharger — and the rest of the engine is in good condition. It's faster and cheaper, but it won't address underlying wear across the engine."
+        },
+        {
+          "q": "When does a full rebuild make more sense?",
+          "a": "A full rebuild makes sense when the engine has multiple issues — timing chain wear, bearing wear, oil leaks — or when the engine has high mileage and the cost of individual repairs is approaching the cost of a rebuild. It restores the engine to like-new condition and typically comes with a 12-month warranty."
+        },
+        {
+          "q": "How much does a Land Rover engine repair cost?",
+          "a": "Repairs start from around £1,900 for a 4-cylinder engine, depending on the scope. A full rebuild of a 6-cylinder diesel starts from £2,400. Every quote is fixed and transparent after inspection."
+        },
+        {
+          "q": "Do you offer a warranty on repairs and rebuilds?",
+          "a": "Yes. All full rebuilds come with a 12-month unlimited-mileage warranty. Repairs are also warranted, but coverage depends on the specific work carried out."
+        }
+      ]
+    }
+  ]
+}

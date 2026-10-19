@@ -27,7 +27,7 @@ export default function HomeSec13({ data }) {
               src={data.image}
               alt="Engine core"
               fill
-              className="scale-[1.35] object-cover"
+              className="object-contain"
               sizes="200px"
             />
           </div>
@@ -71,7 +71,7 @@ export default function HomeSec13({ data }) {
             </div>
 
             <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden">
-              <Image src={data.image} alt="Engine core" fill className="scale-[1.35] object-cover" sizes="480px" />
+              <Image src={data.image} alt="Engine core" fill className="object-contain" sizes="480px" />
             </div>
           </div>
 

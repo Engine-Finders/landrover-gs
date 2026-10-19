@@ -1,0 +1,370 @@
+{
+  "slug": "land-rover-engine-replacement",
+  "metaTitle": "Land Rover Engine Replacement | Land Rover Garage",
+  "metaDescription": "Professional Land Rover engine replacement service at our UK workshop. Fixed-price quotes, same-day recovery, 12-month unlimited-mileage warranty.",
+  "h1": "Land Rover Engine Replacement",
+  "lede": "",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Compare: Rebuild vs Replacement",
+      "href": "/land-rover-engine-rebuild-process"
+    },
+    {
+      "label": "Get My Fixed-Price Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/model/sec12.webp",
+    "/engine/sec3.webp",
+    "/model/sec7.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What This Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "An engine replacement is the complete removal of your vehicle's existing engine and the installation of a replacement unit. Unlike a rebuild, which disassembles and refines your original engine, a replacement uses a different engine — either a reconditioned, remanufactured, or used unit matched to your vehicle's exact specification."
+        },
+        {
+          "t": "p",
+          "html": "We handle the entire process: collection from your location, the physical swap in our workshop, and full road-testing before handover. Every replacement comes with a [12-month unlimited-mileage warranty](/warranty)."
+        },
+        {
+          "t": "p",
+          "html": "Read our [guide to choosing between rebuild, replacement, or used](/land-rover-rebuild-vs-replacement) for more context."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "Engine Replacement — Starting From",
+          "paras": [
+            "£1,900 – £6,500",
+            "Depending on engine type, model, and specification. Exact price quoted after inspection.",
+            "[View pricing disclaimer](/pricing-legal-disclaimer)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Land Rover Models & Engines",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We carry out engine replacements across all Land Rover models and engine families. Below are the most common combinations we work with:"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Defender",
+            "href": "/defender-engines"
+          },
+          "chips": [
+            {
+              "label": "Defender Td5",
+              "href": "/landrover-defender-td5-engines"
+            },
+            {
+              "label": "Defender 300Tdi",
+              "href": "/landrover-defender-300tdi-engines"
+            },
+            {
+              "label": "Defender D200",
+              "href": "/landrover-defender-d200-engines"
+            },
+            {
+              "label": "Defender D300",
+              "href": "/landrover-defender-d300-engines"
+            },
+            {
+              "label": "Defender P400",
+              "href": "/landrover-defender-p400-engines"
+            }
+          ],
+          "note": "Also: D250, P300, P525, Octa"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Discovery",
+            "href": "/discovery-engines"
+          },
+          "chips": [
+            {
+              "label": "Discovery TDV6",
+              "href": "/landrover-discovery-tdv6-engines"
+            },
+            {
+              "label": "Discovery SDV6",
+              "href": "/landrover-discovery-sdv6-engines"
+            },
+            {
+              "label": "Discovery D250",
+              "href": "/landrover-discovery-d250-engines"
+            },
+            {
+              "label": "Discovery D300",
+              "href": "/landrover-discovery-d300-engines"
+            },
+            {
+              "label": "Discovery P400",
+              "href": "/landrover-discovery-p400-engines"
+            }
+          ],
+          "note": "Also: D350, P360, TDV8, SDV8"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover",
+            "href": "/models"
+          },
+          "chips": [
+            {
+              "label": "Range Rover TDV6",
+              "href": "/landrover-range-rover-tdv6-engines"
+            },
+            {
+              "label": "Range Rover SDV6",
+              "href": "/landrover-range-rover-sdv6-engines"
+            },
+            {
+              "label": "Range Rover SDV8",
+              "href": "/landrover-range-rover-sdv8-engines"
+            },
+            {
+              "label": "Range Rover P400",
+              "href": "/landrover-range-rover-p400-engines"
+            }
+          ],
+          "note": "Also: TDV8, D300/D350, P530"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Sport",
+            "href": "/range-rover-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "Sport TDV6",
+              "href": "/landrover-range-rover-sport-tdv6-engines"
+            },
+            {
+              "label": "Sport SDV6",
+              "href": "/landrover-range-rover-sport-sdv6-engines"
+            },
+            {
+              "label": "Sport SVR (AJ133)",
+              "href": "/landrover-range-rover-sport-svr-engines"
+            },
+            {
+              "label": "Sport P400",
+              "href": "/landrover-range-rover-sport-p400-engines"
+            }
+          ],
+          "note": "Also: TDV8, SDV8, D300, P530"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Discovery Sport",
+            "href": "/discovery-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "Discovery Sport D165",
+              "href": "/landrover-discovery-sport-d165-engines"
+            },
+            {
+              "label": "Discovery Sport D200",
+              "href": "/landrover-discovery-sport-d200-engines"
+            },
+            {
+              "label": "Discovery Sport P200",
+              "href": "/landrover-discovery-sport-p200-engines"
+            },
+            {
+              "label": "Discovery Sport P250",
+              "href": "/landrover-discovery-sport-p250-engines"
+            }
+          ],
+          "note": "Also: eD4, TD4, Si4, P300e"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Evoque",
+            "href": "/range-rover-evoque-engines"
+          },
+          "chips": [
+            {
+              "label": "Evoque D150",
+              "href": "/landrover-range-rover-evoque-d150-engines"
+            },
+            {
+              "label": "Evoque D165",
+              "href": "/landrover-range-rover-evoque-d165-engines"
+            },
+            {
+              "label": "Evoque D180",
+              "href": "/landrover-range-rover-evoque-d180-engines"
+            },
+            {
+              "label": "Evoque P200",
+              "href": "/landrover-range-rover-evoque-p200-engines"
+            },
+            {
+              "label": "Evoque P250",
+              "href": "/landrover-range-rover-evoque-p250-engines"
+            }
+          ],
+          "note": "Also: TD4, Si4, P300e"
+        },
+        {
+          "t": "p",
+          "html": "For other models — including [Freelander](/freelander-engines), [Range Rover Velar](/range-rover-velar-engines), or specific variants — [contact us for a quote](/get-quote)."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Engine Replacement Process",
+      "steps": [
+        {
+          "title": "Arrival & Assessment",
+          "body": "Vehicle arrives at our workshop (or we collect it). We record the registration, VIN, mileage, and engine code. A pre-removal check confirms the vehicle's condition and the engine's specification."
+        },
+        {
+          "title": "Engine Removal",
+          "body": "All fluids drained, ancillaries disconnected, exhaust and cooling system unbolted. The engine mountings are undone, the transmission is supported, and the engine is lifted out using a crane."
+        },
+        {
+          "title": "Replacement Preparation",
+          "body": "We inspect the replacement engine on the stand. Ancillaries are transferred from the old engine, new seals and gaskets fitted, and the timing system is verified. The engine is filled with fresh oil and fitted with a new filter."
+        },
+        {
+          "title": "Reinstallation",
+          "body": "The replacement engine is lowered into the bay and all connections reattached: mounts, transmission, electrical, fuel, cooling, and exhaust. All fluids are refilled to correct specifications."
+        },
+        {
+          "title": "Testing & Handover",
+          "body": "We start the engine, check for leaks and fault codes, and complete a thorough road test. The vehicle is cleaned and handed over with full documentation, including the 12-month warranty."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage for Your Engine Replacement",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "12-month unlimited-mileage [warranty](/warranty) on every replacement",
+            "Nationwide [engine recovery](/land-rover-nationwide-engine-recovery) from £70, arranged for you",
+            "Fixed-price quotes with no hidden costs — we quote after a thorough inspection",
+            "In-house diagnostics and engine matching using JLR tools and UK-based engine suppliers",
+            "Workshop in Billericay, Essex, with over 15 years' Land Rover specialist experience",
+            "Every replacement undergoes a 20-30 mile road test before handover",
+            "[Meet our team and see our workshop](/about)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How Our Engine Replacement Service Works",
+      "steps": [
+        {
+          "title": "Contact us",
+          "body": "Call, email, or use our [online quote form](/get-quote). We'll gather your vehicle's details and discuss your situation."
+        },
+        {
+          "title": "Arrival & Inspection",
+          "body": "Your Land Rover arrives at our workshop (we can collect it). We carry out a full inspection to confirm the replacement scope and provide a fixed-price quote."
+        },
+        {
+          "title": "Replacement Work",
+          "body": "We source the correct replacement engine, then remove the old unit and install the new one. The work typically takes 1–2 weeks."
+        },
+        {
+          "title": "Testing & Collection",
+          "body": "We road-test the vehicle, perform a final check, and hand it back to you with a full warranty. We can also arrange delivery back to you."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/land-rover-engine-rebuild-process)",
+            "[Land Rover Engine Supply & Fit](/land-rover-engine-supply-and-fit)",
+            "[Land Rover Nationwide Engine Recovery](/land-rover-nationwide-engine-recovery)",
+            "[Land Rover Rebuild vs Replacement — Which Is Right for You?](/land-rover-rebuild-vs-replacement)",
+            "[Land Rover Engine Inspection & Assessment](/land-rover-engine-inspection-assessment)",
+            "[Land Rover Engine Removal, Refit & Final Testing](/land-rover-engine-removal-refit-and-final-testing)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What's the difference between an engine replacement and an engine rebuild?",
+          "a": "A rebuild disassembles and refines your existing engine in-house. A replacement uses a different engine (reconditioned, remanufactured, or used) installed into your vehicle. We explain the decision in our [Rebuild vs Replacement comparison](/land-rover-rebuild-vs-replacement)."
+        },
+        {
+          "q": "How long does an engine replacement take?",
+          "a": "Typically 1–2 weeks from your vehicle's arrival to collection. This depends on the availability of the replacement engine, parts, and our workshop capacity. We'll give you a realistic timeline during the quote."
+        },
+        {
+          "q": "What warranty comes with the replacement?",
+          "a": "Every engine replacement we carry out comes with a [12-month unlimited-mileage warranty](/warranty) covering the workmanship and the supplied engine. Full terms are provided before you commit."
+        },
+        {
+          "q": "Do you provide a quote before you start work?",
+          "a": "Yes. We carry out a thorough inspection of your vehicle when it arrives at our workshop, then provide a fixed-price quote for the replacement. There are no hidden costs."
+        },
+        {
+          "q": "Can you match the replacement engine to my exact Land Rover?",
+          "a": "Yes — we match engines by VIN, engine code, power output, and emission standard. We also check ancillaries and drivetrain compatibility to ensure a correct fit. [Read more about our matching process](/land-rover-engine-matching-by-registration-vin)."
+        },
+        {
+          "q": "Do you collect the vehicle, or do I need to bring it in?",
+          "a": "We can arrange collection and delivery via our [nationwide recovery service](/land-rover-nationwide-engine-recovery) from £70. You're also welcome to bring your vehicle directly to our workshop in Billericay, Essex."
+        }
+      ]
+    }
+  ]
+}

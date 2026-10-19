@@ -1,0 +1,425 @@
+{
+  "slug": "land-rover-engine-failure-repair",
+  "metaTitle": "Land Rover Engine Failure Repair | Land Rover Garage",
+  "metaDescription": "Professional Land Rover engine failure assessment, diagnosis and repair. Full strip-down inspection, bore scope analysis and comprehensive rebuild service.",
+  "h1": "Land Rover Engine Failure Repair",
+  "lede": "",
+  "ctas": [
+    {
+      "label": "Get a Quote →",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    },
+    {
+      "label": "Get My Fixed-Price Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/engine/sec2_price_bg.webp",
+    "/model/sec5.webp",
+    "/engine/sec1.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What This Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "When a Land Rover engine fails, a structured specialist assessment is required before any repair work begins. Our process is designed to identify the exact cause of failure, document the full scope of damage, and present clear repair options with fixed pricing."
+        },
+        {
+          "t": "p",
+          "html": "We assess engines from the full Land Rover range, including [Defender](/defender-engines), [Discovery](/discovery-engines), [Range Rover](/models), [Range Rover Sport](/range-rover-sport-engines), [Range Rover Velar](/range-rover-velar-engines), [Evoque](/range-rover-evoque-engines) and [Freelander](/freelander-engines) models. Every assessment follows a documented workflow from vehicle reception through to detailed reporting."
+        },
+        {
+          "t": "p",
+          "html": "All work is backed by our [12-month unlimited-mileage warranty](/land-rover-engine-rebuild-warranty-explained)."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "**Rebuilds from £1,900**",
+            "4-cylinder diesels. Prices vary by engine type and scope. [Get a fixed quote →](/get-quote)",
+            "[Pricing disclaimer](/pricing-legal-disclaimer)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Land Rover Models & Engines",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We assess and repair failures across the full Land Rover range. Below are the key models and engine families we work on."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Defender",
+            "href": "/defender-engines"
+          },
+          "chips": [
+            {
+              "label": "TD5",
+              "href": "/landrover-defender-td5-engines"
+            },
+            {
+              "label": "300Tdi",
+              "href": "/landrover-defender-300tdi-engines"
+            },
+            {
+              "label": "200Tdi",
+              "href": "/landrover-defender-200tdi-engines"
+            },
+            {
+              "label": "D250",
+              "href": "/landrover-defender-d250-engines"
+            },
+            {
+              "label": "D300",
+              "href": "/landrover-defender-d300-engines"
+            },
+            {
+              "label": "P400",
+              "href": "/landrover-defender-p400-engines"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Discovery",
+            "href": "/discovery-engines"
+          },
+          "chips": [
+            {
+              "label": "Td5",
+              "href": "/landrover-discovery-td5-engines"
+            },
+            {
+              "label": "TDV6",
+              "href": "/landrover-discovery-tdv6-engines"
+            },
+            {
+              "label": "SDV6",
+              "href": "/landrover-discovery-sdv6-engines"
+            },
+            {
+              "label": "D250",
+              "href": "/landrover-discovery-d250-engines"
+            },
+            {
+              "label": "D300",
+              "href": "/landrover-discovery-d300-engines"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover",
+            "href": "/models"
+          },
+          "chips": [
+            {
+              "label": "TDV6",
+              "href": "/landrover-range-rover-tdv6-engines"
+            },
+            {
+              "label": "SDV6",
+              "href": "/landrover-range-rover-sdv6-engines"
+            },
+            {
+              "label": "TDV8",
+              "href": "/landrover-range-rover-tdv8-engines"
+            },
+            {
+              "label": "SDV8",
+              "href": "/landrover-range-rover-sdv8-engines"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Sport",
+            "href": "/range-rover-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "TDV6",
+              "href": "/landrover-range-rover-sport-tdv6-engines"
+            },
+            {
+              "label": "SDV6",
+              "href": "/landrover-range-rover-sport-sdv6-engines"
+            },
+            {
+              "label": "SVR",
+              "href": "/landrover-range-rover-sport-svr-engines"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Velar",
+            "href": "/range-rover-velar-engines"
+          },
+          "chips": [
+            {
+              "label": "D180",
+              "href": "/landrover-range-rover-velar-d180-engines"
+            },
+            {
+              "label": "D240",
+              "href": "/landrover-range-rover-velar-d240-engines"
+            },
+            {
+              "label": "D250",
+              "href": "/landrover-range-rover-velar-d250-engines"
+            },
+            {
+              "label": "SVAutobiography Dynamic Edition",
+              "href": "/landrover-range-rover-velar-svautobiography-dynamic-edition-engines"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Evoque",
+            "href": "/range-rover-evoque-engines"
+          },
+          "chips": [
+            {
+              "label": "TD4",
+              "href": "/landrover-evoque-td4-engines"
+            },
+            {
+              "label": "D150",
+              "href": "/landrover-range-rover-evoque-d150-engines"
+            },
+            {
+              "label": "D165",
+              "href": "/landrover-range-rover-evoque-d165-engines"
+            },
+            {
+              "label": "D180",
+              "href": "/landrover-range-rover-evoque-d180-engines"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Discovery Sport",
+            "href": "/discovery-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "TD4",
+              "href": "/landrover-discovery-sport-td4-engines"
+            },
+            {
+              "label": "D150",
+              "href": "/landrover-discovery-sport-d150-engines"
+            },
+            {
+              "label": "D165",
+              "href": "/landrover-discovery-sport-d165-engines"
+            },
+            {
+              "label": "D180",
+              "href": "/landrover-discovery-sport-d180-engines"
+            },
+            {
+              "label": "D200",
+              "href": "/landrover-discovery-sport-d200-engines"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Freelander",
+            "href": "/freelander-engines"
+          },
+          "chips": [
+            {
+              "label": "1.8i",
+              "href": "/landrover-freelander-1-8i-engines"
+            },
+            {
+              "label": "Td4",
+              "href": "/landrover-freelander-2-0-di-td4-engines"
+            },
+            {
+              "label": "SD4",
+              "href": "/landrover-freelander-sd4-engines"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Assessment & Repair Process",
+      "steps": [
+        {
+          "title": "Vehicle Arrival & Consultation",
+          "body": "Your Land Rover arrives at our workshop (recovery arranged where needed). We record your vehicle details and your account of what happened."
+        },
+        {
+          "title": "Preliminary Visual Inspection",
+          "body": "Engine bay, fluid levels and condition, visible damage, belts and hoses, underside inspection for leaks."
+        },
+        {
+          "title": "Diagnostic Scan",
+          "body": "Specialist JLR SDD/TOPix diagnostic equipment reads fault codes and live data. Any stored freeze-frame data is analysed."
+        },
+        {
+          "title": "Controlled Mechanical Tests",
+          "body": "Compression testing, leak-down testing, oil pressure testing and cooling system pressure testing where the engine can be cranked."
+        },
+        {
+          "title": "Borescope Inspection",
+          "body": "Through injector or glow plug ports: cylinder walls, piston crowns and valves are inspected for damage."
+        },
+        {
+          "title": "Oil Analysis",
+          "body": "Oil sampled for metallic particles, coolant contamination or fuel dilution. Oil filter inspected for debris."
+        },
+        {
+          "title": "Strip-Down Inspection (where required)",
+          "body": "Engine removed, mounted on stand, systematically stripped. All internal components inspected and documented with photographs."
+        },
+        {
+          "title": "Reporting & Quotation",
+          "body": "Detailed inspection report with photographs. Clear repair options and fixed-price quotation presented to you. Work begins on authorisation."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Specialist Land Rover engine assessment and repair since 2009",
+            "Full diagnostic capability with JLR SDD/TOPix and specialist equipment",
+            "Transparent assessment process with photographic documentation",
+            "Fixed-price quotations before any work begins",
+            "12-month unlimited-mileage warranty on all rebuilds",
+            "Nationwide recovery service from £70",
+            "3–5 working day rebuild turnaround from arrival",
+            "Based in Billericay, Essex — serving the UK"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[About our workshop →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How Our Service Works",
+      "steps": [
+        {
+          "title": "1. Contact us",
+          "body": "Call, email or use our [online quote form](/get-quote). We'll discuss your vehicle's symptoms and arrange for your Land Rover to come to our workshop."
+        },
+        {
+          "title": "2. Full assessment",
+          "body": "We perform the complete diagnostic workflow: visual inspection, diagnostic scan, mechanical tests, borescope inspection, oil analysis and strip-down where required."
+        },
+        {
+          "title": "3. Report & quotation",
+          "body": "You receive a detailed inspection report with photographs and a fixed-price quotation. No work begins without your authorisation."
+        },
+        {
+          "title": "4. Repair or rebuild",
+          "body": "We complete the agreed work — a full rebuild where required, including new components, machining and comprehensive testing."
+        },
+        {
+          "title": "5. Collection",
+          "body": "Your Land Rover is returned to you with a 12-month unlimited-mileage warranty on the work completed."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Land Rover Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/land-rover-engine-rebuild-process)",
+            "[Land Rover Diesel Timing Chain Repair](/land-rover-diesel-timing-chain-repair)",
+            "[Land Rover Ingenium Diesel Repair](/land-rover-ingenium-diesel-repair)",
+            "[Land Rover V8 Supercharged Repair](/land-rover-v8-supercharged-repair)",
+            "[Land Rover Engine Inspection & Assessment](/land-rover-engine-inspection-assessment)",
+            "[Land Rover Engine Rebuild Process](/land-rover-engine-rebuild-process)",
+            "[Land Rover Engine Replacement](/land-rover-engine-replacement)",
+            "[Land Rover Nationwide Engine Recovery](/land-rover-nationwide-engine-recovery)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How do you diagnose a failed Land Rover engine?",
+          "a": "We follow a structured multi-stage assessment: customer consultation, preliminary visual inspection, diagnostic scan with JLR SDD/TOPix equipment, compression and leak-down tests, borescope inspection of cylinder walls and pistons, oil analysis, and strip-down inspection where required. Every assessment is documented with photographs and a detailed inspection report."
+        },
+        {
+          "q": "Can you fix an engine that another garage has rebuilt unsuccessfully?",
+          "a": "Yes. We regularly see vehicles that have had previous rebuilds that weren't completed to specification. We strip the engine fully, inspect every component, identify incorrectly fitted or substandard parts, and rebuild correctly to manufacturer specification. This includes verifying torque settings, component clearances, timing alignment, and oil gallery cleanliness."
+        },
+        {
+          "q": "How long does an engine failure assessment take?",
+          "a": "Initial diagnosis including visual inspection, diagnostic scan and basic tests typically takes 1–2 hours. If a borescope inspection or strip-down inspection is required, this extends the assessment to 1–2 days in total. We provide a detailed inspection report and quotation before any repair work begins."
+        },
+        {
+          "q": "Do you offer engine rebuilds for Land Rover vehicles?",
+          "a": "Yes. We rebuild Land Rover engines across the full model range including Defender, Discovery, Range Rover, Range Rover Sport, Velar, Evoque and Freelander. Our rebuilds cover 4-cylinder, 6-cylinder and V8 engines, with full component replacement, machining where required, and comprehensive testing before the engine goes back in your vehicle."
+        },
+        {
+          "q": "What does the engine failure repair process include?",
+          "a": "The full process includes vehicle reception and customer consultation, preliminary visual inspection, diagnostic scanning with specialist JLR equipment, controlled mechanical testing (compression, leak-down, oil pressure, cooling system pressure), borescope inspection, oil analysis, detailed strip-down inspection where required, and a full written report with photographs and repair options. Every rebuild includes new components, machining where required, and a 12-month unlimited-mileage warranty."
+        }
+      ]
+    }
+  ]
+}

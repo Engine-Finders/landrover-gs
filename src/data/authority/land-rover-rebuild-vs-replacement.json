@@ -1,0 +1,241 @@
+{
+  "slug": "land-rover-rebuild-vs-replacement",
+  "metaTitle": "Land Rover Rebuild vs Replacement | Land Rover Garage",
+  "metaDescription": "Compare Land Rover engine rebuild vs replacement: costs, process, vehicle value, warranty. Expert advice to help you decide which is right for your vehicle.",
+  "h1": "Land Rover Rebuild vs Replacement",
+  "lede": "",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    },
+    {
+      "label": "Get My Fixed-Price Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/variant/sec1.webp",
+    "/engine/sec4.webp",
+    "/model/sec10.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What We Mean by Rebuild vs Replacement",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "When your Land Rover's engine fails, you have two main options: rebuild the original engine or replace it with a different unit. Both restore your vehicle to working order, but they differ fundamentally in process, cost, and outcome."
+        },
+        {
+          "t": "p",
+          "html": "**Engine Rebuild:** We disassemble your existing engine, inspect every component, and replace worn or damaged parts with new or reconditioned ones. Your original engine block stays with the vehicle, preserving its original engine number – critical for classic and collector vehicles."
+        },
+        {
+          "t": "p",
+          "html": "**Engine Replacement:** We remove the failed engine and install a different engine from another source – new, remanufactured, or used. The original engine is not reused, and the replacement unit may have a different history."
+        },
+        {
+          "t": "p",
+          "html": "Our workshop specialises in [Land Rover engine rebuilds](/land-rover-engine-rebuild-process) and [engine replacements](/land-rover-engine-replacement), and we'll advise you based on a thorough inspection of your specific engine."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Costs at a Glance",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "**Rebuild starting from:** £1,900 – £6,500 depending on engine type.",
+            "**Replacement:** Quoted per vehicle after inspection. We provide a fixed price before work begins.",
+            "All prices include full fitting, 12-month unlimited-mileage warranty, and road testing. [View pricing disclaimer](/pricing-legal-disclaimer)."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Which Land Rover Models Are Covered?",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Our rebuild and replacement services apply to the full Land Rover range. Click any model to see its engine options and common issues."
+        },
+        {
+          "t": "linkgrid",
+          "items": [
+            {
+              "label": "Defender",
+              "href": "/defender-engines"
+            },
+            {
+              "label": "Discovery",
+              "href": "/discovery-engines"
+            },
+            {
+              "label": "Range Rover",
+              "href": "/models"
+            },
+            {
+              "label": "Range Rover Sport",
+              "href": "/range-rover-sport-engines"
+            },
+            {
+              "label": "Discovery Sport",
+              "href": "/discovery-sport-engines"
+            },
+            {
+              "label": "Evoque",
+              "href": "/range-rover-evoque-engines"
+            },
+            {
+              "label": "Velar",
+              "href": "/range-rover-velar-engines"
+            },
+            {
+              "label": "Freelander",
+              "href": "/freelander-engines"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "We also link to specific variant pages for detailed engine information:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "[Defender Td5](/landrover-defender-td5-engines)",
+            "[Discovery TDV6](/landrover-discovery-tdv6-engines)",
+            "[Range Rover TDV6](/landrover-range-rover-tdv6-engines)",
+            "[Range Rover Sport SVR](/landrover-range-rover-sport-svr-engines)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How We Help You Decide",
+      "steps": [
+        {
+          "title": "Inspection & Assessment",
+          "body": "We remove and fully inspect your engine to determine the extent of damage and which components are reusable."
+        },
+        {
+          "title": "Recommendation",
+          "body": "Based on condition, vehicle value, parts availability, and your needs, we recommend rebuild or replacement."
+        },
+        {
+          "title": "Approval & Work",
+          "body": "We provide a fixed-price quote and begin the agreed work – rebuild in our workshop or source a replacement unit."
+        },
+        {
+          "title": "Testing & Handover",
+          "body": "Every engine is bench-tested, reinstalled, and road-tested before we hand your Land Rover back."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Established 2009** – over 15 years of specialist Land Rover engine work.",
+            "**In-house machining** – we bore, hone, and grind on site, so rebuilds stay on schedule.",
+            "**12-month unlimited-mileage warranty** on all rebuilds and replacements.",
+            "**Nationwide recovery** – we can collect your vehicle from anywhere in the UK.",
+            "**Fixed-price quotes** – no hidden extras, agreed before work starts."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[Learn more about our workshop and team →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Key Decision Factors – Rebuild vs Replacement",
+      "steps": [
+        {
+          "title": "Engine Condition",
+          "body": "**Rebuild** if the block and internals are in good shape; **replace** if cracked or beyond economical repair."
+        },
+        {
+          "title": "Vehicle Value",
+          "body": "Classic and high-value Land Rovers typically justify a rebuild to retain matching numbers. Lower-value vehicles may suit a replacement."
+        },
+        {
+          "title": "Cost & Time",
+          "body": "Rebuilds are generally 30-50% cheaper than a new or remanufactured replacement, but take longer due to machining. Replacements can be faster."
+        },
+        {
+          "title": "Warranty & Parts",
+          "body": "Replacement units often come with supplier warranty; rebuilds are warranted by our workshop. Parts availability may also sway the decision."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/land-rover-engine-rebuild-process)",
+            "[Land Rover Engine Replacement](/land-rover-engine-replacement)",
+            "[Land Rover Engine Supply & Fit](/land-rover-engine-supply-and-fit)",
+            "[Rebuild vs Used Engine](/land-rover-rebuild-vs-used-engine)",
+            "[Our Engine Rebuild Process](/land-rover-engine-rebuild-process)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Which is cheaper – rebuild or replacement?",
+          "a": "In most cases, a full rebuild is cheaper than buying a new or remanufactured engine, because you reuse the block and many internal components. However, the final cost depends on the extent of damage. We always provide a fixed price after inspection so you can compare."
+        },
+        {
+          "q": "Will my Land Rover's value be affected?",
+          "a": "For classic and collectible Land Rovers, retaining the original engine (via rebuild) can preserve or enhance value. For everyday vehicles, a professionally installed replacement engine with our warranty is generally acceptable to future buyers."
+        },
+        {
+          "q": "How long does each option take?",
+          "a": "A rebuild typically takes 3-5 working days once the engine is in our workshop, depending on machining schedules. A replacement can be quicker if we have a suitable unit in stock – often 2-3 days. We'll give you an accurate timeframe when quoting."
+        },
+        {
+          "q": "Do you offer a warranty on both?",
+          "a": "Yes – every rebuild and replacement we carry comes with a 12-month, unlimited-mileage warranty. The terms are the same for both options."
+        }
+      ]
+    }
+  ]
+}

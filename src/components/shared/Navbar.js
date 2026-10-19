@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import Icon from "@/components/reusable/Icon";
 
@@ -15,16 +16,16 @@ export default function Navbar({ data }) {
   return (
     <header className="theme-dark relative z-50 bg-black text-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-4 py-4 sm:px-6 lg:px-10">
-        <Link href="/" className="flex shrink-0 items-center gap-3">
-          <LandRoverLogo className="h-14 w-14 shrink-0 text-white" />
-          <span>
-            <span className="font-title block text-xl font-extrabold italic leading-none tracking-tight text-white sm:text-2xl">
-              {brandLead} <span className="text-[var(--color-hero-blue)]">{brandLast}</span>
-            </span>
-            <span className="mt-1 block text-[11px] font-semibold leading-none tracking-[0.12em] text-white/80 sm:text-xs">
-              {data.tagline}
-            </span>
-          </span>
+        <Link href="/" className="flex shrink-0 items-center" aria-label={`${data.brand} — home`}>
+          <Image
+            src="/brand/logo-square.webp"
+            alt={`Land Rover Garage — ${data.tagline}`}
+            width={797}
+            height={274}
+            priority
+            className="h-14 w-auto"
+            sizes="160px"
+          />
         </Link>
 
         {/* desktop nav */}

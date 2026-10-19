@@ -82,12 +82,12 @@ function ImageBand({ src, alt, kicker, title, cta }) {
       <div className="absolute inset-0 flex items-center">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
           {kicker ? (
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-hero-blue">{kicker}</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#c9a96e]">{kicker}</p>
           ) : null}
           <p className="mt-3 max-w-xl text-2xl font-extrabold uppercase italic leading-tight text-white sm:text-3xl">
             {title}
           </p>
-          <span className="mt-4 block h-0.5 w-24 bg-hero-blue" />
+          <span className="mt-4 block h-0.5 w-24 bg-[#c9a96e]" />
           {cta ? (
             <Link
               href={cta.href}
@@ -142,6 +142,7 @@ function Blocks({ blocks }) {
                   )
                 )}
               </div>
+              {b.note ? <p className="basis-full text-sm leading-relaxed text-[#4a5568]">{b.note}</p> : null}
             </div>
           );
         }
@@ -286,7 +287,7 @@ export default function AuthorityPage({ data }) {
       <section className="theme-dark relative overflow-hidden">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-24">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-hero-blue">Land Rover Garage</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#c9a96e]">Land Rover Garage</p>
             <h1 className="h1 mt-4 uppercase text-white">{data.h1}</h1>
             {data.lede ? (
               <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">{data.lede}</p>
@@ -310,7 +311,7 @@ export default function AuthorityPage({ data }) {
               <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4 border-t border-white/10 pt-6">
                 {data.stats.map((st, i) => (
                   <div key={i}>
-                    <p className="text-2xl font-extrabold text-hero-blue">{st.value}</p>
+                    <p className="text-2xl font-extrabold text-[#c9a96e]">{st.value}</p>
                     <p className="text-xs uppercase tracking-wide text-white/60">{st.label}</p>
                   </div>
                 ))}

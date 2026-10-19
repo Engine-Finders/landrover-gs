@@ -1,0 +1,401 @@
+{
+  "slug": "land-rover-trade-fleet-engine-services",
+  "metaTitle": "Land Rover Trade & Fleet Engine Services | Land Rover Garage",
+  "metaDescription": "Professional Land Rover engine rebuild, replacement and reconditioning services for trade customers, commercial fleets and B2B partners. Nationwide coverage.",
+  "h1": "Land Rover Trade & Fleet Engine Services",
+  "lede": "",
+  "ctas": [
+    {
+      "label": "Get a Trade Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Our Team",
+      "href": "/contact"
+    },
+    {
+      "label": "Get My Fixed-Price Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/engine/sec1.webp",
+    "/model/sec2.webp",
+    "/variant/sec11.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What Our Trade & Fleet Engine Services Include",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Our trade and fleet engine services are designed for commercial customers who require professional engine rebuild, replacement or reconditioning for multiple vehicles. We work with independent repair workshops, automotive parts dealers, fleet operators and contract organisations across the UK."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Engine Rebuild & Reconditioning** — Full strip-down, machining and reassembly of Land Rover engines to factory or better-than-factory tolerances, using Land Rover-specific tooling and OEM-quality parts.",
+            "**Engine Replacement & Supply & Fit** — Complete removal and replacement of engines for trade customers, with nationwide recovery available to bring vehicles to our workshop.",
+            "**Volume & Contract Work** — Tailored services for fleet operators with multiple vehicles, including ongoing maintenance programmes and priority scheduling to minimise downtime.",
+            "**B2B Reconditioning Solutions** — Specialised reconditioning of Land Rover, Range Rover and Jaguar engines for independent workshops and parts dealers.",
+            "**Defence & Government Contracts** — Contract work for UK MOD and other government organisations, including repair of Land Rover engines and associated assemblies."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Every trade engine service is backed by our [12-month, unlimited-mileage warranty](/warranty) on rebuild work, with genuine quality assurance processes throughout."
+        },
+        {
+          "t": "p",
+          "html": "[Learn more about our workshop capabilities →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Trade & Fleet Pricing",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "**Pricing for trade and fleet customers is customised based on volume, vehicle type and scope of work.**",
+            "For standard Land Rover engine rebuilds, our starting prices are:",
+            "Trade customers should [request a tailored quote](/get-quote) for their specific requirements. Volume discounts and contract pricing are available for fleet operators and regular trade partners.",
+            "[View our pricing disclaimer →](/pricing-legal-disclaimer)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Land Rover Models We Service for Trade & Fleet",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Our trade and fleet engine services cover the full Land Rover range, from classic Defenders to modern L663 models and every Discovery, Range Rover and Evoque in between."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Defender Engines",
+            "href": "/defender-engines"
+          },
+          "chips": [
+            {
+              "label": "TD5 Engine",
+              "href": "/landrover-defender-td5-engines"
+            },
+            {
+              "label": "D250 Engine",
+              "href": "/landrover-defender-d250-engines"
+            }
+          ],
+          "note": "Classic Defender (L316) and modern L663 models including TD5, 300Tdi, D200, D250, D300, P400 and Octa."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Discovery Engines",
+            "href": "/discovery-engines"
+          },
+          "chips": [
+            {
+              "label": "TDV6 Engine",
+              "href": "/landrover-discovery-tdv6-engines"
+            },
+            {
+              "label": "SDV6 Engine",
+              "href": "/landrover-discovery-sdv6-engines"
+            }
+          ],
+          "note": "Discovery 1–5 (L318, L319, L462) including Td5, TDV6, SDV6, D250, D300 and P400."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover Engines",
+            "href": "/models"
+          },
+          "chips": [
+            {
+              "label": "TDV6 Engine",
+              "href": "/landrover-range-rover-tdv6-engines"
+            },
+            {
+              "label": "SDV6 Engine",
+              "href": "/landrover-range-rover-sdv6-engines"
+            }
+          ],
+          "note": "P38A, L322, L405 and L460 including TDV6, SDV6, TDV8, SDV8, P400 and P530."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Sport Engines",
+            "href": "/range-rover-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "SVR Engine",
+              "href": "/landrover-range-rover-sport-svr-engines"
+            },
+            {
+              "label": "TDV6 Engine",
+              "href": "/landrover-range-rover-sport-tdv6-engines"
+            }
+          ],
+          "note": "L320, L494 and L461 including TDV6, SDV6, SVR (AJ133 supercharged V8) and P400."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Velar Engines",
+            "href": "/range-rover-velar-engines"
+          },
+          "chips": [
+            {
+              "label": "D250 Engine",
+              "href": "/landrover-range-rover-velar-d250-engines"
+            },
+            {
+              "label": "P400 Engine",
+              "href": "/landrover-range-rover-velar-p400-engines"
+            }
+          ],
+          "note": "L560 including D180, D240, D250, D300, P250, P300 and P400."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Evoque Engines",
+            "href": "/range-rover-evoque-engines"
+          },
+          "chips": [
+            {
+              "label": "TD4 Engine",
+              "href": "/landrover-evoque-td4-engines"
+            },
+            {
+              "label": "D165 Engine",
+              "href": "/landrover-range-rover-evoque-d165-engines"
+            }
+          ],
+          "note": "L538 and L551 including TD4, Si4, D150, D165, D180, P200 and P250."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Discovery Sport Engines",
+            "href": "/discovery-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "D165 Engine",
+              "href": "/landrover-discovery-sport-d165-engines"
+            },
+            {
+              "label": "D200 Engine",
+              "href": "/landrover-discovery-sport-d200-engines"
+            }
+          ],
+          "note": "L550 including eD4, TD4, Si4, D165, D200, P200 and P250."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Freelander Engines",
+            "href": "/freelander-engines"
+          },
+          "chips": [
+            {
+              "label": "TD4 Engine",
+              "href": "/landrover-freelander-td4-engines"
+            },
+            {
+              "label": "1.8i Engine",
+              "href": "/landrover-freelander-1-8i-engines"
+            }
+          ],
+          "note": "L314 and L359 including 1.8i (K-Series), TD4 (M47D20), eD4, Si4 and SD4."
+        },
+        {
+          "t": "p",
+          "html": "Every model link connects to a dedicated engine page with full technical details for that specific Land Rover."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Trade & Fleet Engine Service Process",
+      "steps": [
+        {
+          "title": "Enquiry & Quotation",
+          "body": "Trade customers submit vehicle details and requirements. We provide a fixed-price quote based on your specific scope of work, with volume discounts available for fleet operators."
+        },
+        {
+          "title": "Vehicle Recovery",
+          "body": "Nationwide recovery arranged from £70. Most vehicles are recovered within a few hours of booking and delivered directly to our workshop in Billericay, Essex."
+        },
+        {
+          "title": "Full Inspection & Teardown",
+          "body": "Complete engine strip-down with full inspection of all components. We identify the extent of wear or damage and confirm the final scope of work before proceeding."
+        },
+        {
+          "title": "Machining & Reconditioning",
+          "body": "On-site machining including cylinder boring, honing, crankshaft grinding and cylinder head reconditioning. All work follows BS AU257:2002 standards."
+        },
+        {
+          "title": "Rebuild & Assembly",
+          "body": "Engine rebuilt using OEM-quality or genuine parts, with Land Rover-specific tooling and diagnostic equipment. Every component is inspected and measured during assembly."
+        },
+        {
+          "title": "Testing & Quality Control",
+          "body": "Full testing including compression test, leak-down test and on-engine diagnostics. Every rebuild is road-tested before sign-off to confirm performance and reliability."
+        },
+        {
+          "title": "Delivery & Warranty",
+          "body": "Vehicle returned to the customer with a full 12-month, unlimited-mileage warranty on rebuild work. Ongoing support available for fleet maintenance programmes."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage for Trade & Fleet",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Land Rover Specialists Since 2009** — We work exclusively on Land Rover and Range Rover engines. Our team has deep expertise across every model from classic Defenders to the latest L663 and L460 platforms.",
+            "**On-Site Machine Shop** — Cylinder boring, honing, crankshaft grinding and cylinder head reconditioning all performed in-house, not outsourced. This means faster turnaround and complete quality control.",
+            "**OEM-Quality Parts & Tooling** — We use genuine or OEM-quality parts throughout, with Land Rover-specific diagnostic equipment and tooling for every engine family.",
+            "**Nationwide Recovery** — Most vehicles recovered within hours of booking. We bring your vehicle to our workshop so you don't have to arrange transport separately.",
+            "**12-Month Unlimited-Mileage Warranty** — Every trade rebuild comes with a comprehensive warranty that gives your customers confidence in our work.",
+            "**BS AU257:2002 Standards** — All remanufacturing follows British Standard BS AU257:2002, with documented quality assurance processes at every stage.",
+            "**Defence & Government Contract Experience** — Our workshop has undertaken contract work for UK MOD and other government organisations, with the documentation and traceability that defence contracts require."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[Meet our workshop team and see our capabilities →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Recent Trade & Fleet Engine Projects",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Examples of engine rebuilds and replacement work completed for trade and fleet customers across the UK."
+        },
+        {
+          "t": "p",
+          "html": "[View more case studies →](/land-rover-engine-rebuild-case-studies)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How Trade & Fleet Engine Services Work",
+      "steps": [
+        {
+          "title": "Enquiry",
+          "body": "Submit your requirements via our quote form or call our trade team. We'll discuss your vehicles, the work needed and any volume or contract requirements."
+        },
+        {
+          "title": "Quotation",
+          "body": "We provide a fixed-price quote for your specific scope of work. Volume discounts and contract pricing are available for fleet operators and regular trade partners."
+        },
+        {
+          "title": "Recovery",
+          "body": "We arrange nationwide recovery for your vehicle. Most vehicles are recovered within a few hours of booking and delivered to our workshop."
+        },
+        {
+          "title": "Work & Testing",
+          "body": "Engine rebuild or replacement carried out to our full process. Every rebuild is inspected, tested and road-tested before sign-off."
+        },
+        {
+          "title": "Return & Warranty",
+          "body": "Vehicle returned with 12-month unlimited-mileage warranty. Ongoing support and maintenance programmes available for fleet customers."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Trade & Fleet Services",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Explore our full range of professional Land Rover engine services for commercial customers."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/land-rover-engine-rebuild-process)",
+            "[Land Rover Engine Replacement](/land-rover-engine-replacement)",
+            "[Land Rover Engine Supply & Fit](/land-rover-engine-supply-and-fit)",
+            "[Nationwide Engine Recovery](/land-rover-nationwide-engine-recovery)",
+            "[Engine Inspection & Assessment](/land-rover-engine-inspection-assessment)",
+            "[Engine Matching by Registration & VIN](/land-rover-engine-matching-by-registration-vin)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions — Trade & Fleet",
+      "items": [
+        {
+          "q": "What trade and fleet engine services do you offer?",
+          "a": "We offer comprehensive engine rebuild, replacement and reconditioning services for commercial customers, including independent workshops, automotive parts dealers, fleet operators and contract organisations. Our services cover the full Land Rover range including Defender, Discovery, Range Rover, Range Rover Sport, Velar and Evoque."
+        },
+        {
+          "q": "Do you offer engine services for fleet operators with multiple vehicles?",
+          "a": "Yes. We provide tailored engine services for fleet operators, including ongoing maintenance programmes, volume rebuilds and replacement services designed to minimise vehicle downtime. Fleet operators benefit from priority scheduling and dedicated account management."
+        },
+        {
+          "q": "What quality standards do you follow for trade engine services?",
+          "a": "All our trade engine services follow industry-standard remanufacturing processes and BS AU257:2002 (British Standard) for remanufactured engines. We use Land Rover-specific tooling and diagnostic equipment, with genuine or OEM-quality parts used throughout."
+        },
+        {
+          "q": "Do you work on defence and government contracts?",
+          "a": "Yes. Our workshop undertakes contract work for defence and government organisations, including UK MOD contracts for repair of Land Rover engines and associated assemblies, particularly for Defender and other military-spec vehicles."
+        },
+        {
+          "q": "Do you offer engine recovery services for trade customers?",
+          "a": "Yes. We offer nationwide engine recovery services for trade customers, with most vehicles recovered within a few hours of booking. Recovery is a separate charge starting from £70 and can be arranged as part of your engine service package."
+        },
+        {
+          "q": "What is the typical turnaround time for a trade engine rebuild?",
+          "a": "Most engine rebuilds are completed within 3-5 working days from arrival at our workshop, subject to parts availability and the specific scope of work required. Trade customers benefit from priority scheduling to minimise vehicle downtime."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Ready to Discuss Your Trade or Fleet Requirements?",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Get a fixed-price quote for your Land Rover engine rebuild, replacement or reconditioning — tailored to your commercial needs."
+        }
+      ]
+    }
+  ]
+}
