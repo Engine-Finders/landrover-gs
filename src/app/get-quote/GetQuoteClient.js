@@ -38,7 +38,7 @@ export default function GetQuoteClient() {
     const payload = {
       vehicle_brand: make,
       vehicle_series: series,
-      vehicle_reg: year,
+      vehicle_year: year,
       vehicle_vrm: vrm,
       engine_capacity: engineCapacity,
       fuel_type: fuelType,
