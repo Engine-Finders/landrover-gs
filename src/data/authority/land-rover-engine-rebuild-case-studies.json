@@ -1,0 +1,441 @@
+{
+  "slug": "land-rover-engine-rebuild-case-studies",
+  "metaTitle": "Land Rover Engine Rebuild Case Studies | Land Rover Garage",
+  "metaDescription": "Real workshop examples across the Land Rover range — from classic Defender Td5 to modern Ingenium and supercharged V8.",
+  "h1": "Land Rover Engine Rebuild Case Studies",
+  "lede": "",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Get My Fixed-Price Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/model/sec7.webp",
+    "/engine/sec2.webp",
+    "/model/sec3.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What We Document in Every Rebuild",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Each case study represents a genuine rebuild completed at our Essex workshop. We photograph and record the process so you can see exactly what goes into restoring a Land Rover engine — from initial inspection through to road test."
+        },
+        {
+          "t": "p",
+          "html": "📌 The examples shown here are illustrative of typical rebuilds we undertake. Real customer case studies are being added as we complete work — speak to us directly for a current portfolio."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Full photographic record from arrival to completion",
+            "Detailed parts lists and machining work",
+            "Before-and-after comparison images",
+            "Warranty documentation for every rebuild"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Land Rover Rebuild Case Studies",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Real workshop examples across classic and modern Land Rover models. Each case shows the vehicle, the work undertaken, and the outcome."
+        },
+        {
+          "t": "p",
+          "html": "Complete strip-down reveals condition of bearings, cylinder head, and timing components. Every Td5 rebuild includes full measurement and machining where required."
+        },
+        {
+          "t": "p",
+          "html": "[Td5 engine family →](/landrover-td5-engine)"
+        },
+        {
+          "t": "p",
+          "html": "Vehicle: Discovery 3 TDV6, 2007, 118k miles"
+        },
+        {
+          "t": "p",
+          "html": "Work: Timing chain tensioner replacement, injector seals, crankshaft bearing inspection, EGR cleaning"
+        },
+        {
+          "t": "p",
+          "html": "Outcome: Engine restored to full working order, road-tested and returned"
+        },
+        {
+          "t": "p",
+          "html": "[View Discovery TDV6 page →](/landrover-discovery-tdv6-engines)"
+        },
+        {
+          "t": "p",
+          "html": "After timing chain and bearing work, the engine is reassembled, fluids replaced, and the vehicle road-tested to confirm performance."
+        },
+        {
+          "t": "p",
+          "html": "[TDV6/SDV6 engine family →](/landrover-tdv6-sdv6-engine)"
+        },
+        {
+          "t": "p",
+          "html": "Vehicle: Range Rover Sport SVR, 2018, 56k miles"
+        },
+        {
+          "t": "p",
+          "html": "Work: Timing chain replacement, coolant system overhaul, supercharger coupler inspection, bearing assessment"
+        },
+        {
+          "t": "p",
+          "html": "Outcome: Full performance restoration, 12-month warranty"
+        },
+        {
+          "t": "p",
+          "html": "[View SVR engine page →](/landrover-range-rover-sport-svr-engines)"
+        },
+        {
+          "t": "p",
+          "html": "Heads are skimmed, valves re-seated, and cooling passages checked as part of every supercharged V8 rebuild."
+        },
+        {
+          "t": "p",
+          "html": "[AJ133 engine family →](/landrover-aj133-engine)"
+        },
+        {
+          "t": "p",
+          "html": "Vehicle: Range Rover Evoque D180, 2017, 89k miles"
+        },
+        {
+          "t": "p",
+          "html": "Work: Timing chain tensioner replacement, oil dilution management, EGR cooler inspection, injector seals"
+        },
+        {
+          "t": "p",
+          "html": "Outcome: Smooth, quiet running restored, emissions returned to specification"
+        },
+        {
+          "t": "p",
+          "html": "[View Evoque D180 page →](/landrover-range-rover-evoque-d180-engines)"
+        },
+        {
+          "t": "p",
+          "html": "New timing chain, tensioners, and guides fitted. Every Ingenium rebuild includes full chain system replacement to prevent recurrence."
+        },
+        {
+          "t": "p",
+          "html": "[AJ200D engine family →](/landrover-aj200d-engine)"
+        },
+        {
+          "t": "p",
+          "html": "Vehicle: Defender D300, 2021, 42k miles"
+        },
+        {
+          "t": "p",
+          "html": "Work: Timing chain replacement, injector seals, DC-DC converter inspection (MHEV system), full gasket set"
+        },
+        {
+          "t": "p",
+          "html": "Outcome: Full power restored, 12-month warranty, road-tested and calibrated"
+        },
+        {
+          "t": "p",
+          "html": "[View Defender D300 page →](/landrover-defender-d300-engines)"
+        },
+        {
+          "t": "p",
+          "html": "Every rebuild ends with a full road test to verify performance, check for leaks, and confirm all systems are operating correctly before customer collection."
+        },
+        {
+          "t": "p",
+          "html": "[AJ300D engine family →](/landrover-aj300d-engine)"
+        },
+        {
+          "t": "p",
+          "html": "Vehicle: Discovery 300Tdi, 1998, 187k miles"
+        },
+        {
+          "t": "p",
+          "html": "Work: Full rebuild — cylinder head, timing belt, injectors, cooling system, water pump"
+        },
+        {
+          "t": "p",
+          "html": "Outcome: Engine returned to factory specification, vehicle back on the road"
+        },
+        {
+          "t": "p",
+          "html": "[300Tdi engine family →](/landrover-300tdi-engine)"
+        },
+        {
+          "t": "p",
+          "html": "Our Essex facility is equipped with multiple rebuild stands, diagnostic equipment, and a dedicated machine shop — all under one roof."
+        },
+        {
+          "t": "p",
+          "html": "[Inside our workshop →](/land-rover-inside-our-workshop)"
+        },
+        {
+          "t": "p",
+          "html": "📸 All images are illustrative of typical rebuild work. Real case study photography is being added as projects complete."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Models & Engines We Regularly Rebuild",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Our case studies span the full Land Rover range. Below are the model and engine pages where you can find detailed information for your specific vehicle."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Defender",
+            "href": "/defender-engines"
+          },
+          "chips": [
+            {
+              "label": "Td5",
+              "href": "/landrover-defender-td5-engines"
+            },
+            {
+              "label": "D300",
+              "href": "/landrover-defender-d300-engines"
+            },
+            {
+              "label": "P400",
+              "href": "/landrover-defender-p400-engines"
+            }
+          ],
+          "note": "Classic Td5, 200Tdi/300Tdi, modern D200/D250/D300, P400, Octa"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Discovery",
+            "href": "/discovery-engines"
+          },
+          "chips": [
+            {
+              "label": "TDV6",
+              "href": "/landrover-discovery-tdv6-engines"
+            },
+            {
+              "label": "SDV6",
+              "href": "/landrover-discovery-sdv6-engines"
+            },
+            {
+              "label": "D300",
+              "href": "/landrover-discovery-d300-engines"
+            }
+          ],
+          "note": "Discovery 3/4 TDV6/SDV6, Discovery 5 D250/D300, P400"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Sport",
+            "href": "/range-rover-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "SVR",
+              "href": "/landrover-range-rover-sport-svr-engines"
+            },
+            {
+              "label": "TDV6",
+              "href": "/landrover-range-rover-sport-tdv6-engines"
+            },
+            {
+              "label": "P400",
+              "href": "/landrover-range-rover-sport-p400-engines"
+            }
+          ],
+          "note": "TDV6/SDV6, SVR supercharged V8, P400, P530"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Evoque",
+            "href": "/range-rover-evoque-engines"
+          },
+          "chips": [
+            {
+              "label": "D180",
+              "href": "/landrover-range-rover-evoque-d180-engines"
+            },
+            {
+              "label": "P250",
+              "href": "/landrover-range-rover-evoque-p250-engines"
+            }
+          ],
+          "note": "D150/D165/D180, P200/P250, P300e"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover",
+            "href": "/models"
+          },
+          "chips": [
+            {
+              "label": "TDV6",
+              "href": "/landrover-range-rover-tdv6-engines"
+            },
+            {
+              "label": "SDV6",
+              "href": "/landrover-range-rover-sdv6-engines"
+            },
+            {
+              "label": "P400",
+              "href": "/landrover-range-rover-p400-engines"
+            }
+          ],
+          "note": "L322/L405 TDV6/SDV6, L460 Ingenium I6, P530, P550e"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Velar",
+            "href": "/range-rover-velar-engines"
+          },
+          "chips": [
+            {
+              "label": "D240",
+              "href": "/landrover-range-rover-velar-d240-engines"
+            },
+            {
+              "label": "P300",
+              "href": "/landrover-velar-p300-engines"
+            }
+          ],
+          "note": "D180/D240/D250/D300, P250/P300/P340, SVAutobiography Dynamic"
+        },
+        {
+          "t": "p",
+          "html": "[View full engine compatibility guide →](/land-rover-engine-compatibility-application-matching)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How We Document Every Rebuild",
+      "steps": [
+        {
+          "title": "Arrival & Inspection",
+          "body": "Vehicle arrives at our Essex workshop. Full diagnostic assessment and photographic record of initial condition."
+        },
+        {
+          "title": "Strip-Down & Measurement",
+          "body": "Engine removed and stripped. Components measured, photographed, and assessed against factory specifications."
+        },
+        {
+          "title": "Machining & Parts",
+          "body": "Block and heads machined where required. All replacement parts ordered and inspected before assembly."
+        },
+        {
+          "title": "Assembly & Test",
+          "body": "Engine rebuilt with new components. Bench-tested, installed, and road-tested before customer collection."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Established 2009 — over 15 years of Land Rover specialist experience",
+            "Full in-house machine shop — we don't outsource critical work",
+            "12-month unlimited-mileage warranty on every rebuild",
+            "Nationwide recovery — we can collect your vehicle anywhere in the UK",
+            "Transparent pricing — fixed quotes with no hidden extras",
+            "Real photographic documentation of every rebuild we undertake"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[Meet our team and workshop →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Engine Rebuild](/land-rover-engine-rebuild-process)",
+            "[Rebuild Process](/land-rover-engine-rebuild-process)",
+            "[Inside Our Workshop](/land-rover-inside-our-workshop)",
+            "[Before & After](/land-rover-before-after-rebuilds)",
+            "[Engine Replacement](/land-rover-engine-replacement)",
+            "[Timing Chain Repair](/land-rover-diesel-timing-chain-repair)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Are these real case studies from your workshop?",
+          "a": "The examples shown here are illustrative of the type of rebuild work we regularly undertake. We are building a full portfolio of real customer case studies with genuine photography as each project completes. Speak to our team for a current portfolio of recent rebuilds."
+        },
+        {
+          "q": "How do I get my Land Rover featured in a case study?",
+          "a": "Every rebuild we complete is photographed and documented. If you choose Land Rover Garage for your engine rebuild, we'll add your vehicle to our case study library (with your consent). You'll receive a full set of images showing your engine being rebuilt."
+        },
+        {
+          "q": "Do you rebuild classic Land Rover engines as well as modern ones?",
+          "a": "Yes — we rebuild classic engines including Td5, 200Tdi, 300Tdi, and the Rover V8, alongside modern Ingenium diesel and petrol units, AJ133 supercharged V8s, and BMW-sourced V8s in the latest models."
+        },
+        {
+          "q": "What warranty do you offer on a rebuilt engine?",
+          "a": "Every engine rebuild from Land Rover Garage comes with a 12-month unlimited-mileage warranty covering parts and labour. Full warranty terms are available on request. [View full warranty terms →](/warranty)"
+        },
+        {
+          "q": "How long does a typical engine rebuild take?",
+          "a": "Most rebuilds are completed within 3–5 working days from arrival at our workshop. Timescales can vary depending on parts availability and the complexity of the engine — we'll confirm a timeline when we quote."
+        },
+        {
+          "q": "Can I see the progress of my rebuild?",
+          "a": "Absolutely — we document every rebuild with photographs at each stage. We can share these with you as the work progresses, so you can see exactly what's being done to your engine."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Ready to discuss your rebuild?",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Contact us for a fixed-price quote, or use our registration lookup to check compatibility."
+        }
+      ]
+    }
+  ]
+}

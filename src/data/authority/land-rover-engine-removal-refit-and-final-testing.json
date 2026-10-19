@@ -1,0 +1,244 @@
+{
+  "slug": "land-rover-engine-removal-refit-and-final-testing",
+  "metaTitle": "Engine Removal, Refit & Final Testing | Land Rover Garage",
+  "metaDescription": "Engine removal, refit, and final testing using Land Rover workshop procedures and JLR diagnostic systems.",
+  "h1": "Engine Removal, Refit & Final Testing",
+  "lede": "",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    },
+    {
+      "label": "Get My Fixed-Price Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/engine/sec2.webp",
+    "/model/sec3.webp",
+    "/variant/sec13.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What This Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We carry out full engine removal, refit, and final testing for every Land Rover we work on. This isn't a bolt-in-bolt-out job — it's a precisely documented process that follows Land Rover workshop manuals and uses the correct JLR diagnostic tools."
+        },
+        {
+          "t": "p",
+          "html": "Whether we're rebuilding your original engine or fitting a replacement, the removal, refit, and testing phases are identical in rigour. We disconnect all systems, extract the engine using correctly rated lifting equipment, prepare the replacement unit, install it with exact torque specifications, reconnect every component, and validate every system before the vehicle leaves our workshop."
+        },
+        {
+          "t": "p",
+          "html": "Every vehicle then undergoes a full road test and final diagnostic scan to confirm that performance, emissions, and noise-vibration-harshness (NVH) levels meet Land Rover standards."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Starting Price",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "Engine removal and refit is included as part of our full engine rebuild or replacement services. Prices vary by engine type — see our [pricing disclaimer](/pricing-legal-disclaimer) for full details.",
+            "**Rebuilds start from £1,900** (4-cylinder diesel) and rise to £6,500 for V8 twin-turbo units. Contact us for a fixed quote after inspection."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Models & Engines",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We provide engine removal, refit, and testing for all Land Rover models and engine variants. Below are the primary model pages — click through to see detailed engine options."
+        },
+        {
+          "t": "linkgrid",
+          "items": [
+            {
+              "label": "Land Rover Defender Engines",
+              "href": "/defender-engines"
+            },
+            {
+              "label": "Land Rover Discovery Engines",
+              "href": "/discovery-engines"
+            },
+            {
+              "label": "Land Rover Discovery Sport Engines",
+              "href": "/discovery-sport-engines"
+            },
+            {
+              "label": "Land Rover Freelander Engines",
+              "href": "/freelander-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Engines",
+              "href": "/models"
+            },
+            {
+              "label": "Land Rover Range Rover Sport Engines",
+              "href": "/range-rover-sport-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Velar Engines",
+              "href": "/range-rover-velar-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Evoque Engines",
+              "href": "/range-rover-evoque-engines"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "We also work with all major engine families, including the [TDV6/SDV6](/landrover-tdv6-sdv6-engine), [Ingenium AJ200D](/landrover-aj200d-engine), [AJ300D](/landrover-aj300d-engine), [AJ133 supercharged V8](/landrover-aj133-engine), [S68 twin-turbo V8](/landrover-s68-bmw-sourced-engine), and classic [Td5](/landrover-td5-engine) and [300Tdi](/landrover-300tdi-engine) units."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Process",
+      "steps": [
+        {
+          "title": "Preparation",
+          "body": "Vehicle on lift, bonnet removed, all fluids drained (oil, coolant, power steering, AC)."
+        },
+        {
+          "title": "Disconnection",
+          "body": "All electrical connections, sensors, fuel lines, exhaust, cooling system hoses disconnected. Transmission bellhousing bolts removed."
+        },
+        {
+          "title": "Extraction",
+          "body": "Engine mountings unbolted; crane attached; engine carefully lifted from the bay."
+        },
+        {
+          "title": "Preparation of Replacement Unit",
+          "body": "Replacement engine mounted on stand; ancillaries transferred; new seals and gaskets fitted."
+        },
+        {
+          "title": "Installation",
+          "body": "Engine lowered into bay; mounts torqued to specification; transmission reconnected."
+        },
+        {
+          "title": "Reconnection & Fluid Refill",
+          "body": "All electrical, fuel, cooling, and exhaust components reconnected; all fluids refilled."
+        },
+        {
+          "title": "Final Testing",
+          "body": "Start-up, oil pressure check, coolant circulation, full JLR diagnostic scan, road test, and NVH assessment."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Established 2009** – Over 15 years of specialist Land Rover engine work.",
+            "**12-month unlimited-mileage warranty** on every rebuild and replacement.",
+            "**Nationwide recovery** – we can collect your vehicle from anywhere in the UK.",
+            "**Land Rover workshop procedures** followed at every step, including TOPIx and JLR Pathfinder diagnostics.",
+            "**Full transparency** – we provide a detailed quote after inspection, with no hidden costs.",
+            "**Real premises in Billericay** – visit our workshop and see the work in progress."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[Learn more about our workshop →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How Our Engine Removal, Refit & Testing Service Works",
+      "steps": [
+        {
+          "title": "Contact us",
+          "body": "Call, WhatsApp, or use our online form to describe your vehicle and issue."
+        },
+        {
+          "title": "Quote & inspection",
+          "body": "We provide a provisional quote; we then recover your vehicle to our workshop for a full inspection."
+        },
+        {
+          "title": "Approval & work",
+          "body": "You approve the work; we remove the engine, rebuild or replace it, and refit it with full testing."
+        },
+        {
+          "title": "Delivery",
+          "body": "We deliver your Land Rover back to you, with a detailed report and warranty."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/land-rover-engine-rebuild-process)",
+            "[Land Rover Engine Replacement](/land-rover-engine-replacement)",
+            "[Land Rover Engine Supply & Fit](/land-rover-engine-supply-and-fit)",
+            "[Land Rover Diesel Timing Chain Repair](/land-rover-diesel-timing-chain-repair)",
+            "[Land Rover Engine Failure Repair](/land-rover-engine-failure-repair)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How long does an engine removal, refit, and testing take?",
+          "a": "Typically 3-5 working days from arrival at our workshop, depending on the model and the extent of the rebuild or replacement required. We'll give you a precise timeframe after inspection."
+        },
+        {
+          "q": "Do you test the engine after refit?",
+          "a": "Yes. Every engine undergoes a thorough start-up, oil pressure check, coolant circulation verification, and a full JLR Pathfinder diagnostic scan. We also road-test the vehicle to confirm performance, emissions, and NVH levels meet manufacturer specifications."
+        },
+        {
+          "q": "What diagnostic tools do you use?",
+          "a": "We use JLR SDD (Service Diagnostic System) and Pathfinder, along with standard OBD tools, to read and clear fault codes, verify sensor values, and ensure all systems are operating correctly."
+        },
+        {
+          "q": "Is the removal and refit included in the rebuild price?",
+          "a": "Yes. Our quoted price for a rebuild or replacement always includes the full removal, refit, and testing process — there are no hidden extras for these stages."
+        },
+        {
+          "q": "Do you offer a warranty on the removal and refit work?",
+          "a": "Yes, the entire job — including the removal, refit, and testing — is covered by our 12-month unlimited-mileage warranty. Full terms are available on our [warranty page](/warranty)."
+        }
+      ]
+    }
+  ]
+}

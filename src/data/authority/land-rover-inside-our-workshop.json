@@ -1,0 +1,211 @@
+{
+  "slug": "land-rover-inside-our-workshop",
+  "metaTitle": "Inside Our Workshop | Land Rover Garage",
+  "metaDescription": "Take a look inside our Land Rover workshop in Billericay, Essex. See our facilities, equipment, and team of specialist technicians.",
+  "h1": "Inside Our Workshop",
+  "lede": "",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    },
+    {
+      "label": "Get My Fixed-Price Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/model/sec3.webp",
+    "/variant/sec13.webp",
+    "/engine/sec9b.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "Our Workshop Capabilities",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Based at Unit A5 Windsor Road, our workshop is purpose-built for Land Rover engine work. We combine modern diagnostic equipment with traditional machining skills to deliver rebuilds, replacements, and repairs across the entire Land Rover range."
+        },
+        {
+          "t": "p",
+          "html": "Every engine that arrives is inspected, stripped, and rebuilt to our 12-month unlimited-mileage warranty standard — and every rebuild is road-tested before collection."
+        },
+        {
+          "t": "p",
+          "html": "We work on [Defender](/defender-engines), [Discovery](/discovery-engines), [Range Rover](/models), and all other models — from the 200Tdi and Td5 through to the latest Ingenium and BMW-sourced V8s."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Our Equipment & Facilities",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We maintain a full in-house machine shop and diagnostic suite, so we don't rely on external subcontractors for critical work:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Two-post and four-post vehicle lifts",
+            "Engine cranes and rotating engine stands",
+            "Cylinder boring and honing machine",
+            "Crankshaft grinding and polishing equipment",
+            "Cylinder head resurfacing and pressure testing",
+            "JLR SDD / Pathfinder / TOPix diagnostic systems",
+            "Specialist timing chain tooling for Ingenium and AJ-V8",
+            "Torque-controlled assembly tools and measuring equipment"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Having this equipment on-site means we can control quality at every stage — from initial strip-down to final assembly and testing."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Meet The Workshop Team",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Our technicians have specialist experience across the full Land Rover engine range. The team includes:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Master technicians with over 15 years of Land Rover experience",
+            "In-house machinists skilled in boring, honing, and crankshaft grinding",
+            "Diagnostic specialists trained on JLR systems",
+            "Apprentices trained in-house to maintain our standards"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "We invest in ongoing training to keep up with new engine developments — including the BMW-sourced V8s and mild-hybrid systems."
+        },
+        {
+          "t": "p",
+          "html": "[Learn more about our team and history →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How We Work",
+      "steps": [
+        {
+          "title": "Inspection & Quotation",
+          "body": "We assess your engine on-site, provide a fixed-price quote, and agree a timeline."
+        },
+        {
+          "title": "Strip-Down & Machining",
+          "body": "We strip the engine, inspect every component, and perform required machining in-house."
+        },
+        {
+          "title": "Rebuild & Assembly",
+          "body": "We rebuild using genuine or OEM-spec parts, following Land Rover torque and clearance specifications."
+        },
+        {
+          "title": "Testing & Road Test",
+          "body": "We run the engine on the stand, then refit and road-test the vehicle to confirm performance."
+        },
+        {
+          "title": "Collection & Warranty",
+          "body": "Your vehicle is ready for collection with our 12-month unlimited-mileage warranty."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Our Workshop",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Specialist Land Rover engine knowledge — from classic to modern",
+            "In-house machining and diagnostics — no subcontracting",
+            "12-month unlimited-mileage warranty on all rebuilds",
+            "Nationwide recovery service available (from £70)",
+            "Quote within 30 minutes during working hours",
+            "Transparent fixed-price quotes after inspection"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[Read more about our approach →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Engine Services",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We offer a full range of Land Rover engine services — explore our other specialist pages:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/land-rover-engine-rebuild-process)",
+            "[Land Rover Diesel Timing Chain Repair](/land-rover-diesel-timing-chain-repair)",
+            "[Land Rover Ingenium Diesel Repair](/land-rover-ingenium-diesel-repair)",
+            "[Land Rover V8 Supercharged Repair](/land-rover-v8-supercharged-repair)",
+            "[Land Rover Engine Replacement](/land-rover-engine-replacement)"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "For a complete list, see our [homepage](/)."
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Can I visit the workshop to see my engine being rebuilt?",
+          "a": "Yes — we welcome visits by appointment. We can show you around the workshop and discuss your engine's progress. Please call ahead to arrange a time."
+        },
+        {
+          "q": "Do you have a customer waiting area?",
+          "a": "Yes, we have a comfortable reception area with Wi-Fi, refreshments, and a view into the workshop."
+        },
+        {
+          "q": "How long does a typical rebuild take?",
+          "a": "Most rebuilds are completed within 3–5 working days from arrival. We'll give you a more accurate timeline after inspection."
+        },
+        {
+          "q": "Do you have recovery available?",
+          "a": "Yes, we offer nationwide recovery from £70. We can usually arrange collection within a few hours of booking."
+        },
+        {
+          "q": "What warranty do you offer on rebuilds?",
+          "a": "All rebuilds come with a 12-month unlimited-mileage warranty covering parts and labour."
+        }
+      ]
+    }
+  ]
+}

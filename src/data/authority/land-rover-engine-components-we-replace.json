@@ -1,0 +1,197 @@
+{
+  "slug": "land-rover-engine-components-we-replace",
+  "metaTitle": "Land Rover Engine Components We Replace | Land Rover Garage",
+  "metaDescription": "Every rebuild includes a comprehensive set of new components — from pistons and bearings to timing chains, gaskets, and seals.",
+  "h1": "Land Rover Engine Components We Replace",
+  "lede": "",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    },
+    {
+      "label": "Get My Fixed-Price Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/engine/sec2_price_bg.webp",
+    "/model/sec5.webp",
+    "/engine/sec1.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What This Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "A full engine rebuild replaces all wear-prone internal components, returning your Land Rover's engine to manufacturer specifications. We use OEM-quality parts and follow JLR service tolerances throughout the process."
+        },
+        {
+          "t": "p",
+          "html": "**Included as standard:** pistons & rings, bearings (main, big-end, thrust), timing chains/tensioners/guides, oil pump, water pump, all gaskets & seals, and full machining of the block and cylinder head."
+        },
+        {
+          "t": "p",
+          "html": "[See our full rebuild process →](/land-rover-engine-rebuild-process)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "Full rebuild starting from",
+          "paras": [
+            "**£1,900**",
+            "Based on a 4-cylinder diesel classic engine — final price confirmed after inspection."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Prices vary by engine type: 6-cyl diesel from £2,400, V8 from £4,500, supercharged V8 from £5,500, Octa from £6,500."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Models & Engines",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "The components listed here are replaced as standard on every rebuild we perform, across all Land Rover models and engine families."
+        },
+        {
+          "t": "linkgrid",
+          "items": [
+            {
+              "label": "Defender",
+              "href": "/defender-engines"
+            },
+            {
+              "label": "Discovery",
+              "href": "/discovery-engines"
+            },
+            {
+              "label": "Discovery Sport",
+              "href": "/discovery-sport-engines"
+            },
+            {
+              "label": "Freelander",
+              "href": "/freelander-engines"
+            },
+            {
+              "label": "Range Rover",
+              "href": "/models"
+            },
+            {
+              "label": "Range Rover Sport",
+              "href": "/range-rover-sport-engines"
+            },
+            {
+              "label": "Range Rover Velar",
+              "href": "/range-rover-velar-engines"
+            },
+            {
+              "label": "Range Rover Evoque",
+              "href": "/range-rover-evoque-engines"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Key engine families covered: [Td5](/landrover-td5-engine), [300Tdi](/landrover-300tdi-engine), [200Tdi](/landrover-200tdi-engine), [AJ200D](/landrover-aj200d-engine), [AJ300D](/landrover-aj300d-engine), [AJ133](/landrover-aj133-engine), [Ford EcoBoost](/landrover-ford-ecoboost-engine), [Ford Duratorq](/landrover-ford-duratorq-engine), and more."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Established 2009 — Land Rover specialists",
+            "OEM-quality components & manufacturer tolerances",
+            "All new bearings, pistons, rings, chains, gaskets & seals",
+            "Full machine shop: boring, honing, grinding, balancing",
+            "12-month unlimited-mileage warranty",
+            "Nationwide recovery available"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[About our workshop →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/land-rover-engine-rebuild-process)",
+            "[Land Rover Engine Replacement](/land-rover-engine-replacement)",
+            "[Land Rover Diesel Timing Chain Repair](/land-rover-diesel-timing-chain-repair)",
+            "[Land Rover Ingenium Diesel Repair](/land-rover-ingenium-diesel-repair)",
+            "[Land Rover Engine Machining](/land-rover-engine-machining)",
+            "[Land Rover Engine Failure Repair](/land-rover-engine-failure-repair)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "FAQs",
+      "items": [
+        {
+          "q": "Are all components always replaced?",
+          "a": "Yes — every rebuild includes new pistons, rings, bearings, timing components, oil & water pumps, and all gaskets & seals. Machining of the block and cylinder head is also performed."
+        },
+        {
+          "q": "Do you use OEM parts or aftermarket?",
+          "a": "We use OEM-quality components from recognised suppliers that meet or exceed JLR specifications. When available, genuine Land Rover parts are used."
+        },
+        {
+          "q": "Is the cylinder head always machined?",
+          "a": "Yes — every cylinder head is planed (resurfaced) and pressure-tested as part of the rebuild to ensure a perfect seal."
+        },
+        {
+          "q": "What about supercharged engines?",
+          "a": "Supercharged engines (AJ133) also include replacement of supercharger seals, gaskets, and oil during the rebuild."
+        },
+        {
+          "q": "Do you replace timing belts on older engines?",
+          "a": "Yes — for engines with timing belts (200Tdi/300Tdi, some Duratorq), we replace the belt, tensioner, and any related pulleys."
+        },
+        {
+          "q": "What warranty do you offer?",
+          "a": "All rebuilds are backed by a 12-month unlimited-mileage warranty covering parts and labour."
+        }
+      ]
+    }
+  ]
+}
