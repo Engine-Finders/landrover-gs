@@ -63,22 +63,40 @@ export async function sendLeadToCRM(crmPayload) {
 /** One page of this site's leads, newest first, plus the total count. */
 export async function fetchSiteLeads({ page = 1 } = {}) {
   if (!ANON_KEY || !REST_URL) throw new Error("Supabase is not configured");
-  const safePage = Math.max(1, Math.floor(Number(page)) || 1);
-  const params = new URLSearchParams({
-    source: `eq.${LEAD_SOURCE}`,
-    order: "createdAt.desc",
-    limit: String(LEADS_PER_PAGE),
-    offset: String((safePage - 1) * LEADS_PER_PAGE),
-  });
-  const res = await fetch(`${REST_URL}/leads?${params}`, {
-    headers: { apikey: ANON_KEY, Authorization: `Bearer ${ANON_KEY}`, Accept: "application/json", Prefer: "count=exact" },
-    cache: "no-store",
-    signal: AbortSignal.timeout(15000),
-  });
+
+  const get = (p) => {
+    const params = new URLSearchParams({
+      source: `eq.${LEAD_SOURCE}`,
+      order: "createdAt.desc",
+      limit: String(LEADS_PER_PAGE),
+      offset: String((p - 1) * LEADS_PER_PAGE),
+    });
+    return fetch(`${REST_URL}/leads?${params}`, {
+      headers: { apikey: ANON_KEY, Authorization: `Bearer ${ANON_KEY}`, Accept: "application/json", Prefer: "count=exact" },
+      cache: "no-store",
+      signal: AbortSignal.timeout(15000),
+    });
+  };
+  // content-range looks like "0-9/42", or "*/42" when the requested page is past the end
+  const totalOf = (res) => Number((res.headers.get("content-range") || "").split("/")[1]);
+
+  let safePage = Math.max(1, Math.floor(Number(page)) || 1);
+  let res = await get(safePage);
+
+  // Page past the end (416): jump to the last real page, or return an empty list if there are no leads.
+  if (res.status === 416) {
+    const total = totalOf(res);
+    if (Number.isFinite(total) && total > 0) {
+      safePage = Math.ceil(total / LEADS_PER_PAGE);
+      res = await get(safePage);
+    } else {
+      return { leads: [], page: 1, perPage: LEADS_PER_PAGE, total: 0, totalPages: 1 };
+    }
+  }
   if (!res.ok) throw new Error(`Failed to fetch leads (${res.status})`);
+
   const leads = await res.json();
-  // content-range looks like "0-9/42"
-  const total = Number((res.headers.get("content-range") || "").split("/")[1]);
+  const total = totalOf(res);
   const count = Number.isFinite(total) ? total : Array.isArray(leads) ? leads.length : 0;
   return {
     leads: Array.isArray(leads) ? leads : [],

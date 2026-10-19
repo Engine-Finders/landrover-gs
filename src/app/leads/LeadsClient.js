@@ -83,6 +83,7 @@ export default function LeadsClient({ source }) {
         const json = await res.json();
         if (!res.ok || !json.success) throw new Error(json.error || "Failed to load leads");
         setData(json);
+        if (json.page !== p) setPage(json.page); // server moved us to the last real page
       } catch (err) {
         setError(err.message || "Failed to load leads");
         setData((d) => ({ ...d, leads: [] }));
