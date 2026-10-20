@@ -1,0 +1,284 @@
+{
+  "slug": "landrover-rebuild-vs-reconditioned",
+  "metaTitle": "Land Rover Rebuild vs Reconditioned: What's the Difference? | Land Rover Garage",
+  "metaDescription": "Land Rover Engine Rebuild vs Reconditioned explained. Genuine differences in process, parts quality, and what to expect from each service.",
+  "h1": "Land Rover Rebuild vs Reconditioned: What's the Difference?",
+  "lede": "Two terms, very different meanings. We explain exactly what each one means for your Land Rover engine—so you know what you're actually getting.",
+  "ctas": [
+    {
+      "label": "Get a Quote →",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/guides/landrover-rebuild-vs-reconditioned/1-b9d7042d.webp",
+    "/guides/landrover-rebuild-vs-reconditioned/2-88b3ea68.webp",
+    "/guides/landrover-rebuild-vs-reconditioned/3-1a41e02c.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What Does 'Rebuilt' Actually Mean?",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "In the automotive industry, a **rebuilt engine** means the engine has been fully disassembled, every component inspected, and all worn or damaged parts replaced. It's a defined process that focuses on restoring the engine to a known standard."
+        },
+        {
+          "t": "p",
+          "html": "At Land Rover Garage, our rebuilds include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Full strip-down and cleaning of the engine block",
+            "Precision measurement of all bearing surfaces and cylinder bores",
+            "Replacement of all bearings, piston rings, and timing components",
+            "New gaskets, seals, and essential wear items",
+            "Full reassembly with OE-quality parts",
+            "Final road-testing before collection"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "A rebuild is a **targeted repair**—it's not a full remanufacture, but it goes far beyond basic patching."
+        },
+        {
+          "t": "p",
+          "html": "**Reconditioned** (often shortened to \"recon\") is a much looser term. It can mean anything from a simple clean-and-reassemble to a comprehensive rebuild. The key difference is that **there is no fixed standard** for what \"reconditioned\" includes."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "May involve only partial disassembly",
+            "Some damaged components replaced—not all wear items",
+            "Non-genuine aftermarket parts may be used",
+            "Quality and scope vary widely between workshops"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "In practice, \"reconditioned\" is often used as a catch-all term. Some workshops use it to describe a full rebuild; others use it for a basic fix. That's exactly why it's less reliable."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Rebuilt vs Reconditioned: Side-by-Side",
+      "blocks": [
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Rebuilt",
+            "href": null
+          },
+          "chips": [
+            {
+              "label": "Full disassembly",
+              "href": null
+            },
+            {
+              "label": "All wear items replaced",
+              "href": null
+            },
+            {
+              "label": "OE-quality parts used",
+              "href": null
+            },
+            {
+              "label": "Defined, consistent process",
+              "href": null
+            },
+            {
+              "label": "Known outcome",
+              "href": null
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Reconditioned",
+            "href": null
+          },
+          "chips": [
+            {
+              "label": "Partial or full disassembly",
+              "href": null
+            },
+            {
+              "label": "Only some components replaced",
+              "href": null
+            },
+            {
+              "label": "May use non-genuine parts",
+              "href": null
+            },
+            {
+              "label": "Variable quality standards",
+              "href": null
+            },
+            {
+              "label": "Uncertain scope",
+              "href": null
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "The simplest way to think about it: **a rebuild is a known quantity; a recondition is a gamble.**"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Which Land Rover Models Does This Apply To?",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "This comparison applies to every Land Rover engine we work on—from classic Defenders to modern Ingenium units. The distinction between rebuild and recondition is relevant for any engine that needs attention."
+        },
+        {
+          "t": "linkgrid",
+          "items": [
+            {
+              "label": "Land Rover Defender Engines",
+              "href": "/defender-engines"
+            },
+            {
+              "label": "Land Rover Discovery Engines",
+              "href": "/discovery-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Engines",
+              "href": "/landrover-range-rover-tdv6-engines"
+            },
+            {
+              "label": "Range Rover Sport Engines",
+              "href": "/range-rover-sport-engines"
+            },
+            {
+              "label": "Range Rover Velar Engines",
+              "href": "/range-rover-velar-engines"
+            },
+            {
+              "label": "Range Rover Evoque Engines",
+              "href": "/range-rover-evoque-engines"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "If you're unsure which category your engine falls into, [use our free matching tool](/landrover-engine-matching) or [request a quote](/get-quote)."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "What Actually Happens During a Rebuild?",
+      "steps": [
+        {
+          "title": "Inspection & Strip-Down",
+          "body": "We fully disassemble the engine and inspect every component for wear or damage."
+        },
+        {
+          "title": "Machining & Cleaning",
+          "body": "The block is cleaned and any necessary machine work (boring, honing) is carried out."
+        },
+        {
+          "title": "Parts Replacement",
+          "body": "All bearings, rings, timing components, seals, and gaskets are replaced with OE-quality parts."
+        },
+        {
+          "title": "Rebuild & Test",
+          "body": "The engine is reassembled, tested, and fitted with new fluids—then road-tested before collection."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Pricing & Warranty",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Rebuilds start from **£1,900** for classic 4-cylinder diesels, up to **£6,500** for high-performance V8 units. All rebuilds include a **12-month unlimited-mileage warranty**."
+        },
+        {
+          "t": "p",
+          "html": "[View full pricing disclaimer →](/pricing-legal-disclaimer)"
+        },
+        {
+          "t": "p",
+          "html": "We don't offer a \"reconditioned\" service because we can't guarantee the same standard. If you're considering a cheaper option, we'll explain exactly what's included—and what's not—so you can make an informed decision."
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What is the main difference between a rebuilt and a reconditioned engine?",
+          "a": "A rebuilt engine is fully disassembled, all worn parts are replaced, and the process follows a defined standard. A reconditioned engine is a broader term that may involve only partial disassembly and replacement of some components—quality varies widely."
+        },
+        {
+          "q": "Are rebuilt engines better than reconditioned ones?",
+          "a": "Yes—a properly rebuilt engine follows a consistent, comprehensive process with OE-quality parts. Reconditioned engines can be anywhere from a basic clean-up to a near-rebuild, so clarity is essential."
+        },
+        {
+          "q": "Does Land Rover Garage offer reconditioned engines?",
+          "a": "We focus on genuine rebuilds. We can advise on the best route, but our core service is comprehensive rebuilds—not variable-standard reconditioning."
+        },
+        {
+          "q": "Why is 'reconditioned' considered a less reliable term?",
+          "a": "Because it has no fixed industry standard. One workshop's 'reconditioned' might mean a full rebuild; another's might mean a basic clean. This inconsistency makes it hard to know what you're getting."
+        },
+        {
+          "q": "What parts are typically replaced during a rebuild vs a recondition?",
+          "a": "A rebuild replaces all wear items: bearings, rings, timing components, seals, and gaskets. Reconditioning may replace only visibly damaged components and often uses non-genuine aftermarket parts."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/landrover-engine-rebuild)",
+            "[Land Rover Rebuild vs Replacement](/landrover-rebuild-vs-replacement)",
+            "[Land Rover Rebuild vs Used Engine](/landrover-rebuild-vs-used)",
+            "[Land Rover Rebuild vs Remanufactured](/landrover-rebuild-vs-remanufactured)",
+            "[Land Rover Repair vs Full Rebuild](/landrover-repair-vs-rebuild)",
+            "[Land Rover Engine Replacement](/landrover-engine-replacement)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Not Sure What Your Engine Needs?",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We can inspect your engine and advise honestly—whether a rebuild is the right route, or if another option makes more sense."
+        }
+      ]
+    }
+  ]
+}

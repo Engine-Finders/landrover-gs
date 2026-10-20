@@ -1,0 +1,471 @@
+{
+  "slug": "landrover-cylinder-head-repair",
+  "metaTitle": "Land Rover Cylinder Head Repair & Rebuild | Land Rover Garage",
+  "metaDescription": "Land Rover cylinder head repair and rebuild for Defender, Discovery, Range Rover, Freelander and more. Crack testing, skimming, valve work — full workshop service.",
+  "h1": "Land Rover Cylinder Head Repair & Rebuild",
+  "lede": "Professional cylinder head overhaul for Land Rover engines — crack testing, pressure testing, resurfacing, valve guides, valve seats, and full top-end rebuild.",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  ],
+  "images": [
+    "/guides/landrover-cylinder-head-repair/1-ba26a316.webp",
+    "/guides/landrover-cylinder-head-repair/2-fbd1d4a6.webp",
+    "/guides/landrover-cylinder-head-repair/3-2a049da9.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What This Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "A Land Rover cylinder head repair is a precision engineering job that addresses warping, cracking, valve seat wear, and oil leakage. It can be carried out as a **standalone top-end overhaul** or as part of a **full engine rebuild**."
+        },
+        {
+          "t": "p",
+          "html": "The service includes:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Cylinder head removal** — cooling system drained, manifolds removed, camshaft/rocker components stripped, head bolts loosened in reverse tightening sequence",
+            "**Full inspection** — dye-penetrant crack detection, pressure testing of coolant jackets, flatness measurement, valve guide and valve seat wear assessment",
+            "**Precision machining** — resurfacing / skimming to restore flatness, valve guide replacement, valve seat recutting, valve refacing",
+            "**Reassembly with new components** — new valve stem oil seals, new cylinder head gasket, new core plugs where required, new cylinder head bolts (single-use where applicable)",
+            "**Testing** — compression test, cooling system pressure test, road test after refit"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Every cylinder head we repair is pressure-tested after machining to verify coolant jacket integrity before it goes back on the engine."
+        },
+        {
+          "t": "p",
+          "html": "[Read more about our full engine rebuild process →](/landrover-engine-rebuild)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Starting Prices by Engine Family",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "**Cylinder head repair is typically quoted as part of a full engine rebuild.** Standalone top-end overhaul pricing is quoted individually after inspection."
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Engine Family",
+            "Full Rebuild From"
+          ],
+          "rows": [
+            [
+              "4-Cyl Diesel (Classic / Ingenium)",
+              "£1,900 – £2,200"
+            ],
+            [
+              "4-Cyl Petrol (Ingenium)",
+              "£2,200"
+            ],
+            [
+              "6-Cyl Diesel (TDV6 / SDV6 / Ingenium I6)",
+              "£2,400 – £3,200"
+            ],
+            [
+              "V8 (naturally aspirated)",
+              "£4,500"
+            ],
+            [
+              "V8 Supercharged (AJ133 / SVR)",
+              "£5,500"
+            ],
+            [
+              "V8 Twin-Turbo (Octa / S68)",
+              "£6,500"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Standalone cylinder head work is quoted individually — [request a quote](/get-quote) or [read our pricing disclaimer](/pricing-legal-disclaimer)."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Land Rover Models & Engine Families",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Cylinder head repair and rebuild applies across the full Land Rover range. The complexity and specific procedures vary by engine family:"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Defender",
+            "href": "/defender-engines"
+          },
+          "chips": [
+            {
+              "label": "Defender Td5",
+              "href": "/landrover-defender-td5-engines",
+              "desc": "cylinder head hardness testing required before resurfacing"
+            },
+            {
+              "label": "Defender 300Tdi",
+              "href": "/landrover-defender-300tdi-engines",
+              "desc": "cylinder head cracking known pattern"
+            },
+            {
+              "label": "Defender 200Tdi",
+              "href": "/landrover-defender-200tdi-engines",
+              "desc": "cooling system neglect leads to head warping"
+            },
+            {
+              "label": "Defender D200",
+              "href": "/landrover-defender-d200-engines",
+              "desc": "(L663) — Ingenium diesel timing chain & head work"
+            },
+            {
+              "label": "Defender D250",
+              "href": "/landrover-defender-d250-engines",
+              "desc": "(L663) — Ingenium diesel MHEV head work"
+            },
+            {
+              "label": "Defender P400",
+              "href": "/landrover-defender-p400-engines",
+              "desc": "(L663) — Ingenium petrol 6-cylinder head work"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Discovery",
+            "href": "/discovery-engines"
+          },
+          "chips": [
+            {
+              "label": "Discovery TDV6",
+              "href": "/landrover-discovery-tdv6-engines",
+              "desc": "timing chain & cylinder head work"
+            },
+            {
+              "label": "Discovery SDV6",
+              "href": "/landrover-discovery-sdv6-engines",
+              "desc": "bearing & cylinder head work"
+            },
+            {
+              "label": "Discovery Td5",
+              "href": "/landrover-discovery-td5-engines",
+              "desc": "head gasket and cylinder head work"
+            },
+            {
+              "label": "Discovery D250",
+              "href": "/landrover-discovery-d250-engines",
+              "desc": "(L462) — Ingenium diesel head work"
+            },
+            {
+              "label": "Discovery P400",
+              "href": "/landrover-discovery-p400-engines",
+              "desc": "(L462) — Ingenium petrol 6-cylinder head work"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover",
+            "href": "/landrover-range-rover-tdv6-engines"
+          },
+          "chips": [
+            {
+              "label": "Range Rover TDV6",
+              "href": "/landrover-range-rover-tdv6-engines",
+              "desc": "timing chain & cylinder head work"
+            },
+            {
+              "label": "Range Rover SDV6",
+              "href": "/landrover-range-rover-sdv6-engines",
+              "desc": "bearing & cylinder head work"
+            },
+            {
+              "label": "Range Rover TDV8",
+              "href": "/landrover-range-rover-tdv8-engines",
+              "desc": "V8 diesel cylinder head work"
+            },
+            {
+              "label": "Range Rover SDV8",
+              "href": "/landrover-range-rover-sdv8-engines",
+              "desc": "V8 diesel cylinder head work"
+            },
+            {
+              "label": "Range Rover P400",
+              "href": "/landrover-range-rover-p400-engines",
+              "desc": "(L460) — Ingenium petrol head work"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover Sport",
+            "href": "/range-rover-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "RR Sport TDV6",
+              "href": "/landrover-range-rover-sport-tdv6-engines",
+              "desc": "timing chain & cylinder head work"
+            },
+            {
+              "label": "RR Sport SDV6",
+              "href": "/landrover-range-rover-sport-sdv6-engines",
+              "desc": "bearing & cylinder head work"
+            },
+            {
+              "label": "RR Sport SVR",
+              "href": "/landrover-range-rover-sport-svr-engines",
+              "desc": "AJ133 supercharged V8 head work"
+            },
+            {
+              "label": "RR Sport P400",
+              "href": "/landrover-range-rover-sport-p400-engines",
+              "desc": "(L461) — Ingenium petrol head work"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Discovery Sport",
+            "href": "/discovery-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "Discovery Sport P200",
+              "href": "/landrover-discovery-sport-p200-engines",
+              "desc": "Ingenium petrol 4-cyl head work"
+            },
+            {
+              "label": "Discovery Sport D200",
+              "href": "/landrover-discovery-sport-d200-engines",
+              "desc": "Ingenium diesel head work"
+            },
+            {
+              "label": "Freelander 1.8i",
+              "href": "/landrover-freelander-1-8i-engines",
+              "desc": "K-Series head gasket failure pattern"
+            },
+            {
+              "label": "Freelander TD4",
+              "href": "/landrover-freelander-td4-engines",
+              "desc": "BMW M47 timing chain & head work"
+            },
+            {
+              "label": "Freelander SD4",
+              "href": "/landrover-freelander-sd4-engines",
+              "desc": "Ford Duratorq head work"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Velar",
+            "href": "/range-rover-velar-engines"
+          },
+          "chips": [
+            {
+              "label": "Velar D180",
+              "href": "/landrover-range-rover-velar-d180-engines",
+              "desc": "Ingenium diesel 4-cyl head work"
+            },
+            {
+              "label": "Velar P250",
+              "href": "/landrover-range-rover-velar-p250-engines",
+              "desc": "Ingenium petrol 4-cyl head work"
+            },
+            {
+              "label": "Evoque TD4",
+              "href": "/landrover-evoque-td4-engines",
+              "desc": "Ford Duratorq head work"
+            },
+            {
+              "label": "Evoque D150",
+              "href": "/landrover-range-rover-evoque-d150-engines",
+              "desc": "Ingenium diesel head work"
+            },
+            {
+              "label": "Evoque P200",
+              "href": "/landrover-range-rover-evoque-p200-engines",
+              "desc": "Ingenium petrol head work"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Not sure which engine your Land Rover has? [Use our engine matching tool](/landrover-engine-matching) or [request a quote](/get-quote)."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Cylinder Head Repair Process",
+      "steps": [
+        {
+          "title": "Preparation & Removal",
+          "body": "Cooling system drained, oil drained, intake/exhaust manifolds removed, rocker shaft / camshaft components stripped, injectors and glow plugs removed, cylinder head bolts loosened in reverse tightening sequence, head lifted from block."
+        },
+        {
+          "title": "Inspection",
+          "body": "Cylinder head inspected for cracks using dye-penetrant testing, pressure-tested for coolant jacket integrity, flatness checked with precision straight-edge and feeler gauges."
+        },
+        {
+          "title": "Machining",
+          "body": "Cylinder head resurfaced / skimmed where required, valve guides inspected and replaced where necessary, valve seats recut, valves refaced, valve stem oil seals replaced, core plugs checked and replaced where required."
+        },
+        {
+          "title": "Reassembly",
+          "body": "Valves installed with new valve stem seals, springs and retainers fitted, new cylinder head gasket fitted, cylinder head refitted and torqued to manufacturer specification using angle-torque procedure, rocker shaft / camshaft components refitted, injectors and glow plugs refitted."
+        },
+        {
+          "title": "Testing & Final Check",
+          "body": "Engine started and run to operating temperature, cooling system pressure-tested for leaks, compression test performed, road test performed, final quality-control inspection."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Us for Cylinder Head Work",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Precision machining in-house** — resurfacing, valve guide replacement, and valve seat recutting carried out on-site, not subcontracted",
+            "**Multi-family expertise** — we work on Td5, 300Tdi, 200Tdi, TDV6, SDV6, Ingenium, AJ133, BMW-sourced V8s, Ford Duratorq, Rover K-Series, and more",
+            "**Full pressure testing** — every cylinder head is pressure-tested after machining to verify coolant jacket integrity",
+            "**12-month unlimited-mileage warranty** on every rebuild",
+            "**Established 2009** — Land Rover engine specialists with over a decade of workshop experience",
+            "[Meet our team and workshop →](/about)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Recent Cylinder Head Jobs",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "More real job photos coming soon — [view our case studies](/landrover-engine-rebuild-case-studies)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How Cylinder Head Repair Works for You",
+      "steps": [
+        {
+          "title": "Contact us",
+          "body": "Call, email, or [request a quote online](/get-quote) with your registration and engine details."
+        },
+        {
+          "title": "Inspection",
+          "body": "We inspect your vehicle, run diagnostics, and confirm whether cylinder head repair or a full rebuild is needed."
+        },
+        {
+          "title": "Fixed-price quote",
+          "body": "We provide a fixed-price quote before any work begins — no surprises."
+        },
+        {
+          "title": "Repair or rebuild",
+          "body": "We carry out the cylinder head work to manufacturer specification, with full testing and quality control."
+        },
+        {
+          "title": "Collection",
+          "body": "Collect your Land Rover with a 12-month unlimited-mileage warranty and full documentation."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/landrover-engine-rebuild) — full engine overhaul including cylinder head work",
+            "[Land Rover Diesel Timing Chain Repair](/landrover-diesel-timing-chain-repair) — timing chain and cylinder head work often combined",
+            "[Land Rover Engine Failure Repair](/landrover-engine-failure-repair) — full diagnosis and remediation",
+            "[Land Rover Engine Inspection & Assessment](/landrover-engine-inspection-assessment) — pre-purchase and diagnostic inspections",
+            "[Land Rover High-Mileage Engine Rebuild](/landrover-high-mileage-engine-rebuild) — comprehensive overhaul for high-mileage engines"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[Need a cylinder head repair? Get a quote →](/get-quote)"
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What does a Land Rover cylinder head repair involve?",
+          "a": "A cylinder head repair involves removing the cylinder head from the engine block, inspecting it for cracks and warping, pressure testing the coolant jacket, resurfacing the mating face, replacing valve guides and valve stem seals, recutting valve seats, refacing valves, then reassembling with a new cylinder head gasket and torquing to manufacturer specifications."
+        },
+        {
+          "q": "How much does a Land Rover cylinder head rebuild cost?",
+          "a": "Cylinder head repair is typically quoted as part of a full engine rebuild. Full rebuild prices start from £1,900 for 4-cylinder diesel, £2,200 for 4-cylinder petrol, £2,400–£3,200 for 6-cylinder diesel, £4,500 for naturally aspirated V8, and £5,500 for supercharged V8. Standalone cylinder head repair is quoted individually. [See our pricing disclaimer](/pricing-legal-disclaimer)."
+        },
+        {
+          "q": "Which Land Rover models are affected by cylinder head issues?",
+          "a": "Cylinder head issues can affect any Land Rover with high mileage or overheating history. Known patterns include Td5 injector and crank sensor wear, 200Tdi/300Tdi cylinder head cracking, TDV6/SDV6 timing chain and bearing issues, Ingenium diesel timing chain tensioner wear, and K-Series head gasket failure in Freelander 1.8i models. See the full list of models above."
+        },
+        {
+          "q": "Do you resurface / skim cylinder heads?",
+          "a": "Yes. We machine-resurface cylinder heads to restore flatness after warping. Td5 cylinder heads require specific hardness testing before resurfacing. We pressure-test every cylinder head after machining to verify coolant jacket integrity."
+        },
+        {
+          "q": "Is cylinder head repair included in your engine rebuild service?",
+          "a": "Yes, full cylinder head overhaul is a standard part of every engine rebuild we carry out — including crack testing, pressure testing, resurfacing, valve guides, valve stem seals, and new cylinder head gasket. We also offer standalone top-end overhauls where a full rebuild isn't required."
+        },
+        {
+          "q": "Do you offer a warranty on cylinder head work?",
+          "a": "Yes. Every engine rebuild and cylinder head repair we carry out comes with a 12-month unlimited-mileage warranty covering parts and labour. [Read our full warranty terms →](/warranty)"
+        },
+        {
+          "q": "How long does a cylinder head repair take?",
+          "a": "Standalone cylinder head work typically takes 2-5 working days depending on the engine and machining requirements. If it's part of a full engine rebuild, the turnaround is 3-5 working days from arrival at the workshop."
+        }
+      ]
+    }
+  ]
+}

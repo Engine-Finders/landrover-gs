@@ -1,0 +1,181 @@
+{
+  "slug": "landrover-engine-recovery",
+  "metaTitle": "Nationwide Engine Recovery | Land Rover Garage",
+  "metaDescription": "Nationwide engine recovery for Land Rover. We recover your vehicle to our Essex workshop. Get a quote today.",
+  "h1": "Nationwide Engine Recovery",
+  "lede": "We recover your Land Rover and bring it to our workshop. Same-day response, covered nationwide.",
+  "ctas": [
+    {
+      "label": "Get a quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Call 0203 488 4649",
+      "href": "/landrover-engine-recovery"
+    }
+  ],
+  "images": [
+    "/guides/landrover-engine-recovery/1-3915e5cc.webp",
+    "/guides/landrover-engine-recovery/2-f0360d12.webp",
+    "/guides/landrover-engine-recovery/3-0d34ccfd.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What Our Nationwide Engine Recovery Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "If your Land Rover has suffered an engine failure away from home, we recover it safely to our workshop in Billericay, Essex. Our recovery service is available nationwide, with response times designed to get your vehicle into our care as quickly as possible. The process is straightforward and handled entirely by our team, from first contact to workshop arrival."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Contact & Booking:** Call, WhatsApp, or use our online form. We take your registration, model, engine type, location, and a brief description of the breakdown.",
+            "**Recovery Dispatch:** A suitable transporter is dispatched to your location. Our operator contacts you on arrival and assesses the vehicle for safe recovery.",
+            "**Vehicle Loading & Transport:** Your Land Rover is loaded onto a flatbed or suitable recovery vehicle using wheel straps and chains. It is then transported to our workshop.",
+            "**Workshop Receipt & Assessment:** On arrival, the vehicle is offloaded, visually inspected, and placed in a workshop bay for initial assessment by our technicians."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[→ Get a recovery quote](/get-quote)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "Recovery starts from",
+            "£70",
+            "nationwide, most vehicles recovered within a few hours of booking",
+            "Separate to the cost of any engine work. [Pricing disclaimer](/pricing-legal-disclaimer)."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Models",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "This service applies to all Land Rover models that we work on. The recovery process is tailored to the specific requirements of each vehicle — from classic Defenders to the latest L663 and L460 models."
+        },
+        {
+          "t": "linkgrid",
+          "items": [
+            {
+              "label": "Land Rover Defender",
+              "href": "/defender-engines"
+            },
+            {
+              "label": "Land Rover Discovery",
+              "href": "/discovery-engines"
+            },
+            {
+              "label": "Land Rover Range Rover",
+              "href": "/landrover-range-rover-tdv6-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Sport",
+              "href": "/range-rover-sport-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Velar",
+              "href": "/range-rover-velar-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Evoque",
+              "href": "/range-rover-evoque-engines"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[→ Learn more about our initial engine assessment](/landrover-engine-inspection-assessment)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Our Recovery Service",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Nationwide coverage** — we recover your Land Rover from anywhere in the UK.",
+            "**Rapid response** — most vehicles are recovered within a few hours of booking.",
+            "**Specialist equipment** — our fleet is equipped for heavy, 4WD Land Rover vehicles, including air-suspension models.",
+            "**Workshop-ready** — your vehicle arrives directly at our fully equipped engine workshop in Essex.",
+            "**Experienced Land Rover specialists** — our team understands the specific recovery requirements of every model."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[→ Meet our workshop](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild](/landrover-engine-rebuild)",
+            "[Land Rover Engine Replacement](/landrover-engine-replacement)",
+            "[Land Rover Engine Supply & Fit](/landrover-engine-supply-fit)",
+            "[Land Rover Engine Inspection & Assessment](/landrover-engine-inspection-assessment)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How long does recovery take?",
+          "a": "Most vehicles are recovered within a few hours of booking during working hours. Response times vary by location — we aim to get your Land Rover to our workshop as quickly as possible."
+        },
+        {
+          "q": "What areas do you cover?",
+          "a": "We provide nationwide recovery across the UK. Our transporters can collect your Land Rover from anywhere in the country."
+        },
+        {
+          "q": "Is recovery included in the price of a rebuild?",
+          "a": "Recovery is a separate service and is charged at the rates shown on this page. We are happy to provide a combined quote for recovery and any subsequent engine work."
+        },
+        {
+          "q": "Can I arrange recovery for a non-running Land Rover?",
+          "a": "Yes. We can recover vehicles that are non-running or have suffered catastrophic engine failure. Our transporters are equipped for these scenarios."
+        },
+        {
+          "q": "What if my vehicle has air suspension?",
+          "a": "Our recovery operators are experienced with air-suspension Land Rovers (Range Rover, Discovery, Range Rover Sport). We follow procedures to raise or lower the suspension as needed for safe loading."
+        }
+      ]
+    }
+  ]
+}

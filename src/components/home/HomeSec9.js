@@ -2,7 +2,6 @@
 
 import { useRef } from "react";
 import Image from "next/image";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 export default function HomeSec9({ data }) {
   const trackRef = useRef(null);
@@ -17,8 +16,15 @@ export default function HomeSec9({ data }) {
     <section className="theme-dark relative overflow-hidden">
       <div className="pointer-events-none absolute -right-24 bottom-0 h-96 w-96 rounded-full bg-hero-blue/10 blur-3xl" />
 
+      {/* Land Rover-green glare line along the top edge */}
+      <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 top-0 h-16 bg-linear-to-b from-[#607056]/25 to-transparent" />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-x-[8%] top-0 h-px bg-linear-to-r from-transparent via-[#d4dec8] to-transparent shadow-[0_0_14px_3px_rgba(159,176,140,0.55)]"
+      />
+
       {/* ===== mobile ===== */}
-      <div className="relative px-4 py-8 md:hidden">
+      <div className="relative px-4 pb-8 pt-10 md:hidden">
         <h2 className="h2 text-center uppercase text-white">
           <span className="block">Recently Completed</span>
           <span className="block text-hero-blue">Land Rover Rebuilds</span>
@@ -44,7 +50,7 @@ export default function HomeSec9({ data }) {
             </a>
           </div>
           <span className="label-text flex items-center gap-2 uppercase tracking-wide text-white/70">
-            <LandRoverLogo className="h-8 w-8" />
+            <Image src="/brand/logo-icon.webp" alt="Land Rover Garage" width={512} height={197} className="h-7 w-auto" sizes="90px" />
             {data.footerTagline}
           </span>
         </div>
@@ -99,7 +105,7 @@ export default function HomeSec9({ data }) {
           </div>
           <span className="h-6 w-px bg-white/20" />
           <span className="label-text flex items-center gap-2 uppercase tracking-wide text-white/70">
-            <LandRoverLogo className="h-9 w-9" />
+            <Image src="/brand/logo-icon.webp" alt="Land Rover Garage" width={512} height={197} className="h-8 w-auto" sizes="100px" />
             {data.footerTagline}
           </span>
         </div>

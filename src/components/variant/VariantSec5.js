@@ -93,7 +93,7 @@ export default function VariantSec5({ data }) {
           </div>
 
           <div className="mt-6 flex justify-center">
-            <Link href="/land-rover-inside-our-workshop" className="flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10">
+            <Link href="/landrover-inside-workshop" className="flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10">
               {data.viewMoreLabel} <span className="text-hero-blue" aria-hidden>→</span>
             </Link>
           </div>

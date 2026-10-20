@@ -1,0 +1,238 @@
+{
+  "slug": "landrover-bmw-v8-hot-vee-repair",
+  "metaTitle": "Land Rover BMW-Sourced V8 Hot-Vee Repair (N63/S68) | Land Rover Garage",
+  "metaDescription": "Specialist repair for Land Rover models with the BMW-sourced N63/S68 4.4L twin-turbo V8. Timing chain, hot-vee design, and full engine rebuilds. Get a fixed-price quote today.",
+  "h1": "Land Rover BMW-Sourced V8 Hot-Vee Repair (N63/S68)",
+  "lede": "Full timing-chain and engine-system overhaul for the 4.4L twin-turbo V8 found in the Defender Octa, Range Rover P530 / SV, and Range Rover Sport P530 / SV.",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Rebuild Overview",
+      "href": "/landrover-engine-rebuild"
+    }
+  ],
+  "images": [
+    "/guides/landrover-bmw-v8-hot-vee-repair/1-02cd2ce2.webp",
+    "/guides/landrover-bmw-v8-hot-vee-repair/2-0d81d8c0.webp",
+    "/guides/landrover-bmw-v8-hot-vee-repair/3-d898397a.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What This Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We specialise in the repair and rebuild of the BMW-sourced N63 and S68 4.4L twin-turbo V8 engines as fitted to high-performance Land Rover models. This is a specialised “hot-vee” engine where the turbochargers sit between the cylinder banks, creating unique access requirements and heat-management challenges."
+        },
+        {
+          "t": "p",
+          "html": "Our workshop carries out complete timing-chain system replacement, full engine strip-down inspections, and component-level rebuilds using genuine BMW/JLR-spec parts and manufacturer-approved tooling. Every repair includes a thorough pre- and post-assembly diagnostic check, followed by a road test to confirm correct operation."
+        },
+        {
+          "t": "p",
+          "html": "Work is carried out in our Essex workshop with full 12-month, unlimited-mileage warranty on all parts and labour."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Starting Price",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "**V8 Twin-Turbo (N63 / S68) – from £6,500**",
+            "Fixed-price quote includes full timing-chain kit, tensioners, guides, seals, labour, and diagnostic testing. [Pricing disclaimer](/pricing-legal-disclaimer)."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Models & Engines",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "The N63 and S68 V8 are used across the Land Rover range in high-performance variants. We perform this repair on all of the following:"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Defender",
+            "href": "/defender-engines"
+          },
+          "chips": [
+            {
+              "label": "Defender Octa (S68)",
+              "href": "/landrover-defender-octa-engines"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover",
+            "href": "/landrover-range-rover-tdv6-engines"
+          },
+          "chips": [
+            {
+              "label": "Range Rover P530 (N63/S68)",
+              "href": "/landrover-range-rover-p530-engines"
+            },
+            {
+              "label": "Range Rover SV P615 (S68)",
+              "href": "/landrover-range-rover-sv-p615-engines"
+            }
+          ]
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover Sport",
+            "href": "/range-rover-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "Range Rover Sport P530 (N63/S68)",
+              "href": "/landrover-range-rover-sport-p530-engines"
+            },
+            {
+              "label": "Range Rover Sport SV P635 (S68)",
+              "href": "/landrover-range-rover-sport-sv-p635-engines"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "**Engine families:** [N63 (BMW-sourced)](/landrover-n63-engine) · [S68 (BMW-sourced)](/landrover-s68-engine)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Process – N63 / S68 Timing Chain & Engine Repair",
+      "steps": [
+        {
+          "title": "Access & Preparation",
+          "body": "Vehicle on lift; bonnet removed. Turbocharger heat shields and pipework removed. Radiator, cooling fan, and hoses taken out. Engine oil and coolant drained."
+        },
+        {
+          "title": "Removal",
+          "body": "Crankshaft pulley removed with holding tools. Engine set to TDC using BMW locking tools. Timing chain tensioners released; guide rails unbolted; timing chains removed from sprockets."
+        },
+        {
+          "title": "Reassembly",
+          "body": "New timing chains, guide rails, and tensioners fitted. Timing set to manufacturer specifications using locking tools. All gaskets, seals, and single-use bolts replaced."
+        },
+        {
+          "title": "Testing & Quality Control",
+          "body": "Engine run to operating temperature; timing verified with BMW ISTA or JLR diagnostic equipment. Full road test (up to 30 minutes) to confirm repair quality."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Specialist workshop with over a decade of Land Rover engine experience",
+            "BMW-approved timing tooling and diagnostic equipment (ISTA / TOPix)",
+            "All work covered by a 12-month, unlimited-mileage warranty",
+            "Nationwide recovery service available – we can collect your vehicle",
+            "Fixed-price quotes with no hidden charges",
+            "Rebuild turnaround typically 3-5 working days from arrival"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[About our workshop →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "title": "",
+          "body": "Contact us with your registration or engine details – we'll confirm if your vehicle is affected by the N63/S68 timing chain pattern."
+        },
+        {
+          "title": "",
+          "body": "We provide a fixed-price quote and arrange vehicle recovery (nationwide) if required."
+        },
+        {
+          "title": "",
+          "body": "Your vehicle arrives at our Essex workshop for the repair – we keep you updated throughout."
+        },
+        {
+          "title": "",
+          "body": "Repair completed, road-tested, and returned to you with a 12-month warranty."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Rebuild – full overview](/landrover-engine-rebuild)",
+            "[Timing Chain Failure Repair – all engine families](/landrover-timing-chain-failure-repair)",
+            "[Engine Inspection & Assessment](/landrover-engine-inspection-assessment)",
+            "[V8 Supercharged Repair (AJ133)](/landrover-v8-supercharged-repair)",
+            "[Engine Replacement Service](/landrover-engine-replacement)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What does “hot-vee” mean for the N63/S68 engine?",
+          "a": "The turbochargers are mounted between the cylinder banks (in the “V” of the engine). This compact design improves response but generates extra heat and makes the timing chain access more complex than a conventional V8 layout."
+        },
+        {
+          "q": "Which Land Rover models use the BMW-sourced V8?",
+          "a": "The N63 and S68 engines are fitted to the **Defender Octa**, **Range Rover P530 / SV P615**, and **Range Rover Sport P530 / SV P635**."
+        },
+        {
+          "q": "What are the typical signs of timing chain wear on these engines?",
+          "a": "Rattling noise on cold start-up, engine warning lights, reduced performance, or fault codes related to camshaft/crankshaft correlation. We recommend an inspection if you notice any of these."
+        },
+        {
+          "q": "How long does the repair take?",
+          "a": "Timing chain replacement on the N63/S68 typically takes **3-5 working days** from the vehicle arriving at our workshop, depending on parts availability."
+        },
+        {
+          "q": "Do you offer a warranty on the repair?",
+          "a": "Yes – all our engine repairs and rebuilds come with a **12-month, unlimited-mileage warranty** covering parts and labour."
+        }
+      ]
+    }
+  ]
+}

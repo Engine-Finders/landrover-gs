@@ -46,7 +46,7 @@ export default function ModelSec12({ data }) {
           </div>
 
           <div className="mt-5 flex justify-center">
-            <Link href="/land-rover-before-after-rebuilds" className="btn-text flex items-center gap-2 rounded-lg border-2 border-hero-blue bg-white/70 px-5 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white">
+            <Link href="/landrover-before-after-rebuilds" className="btn-text flex items-center gap-2 rounded-lg border-2 border-hero-blue bg-white/70 px-5 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white">
               {data.viewMoreLabel} <span aria-hidden>→</span>
             </Link>
           </div>

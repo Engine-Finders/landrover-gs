@@ -1,177 +1,182 @@
 [
   {
     "type": "authority",
-    "slug": "land-rover-before-after-rebuilds",
+    "slug": "landrover-before-after-rebuilds",
     "title": "Land Rover Before & After Rebuilds"
   },
   {
     "type": "authority",
-    "slug": "land-rover-bmw-sourced-v8-hot-vee-repair",
+    "slug": "landrover-bmw-v8-hot-vee-repair",
     "title": "Land Rover BMW‑Sourced V8 Hot‑Vee Repair (N63/S68)"
   },
   {
     "type": "authority",
-    "slug": "land-rover-cylinder-head-repair-rebuild",
+    "slug": "landrover-cylinder-head-repair",
     "title": "Land Rover Cylinder Head Repair & Rebuild"
   },
   {
     "type": "authority",
-    "slug": "land-rover-dc-dc-converter-repair",
+    "slug": "landrover-dc-dc-converter-repair",
     "title": "Land Rover DC-DC Converter Repair (Ingenium MHEV)"
   },
   {
     "type": "authority",
-    "slug": "land-rover-diesel-timing-chain-repair",
+    "slug": "landrover-diesel-timing-chain-repair",
     "title": "Land Rover Diesel Timing Chain Repair (TDV6/SDV6/TDV8/SDV8)"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-bearing-replacement",
+    "slug": "landrover-engine-bearing-replacement",
     "title": "Land Rover Engine Bearing Replacement"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-compatibility-application-matching",
+    "slug": "landrover-engine-compatibility",
     "title": "Land Rover Engine Compatibility & Application Matching"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-components-we-replace",
+    "slug": "landrover-engine-components-replaced",
     "title": "Land Rover Engine Components We Replace"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-failure-repair",
+    "slug": "landrover-engine-failure-repair",
     "title": "Land Rover Engine Failure Repair"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-inspection-assessment",
+    "slug": "landrover-engine-inspection-assessment",
     "title": "Land Rover Engine Inspection & Assessment"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-machining",
+    "slug": "landrover-engine-machining",
     "title": "Land Rover Engine Machining"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-matching-by-registration-vin",
+    "slug": "landrover-engine-matching",
     "title": "Land Rover Engine Matching by Registration & VIN"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-rebuild-case-studies",
+    "slug": "landrover-engine-rebuild",
+    "title": "Land Rover Engine Rebuild"
+  },
+  {
+    "type": "authority",
+    "slug": "landrover-engine-rebuild-case-studies",
     "title": "Land Rover Engine Rebuild Case Studies"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-rebuild-process",
+    "slug": "landrover-engine-rebuild-process",
     "title": "Land Rover Engine Rebuild Process"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-rebuild-warranty-explained",
+    "slug": "landrover-engine-warranty",
     "title": "Land Rover Engine Rebuild Warranty Explained"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-removal-refit-and-final-testing",
+    "slug": "landrover-engine-removal-refit",
     "title": "Engine Removal, Refit & Final Testing"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-replacement",
+    "slug": "landrover-engine-replacement",
     "title": "Land Rover Engine Replacement"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-supply-and-fit",
+    "slug": "landrover-engine-supply-fit",
     "title": "Land Rover Engine Supply & Fit"
   },
   {
     "type": "authority",
-    "slug": "land-rover-engine-teardown-inspection",
+    "slug": "landrover-engine-teardown-inspection",
     "title": "Land Rover Engine Teardown & Inspection"
   },
   {
     "type": "authority",
-    "slug": "land-rover-failed-previous-rebuild-remediation",
+    "slug": "landrover-failed-previous-rebuild-remediation",
     "title": "Land Rover Failed Previous Rebuild Remediation"
   },
   {
     "type": "authority",
-    "slug": "land-rover-high-mileage-engine-rebuild",
+    "slug": "landrover-high-mileage-engine-rebuild",
     "title": "High-Mileage Engine Rebuild"
   },
   {
     "type": "authority",
-    "slug": "land-rover-ingenium-diesel-repair",
+    "slug": "landrover-ingenium-diesel-repair",
     "title": "Land Rover Ingenium Diesel Repair"
   },
   {
     "type": "authority",
-    "slug": "land-rover-inside-our-workshop",
+    "slug": "landrover-inside-workshop",
     "title": "Inside Our Workshop"
   },
   {
     "type": "authority",
-    "slug": "land-rover-nationwide-engine-recovery",
+    "slug": "landrover-engine-recovery",
     "title": "Nationwide Engine Recovery"
   },
   {
     "type": "authority",
-    "slug": "land-rover-oil-leak-gasket-repair",
+    "slug": "landrover-oil-leak-gasket-repair",
     "title": "Land Rover Oil Leak & Gasket Repair"
   },
   {
     "type": "authority",
-    "slug": "land-rover-rebuild-vs-reconditioned-what-s-the-difference",
+    "slug": "landrover-rebuild-vs-reconditioned",
     "title": "Land Rover Rebuild vs Reconditioned: What's the Difference?"
   },
   {
     "type": "authority",
-    "slug": "land-rover-rebuild-vs-remanufactured",
+    "slug": "landrover-rebuild-vs-remanufactured",
     "title": "Land Rover Rebuild vs Remanufactured"
   },
   {
     "type": "authority",
-    "slug": "land-rover-rebuild-vs-replacement",
+    "slug": "landrover-rebuild-vs-replacement",
     "title": "Land Rover Rebuild vs Replacement"
   },
   {
     "type": "authority",
-    "slug": "land-rover-rebuild-vs-used-engine",
+    "slug": "landrover-rebuild-vs-used",
     "title": "Land Rover Rebuild vs Used Engine"
   },
   {
     "type": "authority",
-    "slug": "land-rover-repair-vs-full-rebuild",
+    "slug": "landrover-repair-vs-rebuild",
     "title": "Land Rover Repair vs Full Rebuild"
   },
   {
     "type": "authority",
-    "slug": "land-rover-svr-sv-performance-engine-rebuild",
+    "slug": "landrover-svr-sv-performance-engine-rebuild",
     "title": "Land Rover SVR/SV Performance Engine Rebuild"
   },
   {
     "type": "authority",
-    "slug": "land-rover-timing-chain-failure-repair",
+    "slug": "landrover-timing-chain-failure-repair",
     "title": "Land Rover Timing Chain Failure Repair"
   },
   {
     "type": "authority",
-    "slug": "land-rover-trade-fleet-engine-services",
+    "slug": "landrover-trade-fleet-engines",
     "title": "Land Rover Trade & Fleet Engine Services"
   },
   {
     "type": "authority",
-    "slug": "land-rover-turbo-ancillary-repair",
+    "slug": "landrover-turbo-ancillary-repair",
     "title": "Land Rover Turbo & Ancillary Repair"
   },
   {
     "type": "authority",
-    "slug": "land-rover-v8-supercharged-repair",
+    "slug": "landrover-v8-supercharged-repair",
     "title": "Land Rover V8 Supercharged Repair (AJ133)"
   },
   {

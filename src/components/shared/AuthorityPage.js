@@ -54,7 +54,16 @@ function FramedImage({ src, alt, className = "", contain = false, backdrop }) {
         style={{ background: "linear-gradient(135deg, rgba(96,112,86,0.18), transparent 60%)" }}
         aria-hidden="true"
       />
-      <div className="relative aspect-4/3 overflow-hidden rounded-xl">
+      <div
+        className="relative aspect-4/3 overflow-hidden rounded-xl"
+        style={contain ? undefined : {
+          /* soft edge fade into the dark hero: all four edges blend out */
+          WebkitMaskImage: "linear-gradient(90deg, transparent 0%, #000 18%, #000 82%, transparent 100%), linear-gradient(180deg, transparent 0%, #000 18%, #000 82%, transparent 100%)",
+          maskImage: "linear-gradient(90deg, transparent 0%, #000 18%, #000 82%, transparent 100%), linear-gradient(180deg, transparent 0%, #000 18%, #000 82%, transparent 100%)",
+          WebkitMaskComposite: "source-in",
+          maskComposite: "intersect",
+        }}
+      >
         {contain && <Image src={backdrop} alt="" fill className="object-cover opacity-30" sizes="(min-width:768px) 40vw, 100vw" />}
         <Image src={src} alt={alt} fill className={contain ? "object-contain p-8 drop-shadow-[0_10px_30px_rgba(0,0,0,0.6)]" : "object-cover"} sizes="(min-width:768px) 40vw, 100vw" />
         <div
@@ -125,23 +134,43 @@ function Blocks({ blocks }) {
                   b.model.label
                 )}
               </p>
-              <div className="flex flex-wrap gap-1.5">
-                {b.chips.map((c, j) =>
-                  c.href ? (
-                    <Link
-                      key={j}
-                      href={c.href}
-                      className="rounded-full border border-black/10 bg-white px-2.5 py-1 text-xs text-[#101828] transition-colors hover:border-hero-blue/50 hover:text-hero-blue"
-                    >
-                      {c.label}
-                    </Link>
-                  ) : (
-                    <span key={j} className="rounded-full border border-black/10 px-2.5 py-1 text-xs text-[#98a2b3]">
-                      {c.label}
-                    </span>
-                  )
-                )}
-              </div>
+              {b.chips.some((c) => c.desc) ? (
+                <ul className="basis-full space-y-1.5 text-sm leading-relaxed text-[#4a5568]">
+                  {b.chips.map((c, j) => (
+                    <li key={j} className="flex gap-2.5">
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-hero-blue" aria-hidden="true" />
+                      <span>
+                        {c.href ? (
+                          <Link href={c.href} className="font-semibold text-[#101828] hover:text-hero-blue">
+                            {c.label}
+                          </Link>
+                        ) : (
+                          <span className="font-semibold text-[#101828]">{c.label}</span>
+                        )}
+                        {c.desc ? <> &mdash; {c.desc}</> : null}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <div className="flex flex-wrap gap-1.5">
+                  {b.chips.map((c, j) =>
+                    c.href ? (
+                      <Link
+                        key={j}
+                        href={c.href}
+                        className="rounded-full border border-black/10 bg-white px-2.5 py-1 text-xs text-[#101828] transition-colors hover:border-hero-blue/50 hover:text-hero-blue"
+                      >
+                        {c.label}
+                      </Link>
+                    ) : (
+                      <span key={j} className="rounded-full border border-black/10 px-2.5 py-1 text-xs text-[#98a2b3]">
+                        {c.label}
+                      </span>
+                    )
+                  )}
+                </div>
+              )}
               {b.note ? <p className="basis-full text-sm leading-relaxed text-[#4a5568]">{b.note}</p> : null}
             </div>
           );
@@ -157,11 +186,52 @@ function Blocks({ blocks }) {
               {b.heading ? (
                 <p className="text-sm font-extrabold uppercase tracking-wide text-[#101828]">{b.heading}</p>
               ) : null}
-              {(b.paras || []).map((p, j) => (
-                <p key={j} className="mt-2 text-sm leading-relaxed text-[#4a5568]">
-                  {inline(p, `c${i}-${j}`)}
-                </p>
-              ))}
+              {(b.paras || []).map((p, j) =>
+                typeof p === "string" ? (
+                  <p key={j} className="mt-2 text-sm leading-relaxed text-[#4a5568]">
+                    {inline(p, `c${i}-${j}`)}
+                  </p>
+                ) : (
+                  <ul key={j} className="mt-3 grid gap-y-2 text-sm leading-relaxed text-[#4a5568]">
+                    {(p.ul || []).map((it, k) => (
+                      <li key={k} className="flex gap-2.5">
+                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-hero-blue" aria-hidden="true" />
+                        <span>{inline(it, `c${i}-${j}-${k}`)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )
+              )}
+            </div>
+          );
+        }
+        if (b.t === "table") {
+          return (
+            <div key={i} className="max-w-4xl overflow-x-auto rounded-xl border border-black/10 bg-white">
+              <table className="w-full min-w-[30rem] border-collapse text-left text-sm">
+                {(b.head || []).length ? (
+                  <thead>
+                    <tr className="bg-black/[0.04]">
+                      {b.head.map((h, j) => (
+                        <th key={j} scope="col" className="px-4 py-2.5 text-xs font-extrabold uppercase tracking-wide text-[#101828]">
+                          {inline(h, `th${i}-${j}`)}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                ) : null}
+                <tbody>
+                  {(b.rows || []).map((r, j) => (
+                    <tr key={j} className="border-t border-black/10">
+                      {r.map((c, k) => (
+                        <td key={k} className={`px-4 py-2.5 align-top leading-relaxed ${k === 0 ? "font-semibold text-[#101828]" : "text-[#4a5568]"}`}>
+                          {inline(c, `td${i}-${j}-${k}`)}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           );
         }
@@ -276,7 +346,7 @@ function FaqSection({ s, idx }) {
 
 export default function AuthorityPage({ data }) {
   const imgs = data.images || [];
-  const heroPart = partImageFor(data.h1);
+  const heroPart = data.images?.[0]?.startsWith("/guides/") ? null : partImageFor(data.h1); // own generated hero: show it as-is, no part cut-out over it
   const sections = data.sections || [];
   const bandAt = Math.min(2, Math.max(1, Math.floor(sections.length / 3)));
   const faqIdx = sections.findIndex((s) => s.kind === "faq");

@@ -57,16 +57,17 @@ export default function HomeSec1({ hero, lookup }) {
               />
               <div className="relative">
                 <RegLookupForm
-                  buttonLabel={lookup.h2}
+                  buttonLabel={lookup.buttonLabel}
                   compact
+                  tight
                   darkButton
                   left={
                     <div className="shrink-0">
-                      <h2 className="h3 italic flex items-center justify-center gap-2 uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)]">
-                        <span className="flex shrink-0 -skew-x-12 gap-0.5" aria-hidden="true">
-                          <span className="h-5 w-1 bg-hero-blue" />
-                          <span className="h-5 w-1 bg-hero-blue" />
-                          <span className="h-5 w-1 bg-hero-blue" />
+                      <h2 className="h3 italic flex items-start justify-center gap-2 uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)]">
+                        <span className="flex h-[1.1em] shrink-0 -skew-x-12 items-center gap-0.5" aria-hidden="true">
+                          <span className="h-[0.75em] w-1 bg-hero-blue" />
+                          <span className="h-[0.75em] w-1 bg-hero-blue" />
+                          <span className="h-[0.75em] w-1 bg-hero-blue" />
                         </span>
                         {lookup.h2}
                       </h2>
@@ -128,16 +129,17 @@ export default function HomeSec1({ hero, lookup }) {
               />
               <div className="relative">
                 <RegLookupForm
-                  buttonLabel={lookup.h2}
+                  buttonLabel={lookup.buttonLabel}
                   large
+                  tight
                   darkButton
                   left={
                     <div className="shrink-0 sm:max-w-xs">
-                      <h2 className="h3 italic flex items-center justify-center gap-2.5 uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)] sm:justify-start">
-                        <span className="flex shrink-0 -skew-x-12 gap-0.5" aria-hidden="true">
-                          <span className="h-6 w-1 bg-hero-blue" />
-                          <span className="h-6 w-1 bg-hero-blue" />
-                          <span className="h-6 w-1 bg-hero-blue" />
+                      <h2 className="h3 italic flex items-start justify-center gap-2.5 uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)] sm:justify-start">
+                        <span className="flex h-[1.1em] shrink-0 -skew-x-12 items-center gap-0.5" aria-hidden="true">
+                          <span className="h-[0.75em] w-1 bg-hero-blue" />
+                          <span className="h-[0.75em] w-1 bg-hero-blue" />
+                          <span className="h-[0.75em] w-1 bg-hero-blue" />
                         </span>
                         {lookup.h2}
                       </h2>

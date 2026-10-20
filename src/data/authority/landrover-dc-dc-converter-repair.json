@@ -1,0 +1,359 @@
+{
+  "slug": "landrover-dc-dc-converter-repair",
+  "metaTitle": "Land Rover DC-DC Converter Repair (Ingenium MHEV) | Land Rover Garage",
+  "metaDescription": "Specialist DC-DC converter repair for Land Rover Ingenium MHEV models. 48V to 12V converter replacement with JLR diagnostics. Book your inspection today.",
+  "h1": "Land Rover DC-DC Converter Repair (Ingenium MHEV)",
+  "lede": "Specialist replacement of the 48V to 12V DC-DC converter on Land Rover Ingenium mild-hybrid vehicles. Full JLR diagnostics, high-voltage safety procedures, and genuine parts.",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  ],
+  "images": [
+    "/guides/landrover-dc-dc-converter-repair/1-5d00aadb.webp",
+    "/guides/landrover-dc-dc-converter-repair/2-e6afdba8.webp",
+    "/guides/landrover-dc-dc-converter-repair/3-885accea.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What the DC-DC Converter Repair Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "The DC-DC converter is a critical component of the 48-volt mild-hybrid system on Land Rover Ingenium MHEV vehicles. It converts 48V to 12V, powering the standard electrical systems including lights, infotainment, and engine control modules. When the converter fails, the entire 12V electrical system can shut down — sometimes while driving."
+        },
+        {
+          "t": "p",
+          "html": "Our workshop specialises in the safe, precise replacement of this component. Every job follows strict high-voltage safety procedures and uses JLR-specific diagnostic equipment to verify the repair."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Starting Price",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "DC-DC converter replacement from **£950**",
+            "Includes genuine Land Rover DC-DC converter, high-voltage safety procedures, JLR diagnostics, and full system testing. [Pricing disclaimer](/pricing-legal-disclaimer)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "DC-DC Converter Repair in Our Workshop",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Images marked TEMPORARY are AI-staged on real premises photos and will be replaced with genuine completed-job photography once available."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Land Rover Models",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "The DC-DC converter is fitted to Ingenium MHEV variants across the following models. If your vehicle is listed below, our DC-DC converter repair service applies."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Defender",
+            "href": "/defender-engines"
+          },
+          "chips": [
+            {
+              "label": "D200",
+              "href": "/landrover-defender-d200-engines"
+            },
+            {
+              "label": "D250",
+              "href": "/landrover-defender-d250-engines"
+            },
+            {
+              "label": "D300",
+              "href": "/landrover-defender-d300-engines"
+            },
+            {
+              "label": "D350",
+              "href": "/landrover-defender-d350-engines"
+            },
+            {
+              "label": "P400",
+              "href": "/landrover-defender-p400-engines"
+            }
+          ],
+          "note": "MHEV variants: [D200](/landrover-defender-d200-engines), [D250](/landrover-defender-d250-engines), [D300](/landrover-defender-d300-engines), [D350](/landrover-defender-d350-engines), [P400](/landrover-defender-p400-engines)"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Discovery",
+            "href": "/discovery-engines"
+          },
+          "chips": [
+            {
+              "label": "D250",
+              "href": "/landrover-discovery-d250-engines"
+            },
+            {
+              "label": "D300",
+              "href": "/landrover-discovery-d300-engines"
+            },
+            {
+              "label": "D350",
+              "href": "/landrover-discovery-d350-engines"
+            },
+            {
+              "label": "P400",
+              "href": "/landrover-discovery-p400-engines"
+            }
+          ],
+          "note": "MHEV variants: [D250](/landrover-discovery-d250-engines), [D300](/landrover-discovery-d300-engines), [D350](/landrover-discovery-d350-engines), [P400](/landrover-discovery-p400-engines)"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Discovery Sport",
+            "href": "/discovery-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "D200",
+              "href": "/landrover-discovery-sport-d200-engines"
+            }
+          ],
+          "note": "MHEV variant: [D200](/landrover-discovery-sport-d200-engines) (2020–present)"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover",
+            "href": "/landrover-range-rover-tdv6-engines"
+          },
+          "chips": [
+            {
+              "label": "D300/D350",
+              "href": "/landrover-range-rover-d300-d350-engines"
+            },
+            {
+              "label": "P400",
+              "href": "/landrover-range-rover-p400-engines"
+            }
+          ],
+          "note": "MHEV variants: [D300/D350](/landrover-range-rover-d300-d350-engines), [P400](/landrover-range-rover-p400-engines)"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover Sport",
+            "href": "/range-rover-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "D300",
+              "href": "/landrover-range-rover-sport-d300-engines"
+            },
+            {
+              "label": "P400",
+              "href": "/landrover-range-rover-sport-p400-engines"
+            }
+          ],
+          "note": "MHEV variants: [D300](/landrover-range-rover-sport-d300-engines), [P400](/landrover-range-rover-sport-p400-engines)"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover Velar",
+            "href": "/range-rover-velar-engines"
+          },
+          "chips": [
+            {
+              "label": "D250",
+              "href": "/landrover-range-rover-velar-d250-engines"
+            },
+            {
+              "label": "D300",
+              "href": "/landrover-velar-d300-engines"
+            },
+            {
+              "label": "P400",
+              "href": "/landrover-range-rover-velar-p400-engines"
+            }
+          ],
+          "note": "MHEV variants: [D250](/landrover-range-rover-velar-d250-engines), [D300](/landrover-velar-d300-engines), [P400](/landrover-range-rover-velar-p400-engines)"
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover Evoque",
+            "href": "/range-rover-evoque-engines"
+          },
+          "chips": [
+            {
+              "label": "D200",
+              "href": "/range-rover-evoque-engines"
+            }
+          ],
+          "note": "MHEV variant: [D200](/range-rover-evoque-engines) (2020–present)"
+        },
+        {
+          "t": "p",
+          "html": "**Not affected:** P300 (non-MHEV Defender), Octa (BMW 48V), P300e/P400e (PHEV), and all non-MHEV variants."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our DC-DC Converter Replacement Process",
+      "steps": [
+        {
+          "title": "Safety & Preparation",
+          "body": "Ignition off, key removed, 12V battery disconnected, 48V system isolated. Vehicle placed in a workshop bay with high-voltage safety protocols in place."
+        },
+        {
+          "title": "Access & Removal",
+          "body": "DC-DC converter located (position varies by model). Mounting bolts removed, electrical connections (48V and 12V circuits) disconnected, converter removed."
+        },
+        {
+          "title": "Installation",
+          "body": "New genuine Land Rover DC-DC converter fitted to mounting bracket. Electrical connections reconnected, bolts torqued to specification."
+        },
+        {
+          "title": "Re-energisation & Testing",
+          "body": "12V battery reconnected, 48V system re-energised. JLR-specific diagnostic equipment verifies correct operation and charging system health."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage for Your DC-DC Converter Repair",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**JLR-specific diagnostics** — we use genuine Land Rover diagnostic equipment (SDD/Pathfinder/TOPix) to confirm faults and verify repairs.",
+            "**High-voltage safety** — our technicians follow strict 48V system isolation procedures, with proper safety equipment and training.",
+            "**Genuine parts only** — we replace the DC-DC converter with new, genuine Land Rover components. Aftermarket or used parts are not a reliable option.",
+            "**Established workshop** — based in Billericay, Essex, serving Land Rover owners across the UK since 2009. [About Us](/about)",
+            "**Fixed-price quotes** — we quote after inspection, so there are no surprises. [Get a quote](/get-quote)",
+            "**Nationwide recovery** — if your vehicle is off the road, we can arrange recovery directly to our workshop. [Learn more](/landrover-engine-recovery)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Recent DC-DC Converter Replacements",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Images are illustrative. Genuine completed-job photography will replace these once available."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How Our DC-DC Converter Repair Service Works",
+      "steps": [
+        {
+          "title": "Contact us",
+          "body": "[Call](/contact), [quote request](/get-quote), or use the registration lookup above. Tell us your vehicle details and the symptoms you're experiencing."
+        },
+        {
+          "title": "Inspection & quote",
+          "body": "We inspect the vehicle at our workshop (or arrange recovery if needed). Using JLR diagnostics, we confirm the DC-DC converter fault and provide a fixed-price quote."
+        },
+        {
+          "title": "Repair",
+          "body": "Once approved, we carry out the replacement following our documented safety and testing process. Genuine Land Rover parts used throughout."
+        },
+        {
+          "title": "Test & collection",
+          "body": "JLR diagnostic verification, charging system check, and road test. Then collection from our workshop or delivery arranged."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Ingenium Diesel Repair](/landrover-ingenium-diesel-repair)",
+            "[Land Rover Diesel Timing Chain Repair (TDV6/SDV6/TDV8/SDV8)](/landrover-diesel-timing-chain-repair)",
+            "[Land Rover Engine Inspection & Assessment](/landrover-engine-inspection-assessment)",
+            "[Land Rover Engine Rebuild](/landrover-engine-rebuild)",
+            "[Land Rover Engine Replacement](/landrover-engine-replacement)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What is the DC-DC converter on a Land Rover Ingenium MHEV?",
+          "a": "The DC-DC converter is a critical component of the 48-volt mild-hybrid system. It converts 48V to 12V to power the vehicle's standard 12V electrical systems, including lights, infotainment, and engine control modules."
+        },
+        {
+          "q": "How do I know if my Land Rover needs a DC-DC converter replacement?",
+          "a": "Common symptoms include complete loss of 12V electrical power (sometimes while driving), warning lights on the dashboard, and charging system faults. Our workshop uses JLR-specific diagnostics to confirm the fault."
+        },
+        {
+          "q": "Which Land Rover models are affected by DC-DC converter failure?",
+          "a": "The DC-DC converter is fitted to Ingenium MHEV variants including: Defender (D200, D250, D300, D350, P400), Discovery (D250, D300, D350, P400), Discovery Sport (D200), Range Rover (D300/D350, P400), Range Rover Sport (D300, P400), Range Rover Velar (D250, D300, P400), and Range Rover Evoque (D200). Non-MHEV variants and the Defender Octa are not affected."
+        },
+        {
+          "q": "Do I need to use a genuine Land Rover DC-DC converter?",
+          "a": "Yes. The only reliable repair is replacement with a new, genuine Land Rover DC-DC converter. Aftermarket or used parts may not function correctly with the vehicle's MHEV system and can cause recurring faults."
+        },
+        {
+          "q": "How long does a DC-DC converter replacement take?",
+          "a": "The replacement typically takes 3–5 hours, including system de-energisation, removal, installation, and full JLR diagnostic testing. The exact duration depends on the specific model and access to the converter."
+        },
+        {
+          "q": "Do you offer a warranty on the replacement?",
+          "a": "All DC-DC converter replacements are covered by our standard 12-month, unlimited-mileage warranty. [Learn more about our warranty](/landrover-engine-warranty)."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Ready to get your Land Rover's DC-DC converter inspected?",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Contact us today for a quote or use the registration lookup above to check if your vehicle is affected."
+        }
+      ]
+    }
+  ]
+}

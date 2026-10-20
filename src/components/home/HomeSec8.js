@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 export default function HomeSec8({ data }) {
   const [line1, line2, line3] = data.h2.split("|");
@@ -48,16 +47,11 @@ export default function HomeSec8({ data }) {
               </div>
             ))}
           </div>
-
-          <div className="mt-6 flex items-center justify-center gap-2">
-            <LandRoverLogo className="h-9 w-9" />
-            <span className="text-xs font-semibold text-white">Land Rover</span>
-          </div>
         </div>
       </div>
 
       {/* ===== desktop ===== */}
-      <div className="theme-dark relative hidden overflow-hidden pb-16 md:block">
+      <div className="theme-dark relative hidden overflow-hidden pb-10 md:block">
         <div className="absolute inset-0">
           <Image src={data.bgImage} alt="" fill quality={95} className="object-cover" sizes="100vw" priority={false} />
           <div className="absolute inset-0 bg-hero-dark/25" />
@@ -116,17 +110,6 @@ export default function HomeSec8({ data }) {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* bottom-centered w.r.t. the whole section, logo vertically centered against the text,
-            flanked by gold lines on both sides */}
-        <div className="absolute inset-x-0 bottom-6 flex items-center justify-center gap-4">
-          <span className="h-px w-16 bg-hero-blue/50" />
-          <div className="flex items-center gap-3">
-            <LandRoverLogo className="h-16 w-16" />
-            <span className="text-2xl font-semibold text-white">Land Rover</span>
-          </div>
-          <span className="h-px w-16 bg-hero-blue/50" />
         </div>
       </div>
 

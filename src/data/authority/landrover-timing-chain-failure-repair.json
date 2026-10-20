@@ -1,0 +1,401 @@
+{
+  "slug": "landrover-timing-chain-failure-repair",
+  "metaTitle": "Land Rover Timing Chain Failure Repair | Land Rover Garage",
+  "metaDescription": "Expert Land Rover timing chain failure repair at our Essex workshop. Full assessment, strip-down, and replacement. Fixed-price quotes. 12-month warranty. Call now.",
+  "h1": "Land Rover Timing Chain Failure Repair",
+  "lede": "Professional assessment, strip-down, and repair for failed timing chains on all Land Rover models. Fixed-price quotes after inspection.",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  ],
+  "images": [
+    "/guides/landrover-timing-chain-failure-repair/1-31a7c99f.webp",
+    "/guides/landrover-timing-chain-failure-repair/2-e751941d.webp",
+    "/guides/landrover-timing-chain-failure-repair/3-3e3df64c.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What This Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "When a timing chain fails, it demands a professional, methodical response. At Land Rover Garage, we handle the entire journey from initial assessment through to complete repair. Our process includes:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Full diagnostic scan and acoustic inspection to confirm chain failure",
+            "Strip-down inspection (front- or rear-mounted chain access) to assess damage",
+            "Replacement of timing chain(s), tensioners, guides, and any affected sprockets",
+            "Precise timing set using manufacturer locking tools",
+            "Comprehensive testing and road test before handover"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Every repair is backed by our [12-month unlimited-mileage warranty](/warranty)."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Starting Price",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "**Fixed-price quotation after assessment** Our timing chain failure repair costs are confirmed only after a full strip-down inspection, because the extent of damage varies by engine and condition. For many Land Rover engines, full rebuilds start from:",
+            {
+              "ul": [
+                "**4-cylinder diesel** — from £1,900",
+                "**6-cylinder diesel** — from £2,400",
+                "**V8 (non-supercharged)** — from £4,500",
+                "**Supercharged V8** — from £5,500"
+              ]
+            },
+            "Timing chain replacement alone may be quoted separately. [Pricing disclaimer](/pricing-legal-disclaimer)."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Our Workshop at Work",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "All images are staged on real premises photography and are temporary placeholders pending genuine completed-job photography."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Models & Engines",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Our timing chain failure repair covers all Land Rover models that use timing-chain-driven engines. Below are the most common applications we see in our workshop."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Defender",
+            "href": "/defender-engines"
+          },
+          "chips": [
+            {
+              "label": "Defender Td5",
+              "href": "/landrover-defender-td5-engines"
+            },
+            {
+              "label": "Defender D200",
+              "href": "/landrover-defender-d200-engines"
+            },
+            {
+              "label": "Defender D250",
+              "href": "/landrover-defender-d250-engines"
+            }
+          ],
+          "note": "TD5, 200Tdi, 300Tdi, and modern Ingenium diesels (D200/D250/D300) — timing chain and tensioner wear is a known pattern."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Discovery",
+            "href": "/discovery-engines"
+          },
+          "chips": [
+            {
+              "label": "Discovery TDV6",
+              "href": "/landrover-discovery-tdv6-engines"
+            },
+            {
+              "label": "Discovery SDV6",
+              "href": "/landrover-discovery-sdv6-engines"
+            },
+            {
+              "label": "Discovery D250",
+              "href": "/landrover-discovery-d250-engines"
+            }
+          ],
+          "note": "TDV6/SDV6 (D3/D4) and Ingenium diesels (D5) — timing chain tensioner failure is a widely documented issue."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Land Rover Range Rover",
+            "href": "/landrover-range-rover-tdv6-engines"
+          },
+          "chips": [
+            {
+              "label": "Range Rover TDV6",
+              "href": "/landrover-range-rover-tdv6-engines"
+            },
+            {
+              "label": "Range Rover SDV6",
+              "href": "/landrover-range-rover-sdv6-engines"
+            },
+            {
+              "label": "Range Rover Vogue",
+              "href": "/landrover-range-rover-vogue-engines"
+            }
+          ],
+          "note": "TDV6/SDV6 (L322/L405) and V8 diesel/petrol — chain and guide wear affects many vehicles in this range."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Sport",
+            "href": "/range-rover-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "Sport TDV6",
+              "href": "/landrover-range-rover-sport-tdv6-engines"
+            },
+            {
+              "label": "Sport SDV6",
+              "href": "/landrover-range-rover-sport-sdv6-engines"
+            },
+            {
+              "label": "Sport SVR",
+              "href": "/landrover-range-rover-sport-svr-engines"
+            }
+          ],
+          "note": "TDV6/SDV6 and supercharged V8 (SVR) — timing chain issues are common across the Sport lineage."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Velar",
+            "href": "/range-rover-velar-engines"
+          },
+          "chips": [
+            {
+              "label": "Velar D180",
+              "href": "/landrover-range-rover-velar-d180-engines"
+            },
+            {
+              "label": "Velar D250",
+              "href": "/landrover-range-rover-velar-d250-engines"
+            },
+            {
+              "label": "Velar P250",
+              "href": "/landrover-range-rover-velar-p250-engines"
+            }
+          ],
+          "note": "Ingenium diesel and petrol (D180/D200/D240/D250, P250/P300) — timing chain tensioner wear is a known pattern."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Discovery Sport",
+            "href": "/discovery-sport-engines"
+          },
+          "chips": [
+            {
+              "label": "Sport D150",
+              "href": "/landrover-discovery-sport-d150-engines"
+            },
+            {
+              "label": "Sport D165",
+              "href": "/landrover-discovery-sport-d165-engines"
+            },
+            {
+              "label": "Sport D200",
+              "href": "/landrover-discovery-sport-d200-engines"
+            }
+          ],
+          "note": "Ingenium diesel (D150/D165/D180/D200) — timing chain wear is a frequent concern."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Range Rover Evoque",
+            "href": "/range-rover-evoque-engines"
+          },
+          "chips": [
+            {
+              "label": "Evoque D150",
+              "href": "/landrover-range-rover-evoque-d150-engines"
+            },
+            {
+              "label": "Evoque D180",
+              "href": "/landrover-range-rover-evoque-d180-engines"
+            },
+            {
+              "label": "Evoque P250",
+              "href": "/landrover-range-rover-evoque-p250-engines"
+            }
+          ],
+          "note": "Ingenium diesel (D150/D165/D180) and petrol — timing chain issues affect both fuel types."
+        },
+        {
+          "t": "modelgroup",
+          "model": {
+            "label": "Freelander",
+            "href": "/freelander-engines"
+          },
+          "chips": [
+            {
+              "label": "Freelander TD4",
+              "href": "/landrover-freelander-td4-engines"
+            },
+            {
+              "label": "Freelander SD4",
+              "href": "/landrover-freelander-sd4-engines"
+            }
+          ],
+          "note": "M47D20 (Td4) and Ford Duratorq — timing chain stretch is a known pattern."
+        },
+        {
+          "t": "p",
+          "html": "If your model isn't listed, [contact us](/contact) — we cover the entire Land Rover range."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Process",
+      "steps": [
+        {
+          "title": "Initial Assessment",
+          "body": "We receive your vehicle, record details, and perform a diagnostic scan and acoustic inspection to confirm timing chain failure."
+        },
+        {
+          "title": "Strip-down Inspection",
+          "body": "Access is gained (front or rear, depending on engine) to visually inspect chains, tensioners, guides, and sprockets. Oil system checked for debris."
+        },
+        {
+          "title": "Damage Assessment & Quotation",
+          "body": "All damaged components are documented and photographed. We provide a fixed-price quotation for the repair or rebuild."
+        },
+        {
+          "title": "Component Replacement",
+          "body": "New timing chain kit (chains, tensioners, guides, sprockets) is installed. All gaskets and seals are renewed."
+        },
+        {
+          "title": "Timing Set & Reassembly",
+          "body": "Timing is set to manufacturer specification using locking tools. Front-end components (or subframe/gearbox) are reassembled."
+        },
+        {
+          "title": "Testing & Validation",
+          "body": "Engine is started, run to temperature, and timing verified with live data. A road test confirms everything is working correctly."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**12-month unlimited-mileage warranty** on every repair",
+            "**Established 2009** — over 15 years of Land Rover specialist experience",
+            "**Nationwide recovery** — we can collect your vehicle from anywhere in the UK",
+            "**Fixed-price quotes** — no hidden costs after inspection",
+            "**All work carried out in-house** — from strip-down to road test",
+            "**JLR diagnostic equipment** for accurate fault identification"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[Learn more about our workshop →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Recent Timing Chain Repairs",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "These images are for illustrative purposes only and are staged on real premises photography. We are building a library of genuine completed jobs."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "title": "Contact Us",
+          "body": "Call, email, or use our reg lookup to describe the issue. We'll arrange a convenient time to bring your vehicle in."
+        },
+        {
+          "title": "Inspection & Quote",
+          "body": "We carry out a full assessment and provide a fixed-price quote before any work begins."
+        },
+        {
+          "title": "Repair & Test",
+          "body": "We perform the repair, test thoroughly, and hand your vehicle back with a 12-month warranty."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Diesel Timing Chain Repair (TDV6/SDV6/TDV8/SDV8)](/landrover-diesel-timing-chain-repair)",
+            "[Land Rover Ingenium Diesel Repair](/landrover-ingenium-diesel-repair)",
+            "[Land Rover V8 Supercharged Repair (AJ133)](/landrover-v8-supercharged-repair)",
+            "[Land Rover Engine Failure Repair](/landrover-engine-failure-repair)",
+            "[Land Rover Engine Inspection & Assessment](/landrover-engine-inspection-assessment)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What happens during a timing chain failure repair?",
+          "a": "We carry out a full assessment, strip-down to access the timing chain, replace all worn components (chains, tensioners, guides, sprockets), set timing precisely, and test the engine thoroughly. The exact procedure depends on whether the chain is front- or rear-mounted."
+        },
+        {
+          "q": "How long does a timing chain repair take?",
+          "a": "Assessment typically takes 1-2 days. The repair itself can take 1-3 weeks, depending on parts availability and whether additional damage (e.g., bent valves) is found. We will give you a clear timeframe before work starts."
+        },
+        {
+          "q": "Do you offer a warranty on timing chain repairs?",
+          "a": "Yes — every repair comes with a 12-month unlimited-mileage warranty covering parts and labour."
+        },
+        {
+          "q": "What if the engine is beyond repair?",
+          "a": "If the engine is irreparable, we will advise on the best course of action, which may include replacement with a fully tested unit. We only proceed with your approval."
+        },
+        {
+          "q": "Can you collect my vehicle?",
+          "a": "Yes — we offer nationwide recovery from £70. Most vehicles are collected within a few hours of booking."
+        }
+      ]
+    }
+  ]
+}

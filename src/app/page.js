@@ -36,9 +36,9 @@ export default function Home() {
   return (
     <>
       <HomeSec1 hero={homeSec1} lookup={homeSec2} />
-      <div className="bg-linear-to-b from-(--color-light-surface) to-(--color-light-surface) pb-6 pt-40 md:pt-28">
+      <div className="bg-linear-to-b from-(--color-light-surface) to-(--color-light-surface) pt-40 md:pt-28">
         <HomeSec3 data={homeSec3} />
-        <HomeSec4 data={homeSec4} />
+        <HomeSec7 data={homeSec7} />
       </div>
       {/* bg-(--color-light-surface) shows through Sec4_5's diagonal clip-path cut at the
           bottom — matches Sec5 right after it instead of the page's default background. */}
@@ -47,7 +47,9 @@ export default function Home() {
       </div>
       <HomeSec5 data={homeSec5} />
       <HomeSec6 data={homeSec6} />
-      <HomeSec7 data={homeSec7} />
+      <div className="bg-(--color-light-surface)">
+        <HomeSec4 data={homeSec4} />
+      </div>
       <HomeSec8 data={homeSec8} />
       <HomeSec9 data={homeSec9} />
       <HomeSec9_5 data={homeSec9_5} />
