@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { lookupVrm, buildQuoteUrl } from "@/lib/vrmLookup";
+import UnionJack from "@/components/reusable/UnionJack";
 
 export default function RegLookupForm({
   buttonLabel = "Find My Land Rover",
@@ -22,6 +23,7 @@ export default function RegLookupForm({
   short = false,
   darkField = false,
   whiteField = false,
+  tight = false,
 }) {
   const [reg, setReg] = useState("");
   const [loading, setLoading] = useState(false);
@@ -55,7 +57,7 @@ export default function RegLookupForm({
           ? "flex w-full items-center gap-2 text-left"
           : stacked
             ? "flex w-full flex-col items-start gap-3 text-left"
-            : "flex w-full flex-col items-center gap-6 text-center sm:flex-row sm:justify-between sm:text-left"
+            : `flex w-full flex-col items-center ${tight ? "gap-3 sm:gap-6" : "gap-6"} text-center sm:flex-row sm:text-left`
       }
     >
       {left}
@@ -70,30 +72,17 @@ export default function RegLookupForm({
         }`}
       >
         <span
-          className={`flex ${row ? "w-8" : stacked ? "w-9" : "w-12 sm:w-14"} shrink-0 flex-col items-center justify-center gap-1 ${
-            whiteField ? "bg-[#003399] text-white" : `text-[var(--color-hero-gold)] ${darkField ? "bg-[#232323]" : "bg-[#1a1a1a]"}`
+          className={`flex ${row ? "w-8" : stacked ? "w-9" : "w-12 sm:w-14"} shrink-0 items-center justify-center ${
+            whiteField ? "bg-[#003399]" : darkField ? "bg-[#232323]" : "bg-[#1a1a1a]"
           }`}
         >
-          {whiteField ? (
-            // UK plate EU-style band: ring of 12 yellow stars
-            <svg viewBox="0 0 20 20" className="h-4 w-4" aria-hidden="true">
-              {Array.from({ length: 12 }, (_, i) => {
-                const a = (i / 12) * 2 * Math.PI;
-                return <circle key={i} cx={(10 + 7 * Math.sin(a)).toFixed(2)} cy={(10 - 7 * Math.cos(a)).toFixed(2)} r="1.1" fill="#ffcc00" />;
-              })}
-            </svg>
-          ) : (
-            <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full border border-[var(--color-hero-gold)] text-[10px] leading-none">
-              ★
-            </span>
-          )}
-          <span className={`${row || stacked ? "text-[9px]" : "text-[11px] sm:text-xs"} font-extrabold tracking-wide`}>GB</span>
+          <UnionJack className={row ? "w-5" : stacked ? "w-6" : "w-8 sm:w-9"} />
         </span>
         <input
           type="text"
           value={reg}
           onChange={(e) => setReg(e.target.value.toUpperCase())}
-          placeholder="AB12 CDE"
+          placeholder="Your Reg"
           maxLength={8}
           style={{ fontFamily: '"Charles Wright", sans-serif' }}
           className={`min-w-0 flex-1 px-2 text-center tracking-wide outline-none ${

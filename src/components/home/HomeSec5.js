@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 function TopStrip() {
   return (
@@ -46,9 +45,6 @@ export default function HomeSec5({ data }) {
       <div className="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-hero-blue/10 blur-3xl" />
       <div className="relative mx-auto max-w-6xl">
         <div className="text-center">
-          <div className="mx-auto mb-4 flex items-center justify-center">
-            <LandRoverLogo className="h-13 w-13 text-[#1a1a1a]" />
-          </div>
           <h2 className="h2 text-[#1a1a1a]">
             <span className="block">{line1}</span>
             <span className="block">

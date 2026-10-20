@@ -1,86 +1,65 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 export default function HomeSec4_5({ data }) {
   const [line1, line2] = data.h2.split("|");
 
   return (
-    <section
-      className="theme-dark relative overflow-hidden"
-      style={{ clipPath: "polygon(0 0, 100% 0, 100% 93%, 52% 100%, 0 93%)" }}
-    >
+    <section className="theme-dark relative overflow-hidden [clip-path:polygon(0_0,100%_0,100%_91%,50%_100%,0_91%)] md:[clip-path:polygon(0_0,100%_0,100%_93%,50%_100%,0_93%)]">
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
-        {/* fixed aspect box matching the real crop, so the flex-1 spacer below reliably pushes
-            the footer down to the photo's bottom edge instead of collapsing to content height */}
-        <div className="relative w-full" style={{ aspectRatio: "819 / 1900" }}>
+        {/* box uses the photo's own aspect (572x1024), so nothing is cropped and the section is no taller than the image */}
+        <div className="relative w-full" style={{ aspectRatio: "572 / 1024" }}>
           <div className="absolute inset-0">
             <Image src={data.mobileImage} alt="Land Rover Defender driving along a wet mountain road under a stormy sky" fill className="object-cover" sizes="100vw" />
             <div className="absolute inset-0 bg-hero-dark/35" />
             {/* solid black behind the whole top text block for legibility over the busy photo */}
-            <div className="absolute inset-x-0 top-0 h-[58%] bg-linear-to-b from-black via-black to-transparent" />
+            <div className="absolute inset-x-0 top-0 h-[52%] bg-linear-to-b from-black via-black to-transparent" />
             <div className="absolute inset-x-0 bottom-0 h-24 bg-linear-to-t from-hero-dark to-transparent" />
           </div>
 
-          {/* content flows from the top only — no flex-1 spacer stretching to the box's full
-              height, so a taller box (needed to clear the car under the button) doesn't also
-              blow out the gap before the footer. Footer is pinned near the bottom independently. */}
-          <div className="absolute inset-x-0 top-0 flex flex-col px-4 pt-6">
-            <div className="flex items-center gap-2">
-              <LandRoverLogo className="h-8 w-8 shrink-0" />
-              <p className="label-text uppercase leading-tight tracking-widest text-white">
-                <span className="block">Performance</span>
-                <span className="block">Belongs On The Road</span>
-              </p>
-            </div>
-            <div className="text-center">
-              <p className="label-text mt-3 whitespace-nowrap uppercase tracking-wide text-white">{data.kicker}</p>
-              <h2 className="h2 mt-1.5 uppercase">
-                <span className="block text-white">{line1}</span>
-                <span className="block text-hero-blue">{line2}</span>
-              </h2>
-              <p className="mt-2 text-xl font-bold uppercase text-white">{data.subhead1}</p>
-              <p className="text-sm font-semibold uppercase tracking-wide text-white">{data.subhead2}</p>
-            </div>
+          <div className="absolute inset-x-0 top-0 flex flex-col px-4 pt-5">
+            <p className="whitespace-nowrap text-center text-[10px] font-normal italic uppercase tracking-wide text-white">{data.kicker}</p>
+            <h2 className="h2 mt-2 text-center uppercase">
+              <span className="block text-white">{line1}</span>
+              <span className="block text-hero-blue">{line2}</span>
+            </h2>
+            <p className="-skew-x-6 mt-1 text-center text-lg font-bold uppercase text-white">{data.subhead1}</p>
+            <p className="-skew-x-6 text-center text-[10px] font-normal italic uppercase tracking-wide text-white">{data.subhead2}</p>
 
-            <div className="body-text mt-2.5 space-y-0.5 text-center text-white">
+            <div className="mt-3 space-y-0.5 text-left text-xs leading-snug text-white/90">
               {data.body.map((line, i) => (
                 <p key={i}>{line}</p>
               ))}
-              <p className="font-semibold text-white">{data.bodyBold}</p>
+              <p className="font-bold text-white">{data.bodyBold}</p>
               <p>{data.bodyRest}</p>
             </div>
 
-            <div className="mt-3 flex items-center justify-center gap-1.5">
-              {data.features.map((f, i) => (
-                <div key={f.label} className={`flex shrink-0 items-center gap-1 ${i > 0 ? "border-l border-white/20 pl-2" : ""}`}>
+            <div className="mt-3 grid grid-cols-3 divide-x divide-white/20">
+              {data.features.map((f) => (
+                <div key={f.label} className="flex items-center justify-center gap-1.5 px-1.5">
                   <Icon name={f.icon} className="h-7 w-7 shrink-0 text-hero-blue" />
-                  <span
-                    className="text-[11px] font-semibold uppercase leading-tight"
-                    style={{ maxWidth: i === 0 ? "48px" : i === 1 ? "74px" : "90px" }}
-                  >
-                    {f.label}
-                  </span>
+                  <span className="text-[10px] font-semibold uppercase leading-[1.15]">{f.label}</span>
                 </div>
               ))}
             </div>
 
             <a
               href={data.cta.href}
-              className="mx-auto mt-3 block w-fit whitespace-nowrap rounded-sm border-2 border-hero-blue bg-hero-blue btn-text px-8 py-3 text-center uppercase text-white shadow-[0_0_20px_rgba(96,112,86,0.4)] transition-colors hover:bg-transparent hover:text-hero-blue"
+              className="mx-auto mt-3 block w-fit whitespace-nowrap rounded-sm border-2 border-hero-blue bg-hero-blue px-6 py-2.5 text-center text-sm font-bold uppercase text-white shadow-[0_0_20px_rgba(96,112,86,0.4)] transition-colors hover:bg-transparent hover:text-hero-blue"
             >
               {data.cta.label} →
             </a>
           </div>
 
-          {/* pinned a fixed distance from the bottom, independent of the box's total height */}
-          <div className="absolute inset-x-0 bottom-14 flex flex-col items-center px-4">
+          {/* caption and logo are centred on the same axis as the V's apex (50%), clear of the slanted edges */}
+          <div className="absolute inset-x-0 bottom-5 flex flex-col items-center gap-2 px-4">
             <div className="flex items-center justify-center gap-3">
               <span className="h-px w-10 bg-white/25" />
-              <p className="label-text uppercase tracking-widest text-white">{data.footer}</p>
+              <p className="text-[10px] uppercase tracking-widest text-white">{data.footer}</p>
               <span className="h-px w-10 bg-white/25" />
             </div>
+            <Image src="/brand/logo-icon.webp" alt="Land Rover Garage" width={512} height={197} className="h-8 w-auto" sizes="90px" />
           </div>
         </div>
       </div>
@@ -93,27 +72,17 @@ export default function HomeSec4_5({ data }) {
           <div className="absolute inset-0 bg-linear-to-t from-hero-dark via-transparent to-hero-dark/30" />
         </div>
 
-        {/* top row: logo + two-line eyebrow, top-left corner */}
-        <div className="relative mx-auto flex max-w-6xl items-center gap-2.5 px-4 pt-6 sm:px-6 lg:px-8">
-          <LandRoverLogo className="h-13 w-13 shrink-0" />
-          <span className="h-7 w-px shrink-0 bg-white/40" />
-          <p className="label-text uppercase leading-tight tracking-widest text-white">
-            <span className="block">Performance</span>
-            <span className="block">Belongs On The Road</span>
-          </p>
-        </div>
-
         {/* headline stack, right-aligned over the photo's empty side */}
-        <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-3 px-4 pt-10 sm:px-6 lg:grid-cols-[1fr_1fr] lg:px-8">
+        <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-3 px-4 pt-14 sm:px-6 lg:grid-cols-[1fr_1fr] lg:px-8">
           <div />
           <div className="relative pb-16 lg:ml-auto lg:max-w-lg lg:pb-20 lg:pl-6">
-            <p className="text-xs uppercase tracking-wide text-white">{data.kicker}</p>
+            <p className="text-xs font-normal italic uppercase tracking-wide text-white">{data.kicker}</p>
             <h2 className="h2 mt-2 uppercase">
               <span className="block text-white">{line1}</span>
               <span className="block text-hero-blue">{line2}</span>
             </h2>
             <p className="-skew-x-6 origin-left mt-3 text-xl font-bold uppercase text-white sm:text-2xl">{data.subhead1}</p>
-            <p className="-skew-x-6 origin-left text-xs font-semibold uppercase tracking-wide text-white">{data.subhead2}</p>
+            <p className="-skew-x-6 origin-left text-xs font-normal italic uppercase tracking-wide text-white">{data.subhead2}</p>
 
             <div className="mt-4 max-w-xs space-y-1 text-sm text-white lg:max-w-none">
               {data.body.map((line, i) => (

@@ -1,0 +1,274 @@
+{
+  "slug": "landrover-engine-bearing-replacement",
+  "metaTitle": "Land Rover Engine Bearing Replacement | Land Rover Garage",
+  "metaDescription": "Professional Land Rover engine bearing replacement service — main bearings, big-end bearings, thrust washers. Available for Defender, Discovery, Range Rover.",
+  "h1": "Land Rover Engine Bearing Replacement",
+  "lede": "Professional main bearing and big-end bearing replacement for Land Rover Defender, Discovery, Range Rover and Range Rover Sport. We replace worn engine bearings to restore oil pressure, eliminate knocking, and prevent catastrophic engine failure.",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    }
+  ],
+  "images": [
+    "/guides/landrover-engine-bearing-replacement/1-17f41d64.webp",
+    "/guides/landrover-engine-bearing-replacement/2-42bd4254.webp",
+    "/guides/landrover-engine-bearing-replacement/3-8a425ac1.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What This Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Engine bearings — main bearings and big-end (connecting rod) bearings — support the crankshaft and connecting rods inside your Land Rover's engine. Over time, bearings wear, oil pressure drops, and a knocking sound develops from the bottom end of the engine."
+        },
+        {
+          "t": "p",
+          "html": "Replacing engine bearings involves:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Removing the engine oil sump",
+            "Accessing the crankshaft and connecting rods",
+            "Removing worn main bearing and big-end bearing shells",
+            "Fitting new bearing shells and thrust washers",
+            "Reassembling with correct torque specifications",
+            "Testing oil pressure and road-testing the vehicle"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Note: For many Land Rover models, engine bearing replacement requires the engine to be removed from the vehicle due to limited access. This is included as part of our service."
+        },
+        {
+          "t": "p",
+          "html": "Learn more about our [engine rebuild process](/landrover-engine-rebuild-process)."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "Engine bearing replacement starts from £1,900",
+          "paras": [
+            {
+              "ul": [
+                "4-cylinder diesel: from £1,900",
+                "6-cylinder diesel: from £2,400",
+                "V8 petrol: from £4,500",
+                "V8 supercharged: from £5,500"
+              ]
+            },
+            "Prices are per engine, fully inclusive. [View pricing disclaimer →](/pricing-legal-disclaimer)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Models & Engines",
+      "blocks": [
+        {
+          "t": "table",
+          "head": [
+            "Model",
+            "Engine",
+            "Bearing Work Typically Required"
+          ],
+          "rows": [
+            [
+              "[Discovery 3/4](/discovery-engines)",
+              "[TDV6/SDV6](/landrover-tdv6-sdv6-engine)",
+              "Crankshaft bearing failure risk confirmed"
+            ],
+            [
+              "[Range Rover](/landrover-range-rover-tdv6-engines)",
+              "[TDV6/SDV6](/landrover-tdv6-sdv6-engine)",
+              "Crankshaft bearing failure risk confirmed"
+            ],
+            [
+              "[Range Rover Sport](/range-rover-sport-engines)",
+              "[TDV6/SDV6](/landrover-tdv6-sdv6-engine)",
+              "Crankshaft bearing failure risk confirmed"
+            ],
+            [
+              "[Defender L663](/defender-engines)",
+              "[AJ300D (Ingenium 6-cyl diesel)](/landrover-aj300d-engine)",
+              "Can be affected in severe cases"
+            ],
+            [
+              "[Range Rover Sport SVR](/range-rover-sport-engines)",
+              "[AJ133 (V8 supercharged)](/landrover-aj133-engine)",
+              "Wear pattern-inferred"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "html": "* Bearing work availability depends on engine condition; we inspect and quote accordingly."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Process",
+      "steps": [
+        {
+          "title": "Assessment & Removal",
+          "body": "Vehicle arrives at our workshop. Engine oil is drained. The engine is either removed and mounted on a stand (for full bottom-end work) or accessed from below with the vehicle on a lift."
+        },
+        {
+          "title": "Disassembly",
+          "body": "Oil sump removed. Oil pump removed. Timing cover removed where needed for access. Main bearing caps and connecting rod caps identified and marked for correct reassembly."
+        },
+        {
+          "title": "Bearing Removal",
+          "body": "Main bearing cap bolts removed. Main bearing caps removed. Upper and lower main bearing shells recovered. Thrust washers recovered. Connecting rod caps removed. Big-end bearing shells recovered."
+        },
+        {
+          "title": "Inspection & Preparation",
+          "body": "Crankshaft journals measured for ovality and taper. Where required, the crankshaft is ground or polished. Connecting rods checked and re-sized where needed. Bearing clearances measured using plastigauge or micrometres."
+        },
+        {
+          "title": "Reassembly",
+          "body": "New main bearing shells installed (upper and lower). New big-end bearing shells installed. New thrust washers fitted. Main bearing caps refitted and torqued to Land Rover's factory specification (cross-bolted where required). Connecting rod caps refitted and torqued."
+        },
+        {
+          "title": "Refitting & Testing",
+          "body": "Oil pump refitted. Oil sump refitted with new gasket. Timing cover refitted. New engine oil and filter fitted. Engine started and run to operating temperature. Oil pressure checked. Road test performed."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Identify Your Engine"
+        },
+        {
+          "t": "p",
+          "html": "Enter your registration number below and we'll identify your Land Rover's engine configuration before quoting."
+        },
+        {
+          "t": "p",
+          "html": "Or visit our [engine matching page](/landrover-engine-matching) for more details."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Us",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**12 months, unlimited mileage warranty** on all bearing replacement work",
+            "**Nationwide recovery** available — most vehicles recovered within hours of booking",
+            "**Under 30-minute quote turnaround** during working hours",
+            "**3-5 working day rebuild turnaround** from arrival at our workshop",
+            "**JLR-specialist experience** — we work exclusively on Land Rover and Range Rover vehicles",
+            "**Full workshop facility** with in-house machining capability"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[About us →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "title": "Contact us",
+          "body": "Call [0203 488 4649](tel:+441268944234), WhatsApp [07975 827396](https://wa.me/447975827396), or use the [Get a Quote](/get-quote) form."
+        },
+        {
+          "title": "We identify your engine",
+          "body": "Registration lookup or VIN check ensures we quote for the correct Land Rover engine."
+        },
+        {
+          "title": "Vehicle arrives",
+          "body": "Nationwide recovery available, or drive in to our Billericay workshop."
+        },
+        {
+          "title": "Assessment & quote",
+          "body": "We confirm the bearing replacement required and provide a fixed price."
+        },
+        {
+          "title": "Work carried out",
+          "body": "Your Land Rover's engine receives the bearing replacement."
+        },
+        {
+          "title": "Testing & collection",
+          "body": "Full road test, oil pressure check, and vehicle ready for collection."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Engine Rebuild](/landrover-engine-rebuild)",
+            "[Diesel Timing Chain Repair](/landrover-diesel-timing-chain-repair)",
+            "[Engine Failure Repair](/landrover-engine-failure-repair)",
+            "[High-Mileage Engine Rebuild](/landrover-high-mileage-engine-rebuild)",
+            "[Engine Inspection & Assessment](/landrover-engine-inspection-assessment)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What are the signs that my Land Rover needs engine bearing replacement?",
+          "a": "A knocking sound from the bottom of the engine, low oil pressure warning lights, or a metallic rattle that increases with engine speed are common indicators. These symptoms suggest worn main bearings or big-end bearings."
+        },
+        {
+          "q": "Can engine bearings be replaced without removing the engine?",
+          "a": "On some Land Rover models, bearing replacement can be performed with the engine in situ by accessing from below. However, on most models — particularly the TDV6/SDV6 and V8 engines — the engine needs to be removed for proper access. We assess this on a case-by-case basis."
+        },
+        {
+          "q": "How long does engine bearing replacement take on a Land Rover?",
+          "a": "Bearing replacement typically takes 3-5 working days from arrival at our workshop. This includes disassembly, inspection, crankshaft measurement (and grinding if required), reassembly, and road testing."
+        },
+        {
+          "q": "What's included in your engine bearing replacement service?",
+          "a": "Removal of the oil sump, removal and replacement of main bearings and big-end bearings, new thrust washers, crankshaft inspection, new oil and filter, oil pressure testing, and a road test. All work comes with a 12-month, unlimited mileage warranty."
+        },
+        {
+          "q": "Will you replace my Land Rover's crankshaft if it's damaged?",
+          "a": "We inspect the crankshaft journals during the bearing replacement. If scoring or out-of-tolerance wear is found, we can grind the crankshaft or replace it as part of the service. This would be discussed and quoted before work proceeds."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "slug": "landrover-engine-rebuild",
+  "metaTitle": "Land Rover Engine Rebuild | Land Rover Garage",
+  "metaDescription": "Expert Land Rover engine rebuilds at our Essex workshop. Full strip-down, machining, and assembly. 12-month unlimited mileage warranty. Get a quote.",
+  "h1": "Land Rover Engine Rebuild",
+  "lede": "Complete engine rebuild service for all Land Rover models — from classic Defenders to modern Range Rovers. Carried out at our specialist Essex workshop.",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  ],
+  "images": [
+    "/guides/landrover-engine-rebuild/1-0e293ce1.webp",
+    "/guides/landrover-engine-rebuild/2-70f997e0.webp",
+    "/guides/landrover-engine-rebuild/3-c7a99ca1.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What Our Engine Rebuild Service Involves",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "A full engine rebuild returns your Land Rover's engine to factory specification or better. We strip the engine completely, inspect every component, machine critical surfaces, and reassemble with new bearings, piston rings, seals, and gaskets. The result is an engine that performs like new and carries a [12-month unlimited-mileage warranty](/warranty)."
+        },
+        {
+          "t": "p",
+          "html": "This service applies across the entire Land Rover range — from classic 200Tdi and Td5 engines in Defenders and Discoveries, through TDV6/SDV6 units in later models, to modern Ingenium diesel and petrol engines in the latest Range Rovers, Defenders, and Discoverys. We also cover AJ133 supercharged V8s in performance models and BMW-sourced V8s in the Defender Octa."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Engine Rebuild Pricing",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Prices are all-inclusive (parts, labour, machining, and final testing) with no hidden extras. Final costs depend on the specific engine and any unforeseen wear discovered during strip-down."
+        },
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "**Engine Rebuilds start from:**",
+            {
+              "ul": [
+                "4-Cyl Diesel (Classic / Ingenium): from **£1,900 – £2,200**",
+                "4-Cyl Petrol (Ingenium): from **£2,200**",
+                "6-Cyl Diesel (TDV6/SDV6/Ingenium I6): from **£2,400 – £3,200**",
+                "V8 (non-supercharged): from **£4,500**",
+                "V8 Supercharged / SVR: from **£5,500**",
+                "V8 Twin-Turbo (Octa): from **£6,500**"
+              ]
+            },
+            "[View full pricing disclaimer →](/pricing-legal-disclaimer)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Land Rover Models We Rebuild",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "We rebuild engines across the full Land Rover line-up. Click a model to see detailed variant and engine information."
+        },
+        {
+          "t": "linkgrid",
+          "items": [
+            {
+              "label": "Defender",
+              "href": "/defender-engines"
+            },
+            {
+              "label": "Discovery",
+              "href": "/discovery-engines"
+            },
+            {
+              "label": "Discovery Sport",
+              "href": "/discovery-sport-engines"
+            },
+            {
+              "label": "Freelander",
+              "href": "/freelander-engines"
+            },
+            {
+              "label": "Range Rover",
+              "href": "/landrover-range-rover-tdv6-engines"
+            },
+            {
+              "label": "Range Rover Sport",
+              "href": "/range-rover-sport-engines"
+            },
+            {
+              "label": "Range Rover Velar",
+              "href": "/range-rover-velar-engines"
+            },
+            {
+              "label": "Range Rover Evoque",
+              "href": "/range-rover-evoque-engines"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "**Key engine families covered:**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "[Td5](/landrover-td5-engine) — classic Defender & Discovery",
+            "[300Tdi](/landrover-300tdi-engine) / [200Tdi](/landrover-200tdi-engine) — classic Land Rover diesels",
+            "[TDV6/SDV6 (M57D30)](/landrover-tdv6-sdv6-engine) — Discovery 3/4, Range Rover, Range Rover Sport",
+            "[AJ200D](/landrover-aj200d-engine) / [AJ300D](/landrover-aj300d-engine) — Ingenium diesel (4 & 6-cyl)",
+            "[AJ200P](/landrover-aj200p-engine) / [AJ300P](/landrover-aj300p-engine) — Ingenium petrol",
+            "[AJ133](/landrover-aj133-engine) — 5.0L supercharged V8 (SVR, SVAutobiography)",
+            "[S68 (BMW-sourced)](/landrover-s68-engine) — Defender Octa V8 twin-turbo",
+            "[Ford EcoBoost](/landrover-ford-ecoboost-engine) / [Ford Duratorq](/landrover-ford-duratorq-engine) — Freelander, Evoque, Discovery Sport",
+            "[Rover K-Series](/landrover-rover-k-series-engine) — Freelander 1.8 petrol"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Not sure which engine your Land Rover has? Use our [engine matching service](/landrover-engine-matching) or [request a quote](/get-quote) with your registration and VIN."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Engine Rebuild Process",
+      "steps": [
+        {
+          "title": "Arrival & Assessment",
+          "body": "Vehicle arrives at our Essex workshop. We inspect the engine bay, check fluid levels, and discuss the vehicle's history with you."
+        },
+        {
+          "title": "Engine Removal",
+          "body": "All systems are drained, ancillaries disconnected, and the engine is carefully lifted from the vehicle and mounted on a rotating stand."
+        },
+        {
+          "title": "Strip-Down & Inspection",
+          "body": "Complete disassembly: heads, timing components, pistons, and crankshaft are removed. Every part is measured and inspected for wear."
+        },
+        {
+          "title": "Machining & Preparation",
+          "body": "Cylinder bores are honed or bored oversize, crankshaft journals ground, and cylinder heads resurfaced. All oil galleries are flushed."
+        },
+        {
+          "title": "Assembly (Rebuild)",
+          "body": "New bearings, piston rings, seals, and gaskets are fitted. Timing components are installed and set precisely to manufacturer specification."
+        },
+        {
+          "title": "Testing & Reinstallation",
+          "body": "Engine is test-run on stand, checked for oil pressure and leaks. Then reinstalled, fluids filled, and a full road test is conducted."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Land Rover Garage",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Established 2009** — over a decade of Land Rover engine experience",
+            "**In-house machining** — cylinder boring, crankshaft grinding, head resurfacing all done on-site",
+            "**JLR-specific diagnostics** — SDD, Pathfinder, TOPix for accurate calibration and programming",
+            "**12-month unlimited-mileage warranty** — backed by Engine Finders UK Ltd",
+            "**Nationwide recovery** — we can collect your Land Rover from anywhere in the UK",
+            "**Transparent pricing** — no hidden costs, fixed-price quotes after inspection"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[Learn more about our workshop →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Recent Engine Rebuilds",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Examples of recent Land Rover engine work carried out at our workshop. All images are from genuine completed jobs."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How Our Service Works",
+      "steps": [
+        {
+          "title": "",
+          "body": "Contact us via phone, WhatsApp, or the quote form with your vehicle details."
+        },
+        {
+          "title": "",
+          "body": "We arrange recovery or workshop drop-off at our Essex facility."
+        },
+        {
+          "title": "",
+          "body": "We inspect your engine and provide a fixed-price rebuild quote."
+        },
+        {
+          "title": "",
+          "body": "Upon approval, we carry out the rebuild, test, and road-test the vehicle."
+        },
+        {
+          "title": "",
+          "body": "You collect your Land Rover with a 12-month warranty and full documentation."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Replacement](/landrover-engine-replacement)",
+            "[Land Rover Diesel Timing Chain Repair (TDV6/SDV6/TDV8/SDV8)](/landrover-diesel-timing-chain-repair)",
+            "[Land Rover Ingenium Diesel Repair](/landrover-ingenium-diesel-repair)",
+            "[Land Rover V8 Supercharged Repair (AJ133)](/landrover-v8-supercharged-repair)",
+            "[Land Rover BMW-Sourced V8 Hot-Vee Repair (N63/S68)](/landrover-bmw-v8-hot-vee-repair)",
+            "[Land Rover Rebuild vs Replacement](/landrover-rebuild-vs-replacement)",
+            "[Land Rover Nationwide Engine Recovery](/landrover-engine-recovery)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How long does a Land Rover engine rebuild take?",
+          "a": "Our standard rebuild turnaround is **3-5 working days** from arrival at our workshop. This is shorter than many industry benchmarks because we keep parts in stock and carry out machining in-house."
+        },
+        {
+          "q": "What's included in the rebuild price?",
+          "a": "Our fixed-price quotes include: full strip-down and inspection, all new bearings, piston rings, seals, gaskets, timing components (where needed), machining (boring, honing, grinding, head resurfacing), assembly, testing, and reinstallation. [Full pricing disclaimer here](/pricing-legal-disclaimer)."
+        },
+        {
+          "q": "Do you offer a warranty on rebuilt engines?",
+          "a": "Yes. Every engine rebuild comes with a **12-month unlimited-mileage warranty** covering parts and labour. The warranty is backed by Engine Finders UK Ltd."
+        },
+        {
+          "q": "Can you rebuild my engine if the vehicle isn't running?",
+          "a": "Yes. We offer nationwide recovery services — we can collect your non-running Land Rover and bring it to our workshop for inspection and rebuild. [Learn more about our recovery service →](/landrover-engine-recovery)"
+        },
+        {
+          "q": "Do you use genuine or aftermarket parts?",
+          "a": "We use a combination of OEM-spec and high-quality aftermarket parts, always matching the original manufacturer's specification. For critical components (bearings, timing chains, gaskets), we source from JLR-approved suppliers or established specialist manufacturers."
+        }
+      ]
+    }
+  ]
+}

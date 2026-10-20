@@ -1,0 +1,278 @@
+{
+  "slug": "landrover-engine-teardown-inspection",
+  "metaTitle": "Land Rover Engine Teardown & Inspection | Land Rover Garage",
+  "metaDescription": "See our comprehensive Land Rover engine teardown and inspection process. From full strip-down to precision component measurement, covering all engine families.",
+  "h1": "Land Rover Engine Teardown & Inspection",
+  "lede": "A detailed strip-down and component inspection process performed at our Essex workshop.",
+  "ctas": [
+    {
+      "label": "Get a Quote",
+      "href": "/get-quote"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  ],
+  "images": [
+    "/guides/landrover-engine-teardown-inspection/1-f57c21b8.webp",
+    "/guides/landrover-engine-teardown-inspection/2-e3a43944.webp",
+    "/guides/landrover-engine-teardown-inspection/3-4bc3088b.webp"
+  ],
+  "stats": [
+    {
+      "value": "15+ yrs",
+      "label": "Land Rover specialists"
+    },
+    {
+      "value": "1,800+",
+      "label": "engines rebuilt"
+    },
+    {
+      "value": "12 mo",
+      "label": "unlimited-mileage warranty"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "prose",
+      "heading": "What Our Teardown & Inspection Covers",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Our strip-down and inspection service is the foundation of every rebuild and replacement we carry out. It establishes the exact condition of your engine and determines which components can be salvaged or require replacement."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Full engine removal and mounting on the workshop stand",
+            "Removal of all ancillaries, manifolds, and turbochargers",
+            "Timing cover removal and timing component inspection",
+            "Cylinder head removal, disassembly, and crack/pressure testing",
+            "Sump removal and bottom-end access (crankshaft, bearings, pistons)",
+            "Precision measurement of bores, crankshaft journals, and bearing clearances",
+            "Detailed assessment of all components for reusability"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "",
+      "blocks": [
+        {
+          "t": "callout",
+          "heading": "",
+          "paras": [
+            "**Engine rebuilds start from £1,900** (classic 4-cyl diesel).",
+            "Full strip-down and inspection is included as part of every rebuild or replacement package. [Pricing disclaimer](/pricing-legal-disclaimer)."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Applicable Land Rover Models & Engine Families",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Our full teardown and inspection process applies across the entire Land Rover range. Below are the core models and engines we routinely strip down and assess."
+        },
+        {
+          "t": "linkgrid",
+          "items": [
+            {
+              "label": "Land Rover Defender Engines",
+              "href": "/defender-engines"
+            },
+            {
+              "label": "Land Rover Discovery Engines",
+              "href": "/discovery-engines"
+            },
+            {
+              "label": "Land Rover Discovery Sport Engines",
+              "href": "/discovery-sport-engines"
+            },
+            {
+              "label": "Land Rover Freelander Engines",
+              "href": "/freelander-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Engines",
+              "href": "/landrover-range-rover-tdv6-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Sport Engines",
+              "href": "/range-rover-sport-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Velar Engines",
+              "href": "/range-rover-velar-engines"
+            },
+            {
+              "label": "Land Rover Range Rover Evoque Engines",
+              "href": "/range-rover-evoque-engines"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "**Key variants commonly inspected:**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "[Discovery TDV6](/landrover-discovery-tdv6-engines)",
+            "[Defender D300 (Ingenium AJ300D)](/landrover-defender-d300-engines)",
+            "[Range Rover Sport SVR (AJ133)](/landrover-range-rover-sport-svr-engines)",
+            "[Freelander TD4 (BMW M47D20)](/landrover-freelander-td4-engines)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "Our Teardown & Inspection Process",
+      "steps": [
+        {
+          "title": "Engine Arrival & Mounting",
+          "body": "Engine arrives at the workshop, is removed from the vehicle (if not already), and secured on the engine stand."
+        },
+        {
+          "title": "Ancillary & Manifold Removal",
+          "body": "Alternator, starter, belts, pulleys, intake/exhaust manifolds, and turbochargers are carefully removed."
+        },
+        {
+          "title": "Timing Cover & Component Access",
+          "body": "Timing cover is removed to inspect chains, tensioners, guides, and sprockets for wear or stretch."
+        },
+        {
+          "title": "Cylinder Head Removal",
+          "body": "Head bolts are loosened and the cylinder head is lifted away for disassembly and crack/pressure testing."
+        },
+        {
+          "title": "Sump & Bottom-End Access",
+          "body": "Sump is removed to expose the crankshaft, oil pump, and connecting rods."
+        },
+        {
+          "title": "Piston & Bearing Removal",
+          "body": "Pistons, connecting rods, and bearing shells are removed and labelled for inspection."
+        },
+        {
+          "title": "Precision Measurement",
+          "body": "Cylinder bores, crank journals, and bearing clearances are measured using precision instruments."
+        },
+        {
+          "title": "Component Assessment",
+          "body": "All components are assessed against manufacturer tolerances to determine reusability or replacement."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Why Choose Us for Your Engine Inspection",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**12 months, unlimited mileage warranty** on all rebuilds following inspection",
+            "**Quote turnaround under 30 minutes** during working hours",
+            "**Rebuild turnaround 3-5 working days** from arrival at the workshop",
+            "**Nationwide recovery** from £70 (separate charge)",
+            "**Established 2009** — based in Ramsden Heath, Billericay, Essex",
+            "**We strip and inspect everything** — from classic Tdi to modern Ingenium and V8 supercharged"
+          ]
+        },
+        {
+          "t": "p",
+          "html": "[Meet the workshop →](/about)"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Recent Teardown Jobs",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Examples of recent Land Rover engines we have stripped, inspected, and assessed at our workshop."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "title": "",
+          "body": "**Call or enquire** — provide your registration and vehicle details."
+        },
+        {
+          "title": "",
+          "body": "**We quote** — typically within 30 minutes during working hours."
+        },
+        {
+          "title": "",
+          "body": "**Recovery** — we arrange nationwide recovery to our Essex workshop."
+        },
+        {
+          "title": "",
+          "body": "**Strip-down & inspection** — full teardown and component assessment."
+        },
+        {
+          "title": "",
+          "body": "**Rebuild or replacement** — we advise and proceed based on inspection findings."
+        },
+        {
+          "title": "",
+          "body": "**Testing & return** — road test and handover back to you."
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "Related Services",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Other Land Rover authority and evidence pages you may find useful:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "[Land Rover Engine Inspection & Assessment](/landrover-engine-inspection-assessment)",
+            "[Land Rover Engine Rebuild Process](/landrover-engine-rebuild-process)",
+            "[Inside Our Workshop](/landrover-inside-workshop)",
+            "[Land Rover Engine Components We Replace](/landrover-engine-components-replaced)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What does a full teardown inspection cover on a Land Rover engine?",
+          "a": "It covers complete strip-down of ancillaries, timing components, cylinder head, and bottom-end. Every component is inspected and measured for wear against factory tolerances to determine reusability."
+        },
+        {
+          "q": "Which components do you check during a teardown inspection?",
+          "a": "We check timing chains, tensioners, guides, cylinder head cracks, valve seats, bore ovality, piston ring gaps, crankshaft journal wear, bearing clearances, and oil pump condition."
+        },
+        {
+          "q": "How long does the teardown and inspection take?",
+          "a": "Typically 1-2 working days for the full strip-down and measurement process. This is part of the 3-5 day rebuild turnaround."
+        },
+        {
+          "q": "Do you provide a report after the inspection?",
+          "a": "Yes. We provide a clear breakdown of components that are salvageable and those that must be replaced, along with the reasons and measurements taken."
+        },
+        {
+          "q": "What happens if the engine is not rebuildable after inspection?",
+          "a": "If the block or head is beyond salvage, we discuss replacement options with you. We supply and fit replacement engines as an alternative."
+        }
+      ]
+    }
+  ]
+}

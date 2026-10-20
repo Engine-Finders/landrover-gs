@@ -1,17 +1,11 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 export default function HomeSec4({ data }) {
   return (
     <section className="px-2 pt-3 pb-8 sm:px-6 lg:px-8">
       <div className="theme-light relative mx-auto max-w-6xl overflow-hidden rounded-2xl border border-hero-blue/30 px-3 pb-6 pt-4 sm:px-8 sm:pb-8 sm:pt-5">
         <div className="text-center">
-          <div className="mx-auto mb-3 flex items-center justify-center gap-3">
-            <span className="h-px w-16 bg-hero-blue/40" />
-            <LandRoverLogo className="h-13 w-13 text-[#1a1a1a]" />
-            <span className="h-px w-16 bg-hero-blue/40" />
-          </div>
           <h2 className="h2 text-[#1a1a1a]">{data.h2}</h2>
           <p className="body-text mt-2 text-[#1a1a1a]">{data.description}</p>
         </div>
