@@ -95,7 +95,7 @@ export default function HomeSec1({ hero, lookup }) {
           {/* ambient gold glow */}
           <div className="pointer-events-none absolute -left-32 top-10 h-96 w-96 rounded-full bg-hero-blue/20 blur-[110px]" />
 
-          <div className="relative mx-auto max-w-6xl px-4 pb-24 pt-8 sm:px-6 lg:px-8 lg:pt-10">
+          <div className="relative mx-auto max-w-6xl px-4 pb-32 pt-8 sm:px-6 lg:px-8 lg:pt-10">
             <h1 className="h1 uppercase">
               <span className="block text-white">{line1}</span>
               <span className="block text-hero-blue">{line2}</span>
