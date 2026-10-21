@@ -10,6 +10,10 @@
       "href": "/get-quote"
     }
   ],
+  "bandFocus": {
+    "2": 72,
+    "3": 76
+  },
   "images": [
     "/guides/landrover-high-mileage-engine-rebuild/1-49cb123b.webp",
     "/guides/landrover-high-mileage-engine-rebuild/2-47bb0759.webp",
