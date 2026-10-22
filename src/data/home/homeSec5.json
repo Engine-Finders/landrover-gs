@@ -47,17 +47,6 @@
       "href": "/landrover-300tdi-engine"
     },
     {
-      "code": "Ford Duratorq",
-      "spec": "2.2L Diesel",
-      "models": "Discovery Sport, Freelander, Evoque",
-      "years": "2011–2019",
-      "symptom": "Timing belt wear, DPF and EGR faults",
-      "cost": "From £1,900–£2,200",
-      "turnaround": "3-5 working days",
-      "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-      "href": "/landrover-ford-duratorq-engine"
-    },
-    {
       "code": "TDV8 / SDV8",
       "spec": "Diesel V8",
       "models": "Range Rover, Range Rover Sport",

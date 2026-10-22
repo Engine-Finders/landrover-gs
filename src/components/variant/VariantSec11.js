@@ -70,10 +70,10 @@ export default function VariantSec11({ data }) {
 
         <div className="relative mx-auto max-w-[76rem] px-4 py-8 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
-            <h2 className="h2 uppercase">
-              <span className="text-white">{data.titlePre}</span>
+            <div role="heading" aria-level="2" className="h2 uppercase">
+              <span className="text-white">{data.titlePre}</span>{" "}
               <span className="text-hero-blue">{data.titleHighlight}</span>
-            </h2>
+            </div>
             <p className="mt-3 text-sm leading-relaxed text-white">{data.description}</p>
           </div>
 

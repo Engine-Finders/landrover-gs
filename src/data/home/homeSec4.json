@@ -11,6 +11,6 @@
     { "label": "Turbo Problems", "icon": "turbo", "image": "/home/sec4_1.webp", "href": "/landrover-turbo-ancillary-repair" },
     { "label": "Loss of Power", "icon": "gauge", "image": "/home/sec4_8.webp", "href": "/landrover-engine-failure-repair" },
     { "label": "Excessive Oil Consumption", "icon": "oil-can", "image": "/home/sec4_7.webp", "href": "/landrover-oil-leak-gasket-repair" },
-    { "label": "Knocking Noise", "icon": "knock", "image": "/home/sec4_2.webp", "href": "/landrover-engine-teardown-inspection" }
+    { "label": "Knocking Noise", "icon": "knock", "image": "/home/sec4_2.webp", "href": "/landrover-engine-bearing-replacement" }
   ]
 }

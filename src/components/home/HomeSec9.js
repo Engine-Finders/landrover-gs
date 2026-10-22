@@ -1,10 +1,16 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
+import { useQuoteModal } from "@/components/shared/QuoteModal";
+import ImageLightbox from "@/components/shared/ImageLightbox";
 
 export default function HomeSec9({ data }) {
   const trackRef = useRef(null);
+  const { open: openQuote } = useQuoteModal();
+  const [open, setOpen] = useState(null);
+  // tap-to-enlarge is for phones; on desktop the cards zoom on hover instead
+  const enlarge = (img) => () => window.matchMedia("(max-width: 767px)").matches && setOpen(img);
 
   function scrollBy(dir) {
     trackRef.current?.scrollBy({ left: dir * 260, behavior: "smooth" });
@@ -26,28 +32,29 @@ export default function HomeSec9({ data }) {
       {/* ===== mobile ===== */}
       <div className="relative px-4 pb-8 pt-10 md:hidden">
         <h2 className="h2 text-center uppercase text-white">
-          <span className="block">Recently Completed</span>
+          <span className="block">Recently Completed</span>{" "}
           <span className="block text-hero-blue">Land Rover Rebuilds</span>
         </h2>
 
         <div className="mt-5 grid grid-cols-3 gap-2">
           {mobileImages.map((img, i) => (
-            <div key={i} className="hud-card">
+            <button key={i} type="button" onClick={enlarge(img)} aria-label={`View larger: ${img.alt}`} className="hud-card group block cursor-pointer text-left">
               <div className="hud-card-inner aspect-square">
                 <Image src={img.src} alt={img.alt} fill className="object-cover" sizes="140px" />
               </div>
-            </div>
+            </button>
           ))}
         </div>
 
         <div className="mt-6 flex flex-col items-center gap-3">
           <div className="w-fit rounded-sm p-0.5" style={{ background: "linear-gradient(90deg, #fff 0%, #607056 55%, #3b402b 100%)" }}>
-            <a
-              href={data.cta.href}
-              className="block whitespace-nowrap rounded-[3px] bg-hero-blue px-8 py-2.5 text-center text-sm font-bold text-white transition-colors hover:bg-hero-dark hover:text-hero-blue"
+            <button
+              type="button"
+              onClick={openQuote}
+              className="block whitespace-nowrap rounded-[3px] border border-hero-blue bg-hero-blue px-8 py-2.5 text-center text-sm font-bold text-white transition-colors hover:bg-[#1a1a1a] hover:text-white"
             >
               {data.cta.label} →
-            </a>
+            </button>
           </div>
           <span className="label-text flex items-center gap-2 uppercase tracking-wide text-white/70">
             <Image src="/brand/logo-icon.webp" alt="Land Rover Garage" width={512} height={197} className="h-7 w-auto" sizes="90px" />
@@ -58,9 +65,9 @@ export default function HomeSec9({ data }) {
 
       {/* ===== desktop ===== */}
       <div className="relative mx-auto hidden max-w-6xl px-4 py-8 sm:px-6 md:block lg:px-8 lg:py-10">
-        <h2 className="h2 text-center uppercase text-white">
+        <div role="heading" aria-level="2" className="h2 text-center uppercase text-white">
           Recently Completed <span className="text-hero-blue">Land Rover</span> Rebuilds
-        </h2>
+        </div>
 
         <div className="relative mt-6">
           <button
@@ -85,9 +92,9 @@ export default function HomeSec9({ data }) {
             className="flex snap-x snap-mandatory gap-3 overflow-x-auto scroll-smooth px-1 pb-2 lg:grid lg:grid-cols-5 lg:grid-rows-2 lg:overflow-visible"
           >
             {data.images.map((img, i) => (
-              <div key={i} className="hud-card w-40 shrink-0 snap-start sm:w-48 lg:w-auto">
+              <div key={i} className="hud-card group w-40 shrink-0 snap-start sm:w-48 lg:w-auto">
                 <div className="hud-card-inner aspect-square">
-                  <Image src={img.src} alt={img.alt} fill className="object-cover" sizes="220px" />
+                  <Image src={img.src} alt={img.alt} fill className="object-cover transition-transform duration-500 ease-out group-hover:scale-110" sizes="220px" />
                 </div>
               </div>
             ))}
@@ -96,12 +103,13 @@ export default function HomeSec9({ data }) {
 
         <div className="mt-8 flex items-center justify-center gap-4">
           <div className="rounded-sm p-0.5" style={{ background: "linear-gradient(90deg, #fff 0%, #607056 55%, #3b402b 100%)" }}>
-            <a
-              href={data.cta.href}
-              className="block rounded-[3px] bg-hero-blue px-6 py-2.5 text-sm font-bold text-white transition-colors hover:bg-hero-dark hover:text-hero-blue"
+            <button
+              type="button"
+              onClick={openQuote}
+              className="block rounded-[3px] border border-hero-blue bg-hero-blue px-6 py-2.5 text-sm font-bold text-white transition-colors hover:bg-[#1a1a1a] hover:text-white"
             >
               {data.cta.label} →
-            </a>
+            </button>
           </div>
           <span className="h-6 w-px bg-white/20" />
           <span className="label-text flex items-center gap-2 uppercase tracking-wide text-white/70">
@@ -110,6 +118,8 @@ export default function HomeSec9({ data }) {
           </span>
         </div>
       </div>
+
+      {open && <ImageLightbox img={open} onClose={() => setOpen(null)} />}
     </section>
   );
 }

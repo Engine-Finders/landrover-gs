@@ -99,15 +99,15 @@ export default function Sec3({ data }) {
           <div className="flex items-center gap-5">
             <LandRoverLogo className="h-12 w-20" />
             <span className="h-28 w-px bg-[#c9a96e]/50" aria-hidden="true" />
-            <h2 className="h2 uppercase">
+            <div role="heading" aria-level="2" className="h2 uppercase">
               {/* 3 short lines so the title stays on the green panel, clear of the photo's diagonal */}
               <span className="block whitespace-nowrap text-white">
                 {brand && `${brand} `}
                 <span className="text-hero-blue">{code}</span>
-              </span>
-              <span className="block whitespace-nowrap text-white">{rest}</span>
+              </span>{" "}
+              <span className="block whitespace-nowrap text-white">{rest}</span>{" "}
               <span className="block whitespace-nowrap text-[#c9a96e]">{data.titleHighlight}</span>
-            </h2>
+            </div>
           </div>
 
           {/* reference layout: icon column under MODEL, VARIANT header spanning model name + variant,

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import QuoteForm from "@/components/shared/QuoteForm";
 
 /**
  * Renders a Core / Authoritative content page from a parsed block list.
@@ -64,6 +65,15 @@ export default function LegalPage({ data }) {
           <p className="mt-6 border-l-2 border-hero-blue/40 pl-4 text-sm italic leading-relaxed text-[#4a5568]">
             {inline(data.intro, "intro")}
           </p>
+        ) : null}
+
+        {data.form ? (
+          <div
+            id="enquiry-form"
+            className="mt-8 rounded-2xl border border-black/5 bg-white p-5 shadow-[0_10px_40px_-12px_rgba(16,24,40,0.18)] sm:p-7"
+          >
+            <QuoteForm source="contact-page" />
+          </div>
         ) : null}
 
         <div className="mt-8 space-y-4">

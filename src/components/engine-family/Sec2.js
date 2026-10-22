@@ -9,16 +9,17 @@ function splitBrand(titlePre = "") {
   return m ? [m[1], m[2]] : ["", titlePre];
 }
 
-function Title({ titlePre, titleHighlight, className = "" }) {
+function Title({ titlePre, titleHighlight, className = "", desktop = false }) {
   const [brand, code] = splitBrand(titlePre);
+  const Tag = desktop ? "div" : "h2";
   return (
-    <h2 className={`h2 uppercase ${className}`}>
+    <Tag {...(desktop ? { role: "heading", "aria-level": 2 } : {})} className={`h2 uppercase ${className}`}>
       <span className="block text-[#101828] md:whitespace-nowrap">
         {brand && `${brand} `}
         <span className="text-hero-blue">{code}</span>
-      </span>
+      </span>{" "}
       <span className="block text-[#101828] md:whitespace-nowrap">{titleHighlight}</span>
-    </h2>
+    </Tag>
   );
 }
 
@@ -130,7 +131,7 @@ export default function Sec2({ data }) {
               <div className="flex items-center gap-5">
                 <LandRoverLogo className="h-12 w-20" />
                 <span className="h-16 w-px bg-[#c9a96e]/60" aria-hidden="true" />
-                <Title titlePre={specs.titlePre} titleHighlight={specs.titleHighlight} />
+                <Title titlePre={specs.titlePre} titleHighlight={specs.titleHighlight} desktop />
               </div>
 
               <div className="mt-6">
@@ -164,7 +165,7 @@ export default function Sec2({ data }) {
           </div>
           <div className="relative mx-auto max-w-[76rem] px-4 py-14 sm:px-6 lg:px-8">
             <div className="max-w-xl">
-              <Title titlePre={price.titlePre} titleHighlight={price.titleHighlight} />
+              <Title titlePre={price.titlePre} titleHighlight={price.titleHighlight} desktop />
 
               <div className="mt-5 flex items-center gap-3">
                 <p className="text-base text-[#101828]">{price.startingFromLabel}</p>

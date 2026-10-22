@@ -88,7 +88,7 @@ export default function Sec6({ data }) {
           <div className="relative px-4 pb-8 pt-8">
           <div className="overflow-hidden">
             <h2 className="h2 uppercase">
-              <span className="text-[#101828]">{reviews.titlePre}</span>
+              <span className="text-[#101828]">{reviews.titlePre}</span>{" "}
               <span className="text-hero-blue">{reviews.titleHighlight}</span>
             </h2>
           </div>
@@ -141,10 +141,10 @@ export default function Sec6({ data }) {
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
             <SectionTitle>
-              <h2 className="h2 uppercase">
-                <span className="whitespace-nowrap text-[#101828]">{reviews.titlePre} </span>
+              <div role="heading" aria-level="2" className="h2 uppercase">
+                <span className="whitespace-nowrap text-[#101828]">{reviews.titlePre} </span>{" "}
                 <span className="whitespace-nowrap text-hero-blue">{reviews.titleHighlight}</span>
-              </h2>
+              </div>
             </SectionTitle>
 
             <div className="relative mt-6 px-11">
@@ -190,7 +190,7 @@ export default function Sec6({ data }) {
               <Icon name={coverage.icon} className="h-6 w-6 text-hero-blue" />
             </span>
             <h4 className="h4 uppercase">
-              <span className="block text-[#101828]">{coverage.titlePre}</span>
+              <span className="block text-[#101828]">{coverage.titlePre}</span>{" "}
               <span className="block text-hero-blue">{coverage.titleHighlight}</span>
             </h4>
           </div>
@@ -227,10 +227,10 @@ export default function Sec6({ data }) {
             <IconTile name={coverage.icon} />
 
             <div className="shrink-0 border-r border-black/10 pr-6">
-              <h2 className="h2 uppercase">
-                <span className="block text-[#101828]">{coverage.titlePre}</span>
+              <div role="heading" aria-level="2" className="h2 uppercase">
+                <span className="block text-[#101828]">{coverage.titlePre}</span>{" "}
                 <span className="block text-hero-blue">{coverage.titleHighlight}</span>
-              </h2>
+              </div>
               <p className="mt-2 max-w-xs text-sm text-[#101828]">{coverage.body}</p>
             </div>
 
@@ -335,10 +335,10 @@ export default function Sec6({ data }) {
             <div className="relative flex items-center gap-6">
               <IconTile name="shield-check" />
               <div>
-                <h2 className="h2 uppercase">
-                  <span className="block whitespace-nowrap text-[#101828]">{whyChoose.titlePre}</span>
+                <div role="heading" aria-level="2" className="h2 uppercase">
+                  <span className="block whitespace-nowrap text-[#101828]">{whyChoose.titlePre}</span>{" "}
                   <span className="block whitespace-nowrap text-hero-blue">{whyChoose.titleHighlight}</span>
-                </h2>
+                </div>
                 <span className="gold-rule mt-3 block w-28" aria-hidden="true" />
               </div>
             </div>

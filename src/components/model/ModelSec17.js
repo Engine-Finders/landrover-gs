@@ -25,7 +25,7 @@ export default function ModelSec17({ data }) {
         </div>
 
         <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
-          <span className="block whitespace-nowrap text-[#101828]">{mobileLine1}</span>
+          <span className="block whitespace-nowrap text-[#101828]">{mobileLine1}</span>{" "}
           <span className="block whitespace-nowrap text-hero-blue">{mobileLine2}</span>
         </h2>
 
@@ -140,9 +140,9 @@ export default function ModelSec17({ data }) {
           <p className="label-text uppercase tracking-widest text-[#101828]">{data.kicker}</p>
         </div>
 
-        <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 text-[#101828] uppercase">
+        <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 mt-2 text-[#101828] uppercase">
           {data.headline}
-        </h2>
+        </div>
 
         {/* body style tabs */}
         <div className="relative mt-6 flex">
@@ -195,7 +195,7 @@ export default function ModelSec17({ data }) {
                 <Link
                   key={label(v)}
                   href={href(v)}
-                  className="rounded-lg border border-white/15 bg-white/5 px-5 py-3 text-sm font-bold text-white transition-colors hover:border-hero-blue/60 hover:bg-hero-blue/15"
+                  className="rounded-lg border border-hero-blue bg-hero-blue px-5 py-3 text-sm font-bold text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
                 >
                   {label(v)}
                 </Link>

@@ -20,7 +20,7 @@ export default function ModelSec12({ data }) {
 
         <div className="relative px-4 py-10">
           <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-            <span className="block text-[#101828]">{data.headlinePre}</span>
+            <span className="block text-[#101828]">{data.headlinePre}</span>{" "}
             <span className="block text-hero-blue">{data.headlineHighlight}</span>
           </h2>
           <LandRoverStripe className="mt-3 h-3 w-6" />
@@ -85,10 +85,10 @@ export default function ModelSec12({ data }) {
       <div className="relative mx-auto max-w-6xl">
         {/* header */}
         <div className="max-w-xl">
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-            <span className="block whitespace-nowrap text-[#101828]">{data.headlinePre}</span>
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 uppercase">
+            <span className="block whitespace-nowrap text-[#101828]">{data.headlinePre}</span>{" "}
             <span className="block whitespace-nowrap text-hero-blue">{data.headlineHighlight}</span>
-          </h2>
+          </div>
           <p className="body-text mt-3 text-[#101828]">{data.description}</p>
         </div>
 

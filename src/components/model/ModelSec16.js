@@ -1,11 +1,12 @@
 import Icon from "@/components/reusable/Icon";
 
-function SectionHeader({ icon, title, dark = true }) {
+function SectionHeader({ icon, title, dark = true, desktop = false }) {
+  const Tag = desktop ? "div" : "h3";
   return (
     <div className="flex items-center gap-3">
       <Icon name={icon} className="h-7 w-7 shrink-0 text-hero-blue" />
       <div className="inline-flex flex-col items-start">
-        <h3 className={`h3 origin-left scale-y-110 scale-x-90 ${dark ? "text-white" : "text-[#101828]"}`}>{title}</h3>
+        <Tag {...(desktop ? { role: "heading", "aria-level": 3 } : {})} className={`h3 origin-left scale-y-110 scale-x-90 ${dark ? "text-white" : "text-[#101828]"}`}>{title}</Tag>
         <span className="mt-2 block h-0.5 w-full bg-linear-to-r from-bmw-red via-hero-blue to-transparent" />
       </div>
     </div>
@@ -110,7 +111,7 @@ export default function ModelSec16({ data }) {
 
       <div className="relative mx-auto max-w-6xl">
         {/* engine sizes */}
-        <SectionHeader icon={data.engineSizes.icon} title={data.engineSizes.title} />
+        <SectionHeader desktop icon={data.engineSizes.icon} title={data.engineSizes.title} />
 
         <div className="mt-5 grid grid-cols-4 gap-4">
           {data.engineSizes.items.map((size, i) => (
@@ -130,7 +131,7 @@ export default function ModelSec16({ data }) {
 
         {/* fuel types */}
         <div className="mt-10">
-          <SectionHeader icon={data.fuelTypes.icon} title={data.fuelTypes.title} />
+          <SectionHeader desktop icon={data.fuelTypes.icon} title={data.fuelTypes.title} />
 
           <div className="mt-5 grid grid-cols-3 gap-4">
             {data.fuelTypes.items.map((f) =>
@@ -165,7 +166,7 @@ export default function ModelSec16({ data }) {
 
         {/* services available */}
         <div className="mt-10 rounded-2xl bg-(--color-light-surface) px-6 pb-4 pt-5 shadow-[0_25px_60px_-20px_rgba(0,0,0,0.5)]">
-          <SectionHeader icon="cog" title={data.services.title} dark={false} />
+          <SectionHeader desktop icon="cog" title={data.services.title} dark={false} />
 
           <div className="mt-3 grid grid-cols-5">
             {data.services.items.map((s, i) => (

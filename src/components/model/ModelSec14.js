@@ -19,9 +19,9 @@ export default function ModelSec14({ data }) {
 
           <div className="relative max-w-[68%] px-4 py-5">
             <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-              <span className="block text-white">{mobileLine1a}</span>
-              <span className="block text-white">{mobileLine1b}</span>
-              <span className="block text-hero-blue">{line2Word1}</span>
+              <span className="block text-white">{mobileLine1a}</span>{" "}
+              <span className="block text-white">{mobileLine1b}</span>{" "}
+              <span className="block text-hero-blue">{line2Word1}</span>{" "}
               <span className="block text-white">{mobileLine2Rest}</span>
             </h2>
           </div>
@@ -56,13 +56,13 @@ export default function ModelSec14({ data }) {
 
       <div className="relative mx-auto max-w-6xl">
         <div className="max-w-[46%]">
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-            <span className="block whitespace-nowrap text-white">{data.line1}</span>
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 uppercase">
+            <span className="block whitespace-nowrap text-white">{data.line1}</span>{" "}
             <span className="block">
-              <span className="text-hero-blue">{data.line2Highlight}</span>
+              <span className="text-hero-blue">{data.line2Highlight}</span>{" "}
               <span className="text-white">{data.line2Rest}</span>
             </span>
-          </h2>
+          </div>
 
           <p className="mt-4 text-sm leading-relaxed text-white">{data.paragraph}</p>
 

@@ -113,10 +113,10 @@ export default function VariantSec7({ data }) {
           </div>
 
           <div className="relative mx-auto max-w-6xl">
-            <h2 className="h2 text-white uppercase">
+            <div role="heading" aria-level="2" className="h2 text-white uppercase">
               {reviews.titlePre}
               <span className="text-hero-blue">{reviews.titleHighlight}</span>
-            </h2>
+            </div>
 
             <div className="relative mt-6 px-11">
             <div className="grid grid-cols-6 gap-3">
@@ -164,7 +164,7 @@ export default function VariantSec7({ data }) {
               <Icon name={coverage.icon} className="h-6 w-6 text-hero-blue" />
             </span>
             <h2 className="h2 uppercase">
-              <span className="block text-[#101828]">{coverage.titlePre}</span>
+              <span className="block text-[#101828]">{coverage.titlePre}</span>{" "}
               <span className="block text-hero-blue">{coverage.titleHighlight}</span>
             </h2>
           </div>
@@ -197,10 +197,10 @@ export default function VariantSec7({ data }) {
             </span>
 
             <div className="shrink-0 border-r border-black/10 pr-8">
-              <h2 className="h2 uppercase">
-                <span className="block text-[#101828]">{coverage.titlePre}</span>
+              <div role="heading" aria-level="2" className="h2 uppercase">
+                <span className="block text-[#101828]">{coverage.titlePre}</span>{" "}
                 <span className="block text-hero-blue">{coverage.titleHighlight}</span>
-              </h2>
+              </div>
               <p className="mt-2 max-w-xs text-sm text-[#101828]">{coverage.body}</p>
             </div>
 
@@ -248,10 +248,10 @@ export default function VariantSec7({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
-            <h2 className="h2 uppercase">
-              <span className="text-[#101828]">{whyChoose.titlePre}</span>
+            <div role="heading" aria-level="2" className="h2 uppercase">
+              <span className="text-[#101828]">{whyChoose.titlePre}</span>{" "}
               <span className="text-hero-blue">{whyChoose.titleHighlight}</span>
-            </h2>
+            </div>
 
             <div className="mt-8 grid grid-cols-3 gap-x-10 gap-y-6">
               {whyChoose.items.map((item) => (

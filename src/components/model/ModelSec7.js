@@ -11,7 +11,7 @@ export default function ModelSec7({ data }) {
         <div className="flex items-center gap-2">
           <LandRoverStripe className="h-6 w-12" />
           <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-            <span className="text-[#101828]">Our </span>
+            <span className="text-[#101828]">Our </span>{" "}
             <span className="text-hero-blue">Workshop</span>
           </h2>
         </div>
@@ -71,10 +71,10 @@ export default function ModelSec7({ data }) {
       <div className="relative mx-auto max-w-6xl">
         <div className="flex items-center gap-2.5">
           <LandRoverStripe className="h-10 w-16" />
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-            <span className="text-[#101828]">Our </span>
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 uppercase">
+            <span className="text-[#101828]">Our </span>{" "}
             <span className="text-hero-blue">Workshop</span>
-          </h2>
+          </div>
         </div>
 
         <div className="mt-6 grid grid-cols-5 gap-4">

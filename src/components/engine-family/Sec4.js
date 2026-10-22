@@ -27,18 +27,19 @@ function splitHighlight(h = "") {
 
 function Header({ data, compact = false }) {
   const [code, rest] = splitHighlight(data.titleHighlight);
+  const Tag = compact ? "h2" : "div";
   return (
     <div className={`flex items-center ${compact ? "gap-3" : "gap-5"}`}>
       <span className={`flex shrink-0 items-center justify-center rounded-lg bg-[#16241a] ${compact ? "h-12 w-12" : "h-16 w-16"}`}>
         <LandRoverLogo className={compact ? "h-6 w-10" : "h-8 w-12"} />
       </span>
       <span className={`w-px shrink-0 bg-[#c9a96e]/60 ${compact ? "h-10" : "h-14"}`} aria-hidden="true" />
-      <h2 className="h2 uppercase">
+      <Tag {...(compact ? {} : { role: "heading", "aria-level": 2 })} className="h2 uppercase">
         <span className={`text-[#101828] ${compact ? "block" : "whitespace-nowrap"}`}>
           {data.titlePre.trim()} <span className="text-hero-blue">{code}</span>
         </span>
         {compact ? <span className="block text-[#101828]">{rest}</span> : <span className="whitespace-nowrap text-[#101828]"> {rest}</span>}
-      </h2>
+      </Tag>
     </div>
   );
 }

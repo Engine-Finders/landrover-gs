@@ -219,7 +219,7 @@ export default function Sec11({ data }) {
         <div className="relative px-4 pt-7 md:hidden">
           <LandRoverLogo className="h-8 w-14" />
           <h2 className="h2 mt-2 italic uppercase">
-            <span className="block text-[#101828]">{costBanner.titlePre}</span>
+            <span className="block text-[#101828]">{costBanner.titlePre}</span>{" "}
             <span className={`block ${GOLD}`}>
               {costBanner.titleHighlight}
               {costBanner.titlePost}
@@ -264,13 +264,13 @@ export default function Sec11({ data }) {
           <div className="relative mx-auto grid max-w-6xl grid-cols-[minmax(0,36rem)_minmax(0,1fr)] items-center gap-8 px-4 py-10 sm:px-6 lg:px-8">
             <div>
               <LandRoverLogo className="h-12 w-20" />
-              <h2 className="h2 mt-4 italic uppercase">
-                <span className="block text-[#101828]">{costBanner.titlePre}</span>
+              <div role="heading" aria-level="2" className="h2 mt-4 italic uppercase">
+                <span className="block text-[#101828]">{costBanner.titlePre}</span>{" "}
                 <span className={`block ${GOLD}`}>
                   {costBanner.titleHighlight}
                   {costBanner.titlePost}
                 </span>
-              </h2>
+              </div>
               <span className="gold-rule mt-4 block w-48" aria-hidden="true" />
               <div className="mt-5 space-y-3 text-sm leading-relaxed text-[#101828]">
                 {costBanner.paragraphs.map((p) => (
@@ -283,7 +283,7 @@ export default function Sec11({ data }) {
                   <p className="text-4xl font-extrabold text-[#101828]">{costBanner.startingFromPrice}</p>
                 </div>
                 <div>
-                  <a href="#quote-form" className="flex items-center gap-2 whitespace-nowrap rounded-lg bg-[#16241a] px-6 py-3.5 text-sm font-bold uppercase text-white transition-colors hover:bg-[#22382a]">
+                  <a href="#quote-form" className="flex items-center gap-2 whitespace-nowrap rounded-lg bg-[#16241a] px-6 py-3.5 text-sm font-bold uppercase text-white transition-colors hover:bg-hero-blue">
                     Submit Your Registration →
                   </a>
                   <p className="mt-2 text-xs text-[#101828]">Get a fixed-price quote within 30 minutes.</p>
@@ -329,7 +329,7 @@ export default function Sec11({ data }) {
         <div className="relative hidden px-4 py-12 sm:px-6 md:block lg:px-8">
           <div className="mx-auto max-w-6xl">
             <p className={`text-center text-sm font-bold uppercase tracking-widest ${GOLD}`}>{comparison.titlePre}</p>
-            <h2 className="h2 mt-1 whitespace-nowrap text-center italic uppercase text-white">{comparison.titleHighlight}</h2>
+            <div role="heading" aria-level="2" className="h2 mt-1 whitespace-nowrap text-center italic uppercase text-white">{comparison.titleHighlight}</div>
             <span className="gold-rule mx-auto mt-3 block w-48" aria-hidden="true" />
 
             <div className="mt-14 grid grid-cols-3 divide-x divide-[#c9a96e]/20 rounded-xl border border-[#c9a96e]/20 bg-white/[0.02]">
@@ -348,7 +348,7 @@ export default function Sec11({ data }) {
             </div>
 
             <div className="mt-6 flex flex-col items-center gap-3">
-              <a href={comparison.cta.href} className={`flex items-center gap-2 rounded-lg border border-[#c9a96e]/60 px-20 py-3 text-sm font-bold uppercase transition-colors hover:bg-[#c9a96e]/10 ${GOLD}`}>
+              <a href={comparison.cta.href} className={`flex items-center gap-2 rounded-lg border border-hero-blue bg-hero-blue px-20 py-3 text-sm font-bold uppercase text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]`}>
                 {comparison.cta.label}
               </a>
               <p className="text-sm text-white">Enter your registration and we&apos;ll talk you through both options honestly.</p>
@@ -418,7 +418,7 @@ export default function Sec11({ data }) {
         <div className="relative px-4 py-7 md:hidden">
           <LandRoverLogo className="h-8 w-14" />
           <h2 className="h2 mt-2 uppercase">
-            <span className="text-[#101828]">{faq.kicker} </span>
+            <span className="text-[#101828]">{faq.kicker} </span>{" "}
             <span className={GOLD}>{faq.kickerHighlight}</span>
           </h2>
           <span className="gold-rule mt-3 block w-28" aria-hidden="true" />
@@ -434,10 +434,10 @@ export default function Sec11({ data }) {
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="mx-auto max-w-6xl">
             <LandRoverLogo className="h-12 w-20" />
-            <h2 className="h2 mt-3 uppercase">
-              <span className="text-[#101828]">{faq.kicker} </span>
+            <div role="heading" aria-level="2" className="h2 mt-3 uppercase">
+              <span className="text-[#101828]">{faq.kicker} </span>{" "}
               <span className={GOLD}>{faq.kickerHighlight}</span>
-            </h2>
+            </div>
             <span className="gold-rule mt-3 block w-32" aria-hidden="true" />
 
             <div className="mt-6 grid grid-cols-2 items-start gap-6">
@@ -464,8 +464,8 @@ export default function Sec11({ data }) {
           <div className="flex items-start gap-3">
             <HexIcon icon={quote.icon} boxClass="h-14 w-14" iconClass="h-5 w-5" strokeOpacity={0.45} strokeWidth={3} />
             <h2 className="h2 uppercase">
-              <span className="block text-white">{quote.headlinePre}</span>
-              <span className="block text-hero-blue">{quote.headlineHighlight}</span>
+              <span className="block text-white">{quote.headlinePre}</span>{" "}
+              <span className="block text-hero-blue">{quote.headlineHighlight}</span>{" "}
               <span className="block text-white">{quote.headlinePost}</span>
             </h2>
           </div>
@@ -528,11 +528,11 @@ export default function Sec11({ data }) {
           <div className="relative px-4 py-12 sm:px-6 lg:px-8">
             <div className="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-14">
               <div className="self-center pt-6">
-                <h2 className="h2 uppercase">
-                  <span className="block text-white">{quote.headlinePre}</span>
-                  <span className="block text-white">{quote.headlineHighlight}</span>
+                <div role="heading" aria-level="2" className="h2 uppercase">
+                  <span className="block text-white">{quote.headlinePre}</span>{" "}
+                  <span className="block text-white">{quote.headlineHighlight}</span>{" "}
                   <span className={`block ${GOLD}`}>{quote.headlinePost}</span>
-                </h2>
+                </div>
                 <span className="gold-rule mt-4 block w-32" aria-hidden="true" />
 
                 <div className="mt-8 space-y-6">

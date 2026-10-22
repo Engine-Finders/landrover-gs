@@ -14,8 +14,8 @@
     { "label": "Faster Turnaround", "icon": "speed" },
     { "label": "The Same Land Rover DNA", "icon": "road" }
   ],
-  "cta": { "label": "Get Your Free Engine Quote", "href": "#find-my-landrover" },
+  "cta": { "label": "Get Your Free Engine Quote" },
   "footer": "Because Every Drive Matters",
-  "bgImage": "/home/sec4.5.webp",
+  "bgImage": "/home/sec4.5_new.webp",
   "mobileImage": "/home/sec4.5_mobile.webp"
 }

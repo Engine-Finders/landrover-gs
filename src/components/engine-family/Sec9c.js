@@ -86,7 +86,7 @@ export default function Sec9c({ data }) {
         <div className="relative mx-auto max-w-6xl px-4 py-16 lg:px-8">
           <div className="max-w-md">
             <p className="text-sm font-bold uppercase tracking-widest text-hero-blue">{data.titlePre}</p>
-            <h2 className="h2 mt-1 whitespace-nowrap uppercase text-[#101828]">{data.titleHighlight}</h2>
+            <div role="heading" aria-level="2" className="h2 mt-1 whitespace-nowrap uppercase text-[#101828]">{data.titleHighlight}</div>
             <span className="mt-4 block h-0.5 w-40 bg-linear-to-r from-hero-blue via-white to-hero-blue" />
             <p className="mt-4 text-sm leading-relaxed text-[#555]">{data.intro}</p>
           </div>

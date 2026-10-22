@@ -30,7 +30,7 @@ export default function Sec8({ data }) {
         {/* ===== mobile ===== */}
         <div className="relative px-4 py-7 md:hidden">
           <h2 className="h2 uppercase">
-            <span className="block text-[#101828]">{gallery.titlePre}</span>
+            <span className="block text-[#101828]">{gallery.titlePre}</span>{" "}
             <span className="block text-hero-blue">{gallery.titleHighlight}</span>
           </h2>
           <p className="mt-2 text-xs leading-snug text-[#101828]">{gallery.description}</p>
@@ -78,10 +78,10 @@ export default function Sec8({ data }) {
             </div>
           )}
           <div className="relative mx-auto max-w-6xl">
-            <h2 className="h2 uppercase">
+            <div role="heading" aria-level="2" className="h2 uppercase">
               <span className="block text-[#101828]">{gallery.titlePre}</span>
               <GalleryHighlight text={gallery.titleHighlight} />
-            </h2>
+            </div>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-[#101828]">{gallery.description}</p>
 
             <div className="mt-6 grid grid-cols-6 gap-4">
@@ -112,7 +112,7 @@ export default function Sec8({ data }) {
         {/* ===== mobile ===== */}
         <div className="relative px-4 py-6 md:hidden">
           <h2 className="h2 uppercase">
-            <span className="text-white">{howItWorks.titlePre}</span>
+            <span className="text-white">{howItWorks.titlePre}</span>{" "}
             <span className="text-hero-blue">{howItWorks.titleHighlight}</span>
           </h2>
 
@@ -168,10 +168,10 @@ export default function Sec8({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
-            <h2 className="h2 uppercase">
-              <span className="text-white">{howItWorks.titlePre}</span>
+            <div role="heading" aria-level="2" className="h2 uppercase">
+              <span className="text-white">{howItWorks.titlePre}</span>{" "}
               <span className="text-hero-blue">{howItWorks.titleHighlight}</span>
-            </h2>
+            </div>
 
             <div
               className="mt-8 grid items-stretch gap-3"

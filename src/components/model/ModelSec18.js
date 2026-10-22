@@ -65,7 +65,7 @@ export default function ModelSec18({ data }) {
         <div className="flex items-center gap-2">
           <LandRoverStripe className="h-6 w-12 shrink-0" />
           <h2 className="h2 origin-left scale-y-110 scale-x-90 whitespace-nowrap uppercase">
-            <span className="text-[#101828]">{data.kicker} </span>
+            <span className="text-[#101828]">{data.kicker} </span>{" "}
             <span className="text-hero-blue">{data.kickerHighlight}</span>
           </h2>
         </div>
@@ -89,10 +89,10 @@ export default function ModelSec18({ data }) {
 
           <h3 className="h3 origin-left scale-y-110 scale-x-90 max-w-[82%] uppercase">
             <span className="block">
-              <span className="text-white">{data.form.headlinePre} </span>
+              <span className="text-white">{data.form.headlinePre} </span>{" "}
               <span className="text-hero-blue">{formHighlightWord1}</span>
-            </span>
-            <span className="block text-hero-blue">{formMobileLine2}</span>
+            </span>{" "}
+            <span className="block text-hero-blue">{formMobileLine2}</span>{" "}
             <span className="block text-white">{data.form.headlinePost}</span>
           </h3>
 
@@ -162,10 +162,10 @@ export default function ModelSec18({ data }) {
       <div className="relative mx-auto max-w-6xl">
         <div className="flex items-center gap-2">
           <LandRoverStripe className="h-10 w-16" />
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-            <span className="text-[#101828]">{data.kicker} </span>
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 uppercase">
+            <span className="text-[#101828]">{data.kicker} </span>{" "}
             <span className="text-hero-blue">{data.kickerHighlight}</span>
-          </h2>
+          </div>
         </div>
 
         <div className="mt-5 grid grid-cols-2 gap-4">
@@ -193,10 +193,10 @@ export default function ModelSec18({ data }) {
         >
           <LandRoverStripe className="absolute right-6 top-6 h-8 w-16" />
 
-          <h3 className="h3 origin-left scale-y-110 scale-x-90 whitespace-nowrap text-white uppercase">
+          <div role="heading" aria-level="3" className="h3 origin-left scale-y-110 scale-x-90 whitespace-nowrap text-white uppercase">
             {data.form.headlinePre} <span className="text-hero-blue">{data.form.headlineHighlight}</span>{" "}
             {data.form.headlinePost}
-          </h3>
+          </div>
 
           <div className="mt-6 grid grid-cols-3 gap-4">
             <label className="block">

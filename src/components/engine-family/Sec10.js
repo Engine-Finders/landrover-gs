@@ -41,7 +41,7 @@ export default function Sec10({ data }) {
             <span className="block text-hero-blue">
               {data.titleBigPre}
               {data.titleBigHighlight}
-            </span>
+            </span>{" "}
             <span className={`block ${GOLD}`}>{code}</span>
           </h2>
           <span className="gold-rule mt-3 block w-28" aria-hidden="true" />
@@ -82,14 +82,14 @@ export default function Sec10({ data }) {
           <div className="relative mx-auto max-w-6xl px-4 pb-12 pt-12 sm:px-6 lg:px-8">
             <div className="max-w-xl">
               <LandRoverLogo className="h-12 w-20" />
-              <h2 className="h2 mt-3 whitespace-nowrap uppercase text-[#101828]">{data.titlePre}</h2>
-              <h2 className="h2 whitespace-nowrap uppercase">
+              <div role="heading" aria-level="2" className="h2 mt-3 whitespace-nowrap uppercase">
+                <span className="block text-[#101828]">{data.titlePre}</span>{" "}
                 <span className="text-hero-blue">
                   {data.titleBigPre}
                   {data.titleBigHighlight}
                 </span>{" "}
                 <span className={GOLD}>{code}</span>
-              </h2>
+              </div>
               <span className="gold-rule mt-5 block w-32" aria-hidden="true" />
               <div className="mt-5 space-y-3 text-sm leading-relaxed text-[#101828]">
                 {data.subtext.map((s) => (
@@ -168,7 +168,7 @@ export default function Sec10({ data }) {
                   <LandRoverLogo className="h-12 w-20" />
                   <p className="text-sm font-bold uppercase text-white">{t.kicker}</p>
                 </div>
-                <h3 className="h3 mt-3 uppercase text-white">{t.title}</h3>
+                <div role="heading" aria-level="3" className="h3 mt-3 uppercase text-white">{t.title}</div>
                 <span className="gold-rule mt-5 block w-32" aria-hidden="true" />
                 <p className="mt-6 text-sm leading-relaxed text-white/90">{t.intro}</p>
                 {t.body && <p className="mt-4 text-sm leading-relaxed text-white/90">{t.body}</p>}

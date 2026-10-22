@@ -5,7 +5,7 @@
   "image": "/model/sec9.webp",
   "imageMobile": "/model/sec9_mobile.webp",
   "lookupButton": "Look Up",
-  "apiNote": "Live DVLA/VIN API integration. Dev to wire up. Submits into quote form flow.",
+  "apiNote": "Get Your Free Instant Quotes",
   "dividerLabel": "Or Browse By:",
   "browseCards": [
     {

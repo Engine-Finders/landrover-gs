@@ -42,7 +42,7 @@ export default function VariantSec5({ data }) {
             <button
               type="button"
               onClick={() => setShowAll((v) => !v)}
-              className="btn-text flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-5 py-2.5 uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10"
+              className="btn-text flex items-center gap-2 rounded-lg border border-hero-blue bg-hero-blue px-5 py-2.5 uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
             >
               {showAll ? "View Less" : data.viewMoreLabel}
               <span className={`text-hero-blue transition-transform ${showAll ? "rotate-180" : ""}`} aria-hidden>
@@ -72,10 +72,10 @@ export default function VariantSec5({ data }) {
       <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
         <div className="relative mx-auto max-w-6xl">
           <div className="flex items-start gap-3">
-            <h2 className="h2 uppercase">
+            <div role="heading" aria-level="2" className="h2 uppercase">
               {data.titlePre}
               <span className="text-hero-blue">{data.titleHighlight}</span>
-            </h2>
+            </div>
           </div>
 
           <div className="mt-6 grid grid-cols-5 gap-4">
@@ -93,7 +93,7 @@ export default function VariantSec5({ data }) {
           </div>
 
           <div className="mt-6 flex justify-center">
-            <Link href="/landrover-inside-workshop" className="flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10">
+            <Link href="/landrover-inside-workshop" className="flex items-center gap-2 rounded-lg border border-hero-blue bg-hero-blue px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]">
               {data.viewMoreLabel} <span className="text-hero-blue" aria-hidden>→</span>
             </Link>
           </div>

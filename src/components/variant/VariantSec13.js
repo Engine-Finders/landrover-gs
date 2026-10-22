@@ -80,7 +80,7 @@ export default function VariantSec13({ data }) {
       {/* ===== mobile ===== */}
       <div className="relative px-4 pb-7 pt-5 md:hidden">
         <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-          <span className="text-[#101828]">{data.kicker} </span>
+          <span className="text-[#101828]">{data.kicker} </span>{" "}
           <span className="text-hero-blue">{data.kickerHighlight}</span>
         </h2>
 
@@ -103,7 +103,7 @@ export default function VariantSec13({ data }) {
 
           <div className="relative">
             <h3 className="h3 origin-left scale-y-110 scale-x-90 uppercase">
-              <span className="text-white">{data.form.headlinePre} </span>
+              <span className="text-white">{data.form.headlinePre} </span>{" "}
               <span className="text-hero-blue">{data.form.headlineHighlight}</span>{" "}
               <span className="text-white">{data.form.headlinePost}</span>
             </h3>
@@ -177,10 +177,10 @@ export default function VariantSec13({ data }) {
             <Image src="/variant/sec13_faq.webp" alt="Land Rover Defender parked on open moorland" fill className="object-cover object-right" sizes="70vw" />
           </div>
           <div className="relative mx-auto max-w-[76rem] px-4 py-10 sm:px-6 lg:px-8">
-            <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-              <span className="block text-[#101828]">{data.kicker}</span>
+            <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 uppercase">
+              <span className="block text-[#101828]">{data.kicker}</span>{" "}
               <span className="block text-hero-blue">{data.kickerHighlight}</span>
-            </h2>
+            </div>
           </div>
         </div>
 
@@ -211,10 +211,10 @@ export default function VariantSec13({ data }) {
             }}
           >
             <div className="flex items-start justify-between gap-6">
-              <h3 className="h3 origin-left scale-y-110 scale-x-90 text-white uppercase">
+              <div role="heading" aria-level="3" className="h3 origin-left scale-y-110 scale-x-90 text-white uppercase">
                 {data.form.headlinePre} <span className="text-[#9fb08c]">{data.form.headlineHighlight}</span>{" "}
                 {data.form.headlinePost}
-              </h3>
+              </div>
               <div className="flex shrink-0 flex-col items-center gap-1">
                 <LandRoverLogo className="h-14 w-14" />
                 <span className="label-text tracking-widest text-white">ABOVE &amp; BEYOND</span>

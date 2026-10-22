@@ -8,7 +8,7 @@ export default function VariantSec3({ data }) {
       {/* ===== mobile ===== */}
       <div className="relative px-4 pb-10 pt-7 md:hidden">
         <h2 className="h2 uppercase">
-          <span className="block text-[#101828]">{data.headlinePre}</span>
+          <span className="block text-[#101828]">{data.headlinePre}</span>{" "}
           <span className="block text-hero-blue">{data.headlineHighlight}</span>
         </h2>
 
@@ -125,10 +125,10 @@ export default function VariantSec3({ data }) {
         </div>
 
         <div className="relative mx-auto max-w-6xl">
-          <h2 className="h2 uppercase">
-            <span className="block text-[#101828]">{data.headlinePre}</span>
+          <div role="heading" aria-level="2" className="h2 uppercase">
+            <span className="block text-[#101828]">{data.headlinePre}</span>{" "}
             <span className="block text-hero-blue">{data.headlineHighlight}</span>
-          </h2>
+          </div>
           <p className="mt-3 text-lg text-[#101828]">
             {data.startingFromLabel} <span className="font-extrabold text-hero-blue">{data.startingFromPrice}</span>
           </p>
@@ -230,10 +230,10 @@ export default function VariantSec3({ data }) {
               <div className="flex items-start gap-3">
                 <Icon name="warning" className="mt-1 h-8 w-8 shrink-0 text-hero-blue" />
                 <div>
-                  <h3 className="h3 text-white uppercase">
+                  <div role="heading" aria-level="3" className="h3 text-white uppercase">
                     {data.warning.titlePre}
                     <span className="text-hero-blue">{data.warning.titleHighlight}</span>
-                  </h3>
+                  </div>
                   <span className="mt-3 block h-0.5 w-28 bg-hero-blue" />
                 </div>
               </div>

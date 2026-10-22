@@ -1,8 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
+import { useQuoteModal } from "@/components/shared/QuoteModal";
 
 export default function HomeSec4_5({ data }) {
   const [line1, line2] = data.h2.split("|");
+  const { open: openQuote } = useQuoteModal();
 
   return (
     <section className="theme-dark relative overflow-hidden [clip-path:polygon(0_0,100%_0,100%_91%,50%_100%,0_91%)] md:[clip-path:polygon(0_0,100%_0,100%_93%,50%_100%,0_93%)]">
@@ -21,7 +25,7 @@ export default function HomeSec4_5({ data }) {
           <div className="absolute inset-x-0 top-0 flex flex-col px-4 pt-5">
             <p className="whitespace-nowrap text-center text-[10px] font-normal italic uppercase tracking-wide text-white">{data.kicker}</p>
             <h2 className="h2 mt-2 text-center uppercase">
-              <span className="block text-white">{line1}</span>
+              <span className="block text-white">{line1}</span>{" "}
               <span className="block text-hero-blue">{line2}</span>
             </h2>
             <p className="-skew-x-6 mt-1 text-center text-lg font-bold uppercase text-white">{data.subhead1}</p>
@@ -31,9 +35,9 @@ export default function HomeSec4_5({ data }) {
               {data.body.map((line, i) => (
                 <p key={i}>{line}</p>
               ))}
-              <p className="font-bold text-white">{data.bodyBold}</p>
-              <p>{data.bodyRest}</p>
+              <p>{data.bodyBold}</p>
             </div>
+            <p className="mt-2.5 text-left text-[12.5px] leading-snug text-white/90">{data.bodyRest}</p>
 
             <div className="mt-3 grid grid-cols-3 divide-x divide-white/20">
               {data.features.map((f) => (
@@ -44,12 +48,13 @@ export default function HomeSec4_5({ data }) {
               ))}
             </div>
 
-            <a
-              href={data.cta.href}
-              className="mx-auto mt-3 block w-fit whitespace-nowrap rounded-sm border-2 border-hero-blue bg-hero-blue px-6 py-2.5 text-center text-sm font-bold uppercase text-white shadow-[0_0_20px_rgba(96,112,86,0.4)] transition-colors hover:bg-transparent hover:text-hero-blue"
+            <button
+              type="button"
+              onClick={openQuote}
+              className="mx-auto mt-3 block w-fit whitespace-nowrap rounded-sm border-2 border-hero-blue bg-hero-blue px-6 py-2.5 text-center text-sm font-bold uppercase text-white shadow-[0_0_20px_rgba(96,112,86,0.4)] transition-colors hover:border-hero-blue hover:bg-[#1a1a1a] hover:text-white"
             >
               {data.cta.label} →
-            </a>
+            </button>
           </div>
 
           {/* caption and logo are centred on the same axis as the V's apex (50%), clear of the slanted edges */}
@@ -75,12 +80,12 @@ export default function HomeSec4_5({ data }) {
         {/* headline stack, right-aligned over the photo's empty side */}
         <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-3 px-4 pt-14 sm:px-6 lg:grid-cols-[1fr_1fr] lg:px-8">
           <div />
-          <div className="relative pb-16 lg:ml-auto lg:max-w-lg lg:pb-20 lg:pl-6">
+          <div className="relative pb-16 lg:ml-auto lg:max-w-xl lg:pb-20 lg:pl-6">
             <p className="text-xs font-normal italic uppercase tracking-wide text-white">{data.kicker}</p>
-            <h2 className="h2 mt-2 uppercase">
-              <span className="block text-white">{line1}</span>
+            <div role="heading" aria-level="2" className="h2 mt-2 uppercase">
+              <span className="block text-white">{line1}</span>{" "}
               <span className="block text-hero-blue">{line2}</span>
-            </h2>
+            </div>
             <p className="-skew-x-6 origin-left mt-3 text-xl font-bold uppercase text-white sm:text-2xl">{data.subhead1}</p>
             <p className="-skew-x-6 origin-left text-xs font-normal italic uppercase tracking-wide text-white">{data.subhead2}</p>
 
@@ -88,42 +93,48 @@ export default function HomeSec4_5({ data }) {
               {data.body.map((line, i) => (
                 <p key={i}>{line}</p>
               ))}
-              <p className="font-semibold text-white">{data.bodyBold}</p>
-              <p className="whitespace-nowrap text-xs">{data.bodyRest}</p>
+              <p>{data.bodyBold}</p>
             </div>
+            <p className="mt-4 text-base text-white lg:whitespace-nowrap">{data.bodyRest}</p>
 
-            <div className="mt-5 flex items-center gap-5">
-              {data.features.map((f, i) => (
-                <div
-                  key={f.label}
-                  className={`flex items-center gap-2 ${i > 0 ? "border-l border-white/20 pl-5" : ""}`}
-                >
-                  <Icon name={f.icon} className="h-8 w-8 shrink-0 text-hero-blue" />
-                  <span
-                    className={`${i === 0 ? "w-12" : i === 1 ? "w-16" : "w-28"} text-xs font-semibold leading-snug sm:text-sm`}
-                  >
-                    {f.label}
+            {/* badges sit in a row from the left edge (first one flush with the text above), separated by thin dividers */}
+            <div className="mt-6 flex items-center divide-x divide-white/20">
+              {data.features.map((f) => (
+                <div key={f.label} className="flex items-center gap-2.5 px-5 first:pl-0">
+                  <Icon name={f.icon} className="h-10 w-10 shrink-0 text-hero-blue" />
+                  <span className="text-xs font-semibold leading-snug sm:text-sm">
+                    {f.label.split(" ").length === 2 ? (
+                      <>
+                        {f.label.split(" ")[0]}
+                        <br />
+                        {f.label.split(" ")[1]}
+                      </>
+                    ) : (
+                      f.label
+                    )}
                   </span>
                 </div>
               ))}
             </div>
 
-            <a
-              href={data.cta.href}
-              className="btn-text mt-6 inline-block rounded-sm border-2 border-hero-blue bg-hero-blue px-7 py-3 text-white transition-colors hover:bg-transparent hover:text-hero-blue"
+            <button
+              type="button"
+              onClick={openQuote}
+              className="btn-text mt-6 inline-block rounded-sm border-2 border-hero-blue bg-hero-blue px-7 py-3 text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a] hover:text-white"
             >
               {data.cta.label} →
-            </a>
+            </button>
           </div>
         </div>
 
         {/* footer tagline */}
-        <div className="relative mx-auto max-w-6xl px-4 pb-14 sm:px-6 lg:px-8">
+        <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-3 px-4 pb-14 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center gap-4">
             <span className="h-px w-16 bg-white/25" />
             <p className="text-xs uppercase tracking-widest text-white">{data.footer}</p>
             <span className="h-px w-16 bg-white/25" />
           </div>
+          <Image src="/brand/logo-icon.webp" alt="Land Rover Garage" width={512} height={197} className="h-10 w-auto" sizes="110px" />
         </div>
       </div>
     </section>

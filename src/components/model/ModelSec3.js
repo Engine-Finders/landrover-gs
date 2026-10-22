@@ -28,7 +28,7 @@ export default function ModelSec3({ data }) {
             </div>
 
             <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
-              <span className="block text-white">{line1}</span>
+              <span className="block text-white">{line1}</span>{" "}
               <span className="block text-hero-blue">{line2}</span>
             </h2>
           </div>
@@ -124,10 +124,10 @@ export default function ModelSec3({ data }) {
           <p className="label-text uppercase tracking-widest text-white">{data.kicker}</p>
         </div>
 
-        <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
-          <span className="block text-white">{line1}</span>
+        <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
+          <span className="block text-white">{line1}</span>{" "}
           <span className="block text-hero-blue">{line2}</span>
-        </h2>
+        </div>
 
         <p className="mt-4 label-text inline-block uppercase tracking-widest text-white">
           {data.startingFromLabel}
@@ -193,7 +193,7 @@ export default function ModelSec3({ data }) {
 
           <a
             href={data.cta.href}
-            className="btn-text inline-flex shrink-0 items-center gap-2 rounded-sm border-2 border-hero-blue bg-hero-blue px-6 py-3 text-white transition-colors hover:bg-transparent hover:text-hero-blue"
+            className="btn-text inline-flex shrink-0 items-center gap-2 rounded-sm border-2 border-hero-blue bg-hero-blue px-6 py-3 text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
           >
             {data.cta.buttonLabel} →
           </a>

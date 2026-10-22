@@ -52,7 +52,7 @@ export default function ModelSec4({ data }) {
           </div>
 
           <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
-            <span className="block text-[#101828]">{data.headlinePre}</span>
+            <span className="block text-[#101828]">{data.headlinePre}</span>{" "}
             <span className="block text-hero-blue">{data.headlineHighlight}</span>
           </h2>
 
@@ -156,10 +156,10 @@ export default function ModelSec4({ data }) {
           <p className="label-text uppercase tracking-widest text-[#101828]">{data.kicker}</p>
         </div>
 
-        <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
-          <span className="text-[#101828]">{data.headlinePre} </span>
+        <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
+          <span className="text-[#101828]">{data.headlinePre} </span>{" "}
           <span className="text-hero-blue">{data.headlineHighlight}</span>
-        </h2>
+        </div>
 
         <p className="body-text mt-2 max-w-3xl text-[#101828]">{data.description}</p>
 

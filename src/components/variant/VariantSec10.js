@@ -44,9 +44,9 @@ export default function VariantSec10({ data }) {
           </div>
           <div className="relative mx-auto max-w-[76rem] px-4 py-10 sm:px-6 lg:px-8">
             <div className="max-w-lg">
-              <h2 className="h2 uppercase">
+              <div role="heading" aria-level="2" className="h2 uppercase">
                 {about.titlePre} <span className="block text-hero-blue">{about.titleHighlight}</span>
-              </h2>
+              </div>
               <div className="mt-4 space-y-3 text-sm leading-relaxed text-[#101828]">
                 {about.paragraphs.map((p, i) => (
                   <p key={i}>{p}</p>
@@ -63,7 +63,7 @@ export default function VariantSec10({ data }) {
         {/* ===== mobile ===== */}
         <div className="relative px-4 pb-8 pt-6 md:hidden">
           <h2 className="h2 uppercase">
-            <span className="text-white">{codes.titlePre}</span>
+            <span className="text-white">{codes.titlePre}</span>{" "}
             <span className="text-hero-blue">{codes.titleHighlight}</span>
           </h2>
 
@@ -81,7 +81,7 @@ export default function VariantSec10({ data }) {
                 <p className="mt-3 text-xs leading-snug text-white">{c.body}</p>
                 <a
                   href="#quote-form"
-                  className="btn-text mt-4 inline-flex items-center gap-1.5 rounded-md border border-hero-blue/50 bg-white/5 px-4 py-2.5 text-hero-blue transition-colors hover:bg-hero-blue hover:text-white"
+                  className="btn-text mt-4 inline-flex items-center gap-1.5 rounded-md border border-hero-blue bg-hero-blue px-4 py-2.5 text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
                 >
                   {c.cta} <span aria-hidden>→</span>
                 </a>
@@ -94,10 +94,10 @@ export default function VariantSec10({ data }) {
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
             <div className="flex items-start gap-3">
-              <h2 className="h2 uppercase">
-                <span className="text-white">{codes.titlePre}</span>
+              <div role="heading" aria-level="2" className="h2 uppercase">
+                <span className="text-white">{codes.titlePre}</span>{" "}
                 <span className="text-hero-blue">{codes.titleHighlight}</span>
-              </h2>
+              </div>
             </div>
 
             <div className="mt-6 flex flex-col gap-5">
@@ -113,7 +113,7 @@ export default function VariantSec10({ data }) {
                     <p className="text-sm leading-relaxed text-white">{c.body}</p>
                     <a
                       href="#quote-form"
-                      className="mt-1 inline-flex w-fit items-center gap-2 rounded-md border border-hero-blue/50 bg-white/5 px-5 py-2.5 text-sm font-bold text-hero-blue transition-colors hover:bg-hero-blue hover:text-white"
+                      className="mt-1 inline-flex w-fit items-center gap-2 rounded-md border border-hero-blue bg-hero-blue px-5 py-2.5 text-sm font-bold text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
                     >
                       {c.cta} <span aria-hidden>→</span>
                     </a>
@@ -174,10 +174,10 @@ export default function VariantSec10({ data }) {
           </div>
           <div className="relative mx-auto max-w-[76rem] px-4 py-10 sm:px-6 lg:px-8">
             <div className="flex items-start gap-3">
-              <h2 className="h2 uppercase">
-                <span className="text-[#101828]">{compatibility.titlePre}</span>
+              <div role="heading" aria-level="2" className="h2 uppercase">
+                <span className="text-[#101828]">{compatibility.titlePre}</span>{" "}
                 <span className="text-hero-blue">{compatibility.titleHighlight}</span>
-              </h2>
+              </div>
             </div>
 
             <p className="mt-4 max-w-lg text-sm leading-relaxed text-[#101828]">{compatibility.intro}</p>
@@ -249,10 +249,10 @@ export default function VariantSec10({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden px-4 py-6 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
-            <h2 className="h2 uppercase">
-              <span className="text-[#101828]">{applications.titlePre}</span>
+            <div role="heading" aria-level="2" className="h2 uppercase">
+              <span className="text-[#101828]">{applications.titlePre}</span>{" "}
               <span className="text-hero-blue">{applications.titleHighlight}</span>
-            </h2>
+            </div>
 
             <div className="glass-card relative mt-5 overflow-hidden rounded-lg">
               <div className="pointer-events-none absolute bottom-0 top-0 w-px" style={{ left: "20%", background: "rgba(148,163,184,0.45)" }} aria-hidden="true" />

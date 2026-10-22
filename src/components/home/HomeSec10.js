@@ -39,9 +39,9 @@ export default function HomeSec10({ data }) {
 
           <div className="relative mx-auto max-w-6xl px-4 pt-8 sm:px-6 lg:px-8 lg:pt-10">
             <div className="max-w-[46%]">
-              <h2 className="h2 uppercase">
+              <div role="heading" aria-level="2" className="h2 uppercase">
                 Why <span className="text-hero-blue">Land Rover</span> Owners Travel Across The UK To Us
-              </h2>
+              </div>
               <p className="body-text mt-2 text-white">{data.description}</p>
             </div>
 

@@ -26,8 +26,8 @@ export default function HomeSec1({ hero, lookup }) {
           <div className="relative flex flex-col px-4 pb-40 pt-5">
             <div className="w-[62vw]">
               <h1 className="h1 uppercase">
-                <span className="block text-white">{line1}</span>
-                <span className="block text-hero-blue">{line2}</span>
+                <span className="block text-white">{line1}</span>{" "}
+                <span className="block text-hero-blue">{line2}</span>{" "}
                 <span className="block text-white">{line3}</span>
               </h1>
               <p className="body-text mt-2 text-gray-300">{hero.subhead}</p>
@@ -40,6 +40,7 @@ export default function HomeSec1({ hero, lookup }) {
                   "linear-gradient(155deg, rgba(58,58,58,0.55) 0%, rgba(84,84,84,0.5) 30%, rgba(106,106,106,0.45) 50%, rgba(63,63,63,0.55) 72%, rgba(32,32,32,0.65) 100%)",
               }}
             >
+              <span className="glare-border" aria-hidden="true" />
               <div
                 className="pointer-events-none absolute inset-0 opacity-40 mix-blend-overlay"
                 style={{
@@ -56,24 +57,13 @@ export default function HomeSec1({ hero, lookup }) {
                 }}
               />
               <div className="relative">
+                <h2 className="h3 italic uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)]">{lookup.h2}</h2>
                 <RegLookupForm
                   buttonLabel={lookup.buttonLabel}
                   compact
                   tight
                   darkButton
-                  left={
-                    <div className="shrink-0">
-                      <h2 className="h3 italic flex items-start justify-center gap-2 uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)]">
-                        <span className="flex h-[1.1em] shrink-0 -skew-x-12 items-center gap-0.5" aria-hidden="true">
-                          <span className="h-[0.75em] w-1 bg-hero-blue" />
-                          <span className="h-[0.75em] w-1 bg-hero-blue" />
-                          <span className="h-[0.75em] w-1 bg-hero-blue" />
-                        </span>
-                        {lookup.h2}
-                      </h2>
-                      <p className="body-text mx-auto mt-1.5 max-w-xs text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.85)]">{lookup.description}</p>
-                    </div>
-                  }
+                  left={<p className="body-text text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.85)]">{lookup.description}</p>}
                 />
               </div>
             </div>
@@ -96,11 +86,11 @@ export default function HomeSec1({ hero, lookup }) {
           <div className="pointer-events-none absolute -left-32 top-10 h-96 w-96 rounded-full bg-hero-blue/20 blur-[110px]" />
 
           <div className="relative mx-auto max-w-6xl px-4 pb-32 pt-8 sm:px-6 lg:px-8 lg:pt-10">
-            <h1 className="h1 uppercase">
-              <span className="block text-white">{line1}</span>
-              <span className="block text-hero-blue">{line2}</span>
+            <div role="heading" aria-level="1" className="h1 uppercase">
+              <span className="block text-white">{line1}</span>{" "}
+              <span className="block text-hero-blue">{line2}</span>{" "}
               <span className="block text-white">{line3}</span>
-            </h1>
+            </div>
             <p className="body-text mt-5 max-w-lg text-gray-300">{hero.subhead}</p>
 
             <div
@@ -112,6 +102,7 @@ export default function HomeSec1({ hero, lookup }) {
             >
               {/* mirror sheen — a bright diagonal streak plus a soft top-edge light-glint,
                   giving the panel a real glassy/reflective look instead of a flat gradient */}
+              <span className="glare-border" aria-hidden="true" />
               <div
                 className="pointer-events-none absolute inset-0 opacity-40 mix-blend-overlay"
                 style={{
@@ -128,24 +119,16 @@ export default function HomeSec1({ hero, lookup }) {
                 }}
               />
               <div className="relative">
+                <div role="heading" aria-level="2" className="h3 italic whitespace-nowrap uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)]">
+                  {lookup.h2}
+                </div>
                 <RegLookupForm
                   buttonLabel={lookup.buttonLabel}
                   large
                   tight
                   darkButton
-                  left={
-                    <div className="shrink-0 sm:max-w-xs">
-                      <h2 className="h3 italic flex items-start justify-center gap-2.5 uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)] sm:justify-start">
-                        <span className="flex h-[1.1em] shrink-0 -skew-x-12 items-center gap-0.5" aria-hidden="true">
-                          <span className="h-[0.75em] w-1 bg-hero-blue" />
-                          <span className="h-[0.75em] w-1 bg-hero-blue" />
-                          <span className="h-[0.75em] w-1 bg-hero-blue" />
-                        </span>
-                        {lookup.h2}
-                      </h2>
-                      <p className="body-text mx-auto mt-2 max-w-xs text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.85)] sm:mx-0">{lookup.description}</p>
-                    </div>
-                  }
+                  fieldClass="sm:max-w-md"
+                  left={<p className="body-text max-w-xs text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.85)]">{lookup.description}</p>}
                 />
               </div>
             </div>

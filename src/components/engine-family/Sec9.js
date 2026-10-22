@@ -54,9 +54,9 @@ export default function Sec9({ data }) {
             <p className="text-sm font-bold uppercase text-hero-blue">{about.kicker}</p>
           </div>
           <h2 className="h2 mt-2 uppercase">
-            <span className="block text-[#101828]">{about.titlePre}</span>
+            <span className="block text-[#101828]">{about.titlePre}</span>{" "}
             <span className="block">
-              <span className="text-hero-blue">{code}</span>
+              <span className="text-hero-blue">{code}</span>{" "}
               <span className="text-[#101828]">{about.titlePost}</span>
             </span>
           </h2>
@@ -85,13 +85,13 @@ export default function Sec9({ data }) {
                 <LandRoverLogo className="h-10 w-16" />
                 <p className="text-sm font-bold uppercase text-hero-blue">{about.kicker}</p>
               </div>
-              <h2 className="h2 mt-4 uppercase">
-                <span className="block text-[#101828]">{about.titlePre}</span>
+              <div role="heading" aria-level="2" className="h2 mt-4 uppercase">
+                <span className="block text-[#101828]">{about.titlePre}</span>{" "}
                 <span className="block">
-                  <span className="text-hero-blue">{code}</span>
+                  <span className="text-hero-blue">{code}</span>{" "}
                   <span className="text-[#101828]">{about.titlePost}</span>
                 </span>
-              </h2>
+              </div>
               <GoldDash className="mt-5" />
               <div className="mt-5">
                 <Paragraphs text={about.body} className="text-sm leading-relaxed text-[#101828] lg:text-[15px]" />
@@ -116,7 +116,7 @@ export default function Sec9({ data }) {
             <p className="text-sm font-bold uppercase text-white">{byModel.kicker}</p>
           </div>
           <h2 className="h2 mt-2 uppercase">
-            <span className="text-hero-blue">{byModel.titleHighlight}</span>
+            <span className="text-hero-blue">{byModel.titleHighlight}</span>{" "}
             <span className="text-white">{byModel.titlePost}</span>
           </h2>
           <GoldDash className="mt-3" />
@@ -136,10 +136,10 @@ export default function Sec9({ data }) {
                 <Icon name="car" className="h-7 w-7 text-[#c9a96e]" />
                 <p className="text-sm font-bold uppercase text-white">{byModel.kicker}</p>
               </div>
-              <h2 className="h2 mt-2 whitespace-nowrap uppercase">
-                <span className="text-hero-blue">{byModel.titleHighlight}</span>
+              <div role="heading" aria-level="2" className="h2 mt-2 whitespace-nowrap uppercase">
+                <span className="text-hero-blue">{byModel.titleHighlight}</span>{" "}
                 <span className="text-white">{byModel.titlePost}</span>
-              </h2>
+              </div>
               <GoldDash className="mt-4" />
               <div className="mt-5">
                 <Paragraphs text={byModel.body} className="text-sm leading-relaxed text-white lg:text-[15px]" />
@@ -161,7 +161,7 @@ export default function Sec9({ data }) {
             <p className="text-sm font-bold uppercase text-hero-blue">{compatibility.kicker}</p>
           </div>
           <h2 className="h2 mt-2 uppercase">
-            <span className="text-[#101828]">{compatibility.titleHighlight}</span>
+            <span className="text-[#101828]">{compatibility.titleHighlight}</span>{" "}
             <span className="text-hero-blue">{compatibility.titlePost}</span>
           </h2>
           <GoldDash className="mt-3" />
@@ -198,10 +198,10 @@ export default function Sec9({ data }) {
                 <Icon name="shield-check" className="h-9 w-9 text-hero-blue" />
                 <p className="text-sm font-bold uppercase text-hero-blue">{compatibility.kicker}</p>
               </div>
-              <h2 className="h2 mt-3 whitespace-nowrap uppercase">
-                <span className="text-[#101828]">{compatibility.titleHighlight} </span>
+              <div role="heading" aria-level="2" className="h2 mt-3 whitespace-nowrap uppercase">
+                <span className="text-[#101828]">{compatibility.titleHighlight} </span>{" "}
                 <span className="text-hero-blue">{compatibility.titlePost.trim()}</span>
-              </h2>
+              </div>
               <GoldDash className="mt-4" />
               <p className="mt-5 text-sm leading-relaxed text-[#101828] lg:text-[15px]">{compatibility.body}</p>
               <p className="mt-3 text-sm leading-relaxed text-[#101828] lg:text-[15px]">{compatibility.boldNote}</p>
