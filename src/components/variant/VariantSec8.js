@@ -18,7 +18,7 @@ export default function VariantSec8({ data }) {
         {/* ===== mobile ===== */}
         <div className="relative px-4 pb-10 pt-7 md:hidden">
           <h2 className="h2 uppercase">
-            <span className="block text-white">{gallery.titlePre}</span>
+            <span className="block text-white">{gallery.titlePre}</span>{" "}
             <span className="block text-hero-blue">{gallery.titleHighlight}</span>
           </h2>
           <p className="mt-2 text-xs leading-snug text-white">{gallery.description}</p>
@@ -49,7 +49,7 @@ export default function VariantSec8({ data }) {
               <button
                 type="button"
                 onClick={() => setShowAll((v) => !v)}
-                className="btn-text flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-5 py-2.5 uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10"
+                className="btn-text flex items-center gap-2 rounded-lg border border-hero-blue bg-hero-blue px-5 py-2.5 uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
               >
                 {showAll ? "View Less" : "View More"}
                 <span className={`text-hero-blue transition-transform ${showAll ? "rotate-180" : ""}`} aria-hidden>
@@ -64,10 +64,10 @@ export default function VariantSec8({ data }) {
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
             <div className="flex items-start gap-3">
-              <h2 className="h2 uppercase">
-                <span className="block text-white">{gallery.titlePre}</span>
+              <div role="heading" aria-level="2" className="h2 uppercase">
+                <span className="block text-white">{gallery.titlePre}</span>{" "}
                 <span className="block text-hero-blue">{gallery.titleHighlight}</span>
-              </h2>
+              </div>
             </div>
             <p className="mt-2 max-w-2xl text-sm text-white">{gallery.description}</p>
 
@@ -100,7 +100,7 @@ export default function VariantSec8({ data }) {
         {/* ===== mobile ===== */}
         <div className="relative px-4 py-6 md:hidden">
           <h2 className="h2 uppercase">
-            <span className="text-[#101828]">{howItWorks.titlePre}</span>
+            <span className="text-[#101828]">{howItWorks.titlePre}</span>{" "}
             <span className="text-hero-blue">{howItWorks.titleHighlight}</span>
           </h2>
 
@@ -153,10 +153,10 @@ export default function VariantSec8({ data }) {
         {/* ===== desktop ===== */}
         <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
           <div className="relative mx-auto max-w-6xl">
-            <h2 className="h2 uppercase">
-              <span className="text-[#101828]">{howItWorks.titlePre}</span>
+            <div role="heading" aria-level="2" className="h2 uppercase">
+              <span className="text-[#101828]">{howItWorks.titlePre}</span>{" "}
               <span className="text-hero-blue">{howItWorks.titleHighlight}</span>
-            </h2>
+            </div>
 
             <div
               className="mt-8 grid items-stretch gap-3"

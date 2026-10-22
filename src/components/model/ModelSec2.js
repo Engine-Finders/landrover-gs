@@ -36,8 +36,8 @@ export default function ModelSec2({ data }) {
           </div>
 
           <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
-            <span className="block text-[#101828]">{renderTitleLine(line1, "text-[#101828]")}</span>
-            <span className="block text-[#101828]">{renderTitleLine(line2, "text-[#101828]")}</span>
+            <span className="block text-[#101828]">{renderTitleLine(line1, "text-[#101828]")}</span>{" "}
+            <span className="block text-[#101828]">{renderTitleLine(line2, "text-[#101828]")}</span>{" "}
             <span className="block text-[#101828]">{renderTitleLine(line3, "text-[#101828]")}</span>
           </h2>
 
@@ -119,11 +119,11 @@ export default function ModelSec2({ data }) {
                   <p className="label-text uppercase tracking-widest text-[#101828]">{data.kicker}</p>
                 </div>
 
-                <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
-                  <span className="block text-[#101828]">{renderTitleLine(line1, "text-[#101828]")}</span>
-                  <span className="block text-[#101828]">{renderTitleLine(line2, "text-[#101828]")}</span>
+                <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
+                  <span className="block text-[#101828]">{renderTitleLine(line1, "text-[#101828]")}</span>{" "}
+                  <span className="block text-[#101828]">{renderTitleLine(line2, "text-[#101828]")}</span>{" "}
                   <span className="block text-[#101828]">{renderTitleLine(line3, "text-[#101828]")}</span>
-                </h2>
+                </div>
 
                 <p className="body-text mt-4 text-[#101828]">
                   {data.description} <span className="font-bold text-[#101828]">{data.descriptionEmphasis}</span>

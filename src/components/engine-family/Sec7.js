@@ -13,15 +13,16 @@ const RING = {
   boxShadow: "0 0 18px -4px rgba(201,169,110,0.35), 0 12px 26px -8px rgba(0,0,0,0.6)",
 };
 
-function Title({ data }) {
+function Title({ data, desktop = false }) {
   const [brand, code, rest] = splitTitle(data.titlePre);
+  const Tag = desktop ? "div" : "h2";
   return (
-    <h2 className="h2 uppercase md:max-w-[58rem]">
+    <Tag {...(desktop ? { role: "heading", "aria-level": 2 } : {})} className="h2 uppercase md:max-w-[58rem]">
       {brand && <span className="text-white">{brand} </span>}
       {code && <span className="text-hero-blue">{code} </span>}
-      <span className="text-white">{rest} </span>
+      <span className="text-white">{rest} </span>{" "}
       <span className="text-[#c9a96e]">{data.titleHighlight}</span>
-    </h2>
+    </Tag>
   );
 }
 
@@ -94,7 +95,7 @@ export default function Sec7({ data }) {
           <div className="flex items-center gap-5">
             <LandRoverLogo className="h-12 w-20" />
             <span className="h-12 w-px shrink-0 bg-white/15" aria-hidden="true" />
-            <Title data={data} />
+            <Title data={data} desktop />
           </div>
 
           <div className="relative mt-10 grid grid-cols-10 gap-2">

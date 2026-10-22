@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
-import ExpandGrid from "@/components/reusable/ExpandGrid";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 function ModelCard({ m, size = "md" }) {
@@ -25,12 +24,65 @@ function ModelCard({ m, size = "md" }) {
       </div>
       <p className="text-sm font-bold uppercase tracking-wide text-[#1a1a1a]">{m.name}</p>
       <span className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-hero-blue">
-        Explore Engines
+        Rebuild From £{m.price}
         <span aria-hidden="true" className="transition-transform group-hover:translate-x-0.5">
           →
         </span>
       </span>
     </a>
+  );
+}
+
+function Brand({ rangeRover, desktop }) {
+  return rangeRover ? (
+    <span className={`relative block ${desktop ? "h-9 w-33" : "h-7 w-26"}`}>
+      <Image src="/brand/range-rover-wordmark.webp" alt="Range Rover" fill className="object-contain" sizes="140px" />
+    </span>
+  ) : (
+    <LandRoverLogo className={desktop ? "h-16 w-16 text-[#1a1a1a]" : "h-14 w-14 text-[#1a1a1a]"} />
+  );
+}
+
+function AllModelsButton({ cta, desktop }) {
+  return (
+    <div className={`flex justify-center ${desktop ? "mt-6" : "mt-5"}`}>
+      <a
+        href={cta.href}
+        className={`btn-text group flex items-center gap-2 border-2 border-[#1a1a1a]/45 bg-white/60 uppercase text-[#1a1a1a] backdrop-blur-md transition hover:border-hero-blue hover:bg-hero-blue hover:text-white ${
+          desktop ? "rounded-md px-6 py-2.5" : "rounded-lg px-5 py-2.5"
+        }`}
+      >
+        {cta.label}
+        <span aria-hidden="true" className="transition-transform group-hover:translate-x-0.5">
+          →
+        </span>
+      </a>
+    </div>
+  );
+}
+
+function ModelGroup({ g, rangeRover = false, desktop = false }) {
+  const Tag = desktop ? "div" : "h2";
+  return (
+    <div className={desktop ? "" : ""}>
+      <div className={`flex items-center justify-center gap-3 ${desktop ? "mb-4" : "mb-4"}`}>
+        <span className={`h-px bg-hero-blue/40 ${desktop ? "w-20" : "w-12"}`} />
+        <Brand rangeRover={rangeRover} desktop={desktop} />
+        <span className={`h-px bg-hero-blue/40 ${desktop ? "w-20" : "w-12"}`} />
+      </div>
+      <Tag
+        {...(desktop ? { role: "heading", "aria-level": 2 } : {})}
+        className={`h2 -skew-x-6 scale-y-115 scale-x-92 text-center uppercase text-[#1a1a1a] ${desktop ? "mb-6" : "mb-4"}`}
+      >
+        {g.h2Pre} <span className="text-hero-blue">{g.h2Highlight}</span> {g.h2Post}
+      </Tag>
+      <div className={`grid ${desktop ? "grid-cols-4 gap-4" : "grid-cols-2 gap-3"}`}>
+        {g.models.map((m) => (
+          <ModelCard key={m.slug} m={m} size={desktop ? "md" : "sm"} />
+        ))}
+      </div>
+      <AllModelsButton cta={g.cta} desktop={desktop} />
+    </div>
   );
 }
 
@@ -42,29 +94,13 @@ export default function HomeSec7({ data }) {
       <div className="relative mx-auto max-w-6xl">
         {/* ===== mobile ===== */}
         <div className="md:hidden">
-          <div className="mb-4 flex items-center justify-center gap-3">
-            <span className="h-px w-12 bg-hero-blue/40" />
-            <LandRoverLogo className="h-14 w-14 text-[#1a1a1a]" />
-            <span className="h-px w-12 bg-hero-blue/40" />
+          <ModelGroup g={data.landRover} />
+          <div className="mt-10">
+            <ModelGroup g={data.rangeRover} rangeRover />
           </div>
-          <h2 className="h2 -skew-x-6 scale-y-115 scale-x-92 mb-4 text-center uppercase text-[#1a1a1a]">
-            Find Your <span className="text-hero-blue">Land Rover</span> Model
-          </h2>
-
-          <ExpandGrid
-            className="grid grid-cols-2 gap-3"
-            limit={6}
-            label="View All Models"
-            wrapClass="mt-5 flex justify-center"
-            buttonClass="btn-text flex items-center gap-2 rounded-lg border-2 border-hero-blue bg-white/70 px-5 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white"
-          >
-            {data.models.map((m) => (
-              <ModelCard key={m.slug} m={m} size="sm" />
-            ))}
-          </ExpandGrid>
 
           <div
-            className="glass-card -mx-4 mt-5 flex items-stretch rounded-2xl px-1.5 py-4"
+            className="glass-card -mx-4 mt-8 flex items-stretch rounded-2xl px-1.5 py-4"
             style={{ boxShadow: "0 0 40px -8px rgba(96,112,86,0.35)" }}
           >
             {data.trustBadges.map((b, i) => (
@@ -77,34 +113,17 @@ export default function HomeSec7({ data }) {
               </div>
             ))}
           </div>
-
         </div>
 
         {/* ===== desktop ===== */}
         <div className="relative hidden md:block">
-          <div className="mb-4 flex items-center justify-center gap-3">
-            <span className="h-px w-20 bg-hero-blue/40" />
-            <LandRoverLogo className="h-16 w-16 text-[#1a1a1a]" />
-            <span className="h-px w-20 bg-hero-blue/40" />
+          <ModelGroup g={data.landRover} desktop />
+          <div className="mt-14">
+            <ModelGroup g={data.rangeRover} rangeRover desktop />
           </div>
-          <h2 className="h2 -skew-x-6 scale-y-115 scale-x-92 mb-6 text-center uppercase text-[#1a1a1a]">
-            Find Your <span className="text-hero-blue">Land Rover</span> Model
-          </h2>
-
-          <ExpandGrid
-            className="grid grid-cols-4 gap-4"
-            limit={8}
-            label="View All Models"
-            wrapClass="mt-6 flex justify-center"
-            buttonClass="btn-text flex items-center gap-2 rounded-md border-2 border-hero-blue bg-white/70 px-6 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white"
-          >
-            {data.models.map((m) => (
-              <ModelCard key={m.slug} m={m} />
-            ))}
-          </ExpandGrid>
 
           <div
-            className="glass-card mt-6 flex items-stretch rounded-2xl px-6 py-6"
+            className="glass-card mt-10 flex items-stretch rounded-2xl px-6 py-6"
             style={{ boxShadow: "0 0 40px -8px rgba(96,112,86,0.35)" }}
           >
             {data.trustBadges.map((b, i) => (
@@ -119,7 +138,6 @@ export default function HomeSec7({ data }) {
               </div>
             ))}
           </div>
-
         </div>
       </div>
     </section>

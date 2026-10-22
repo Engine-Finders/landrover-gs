@@ -30,8 +30,8 @@ export default function ModelHeroSec1({ data }) {
             </div>
 
             <h1 className="h1 origin-left scale-y-110 scale-x-90 mt-1.5 uppercase">
-              <span className="block whitespace-nowrap text-white">{line1}</span>
-              <span className="block text-hero-blue">{line2}</span>
+              <span className="block whitespace-nowrap text-white">{line1}</span>{" "}
+              <span className="block text-hero-blue">{line2}</span>{" "}
               <span className="block text-white">{line3}</span>
             </h1>
 
@@ -150,11 +150,11 @@ export default function ModelHeroSec1({ data }) {
               <p className="label-text uppercase tracking-widest text-white">{data.kicker}</p>
             </div>
 
-            <h1 className="h1 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
-              <span className="block whitespace-nowrap text-white">{line1}</span>
-              <span className="block whitespace-nowrap text-hero-blue">{line2}</span>
+            <div role="heading" aria-level="1" className="h1 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
+              <span className="block whitespace-nowrap text-white">{line1}</span>{" "}
+              <span className="block whitespace-nowrap text-hero-blue">{line2}</span>{" "}
               <span className="block text-white">{line3}</span>
-            </h1>
+            </div>
 
             <p className="mt-3 max-w-lg text-sm text-white">{data.subhead}</p>
 

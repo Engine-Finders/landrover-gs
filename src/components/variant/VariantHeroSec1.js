@@ -22,8 +22,8 @@ export default function VariantHeroSec1({ data }) {
 
         <div className="relative px-4 pb-4 pt-3">
           <h1 className="h1 origin-left scale-y-110 scale-x-90 mt-1 uppercase">
-            <span className="block whitespace-nowrap text-white">{line1}</span>
-            <span className="block text-hero-blue">{line2Mobile}</span>
+            <span className="block whitespace-nowrap text-white">{line1}</span>{" "}
+            <span className="block text-hero-blue">{line2Mobile}</span>{" "}
             <span className="block text-white">{line3Mobile}</span>
           </h1>
 
@@ -114,11 +114,11 @@ export default function VariantHeroSec1({ data }) {
 
         <div className="relative mx-auto max-w-[76rem] px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
           <div className="max-w-2xl">
-            <h1 className="h1 origin-left scale-y-110 scale-x-90 uppercase">
-              <span className="block whitespace-nowrap text-white">{line1}</span>
-              <span className="block whitespace-nowrap text-hero-blue">{line2}</span>
+            <div role="heading" aria-level="1" className="h1 origin-left scale-y-110 scale-x-90 uppercase">
+              <span className="block whitespace-nowrap text-white">{line1}</span>{" "}
+              <span className="block whitespace-nowrap text-hero-blue">{line2}</span>{" "}
               <span className="block text-white">{line3}</span>
-            </h1>
+            </div>
 
             <p className="mt-3 max-w-md text-sm text-white lg:text-base">{data.subhead}</p>
 

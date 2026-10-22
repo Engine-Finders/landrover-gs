@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
+import { useQuoteModal } from "@/components/shared/QuoteModal";
 
 function TopStrip() {
   return (
@@ -33,6 +34,7 @@ function TopStrip() {
 }
 
 export default function HomeSec5({ data }) {
+  const { open: openQuote } = useQuoteModal();
   const [line1, line2a, line2b] = data.h2.split("|");
   const [activeIndex, setActiveIndex] = useState(data.engines.length - 1);
   const n = data.engines.length;
@@ -46,7 +48,7 @@ export default function HomeSec5({ data }) {
       <div className="relative mx-auto max-w-6xl">
         <div className="text-center">
           <h2 className="h2 text-[#1a1a1a]">
-            <span className="block">{line1}</span>
+            <span className="block">{line1}</span>{" "}
             <span className="block">
               {line2a} <span className="text-hero-blue">{line2b}</span>
             </span>
@@ -83,9 +85,14 @@ export default function HomeSec5({ data }) {
                     <TopStrip />
                     <div className="p-4">
                       <div className="flex gap-4">
-                        <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-(--color-light-surface)">
+                        <a
+                          href={e.href}
+                          onClick={(ev) => ev.stopPropagation()}
+                          aria-label={`${e.code} engine rebuild`}
+                          className="relative block h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-(--color-light-surface)"
+                        >
                           <Image src={e.image} alt={`${e.code} engine`} fill className="object-contain p-1.5" sizes="110px" />
-                        </div>
+                        </a>
                         <div className="min-w-0">
                           <h3 className="h3 text-[#1a1a1a]">{e.code}</h3>
                           <p className="text-xs font-semibold text-[#1a1a1a]">{e.spec}</p>
@@ -120,13 +127,16 @@ export default function HomeSec5({ data }) {
                         </div>
                       </div>
 
-                      <a
-                        href={e.href}
-                        onClick={(ev) => ev.stopPropagation()}
-                        className="btn-text mt-3 block whitespace-nowrap rounded-sm border-2 border-hero-blue bg-hero-blue px-2 py-2.5 text-center text-white transition-colors hover:bg-transparent hover:text-hero-blue"
+                      <button
+                        type="button"
+                        onClick={(ev) => {
+                          ev.stopPropagation();
+                          openQuote();
+                        }}
+                        className="btn-text mt-3 block w-full whitespace-nowrap rounded-sm border-2 border-hero-blue bg-hero-blue px-2 py-2.5 text-center text-white transition-colors hover:bg-transparent hover:text-hero-blue"
                       >
                         Get a Fixed Price Quote →
-                      </a>
+                      </button>
                     </div>
                   </div>
                 ) : (
@@ -158,45 +168,48 @@ export default function HomeSec5({ data }) {
         </div>
 
         {/* ===== desktop: grid of full cards ===== */}
-        <div className="mt-6 hidden md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3">
+        <div className="mt-6 hidden items-stretch md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3">
           {data.engines.map((e) => (
-            <div key={e.code} className="glass-card overflow-hidden rounded-xl">
+            <div key={e.code} className="glass-card flex h-full flex-col overflow-hidden rounded-xl">
               <TopStrip />
 
-              <div className="relative h-56 w-full overflow-hidden bg-(--color-light-surface)">
+              <a href={e.href} aria-label={`${e.code} engine rebuild`} className="relative block h-56 w-full shrink-0 overflow-hidden bg-(--color-light-surface)">
                 <Image src={e.image} alt={`${e.code} engine`} fill className="object-contain p-1" sizes="360px" />
                 <div className="absolute inset-x-0 bottom-0 h-10 bg-linear-to-t from-(--color-light-surface) to-transparent" />
-              </div>
+              </a>
 
-              <div className="p-4">
-                <h3 className="h3 text-[#1a1a1a]">{e.code}</h3>
+              <div className="flex flex-1 flex-col p-4">
+                <div role="heading" aria-level="3" className="h3 text-[#1a1a1a]">{e.code}</div>
                 <p className="text-xs font-semibold text-[#1a1a1a]">{e.spec}</p>
-                <p className="mt-0.5 text-xs text-[#1a1a1a]">
+                <p className="mt-0.5 min-h-8 text-xs text-[#1a1a1a]">
                   {e.models} | {e.years}
                 </p>
 
-                <p className="mt-3 text-sm text-[#1a1a1a]">
+                <p className="mt-3 min-h-10 text-sm text-[#1a1a1a]">
                   <span className="font-semibold">Common symptom:</span> {e.symptom}
                 </p>
 
-                <div className="mt-4 flex items-stretch justify-between border-t border-black/5 pt-3">
-                  <div>
-                    <p className="text-xs uppercase text-[#1a1a1a]">Typical rebuild cost</p>
-                    <p className="text-base font-semibold text-hero-blue">{e.cost}</p>
+                {/* pinned to the card bottom so cost, turnaround and the link line up across every card */}
+                <div className="mt-auto pt-4">
+                  <div className="grid grid-cols-[1fr_auto_1fr] items-start gap-4 border-t border-black/10 pt-3">
+                    <div className="min-h-12">
+                      <p className="text-xs text-black/55">Typical rebuild cost</p>
+                      <p className="mt-1 text-sm font-semibold leading-tight text-[#1a1a1a]">{e.cost}</p>
+                    </div>
+                    <span className="h-10 w-px bg-black/10" />
+                    <div>
+                      <p className="text-xs text-black/55">Turnaround</p>
+                      <p className="mt-1 flex items-center justify-between gap-2 whitespace-nowrap text-sm font-medium leading-tight text-[#1a1a1a]">
+                        {e.turnaround}
+                        <Icon name="clock" className="h-4 w-4 shrink-0 text-black/60" />
+                      </p>
+                    </div>
                   </div>
-                  <span className="mx-3 w-px shrink-0 bg-black/10" />
-                  <div className="text-right">
-                    <p className="text-xs uppercase text-[#1a1a1a]">Turnaround</p>
-                    <p className="flex items-center justify-end gap-1 h3 text-[#1a1a1a]">
-                      <Icon name="clock" className="h-4 w-4" />
-                      {e.turnaround}
-                    </p>
-                  </div>
-                </div>
 
-                <a href={e.href} className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-hero-blue">
-                  View Engine →
-                </a>
+                  <a href={e.href} className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#1a1a1a]">
+                    View Engine →
+                  </a>
+                </div>
               </div>
             </div>
           ))}

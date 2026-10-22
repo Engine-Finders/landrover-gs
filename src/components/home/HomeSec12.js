@@ -1,5 +1,4 @@
 import Image from "next/image";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import RegLookupForm from "@/components/reusable/RegLookupForm";
 
 export default function HomeSec12({ data }) {
@@ -16,7 +15,7 @@ export default function HomeSec12({ data }) {
           <p className="label-text whitespace-nowrap uppercase tracking-widest text-white">{kicker}</p>
 
           <h2 className="h2 mt-1 uppercase">
-            <span className="block text-white">{headlineA}</span>
+            <span className="block text-white">{headlineA}</span>{" "}
             <span className="block text-hero-blue">{headlineB}</span>
           </h2>
 
@@ -52,15 +51,14 @@ export default function HomeSec12({ data }) {
           <div className="absolute inset-0 bg-linear-to-r from-hero-dark via-hero-dark/70 to-transparent" />
         </div>
 
-        <LandRoverLogo className="absolute bottom-6 right-6 z-10 h-14 w-14" />
 
         <div className="relative mx-auto max-w-6xl px-4 py-9 sm:px-6 lg:px-8">
-          <h2 className="h2 max-w-xl uppercase">
-            <span className="block text-2xl leading-tight text-white sm:text-3xl">{kicker}</span>
+          <div role="heading" aria-level="2" className="h2 max-w-xl uppercase">
+            <span className="block text-2xl leading-tight text-white sm:text-3xl">{kicker}</span>{" "}
             <span className="block whitespace-nowrap text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">
               <span className="text-hero-blue">{headlineA}</span> {headlineB}
             </span>
-          </h2>
+          </div>
 
           <p className="mt-3 max-w-md text-sm text-gray-300">
             {data.descriptionPre}

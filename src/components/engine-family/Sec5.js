@@ -5,14 +5,15 @@ import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 function Header({ data, compact = false }) {
+  const Tag = compact ? "h2" : "div";
   return (
     <div className={`flex items-center ${compact ? "gap-3" : "gap-5"}`}>
       <LandRoverLogo className={compact ? "h-8 w-14" : "h-12 w-20"} />
       <span className={`w-px shrink-0 bg-white/20 ${compact ? "h-8" : "h-12"}`} aria-hidden="true" />
-      <h2 className="h2 uppercase">
-        <span className="text-white">{data.titlePre}</span>
+      <Tag {...(compact ? {} : { role: "heading", "aria-level": 2 })} className="h2 uppercase">
+        <span className="text-white">{data.titlePre}</span>{" "}
         <span className="text-hero-blue">{data.titleHighlight}</span>
-      </h2>
+      </Tag>
     </div>
   );
 }
@@ -70,7 +71,7 @@ export default function Sec5({ data }) {
           ))}
         </div>
         <div className="mt-5 flex justify-center">
-          <Link href="/landrover-inside-workshop" className="flex items-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-8 py-3 text-sm font-bold uppercase tracking-wide text-white">
+          <Link href="/landrover-inside-workshop" className="flex items-center gap-2 rounded-lg border border-hero-blue bg-hero-blue px-8 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]">
             {data.viewMoreLabel} <span aria-hidden>→</span>
           </Link>
         </div>
@@ -91,7 +92,7 @@ export default function Sec5({ data }) {
           </div>
 
           <div className="mt-6 flex justify-center">
-            <Link href="/landrover-inside-workshop" className="flex items-center gap-3 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-16 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:bg-hero-blue/10">
+            <Link href="/landrover-inside-workshop" className="flex items-center gap-3 rounded-lg border border-hero-blue bg-hero-blue px-16 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]">
               {data.viewMoreLabel} <span aria-hidden>→</span>
             </Link>
           </div>

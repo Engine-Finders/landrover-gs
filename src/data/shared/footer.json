@@ -100,61 +100,20 @@
           "href": "/freelander-engines"
         },
         {
-          "label": "Land Rover Range Rover Evoque",
+          "label": "Range Rover",
+          "href": "/landrover-range-rover-tdv6-engines"
+        },
+        {
+          "label": "Range Rover Evoque",
           "href": "/range-rover-evoque-engines"
         },
         {
-          "label": "Land Rover Range Rover Sport",
+          "label": "Range Rover Sport",
           "href": "/range-rover-sport-engines"
         },
         {
-          "label": "Land Rover Range Rover Velar",
+          "label": "Range Rover Velar",
           "href": "/range-rover-velar-engines"
-        }
-      ]
-    },
-    {
-      "title": "Guides",
-      "links": [
-        {
-          "label": "Engine Removal, Refit & Final Testing",
-          "href": "/landrover-engine-removal-refit"
-        },
-        {
-          "label": "High-Mileage Engine Rebuild",
-          "href": "/landrover-high-mileage-engine-rebuild"
-        },
-        {
-          "label": "Inside Our Workshop",
-          "href": "/landrover-inside-workshop"
-        },
-        {
-          "label": "Land Rover Before & After Rebuilds",
-          "href": "/landrover-before-after-rebuilds"
-        },
-        {
-          "label": "Land Rover BMW‑Sourced V8 Hot‑Vee Repair (N63/S68)",
-          "href": "/landrover-bmw-v8-hot-vee-repair"
-        },
-        {
-          "label": "Land Rover Cylinder Head Repair & Rebuild",
-          "href": "/landrover-cylinder-head-repair"
-        },
-        {
-          "label": "Land Rover DC-DC Converter Repair (Ingenium MHEV)",
-          "href": "/landrover-dc-dc-converter-repair"
-        },
-        {
-          "label": "Land Rover Diesel Timing Chain Repair (TDV6/SDV6/TDV8/SDV8)",
-          "href": "/landrover-diesel-timing-chain-repair"
-        },
-        {
-          "label": "Land Rover Engine Bearing Replacement",
-          "href": "/landrover-engine-bearing-replacement"
-        },
-        {
-          "label": "Land Rover Engine Compatibility & Application Matching",
-          "href": "/landrover-engine-compatibility"
         }
       ]
     }
@@ -166,19 +125,5 @@
     "email": "info@landrovergarage.co.uk",
     "hours": "Mon–Fri 9am–6pm · Sat 11am–2pm"
   },
-  "social": [
-    {
-      "label": "Facebook",
-      "href": "https://www.facebook.com/JLREngineSpecialists"
-    },
-    {
-      "label": "Instagram",
-      "href": "https://www.instagram.com/jlr_engine_specialists_ltd"
-    },
-    {
-      "label": "TikTok",
-      "href": "https://www.tiktok.com/@land.rover.engine"
-    }
-  ],
   "copyright": "© 2026 Land Rover Garage — a trading name of JLR Engine Specialists Ltd (Company No. 16500838). Independent Land Rover specialist, not affiliated with Land Rover AG."
 }

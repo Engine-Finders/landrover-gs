@@ -64,12 +64,16 @@ export default function SecApps({ data }) {
   if (!data?.items?.length) return null;
   const it = data.items[active] || data.items[0];
 
-  const head = (
-    <h2 className="h2 italic uppercase">
-      <span className="block text-white md:whitespace-nowrap">{data.titlePre}</span>
-      <span className={`block md:whitespace-nowrap ${GOLD}`}>{data.titleHighlight}</span>
-    </h2>
-  );
+  // the desktop copy is a role=heading div so the page has a single <h2> for this title
+  const head = (desktop) => {
+    const Tag = desktop ? "div" : "h2";
+    return (
+      <Tag {...(desktop ? { role: "heading", "aria-level": 2 } : {})} className="h2 italic uppercase">
+        <span className="block text-white md:whitespace-nowrap">{data.titlePre}</span>{" "}
+        <span className={`block md:whitespace-nowrap ${GOLD}`}>{data.titleHighlight}</span>
+      </Tag>
+    );
+  };
 
   const detail = (compact) => (
     <>
@@ -88,7 +92,7 @@ export default function SecApps({ data }) {
       </div>
       <Link
         href={it.href}
-        className="flex items-center justify-center gap-2 rounded-lg border border-hero-blue/60 bg-hero-dark/60 px-5 py-3 text-sm font-bold uppercase text-white transition-colors hover:bg-hero-blue/20"
+        className="flex items-center justify-center gap-2 rounded-lg border border-hero-blue bg-hero-blue px-5 py-3 text-sm font-bold uppercase text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
       >
         {it.ctaLabel} <span className="text-hero-blue" aria-hidden>→</span>
       </Link>
@@ -112,7 +116,7 @@ export default function SecApps({ data }) {
 
       {/* ===== mobile ===== */}
       <div className="relative space-y-5 px-4 py-8 md:hidden">
-        {head}
+        {head(false)}
         <span className="gold-rule block w-32" aria-hidden="true" />
         <Tabs items={data.items} active={active} onChange={setActive} />
         <div>{detail(true)}</div>
@@ -125,7 +129,7 @@ export default function SecApps({ data }) {
       <div className="relative hidden px-4 py-14 sm:px-6 md:block lg:px-8">
         <div className="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_18rem] items-center gap-10">
           <div className="max-w-xl">
-            {head}
+            {head(true)}
             <span className="gold-rule mt-4 block w-40" aria-hidden="true" />
             <div className="mt-6">
               <Tabs items={data.items} active={active} onChange={setActive} />

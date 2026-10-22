@@ -14,7 +14,7 @@ export default function Sec9b({ data }) {
         </div>
         <p className="mt-2 text-xs font-bold uppercase tracking-widest text-hero-blue">{data.kicker}</p>
         <h2 className="h2 mt-1 uppercase">
-          <span className="block text-white">{data.titlePre}</span>
+          <span className="block text-white">{data.titlePre}</span>{" "}
           <span className="block text-hero-blue">{data.titleHighlight}</span>
         </h2>
         <span className="mt-3 block h-0.5 w-24 bg-linear-to-r from-hero-blue via-white to-hero-blue" />
@@ -83,10 +83,10 @@ export default function Sec9b({ data }) {
             <AMGBadge className="h-4" />
           </div>
           <p className="mt-3 text-sm font-bold uppercase tracking-widest text-hero-blue">{data.kicker}</p>
-          <h2 className="h2 mt-1 uppercase">
-            <span className="block text-white">{data.titlePre}</span>
+          <div role="heading" aria-level="2" className="h2 mt-1 uppercase">
+            <span className="block text-white">{data.titlePre}</span>{" "}
             <span className="block text-hero-blue">{data.titleHighlight}</span>
-          </h2>
+          </div>
           <span className="mt-4 block h-0.5 w-40 bg-linear-to-r from-hero-blue via-white to-hero-blue" />
           <p className="mt-4 max-w-2xl text-sm leading-relaxed text-white">{data.intro}</p>
 

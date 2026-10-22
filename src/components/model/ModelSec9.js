@@ -25,7 +25,7 @@ export default function ModelSec9({ data }) {
           <div className="relative max-w-[70%] pl-6 pr-2 pt-6">
             <LandRoverStripe className="h-4 w-8" />
             <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase" style={{ fontSize: "34px" }}>
-              <span className="block text-[#101828]">{line1}</span>
+              <span className="block text-[#101828]">{line1}</span>{" "}
               <span className="block text-hero-blue">{line2}</span>
             </h2>
             <span className="mt-3 block h-px w-16 bg-hero-blue/50" />
@@ -126,10 +126,10 @@ export default function ModelSec9({ data }) {
       <div className="relative mx-auto max-w-6xl">
         <div className="max-w-lg pt-8">
           <LandRoverStripe className="h-4.5 w-9" />
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
-            <span className="block text-[#101828]">{line1}</span>
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
+            <span className="block text-[#101828]">{line1}</span>{" "}
             <span className="block text-hero-blue">{line2}</span>
-          </h2>
+          </div>
           <span className="mt-3 block h-px w-16 bg-hero-blue/50" />
           <p className="body-text mt-4 max-w-md text-[#101828]">{data.subhead}</p>
         </div>

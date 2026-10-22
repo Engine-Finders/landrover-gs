@@ -39,7 +39,7 @@ export default function ModelSec5({ data }) {
             <LandRoverStripe className="h-4 w-8" />
 
             <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
-              <span className="block text-white">{line1}</span>
+              <span className="block text-white">{line1}</span>{" "}
               <span className="block text-hero-blue">{line2}</span>
             </h2>
             <span className="mt-3 block h-px w-16 bg-hero-blue/50" />
@@ -132,10 +132,10 @@ export default function ModelSec5({ data }) {
             <p className="label-text uppercase tracking-widest text-white">{data.kicker}</p>
           </div>
 
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
-            <span className="block text-white">{line1}</span>
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 mt-3 uppercase">
+            <span className="block text-white">{line1}</span>{" "}
             <span className="block text-hero-blue">{line2}</span>
-          </h2>
+          </div>
           <span className="mt-3 block h-px w-16 bg-hero-blue/50" />
 
           <div className="body-text mt-5 space-y-4 text-white">

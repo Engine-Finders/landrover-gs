@@ -70,11 +70,11 @@ export default function VariantSec2({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
         <div className="relative mx-auto max-w-6xl">
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-3 text-[#101828] uppercase">
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 mt-3 text-[#101828] uppercase">
             {data.headlinePre}
             <span className="text-hero-blue">{data.headlineHighlight}</span>
             {data.headlinePost}
-          </h2>
+          </div>
           <span className="mt-3 block h-0.5 w-40 bg-linear-to-r from-bmw-blue via-white to-bmw-red lg:w-48" />
 
           <div className="mt-4 grid grid-cols-2 items-center gap-10">

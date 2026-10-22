@@ -1,7 +1,12 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
+import ImageLightbox from "@/components/shared/ImageLightbox";
 
 export default function HomeSec11({ data }) {
+  const [open, setOpen] = useState(null);
   return (
     <section className="theme-light">
       {/* ===== mobile ===== */}
@@ -22,10 +27,22 @@ export default function HomeSec11({ data }) {
             }}
           />
 
+          {/* green + gold bands (half each) along the wedge's slanted edge, as on desktop */}
+          <div
+            aria-hidden="true"
+            className="absolute inset-0"
+            style={{ background: "linear-gradient(180deg, #4a6b50, #2c4a35)", clipPath: "polygon(63% 0, 65% 0, 61% 100%, 59% 100%)" }}
+          />
+          <div
+            aria-hidden="true"
+            className="absolute inset-0"
+            style={{ background: "linear-gradient(90deg, #d6b676, #b8955c)", clipPath: "polygon(65% 0, 67.3% 0, 63.3% 100%, 61% 100%)" }}
+          />
+
           <div className="absolute inset-0 px-4 pt-6">
             <div className="max-w-[54%] text-[#1a1a1a]">
               <h2 className="h2">
-                <span className="block">Meet The</span>
+                <span className="block">Meet The</span>{" "}
                 <span className="block text-hero-blue">Workshop</span>
               </h2>
 
@@ -41,7 +58,13 @@ export default function HomeSec11({ data }) {
 
         <div className="grid grid-cols-3 gap-2 px-4 py-6" style={{ background: "var(--theme-light-bg)" }}>
           {data.strip.map((s) => (
-            <div key={s.label} className="glow-card glow-card--sm relative h-40 overflow-hidden">
+            <button
+              key={s.label}
+              type="button"
+              onClick={() => setOpen({ src: data.cardImage, alt: s.label })}
+              aria-label={`View larger: ${s.label}`}
+              className="gallery-tile glow-card glow-card--sm relative h-40 cursor-pointer overflow-hidden text-left"
+            >
               <Image src={data.cardImage} alt={s.label} fill className="object-cover" sizes="140px" />
 
               <div
@@ -56,7 +79,7 @@ export default function HomeSec11({ data }) {
                 </div>
                 <span className="block h-px w-full bg-hero-blue/60" />
               </div>
-            </div>
+            </button>
           ))}
         </div>
       </div>
@@ -68,25 +91,40 @@ export default function HomeSec11({ data }) {
             the cards sit in its own bottom blank band; a clip-path'd #F1EDE8 layer covers exactly
             those two blank zones (matching the photo's diagonal edge) so they read as the section's
             solid surface color instead of the source photo's plain white. */}
-        <div className="relative mx-auto w-full max-w-6xl" style={{ aspectRatio: "1024 / 683" }}>
+        <div className="relative mx-auto w-full max-w-6xl" style={{ aspectRatio: "2390 / 1792" }}>
           <Image src={data.bgImage} alt="Inside the Land Rover Garage workshop" fill quality={95} className="object-cover" sizes="100vw" />
 
+          {/* surface-colour cover over the photo's blank wedge and the cards baked into its bottom band
+              (the real cards below replace them). Its diagonal runs just inside the stripes. */}
           <div
             className="absolute inset-0"
             style={{
               background: "var(--theme-light-bg)",
-              clipPath: "polygon(0 0, 47% 0, 33% 64%, 100% 64%, 100% 100%, 0 100%)",
+              clipPath: "polygon(0 0, 52% 0, 33.7% 64%, 100% 64%, 100% 100%, 0 100%)",
             }}
+          />
+
+          {/* green band + gold band (half each) laid along the photo's slanted edge, as in the reference.
+              Edge: x = 51.67% - 0.2857 * y%; same slope as the cover above. */}
+          <div
+            aria-hidden="true"
+            className="absolute inset-0"
+            style={{ background: "linear-gradient(180deg, #4a6b50, #2c4a35)", clipPath: "polygon(48.2% 0, 50.1% 0, 31.8% 64%, 29.9% 64%)" }}
+          />
+          <div
+            aria-hidden="true"
+            className="absolute inset-0"
+            style={{ background: "linear-gradient(90deg, #d6b676, #b8955c)", clipPath: "polygon(50.1% 0, 52% 0, 33.7% 64%, 31.8% 64%)" }}
           />
 
           {/* text, in the top-left wedge — sized up to fill more of the wedge's height, with
               "Workshop" set noticeably larger than "Meet The" to match the reference weight */}
           <div className="absolute inset-0 flex items-start px-4 pt-8 sm:px-6 sm:pt-10 lg:px-10 lg:pt-14">
             <div className="max-w-[36%] text-[#1a1a1a] sm:max-w-[30%]">
-              <h2 className="h2 -skew-x-6 origin-left scale-y-115 scale-x-92 uppercase">
-                <span className="block text-2xl leading-[1.05] sm:text-3xl lg:text-4xl">Meet The</span>
+              <div role="heading" aria-level="2" className="h2 -skew-x-6 origin-left scale-y-115 scale-x-92 uppercase">
+                <span className="block text-2xl leading-[1.05] sm:text-3xl lg:text-4xl">Meet The</span>{" "}
                 <span className="block text-4xl leading-[1.05] text-hero-blue sm:text-5xl lg:text-7xl">Workshop</span>
-              </h2>
+              </div>
 
               <div className="mt-5 space-y-3 text-xs leading-relaxed text-[#1a1a1a] sm:mt-7 sm:space-y-4 sm:text-sm lg:text-base">
                 {data.paragraphs.map((p, i) => (
@@ -101,7 +139,7 @@ export default function HomeSec11({ data }) {
           <div className="absolute inset-x-0 bottom-0" style={{ top: "64%" }}>
             <div className="mx-auto grid h-full max-w-6xl grid-cols-3 gap-2 px-4 py-3 sm:grid-cols-6 sm:gap-3 sm:px-6 sm:py-4 lg:px-8">
               {data.strip.map((s) => (
-                <div key={s.label} className="glow-card glow-card--sm relative h-full overflow-hidden">
+                <div key={s.label} className="gallery-tile glow-card glow-card--sm relative h-full overflow-hidden">
                   <Image src={data.cardImage} alt={s.label} fill className="object-cover" sizes="200px" />
 
                   <div
@@ -122,6 +160,8 @@ export default function HomeSec11({ data }) {
           </div>
         </div>
       </div>
+
+      {open && <ImageLightbox img={open} onClose={() => setOpen(null)} />}
     </section>
   );
 }

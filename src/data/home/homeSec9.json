@@ -2,16 +2,48 @@
   "h2": "Recently Completed Land Rover Rebuilds",
   "footerTagline": "Excellence. Engineered.",
   "images": [
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" },
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" },
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" },
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" },
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" },
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" },
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" },
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" },
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" },
-    { "src": "/home/sec9_car.webp", "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild" }
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    },
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    },
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    },
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    },
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    },
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    },
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    },
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    },
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    },
+    {
+      "src": "/home/sec9_car.webp",
+      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
+    }
   ],
-  "cta": { "label": "See All Rebuilds", "href": "/engines" }
+  "cta": {
+    "label": "Get Your Engine Rebuilt Quote"
+  }
 }

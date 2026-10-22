@@ -91,7 +91,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  font-family: var(--font-instrument-sans), var(--font-inter), Arial, Helvetica, sans-serif;
 }
 
 .heading-accent {
@@ -206,7 +206,7 @@ body {
 }
 
 .body-text {
-  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  font-family: var(--font-instrument-sans), var(--font-inter), Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -671,6 +671,24 @@ body {
   animation: marquee-right 30s linear infinite;
 }
 
+/* desktop: hovering a row pauses only that row, and the hovered tile zooms */
+.gallery-tile img {
+  transition: transform 0.7s ease-out;
+}
+/* touch: holding a tile zooms it for as long as the finger is down */
+.gallery-tile:active img {
+  transform: scale(1.06);
+}
+@media (min-width: 768px) {
+  .gallery-row:hover .animate-marquee-left,
+  .gallery-row:hover .animate-marquee-right {
+    animation-play-state: paused;
+  }
+  .gallery-tile:hover img {
+    transform: scale(1.1);
+  }
+}
+
 /* gentle up/down bob for floating exploded-view parts */
 @keyframes float-part {
   0%,
@@ -813,4 +831,97 @@ body {
   height: 2px;
   background: linear-gradient(90deg, rgba(201, 169, 110, 0) 0%, #e3c27d 35%, rgba(201, 169, 110, 0) 100%);
   box-shadow: 0 0 10px rgba(227, 194, 125, 0.45);
+}
+
+/* Soft light glint that travels around a rounded box's border (olive-green (--color-hero-blue) glare). Put <span class="glare-border" /> inside a `relative` rounded box. */
+@property --glare-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes glare-spin {
+  to {
+    --glare-angle: 360deg;
+  }
+}
+
+.glare-border {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  border-radius: inherit;
+  padding: 3px;
+  background: conic-gradient(
+    from var(--glare-angle),
+    transparent 0deg 262deg,
+    color-mix(in srgb, var(--color-hero-blue) 70%, transparent) 318deg,
+    color-mix(in srgb, var(--color-hero-blue) 65%, white) 350deg,
+    transparent 360deg
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  animation: glare-spin 7s linear infinite;
+}
+
+.glare-border::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  padding: inherit;
+  background: inherit;
+  animation: inherit;
+  filter: blur(7px);
+  opacity: 0.9;
+  -webkit-mask: inherit;
+  mask: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glare-border,
+  .glare-border::after {
+    animation: none;
+  }
+}
+
+/* Timeline number "wheel": the dashed outer ring turns clockwise, the broken inner ring turns the
+   other way. Paused by default; runs while its card is hovered (or on the first stage on phones). */
+@keyframes wheel-cw {
+  to { transform: rotate(360deg); }
+}
+@keyframes wheel-ccw {
+  to { transform: rotate(-360deg); }
+}
+.wheel-outer {
+  animation: wheel-cw 8s linear infinite;
+  animation-play-state: paused;
+}
+.wheel-inner {
+  animation: wheel-ccw 6s linear infinite;
+  animation-play-state: paused;
+}
+.wheel-stage:hover .wheel-outer,
+.wheel-stage:hover .wheel-inner,
+.wheel-stage:focus-within .wheel-outer,
+.wheel-stage:focus-within .wheel-inner {
+  animation-play-state: running;
+}
+.wheel-stage:active .wheel-outer,
+.wheel-stage:active .wheel-inner {
+  animation-play-state: running;
+}
+@media (max-width: 767px) {
+  .wheel-stage.wheel-spin .wheel-outer,
+  .wheel-stage.wheel-spin .wheel-inner {
+    animation-play-state: running;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wheel-outer,
+  .wheel-inner {
+    animation: none !important;
+  }
 }

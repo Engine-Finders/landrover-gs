@@ -64,7 +64,7 @@ export default function ModelSec8({ data }) {
 
         <div className="relative px-4 pb-8 pt-8">
           <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-            <span className="block text-white">{renderTitleLine(line1, "text-white")}</span>
+            <span className="block text-white">{renderTitleLine(line1, "text-white")}</span>{" "}
             <span className="block text-white">{renderTitleLine(line2, "text-white")}</span>
           </h2>
 
@@ -131,10 +131,10 @@ export default function ModelSec8({ data }) {
       <LandRoverLogo className="absolute right-6 top-6 h-16 w-16 opacity-90" />
 
       <div className="relative mx-auto max-w-6xl">
-        <h2 className="h2 origin-left scale-y-110 scale-x-90 pt-8 uppercase">
-          <span className="text-white">{renderTitleLine(line1, "text-white")} </span>
+        <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 pt-8 uppercase">
+          <span className="text-white">{renderTitleLine(line1, "text-white")} </span>{" "}
           <span className="text-white">{renderTitleLine(line2, "text-white")}</span>
-        </h2>
+        </div>
 
         <div className="mt-6 grid grid-cols-6 gap-3">
           {data.reviews.map((r) => (

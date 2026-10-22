@@ -1,11 +1,20 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
+import ImageLightbox from "@/components/shared/ImageLightbox";
 
 const TILE_FADE =
   "radial-gradient(60% 90% at 0% 0%, var(--theme-light-bg) 0%, transparent 55%), radial-gradient(60% 90% at 100% 0%, var(--theme-light-bg) 0%, transparent 55%), radial-gradient(60% 90% at 0% 100%, var(--theme-light-bg) 0%, transparent 55%), radial-gradient(60% 90% at 100% 100%, var(--theme-light-bg) 0%, transparent 55%)";
 
+// Tap-to-enlarge is a phone interaction; on desktop the tiles zoom on hover instead.
+const isPhone = () => typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches;
+
 export default function HomeSec6({ data }) {
+  const [open, setOpen] = useState(null);
   const portraitTrack = [...data.portrait, ...data.portrait];
   const landscapeTrack = [...data.landscape, ...data.landscape];
+  const enlarge = (img) => () => isPhone() && setOpen(img);
 
   return (
     <section className="theme-light px-4 py-8 sm:px-6 lg:px-8">
@@ -26,30 +35,51 @@ export default function HomeSec6({ data }) {
           </div>
         </div>
 
+        {/* a row pauses while the pointer is over it (desktop) */}
+        <div>
         {/* portrait row — infinite scroll right */}
-        <div className="mt-6 overflow-hidden">
+        <div className="gallery-row mt-6 overflow-hidden">
           <div className="animate-marquee-right flex w-max gap-1.5">
             {portraitTrack.map((img, i) => (
-              <div key={i} className="relative h-56 w-40 shrink-0 overflow-hidden rounded-xl sm:h-64 sm:w-44">
-                <Image src={img.src} alt={img.alt} fill className="object-cover" sizes="200px" />
+              <button
+                key={i}
+                type="button"
+                onClick={enlarge(img)}
+                aria-label={`View larger: ${img.alt}`}
+                aria-hidden={i >= data.portrait.length ? true : undefined}
+                tabIndex={i >= data.portrait.length ? -1 : undefined}
+                className="gallery-tile relative h-56 w-40 shrink-0 cursor-pointer overflow-hidden rounded-xl sm:h-64 sm:w-44 md:cursor-default"
+              >
+                <Image src={img.src} alt={img.alt} fill className="object-cover transition-transform duration-700 ease-out" sizes="200px" />
                 <div className="pointer-events-none absolute inset-0" style={{ background: TILE_FADE }} />
-              </div>
+              </button>
             ))}
           </div>
         </div>
 
         {/* landscape row — infinite scroll left */}
-        <div className="mt-2 overflow-hidden">
+        <div className="gallery-row mt-2 overflow-hidden">
           <div className="animate-marquee-left flex w-max gap-1.5">
             {landscapeTrack.map((img, i) => (
-              <div key={i} className="relative h-40 w-64 shrink-0 overflow-hidden rounded-xl sm:h-48 sm:w-80">
-                <Image src={img.src} alt={img.alt} fill className="object-cover" sizes="360px" />
+              <button
+                key={i}
+                type="button"
+                onClick={enlarge(img)}
+                aria-label={`View larger: ${img.alt}`}
+                aria-hidden={i >= data.landscape.length ? true : undefined}
+                tabIndex={i >= data.landscape.length ? -1 : undefined}
+                className="gallery-tile relative h-40 w-64 shrink-0 cursor-pointer overflow-hidden rounded-xl sm:h-48 sm:w-80 md:cursor-default"
+              >
+                <Image src={img.src} alt={img.alt} fill className="object-cover transition-transform duration-700 ease-out" sizes="360px" />
                 <div className="pointer-events-none absolute inset-0" style={{ background: TILE_FADE }} />
-              </div>
+              </button>
             ))}
           </div>
         </div>
+        </div>
       </div>
+
+      {open && <ImageLightbox img={open} onClose={() => setOpen(null)} />}
     </section>
   );
 }

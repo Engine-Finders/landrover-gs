@@ -27,7 +27,7 @@ export default function ModelSec11({ data }) {
         <div className="relative px-4 pb-8 pt-12">
           <LandRoverStripe className="h-3 w-6" />
           <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
-            <span className="block text-white">{line1}</span>
+            <span className="block text-white">{line1}</span>{" "}
             <span className="block text-hero-blue">{line2}</span>
           </h2>
           <span className="mt-3 block h-px w-16 bg-hero-blue/50" />

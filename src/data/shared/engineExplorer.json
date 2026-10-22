@@ -436,5 +436,17 @@
     "Petrol MHEV",
     "Petrol MHEV/PHEV",
     "Supercharged V8"
+  ],
+  "knownIssues": [
+    "Timing chain wear or stretch",
+    "Head gasket failure and coolant loss",
+    "Oil leaks",
+    "Turbocharger failure or boost loss",
+    "Injector and fuel system faults",
+    "Main and big-end bearing wear, low oil pressure",
+    "DPF and EGR faults",
+    "Overheating and cooling system failure",
+    "Oil pump or oil cooler failure",
+    "Engine management faults and limp mode"
   ]
 }

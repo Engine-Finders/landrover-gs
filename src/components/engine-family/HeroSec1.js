@@ -13,17 +13,18 @@ function Brand({ logoClass, textClass }) {
   );
 }
 
-function Title({ data, className = "" }) {
+function Title({ data, className = "", desktop = false }) {
+  const Tag = desktop ? "div" : "h1";
   return (
-    <h1 className={`h1 uppercase ${className}`}>
+    <Tag {...(desktop ? { role: "heading", "aria-level": 1 } : {})} className={`h1 uppercase ${className}`}>
       <span className="block">
-        <span className="text-white">Land Rover </span>
+        <span className="text-white">Land Rover </span>{" "}
         <span className="text-hero-blue">{data.titlePre}</span>
-      </span>
+      </span>{" "}
       <span className="block text-white">
         {data.titleHighlight} {data.titleLine2}
       </span>
-    </h1>
+    </Tag>
   );
 }
 
@@ -107,7 +108,7 @@ export default function HeroSec1({ data }) {
           <div className="max-w-xl">
             <Brand logoClass="h-12 w-20" textClass="text-[11px]" />
 
-            <Title data={data} className="mt-4" />
+            <Title data={data} className="mt-4" desktop />
             <span className="gold-rule mt-4 block w-full max-w-md" aria-hidden="true" />
 
             <p className="mt-4 max-w-lg text-sm leading-relaxed text-white lg:text-[15px]">{data.subhead}</p>

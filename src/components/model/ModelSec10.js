@@ -11,7 +11,7 @@ export default function ModelSec10({ data }) {
       <div className="relative px-4 py-10 md:hidden">
         <LandRoverLogo className="absolute right-4 top-8 h-14 w-14 opacity-90" />
         <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-          <span className="block text-[#101828]">{data.headlinePre}</span>
+          <span className="block text-[#101828]">{data.headlinePre}</span>{" "}
           <span className="block text-hero-blue">{data.headlineHighlight}</span>
         </h2>
         <p className="mt-2 text-sm text-[#101828]">{data.subhead}</p>
@@ -68,10 +68,10 @@ export default function ModelSec10({ data }) {
       <div className="relative mx-auto max-w-6xl">
         <LandRoverLogo className="absolute right-0 top-6 h-16 w-16 opacity-90" />
         <div className="pt-8">
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-            <span className="text-[#101828]">{data.headlinePre} </span>
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 uppercase">
+            <span className="text-[#101828]">{data.headlinePre} </span>{" "}
             <span className="text-hero-blue">{data.headlineHighlight}</span>
-          </h2>
+          </div>
           <p className="mt-2 max-w-2xl text-sm text-[#101828]">{data.subhead}</p>
         </div>
 
