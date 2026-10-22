@@ -4,7 +4,7 @@ import UnionJack from "@/components/reusable/UnionJack";
 // height (--ph) so the width, blue GB strip, flag, GB label and text keep the proportions of the
 // hero trust card at any size. The text also shrinks to fit when the plate is squeezed narrower than that
 // (phones, plate beside a button), so "YOUR REG" never clips. Callers set the height with `heightClass` (e.g. "[--ph:56px] sm:[--ph:80px]").
-const RATIO = 5.6; // plate width / height
+// plate width = 5.6 x height (max-w-[calc(var(--ph)*5.6)] below)
 
 const TONES = {
   light: "bg-[#e4e8ec] text-black placeholder:text-black",
@@ -24,8 +24,8 @@ export default function RegPlate({
 }) {
   return (
     <div
-      className={`flex h-(--ph) w-full min-w-0 overflow-hidden rounded-sm border-2 shadow-sm ${borderClass} ${heightClass} ${className}`}
-      style={{ maxWidth: `calc(var(--ph) * ${RATIO})`, containerType: "inline-size" }}
+      className={`flex h-(--ph) w-full min-w-0 max-w-[calc(var(--ph)*5.6)] overflow-hidden rounded-sm border-2 shadow-sm ${borderClass} ${heightClass} ${className}`}
+      style={{ containerType: "inline-size" }}
     >
       <span
         className="flex shrink-0 flex-col items-center justify-center bg-[#003399]"

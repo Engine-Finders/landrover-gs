@@ -83,7 +83,7 @@ export default function RegLookupForm({
         tone={darkField ? "dark" : whiteField ? "white" : "light"}
         heightClass={fieldHeight}
         borderClass={fieldBorder}
-        className={`${row ? "w-[calc(var(--ph)*5.6)]! shrink" : "shrink-0"} ${row || stacked ? "" : "sm:w-[calc(var(--ph)*5.6)]! sm:flex-1"} ${fieldClass}`}
+        className={`${row ? "w-[calc(var(--ph)*5.6)]! shrink" : "shrink-0"} ${row || stacked ? "" : "max-sm:max-w-none sm:w-[calc(var(--ph)*5.6)]! sm:flex-1"} ${fieldClass}`}
       />
 
       {!hideButton && (
