@@ -48,7 +48,7 @@ function AllModelsButton({ cta, desktop }) {
     <div className={`flex justify-center ${desktop ? "mt-6" : "mt-5"}`}>
       <a
         href={cta.href}
-        className={`btn-text group flex items-center gap-2 border-2 border-[#1a1a1a]/45 bg-white/60 uppercase text-[#1a1a1a] backdrop-blur-md transition hover:border-hero-blue hover:bg-hero-blue hover:text-white ${
+        className={`btn-text group flex items-center gap-2 border-2 border-[#1a1a1a]/45 bg-white/60 uppercase text-[#1a1a1a] backdrop-blur-md transition hover:border-[#607056] hover:bg-[#607056] hover:text-white ${
           desktop ? "rounded-md px-6 py-2.5" : "rounded-lg px-5 py-2.5"
         }`}
       >

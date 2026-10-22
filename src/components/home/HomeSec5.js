@@ -161,7 +161,7 @@ export default function HomeSec5({ data }) {
 
           <a
             href={data.cta.href}
-            className="btn-text mt-5 block rounded-sm border-2 border-hero-blue px-6 py-3 text-center text-hero-blue transition-colors hover:bg-hero-blue hover:text-white"
+            className="btn-text mt-5 block rounded-sm border-2 border-hero-blue px-6 py-3 text-center text-hero-blue transition-colors hover:border-[#607056] hover:bg-[#607056] hover:text-white"
           >
             {data.cta.label} →
           </a>
@@ -218,7 +218,7 @@ export default function HomeSec5({ data }) {
         <div className="mt-6 hidden text-center md:block">
           <a
             href={data.cta.href}
-            className="btn-text inline-block rounded-sm border-2 border-hero-blue px-6 py-3 text-hero-blue transition-colors hover:bg-hero-blue hover:text-white"
+            className="btn-text inline-block rounded-sm border-2 border-hero-blue px-6 py-3 text-hero-blue transition-colors hover:border-[#607056] hover:bg-[#607056] hover:text-white"
           >
             {data.cta.label} →
           </a>

@@ -113,7 +113,7 @@ export default function Sec9b({ data }) {
                       <a
                         key={c.label}
                         href={c.href}
-                        className="flex items-center gap-1.5 whitespace-nowrap rounded-md border border-hero-blue px-4 py-2 text-xs font-bold uppercase tracking-wide text-hero-blue transition-colors hover:bg-hero-blue hover:text-white"
+                        className="flex items-center gap-1.5 whitespace-nowrap rounded-md border border-hero-blue px-4 py-2 text-xs font-bold uppercase tracking-wide text-hero-blue transition-colors hover:border-[#607056] hover:bg-[#607056] hover:text-white"
                       >
                         {c.label} <span aria-hidden>→</span>
                       </a>

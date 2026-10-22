@@ -111,7 +111,7 @@ export default function LegalPage({ data }) {
                       className={
                         j === 0
                           ? "rounded-md bg-hero-blue px-5 py-2.5 text-sm font-bold text-white transition-transform hover:scale-[1.02]"
-                          : "rounded-md border border-hero-blue px-5 py-2.5 text-sm font-bold text-hero-blue transition-colors hover:bg-hero-blue hover:text-white"
+                          : "rounded-md border border-hero-blue px-5 py-2.5 text-sm font-bold text-hero-blue transition-colors hover:border-[#607056] hover:bg-[#607056] hover:text-white"
                       }
                     >
                       {it.label}
