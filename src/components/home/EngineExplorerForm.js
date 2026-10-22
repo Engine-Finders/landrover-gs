@@ -167,7 +167,7 @@ export default function EngineExplorerForm({ fields, explorer, ctaButton, mobile
         <button
           type="button"
           onClick={handleFindEngine}
-          className="btn-text mt-5 w-full rounded-md border-2 border-hero-blue bg-hero-blue py-3 uppercase text-white shadow-[0_0_20px_rgba(96,112,86,0.4)] transition-colors hover:bg-transparent hover:text-hero-blue"
+          className="btn-text mt-5 w-full rounded-md border-2 border-hero-blue py-3 uppercase text-hero-blue transition-colors hover:border-[#607056] hover:bg-[#607056] hover:text-white"
         >
           {ctaButton} →
         </button>
@@ -185,7 +185,7 @@ export default function EngineExplorerForm({ fields, explorer, ctaButton, mobile
       <button
         type="button"
         onClick={handleFindEngine}
-        className="btn-text mt-4 w-full rounded-md border-2 border-hero-blue bg-hero-blue py-3 uppercase text-white shadow-[0_0_20px_rgba(96,112,86,0.4)] transition-colors hover:bg-transparent hover:text-hero-blue sm:w-auto sm:px-8"
+        className="btn-text mt-4 w-full rounded-md border-2 border-hero-blue py-3 uppercase text-hero-blue transition-colors hover:border-[#607056] hover:bg-[#607056] hover:text-white sm:w-auto sm:px-8"
       >
         {ctaButton} →
       </button>

@@ -23,7 +23,7 @@ export default function HomeSec11({ data }) {
             className="absolute inset-0"
             style={{
               background: "var(--theme-light-bg)",
-              clipPath: "polygon(0 0, 67% 0, 63% 100%, 0 100%)",
+              clipPath: "polygon(0 0, 73% 0, 59% 100%, 0 100%)",
             }}
           />
 
@@ -31,12 +31,12 @@ export default function HomeSec11({ data }) {
           <div
             aria-hidden="true"
             className="absolute inset-0"
-            style={{ background: "linear-gradient(180deg, #4a6b50, #2c4a35)", clipPath: "polygon(63% 0, 65% 0, 61% 100%, 59% 100%)" }}
+            style={{ background: "linear-gradient(180deg, #4a6b50, #2c4a35)", clipPath: "polygon(69% 0, 71% 0, 57% 100%, 55% 100%)" }}
           />
           <div
             aria-hidden="true"
             className="absolute inset-0"
-            style={{ background: "linear-gradient(90deg, #d6b676, #b8955c)", clipPath: "polygon(65% 0, 67.3% 0, 63.3% 100%, 61% 100%)" }}
+            style={{ background: "linear-gradient(90deg, #d6b676, #b8955c)", clipPath: "polygon(71% 0, 73.3% 0, 59.3% 100%, 57% 100%)" }}
           />
 
           <div className="absolute inset-0 px-4 pt-6">
