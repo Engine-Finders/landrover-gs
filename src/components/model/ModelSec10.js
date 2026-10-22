@@ -21,7 +21,7 @@ export default function ModelSec10({ data }) {
           limit={6}
           label={data.viewMoreLabel}
           wrapClass="mt-5 flex justify-center"
-          buttonClass="btn-text flex items-center gap-2 rounded-lg border-2 border-hero-blue bg-white/70 px-5 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white"
+          buttonClass="btn-text flex items-center gap-2 rounded-lg border-2 border-hero-blue bg-white/70 px-5 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:border-[#607056] hover:bg-[#607056] hover:text-white"
         >
           {data.cards.map((c) => {
             const Wrapper = c.href ? Link : "div";
@@ -80,7 +80,7 @@ export default function ModelSec10({ data }) {
           limit={8}
           label={data.viewMoreLabel}
           wrapClass="mt-6 flex justify-center"
-          buttonClass="btn-text flex items-center gap-2 rounded-md border-2 border-hero-blue bg-white/70 px-6 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white"
+          buttonClass="btn-text flex items-center gap-2 rounded-md border-2 border-hero-blue bg-white/70 px-6 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:border-[#607056] hover:bg-[#607056] hover:text-white"
         >
           {data.cards.map((c) => {
             const Wrapper = c.href ? Link : "div";

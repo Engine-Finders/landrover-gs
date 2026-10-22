@@ -43,7 +43,7 @@ export default function ModelSec7({ data }) {
         </div>
 
         <div className="mt-5 flex justify-center">
-          <Link href="/landrover-inside-workshop" className="btn-text flex items-center gap-2 rounded-lg border-2 border-hero-blue bg-white/70 px-5 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white">
+          <Link href="/landrover-inside-workshop" className="btn-text flex items-center gap-2 rounded-lg border-2 border-hero-blue bg-white/70 px-5 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:border-[#607056] hover:bg-[#607056] hover:text-white">
             {data.viewMoreLabel} <span aria-hidden>→</span>
           </Link>
         </div>
@@ -103,7 +103,7 @@ export default function ModelSec7({ data }) {
         </div>
 
         <div className="mt-6 flex justify-center">
-          <Link href="/landrover-inside-workshop" className="btn-text flex items-center gap-2 rounded-md border-2 border-hero-blue bg-white/70 px-6 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:bg-hero-blue hover:text-white">
+          <Link href="/landrover-inside-workshop" className="btn-text flex items-center gap-2 rounded-md border-2 border-hero-blue bg-white/70 px-6 py-2.5 uppercase text-hero-blue backdrop-blur-md transition hover:border-[#607056] hover:bg-[#607056] hover:text-white">
             {data.viewMoreLabel} <span aria-hidden>→</span>
           </Link>
         </div>

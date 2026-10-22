@@ -119,7 +119,7 @@ export default function HomeSec1({ hero, lookup }) {
                 }}
               />
               <div className="relative">
-                <div role="heading" aria-level="2" className="h3 italic whitespace-nowrap uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)]">
+                <div role="heading" aria-level="2" className="h3 mb-3 italic whitespace-nowrap uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)]">
                   {lookup.h2}
                 </div>
                 <RegLookupForm
