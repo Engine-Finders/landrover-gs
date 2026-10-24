@@ -145,7 +145,7 @@ export default function EngineExplorerForm({ fields, explorer, ctaButton, mobile
   function handleFindEngine() {
     if (match?.engineHref) router.push(match.engineHref);
     else if (match?.modelHref) router.push(match.modelHref);
-    else router.push(issue ? `/get-quote?issue=${encodeURIComponent(issue)}` : "/get-quote");
+    else router.push(`/get-quote?${issue ? `issue=${encodeURIComponent(issue)}&` : ""}from=${encodeURIComponent(window.location.pathname)}`);
   }
 
   const selects = [
