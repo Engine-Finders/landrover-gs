@@ -127,7 +127,7 @@ export default function QuotePopup({ onClose }) {
     }
   }
 
-  const photo = vehicle ? vehiclePhoto(vehicle.make, vehicle.model) : null;
+  const photo = vehicle ? vehiclePhoto(vehicle.make, vehicle.model, vehicle.year) : null;
 
   return (
     <div className="max-h-[calc(100dvh-1.5rem)] overflow-y-auto rounded-2xl bg-[#0d0f0c] shadow-2xl">
@@ -173,7 +173,7 @@ export default function QuotePopup({ onClose }) {
                       alt={[vehicle.make, vehicle.model].filter(Boolean).join(" ") || "Your vehicle"}
                       fill
                       sizes="200px"
-                      className="object-contain"
+                      className="object-contain mix-blend-multiply"
                     />
                   </div>
                   <div className="min-w-0">
