@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useSearchParams, useRouter } from "next/navigation";
+import { vehiclePhoto } from "@/lib/vehiclePhoto";
 
 export default function GetQuoteClient() {
   const params = useSearchParams();
@@ -15,6 +17,7 @@ export default function GetQuoteClient() {
   const fuelType = params.get("fuelType") || "";
   const from = params.get("from") || "";
 
+  const photo = vehiclePhoto(make, series, year);
   const summary = [make, series, year].filter(Boolean).join(" – ");
 
   const [form, setForm] = useState({
@@ -73,6 +76,11 @@ export default function GetQuoteClient() {
         {(summary || vrm) && (
           <div className="mt-6 flex flex-col items-center gap-2">
             {summary && <p className="border-b border-gray-300 pb-2 text-lg font-semibold">{summary}</p>}
+            {photo && (
+              <div className="relative h-32 w-48 sm:h-40 sm:w-60">
+                <Image src={photo} alt={summary || "Your vehicle"} fill sizes="240px" className="object-contain mix-blend-multiply" />
+              </div>
+            )}
             {vrm && (
               <div
                 className="inline-block rounded-md border-4 px-6 py-2 text-2xl font-black uppercase tracking-widest text-white"
