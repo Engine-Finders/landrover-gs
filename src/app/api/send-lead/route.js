@@ -1,10 +1,11 @@
-import { sendLeadToCRM, toCrmLeadPayload, LEAD_SOURCE } from "@/lib/leads";
+import { sendLeadToCRM, toCrmLeadPayload, leadSourcePage, LEAD_SOURCE } from "@/lib/leads";
 
 const esc = (v) =>
   String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-async function sendLeadEmail(payload) {
-  const rows = Object.entries({ ...payload, source: LEAD_SOURCE })
+async function sendLeadEmail(payload, sourcePage) {
+  const { page_url: _pageUrl, ...fields } = payload;
+  const rows = Object.entries({ ...fields, source: LEAD_SOURCE, source_page: sourcePage })
     .filter(([, value]) => value !== undefined && value !== null && value !== "")
     .map(([key, value]) => `<tr><td style="font-weight:bold;padding:4px 12px 4px 0;">${esc(key)}</td><td>${esc(value)}</td></tr>`)
     .join("");
@@ -41,13 +42,14 @@ export async function POST(request) {
   // Honeypot: bots fill hidden fields. Pretend it worked, send nothing.
   if (payload.honeypot) return Response.json({ status: "success" });
 
-  const crmPayload = toCrmLeadPayload(payload);
+  const sourcePage = leadSourcePage(payload.page_url, request.headers.get("referer"));
+  const crmPayload = toCrmLeadPayload(payload, sourcePage);
   if (!crmPayload.email && !crmPayload.number) {
     return Response.json({ status: "error", message: "Email or phone number is required." }, { status: 400 });
   }
 
   // Email (+ cc) and the central CRM both get the lead, independently.
-  const [emailResult, crmResult] = await Promise.all([sendLeadEmail(payload), sendLeadToCRM(crmPayload)]);
+  const [emailResult, crmResult] = await Promise.all([sendLeadEmail(payload, sourcePage), sendLeadToCRM(crmPayload)]);
 
   if (!emailResult.ok) console.error("lead email failed:", emailResult.error);
   if (!crmResult.ok) console.error("lead CRM failed:", crmResult.error);

@@ -19,8 +19,27 @@ function capacityToLitres(engineCapacity) {
 
 const str = (v) => (v === undefined || v === null ? "" : String(v).trim());
 
+/**
+ * The page a lead was submitted from, as "domain/path" (no query string, so reg plates and other
+ * personal bits never end up in it). Uses the page URL the form sends, else the request's Referer;
+ * anything not on this site falls back to the bare domain.
+ */
+export function leadSourcePage(pageUrl, referer) {
+  for (const candidate of [pageUrl, referer]) {
+    try {
+      const u = new URL(String(candidate || ""));
+      const host = u.hostname.replace(/^www\./, "");
+      const isLocalDev = process.env.NODE_ENV !== "production" && host === "localhost";
+      if (host !== LEAD_SOURCE && !isLocalDev) continue;
+      const path = u.pathname.replace(/\/+$/, "");
+      return `${isLocalDev ? u.host : LEAD_SOURCE}${path}`;
+    } catch {}
+  }
+  return LEAD_SOURCE;
+}
+
 /** Map whatever the form posts to the Edge Function's field names. */
-export function toCrmLeadPayload(p = {}) {
+export function toCrmLeadPayload(p = {}, sourcePage = LEAD_SOURCE) {
   const reg = str(p.vehicle_reg || p.vehicle_vrm).replace(/\s+/g, "").toUpperCase();
   const vrm = str(p.vehicle_vrm || p.vehicle_reg).replace(/\s+/g, "").toUpperCase();
   return {
@@ -38,6 +57,7 @@ export function toCrmLeadPayload(p = {}) {
     vehicle_part: str(p.vehicle_part) || "Engine",
     description: str(p.description),
     source: LEAD_SOURCE,
+    source_page: sourcePage,
   };
 }
 
