@@ -21,6 +21,7 @@ export default function RegPlate({
   borderClass = "border-[var(--color-hero-gold)]",
   className = "",
   ariaLabel = "Vehicle registration",
+  readOnly = false,
 }) {
   return (
     <div
@@ -40,6 +41,7 @@ export default function RegPlate({
       </span>
       <input
         type="text"
+        readOnly={readOnly}
         value={value}
         onChange={(e) => onChange(e.target.value.toUpperCase())}
         onBlur={onBlur}

@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import QuoteForm from "@/components/shared/QuoteForm";
+import QuotePopup from "@/components/shared/QuotePopup";
 
 const QuoteModalContext = createContext({ open: () => {} });
 
@@ -34,26 +34,11 @@ export default function QuoteModalProvider({ children }) {
           role="dialog"
           aria-modal="true"
           aria-label="Get your free engine quote"
-          className="fixed inset-0 z-[100] flex items-start justify-center overflow-y-auto bg-black/40 p-4 backdrop-blur-md sm:items-center"
+          className="fixed inset-x-0 top-0 z-[100] flex h-dvh items-center justify-center bg-black/40 p-3 backdrop-blur-md"
           onClick={close}
         >
-          <div
-            className="theme-light relative my-3 w-full max-w-lg rounded-2xl border border-white/40 bg-[#f3f0eb] p-4 shadow-2xl sm:p-5"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button
-              type="button"
-              onClick={close}
-              aria-label="Close"
-              className="absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full bg-black/10 text-2xl leading-none text-[#1a1a1a] transition-colors hover:bg-black/20"
-            >
-              ×
-            </button>
-            <p className="h3 pr-8 uppercase text-[#1a1a1a]">Get Your Free Engine Quote</p>
-            <p className="mb-3 mt-0.5 text-sm text-black/65">
-              Enter your registration and we&apos;ll identify your engine, price the rebuild and arrange recovery.
-            </p>
-            <QuoteForm plate source="quote-popup" />
+          <div className="relative w-full max-w-lg sm:max-w-xl" onClick={(e) => e.stopPropagation()}>
+            <QuotePopup onClose={close} />
           </div>
         </div>
       )}
