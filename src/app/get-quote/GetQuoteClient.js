@@ -13,6 +13,7 @@ export default function GetQuoteClient() {
   const year = params.get("year") || "";
   const engineCapacity = params.get("engineCapacity") || "";
   const fuelType = params.get("fuelType") || "";
+  const from = params.get("from") || "";
 
   const summary = [make, series, year].filter(Boolean).join(" – ");
 
@@ -43,6 +44,9 @@ export default function GetQuoteClient() {
       engine_capacity: engineCapacity,
       fuel_type: fuelType,
       ...form,
+      // the page the visitor started on (carried through the redirect), else this page
+      page_url: `${window.location.origin}${from.startsWith("/") && !from.startsWith("//") ? from : window.location.pathname}`,
+      lead_source: "get-quote",
     };
 
     try {
