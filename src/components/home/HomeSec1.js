@@ -57,7 +57,7 @@ export default function HomeSec1({ hero, lookup }) {
                 }}
               />
               <div className="relative">
-                <h2 className="h3 italic uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)]">{lookup.h2}</h2>
+                <h2 className="h3 text-center italic uppercase text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)]">{lookup.h2}</h2>
                 <RegLookupForm
                   buttonLabel={lookup.buttonLabel}
                   compact

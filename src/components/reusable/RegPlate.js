@@ -22,14 +22,15 @@ export default function RegPlate({
   className = "",
   ariaLabel = "Vehicle registration",
   readOnly = false,
+  yellowPlate = false,
 }) {
   return (
     <div
-      className={`flex h-(--ph) w-full min-w-0 max-w-[calc(var(--ph)*5.6)] overflow-hidden rounded-sm border-2 shadow-sm ${borderClass} ${heightClass} ${className}`}
+      className={`flex h-(--ph) w-full min-w-0 max-w-[calc(var(--ph)*5.6)] overflow-hidden rounded-sm border-2 shadow-sm ${yellowPlate ? "border-[#1a1a1a]" : borderClass} ${heightClass} ${className}`}
       style={{ containerType: "inline-size" }}
     >
       <span
-        className="flex shrink-0 flex-col items-center justify-center bg-[#003399]"
+        className={`flex shrink-0 flex-col items-center justify-center ${yellowPlate ? "bg-[#003399]" : "bg-[#003399]"}`}
         style={{ width: "calc(var(--ph) * 0.7)", gap: "calc(var(--ph) * 0.2)" }}
       >
         <span className="block" style={{ width: "calc(var(--ph) * 0.35)" }}>
@@ -49,7 +50,7 @@ export default function RegPlate({
         maxLength={8}
         aria-label={ariaLabel}
         style={{ fontFamily: '"Charles Wright", sans-serif', lineHeight: 0.8, fontSize: "min(calc(var(--ph) * 0.75), calc((100cqw - var(--ph) * 0.7 - 16px) / 5))" }}
-        className={`min-w-0 flex-1 px-2 text-center font-normal uppercase tracking-[0.06em] outline-none ${TONES[tone]}`}
+        className={`min-w-0 flex-1 px-2 text-center font-normal uppercase tracking-[0.06em] outline-none ${yellowPlate ? "bg-[#f6c315] text-black placeholder:text-black/60" : TONES[tone]}`}
       />
     </div>
   );

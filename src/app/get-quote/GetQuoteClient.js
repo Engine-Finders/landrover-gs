@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { useSearchParams, useRouter } from "next/navigation";
 import { vehiclePhoto } from "@/lib/vehiclePhoto";
+import RegPlate from "@/components/reusable/RegPlate";
 
 export default function GetQuoteClient() {
   const params = useSearchParams();
@@ -82,16 +83,7 @@ export default function GetQuoteClient() {
               </div>
             )}
             {vrm && (
-              <div
-                className="inline-block rounded-md border-4 px-6 py-2 text-2xl font-black uppercase tracking-widest text-white"
-                style={{
-                  fontFamily: '"Charles Wright", sans-serif',
-                  backgroundColor: "var(--color-hero-gold)",
-                  borderColor: "var(--color-hero-gold)",
-                }}
-              >
-                {vrm}
-              </div>
+              <RegPlate value={vrm} onChange={() => {}} readOnly yellowPlate heightClass="[--ph:56px] sm:[--ph:64px]" ariaLabel="Your registration" />
             )}
           </div>
         )}

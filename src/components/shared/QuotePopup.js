@@ -8,6 +8,7 @@ import RegPlate from "@/components/reusable/RegPlate";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import { lookupVrm } from "@/lib/vrmLookup";
 import { vehiclePhoto } from "@/lib/vehiclePhoto";
+import { vehicleTitle } from "@/lib/vehicleTitle";
 
 const OLIVE = "#607056";
 
@@ -127,12 +128,13 @@ export default function QuotePopup({ onClose }) {
     }
   }
 
+  const title = vehicle ? vehicleTitle(vehicle.make, vehicle.model) : { title: "", subtitle: "" };
   const photo = vehicle ? vehiclePhoto(vehicle.make, vehicle.model, vehicle.year) : null;
 
   return (
-    <div className="max-h-[calc(100dvh-1.5rem)] overflow-y-auto rounded-2xl bg-[#0d0f0c] shadow-2xl">
+    <div className="theme-light max-h-[calc(100dvh-1.5rem)] overflow-y-auto rounded-2xl shadow-2xl">
       {/* dark photo header */}
-      <div className="relative px-5 pb-6 pt-4 sm:px-7">
+      <div className="relative px-5 pb-2 pt-4 sm:px-7">
         <Image src="/home/sec4.5_new.webp" alt="" fill sizes="520px" className="object-cover object-[30%_55%] opacity-70" />
         <div className="absolute inset-0 bg-linear-to-r from-[#0d0f0c] via-[#0d0f0c]/75 to-transparent" />
         <button
@@ -143,21 +145,18 @@ export default function QuotePopup({ onClose }) {
         >
           ×
         </button>
-        {vehicle && <LandRoverLogo className="absolute bottom-7 right-6 h-10 w-10 sm:right-8" />}
+        {vehicle && <LandRoverLogo className="absolute bottom-3 right-6 h-10 w-10 sm:right-8" />}
         <div className="relative">
           {/* inline size: the global .h2 rule would otherwise win at desktop widths and blow the title up */}
-          <p className="h2 max-w-[80%] text-white" style={{ fontStyle: "normal", fontSize: "clamp(26px, 6.5vw, 34px)", lineHeight: 1.02 }}>
-            Get My Vehicle
-            <span className="block" style={{ color: "#8aa080" }}>
-              Information
-            </span>
+          <p className="h2 max-w-[88%] text-white" style={{ fontStyle: "normal", fontSize: "clamp(20px, 5.4vw, 30px)", lineHeight: 1.05 }}>
+            Get My Vehicle <span style={{ color: "#8aa080" }}>Information</span>
           </p>
           <p className="mt-1.5 max-w-[92%] text-sm leading-snug text-white/80">Enter your vehicle registration to find best replacement engine quote.</p>
         </div>
       </div>
 
-      {/* light sheet */}
-      <div className="theme-light relative -mt-4 rounded-t-2xl px-4 pb-3 pt-3 sm:px-6">
+      {/* form: same panel as the header, no separate card */}
+      <div className="relative px-4 pb-3 pt-3 sm:px-6">
         {status === "success" ? (
           <p role="status" className="rounded-xl bg-[#607056]/10 p-6 text-center text-base font-bold text-[#3b402b]">
             Thanks — your request has been sent. We&apos;ll be in touch shortly.
@@ -167,7 +166,7 @@ export default function QuotePopup({ onClose }) {
             {vehicle ? (
               <div>
                 <div className="grid grid-cols-[40%_1fr] items-center gap-3">
-                  <div className="relative h-24 sm:h-32">
+                  <div className="relative h-20 sm:h-28">
                     <Image
                       src={photo || "/home/engine-core.webp"}
                       alt={[vehicle.make, vehicle.model].filter(Boolean).join(" ") || "Your vehicle"}
@@ -177,10 +176,9 @@ export default function QuotePopup({ onClose }) {
                     />
                   </div>
                   <div className="min-w-0">
-                    <RegPlate value={vehicle.vrm} onChange={() => {}} readOnly heightClass="[--ph:40px]" ariaLabel="Your registration" />
-                    <p className="mt-1.5 truncate text-base font-extrabold uppercase leading-tight text-[#1a1a1a]">
-                      {[vehicle.make, vehicle.model].filter(Boolean).join(" ") || vehicle.vrm}
-                    </p>
+                    <RegPlate value={vehicle.vrm} onChange={() => {}} readOnly yellowPlate heightClass="[--ph:44px]" ariaLabel="Your registration" />
+                    <p className="mt-1.5 truncate text-lg font-extrabold leading-tight text-[#1a1a1a]">{title.title || vehicle.vrm}</p>
+                    {title.subtitle && <p className="truncate text-sm text-[#1a1a1a]/80">{title.subtitle}</p>}
                     <ul className="mt-1 space-y-0.5 border-t border-black/10 pt-1 text-xs text-[#1a1a1a]">
                       {vehicle.year && (
                         <li className="flex items-center gap-1.5">
@@ -263,7 +261,7 @@ export default function QuotePopup({ onClose }) {
                   <span className="pointer-events-none absolute left-2.5 top-[9px] text-black/45">
                     <Glyph name="chat" />
                   </span>
-                  <textarea name="description" rows={2} placeholder="Please enter any info you would like us to know." className={`${FIELD} resize-y`} />
+                  <textarea name="description" rows={1} placeholder="Please enter any info you would like us to know." className={`${FIELD} resize-y`} />
                 </div>
               </div>
 
