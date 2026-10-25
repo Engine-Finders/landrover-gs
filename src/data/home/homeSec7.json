@@ -4,30 +4,101 @@
     "h2Highlight": "Land Rover",
     "h2Post": "Model",
     "models": [
-      { "name": "Defender", "slug": "defender", "price": "1,995", "image": "/cars/land-rover-defender-l663-130-5-door-suv-2022-new-carpathian-142b.webp", "href": "/defender-engines" },
-      { "name": "Discovery", "slug": "discovery", "price": "2,495", "image": "/cars/land-rover-discovery-l462-s-5-door-suv-2026-new-tasman-blue-867b.webp", "href": "/discovery-engines" },
-      { "name": "Discovery Sport", "slug": "discovery-sport", "price": "2,195", "image": "/cars/land-rover-discovery-sport-l550-lci-dynamic-hse-compact-suv-f91c.webp", "href": "/discovery-sport-engines" },
-      { "name": "Freelander", "slug": "freelander", "price": "1,795", "image": "/cars/land-rover-freelander-l359-lci-se-dynamic-compact-suv-201420-a831.webp", "href": "/freelander-engines" }
+      {
+        "name": "Defender",
+        "slug": "defender",
+        "price": "1,995",
+        "image": "/model-cards/defender.webp",
+        "href": "/defender-engines"
+      },
+      {
+        "name": "Discovery",
+        "slug": "discovery",
+        "price": "2,495",
+        "image": "/model-cards/discovery.webp",
+        "href": "/discovery-engines"
+      },
+      {
+        "name": "Discovery Sport",
+        "slug": "discovery-sport",
+        "price": "2,195",
+        "image": "/model-cards/discovery-sport.webp",
+        "href": "/discovery-sport-engines"
+      },
+      {
+        "name": "Freelander",
+        "slug": "freelander",
+        "price": "1,795",
+        "image": "/model-cards/freelander.webp",
+        "href": "/freelander-engines"
+      }
     ],
-    "cta": { "label": "All Land Rover Models", "href": "/models" }
+    "cta": {
+      "label": "All Land Rover Models",
+      "href": "/models"
+    }
   },
   "rangeRover": {
     "h2Pre": "Find Your",
     "h2Highlight": "Range Rover",
     "h2Post": "Model",
     "models": [
-      { "name": "Range Rover", "slug": "range-rover", "price": "2,995", "image": "/cars/land-rover-range-rover-l460-hse-suv-2022-new-eiger-grey-l460-263f.webp", "href": "/landrover-range-rover-tdv6-engines", "featured": true },
-      { "name": "Range Rover Sport", "slug": "range-rover-sport", "price": "2,695", "image": "/cars/range-rover-sport-l461-dynamic-hse-suv-2022-new-eiger-grey-l-78f7.webp", "href": "/range-rover-sport-engines" },
-      { "name": "Range Rover Velar", "slug": "range-rover-velar", "price": "2,395", "image": "/cars/range-rover-velar-l560-lci-belgravia-edition-suv-2026-specia-0967.webp", "href": "/range-rover-velar-engines" },
-      { "name": "Range Rover Evoque", "slug": "range-rover-evoque", "price": "2,595", "image": "/cars/range-rover-evoque-l551-lci-dynamic-hse-5-door-suv-2023-new-be93.webp", "href": "/range-rover-evoque-engines", "featured": true }
+      {
+        "name": "Range Rover",
+        "slug": "range-rover",
+        "price": "2,995",
+        "image": "/model-cards/range-rover.webp",
+        "href": "/landrover-range-rover-tdv6-engines",
+        "featured": true
+      },
+      {
+        "name": "Range Rover Sport",
+        "slug": "range-rover-sport",
+        "price": "2,695",
+        "image": "/model-cards/range-rover-sport.webp",
+        "href": "/range-rover-sport-engines"
+      },
+      {
+        "name": "Range Rover Velar",
+        "slug": "range-rover-velar",
+        "price": "2,395",
+        "image": "/model-cards/range-rover-velar.webp",
+        "href": "/range-rover-velar-engines"
+      },
+      {
+        "name": "Range Rover Evoque",
+        "slug": "range-rover-evoque",
+        "price": "2,595",
+        "image": "/model-cards/range-rover-evoque.webp",
+        "href": "/range-rover-evoque-engines",
+        "featured": true
+      }
     ],
-    "cta": { "label": "All Range Rover Models", "href": "/models" }
+    "cta": {
+      "label": "All Range Rover Models",
+      "href": "/models"
+    }
   },
   "trustBadges": [
-    { "label": "All Models Covered", "icon": "car" },
-    { "label": "Petrol, Diesel & Hybrid Engines", "icon": "fuel" },
-    { "label": "Engine Rebuild Or Replacement", "icon": "gear" },
-    { "label": "12 Month Warranty", "icon": "shield" },
-    { "label": "Nationwide Recovery", "icon": "truck" }
+    {
+      "label": "All Models Covered",
+      "icon": "car"
+    },
+    {
+      "label": "Petrol, Diesel & Hybrid Engines",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Rebuild Or Replacement",
+      "icon": "gear"
+    },
+    {
+      "label": "12 Month Warranty",
+      "icon": "shield"
+    },
+    {
+      "label": "Nationwide Recovery",
+      "icon": "truck"
+    }
   ]
 }
