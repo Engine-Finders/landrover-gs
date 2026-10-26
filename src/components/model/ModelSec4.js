@@ -60,6 +60,8 @@ export default function ModelSec4({ data }) {
 
           {/* pricing table */}
           <div className="glass-card mt-5 overflow-hidden rounded-2xl">
+            <div className="overflow-x-auto">
+              <div className="min-w-[560px]">
             <div className={`grid ${mobileGridCols} divide-x divide-black/10 border-b border-black/10 bg-white/60`}>
               <div className="flex min-w-0 flex-col items-start gap-1 px-2 py-2">
                 <Icon name="gear" className="h-3.5 w-3.5 shrink-0 text-hero-blue" />
@@ -90,17 +92,19 @@ export default function ModelSec4({ data }) {
                 key={r.family}
                 className={`grid ${mobileGridCols} divide-x divide-black/10 ${i > 0 ? "border-t border-black/10" : ""} ${i % 2 === 1 ? "bg-white/40" : ""}`}
               >
-                <p className="label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] font-bold leading-tight text-[#101828]">
+                <p className="text-sm min-w-0 px-3 py-3 [overflow-wrap:anywhere] font-bold leading-tight text-[#101828]">
                   {r.familyHref ? <Link href={r.familyHref} >{r.family}</Link> : r.family}
                 </p>
-                <p className={`label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] font-semibold leading-tight ${r.fuel === "Petrol" ? "text-bmw-red" : "text-hero-blue"}`}>
+                <p className={`text-sm min-w-0 px-3 py-3 [overflow-wrap:anywhere] font-semibold leading-tight ${r.fuel === "Petrol" ? "text-bmw-red" : "text-hero-blue"}`}>
                   {r.fuel}
                 </p>
-                <p className="label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] leading-tight text-[#101828]">{r.size}</p>
-                {hasChassis && <p className="label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] leading-tight text-[#101828]">{r.chassis}</p>}
-                <p className="label-text min-w-0 px-2 py-2.5 [overflow-wrap:anywhere] font-bold leading-tight text-[#101828]">{r.range}</p>
+                <p className="text-sm min-w-0 px-3 py-3 [overflow-wrap:anywhere] leading-tight text-[#101828]">{r.size}</p>
+                {hasChassis && <p className="text-sm min-w-0 px-3 py-3 [overflow-wrap:anywhere] leading-tight text-[#101828]">{r.chassis}</p>}
+                <p className="text-sm min-w-0 px-3 py-3 [overflow-wrap:anywhere] font-bold leading-tight text-[#101828]">{r.range}</p>
               </div>
             ))}
+              </div>
+            </div>
           </div>
 
           {/* feature cards 2x2 */}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PhotoStripes from "@/components/reusable/PhotoStripes";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
@@ -75,13 +76,15 @@ export default function ModelSec5({ data }) {
 
           {/* comparison matrix */}
           <div className="glass-card-dark relative mt-5 overflow-hidden rounded-2xl">
+            <div className="overflow-x-auto">
+              <div className="min-w-[540px]">
             <div className="grid grid-cols-[minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)] divide-x divide-white/15 border-b border-white/15">
               <div />
-              <div className="flex items-center gap-1.5 px-2 py-3">
+              <div className="flex items-center gap-1.5 px-3 py-3">
                 <Icon name="shield-check" className="h-5 w-5 shrink-0 text-hero-blue" />
                 <p className="label-text font-extrabold uppercase leading-tight tracking-wide text-hero-blue">{data.comparison.ourLabel}</p>
               </div>
-              <div className="flex items-center gap-1.5 px-2 py-3">
+              <div className="flex items-center gap-1.5 px-3 py-3">
                 <Icon name="shield" className="h-5 w-5 shrink-0 text-white" />
                 <p className="label-text font-extrabold uppercase leading-tight tracking-wide text-white">{data.comparison.usedLabel}</p>
               </div>
@@ -92,14 +95,16 @@ export default function ModelSec5({ data }) {
                 key={r.feature}
                 className={`grid grid-cols-[minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)] divide-x divide-white/15 ${i > 0 ? "border-t border-white/15" : ""}`}
               >
-                <div className="flex min-w-0 items-start gap-1.5 px-2 py-3">
+                <div className="flex min-w-0 items-start gap-1.5 px-3 py-3">
                   <Icon name={r.icon} className="h-4 w-4 shrink-0 text-white" />
                   <p className="label-text min-w-0 break-words font-bold uppercase leading-tight text-white">{r.feature}</p>
                 </div>
-                <p className="label-text min-w-0 break-words px-2 py-3 leading-snug text-white">{withCompEmphasis(r.ours)}</p>
-                <p className="label-text min-w-0 break-words px-2 py-3 leading-snug text-white">{r.used}</p>
+                <p className="text-sm min-w-0 break-words px-3 py-3 leading-snug text-white">{withCompEmphasis(r.ours)}</p>
+                <p className="text-sm min-w-0 break-words px-3 py-3 leading-snug text-white">{r.used}</p>
               </div>
             ))}
+              </div>
+            </div>
           </div>
 
           {/* bottom action bar */}
@@ -111,7 +116,7 @@ export default function ModelSec5({ data }) {
 
             <a
               href={data.cta.href}
-              className="btn-text shrink-0 rounded-lg bg-hero-blue px-4 py-2.5 uppercase text-white"
+              className="btn-text shrink-0 rounded-lg bg-hero-blue px-4 py-2.5 uppercase text-white transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             >
               {data.cta.buttonLabel} →
             </a>
@@ -123,6 +128,7 @@ export default function ModelSec5({ data }) {
       <div className="relative hidden overflow-hidden px-4 pb-8 pt-10 sm:px-6 md:block lg:px-8">
       <div className="absolute inset-0">
         <Image src={data.image} alt="Precision-machined Land Rover engine block" fill className="object-cover" sizes="100vw" />
+        <PhotoStripes preset="sec5" className="object-cover" />
       </div>
 
       <div className="relative mx-auto max-w-6xl">

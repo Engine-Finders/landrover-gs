@@ -4,6 +4,7 @@ import Link from "next/link";
 import useRegLookup from "@/components/reusable/useRegLookup";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
+import RegLookupGlass from "@/components/reusable/RegLookupGlass";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
 export default function ModelSec9({ data }) {
@@ -12,7 +13,7 @@ export default function ModelSec9({ data }) {
   const BROWSE_HREFS = ["#model-year-coverage", "/engines", "/engines", "/engines", "#variant-coverage"];
 
   return (
-    <section className="theme-light relative mt-10 overflow-hidden">
+    <section className="theme-light relative overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
         {/* 70/30 split: text gets the left 70%, the photo's right edge (technician at the lookup
@@ -60,7 +61,7 @@ export default function ModelSec9({ data }) {
             </div>
 
             {error && <p className="mt-2 text-xs font-semibold text-red-600">{error}</p>}
-            <button type="submit" disabled={loading} className="btn-text mt-3 flex h-16 w-full items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)] disabled:cursor-wait disabled:opacity-70">
+            <button type="submit" disabled={loading} className="btn-text mt-3 flex h-16 w-full items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)] disabled:cursor-wait disabled:opacity-70 transition duration-200 hover:-translate-y-0.5 hover:brightness-110">
               <Icon name="search" className="h-6 w-6" />
               {loading ? "Searching…" : data.lookupButton}
             </button>
@@ -94,7 +95,7 @@ export default function ModelSec9({ data }) {
               <Link
                 href={BROWSE_HREFS[i] || "/engines"}
                 key={c.label}
-                className={`relative flex items-center justify-between gap-2 rounded-xl bg-white/70 px-4 py-4 text-left backdrop-blur-2xl ${i === 4 ? "col-span-2" : ""}`}
+                className={`relative flex items-center justify-between gap-2 rounded-xl bg-white/70 px-4 py-4 text-left backdrop-blur-2xl ${i === 4 ? "col-span-2" : ""} transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-lg`}
                 style={{
                   boxShadow: "0 0 0 1px rgba(16,24,40,0.1), inset 0 1px 0 rgba(255,255,255,0.9), 0 6px 18px -8px rgba(16,24,40,0.18)",
                 }}
@@ -138,34 +139,29 @@ export default function ModelSec9({ data }) {
         <div className="pointer-events-none absolute left-[20%] top-[38%] h-56 w-56 rounded-full bg-hero-blue/12 blur-3xl" />
         <div className="pointer-events-none absolute right-[8%] top-[55%] h-48 w-48 rounded-full bg-hero-blue/10 blur-3xl" />
 
-        {/* reg lookup card */}
-        <form onSubmit={submit} className="glass-card relative mt-10 flex items-center gap-6 overflow-hidden rounded-2xl px-6 py-6">
-          <div className="flex h-20 flex-1 overflow-hidden rounded-lg border border-white/80 bg-white/45 shadow-sm backdrop-blur-md">
-            <span className="flex w-16 shrink-0 flex-col items-center justify-center gap-1.5 bg-[#1a1a1a] text-white">
-              <span className="flex h-5 w-5 items-center justify-center rounded-full border border-[var(--color-hero-gold)] text-[10px] leading-none text-[var(--color-hero-gold)]">★</span>
-              <span className="text-sm font-extrabold tracking-wide">GB</span>
-            </span>
-            <input
-              type="text"
-              value={reg}
-              onChange={(e) => setReg(e.target.value)}
-              placeholder="ENTER REG"
-              maxLength={8}
-              className="min-w-0 flex-1 bg-transparent px-3 text-center text-3xl font-black tracking-widest text-[#101828] outline-none placeholder:text-[#101828]/40"
-            />
-          </div>
+        {/* reg lookup card — proportions taken from the reference (846px wide card) */}
+        <div
+          className="relative mt-10 grid items-center overflow-hidden rounded-3xl bg-white/60 backdrop-blur-2xl"
+          style={{
+            containerType: "inline-size",
+            gridTemplateColumns: "386fr 150fr 207fr",
+            columnGap: "2.4%",
+            padding: "2.7% 5.1% 2.7% 2.4%",
+            boxShadow:
+              "0 0 0 1px rgba(16,24,40,0.12), inset 0 1px 0 rgba(255,255,255,0.95), 0 12px 30px -10px rgba(16,24,40,0.2), 0 0 20px -6px rgba(255,255,255,0.9)",
+          }}
+        >
+          <RegLookupGlass buttonLabel={data.lookupButton} />
 
-          <button type="submit" disabled={loading} className="btn-text flex h-16 shrink-0 items-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-8 uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)] transition hover:-translate-y-0.5 hover:from-hero-blue-dark hover:to-hero-blue hover:shadow-[0_14px_32px_-8px_rgba(96,112,86,0.85)] disabled:cursor-wait disabled:opacity-70">
-            <Icon name="search" className="h-6 w-6" />
-            {loading ? "Searching…" : data.lookupButton}
-          </button>
-
-          <div className="flex max-w-56 items-start gap-2 border-l border-black/10 pl-6">
-            <Icon name="info" className="h-4 w-4 shrink-0 text-hero-blue" />
-            <p className="text-xs leading-snug text-[#101828]">{data.apiNote}</p>
+          <div className="flex items-start gap-3 border-l border-black/15 py-3" style={{ paddingLeft: "2.4cqw" }}>
+            <Icon name="info" className="h-6 w-6 shrink-0 text-hero-blue" />
+            <p className="text-sm leading-relaxed text-[#101828]">
+              {data.apiNote.split(/(?<=\.)\s+/).map((t, i) => (
+                <span key={i} className="block">{t}</span>
+              ))}
+            </p>
           </div>
-          {error && <p className="absolute bottom-1 left-6 text-xs font-semibold text-red-600">{error}</p>}
-        </form>
+        </div>
 
         {/* divider */}
         <div className="relative mt-8 flex items-center">

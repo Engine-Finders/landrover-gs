@@ -31,7 +31,7 @@ export default function ModelSec16({ data }) {
                   <div className="flex items-center gap-2.5 py-3 pr-3">
                     <Icon name="engine" className="h-7 w-7 shrink-0 text-hero-blue" />
                     <p className="text-xs leading-tight">
-                      <span className="block text-white">Land Rover C-Class</span>
+                      <span className="block text-white">{data.series}</span>
                       <span className="block font-bold text-white">{left} Litre Engine</span>
                     </p>
                   </div>
@@ -40,7 +40,7 @@ export default function ModelSec16({ data }) {
                       <span className="absolute left-0 top-1/2 h-1/2 w-px -translate-y-1/2 bg-white/15" aria-hidden="true" />
                       <Icon name="engine" className="h-7 w-7 shrink-0 text-hero-blue" />
                       <p className="text-xs leading-tight">
-                        <span className="block text-white">Land Rover C-Class</span>
+                        <span className="block text-white">{data.series}</span>
                         <span className="block font-bold text-white">{right} Litre Engine</span>
                       </p>
                     </div>
@@ -59,7 +59,7 @@ export default function ModelSec16({ data }) {
                 <div key={f.label} className="neon-card neon-card--soft relative flex items-center gap-3 rounded-xl px-4 py-4">
                   <Icon name={f.icon} className="h-11 w-11 shrink-0 text-hero-blue" />
                   <p className="flex-1 text-sm leading-tight">
-                    <span className="block text-white">Land Rover C-Class</span>
+                    <span className="block text-white">{data.series}</span>
                     <span className="block font-bold text-white">{f.label}</span>
                   </p>
                   <span className="shrink-0 text-lg text-hero-blue" aria-hidden>
@@ -82,8 +82,8 @@ export default function ModelSec16({ data }) {
               return (
                 <div key={s.label} className="flex min-w-0 flex-col items-center gap-2 px-1 text-center">
                   <Icon name={s.icon} className="h-7 w-7 shrink-0 text-hero-blue" />
-                  <p className="text-[11px] font-medium leading-tight text-[#101828] [hyphens:auto]">{main}</p>
-                  {note && <p className="-mt-1 text-[9px] leading-tight text-[#4a5568]">{note}</p>}
+                  <p className="text-xs font-medium leading-tight text-[#101828] [hyphens:auto]">{main}</p>
+                  {note && <p className="-mt-1 text-xs leading-tight text-[#4a5568]">{note}</p>}
                 </div>
               );
             })}
@@ -122,7 +122,7 @@ export default function ModelSec16({ data }) {
             >
               <Icon name="engine" className="h-8 w-8 shrink-0 text-hero-blue" />
               <p className="text-sm leading-tight">
-                <span className="block text-white">Land Rover C-Class</span>
+                <span className="block text-white">{data.series}</span>
                 <span className="block font-bold text-white">{size} Litre Engine</span>
               </p>
             </div>
@@ -147,7 +147,7 @@ export default function ModelSec16({ data }) {
                 >
                   <Icon name={f.icon} className="h-13 w-13 shrink-0 text-hero-blue" />
                   <p className="text-sm leading-tight">
-                    <span className="block text-white">Land Rover C-Class</span>
+                    <span className="block text-white">{data.series}</span>
                     <span className="block font-bold text-white">{f.label}</span>
                   </p>
                 </div>
@@ -155,7 +155,7 @@ export default function ModelSec16({ data }) {
                 <div key={f.label} className="neon-card neon-card--soft relative flex items-center gap-4 rounded-xl px-5 py-6">
                   <Icon name={f.icon} className="h-13 w-13 shrink-0 text-hero-blue" />
                   <p className="text-sm leading-tight">
-                    <span className="block text-white">Land Rover C-Class</span>
+                    <span className="block text-white">{data.series}</span>
                     <span className="block font-bold text-white">{f.label}</span>
                   </p>
                 </div>

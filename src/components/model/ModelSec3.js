@@ -97,7 +97,7 @@ export default function ModelSec3({ data }) {
 
             <a
               href={data.cta.href}
-              className="mt-4 flex items-center justify-center gap-2 rounded-lg px-6 py-3.5 text-sm font-bold uppercase tracking-wide text-white"
+              className="mt-4 flex items-center justify-center gap-2 rounded-lg px-6 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
               style={{
                 background: "linear-gradient(135deg, var(--color-hero-gold) 0%, #4c5a45 100%)",
                 border: "1px solid rgba(255,255,255,0.25)",
@@ -161,7 +161,7 @@ export default function ModelSec3({ data }) {
               </p>
               {c.code && (
                 c.codeHref ? (
-                  <Link href={c.codeHref} className={`block px-3 text-center text-xs uppercase ${c.featured ? "text-[#101828]" : "text-white"}`}>{c.code}</Link>
+                  <Link href={c.codeHref} className={`block px-3 text-center text-xs uppercase ${c.featured ? "text-[#101828]" : "text-white"} hover:underline`}>{c.code}</Link>
                 ) : (
                   <p className={`px-3 text-center text-xs uppercase ${c.featured ? "text-[#101828]" : "text-white"}`}>{c.code}</p>
                 )

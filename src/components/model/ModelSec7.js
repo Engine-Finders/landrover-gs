@@ -1,11 +1,18 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
+import ImageLightbox from "@/components/shared/ImageLightbox";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
 export default function ModelSec7({ data }) {
+  const [open, setOpen] = useState(null);
+
   return (
     <section className="theme-light relative overflow-hidden">
+      {open && <ImageLightbox img={open} onClose={() => setOpen(null)} />}
       {/* ===== mobile ===== */}
       <div className="relative px-4 py-10 md:hidden">
         <div className="flex items-center gap-2">
@@ -23,10 +30,10 @@ export default function ModelSec7({ data }) {
               className="flex flex-col overflow-hidden rounded-md bg-(--color-light-surface) shadow-[0_10px_25px_-8px_rgba(0,0,0,0.35)]"
               style={{ aspectRatio: "1" }}
             >
-              <div className="relative flex-1 overflow-hidden">
+              <div className="relative flex-1 cursor-pointer overflow-hidden" onClick={() => setOpen({ src: c.image, alt: c.title })}>
                 <Image src={c.image} alt={c.title} fill className="object-cover" sizes="50vw" />
                 <span
-                  className="absolute left-0 top-0 flex h-7 w-9 items-center justify-center bg-hero-blue text-[10px] font-extrabold text-white"
+                  className="absolute left-0 top-0 flex h-7 w-9 items-center justify-center bg-hero-blue text-xs font-extrabold text-white"
                   style={{ clipPath: "path('M0 0H24Q32 0 32 8L36 28L0 28Z')" }}
                 >
                   {c.number}
@@ -81,11 +88,11 @@ export default function ModelSec7({ data }) {
           {data.cards.map((c) => (
             <div
               key={c.number}
-              className="flex flex-col overflow-hidden rounded-xl bg-(--color-light-surface) shadow-[0_12px_28px_-10px_rgba(0,0,0,0.35)]"
+              className="group flex flex-col overflow-hidden rounded-xl bg-(--color-light-surface) shadow-[0_12px_28px_-10px_rgba(0,0,0,0.35)] transition-transform duration-300 hover:-translate-y-1"
               style={{ aspectRatio: "1" }}
             >
               <div className="relative flex-1 overflow-hidden">
-                <Image src={c.image} alt={c.title} fill className="object-cover" sizes="20vw" />
+                <Image src={c.image} alt={c.title} fill className="object-cover transition-transform duration-500 ease-out group-hover:scale-110" sizes="20vw" />
                 <span
                   className="absolute bottom-0 left-0 flex h-9 w-11 items-center justify-center bg-hero-blue text-xs font-extrabold text-white"
                   style={{ clipPath: "path('M0 0H30Q40 0 40 10L44 36L0 36Z')" }}
