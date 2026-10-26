@@ -62,7 +62,7 @@ export default function ModelHeroSec1({ data }) {
               {data.trustBar.map((t) => (
                 <div key={t.label} className="flex flex-col items-center gap-1 px-1 text-center">
                   <Icon name={t.icon} className="h-5 w-5 shrink-0 text-hero-blue" />
-                  <p className="text-[8px] font-medium leading-tight text-white">{t.label}</p>
+                  <p className="text-xs font-medium leading-tight [overflow-wrap:anywhere] text-white">{t.label}</p>
                 </div>
               ))}
             </div>
@@ -70,7 +70,7 @@ export default function ModelHeroSec1({ data }) {
             {/* pricing callout banner */}
             <a
               href={data.priceCta.href}
-              className="glass-luminous card-glare relative mt-2.5 flex items-center divide-x divide-white/15 rounded-xl px-2 py-3"
+              className="glass-luminous card-glare relative mt-2.5 flex items-center divide-x divide-white/15 rounded-xl px-2 py-3 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
               style={{ border: "1px solid rgba(96,112,86,0.45)" }}
             >
               <div className="flex shrink-0 items-center gap-2 pr-2">
@@ -80,7 +80,7 @@ export default function ModelHeroSec1({ data }) {
                   <p className="whitespace-nowrap text-lg font-extrabold text-white">{data.priceCta.price}</p>
                 </div>
               </div>
-              <p className="min-w-0 flex-1 whitespace-nowrap pl-2 text-[10px] font-bold uppercase leading-tight text-hero-blue">{data.priceCta.label}</p>
+              <p className="min-w-0 flex-1 whitespace-nowrap pl-2 text-xs font-bold uppercase leading-tight text-hero-blue">{data.priceCta.label}</p>
             </a>
           </div>
 
@@ -105,7 +105,7 @@ export default function ModelHeroSec1({ data }) {
           {/* direct contact CTA */}
           <a
             href={data.phoneCta.href}
-            className="glass-luminous card-glare relative mt-2.5 flex items-center gap-3 rounded-xl p-3"
+            className="glass-luminous card-glare relative mt-2.5 flex items-center gap-3 rounded-xl p-3 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             style={{ border: "1px solid rgba(96,112,86,0.45)" }}
           >
             <div

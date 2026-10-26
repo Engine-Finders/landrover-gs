@@ -109,7 +109,7 @@ export default function ModelSec17({ data }) {
 
           <a
             href={data.priceCta.href}
-            className="relative flex items-center gap-4 rounded-lg p-5"
+            className="relative flex items-center gap-4 rounded-lg p-5 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             style={{
               background: "linear-gradient(135deg, #161a14 0%, #0b0d0a 100%)",
               border: "1px solid rgba(96,112,86,0.4)",
@@ -229,7 +229,7 @@ export default function ModelSec17({ data }) {
 
           <a
             href={data.priceCta.href}
-            className="relative flex items-center gap-4 rounded-2xl p-6"
+            className="relative flex items-center gap-4 rounded-2xl p-6 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             style={{
               background: "linear-gradient(135deg, #161a14 0%, #0b0d0a 100%)",
               border: "1px solid rgba(96,112,86,0.4)",

@@ -128,13 +128,17 @@ export default function HomeSec4_5({ data }) {
         </div>
 
         {/* footer tagline */}
-        <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-3 px-4 pb-14 sm:px-6 lg:px-8">
+        <div className="relative mx-auto max-w-6xl px-4 pb-14 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center gap-4">
             <span className="h-px w-16 bg-white/25" />
             <p className="text-xs uppercase tracking-widest text-white">{data.footer}</p>
             <span className="h-px w-16 bg-white/25" />
           </div>
-          <Image src="/brand/logo-icon.webp" alt="Land Rover Garage" width={512} height={197} className="h-10 w-auto" sizes="110px" />
+          <div className="mt-4 flex items-center justify-center gap-3">
+            <span className="h-px w-8 bg-white/25" />
+            <Image src="/brand/logo-icon.webp" alt="Land Rover Garage" width={512} height={197} className="h-8 w-auto" sizes="100px" />
+            <span className="h-px w-8 bg-white/25" />
+          </div>
         </div>
       </div>
     </section>

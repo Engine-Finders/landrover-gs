@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PhotoStripes from "@/components/reusable/PhotoStripes";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
@@ -9,7 +10,7 @@ export default function ModelSec15({ data }) {
   const mobileLine2 = `${headlineWords[headlineWords.length - 1]} ${data.headlineHighlight}`;
 
   return (
-    <section id="model-year-coverage" className="theme-light relative mt-10 overflow-hidden">
+    <section id="model-year-coverage" className="theme-light relative overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
         {/* div 1: split hero */}
@@ -120,6 +121,7 @@ export default function ModelSec15({ data }) {
           any strip uncovered on the left is filled with the photo's own flat left-panel colour */}
       <div className="absolute inset-0 overflow-hidden bg-[#f2f8f2]">
         <Image src={data.image} alt="Classic green Land Rover Defender 90 in a bright Land Rover specialist workshop" fill className="object-cover" style={{ objectPosition: "right -10vw top 0" }} sizes="100vw" />
+        <PhotoStripes preset="sec15" className="object-cover" style={{ objectPosition: "right -10vw top 0" }} />
       </div>
 
       <div className="relative mx-auto max-w-6xl">

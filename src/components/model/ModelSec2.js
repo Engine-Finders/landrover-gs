@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PhotoStripes from "@/components/reusable/PhotoStripes";
 import Icon from "@/components/reusable/Icon";
 
 function renderTitleLine(line, defaultClassName) {
@@ -111,6 +112,7 @@ export default function ModelSec2({ data }) {
               space below the text, text sits directly on it with no extra frosted panel */}
           <div className="relative min-h-[25rem] w-full lg:min-h-[28rem]">
             <Image src={data.image} alt="Classic Land Rover diesel engine with exposed timing belt and camshaft pulleys on an engine stand" fill className="object-cover" sizes="1152px" />
+            <PhotoStripes preset="sec2" className="object-cover" />
 
             <div className="relative flex flex-col px-8 pb-8 pt-8 lg:px-10 lg:pb-10 lg:pt-10">
               <div className="relative max-w-[46%]">

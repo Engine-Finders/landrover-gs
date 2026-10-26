@@ -3,8 +3,9 @@
 import { useEffect } from "react";
 import Image from "next/image";
 
-// Tap-to-enlarge popup: blurred glass backdrop, image centred in the visible viewport (dvh, so a phone's
-// collapsing address bar doesn't push it down) and fully visible, a × top-right.
+// Tap-to-enlarge popup: blurred glass backdrop, the image shown as large as the visible viewport allows
+// (dvh, so a phone's collapsing address bar doesn't push it down), whole picture visible whether it is
+// portrait or landscape (object-contain, never cropped or left at a small natural size), a × top-right.
 // Closes on ×, a tap outside the image, Escape, or as soon as the page is scrolled.
 export default function ImageLightbox({ img, onClose }) {
   useEffect(() => {
@@ -24,7 +25,7 @@ export default function ImageLightbox({ img, onClose }) {
       role="dialog"
       aria-modal="true"
       aria-label={img.alt}
-      className="fixed inset-x-0 top-0 z-50 flex h-dvh items-center justify-center bg-black/35 p-4 backdrop-blur-xl backdrop-saturate-150"
+      className="fixed inset-x-0 top-0 z-50 flex h-dvh items-center justify-center bg-black/35 px-0 py-4 backdrop-blur-xl backdrop-saturate-150"
       onClick={onClose}
     >
       <button
@@ -35,15 +36,16 @@ export default function ImageLightbox({ img, onClose }) {
       >
         ×
       </button>
-      <Image
-        src={img.src}
-        alt={img.alt}
-        width={1600}
-        height={1200}
-        sizes="92vw"
-        onClick={(e) => e.stopPropagation()}
-        className="h-auto max-h-[70dvh] w-auto max-w-[88vw] rounded-xl object-contain shadow-2xl ring-1 ring-white/30"
-      />
+      <div className="relative h-[82dvh] w-[94vw] max-w-6xl" onClick={(e) => e.stopPropagation()}>
+        <Image
+          src={img.src}
+          alt={img.alt}
+          fill
+          sizes="100vw"
+          quality={90}
+          className="object-contain drop-shadow-[0_10px_30px_rgba(0,0,0,0.55)]"
+        />
+      </div>
     </div>
   );
 }

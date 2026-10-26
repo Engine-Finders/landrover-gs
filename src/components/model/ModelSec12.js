@@ -1,4 +1,8 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
+import ImageLightbox from "@/components/shared/ImageLightbox";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
@@ -6,10 +10,12 @@ import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 const mobileCardIndices = [0, 1, 2, 3, 4, 5, 6, 9];
 
 export default function ModelSec12({ data }) {
+  const [open, setOpen] = useState(null);
   const mobileCards = mobileCardIndices.map((i) => data.cards[i]);
 
   return (
     <section className="theme-light relative overflow-hidden">
+      {open && <ImageLightbox img={open} onClose={() => setOpen(null)} />}
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
         <div
@@ -28,11 +34,11 @@ export default function ModelSec12({ data }) {
 
           <div className="mt-5 grid grid-cols-2 gap-3">
             {mobileCards.map((c, i) => (
-              <div key={`${c.model}-${i}`} className="neon-card relative rounded-xl">
-                <div className="relative aspect-[4/3]">
+              <div key={`${c.model}-${i}`} className="neon-card relative flex flex-col rounded-xl">
+                <div className="relative aspect-[4/3] shrink-0 cursor-pointer overflow-hidden" onClick={() => setOpen({ src: data.image, alt: c.model })}>
                   <Image src={data.image} alt={c.model} fill className="object-cover" sizes="50vw" />
                 </div>
-                <div className="px-3 py-2" style={{ background: "rgba(5,12,28,0.9)" }}>
+                <div className="flex-1 px-3 py-2" style={{ background: "rgba(5,12,28,0.9)" }}>
                   <div className="flex items-center gap-1.5">
                     <Icon name={c.icon} className="h-4 w-4 shrink-0 text-[#607056]" />
                     <p className="truncate text-xs font-extrabold uppercase text-white">
@@ -95,11 +101,11 @@ export default function ModelSec12({ data }) {
         {/* 6x2 card grid */}
         <div className="mt-5 grid grid-cols-6 gap-4">
           {data.cards.map((c, i) => (
-            <div key={`${c.model}-${i}`} className="neon-card relative rounded-xl">
-              <div className="relative aspect-square">
-                <Image src={data.image} alt={c.model} fill className="object-cover" sizes="16vw" />
+            <div key={`${c.model}-${i}`} className="neon-card group relative flex flex-col rounded-xl transition-transform duration-300 hover:-translate-y-1">
+              <div className="relative aspect-square shrink-0 overflow-hidden">
+                <Image src={data.image} alt={c.model} fill className="object-cover transition-transform duration-500 ease-out group-hover:scale-110" sizes="16vw" />
               </div>
-              <div className="px-3 py-2.5 backdrop-blur-md" style={{ background: "rgba(5,12,28,0.9)" }}>
+              <div className="flex-1 px-3 py-2.5 backdrop-blur-md" style={{ background: "rgba(5,12,28,0.9)" }}>
                 <p className="truncate text-xs font-extrabold uppercase text-white">
                   {c.href ? <Link href={c.href}>{c.model}</Link> : c.model}
                 </p>

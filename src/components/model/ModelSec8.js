@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
+
 import { REVIEW_URLS } from "@/lib/site";
 import { useRef, useState } from "react";
 import Icon from "@/components/reusable/Icon";
-import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 
 function GoogleG({ className = "h-5 w-5" }) {
   return (
@@ -60,7 +61,7 @@ export default function ModelSec8({ data }) {
     <section className="theme-dark relative overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
-        <LandRoverLogo className="absolute right-4 top-4 h-14 w-14 opacity-90" />
+        <Image src="/brand/logo-icon.webp" alt="Land Rover Garage" width={512} height={197} className="h-14 w-auto absolute right-4 top-4" sizes="120px" />
 
         <div className="relative px-4 pb-8 pt-8">
           <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
@@ -114,11 +115,11 @@ export default function ModelSec8({ data }) {
           </div>
 
           <div className="mt-6 space-y-3">
-            <a href={REVIEW_URLS.google} target="_blank" rel="noopener noreferrer" className="btn-text card-glare-light relative flex w-full items-center justify-center gap-2 rounded-lg border border-black/10 bg-white px-6 py-3.5 uppercase text-hero-blue">
+            <a href={REVIEW_URLS.google} target="_blank" rel="noopener noreferrer" className="btn-text card-glare-light relative flex w-full items-center justify-center gap-2 rounded-lg border border-black/10 bg-white px-6 py-3.5 uppercase text-hero-blue transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-lg">
               <GoogleG className="h-5 w-5" />
               {data.googleCta} <span aria-hidden className="text-hero-blue">→</span>
             </a>
-            <a href={REVIEW_URLS.trustpilot} target="_blank" rel="noopener noreferrer" className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#121511] px-6 py-3.5 uppercase text-white">
+            <a href={REVIEW_URLS.trustpilot} target="_blank" rel="noopener noreferrer" className="btn-text card-corner-glare relative flex w-full items-center justify-center gap-2 rounded-lg border border-hero-blue/50 bg-[#121511] px-6 py-3.5 uppercase text-white transition duration-200 hover:-translate-y-0.5 hover:brightness-110">
               <Icon name="star" className="h-5 w-5 fill-hero-blue text-hero-blue" />
               {data.trustpilotCta} <span aria-hidden className="text-hero-blue">→</span>
             </a>
@@ -128,7 +129,7 @@ export default function ModelSec8({ data }) {
 
       {/* ===== desktop ===== */}
       <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
-      <LandRoverLogo className="absolute right-6 top-6 h-16 w-16 opacity-90" />
+      <Image src="/brand/logo-icon.webp" alt="Land Rover Garage" width={512} height={197} className="h-16 w-auto absolute right-6 top-6" sizes="120px" />
 
       <div className="relative mx-auto max-w-6xl">
         <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 pt-8 uppercase">

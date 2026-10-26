@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PhotoStripes from "@/components/reusable/PhotoStripes";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
@@ -53,17 +54,18 @@ export default function ModelSec11({ data }) {
       <div className="relative hidden px-4 py-6 sm:px-6 md:block lg:px-8">
       <div className="absolute inset-0">
         <Image src={data.image} alt="Land Rover technician rebuilding an engine block" fill className="object-cover" sizes="100vw" />
+        <PhotoStripes preset="sec11" className="object-cover" />
       </div>
 
       <div className="relative mx-auto max-w-6xl">
         <div className="max-w-[60%]">
           <LandRoverStripe className="h-6 w-11 shrink-0" />
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
             <span className="block whitespace-nowrap text-white">{line1}</span>
-          </h2>
-          <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
+          </div>
+          <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 uppercase">
             <span className="block text-hero-blue">{line2}</span>
-          </h2>
+          </div>
 
           <div className="mt-3 divide-y divide-white/15 border-t border-white/15">
             {data.checklist.map((item) => (
