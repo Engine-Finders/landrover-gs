@@ -11,7 +11,7 @@
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The Tdi is a classic engine we still work on — exclusively in the Discovery 1."
+      "body": "The Tdi is a classic engine we still work on - exclusively in the Discovery 1."
     },
     {
       "icon": "wrench",
@@ -21,18 +21,18 @@
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "Timing belt failure is a critical known issue — the Tdi is an interference engine, and belt failure causes valve-to-piston contact and serious internal damage. We replace the timing belt and tensioner as standard on every rebuild. VE fuel injection pump leaks are also a common ailment, as are turbo and head gasket issues on higher-mileage examples. Generations/Revisions The Tdi engine family includes both the 200Tdi (1989–1994) and 300Tdi (1994–1998) variants. The 300Tdi succeeded the 200Tdi with improvements including revised injection timing and a modified cylinder head design."
+      "body": "Timing belt failure is a critical known issue - the Tdi is an interference engine, and belt failure causes valve-to-piston contact and serious internal damage. We replace the timing belt and tensioner as standard on every rebuild. VE fuel injection pump leaks are also a common ailment, as are turbo and head gasket issues on higher-mileage examples. Generations/Revisions The Tdi engine family includes both the 200Tdi (1989-1994) and 300Tdi (1994-1998) variants. The 300Tdi succeeded the 200Tdi with improvements including revised injection timing and a modified cylinder head design."
     }
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed Tdi rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed Tdi rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER Tdi REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "The Tdi is an interference engine — if the timing belt breaks, pistons collide with valves, causing significant internal damage. Because of this, we replace the timing belt and tensioner as standard on every rebuild, rather than simply inspecting them. The engine uses a mechanical VE injection pump, which we inspect for leaks and wear. The mechanical nature of the injection system means the Tdi responds well to a thorough strip-down and rebuild using standard workshop procedures.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "body": "The Tdi is an interference engine - if the timing belt breaks, pistons collide with valves, causing significant internal damage. Because of this, we replace the timing belt and tensioner as standard on every rebuild, rather than simply inspecting them. The engine uses a mechanical VE injection pump, which we inspect for leaks and wear. The mechanical nature of the injection system means the Tdi responds well to a thorough strip-down and rebuild using standard workshop procedures.",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing belt, tensioner, bearings, gaskets, VE injection pump inspection, turbocharger inspection"

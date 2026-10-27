@@ -33,7 +33,7 @@
       {
         "icon": "calendar",
         "label": "Production Years",
-        "value": "2004–2019"
+        "value": "2004-2019"
       },
       {
         "icon": "car",
@@ -56,7 +56,7 @@
     "imageMobile": "/engine/sec2_bottom_mobile.webp",
     "startingFromLabel": "Starting From",
     "startingFromPrice": "£2,400",
-    "body": "The TDV6 and SDV6 share the same 3.0-litre V6 diesel block and rebuild tier — exact price depends on condition and parts required. Submit your reg for a fixed-price quote.",
+    "body": "The TDV6 and SDV6 share the same 3.0-litre V6 diesel block and rebuild tier - exact price depends on condition and parts required. Submit your reg for a fixed-price quote.",
     "cta": {
       "label": "Get Your Fixed-Price Quote →",
       "href": "#quote-form"

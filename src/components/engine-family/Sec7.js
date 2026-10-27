@@ -36,7 +36,7 @@ function PhotoNote({ code, compact = false }) {
       <div className={`relative z-10 ${compact ? "text-xs" : "text-sm"} leading-relaxed text-white`}>
         <p>
           <span className="font-bold text-[#c9a96e]">Real photos from our workshop</span>
-          <span className="text-white/80"> — not stock imagery.</span>
+          <span className="text-white/80"> - not stock imagery.</span>
         </p>
         {code && <p className="text-white/80">This is what a genuine {code} rebuild looks like.</p>}
       </div>

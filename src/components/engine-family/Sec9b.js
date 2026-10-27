@@ -2,6 +2,7 @@ import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import AMGBadge from "@/components/reusable/AMGBadge";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 export default function Sec9b({ data }) {
   return (
@@ -66,12 +67,12 @@ export default function Sec9b({ data }) {
               <p className="text-[11px] text-white">{data.prompt.subtext}</p>
             </div>
           </div>
-          <a
+          <QuoteLink
             href={data.prompt.href}
             className="mt-3 flex items-center justify-center gap-2 rounded-md bg-hero-blue px-4 py-2.5 text-xs font-bold uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
           >
             {data.prompt.buttonLabel}
-          </a>
+          </QuoteLink>
         </div>
       </div>
 
@@ -137,12 +138,12 @@ export default function Sec9b({ data }) {
                 <p className="text-xs text-white/70">{data.prompt.subtext}</p>
               </div>
             </div>
-            <a
+            <QuoteLink
               href={data.prompt.href}
               className="flex shrink-0 items-center gap-2 whitespace-nowrap rounded-md bg-hero-blue px-6 py-3 text-sm font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
             >
               {data.prompt.buttonLabel}
-            </a>
+            </QuoteLink>
           </div>
         </div>
       </div>

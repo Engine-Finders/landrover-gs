@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender P525 ENGINE",
     "paragraphs": [
-      "The Defender P525 is part of the modern L663 generation, introduced in 2021 for the 90 and later offered in the US-market 110 from 2026. It uses the AJ133 — a 5.0-litre supercharged V8 that Land Rover has applied across several performance-oriented models, including the Range Rover Sport SVR and Velar SVAutobiography. The P525 badge denotes a specific power tune of this engine, rather than a mechanically unique unit. No Defender-specific known issue is confirmed for this application — it's generally considered a reliable engine in this chassis, though like any performance V8, regular maintenance is still critical."
+      "The Defender P525 is part of the modern L663 generation, introduced in 2021 for the 90 and later offered in the US-market 110 from 2026. It uses the AJ133 - a 5.0-litre supercharged V8 that Land Rover has applied across several performance-oriented models, including the Range Rover Sport SVR and Velar SVAutobiography. The P525 badge denotes a specific power tune of this engine, rather than a mechanically unique unit. No Defender-specific known issue is confirmed for this application - it's generally considered a reliable engine in this chassis, though like any performance V8, regular maintenance is still critical."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ133 engines for every Defender P525 on the road."
   },
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender P525 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+    "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,16 +69,16 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+        "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "90",
-        "years": "2021–present",
+        "years": "2021-present",
         "engineCode": "AJ133",
         "fuel": "Petrol Supercharged",
         "codeHref": "/landrover-aj133-engine"
       },
       {
         "generation": "L663",
-        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+        "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "110 (US market)",
         "years": "2026",
         "engineCode": "AJ133",

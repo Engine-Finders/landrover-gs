@@ -4,7 +4,7 @@
   "faqLeft": [
     {
       "q": "Do you rebuild engines for both Freelander generations?",
-      "a": "Yes — we rebuild and replace engines across both the Freelander 1 (L314) and Freelander 2 (L359)."
+      "a": "Yes - we rebuild and replace engines across both the Freelander 1 (L314) and Freelander 2 (L359)."
     },
     {
       "q": "Do I keep my original engine, or do you send me a different one?",
@@ -30,11 +30,11 @@
     },
     {
       "q": "How much does a Freelander engine rebuild cost?",
-      "a": "Rebuilds start from £1,900 across the range, whether K-Series petrol, BMW M47 diesel, or Ford Duratorq/EcoBoost. Exact price depends on engine code and condition — submit your reg for a fixed-price quote."
+      "a": "Rebuilds start from £1,900 across the range, whether K-Series petrol, BMW M47 diesel, or Ford Duratorq/EcoBoost. Exact price depends on engine code and condition - submit your reg for a fixed-price quote."
     },
     {
       "q": "Is the head gasket issue on the 1.8i petrol really that common?",
-      "a": "Yes — it's one of the most widely documented issues across the whole Rover/Land Rover range, confirmed by multiple manufacturer TSBs at the time. We inspect and replace it as standard on every K-Series rebuild."
+      "a": "Yes - it's one of the most widely documented issues across the whole Rover/Land Rover range, confirmed by multiple manufacturer TSBs at the time. We inspect and replace it as standard on every K-Series rebuild."
     }
   ],
   "form": {

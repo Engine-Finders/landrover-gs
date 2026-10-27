@@ -21,17 +21,17 @@
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "The 300Tdi is an interference engine — timing belt failure causes piston-to-valve contact. Turbocharger bearing failure and VE fuel injection pump leaks are also known issues on higher-mileage examples. Head gasket failure is common."
+      "body": "The 300Tdi is an interference engine - timing belt failure causes piston-to-valve contact. Turbocharger bearing failure and VE fuel injection pump leaks are also known issues on higher-mileage examples. Head gasket failure is common."
     }
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed 300Tdi rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed 300Tdi rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER 300Tdi REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
     "body": "A full 300Tdi rebuild involves stripping the 2.5L (2,495 cc) Inline-4 (I4) diesel engine down, inspecting the crankshaft, cylinder head and VE injection pump, and replacing the timing belt, bearings, gaskets and seals with updated OEM-specification parts.",
     "scope": {
       "label": "Typical Scope:",

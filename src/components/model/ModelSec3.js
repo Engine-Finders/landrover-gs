@@ -1,4 +1,5 @@
 import Image from "next/image";
+import QuoteLink from "@/components/shared/QuoteLink";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
@@ -51,21 +52,27 @@ export default function ModelSec3({ data }) {
                   c.featured ? "border-hero-blue/50 bg-(--color-light-surface)" : "border-hero-blue/30 bg-[#121511]"
                 }`}
               >
-                <div className="flex items-center gap-2.5">
-                  <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg">
-                    <Image src={c.image ?? data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="56px" />
+                <div className="flex h-full items-center gap-2.5">
+                  <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-lg">
+                        {c.icon ? (
+                      <span className="flex h-full w-full items-center justify-center">
+                        <Icon name={c.icon} className="h-11 w-11 text-hero-blue" />
+                      </span>
+                    ) : (
+                      <Image src={c.image ?? data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="64px" />
+                    )}
                   </div>
 
                   <div className="min-w-0 flex-1">
-                    <p className={`label-text truncate font-extrabold uppercase leading-tight ${c.featured ? "text-[#101828]" : "text-white"}`}>
+                    <p className={`label-text break-words font-extrabold uppercase leading-tight ${c.featured ? "text-[#101828]" : "text-white"}`}>
                       {c.titlePre}
                     </p>
-                    <p className="label-text truncate font-extrabold uppercase leading-tight text-hero-blue">{c.titleHighlight}</p>
+                    <p className="label-text break-words font-extrabold uppercase leading-tight text-hero-blue">{c.titleHighlight}</p>
                     {c.code && (
                       c.codeHref ? (
-                        <Link href={c.codeHref} className={`label-text block truncate uppercase ${c.featured ? "text-[#101828]" : "text-white"}`}>{c.code}</Link>
+                        <Link href={c.codeHref} className={`label-text block break-words uppercase ${c.featured ? "text-[#101828]" : "text-white"}`}>{c.code.replace(/\//g, "/\u200b")}</Link>
                       ) : (
-                        <p className={`label-text truncate uppercase ${c.featured ? "text-[#101828]" : "text-white"}`}>{c.code}</p>
+                        <p className={`label-text break-words uppercase ${c.featured ? "text-[#101828]" : "text-white"}`}>{c.code.replace(/\//g, "/\u200b")}</p>
                       )
                     )}
 
@@ -95,7 +102,7 @@ export default function ModelSec3({ data }) {
               </p>
             </div>
 
-            <a
+            <QuoteLink
               href={data.cta.href}
               className="mt-4 flex items-center justify-center gap-2 rounded-lg px-6 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
               style={{
@@ -104,7 +111,7 @@ export default function ModelSec3({ data }) {
               }}
             >
               {data.cta.buttonLabel} <span aria-hidden>→</span>
-            </a>
+            </QuoteLink>
           </div>
         </div>
       </div>
@@ -153,7 +160,13 @@ export default function ModelSec3({ data }) {
               }
             >
               <div className="relative mx-auto h-28 w-full overflow-hidden">
-                <Image src={c.image ?? data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="160px" />
+                {c.icon ? (
+                  <span className="flex h-full w-full items-center justify-center">
+                    <Icon name={c.icon} className="h-20 w-20 text-hero-blue" />
+                  </span>
+                ) : (
+                  <Image src={c.image ?? data.cardImage} alt={`${c.titlePre} ${c.titleHighlight}`} fill className="object-contain" sizes="160px" />
+                )}
               </div>
 
               <p className={`mt-2 px-3 text-center text-sm font-extrabold uppercase leading-tight ${c.featured ? "text-[#101828]" : "text-white"}`}>
@@ -161,9 +174,9 @@ export default function ModelSec3({ data }) {
               </p>
               {c.code && (
                 c.codeHref ? (
-                  <Link href={c.codeHref} className={`block px-3 text-center text-xs uppercase ${c.featured ? "text-[#101828]" : "text-white"} hover:underline`}>{c.code}</Link>
+                  <Link href={c.codeHref} className={`block px-3 text-center text-xs uppercase ${c.featured ? "text-[#101828]" : "text-white"} hover:underline`}>{c.code.replace(/\//g, "/\u200b")}</Link>
                 ) : (
-                  <p className={`px-3 text-center text-xs uppercase ${c.featured ? "text-[#101828]" : "text-white"}`}>{c.code}</p>
+                  <p className={`px-3 text-center text-xs uppercase ${c.featured ? "text-[#101828]" : "text-white"}`}>{c.code.replace(/\//g, "/\u200b")}</p>
                 )
               )}
 
@@ -191,12 +204,12 @@ export default function ModelSec3({ data }) {
             </p>
           </div>
 
-          <a
+          <QuoteLink
             href={data.cta.href}
             className="btn-text inline-flex shrink-0 items-center gap-2 rounded-sm border-2 border-hero-blue bg-hero-blue px-6 py-3 text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
           >
             {data.cta.buttonLabel} →
-          </a>
+          </QuoteLink>
         </div>
       </div>
       </div>

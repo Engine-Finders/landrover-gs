@@ -4,69 +4,69 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,400",
   "engineImage": "/engines/jaguar-276dt-tdv6-engine.webp",
-  "carImage": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
+  "carImage": "/cars/card/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
   "cards": [
     {
       "code": "TDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
-      "generation": "L322 (2001–2012)",
+      "carImage": "/cars/card/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
+      "generation": "L322 (2001-2012)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "SDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
-      "generation": "L322 (2001–2012)",
+      "carImage": "/cars/card/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
+      "generation": "L322 (2001-2012)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "TDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
-      "generation": "L405 (2012–2021)",
+      "carImage": "/cars/card/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
+      "generation": "L405 (2012-2021)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "SDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
-      "generation": "L405 (2012–2021)",
+      "carImage": "/cars/card/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
+      "generation": "L405 (2012-2021)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "TDV8",
       "image": "/variant/sec10_engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
-      "generation": "L322 (2001–2012)",
+      "carImage": "/cars/card/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
+      "generation": "L322 (2001-2012)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "SDV8",
       "image": "/variant/sec10_engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
-      "generation": "L322 (2001–2012)",
+      "carImage": "/cars/card/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
+      "generation": "L322 (2001-2012)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "TDV8",
       "image": "/variant/sec10_engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
-      "generation": "L405 (2012–2021)",
+      "carImage": "/cars/card/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
+      "generation": "L405 (2012-2021)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "SDV8",
       "image": "/variant/sec10_engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
-      "generation": "L405 (2012–2021)",
+      "carImage": "/cars/card/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
+      "generation": "L405 (2012-2021)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     }
@@ -74,7 +74,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -87,8 +87,8 @@
     "titlePre": "Range Rover Vogue Timing Chain & Injector Wear ",
     "titleHighlight": "",
     "paragraphs": [
-      "Range Rover Vogue engines — TDV6, SDV6, TDV8 and SDV8, across the L322 and L405 generations — commonly show timing chain and injector wear over time. This is a well-documented pattern across Land Rover specialist forums and independent garages. We replace the timing chain assembly, injector seals, and gaskets as standard on every rebuild.",
-      "*include_in_hero_hook: yes — Source: extremely well-corroborated across Land Rover specialist forums and independent garages, per VRF-landrover-range-rover.md.*"
+      "Range Rover Vogue engines - TDV6, SDV6, TDV8 and SDV8, across the L322 and L405 generations - commonly show timing chain and injector wear over time. This is a well-documented pattern across Land Rover specialist forums and independent garages. We replace the timing chain assembly, injector seals, and gaskets as standard on every rebuild.",
+      "*include_in_hero_hook: yes - Source: extremely well-corroborated across Land Rover specialist forums and independent garages, per VRF-landrover-range-rover.md.*"
     ],
     "source": "Source: extremely well-corroborated across Land Rover specialist forums and independent garages, per VRF-landrover-range-rover.md"
   }

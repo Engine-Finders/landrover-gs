@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import RegLookupForm from "@/components/reusable/RegLookupForm";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 export default function VariantHeroSec1({ data }) {
   const [line1, line2, line3] = data.h1.split("|");
-  const line2Mobile = line2.replace(/\s*—\s*$/, "");
-  const line3Mobile = `— ${line3}`;
+  const line2Mobile = line2.replace(/\s*-\s*$/, "");
+  const line3Mobile = `- ${line3}`;
 
   return (
     <section className="theme-dark relative overflow-hidden">
@@ -37,8 +38,8 @@ export default function VariantHeroSec1({ data }) {
                 ))}
               </div>
               <p className="label-text font-semibold uppercase leading-tight text-white">
-                {data.rating.label.split("—")[0]}—{" "}
-                <span className="text-hero-blue">{data.rating.label.split("—")[1]}</span>
+                {data.rating.label.split("-")[0]}-{" "}
+                <span className="text-hero-blue">{data.rating.label.split("-")[1]}</span>
               </p>
             </div>
           </div>
@@ -58,7 +59,7 @@ export default function VariantHeroSec1({ data }) {
 
           {/* pricing + direct contact, side by side */}
           <div className="mt-2.5 grid grid-cols-2 gap-2">
-            <a
+            <QuoteLink
               href={data.priceCta.href}
               className="card-glare relative flex min-w-0 flex-col justify-center gap-0.5 rounded-xl px-3 py-3 transition-transform hover:scale-[1.02]"
               style={{
@@ -70,9 +71,9 @@ export default function VariantHeroSec1({ data }) {
             >
               <p className="text-[10px] leading-tight font-medium text-white">{data.priceCta.kicker}</p>
               <p className="text-[11px] leading-tight font-extrabold text-hero-blue">{data.priceCta.label}</p>
-            </a>
+            </QuoteLink>
 
-            <a
+            <QuoteLink
               href={data.phoneCta.href}
               className="glass-luminous card-glare relative flex min-w-0 items-center gap-2.5 overflow-hidden rounded-xl px-3 py-3 transition-transform hover:scale-[1.02]"
               style={{ border: "1px solid rgba(96,112,86,0.45)" }}
@@ -84,7 +85,7 @@ export default function VariantHeroSec1({ data }) {
                 <p className="text-[10px] leading-tight font-medium text-white">{data.phoneCta.label}</p>
                 <p className="text-[13px] leading-tight font-extrabold text-white">{data.phoneCta.phone}</p>
               </div>
-            </a>
+            </QuoteLink>
           </div>
 
           {/* registration lookup */}
@@ -129,8 +130,8 @@ export default function VariantHeroSec1({ data }) {
                 ))}
               </div>
               <p className="whitespace-nowrap text-sm font-medium text-white">
-                {data.rating.label.split("—")[0]}—{" "}
-                <span className="text-hero-blue">{data.rating.label.split("—")[1]}</span>
+                {data.rating.label.split("-")[0]}-{" "}
+                <span className="text-hero-blue">{data.rating.label.split("-")[1]}</span>
               </p>
             </div>
 
@@ -140,15 +141,15 @@ export default function VariantHeroSec1({ data }) {
             </div>
 
             <div className="mt-3 flex flex-wrap items-stretch gap-4">
-              <a
+              <QuoteLink
                 href={data.priceCta.href}
                 className="flex w-60 shrink-0 flex-col justify-center whitespace-nowrap rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-5 py-4 shadow-lg transition-transform hover:scale-[1.02]"
               >
                 <p className="label-text font-medium text-white">{data.priceCta.kicker}</p>
                 <p className="text-sm font-extrabold text-white">{data.priceCta.label}</p>
-              </a>
+              </QuoteLink>
 
-              <a
+              <QuoteLink
                 href={data.phoneCta.href}
                 className="glass-luminous card-glare relative flex w-60 shrink-0 items-center gap-3 rounded-lg px-5 py-4 transition-transform hover:scale-[1.02]"
                 style={{ border: "1px solid rgba(96,112,86,0.45)" }}
@@ -160,7 +161,7 @@ export default function VariantHeroSec1({ data }) {
                   <p className="label-text whitespace-nowrap font-medium text-white">{data.phoneCta.label}</p>
                   <p className="whitespace-nowrap text-base font-extrabold text-white">{data.phoneCta.phone}</p>
                 </div>
-              </a>
+              </QuoteLink>
             </div>
           </div>
 

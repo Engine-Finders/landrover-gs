@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,400",
   "engineImage": "/engines/jaguar-276dt-tdv6-engine.webp",
-  "carImage": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+  "carImage": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
   "cards": [
     {
       "code": "SDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
-      "generation": "D3/L319 (2004–2009) · D4/L319 facelift (2009–2016)",
+      "carImage": "/cars/card/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
+      "generation": "D3/L319 (2004-2009) · D4/L319 facelift (2009-2016)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,7 +31,7 @@
     "titlePre": "Land Rover Discovery SDV6 Timing Chain & Crankshaft Bearing Wear ",
     "titleHighlight": "",
     "paragraphs": [
-      "If your Discovery is a D3 or D4 model with the SDV6 diesel V6 — that's the 3.0-litre unit fitted from 2004 to 2016 — timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk are well-documented patterns on this engine family, backed by multiple technical service bulletins and specialist sources.",
+      "If your Discovery is a D3 or D4 model with the SDV6 diesel V6 - that's the 3.0-litre unit fitted from 2004 to 2016 - timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk are well-documented patterns on this engine family, backed by multiple technical service bulletins and specialist sources.",
       "We replace timing chain components, injector seals and gaskets as standard on every SDV6 rebuild."
     ],
     "source": "Source: widely documented, multiple TSBs and specialist sources (per G-BRF Land Rover). SDV6 confirmed as affected; TDV6 shares the same pattern; other Discovery variants with different engine families are not affected by this specific issue"

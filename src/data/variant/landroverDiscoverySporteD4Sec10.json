@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Sport eD4 ENGINE",
     "paragraphs": [
-      "The Discovery Sport eD4 uses the Ford Duratorq — a ~2.0-litre 4-cylinder diesel fitted from 2014 to 2019 across the L550 generation. The eD4 was the 2WD diesel variant in the early Discovery Sport range, positioned alongside the 4WD TD4 and the petrol Si4. The eD4 badge was discontinued before the 2019 facelift, when the range switched to Ingenium-based petrol and diesel engines (P200, P250, P290, D150, D180, D240). While the eD4 is no longer in production, we continue to rebuild and replace engines for every one still on the road."
+      "The Discovery Sport eD4 uses the Ford Duratorq - a ~2.0-litre 4-cylinder diesel fitted from 2014 to 2019 across the L550 generation. The eD4 was the 2WD diesel variant in the early Discovery Sport range, positioned alongside the 4WD TD4 and the petrol Si4. The eD4 badge was discontinued before the 2019 facelift, when the range switched to Ingenium-based petrol and diesel engines (P200, P250, P290, D150, D180, D240). While the eD4 is no longer in production, we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace Ford Duratorq engines for every Discovery Sport eD4 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "Ford Duratorq",
         "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
         "codeRest": "",
-        "body": "A ~2.0-litre 4-cylinder diesel fitted to the Discovery Sport eD4 from 2014 to 2019 (L550). Known for injector seal leaks and EGR clogging over time — see the callout above. We replace injector seals, the EGR valve, and the timing belt as standard on every Ford Duratorq rebuild.",
+        "body": "A ~2.0-litre 4-cylinder diesel fitted to the Discovery Sport eD4 from 2014 to 2019 (L550). Known for injector seal leaks and EGR clogging over time - see the callout above. We replace injector seals, the EGR valve, and the timing belt as standard on every Ford Duratorq rebuild.",
         "cta": "Check Your Ford Duratorq Discovery Sport eD4",
         "codeHref": "/landrover-ford-duratorq-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport eD4 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+    "image": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L550",
-        "image": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+        "image": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
         "chassis": "L550",
-        "years": "2014–2019",
+        "years": "2014-2019",
         "engineCode": "Ford Duratorq",
         "fuel": "Diesel",
         "codeHref": "/landrover-ford-duratorq-engine"

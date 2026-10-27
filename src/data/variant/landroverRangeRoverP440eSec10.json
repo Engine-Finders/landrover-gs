@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover P440e ENGINE",
     "paragraphs": [
-      "The Range Rover P440e is part of the L460 generation, introduced in 2022 as a plug-in hybrid variant of the flagship luxury SUV. It uses the AJ300 — a 3.0-litre turbocharged inline-six petrol engine — paired with a 105kW electric motor, delivering 440PS combined output. The P440e sits alongside the P460e, P510e and P550e PHEV badges, all sharing the same AJ300 engine family with different power output tunes. The Range Rover P440e is a current variant and remains in production as of 2026."
+      "The Range Rover P440e is part of the L460 generation, introduced in 2022 as a plug-in hybrid variant of the flagship luxury SUV. It uses the AJ300 - a 3.0-litre turbocharged inline-six petrol engine - paired with a 105kW electric motor, delivering 440PS combined output. The P440e sits alongside the P460e, P510e and P550e PHEV badges, all sharing the same AJ300 engine family with different power output tunes. The Range Rover P440e is a current variant and remains in production as of 2026."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300 engines for every Range Rover P440e on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "AJ300",
         "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "(L460)",
-        "body": "A 3.0-litre turbocharged inline-six petrol engine fitted to the Range Rover P440e from 2022 to present (L460 generation). This is a plug-in hybrid powertrain combining the AJ300 petrol engine with a 105kW electric motor. The AJ300 engine family is shared across all four PHEV badges — P440e, P460e, P510e and P550e — with output varying by tune.",
+        "body": "A 3.0-litre turbocharged inline-six petrol engine fitted to the Range Rover P440e from 2022 to present (L460 generation). This is a plug-in hybrid powertrain combining the AJ300 petrol engine with a 105kW electric motor. The AJ300 engine family is shared across all four PHEV badges - P440e, P460e, P510e and P550e - with output varying by tune.",
         "cta": "Check Your AJ300 Range Rover P440e"
       }
     ]
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover P440e ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+    "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,9 +68,9 @@
     "rows": [
       {
         "generation": "L460",
-        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+        "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L460",
-        "years": "2022–present",
+        "years": "2022-present",
         "engineCode": "AJ300",
         "fuel": "Petrol PHEV"
       }

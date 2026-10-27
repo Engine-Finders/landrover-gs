@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "200Tdi",
     "titlePost": " ENGINE",
-    "body": "The 200Tdi is Land Rover's 2.5-litre turbocharged diesel inline-four engine, produced from 1990 to 1994. It was fitted to the Defender L316 during its early production years. This engine is one of the classic Land Rover diesel powerplants, known for its mechanical simplicity and the direct-drive VE injection pump. The 200Tdi is an interference engine — timing belt failure causes pistons to collide with valves."
+    "body": "The 200Tdi is Land Rover's 2.5-litre turbocharged diesel inline-four engine, produced from 1990 to 1994. It was fitted to the Defender L316 during its early production years. This engine is one of the classic Land Rover diesel powerplants, known for its mechanical simplicity and the direct-drive VE injection pump. The 200Tdi is an interference engine - timing belt failure causes pistons to collide with valves."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "Defender L316 (1990–1994) — the 200Tdi was the diesel engine option during the early years of the Defender L316's production, before being replaced by the 300Tdi in 1994. The engine is a direct-injection turbo diesel with mechanical injection, simpler in design than later electronically-controlled diesel engines.",
+    "body": "Defender L316 (1990-1994) - the 200Tdi was the diesel engine option during the early years of the Defender L316's production, before being replaced by the 300Tdi in 1994. The engine is a direct-injection turbo diesel with mechanical injection, simpler in design than later electronically-controlled diesel engines.",
     "lineup": [
       {
         "label": "Defender",
@@ -41,7 +41,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "1990–1994"
+        "text": "1990-1994"
       },
       {
         "icon": "engine",
@@ -61,10 +61,10 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "200Tdi in the Defender (L316, 1990–1994)",
+        "heading": "200Tdi in the Defender (L316, 1990-1994)",
         "model": "Defender",
         "chassis": "L316",
-        "years": "1990–1994",
+        "years": "1990-1994",
         "variant": "",
         "body": "The 200Tdi in the Defender L316 is one of the applications we work on regularly.",
         "price": "£1,900",
@@ -73,7 +73,7 @@
         "powertrain": "Diesel",
         "href": "/landrover-defender-200tdi-engines",
         "title": "200Tdi in the Defender",
-        "subtitle": "(L316, 1990–1994)"
+        "subtitle": "(L316, 1990-1994)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

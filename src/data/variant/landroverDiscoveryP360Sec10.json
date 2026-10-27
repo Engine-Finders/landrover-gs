@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery P360 ENGINE",
     "paragraphs": [
-      "The Discovery P360 is part of the D5/L462 generation, introduced in 2017 and still in production today. It uses the Ingenium AJ300P — a 3.0-litre inline-six petrol engine with mild-hybrid assistance, positioned as the higher-output petrol option in the Discovery range alongside the P400 and P400e. The AJ300P is a modern, sophisticated unit, and as with any complex modern engine, regular maintenance and early attention to any running issues make a significant difference to long-term reliability."
+      "The Discovery P360 is part of the D5/L462 generation, introduced in 2017 and still in production today. It uses the Ingenium AJ300P - a 3.0-litre inline-six petrol engine with mild-hybrid assistance, positioned as the higher-output petrol option in the Discovery range alongside the P400 and P400e. The AJ300P is a modern, sophisticated unit, and as with any complex modern engine, regular maintenance and early attention to any running issues make a significant difference to long-term reliability."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300P engines for every Discovery P360 on the road."
   },
@@ -27,7 +27,7 @@
   "compatibility": {
     "titlePre": "Land Rover Discovery P360 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "The Discovery P360's AJ300P is a specific tune of the Ingenium 3.0-litre petrol six — different from the diesel units in the Discovery range and distinct from the higher-output P400 variant. Fitting the wrong replacement or assuming parts from another variant will fit risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
+    "intro": "The Discovery P360's AJ300P is a specific tune of the Ingenium 3.0-litre petrol six - different from the diesel units in the Discovery range and distinct from the higher-output P400 variant. Fitting the wrong replacement or assuming parts from another variant will fit risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery P360 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+    "image": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "D5",
-        "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+        "image": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
         "chassis": "L462",
-        "years": "2017–present",
+        "years": "2017-present",
         "engineCode": "AJ300P",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj300p-engine"

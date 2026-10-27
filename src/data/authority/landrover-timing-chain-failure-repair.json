@@ -69,10 +69,10 @@
             "**Fixed-price quotation after assessment** Our timing chain failure repair costs are confirmed only after a full strip-down inspection, because the extent of damage varies by engine and condition. For many Land Rover engines, full rebuilds start from:",
             {
               "ul": [
-                "**4-cylinder diesel** — from £1,900",
-                "**6-cylinder diesel** — from £2,400",
-                "**V8 (non-supercharged)** — from £4,500",
-                "**Supercharged V8** — from £5,500"
+                "**4-cylinder diesel** - from £1,900",
+                "**6-cylinder diesel** - from £2,400",
+                "**V8 (non-supercharged)** - from £4,500",
+                "**Supercharged V8** - from £5,500"
               ]
             },
             "Timing chain replacement alone may be quoted separately. [Pricing disclaimer](/pricing-legal-disclaimer)."
@@ -118,7 +118,7 @@
               "href": "/landrover-defender-d250-engines"
             }
           ],
-          "note": "TD5, 200Tdi, 300Tdi, and modern Ingenium diesels (D200/D250/D300) — timing chain and tensioner wear is a known pattern."
+          "note": "TD5, 200Tdi, 300Tdi, and modern Ingenium diesels (D200/D250/D300) - timing chain and tensioner wear is a known pattern."
         },
         {
           "t": "modelgroup",
@@ -140,7 +140,7 @@
               "href": "/landrover-discovery-d250-engines"
             }
           ],
-          "note": "TDV6/SDV6 (D3/D4) and Ingenium diesels (D5) — timing chain tensioner failure is a widely documented issue."
+          "note": "TDV6/SDV6 (D3/D4) and Ingenium diesels (D5) - timing chain tensioner failure is a widely documented issue."
         },
         {
           "t": "modelgroup",
@@ -162,7 +162,7 @@
               "href": "/landrover-range-rover-vogue-engines"
             }
           ],
-          "note": "TDV6/SDV6 (L322/L405) and V8 diesel/petrol — chain and guide wear affects many vehicles in this range."
+          "note": "TDV6/SDV6 (L322/L405) and V8 diesel/petrol - chain and guide wear affects many vehicles in this range."
         },
         {
           "t": "modelgroup",
@@ -184,7 +184,7 @@
               "href": "/landrover-range-rover-sport-svr-engines"
             }
           ],
-          "note": "TDV6/SDV6 and supercharged V8 (SVR) — timing chain issues are common across the Sport lineage."
+          "note": "TDV6/SDV6 and supercharged V8 (SVR) - timing chain issues are common across the Sport lineage."
         },
         {
           "t": "modelgroup",
@@ -206,7 +206,7 @@
               "href": "/landrover-range-rover-velar-p250-engines"
             }
           ],
-          "note": "Ingenium diesel and petrol (D180/D200/D240/D250, P250/P300) — timing chain tensioner wear is a known pattern."
+          "note": "Ingenium diesel and petrol (D180/D200/D240/D250, P250/P300) - timing chain tensioner wear is a known pattern."
         },
         {
           "t": "modelgroup",
@@ -228,7 +228,7 @@
               "href": "/landrover-discovery-sport-d200-engines"
             }
           ],
-          "note": "Ingenium diesel (D150/D165/D180/D200) — timing chain wear is a frequent concern."
+          "note": "Ingenium diesel (D150/D165/D180/D200) - timing chain wear is a frequent concern."
         },
         {
           "t": "modelgroup",
@@ -250,7 +250,7 @@
               "href": "/landrover-range-rover-evoque-p250-engines"
             }
           ],
-          "note": "Ingenium diesel (D150/D165/D180) and petrol — timing chain issues affect both fuel types."
+          "note": "Ingenium diesel (D150/D165/D180) and petrol - timing chain issues affect both fuel types."
         },
         {
           "t": "modelgroup",
@@ -268,11 +268,11 @@
               "href": "/landrover-freelander-sd4-engines"
             }
           ],
-          "note": "M47D20 (Td4) and Ford Duratorq — timing chain stretch is a known pattern."
+          "note": "M47D20 (Td4) and Ford Duratorq - timing chain stretch is a known pattern."
         },
         {
           "t": "p",
-          "html": "If your model isn't listed, [contact us](/contact) — we cover the entire Land Rover range."
+          "html": "If your model isn't listed, [contact us](/contact) - we cover the entire Land Rover range."
         }
       ]
     },
@@ -314,10 +314,10 @@
           "t": "ul",
           "items": [
             "**12-month unlimited-mileage warranty** on every repair",
-            "**Established 2009** — over 15 years of Land Rover specialist experience",
-            "**Nationwide recovery** — we can collect your vehicle from anywhere in the UK",
-            "**Fixed-price quotes** — no hidden costs after inspection",
-            "**All work carried out in-house** — from strip-down to road test",
+            "**Established 2009** - over 15 years of Land Rover specialist experience",
+            "**Nationwide recovery** - we can collect your vehicle from anywhere in the UK",
+            "**Fixed-price quotes** - no hidden costs after inspection",
+            "**All work carried out in-house** - from strip-down to road test",
             "**JLR diagnostic equipment** for accurate fault identification"
           ]
         },
@@ -385,7 +385,7 @@
         },
         {
           "q": "Do you offer a warranty on timing chain repairs?",
-          "a": "Yes — every repair comes with a 12-month unlimited-mileage warranty covering parts and labour."
+          "a": "Yes - every repair comes with a 12-month unlimited-mileage warranty covering parts and labour."
         },
         {
           "q": "What if the engine is beyond repair?",
@@ -393,7 +393,7 @@
         },
         {
           "q": "Can you collect my vehicle?",
-          "a": "Yes — we offer nationwide recovery from £70. Most vehicles are collected within a few hours of booking."
+          "a": "Yes - we offer nationwide recovery from £70. Most vehicles are collected within a few hours of booking."
         }
       ]
     }

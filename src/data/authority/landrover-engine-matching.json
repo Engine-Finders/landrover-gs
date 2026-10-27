@@ -3,7 +3,7 @@
   "metaTitle": "Land Rover Engine Matching by Registration & VIN | Land Rover Garage",
   "metaDescription": "Get accurate Land Rover engine matching using VIN and registration data. We identify the correct engine code, power output, and ancillaries for your vehicle.",
   "h1": "Land Rover Engine Matching by Registration & VIN",
-  "lede": "Identify the correct engine for your Land Rover using VIN and registration data — precise matching for rebuilds, replacements, and supply & fit.",
+  "lede": "Identify the correct engine for your Land Rover using VIN and registration data - precise matching for rebuilds, replacements, and supply & fit.",
   "ctas": [
     {
       "label": "Get a Quote",
@@ -68,12 +68,12 @@
             "**Engine matching is included as part of our rebuild, replacement, and supply-and-fit services.** Our prices start from:",
             {
               "ul": [
-                "4-Cylinder Diesel (Classic/Ingenium) — from £1,900",
-                "4-Cylinder Petrol (Ingenium) — from £2,200",
-                "6-Cylinder Diesel (TDV6/SDV6/Ingenium I6) — from £2,400",
-                "V8 (non-supercharged) — from £4,500",
-                "V8 Supercharged / SVR — from £5,500",
-                "V8 Twin-Turbo (Octa) — from £6,500"
+                "4-Cylinder Diesel (Classic/Ingenium) - from £1,900",
+                "4-Cylinder Petrol (Ingenium) - from £2,200",
+                "6-Cylinder Diesel (TDV6/SDV6/Ingenium I6) - from £2,400",
+                "V8 (non-supercharged) - from £4,500",
+                "V8 Supercharged / SVR - from £5,500",
+                "V8 Twin-Turbo (Octa) - from £6,500"
               ]
             },
             "[See our pricing disclaimer for full details](/pricing-legal-disclaimer)."
@@ -173,11 +173,11 @@
         {
           "t": "ul",
           "items": [
-            "**Land Rover Specialists** — We work exclusively on Land Rovers, from classic Defenders to the latest L663 models.",
-            "**Genuine Systems** — We use Land Rover TOPIx, JLR SDD, and Pathfinder for accurate VIN-based matching.",
-            "**Multiple Engine Sources** — We match JLR-designed, BMW-sourced, and Ford-sourced engines with equal precision.",
-            "**Complete Service** — Matching is included in our rebuild, replacement, and supply-and-fit packages.",
-            "**Clear Reporting** — You get a full matching report for peace of mind."
+            "**Land Rover Specialists** - We work exclusively on Land Rovers, from classic Defenders to the latest L663 models.",
+            "**Genuine Systems** - We use Land Rover TOPIx, JLR SDD, and Pathfinder for accurate VIN-based matching.",
+            "**Multiple Engine Sources** - We match JLR-designed, BMW-sourced, and Ford-sourced engines with equal precision.",
+            "**Complete Service** - Matching is included in our rebuild, replacement, and supply-and-fit packages.",
+            "**Clear Reporting** - You get a full matching report for peace of mind."
           ]
         },
         {

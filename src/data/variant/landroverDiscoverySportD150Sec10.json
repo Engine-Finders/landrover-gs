@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Sport D150 ENGINE",
     "paragraphs": [
-      "The Discovery Sport D150 was introduced as part of the 2019 L550 facelift, alongside the D180 and D240, and remained in production until 2020 when the diesel range was simplified. It uses the Ingenium AJ200D/AJ150D — a 2.0-litre four-cylinder diesel that's part of Jaguar Land Rover's modular engine family. The D150 was the entry-level diesel option during its production run, and was discontinued in 2020 when the D150 and D180 were replaced by the single D165 badge."
+      "The Discovery Sport D150 was introduced as part of the 2019 L550 facelift, alongside the D180 and D240, and remained in production until 2020 when the diesel range was simplified. It uses the Ingenium AJ200D/AJ150D - a 2.0-litre four-cylinder diesel that's part of Jaguar Land Rover's modular engine family. The D150 was the entry-level diesel option during its production run, and was discontinued in 2020 when the D150 and D180 were replaced by the single D165 badge."
     ],
     "boldParagraph": "We continue to rebuild and replace Ingenium AJ200D / AJ150D engines for every Discovery Sport D150 on the road."
   },
@@ -17,8 +17,8 @@
       {
         "codeHighlight": "Ingenium AJ200D / AJ150D",
         "image": "/engines/jaguar-aj200d-engine.webp",
-        "codeRest": "(L550, 2019–2020)",
-        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D150 from 2019 to 2020 (L550 generation). Known for timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks over time — see the callout above. We replace the timing chain, injector seals, EGR components and gaskets as standard on every Ingenium diesel rebuild.",
+        "codeRest": "(L550, 2019-2020)",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D150 from 2019 to 2020 (L550 generation). Known for timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks over time - see the callout above. We replace the timing chain, injector seals, EGR components and gaskets as standard on every Ingenium diesel rebuild.",
         "cta": "Check Your Ingenium AJ200D / AJ150D Discovery Sport D150",
         "codeHref": "/landrover-aj150d-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport D150 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+    "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L550 (facelift)",
-        "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+        "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
         "chassis": "L550",
-        "years": "2019–2020",
+        "years": "2019-2020",
         "engineCode": "Ingenium AJ200D / AJ150D",
         "fuel": "Diesel",
         "codeHref": "/landrover-aj150d-engine"

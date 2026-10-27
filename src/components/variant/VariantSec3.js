@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 export default function VariantSec3({ data }) {
   return (
@@ -75,13 +76,13 @@ export default function VariantSec3({ data }) {
           ))}
         </div>
 
-        <a
+        <QuoteLink
           href={data.cta.href}
           className="mt-4 flex items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-5 py-3 text-sm font-bold uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
         >
           <Icon name={data.cta.icon} className="h-5 w-5 shrink-0" />
           {data.cta.label} <span aria-hidden>→</span>
-        </a>
+        </QuoteLink>
 
         <div className="theme-dark relative mt-5 overflow-hidden rounded-xl bg-[#0d0d0d]">
           <div className="relative p-4">
@@ -215,13 +216,13 @@ export default function VariantSec3({ data }) {
                 ))}
               </div>
 
-              <a
+              <QuoteLink
                 href={data.cta.href}
                 className="flex items-center justify-center gap-2 rounded-xl bg-linear-to-br from-hero-blue to-hero-blue-dark px-6 py-3.5 text-sm font-bold uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
               >
                 <Icon name={data.cta.icon} className="h-6 w-6 shrink-0" />
                 {data.cta.label} <span aria-hidden>→</span>
-              </a>
+              </QuoteLink>
             </div>
           </div>
 

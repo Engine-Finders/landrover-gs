@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover Sport SVR ENGINE",
     "paragraphs": [
-      "The Range Rover Sport SVR uses the AJ‑V8 — a 5.0‑litre supercharged V8 petrol engine. It was fitted from 2015 to 2022 across the L494 generation. It was the performance flagship of the Sport range until replaced by the newer BMW‑sourced V8 in the L461 generation. The SVR is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Range Rover Sport SVR uses the AJ‑V8 - a 5.0‑litre supercharged V8 petrol engine. It was fitted from 2015 to 2022 across the L494 generation. It was the performance flagship of the Sport range until replaced by the newer BMW‑sourced V8 in the L461 generation. The SVR is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ‑V8 Supercharged engines for every Range Rover Sport SVR on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "AJ‑V8 Supercharged",
         "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
         "codeRest": "",
-        "body": "The Range Rover Sport SVR uses the AJ‑V8 — a 5.0‑litre supercharged V8 petrol engine. It was fitted from 2015 to 2022 across the L494 generation. It was the performance flagship of the Sport range until replaced by the newer BMW‑sourced V8 in the L461 generation. The SVR is no longer in production, but we continue to rebuild and replace engines for every one still on the road.",
+        "body": "The Range Rover Sport SVR uses the AJ‑V8 - a 5.0‑litre supercharged V8 petrol engine. It was fitted from 2015 to 2022 across the L494 generation. It was the performance flagship of the Sport range until replaced by the newer BMW‑sourced V8 in the L461 generation. The SVR is no longer in production, but we continue to rebuild and replace engines for every one still on the road.",
         "cta": "Check Your AJ‑V8 Supercharged Range Rover Sport SVR",
         "codeHref": "/landrover-aj-v8-engine"
       }
@@ -27,7 +27,7 @@
   "compatibility": {
     "titlePre": "Land Rover Range Rover Sport SVR ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the SVR uses a single engine family — the supercharged AJ‑V8 — across all its production years, fitment is straightforward when we match the exact year and specification. However, we still confirm your VIN and registration before supplying or fitting anything, to ensure that ancillaries, ECU calibration and drivetrain details match your specific vehicle. This protects you from the costly mistake of fitting an incompatible unit.",
+    "intro": "Because the SVR uses a single engine family - the supercharged AJ‑V8 - across all its production years, fitment is straightforward when we match the exact year and specification. However, we still confirm your VIN and registration before supplying or fitting anything, to ensure that ancillaries, ECU calibration and drivetrain details match your specific vehicle. This protects you from the costly mistake of fitting an incompatible unit.",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Sport SVR ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+    "image": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L494",
-        "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+        "image": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
         "chassis": "L494",
-        "years": "2015–2022",
+        "years": "2015-2022",
         "engineCode": "AJ‑V8 Supercharged",
         "fuel": "Petrol Supercharged",
         "codeHref": "/landrover-aj-v8-engine"

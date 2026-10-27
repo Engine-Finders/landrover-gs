@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover Velar SVAutobiography Dynamic Edition ENGINE",
     "paragraphs": [
-      "The Velar SVAutobiography Dynamic Edition was a one-year limited-run model produced in 2019 only. It used the AJ133 — a 5.0-litre supercharged V8 from Jaguar Land Rover's established performance engine family. This is the same engine family used in the Range Rover Sport SVR, delivering significantly more power than the Velar's regular petrol range. The Velar SVAutobiography Dynamic Edition is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Velar SVAutobiography Dynamic Edition was a one-year limited-run model produced in 2019 only. It used the AJ133 - a 5.0-litre supercharged V8 from Jaguar Land Rover's established performance engine family. This is the same engine family used in the Range Rover Sport SVR, delivering significantly more power than the Velar's regular petrol range. The Velar SVAutobiography Dynamic Edition is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ133 engines for every Range Rover Velar SVAutobiography Dynamic Edition on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "AJ133",
         "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
         "codeRest": "",
-        "body": "A 5.0-litre supercharged V8 fitted to the Velar SVAutobiography Dynamic Edition in 2019 only (L560). Known for timing chain wear and cooling-system leaks over time — see the callout above. We replace timing chains, valve seals, coolant components and bearings as standard on every AJ133 rebuild.",
+        "body": "A 5.0-litre supercharged V8 fitted to the Velar SVAutobiography Dynamic Edition in 2019 only (L560). Known for timing chain wear and cooling-system leaks over time - see the callout above. We replace timing chains, valve seals, coolant components and bearings as standard on every AJ133 rebuild.",
         "cta": "Check Your AJ133 Range Rover Velar SVAutobiography Dynamic Edition",
         "codeHref": "/landrover-aj133-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Velar SVAutobiography Dynamic Edition ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+    "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,7 +69,7 @@
     "rows": [
       {
         "generation": "L560",
-        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+        "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
         "years": "2019 only",
         "engineCode": "AJ133",

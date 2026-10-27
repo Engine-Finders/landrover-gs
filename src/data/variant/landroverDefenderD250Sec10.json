@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender D250 ENGINE",
     "paragraphs": [
-      "The Defender D250 is part of the modern L663 generation, introduced in 2020 as a replacement for the D240. It uses the Ingenium AJ300D — a 3.0-litre inline-six diesel with mild-hybrid technology, producing 247bhp and 420Nm of torque. It sits between the D200 (200bhp) and D300 (296bhp) in the diesel range, offering a blend of power and efficiency. The AJ300D is a six-cylinder engine, distinct from the four-cylinder AJ200D used in earlier L663 diesel models (D200 and D240). The mild-hybrid system adds a 48V electrical architecture, which includes the DC-DC converter that can be a failure point on these engines."
+      "The Defender D250 is part of the modern L663 generation, introduced in 2020 as a replacement for the D240. It uses the Ingenium AJ300D - a 3.0-litre inline-six diesel with mild-hybrid technology, producing 247bhp and 420Nm of torque. It sits between the D200 (200bhp) and D300 (296bhp) in the diesel range, offering a blend of power and efficiency. The AJ300D is a six-cylinder engine, distinct from the four-cylinder AJ200D used in earlier L663 diesel models (D200 and D240). The mild-hybrid system adds a 48V electrical architecture, which includes the DC-DC converter that can be a failure point on these engines."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300D engines for every Defender D250 on the road."
   },
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender D250 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+    "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+        "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "L663",
-        "years": "2020–present",
+        "years": "2020-present",
         "engineCode": "AJ300D",
         "fuel": "Diesel MHEV",
         "codeHref": "/landrover-aj300d-engine"

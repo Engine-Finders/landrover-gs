@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,000",
   "engineImage": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-  "carImage": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+  "carImage": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
   "cards": [
     {
       "code": "Ford Duratorq",
       "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-      "carImage": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
-      "generation": "L550 (2014–2019)",
+      "carImage": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+      "generation": "L550 (2014-2019)",
       "price": "£2,000",
       "codeHref": "/landrover-ford-duratorq-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,8 +31,8 @@
     "titlePre": "Land Rover Discovery Sport eD4 Injector Seal Leaks & EGR Clogging ",
     "titleHighlight": "",
     "paragraphs": [
-      "If your Discovery Sport eD4 is a pre-2019 model with the Ford Duratorq diesel — that's the L550 generation — injector seal leaks and EGR clogging are a well-documented pattern on this engine, established through Ford/Land Rover specialist consensus. We replace injector seals, the EGR valve, and the timing belt as standard on every Ford Duratorq rebuild.",
-      "The later Discovery Sport diesel range (2019–present) uses the Ingenium family of engines, which are different units entirely — D150/D180/D240, then D165/D200 — and don't share the Ford Duratorq pattern documented here."
+      "If your Discovery Sport eD4 is a pre-2019 model with the Ford Duratorq diesel - that's the L550 generation - injector seal leaks and EGR clogging are a well-documented pattern on this engine, established through Ford/Land Rover specialist consensus. We replace injector seals, the EGR valve, and the timing belt as standard on every Ford Duratorq rebuild.",
+      "The later Discovery Sport diesel range (2019-present) uses the Ingenium family of engines, which are different units entirely - D150/D180/D240, then D165/D200 - and don't share the Ford Duratorq pattern documented here."
     ],
     "source": "Source: established Ford/Land Rover specialist pattern, per VRF-landrover-discovery-sport.md. Applies to Duratorq-fitted pre-2016 models only; Ingenium diesel variants are separate and not covered by this specific claim"
   }

@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover N63 Applications — ",
+  "titlePre": "Land Rover N63 Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "P530",
       "generation": "L460",
       "chassis": "L460",
-      "years": "2022–present",
+      "years": "2022-present",
       "powertrain": "Petrol MHEV",
       "modelHref": "/models"
     },
@@ -37,7 +37,7 @@
       "variant": "P530",
       "generation": "L461",
       "chassis": "L461",
-      "years": "2023–present",
+      "years": "2023-present",
       "powertrain": "Petrol MHEV",
       "modelHref": "/range-rover-sport-engines"
     }

@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£1,900",
   "engineImage": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-  "carImage": "/cars/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
+  "carImage": "/cars/card/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
   "cards": [
     {
       "code": "Ford Duratorq",
       "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-      "carImage": "/cars/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
-      "generation": "L359 (2006–2014)",
+      "carImage": "/cars/card/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
+      "generation": "L359 (2006-2014)",
       "price": "£1,900",
       "codeHref": "/landrover-ford-duratorq-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -32,7 +32,7 @@
     "titleHighlight": "",
     "paragraphs": [
       "Freelander eD4 engines with the Ford Duratorq 2.2-litre diesel commonly show injector failure and DPF clogging over time. We replace the injectors, EGR valve and timing belt as standard on every Duratorq rebuild.",
-      "*include_in_hero_hook: yes for Ford Duratorq — Source: established Ford/Land Rover specialist pattern, per VRF-landrover-freelander.md.*"
+      "*include_in_hero_hook: yes for Ford Duratorq - Source: established Ford/Land Rover specialist pattern, per VRF-landrover-freelander.md.*"
     ],
     "source": "Source: established Ford/Land Rover specialist pattern, per VRF-landrover-freelander.md"
   }

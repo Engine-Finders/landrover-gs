@@ -4,21 +4,21 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,200",
   "engineImage": "/engines/jaguar-aj200d-engine.webp",
-  "carImage": "/cars/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
+  "carImage": "/cars/card/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
   "cards": [
     {
       "code": "Ingenium AJ150D / AJ200D",
       "image": "/engines/jaguar-aj200d-engine.webp",
-      "carImage": "/cars/range-rover-evoque-l538-se-5-door-suv-20152018-new-corris-gr-19e8.webp",
-      "generation": "L538 (2016–2018)",
+      "carImage": "/cars/card/range-rover-evoque-l538-se-5-door-suv-20152018-new-corris-gr-19e8.webp",
+      "generation": "L538 (2016-2018)",
       "price": "£2,200",
       "codeHref": "/landrover-aj150d-engine"
     },
     {
       "code": "Ingenium AJ150D / AJ200D",
       "image": "/engines/jaguar-aj200d-engine.webp",
-      "carImage": "/cars/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
-      "generation": "L551 (2019–present)",
+      "carImage": "/cars/card/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
+      "generation": "L551 (2019-present)",
       "price": "£2,200",
       "codeHref": "/landrover-aj150d-engine"
     }
@@ -26,7 +26,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -39,8 +39,8 @@
     "titlePre": "Range Rover Evoque D150 Ingenium Diesel Timing Chain & EGR Wear ",
     "titleHighlight": "",
     "paragraphs": [
-      "Evoque D150 engines — Ingenium AJ150D and AJ200D, across every Range Rover Evoque generation — commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks over time. We replace timing chains, injector seals, EGR components, and gaskets as standard on every Evoque D150 rebuild.",
-      "include_in_hero_hook: yes — Source: shared Ingenium diesel family pattern, Discovery Sport/Evoque platform, per G-BRF and VRF. Applies to all Ingenium diesel Evoque variants, including D150."
+      "Evoque D150 engines - Ingenium AJ150D and AJ200D, across every Range Rover Evoque generation - commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks over time. We replace timing chains, injector seals, EGR components, and gaskets as standard on every Evoque D150 rebuild.",
+      "include_in_hero_hook: yes - Source: shared Ingenium diesel family pattern, Discovery Sport/Evoque platform, per G-BRF and VRF. Applies to all Ingenium diesel Evoque variants, including D150."
     ],
     "source": "Source: shared Ingenium diesel family pattern, Discovery Sport/Evoque platform, per G-BRF and VRF. Applies to all Ingenium diesel Evoque variants, including D150"
   }

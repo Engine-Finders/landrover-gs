@@ -11,7 +11,7 @@
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The Td5 is found in two core Land Rover model lines — the Defender (L316) and the Discovery 2 (L318)."
+      "body": "The Td5 is found in two core Land Rover model lines - the Defender (L316) and the Discovery 2 (L318)."
     },
     {
       "icon": "wrench",
@@ -26,13 +26,13 @@
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed Td5 rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed Td5 rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER Td5 REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "The Td5 is a common-rail diesel engine with a chain-driven timing system. A full rebuild includes inspecting the injector harness for oil wicking — a known critical issue — and replacing it if necessary. Injector seal replacement is also standard practice. The high-pressure fuel pump and turbocharger are inspected for condition.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "body": "The Td5 is a common-rail diesel engine with a chain-driven timing system. A full rebuild includes inspecting the injector harness for oil wicking - a known critical issue - and replacing it if necessary. Injector seal replacement is also standard practice. The high-pressure fuel pump and turbocharger are inspected for condition.",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing chain, bearings, gaskets, injector wiring harness inspection/replacement, injector seals"

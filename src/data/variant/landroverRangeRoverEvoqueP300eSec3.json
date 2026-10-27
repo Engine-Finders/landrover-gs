@@ -4,12 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,200",
   "engineImage": "/engines/engines-2-0-ingenium-petrol-engine.webp",
-  "carImage": "/cars/range-rover-evoque-l551-lci-s-5-door-suv-2023-new-fuji-white-f53b.webp",
+  "carImage": "/cars/card/range-rover-evoque-l551-lci-s-5-door-suv-2023-new-fuji-white-f53b.webp",
   "cards": [
     {
       "code": "Ingenium AJ200P + electric",
       "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
-      "carImage": "/cars/range-rover-evoque-l551-lci-s-5-door-suv-2023-new-fuji-white-f53b.webp",
+      "carImage": "/cars/card/range-rover-evoque-l551-lci-s-5-door-suv-2023-new-fuji-white-f53b.webp",
       "generation": "L551",
       "price": "£2,200",
       "codeHref": "/landrover-aj200p-engine"
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -32,8 +32,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Range Rover Evoque P300e has the Ingenium AJ200P + electric (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every Ingenium AJ200P + electric rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every Ingenium AJ200P + electric rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

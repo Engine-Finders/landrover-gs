@@ -4,11 +4,11 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,000",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+  "carImage": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
   "cards": [
     {
       "code": "1.5L I3 PHEV",
-      "carImage": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+      "carImage": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
       "generation": "L550",
       "price": "£2,000"
     }
@@ -16,7 +16,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -30,8 +30,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Discovery Sport P270e has the 1.5L I3 petrol + electric (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every 1.5L I3 petrol + electric rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every 1.5L I3 petrol + electric rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover P510e ENGINE",
     "paragraphs": [
-      "The Range Rover P510e is part of the current-generation L460 range, introduced in 2022. It uses the AJ300P — a 3.0-litre inline-six petrol engine developed by Jaguar Land Rover as part of the Ingenium engine family. What makes the P510e distinct within the Range Rover line-up is its plug-in hybrid system: the AJ300P is paired with a 105kW electric motor, and the badge tracks the combined power output. The same underlying engine family appears across all four PHEV badges in the current Range Rover range — P440e, P460e, P510e and P550e — with different combined power outputs calibrated for each tier."
+      "The Range Rover P510e is part of the current-generation L460 range, introduced in 2022. It uses the AJ300P - a 3.0-litre inline-six petrol engine developed by Jaguar Land Rover as part of the Ingenium engine family. What makes the P510e distinct within the Range Rover line-up is its plug-in hybrid system: the AJ300P is paired with a 105kW electric motor, and the badge tracks the combined power output. The same underlying engine family appears across all four PHEV badges in the current Range Rover range - P440e, P460e, P510e and P550e - with different combined power outputs calibrated for each tier."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300P (3.0L I6 + 105kW electric motor) engines for every Range Rover P510e on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "AJ300P (3.0L I6 + 105kW electric motor)",
         "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "",
-        "body": "The Range Rover P510e is part of the current-generation L460 range, introduced in 2022. It uses the AJ300P — a 3.0-litre inline-six petrol engine developed by Jaguar Land Rover as part of the Ingenium engine family. What makes the P510e distinct within the Range Rover line-up is its plug-in hybrid system: the AJ300P is paired with a 105kW electric motor, and the badge tracks the combined power output. The same underlying engine family appears across all four PHEV badges in the current Range Rover range — P440e, P460e, P510e and P550e — with different combined power outputs calibrated for each tier.",
+        "body": "The Range Rover P510e is part of the current-generation L460 range, introduced in 2022. It uses the AJ300P - a 3.0-litre inline-six petrol engine developed by Jaguar Land Rover as part of the Ingenium engine family. What makes the P510e distinct within the Range Rover line-up is its plug-in hybrid system: the AJ300P is paired with a 105kW electric motor, and the badge tracks the combined power output. The same underlying engine family appears across all four PHEV badges in the current Range Rover range - P440e, P460e, P510e and P550e - with different combined power outputs calibrated for each tier.",
         "cta": "Check Your AJ300P (3.0L I6 + 105kW electric motor) Range Rover P510e",
         "codeHref": "/landrover-aj300p-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover P510e ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+    "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L460",
-        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+        "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L460",
-        "years": "2022–present",
+        "years": "2022-present",
         "engineCode": "AJ300P",
         "fuel": "Petrol Plug-in Hybrid",
         "codeHref": "/landrover-aj300p-engine"

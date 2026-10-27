@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender Td4 ENGINE",
     "paragraphs": [
-      "The Defender Td4 is a rare variant in the UK, fitted to the classic 90/110/130 body style. It uses the BMW M47D20 — a 2.0-litre inline-four diesel unit shared with BMW models of the same era. The M47 is a different engine family from the more common Td5, 300Tdi and 200Tdi diesels found in most classic Defenders, which is why matching by registration is particularly important for this variant. The Defender Td4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Defender Td4 is a rare variant in the UK, fitted to the classic 90/110/130 body style. It uses the BMW M47D20 - a 2.0-litre inline-four diesel unit shared with BMW models of the same era. The M47 is a different engine family from the more common Td5, 300Tdi and 200Tdi diesels found in most classic Defenders, which is why matching by registration is particularly important for this variant. The Defender Td4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace BMW M47D20 engines for every Defender Td4 on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "BMW M47D20",
         "codeRest": "",
-        "body": "The Defender Td4 is a rare variant in the UK, fitted to the classic 90/110/130 body style. It uses the BMW M47D20 — a 2.0-litre inline-four diesel unit shared with BMW models of the same era. The M47 is a different engine family from the more common Td5, 300Tdi and 200Tdi diesels found in most classic Defenders, which is why matching by registration is particularly important for this variant. The Defender Td4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road.",
+        "body": "The Defender Td4 is a rare variant in the UK, fitted to the classic 90/110/130 body style. It uses the BMW M47D20 - a 2.0-litre inline-four diesel unit shared with BMW models of the same era. The M47 is a different engine family from the more common Td5, 300Tdi and 200Tdi diesels found in most classic Defenders, which is why matching by registration is particularly important for this variant. The Defender Td4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road.",
         "cta": "Check Your BMW M47D20 Defender Td4",
         "codeHref": "/landrover-m47d20-bmw-sourced-engine"
       }
@@ -26,7 +26,7 @@
   "compatibility": {
     "titlePre": "Land Rover Defender Td4 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the Defender Td4 uses the BMW M47D20 — a rare application in the UK Defender range — confirming compatibility before any work is essential. Before we quote or supply anything, we confirm:",
+    "intro": "Because the Defender Td4 uses the BMW M47D20 - a rare application in the UK Defender range - confirming compatibility before any work is essential. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender Td4 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-defender-90-county-3-door-4x4-19901998-n-547b.webp",
+    "image": "/cars/card/land-rover-defender-defender-90-county-3-door-4x4-19901998-n-547b.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,7 +68,7 @@
     "rows": [
       {
         "generation": "Classic",
-        "image": "/cars/land-rover-defender-defender-90-county-3-door-4x4-19901998-n-547b.webp",
+        "image": "/cars/card/land-rover-defender-defender-90-county-3-door-4x4-19901998-n-547b.webp",
         "chassis": "90/110/130",
         "years": "",
         "engineCode": "BMW M47D20",

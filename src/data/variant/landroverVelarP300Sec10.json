@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Velar P300 ENGINE",
     "paragraphs": [
-      "The Velar P300 uses the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine. It has been part of the Range Rover Velar range since the model's launch in 2017 and is one of the most popular petrol options in the line-up, sitting below the six-cylinder P340 and P400 models. The AJ200P is generally considered more reliable than its diesel counterparts in the Velar range, with no major widespread failure patterns recorded. Specialist consensus points to occasional cooling system issues as the main area to watch, rather than any inherent design flaw."
+      "The Velar P300 uses the Ingenium AJ200P - a 2.0-litre four-cylinder petrol engine. It has been part of the Range Rover Velar range since the model's launch in 2017 and is one of the most popular petrol options in the line-up, sitting below the six-cylinder P340 and P400 models. The AJ200P is generally considered more reliable than its diesel counterparts in the Velar range, with no major widespread failure patterns recorded. Specialist consensus points to occasional cooling system issues as the main area to watch, rather than any inherent design flaw."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ200P engines for every Velar P300 on the road."
   },
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Velar P300 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+    "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L560",
-        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+        "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
-        "years": "2017–present",
+        "years": "2017-present",
         "engineCode": "AJ200P",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj200p-engine"

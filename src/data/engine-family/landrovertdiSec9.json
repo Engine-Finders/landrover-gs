@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "Tdi",
     "titlePost": " ENGINE",
-    "body": "The Tdi is Land Rover's 2.5-litre turbocharged diesel inline-four engine, produced from 1989 to 1998. It powered the Discovery 1 across its entire production run. The engine is an interference design — if the timing belt fails, pistons collide with valves, causing significant internal damage. Because of this, we replace the timing belt and tensioner as standard during every rebuild. The Tdi uses a mechanical VE injection pump, not a common-rail system. Rebuilds start from £1,900."
+    "body": "The Tdi is Land Rover's 2.5-litre turbocharged diesel inline-four engine, produced from 1989 to 1998. It powered the Discovery 1 across its entire production run. The engine is an interference design - if the timing belt fails, pistons collide with valves, causing significant internal damage. Because of this, we replace the timing belt and tensioner as standard during every rebuild. The Tdi uses a mechanical VE injection pump, not a common-rail system. Rebuilds start from £1,900."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The Tdi was fitted exclusively to the Discovery 1 (L318) across the full 1989–1998 production run. It succeeded the earlier 200Tdi and was later replaced by the Td5.",
+    "body": "The Tdi was fitted exclusively to the Discovery 1 (L318) across the full 1989-1998 production run. It succeeded the earlier 200Tdi and was later replaced by the Td5.",
     "lineup": [
       {
         "label": "Discovery",
@@ -41,7 +41,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "1989–1998"
+        "text": "1989-1998"
       },
       {
         "icon": "engine",
@@ -61,19 +61,19 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "Tdi in the Discovery (L318, 1989–1998)",
+        "heading": "Tdi in the Discovery (L318, 1989-1998)",
         "model": "Discovery",
         "chassis": "L318",
-        "years": "1989–1998",
+        "years": "1989-1998",
         "variant": "",
-        "body": "The Tdi in the Discovery 1 is one of the applications we work on regularly — across the full production run from 1989 to 1998.",
+        "body": "The Tdi in the Discovery 1 is one of the applications we work on regularly - across the full production run from 1989 to 1998.",
         "price": "£1,900",
         "ctaLabel": "Check your Discovery Tdi",
         "generation": "Discovery 1",
         "powertrain": "Diesel",
         "href": "/landrover-discovery-tdi-engines",
         "title": "Tdi in the Discovery",
-        "subtitle": "(L318, 1989–1998)"
+        "subtitle": "(L318, 1989-1998)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

@@ -45,11 +45,11 @@
         {
           "t": "ul",
           "items": [
-            "**Engine Rebuild & Reconditioning** — Full strip-down, machining and reassembly of Land Rover engines to factory or better-than-factory tolerances, using Land Rover-specific tooling and OEM-quality parts.",
-            "**Engine Replacement & Supply & Fit** — Complete removal and replacement of engines for trade customers, with nationwide recovery available to bring vehicles to our workshop.",
-            "**Volume & Contract Work** — Tailored services for fleet operators with multiple vehicles, including ongoing maintenance programmes and priority scheduling to minimise downtime.",
-            "**B2B Reconditioning Solutions** — Specialised reconditioning of Land Rover, Range Rover and Jaguar engines for independent workshops and parts dealers.",
-            "**Defence & Government Contracts** — Contract work for UK MOD and other government organisations, including repair of Land Rover engines and associated assemblies."
+            "**Engine Rebuild & Reconditioning** - Full strip-down, machining and reassembly of Land Rover engines to factory or better-than-factory tolerances, using Land Rover-specific tooling and OEM-quality parts.",
+            "**Engine Replacement & Supply & Fit** - Complete removal and replacement of engines for trade customers, with nationwide recovery available to bring vehicles to our workshop.",
+            "**Volume & Contract Work** - Tailored services for fleet operators with multiple vehicles, including ongoing maintenance programmes and priority scheduling to minimise downtime.",
+            "**B2B Reconditioning Solutions** - Specialised reconditioning of Land Rover, Range Rover and Jaguar engines for independent workshops and parts dealers.",
+            "**Defence & Government Contracts** - Contract work for UK MOD and other government organisations, including repair of Land Rover engines and associated assemblies."
           ]
         },
         {
@@ -74,11 +74,11 @@
             "For standard Land Rover engine rebuilds, our starting prices are:",
             {
               "ul": [
-                "4-Cyl Diesel (Classic/Ingenium) — from £1,900 – £2,200",
-                "6-Cyl Diesel (TDV6/SDV6/Ingenium I6) — from £2,400 – £3,200",
-                "V8 (non-supercharged) — from £4,500",
-                "V8 Supercharged/SVR — from £5,500",
-                "V8 Twin-Turbo (Octa) — from £6,500"
+                "4-Cyl Diesel (Classic/Ingenium) - from £1,900 - £2,200",
+                "6-Cyl Diesel (TDV6/SDV6/Ingenium I6) - from £2,400 - £3,200",
+                "V8 (non-supercharged) - from £4,500",
+                "V8 Supercharged/SVR - from £5,500",
+                "V8 Twin-Turbo (Octa) - from £6,500"
               ]
             },
             "Trade customers should [request a tailored quote](/get-quote) for their specific requirements. Volume discounts and contract pricing are available for fleet operators and regular trade partners.",
@@ -129,7 +129,7 @@
               "href": "/landrover-discovery-sdv6-engines"
             }
           ],
-          "note": "Discovery 1–5 (L318, L319, L462) including Td5, TDV6, SDV6, D250, D300 and P400."
+          "note": "Discovery 1-5 (L318, L319, L462) including Td5, TDV6, SDV6, D250, D300 and P400."
         },
         {
           "t": "modelgroup",
@@ -286,13 +286,13 @@
         {
           "t": "ul",
           "items": [
-            "**Land Rover Specialists Since 2009** — We work exclusively on Land Rover and Range Rover engines. Our team has deep expertise across every model from classic Defenders to the latest L663 and L460 platforms.",
-            "**On-Site Machine Shop** — Cylinder boring, honing, crankshaft grinding and cylinder head reconditioning all performed in-house, not outsourced. This means faster turnaround and complete quality control.",
-            "**OEM-Quality Parts & Tooling** — We use genuine or OEM-quality parts throughout, with Land Rover-specific diagnostic equipment and tooling for every engine family.",
-            "**Nationwide Recovery** — Most vehicles recovered within hours of booking. We bring your vehicle to our workshop so you don't have to arrange transport separately.",
-            "**12-Month Unlimited-Mileage Warranty** — Every trade rebuild comes with a comprehensive warranty that gives your customers confidence in our work.",
-            "**BS AU257:2002 Standards** — All remanufacturing follows British Standard BS AU257:2002, with documented quality assurance processes at every stage.",
-            "**Defence & Government Contract Experience** — Our workshop has undertaken contract work for UK MOD and other government organisations, with the documentation and traceability that defence contracts require."
+            "**Land Rover Specialists Since 2009** - We work exclusively on Land Rover and Range Rover engines. Our team has deep expertise across every model from classic Defenders to the latest L663 and L460 platforms.",
+            "**On-Site Machine Shop** - Cylinder boring, honing, crankshaft grinding and cylinder head reconditioning all performed in-house, not outsourced. This means faster turnaround and complete quality control.",
+            "**OEM-Quality Parts & Tooling** - We use genuine or OEM-quality parts throughout, with Land Rover-specific diagnostic equipment and tooling for every engine family.",
+            "**Nationwide Recovery** - Most vehicles recovered within hours of booking. We bring your vehicle to our workshop so you don't have to arrange transport separately.",
+            "**12-Month Unlimited-Mileage Warranty** - Every trade rebuild comes with a comprehensive warranty that gives your customers confidence in our work.",
+            "**BS AU257:2002 Standards** - All remanufacturing follows British Standard BS AU257:2002, with documented quality assurance processes at every stage.",
+            "**Defence & Government Contract Experience** - Our workshop has undertaken contract work for UK MOD and other government organisations, with the documentation and traceability that defence contracts require."
           ]
         },
         {
@@ -364,7 +364,7 @@
     },
     {
       "kind": "faq",
-      "heading": "Frequently Asked Questions — Trade & Fleet",
+      "heading": "Frequently Asked Questions - Trade & Fleet",
       "items": [
         {
           "q": "What trade and fleet engine services do you offer?",
@@ -398,7 +398,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "Get a fixed-price quote for your Land Rover engine rebuild, replacement or reconditioning — tailored to your commercial needs."
+          "html": "Get a fixed-price quote for your Land Rover engine rebuild, replacement or reconditioning - tailored to your commercial needs."
         }
       ]
     }

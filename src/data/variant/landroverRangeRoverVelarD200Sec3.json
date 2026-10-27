@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,200",
   "engineImage": "/engines/jaguar-aj200d-engine.webp",
-  "carImage": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+  "carImage": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
   "cards": [
     {
       "code": "Ingenium AJ200D",
       "image": "/engines/jaguar-aj200d-engine.webp",
-      "carImage": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
-      "generation": "L560 (2017–present)",
+      "carImage": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+      "generation": "L560 (2017-present)",
       "price": "£2,200",
       "codeHref": "/landrover-aj200d-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,8 +31,8 @@
     "titlePre": "Land Rover Velar D200 Ingenium Diesel Timing Chain Wear ",
     "titleHighlight": "",
     "paragraphs": [
-      "If your Velar D200 is a 2017–present model with the Ingenium AJ200D 2.0-litre diesel — that's the L560 generation — timing chain tensioner wear is a well-documented pattern on this engine family, backed by established Land Rover specialist consensus. We replace worn timing chains, injector seals, EGR components and gaskets as standard on every AJ200D rebuild.",
-      "include_in_hero_hook: yes for Ingenium AJ200D — Source: shared Ingenium diesel family pattern, per VRF-landrover-velar.md. Applies to the Velar D200 specifically."
+      "If your Velar D200 is a 2017-present model with the Ingenium AJ200D 2.0-litre diesel - that's the L560 generation - timing chain tensioner wear is a well-documented pattern on this engine family, backed by established Land Rover specialist consensus. We replace worn timing chains, injector seals, EGR components and gaskets as standard on every AJ200D rebuild.",
+      "include_in_hero_hook: yes for Ingenium AJ200D - Source: shared Ingenium diesel family pattern, per VRF-landrover-velar.md. Applies to the Velar D200 specifically."
     ],
     "source": "Source: shared Ingenium diesel family pattern, per VRF-landrover-velar.md. Applies to the Velar D200 specifically"
   }

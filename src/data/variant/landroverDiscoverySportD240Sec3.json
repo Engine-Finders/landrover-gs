@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,000",
   "engineImage": "/engines/jaguar-aj200d-engine.webp",
-  "carImage": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+  "carImage": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
   "cards": [
     {
       "code": "Ingenium AJ200D",
       "image": "/engines/jaguar-aj200d-engine.webp",
-      "carImage": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
-      "generation": "L550 (2019–2020)",
+      "carImage": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+      "generation": "L550 (2019-2020)",
       "price": "£2,000",
       "codeHref": "/landrover-aj200d-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,9 +31,9 @@
     "titlePre": "Land Rover Discovery Sport D240 Ingenium Diesel Timing Chain & Oil Dilution ",
     "titleHighlight": "",
     "paragraphs": [
-      "If your Discovery Sport D240 is a 2019–2020 model with the Ingenium AJ200D diesel, timing chain tensioner wear and oil dilution from DPF regeneration are well-documented patterns on this engine family, backed by established UK specialist consensus. We replace timing chains, injector seals, EGR components and gaskets as standard on every Ingenium diesel rebuild.",
-      "One owner-forum source noted the D240 might not share the oil dilution issue affecting other diesels in the range — this is not independently corroborated and is noted for awareness only. We treat all Ingenium diesel rebuilds to the same comprehensive standard, regardless of badge."
+      "If your Discovery Sport D240 is a 2019-2020 model with the Ingenium AJ200D diesel, timing chain tensioner wear and oil dilution from DPF regeneration are well-documented patterns on this engine family, backed by established UK specialist consensus. We replace timing chains, injector seals, EGR components and gaskets as standard on every Ingenium diesel rebuild.",
+      "One owner-forum source noted the D240 might not share the oil dilution issue affecting other diesels in the range - this is not independently corroborated and is noted for awareness only. We treat all Ingenium diesel rebuilds to the same comprehensive standard, regardless of badge."
     ],
-    "source": "Source: shared Ingenium diesel family pattern, multiple forums, per VRF-landrover-discovery-sport.md. D240 oil dilution note flagged from single forum source — not confirmed, flagged for VRF awareness only"
+    "source": "Source: shared Ingenium diesel family pattern, multiple forums, per VRF-landrover-discovery-sport.md. D240 oil dilution note flagged from single forum source - not confirmed, flagged for VRF awareness only"
   }
 }

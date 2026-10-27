@@ -66,14 +66,14 @@ function fileTokens(filename) {
   return t;
 }
 
-/** [firstYear, lastYear] found in the file name, or null. "2022–" counts as still in production. */
+/** [firstYear, lastYear] found in the file name, or null. "2022-" counts as still in production. */
 function yearRange(filename) {
   const found = filename.match(/(?:19|20)\d{2}/g);
   if (!found) return null;
   const years = found.map(Number);
   const first = Math.min(...years);
   let last = Math.max(...years);
-  if (/((?:19|20)\d{2})–(?!\d)/.test(filename)) last = Math.max(last, new Date().getFullYear());
+  if (/((?:19|20)\d{2})-(?!\d)/.test(filename)) last = Math.max(last, new Date().getFullYear());
   return [first, last];
 }
 

@@ -2,7 +2,7 @@
   "gallery": {
     "titlePre": "OUR MOST RECENT",
     "titleHighlight": "LAND ROVER RECOVERIES & REBUILDS",
-    "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection — this is what genuine engine work looks like.",
+    "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection - this is what genuine engine work looks like.",
     "image": "/model/sec12.webp",
     "items": [
       {
@@ -99,7 +99,7 @@
       },
       "urgency": {
         "icon": "calendar",
-        "textPre": "Workshop slots fill up fast — ",
+        "textPre": "Workshop slots fill up fast - ",
         "textHighlight": "book your recovery today."
       }
     }

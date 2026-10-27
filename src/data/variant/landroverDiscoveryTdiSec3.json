@@ -8,13 +8,13 @@
   "cards": [
     {
       "code": "200Tdi",
-      "generation": "D1/L318 (1989–1994)",
+      "generation": "D1/L318 (1989-1994)",
       "price": "£1,900",
       "codeHref": "/landrover-200tdi-engine"
     },
     {
       "code": "300Tdi",
-      "generation": "D1/L318 (1994–1998)",
+      "generation": "D1/L318 (1994-1998)",
       "price": "£1,900",
       "codeHref": "/landrover-300tdi-engine"
     }
@@ -22,7 +22,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -36,8 +36,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Discovery Tdi has the 200Tdi or 300Tdi (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every 200Tdi or 300Tdi rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every 200Tdi or 300Tdi rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

@@ -4,12 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£6,500",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+  "carImage": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
   "cards": [
     {
       "code": "BMW S68",
-      "carImage": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
-      "generation": "L461 (2023–present)",
+      "carImage": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+      "generation": "L461 (2023-present)",
       "price": "£6,500",
       "codeHref": "/landrover-s68-engine"
     }
@@ -17,7 +17,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -30,9 +30,9 @@
     "titlePre": "Range Rover Sport SV Hot-Vee Pattern ",
     "titleHighlight": "(L461, BMW S68)",
     "paragraphs": [
-      "If your Range Rover Sport SV has the BMW S68 twin-turbo V8 — that's the L461 generation, fitted from 2023 — it shares the same hot-vee architecture as the wider BMW S63/S68 family. Like the N63 and S63 engines that came before it, the S68 can show timing chain and valve seal wear, coolant system leaks, and bearing wear over time. We replace timing chains, valve seals, coolant components, and bearings as standard on every S68 rebuild.",
-      "include_in_hero_hook: yes — Source: S68/S63 hot-vee pattern inherited from Range Rover finding, via platform-sharing inference between L460 and L461 (MLA-Flex platform). Not independently re-verified for Sport specifically this session, but reasonably inferred — per VRF-Range-Rover-Sport.md."
+      "If your Range Rover Sport SV has the BMW S68 twin-turbo V8 - that's the L461 generation, fitted from 2023 - it shares the same hot-vee architecture as the wider BMW S63/S68 family. Like the N63 and S63 engines that came before it, the S68 can show timing chain and valve seal wear, coolant system leaks, and bearing wear over time. We replace timing chains, valve seals, coolant components, and bearings as standard on every S68 rebuild.",
+      "include_in_hero_hook: yes - Source: S68/S63 hot-vee pattern inherited from Range Rover finding, via platform-sharing inference between L460 and L461 (MLA-Flex platform). Not independently re-verified for Sport specifically this session, but reasonably inferred - per VRF-Range-Rover-Sport.md."
     ],
-    "source": "Source: S68/S63 hot-vee pattern inherited from Range Rover finding, via platform-sharing inference between L460 and L461 (MLA-Flex platform). Not independently re-verified for Sport specifically this session, but reasonably inferred — per VRF-Range-Rover-Sport.md"
+    "source": "Source: S68/S63 hot-vee pattern inherited from Range Rover finding, via platform-sharing inference between L460 and L461 (MLA-Flex platform). Not independently re-verified for Sport specifically this session, but reasonably inferred - per VRF-Range-Rover-Sport.md"
   }
 }

@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Freelander SD4 ENGINE",
     "paragraphs": [
-      "The Freelander SD4 was introduced in 2011 as a higher-output diesel variant within the L359 generation, sitting above the eD4 and TD4. It uses the Ford Duratorq 2.2-litre four-cylinder diesel — a widely used unit across Ford and Land Rover models of that era. The SD4's higher output shares the same underlying Duratorq pattern as the lower-powered eD4, with the same known wear points: injector failure and DPF clogging are the most consistently reported issues."
+      "The Freelander SD4 was introduced in 2011 as a higher-output diesel variant within the L359 generation, sitting above the eD4 and TD4. It uses the Ford Duratorq 2.2-litre four-cylinder diesel - a widely used unit across Ford and Land Rover models of that era. The SD4's higher output shares the same underlying Duratorq pattern as the lower-powered eD4, with the same known wear points: injector failure and DPF clogging are the most consistently reported issues."
     ],
     "boldParagraph": "We continue to rebuild and replace Ford Duratorq engines for every Freelander SD4 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "Ford Duratorq",
         "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
         "codeRest": "",
-        "body": "The Freelander SD4 was introduced in 2011 as a higher-output diesel variant within the L359 generation, sitting above the eD4 and TD4. It uses the Ford Duratorq 2.2-litre four-cylinder diesel — a widely used unit across Ford and Land Rover models of that era. The SD4's higher output shares the same underlying Duratorq pattern as the lower-powered eD4, with the same known wear points: injector failure and DPF clogging are the most consistently reported issues.",
+        "body": "The Freelander SD4 was introduced in 2011 as a higher-output diesel variant within the L359 generation, sitting above the eD4 and TD4. It uses the Ford Duratorq 2.2-litre four-cylinder diesel - a widely used unit across Ford and Land Rover models of that era. The SD4's higher output shares the same underlying Duratorq pattern as the lower-powered eD4, with the same known wear points: injector failure and DPF clogging are the most consistently reported issues.",
         "cta": "Check Your Ford Duratorq Freelander SD4",
         "codeHref": "/landrover-ford-duratorq-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Freelander SD4 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-freelander-l359-hse-luxury-compact-suv-20102012-n-5069.webp",
+    "image": "/cars/card/land-rover-freelander-l359-hse-luxury-compact-suv-20102012-n-5069.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L359",
-        "image": "/cars/land-rover-freelander-l359-hse-luxury-compact-suv-20102012-n-5069.webp",
+        "image": "/cars/card/land-rover-freelander-l359-hse-luxury-compact-suv-20102012-n-5069.webp",
         "chassis": "L359",
-        "years": "2011–2014",
+        "years": "2011-2014",
         "engineCode": "Ford Duratorq",
         "fuel": "Diesel",
         "codeHref": "/landrover-ford-duratorq-engine"

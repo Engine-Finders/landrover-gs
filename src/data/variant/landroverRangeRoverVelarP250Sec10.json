@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover Velar P250 ENGINE",
     "paragraphs": [
-      "The Velar P250 uses the Ingenium AJ200P — a 2.0-litre turbocharged four-cylinder petrol engine. It was introduced with the Velar's L560 generation in 2017 and remains in production. The AJ200P is a member of Jaguar Land Rover's Ingenium family, a modular engine architecture designed for flexibility across both petrol and diesel applications. In the Velar range, the P250 sits as the entry-level petrol option, offering a balance of performance and efficiency within a lighter engine package than the larger six-cylinder units higher up the range."
+      "The Velar P250 uses the Ingenium AJ200P - a 2.0-litre turbocharged four-cylinder petrol engine. It was introduced with the Velar's L560 generation in 2017 and remains in production. The AJ200P is a member of Jaguar Land Rover's Ingenium family, a modular engine architecture designed for flexibility across both petrol and diesel applications. In the Velar range, the P250 sits as the entry-level petrol option, offering a balance of performance and efficiency within a lighter engine package than the larger six-cylinder units higher up the range."
     ],
     "boldParagraph": "We continue to rebuild and replace Ingenium AJ200P engines for every Range Rover Velar P250 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "Ingenium AJ200P",
         "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
         "codeRest": "",
-        "body": "The Velar P250 uses the Ingenium AJ200P — a 2.0-litre turbocharged four-cylinder petrol engine. It was introduced with the Velar's L560 generation in 2017 and remains in production. The AJ200P is a member of Jaguar Land Rover's Ingenium family, a modular engine architecture designed for flexibility across both petrol and diesel applications. In the Velar range, the P250 sits as the entry-level petrol option, offering a balance of performance and efficiency within a lighter engine package than the larger six-cylinder units higher up the range.",
+        "body": "The Velar P250 uses the Ingenium AJ200P - a 2.0-litre turbocharged four-cylinder petrol engine. It was introduced with the Velar's L560 generation in 2017 and remains in production. The AJ200P is a member of Jaguar Land Rover's Ingenium family, a modular engine architecture designed for flexibility across both petrol and diesel applications. In the Velar range, the P250 sits as the entry-level petrol option, offering a balance of performance and efficiency within a lighter engine package than the larger six-cylinder units higher up the range.",
         "cta": "Check Your Ingenium AJ200P Range Rover Velar P250",
         "codeHref": "/landrover-aj200p-engine"
       }
@@ -27,7 +27,7 @@
   "compatibility": {
     "titlePre": "Land Rover Range Rover Velar P250 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "The Velar P250 uses a single engine family across its entire production run — the Ingenium AJ200P. However, as with any modern engine, there can be running changes, ECU calibration variations, and ancillary differences between early and later builds. Before we quote or supply anything, we confirm:",
+    "intro": "The Velar P250 uses a single engine family across its entire production run - the Ingenium AJ200P. However, as with any modern engine, there can be running changes, ECU calibration variations, and ancillary differences between early and later builds. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Velar P250 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+    "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L560",
-        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+        "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
-        "years": "2017–present",
+        "years": "2017-present",
         "engineCode": "Ingenium AJ200P",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj200p-engine"

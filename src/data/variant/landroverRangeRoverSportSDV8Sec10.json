@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover Sport SDV8 ENGINE",
     "paragraphs": [
-      "The Range Rover Sport SDV8 has been a performance-oriented diesel option since the model's introduction in 2005. Across both the L320 (2005–2013) and L494 (2013–2022) generations, it has used the 4.4-litre V8 diesel, badged as either TDV8 or SDV8 depending on the model year and power output. It shares its fundamental architecture with the TDV6/SDV6 engines, meaning it exhibits a similar wear pattern over time. The Range Rover Sport SDV8 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Range Rover Sport SDV8 has been a performance-oriented diesel option since the model's introduction in 2005. Across both the L320 (2005-2013) and L494 (2013-2022) generations, it has used the 4.4-litre V8 diesel, badged as either TDV8 or SDV8 depending on the model year and power output. It shares its fundamental architecture with the TDV6/SDV6 engines, meaning it exhibits a similar wear pattern over time. The Range Rover Sport SDV8 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace TDV8 / SDV8 engines for every Range Rover Sport SDV8 on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "TDV8 / SDV8",
         "codeRest": "",
-        "body": "The Range Rover Sport SDV8 has been a performance-oriented diesel option since the model's introduction in 2005. Across both the L320 (2005–2013) and L494 (2013–2022) generations, it has used the 4.4-litre V8 diesel, badged as either TDV8 or SDV8 depending on the model year and power output. It shares its fundamental architecture with the TDV6/SDV6 engines, meaning it exhibits a similar wear pattern over time. The Range Rover Sport SDV8 is no longer in production, but we continue to rebuild and replace engines for every one still on the road.",
+        "body": "The Range Rover Sport SDV8 has been a performance-oriented diesel option since the model's introduction in 2005. Across both the L320 (2005-2013) and L494 (2013-2022) generations, it has used the 4.4-litre V8 diesel, badged as either TDV8 or SDV8 depending on the model year and power output. It shares its fundamental architecture with the TDV6/SDV6 engines, meaning it exhibits a similar wear pattern over time. The Range Rover Sport SDV8 is no longer in production, but we continue to rebuild and replace engines for every one still on the road.",
         "cta": "Check Your TDV8 / SDV8 Range Rover Sport SDV8",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       }
@@ -26,7 +26,7 @@
   "compatibility": {
     "titlePre": "Land Rover Range Rover Sport SDV8 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the SDV8 engine was fitted across two different generations of the Range Rover Sport (L320 and L494), there are differences in ancillary components, electronics, and ECU calibrations. Fitting the wrong replacement — or assuming parts from one generation work on another — risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
+    "intro": "Because the SDV8 engine was fitted across two different generations of the Range Rover Sport (L320 and L494), there are differences in ancillary components, electronics, and ECU calibrations. Fitting the wrong replacement - or assuming parts from one generation work on another - risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Sport SDV8 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+    "image": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,18 +68,18 @@
     "rows": [
       {
         "generation": "L320",
-        "image": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
+        "image": "/cars/card/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
         "chassis": "L320",
-        "years": "2005–2013",
+        "years": "2005-2013",
         "engineCode": "TDV8 / SDV8",
         "fuel": "Diesel",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       },
       {
         "generation": "L494",
-        "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+        "image": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
         "chassis": "L494",
-        "years": "2013–2022",
+        "years": "2013-2022",
         "engineCode": "TDV8 / SDV8",
         "fuel": "Diesel",
         "codeHref": "/landrover-tdv8-sdv8-engine"

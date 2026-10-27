@@ -4,29 +4,29 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,200",
   "engineImage": "/engines/jaguar-aj200d-engine.webp",
-  "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+  "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
   "cards": [
     {
       "code": "AJ200D (D200)",
       "image": "/engines/jaguar-aj200d-engine.webp",
-      "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
-      "generation": "L663 (2019–present)",
+      "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+      "generation": "L663 (2019-present)",
       "price": "£2,200",
       "codeHref": "/landrover-aj200d-engine"
     },
     {
       "code": "AJ200D (D240)",
       "image": "/engines/jaguar-aj200d-engine.webp",
-      "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
-      "generation": "L663 (2019–2020)",
+      "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+      "generation": "L663 (2019-2020)",
       "price": "£2,200",
       "codeHref": "/landrover-aj200d-engine"
     },
     {
       "code": "AJ200P (P300)",
       "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
-      "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
-      "generation": "L663 (2019–present)",
+      "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+      "generation": "L663 (2019-present)",
       "price": "£2,200",
       "codeHref": "/landrover-aj200p-engine"
     }
@@ -34,7 +34,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {

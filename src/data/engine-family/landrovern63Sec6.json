@@ -73,7 +73,7 @@
       },
       {
         "icon": "shield",
-        "title": "Genuine specialist workshop — not a broker",
+        "title": "Genuine specialist workshop - not a broker",
         "subtext": "We rebuild engines in-house"
       },
       {
@@ -104,7 +104,7 @@
     ],
     "notice": {
       "icon": "shield-check",
-      "line1": "No widely-reported pattern is confirmed for the N63 —",
+      "line1": "No widely-reported pattern is confirmed for the N63 -",
       "line2": "we still recommend a full inspection before any long journey.",
       "image": "/model/sec15_part.webp"
     },

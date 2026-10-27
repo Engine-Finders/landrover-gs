@@ -2,79 +2,79 @@
   "badge": "10",
   "headlinePre": "Most Popular",
   "headlineHighlight": "Land Rover Discovery Sport Rebuilds",
-  "subhead": "Full variant list below covers every Land Rover Discovery Sport engine we work on — these 10 are simply our most requested.",
-  "image": "/cars/land-rover-discovery-sport-l550-lci-dynamic-hse-compact-suv-f91c.webp",
+  "subhead": "Full variant list below covers every Land Rover Discovery Sport engine we work on - these 10 are simply our most requested.",
+  "image": "/cars/card/land-rover-discovery-sport-l550-lci-dynamic-hse-compact-suv-f91c.webp",
   "viewMoreLabel": "View More",
-  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like.",
+  "footerNote": "Real photos from our workshop - not stock imagery. This is what a genuine rebuild looks like.",
   "cards": [
     {
       "number": "01",
       "model": "Discovery Sport eD4",
       "spec": "2.2L I4 Diesel (Ford Duratorq)",
-      "image": "/cars/land-rover-discovery-sport-l550-hse-compact-suv-20152019-new-3d45.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-hse-compact-suv-20152019-new-3d45.webp",
       "href": "/landrover-discovery-sport-ed4-engines"
     },
     {
       "number": "02",
       "model": "Discovery Sport TD4",
       "spec": "2.0L I4 Diesel (Ingenium AJ200D)",
-      "image": "/cars/land-rover-discovery-sport-l550-hse-dynamic-compact-suv-2015-8030.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-hse-dynamic-compact-suv-2015-8030.webp",
       "href": "/landrover-discovery-sport-td4-engines"
     },
     {
       "number": "03",
       "model": "Discovery Sport Si4",
       "spec": "2.0L I4 Petrol (Ford EcoBoost)",
-      "image": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
       "href": "/landrover-discovery-sport-si4-engines"
     },
     {
       "number": "04",
       "model": "Discovery Sport P200",
       "spec": "2.0L I4 Petrol (Ingenium AJ200P)",
-      "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
       "href": "/landrover-discovery-sport-p200-engines"
     },
     {
       "number": "05",
       "model": "Discovery Sport P250",
       "spec": "2.0L I4 Petrol (Ingenium AJ200P)",
-      "image": "/cars/land-rover-discovery-sport-l550-lci-r-dynamic-black-compact-e352.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-lci-r-dynamic-black-compact-e352.webp",
       "href": "/landrover-discovery-sport-p250-engines"
     },
     {
       "number": "06",
       "model": "Discovery Sport P300",
       "spec": "2.0L I4 Petrol (Ingenium AJ200P)",
-      "image": "/cars/land-rover-discovery-sport-l550-hse-luxury-compact-suv-2019-1e02.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-hse-luxury-compact-suv-2019-1e02.webp",
       "href": "/landrover-discovery-sport-p300e-engines"
     },
     {
       "number": "07",
       "model": "Discovery Sport P300e",
       "spec": "1.5L I3 Petrol PHEV (Ingenium)",
-      "image": "/cars/land-rover-discovery-sport-l550-lci-se-compact-suv-20192021-3487.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-lci-se-compact-suv-20192021-3487.webp",
       "href": "/landrover-discovery-sport-p300e-engines"
     },
     {
       "number": "08",
       "model": "Discovery Sport D150",
       "spec": "2.0L I4 Diesel (AJ150D)",
-      "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
       "href": "/landrover-discovery-sport-d150-engines"
     },
     {
       "number": "09",
       "model": "Discovery Sport D165",
       "spec": "2.0L I4 Diesel (AJ200D)",
-      "image": "/cars/land-rover-discovery-sport-l550-lci-se-compact-suv-20192021-3487.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-lci-se-compact-suv-20192021-3487.webp",
       "href": "/landrover-discovery-sport-d165-engines"
     },
     {
       "number": "10",
       "model": "Discovery Sport D180",
       "spec": "2.0L I4 Diesel (AJ200D)",
-      "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+      "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
       "href": "/landrover-discovery-sport-d180-engines"
     }
   ],

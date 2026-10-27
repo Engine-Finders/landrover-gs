@@ -11,7 +11,7 @@
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The AJ150D is one of the more focused applications we work on — the same base engine across two model lines (Discovery Sport and Range Rover Evoque), both carrying the D150 badge."
+      "body": "The AJ150D is one of the more focused applications we work on - the same base engine across two model lines (Discovery Sport and Range Rover Evoque), both carrying the D150 badge."
     },
     {
       "icon": "wrench",
@@ -26,13 +26,13 @@
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed AJ150D rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed AJ150D rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER AJ150D REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "The AJ150D is a 1.5-litre three-cylinder diesel, part of the Ingenium family. As with other Ingenium diesel engines, the timing chain system is a known wear point that we inspect thoroughly on every rebuild. The three-cylinder configuration means certain components are specific to this engine variant — including the balance shaft arrangement, which we check carefully during strip-down. Full engine replacements for the AJ150D require DME software matching to ensure the engine control unit is correctly configured for the specific application.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "body": "The AJ150D is a 1.5-litre three-cylinder diesel, part of the Ingenium family. As with other Ingenium diesel engines, the timing chain system is a known wear point that we inspect thoroughly on every rebuild. The three-cylinder configuration means certain components are specific to this engine variant - including the balance shaft arrangement, which we check carefully during strip-down. Full engine replacements for the AJ150D require DME software matching to ensure the engine control unit is correctly configured for the specific application.",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing chain assembly, bearings, gaskets, balance shaft inspection"

@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover SV P615 ENGINE",
     "paragraphs": [
-      "The Range Rover SV (P615) is the performance flagship of the current L460-generation Range Rover range. It uses the BMW S68 twin-turbo V8 — a 4.4-litre unit that sits at the top of the BMW performance engine family. This is the same engine family as the Defender Octa, and shares its hot-vee architecture with the S63 found in the BMW M5, M8, X5M, and X6M. The SV (P615) badge designates the highest performance tier of the current Range Rover V8 range, replacing the previous-generation SVR positioning."
+      "The Range Rover SV (P615) is the performance flagship of the current L460-generation Range Rover range. It uses the BMW S68 twin-turbo V8 - a 4.4-litre unit that sits at the top of the BMW performance engine family. This is the same engine family as the Defender Octa, and shares its hot-vee architecture with the S63 found in the BMW M5, M8, X5M, and X6M. The SV (P615) badge designates the highest performance tier of the current Range Rover V8 range, replacing the previous-generation SVR positioning."
     ],
     "boldParagraph": "We continue to rebuild and replace BMW S68 engines for every Range Rover SV P615 on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "BMW S68",
         "codeRest": "",
-        "body": "The Range Rover SV (P615) is the performance flagship of the current L460-generation Range Rover range. It uses the BMW S68 twin-turbo V8 — a 4.4-litre unit that sits at the top of the BMW performance engine family. This is the same engine family as the Defender Octa, and shares its hot-vee architecture with the S63 found in the BMW M5, M8, X5M, and X6M. The SV (P615) badge designates the highest performance tier of the current Range Rover V8 range, replacing the previous-generation SVR positioning.",
+        "body": "The Range Rover SV (P615) is the performance flagship of the current L460-generation Range Rover range. It uses the BMW S68 twin-turbo V8 - a 4.4-litre unit that sits at the top of the BMW performance engine family. This is the same engine family as the Defender Octa, and shares its hot-vee architecture with the S63 found in the BMW M5, M8, X5M, and X6M. The SV (P615) badge designates the highest performance tier of the current Range Rover V8 range, replacing the previous-generation SVR positioning.",
         "cta": "Check Your BMW S68 Range Rover SV P615",
         "codeHref": "/landrover-s68-engine"
       }
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover SV P615 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+    "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,9 +68,9 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+        "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L663",
-        "years": "2020–present",
+        "years": "2020-present",
         "engineCode": "BMW S68",
         "fuel": "Diesel MHEV",
         "codeHref": "/landrover-s68-engine"

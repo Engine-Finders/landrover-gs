@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery TDV8 ENGINE",
     "paragraphs": [
-      "The Discovery TDV8 uses the 4.4-litre V8 diesel engine, fitted across the D3 and D4 generations from 2004 to 2016. It shares its fundamental architecture with the TDV6/SDV6 family, with the same timing chain, injector seal, and EGR components — just in a V8 configuration with four extra cylinders. The TDV8 was positioned as the range-topping diesel option during this era, offering more power and torque than its V6 stablemates. If you have a Discovery with the TDV8 badge, the engine's known wear patterns are well understood at this point — and we know exactly what to address during a rebuild."
+      "The Discovery TDV8 uses the 4.4-litre V8 diesel engine, fitted across the D3 and D4 generations from 2004 to 2016. It shares its fundamental architecture with the TDV6/SDV6 family, with the same timing chain, injector seal, and EGR components - just in a V8 configuration with four extra cylinders. The TDV8 was positioned as the range-topping diesel option during this era, offering more power and torque than its V6 stablemates. If you have a Discovery with the TDV8 badge, the engine's known wear patterns are well understood at this point - and we know exactly what to address during a rebuild."
     ],
     "boldParagraph": "We continue to rebuild and replace TDV8 engines for every Discovery TDV8 on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "TDV8",
         "codeRest": "",
-        "body": "The Discovery TDV8 uses the 4.4-litre V8 diesel engine, fitted across the D3 and D4 generations from 2004 to 2016. It shares its fundamental architecture with the TDV6/SDV6 family, with the same timing chain, injector seal, and EGR components — just in a V8 configuration with four extra cylinders. The TDV8 was positioned as the range-topping diesel option during this era, offering more power and torque than its V6 stablemates. If you have a Discovery with the TDV8 badge, the engine's known wear patterns are well understood at this point — and we know exactly what to address during a rebuild.",
+        "body": "The Discovery TDV8 uses the 4.4-litre V8 diesel engine, fitted across the D3 and D4 generations from 2004 to 2016. It shares its fundamental architecture with the TDV6/SDV6 family, with the same timing chain, injector seal, and EGR components - just in a V8 configuration with four extra cylinders. The TDV8 was positioned as the range-topping diesel option during this era, offering more power and torque than its V6 stablemates. If you have a Discovery with the TDV8 badge, the engine's known wear patterns are well understood at this point - and we know exactly what to address during a rebuild.",
         "cta": "Check Your TDV8 Discovery TDV8",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       }
@@ -26,7 +26,7 @@
   "compatibility": {
     "titlePre": "Land Rover Discovery TDV8 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the Discovery TDV8 spans two generations (D3 and D4) with running changes between them, fitting the wrong replacement — or assuming parts are interchangeable across all years — risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm: - Your exact year and generation (D3/L319 or D4/L319 facelift) - Drivetrain and ancillary specification - Any electronics or ECU considerations specific to your exact build",
+    "intro": "Because the Discovery TDV8 spans two generations (D3 and D4) with running changes between them, fitting the wrong replacement - or assuming parts are interchangeable across all years - risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm: - Your exact year and generation (D3/L319 or D4/L319 facelift) - Drivetrain and ancillary specification - Any electronics or ECU considerations specific to your exact build",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery TDV8 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+    "image": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,18 +68,18 @@
     "rows": [
       {
         "generation": "D3",
-        "image": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
+        "image": "/cars/card/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
         "chassis": "L319",
-        "years": "2004–2009",
+        "years": "2004-2009",
         "engineCode": "TDV8",
         "fuel": "Diesel",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       },
       {
         "generation": "D4",
-        "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+        "image": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
         "chassis": "L319 facelift",
-        "years": "2009–2016",
+        "years": "2009-2016",
         "engineCode": "TDV8",
         "fuel": "Diesel",
         "codeHref": "/landrover-tdv8-sdv8-engine"

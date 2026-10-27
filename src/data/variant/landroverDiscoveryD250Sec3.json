@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,800",
   "engineImage": "/engines/jaguar-aj200d-engine.webp",
-  "carImage": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+  "carImage": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
   "cards": [
     {
       "code": "AJ200D (Ingenium)",
       "image": "/engines/jaguar-aj200d-engine.webp",
-      "carImage": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
-      "generation": "D5/L462 (2017–present)",
+      "carImage": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+      "generation": "D5/L462 (2017-present)",
       "price": "£2,800",
       "codeHref": "/landrover-aj200d-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,9 +31,9 @@
     "titlePre": "Land Rover Discovery D250 Timing Chain Wear ",
     "titleHighlight": "(Ingenium Diesel)",
     "paragraphs": [
-      "Discovery D250 engines with the Ingenium AJ200D 2.0-litre diesel — fitted across the D5/L462 generation — share the same timing chain pattern as other JLR Ingenium diesel models. We replace timing chain components, tensioners, injector seals and gaskets as standard on every AJ200D rebuild.",
-      "Note: given the Defender VRF's DC-DC converter finding on Ingenium MHEV variants, Discovery D5's mild-hybrid diesels likely carry the same risk — this has NOT been independently confirmed for Discovery specifically and should not be stated as fact until checked."
+      "Discovery D250 engines with the Ingenium AJ200D 2.0-litre diesel - fitted across the D5/L462 generation - share the same timing chain pattern as other JLR Ingenium diesel models. We replace timing chain components, tensioners, injector seals and gaskets as standard on every AJ200D rebuild.",
+      "Note: given the Defender VRF's DC-DC converter finding on Ingenium MHEV variants, Discovery D5's mild-hybrid diesels likely carry the same risk - this has NOT been independently confirmed for Discovery specifically and should not be stated as fact until checked."
     ],
-    "source": "Source: established specialist pattern, per G-BRF Land Rover Section 5. DC-DC converter caveat noted per VRF Section 2 — pending confirmation for Discovery specifically"
+    "source": "Source: established specialist pattern, per G-BRF Land Rover Section 5. DC-DC converter caveat noted per VRF Section 2 - pending confirmation for Discovery specifically"
   }
 }

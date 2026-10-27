@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£3,200",
   "engineImage": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
-  "carImage": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+  "carImage": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
   "cards": [
     {
       "code": "AJ300 PHEV",
       "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
-      "carImage": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
-      "generation": "L461 (2022–present)",
+      "carImage": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+      "generation": "L461 (2022-present)",
       "price": "£3,200",
       "codeHref": "/landrover-aj300p-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -32,8 +32,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Range Rover Sport P460e has the AJ300 PHEV (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ300 PHEV rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ300 PHEV rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

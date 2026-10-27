@@ -25,7 +25,7 @@
   "compatibility": {
     "titlePre": "Land Rover Freelander 2.5 V6 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "We confirm your exact engine specification, generation (L314), and ancillary configuration before we quote or supply anything. This is why we always start with your registration rather than a generic Freelander quote — it protects you from paying for parts that don't fit your actual car.",
+    "intro": "We confirm your exact engine specification, generation (L314), and ancillary configuration before we quote or supply anything. This is why we always start with your registration rather than a generic Freelander quote - it protects you from paying for parts that don't fit your actual car.",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -51,12 +51,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Freelander 2.5 V6 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+    "image": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -67,9 +67,9 @@
     "rows": [
       {
         "generation": "Freelander 1",
-        "image": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+        "image": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
         "chassis": "L314",
-        "years": "1997–2006",
+        "years": "1997-2006",
         "engineCode": "[MISSING: exact engine code not specified in G-BRF]",
         "fuel": "Petrol"
       }

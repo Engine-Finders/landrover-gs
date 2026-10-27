@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover Ford Duratorq Applications — ",
+  "titlePre": "Land Rover Ford Duratorq Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "2.2 TDCi",
       "generation": "L663 (Puma)",
       "chassis": "L663",
-      "years": "2012–2016",
+      "years": "2012-2016",
       "powertrain": "Diesel",
       "modelHref": "/defender-engines"
     },
@@ -37,7 +37,7 @@
       "variant": "TD4, SD4",
       "generation": "L550",
       "chassis": "L550",
-      "years": "2014–2016",
+      "years": "2014-2016",
       "powertrain": "Diesel",
       "modelHref": "/discovery-sport-engines"
     },
@@ -46,7 +46,7 @@
       "variant": "TD4, SD4",
       "generation": "L359",
       "chassis": "L359",
-      "years": "2011–2014",
+      "years": "2011-2014",
       "powertrain": "Diesel",
       "modelHref": "/freelander-engines"
     },
@@ -55,7 +55,7 @@
       "variant": "TD4, SD4",
       "generation": "L538",
       "chassis": "L538",
-      "years": "2011–2016",
+      "years": "2011-2016",
       "powertrain": "Diesel",
       "modelHref": "/range-rover-evoque-engines"
     }

@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover AJ133 Applications — ",
+  "titlePre": "Land Rover AJ133 Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "P525 (V8)",
       "generation": "L663",
       "chassis": "L663",
-      "years": "2020–present",
+      "years": "2020-present",
       "powertrain": "Supercharged V8",
       "modelHref": "/defender-engines"
     },
@@ -37,7 +37,7 @@
       "variant": "SVAutobiography",
       "generation": "L560",
       "chassis": "L560",
-      "years": "2019–2021",
+      "years": "2019-2021",
       "powertrain": "Supercharged V8",
       "modelHref": "/range-rover-velar-engines"
     }

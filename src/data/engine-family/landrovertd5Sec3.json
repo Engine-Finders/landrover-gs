@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover Td5 Applications — ",
+  "titlePre": "Land Rover Td5 Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "Td5",
       "generation": "Defender",
       "chassis": "L316",
-      "years": "1999–2006",
+      "years": "1999-2006",
       "powertrain": "Diesel",
       "modelHref": "/defender-engines"
     },
@@ -37,7 +37,7 @@
       "variant": "Td5",
       "generation": "Discovery 2",
       "chassis": "L318",
-      "years": "1998–2004",
+      "years": "1998-2004",
       "powertrain": "Diesel",
       "modelHref": "/discovery-engines"
     }

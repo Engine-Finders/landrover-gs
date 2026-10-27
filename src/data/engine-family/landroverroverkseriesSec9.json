@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "Rover K-Series",
     "titlePost": " ENGINE",
-    "body": "The K-Series is Rover's 1.8-litre inline-four petrol engine, used by Land Rover exclusively in the Freelander 1 (L314) from 1997 to 2006. It was one of the few petrol options in the early Freelander range and has a long production history across multiple Rover and MG applications. The 1.8 K-Series has an inherent design fault — it is notoriously prone to head gasket failure, driven by cooling system faults and overheating. Small coolant leaks can lead to overheating and head gasket failure, and engines don't just blow head gaskets — they can drop liners, requiring a new engine."
+    "body": "The K-Series is Rover's 1.8-litre inline-four petrol engine, used by Land Rover exclusively in the Freelander 1 (L314) from 1997 to 2006. It was one of the few petrol options in the early Freelander range and has a long production history across multiple Rover and MG applications. The 1.8 K-Series has an inherent design fault - it is notoriously prone to head gasket failure, driven by cooling system faults and overheating. Small coolant leaks can lead to overheating and head gasket failure, and engines don't just blow head gaskets - they can drop liners, requiring a new engine."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The Freelander 1 (L314, 1997–2006) is the only Land Rover model to use the K-Series engine. It was offered as the 1.8-litre petrol option throughout the Freelander 1's production run.",
+    "body": "The Freelander 1 (L314, 1997-2006) is the only Land Rover model to use the K-Series engine. It was offered as the 1.8-litre petrol option throughout the Freelander 1's production run.",
     "lineup": [
       {
         "label": "Freelander",
@@ -30,7 +30,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the K-Series spans multiple capacities and specifications across different applications, compatibility comes down to confirming your exact model, generation, and engine spec, which we do by registration. Registration/VIN matching is required — K-Series variants differ by capacity and specification.",
+    "body": "Because the K-Series spans multiple capacities and specifications across different applications, compatibility comes down to confirming your exact model, generation, and engine spec, which we do by registration. Registration/VIN matching is required - K-Series variants differ by capacity and specification.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -41,7 +41,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "1997–2006"
+        "text": "1997-2006"
       },
       {
         "icon": "engine",
@@ -61,10 +61,10 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "K-Series in the Freelander (L314, 1997–2006)",
+        "heading": "K-Series in the Freelander (L314, 1997-2006)",
         "model": "Freelander",
         "chassis": "L314",
-        "years": "1997–2006",
+        "years": "1997-2006",
         "variant": "",
         "body": "The K-Series in the Freelander is one of the applications we work on regularly. It's the engine we see most often in the Freelander 1 range.",
         "price": "£2,200",
@@ -73,7 +73,7 @@
         "powertrain": "Petrol",
         "href": "/freelander-engines",
         "title": "Rover K-Series in the Freelander",
-        "subtitle": "(L314, 1997–2006)"
+        "subtitle": "(L314, 1997-2006)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

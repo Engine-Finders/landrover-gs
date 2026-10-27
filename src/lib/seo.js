@@ -4,7 +4,7 @@ export function clipDescription(text = "", max = 160) {
   if (t.length <= max) return t;
   const cut = t.slice(0, max - 1);
   const sp = cut.lastIndexOf(" ");
-  return cut.slice(0, sp > 100 ? sp : max - 1).replace(/[\s,;:–—-]+$/, "") + "…";
+  return cut.slice(0, sp > 100 ? sp : max - 1).replace(/[\s,;:---]+$/, "") + "…";
 }
 
 const BRAND = "Land Rover Garage";

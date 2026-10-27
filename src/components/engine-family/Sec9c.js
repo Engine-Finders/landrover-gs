@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 export default function Sec9c({ data }) {
   return (
@@ -61,20 +62,20 @@ export default function Sec9c({ data }) {
               <p className="text-[10px] text-[#4a5568]">{data.prompt.subtext}</p>
             </div>
           </div>
-          <a
+          <QuoteLink
             href={data.prompt.href}
             className="mt-3 flex items-center justify-center gap-2 rounded-md bg-hero-blue px-4 py-2.5 text-xs font-bold uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
           >
             {data.prompt.buttonLabel}
-          </a>
+          </QuoteLink>
         </div>
       </div>
 
-      {/* ===== desktop — full-bleed engine + plate photo behind everything ===== */}
+      {/* ===== desktop - full-bleed engine + plate photo behind everything ===== */}
       <div className="relative hidden overflow-hidden md:block">
         <div className="absolute inset-0">
           <Image src={data.image} alt="Land Rover engine variants" fill className="object-cover" style={{ objectPosition: "78% center" }} sizes="100vw" />
-          {/* solid block — flat-matches the section's #f7f4ee, not a fade, so there's no visible seam */}
+          {/* solid block - flat-matches the section's #f7f4ee, not a fade, so there's no visible seam */}
           <div className="absolute inset-y-0 left-0 w-[56%]" style={{ background: "var(--theme-light-bg)" }} aria-hidden="true" />
           <div
             className="absolute inset-y-0 left-[56%] w-[16%]"
@@ -127,12 +128,12 @@ export default function Sec9c({ data }) {
                 <p className="text-xs text-[#4a5568]">{data.prompt.subtext}</p>
               </div>
             </div>
-            <a
+            <QuoteLink
               href={data.prompt.href}
               className="flex shrink-0 items-center gap-2 whitespace-nowrap rounded-md bg-hero-blue px-5 py-2.5 text-sm font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
             >
               {data.prompt.buttonLabel}
-            </a>
+            </QuoteLink>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "Ford EcoBoost",
     "titlePost": " ENGINE",
-    "body": "The Ford EcoBoost 2.0 — also known as the Ford GTDI — is a turbocharged 2.0-litre inline-four petrol engine. It was used by Land Rover as an alternative to the Ingenium petrol engine in earlier models, spanning three model lines: the Range Rover Evoque (L538, 2013–2019), Freelander (L359, 2013–2014), and Discovery Sport (L550, 2015–2019)."
+    "body": "The Ford EcoBoost 2.0 - also known as the Ford GTDI - is a turbocharged 2.0-litre inline-four petrol engine. It was used by Land Rover as an alternative to the Ingenium petrol engine in earlier models, spanning three model lines: the Range Rover Evoque (L538, 2013-2019), Freelander (L359, 2013-2014), and Discovery Sport (L550, 2015-2019)."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "Across the Discovery Sport (L550, 2015–2019), the EcoBoost powered the Si4 variant. In the Freelander (L359, 2013–2014), the same Si4 badge covered the engine's short run in the model's final years. The Range Rover Evoque (L538, 2013–2019) used it throughout the first-generation model's lifecycle.",
+    "body": "Across the Discovery Sport (L550, 2015-2019), the EcoBoost powered the Si4 variant. In the Freelander (L359, 2013-2014), the same Si4 badge covered the engine's short run in the model's final years. The Range Rover Evoque (L538, 2013-2019) used it throughout the first-generation model's lifecycle.",
     "lineup": [
       {
         "label": "Discovery Sport",
@@ -38,7 +38,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the EcoBoost spans three different Land Rover models over varying production years — each with its own vehicle-specific ancillaries and mounting — compatibility comes down to confirming your exact model and generation, which we do by registration. An EcoBoost from an Evoque isn't necessarily a drop-in match for one from a Discovery Sport, even though it's the same base engine. Before we quote or supply anything, we confirm your exact vehicle.",
+    "body": "Because the EcoBoost spans three different Land Rover models over varying production years - each with its own vehicle-specific ancillaries and mounting - compatibility comes down to confirming your exact model and generation, which we do by registration. An EcoBoost from an Evoque isn't necessarily a drop-in match for one from a Discovery Sport, even though it's the same base engine. Before we quote or supply anything, we confirm your exact vehicle.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -49,7 +49,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "2013–2019"
+        "text": "2013-2019"
       },
       {
         "icon": "engine",
@@ -69,49 +69,49 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "Ford EcoBoost in the Discovery Sport (L550, 2015–2019)",
+        "heading": "Ford EcoBoost in the Discovery Sport (L550, 2015-2019)",
         "model": "Discovery Sport",
         "chassis": "L550",
-        "years": "2015–2019",
+        "years": "2015-2019",
         "variant": "",
-        "body": "The EcoBoost in the Discovery Sport is one of the applications we work on regularly — the Si4 petrol variant across the L550 generation.",
+        "body": "The EcoBoost in the Discovery Sport is one of the applications we work on regularly - the Si4 petrol variant across the L550 generation.",
         "price": "£2,200",
         "ctaLabel": "Check your Discovery Sport EcoBoost",
         "generation": "L550",
         "powertrain": "Petrol",
         "href": "/discovery-sport-engines",
         "title": "Ford EcoBoost in the Discovery Sport",
-        "subtitle": "(L550, 2015–2019)"
+        "subtitle": "(L550, 2015-2019)"
       },
       {
-        "heading": "Ford EcoBoost in the Freelander (L359, 2013–2014)",
+        "heading": "Ford EcoBoost in the Freelander (L359, 2013-2014)",
         "model": "Freelander",
         "chassis": "L359",
-        "years": "2013–2014",
+        "years": "2013-2014",
         "variant": "",
-        "body": "The EcoBoost in the Freelander is one of the applications we work on — the Si4 petrol variant during the model's final years.",
+        "body": "The EcoBoost in the Freelander is one of the applications we work on - the Si4 petrol variant during the model's final years.",
         "price": "£2,200",
         "ctaLabel": "Check your Freelander EcoBoost",
         "generation": "L359",
         "powertrain": "Petrol",
         "href": "/freelander-engines",
         "title": "Ford EcoBoost in the Freelander",
-        "subtitle": "(L359, 2013–2014)"
+        "subtitle": "(L359, 2013-2014)"
       },
       {
-        "heading": "Ford EcoBoost in the Range Rover Evoque (L538, 2013–2019)",
+        "heading": "Ford EcoBoost in the Range Rover Evoque (L538, 2013-2019)",
         "model": "Range Rover Evoque",
         "chassis": "L538",
-        "years": "2013–2019",
+        "years": "2013-2019",
         "variant": "",
-        "body": "The EcoBoost in the Range Rover Evoque is one of the applications we work on regularly — the Si4 petrol variant across the first-generation L538 model.",
+        "body": "The EcoBoost in the Range Rover Evoque is one of the applications we work on regularly - the Si4 petrol variant across the first-generation L538 model.",
         "price": "£2,200",
         "ctaLabel": "Check your Range Rover Evoque EcoBoost",
         "generation": "L538",
         "powertrain": "Petrol",
         "href": "/range-rover-evoque-engines",
         "title": "Ford EcoBoost in the Range Rover Evoque",
-        "subtitle": "(L538, 2013–2019)"
+        "subtitle": "(L538, 2013-2019)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

@@ -4,12 +4,13 @@
   "startingFromLabel": "Starting From:",
   "image": "/model/sec3.webp",
   "imageMobile": "/model/sec3_mobile.webp",
-  "cardImage": "/model/engine_trim.webp",
+  "cardImage": "/engines/card3-engine-trim.webp",
   "cards": [
     {
       "titlePre": "6-Cylinder Diesel",
       "titleHighlight": "",
-      "code": "(TDV6 / SDV6 / Ingenium I6)", "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "code": "(TDV6 / SDV6 / Ingenium I6)",
+      "image": "/engines/card3-jaguar-276dt-tdv6-engine.webp",
       "price": "£2,400",
       "featured": false,
       "codeHref": "/landrover-tdv6-sdv6-engine"
@@ -24,7 +25,7 @@
     },
     {
       "titlePre": "V8 Supercharged",
-      "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
+      "image": "/engines/card3-land-rover-jlr-aj133-engine-hero.webp",
       "titleHighlight": "",
       "code": "(SVR)",
       "price": "£5,500",
@@ -36,10 +37,11 @@
       "titleHighlight": "",
       "code": "",
       "price": "from £70",
-      "featured": false
+      "featured": false,
+      "icon": "truck"
     }
   ],
-  "disclaimer": "Exact price depends on engine code, condition and parts required — full pricing further down this page.",
+  "disclaimer": "Exact price depends on engine code, condition and parts required - full pricing further down this page.",
   "cta": {
     "line1": "Get Your Fixed-Price Quote",
     "line2": "In Under 30 Minutes",

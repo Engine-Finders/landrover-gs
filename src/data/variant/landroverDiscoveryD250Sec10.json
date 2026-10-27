@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery D250 ENGINE",
     "paragraphs": [
-      "The Discovery D250 is part of the fifth-generation Discovery range (L462, 2017–present), using the Ingenium AJ200D 2.0-litre four-cylinder diesel. The D250 sits in the middle of the diesel lineup, offering a balance of power and efficiency. Like other JLR Ingenium diesel models, it uses the same engine family as the D300 and D350 but with a lower output tune."
+      "The Discovery D250 is part of the fifth-generation Discovery range (L462, 2017-present), using the Ingenium AJ200D 2.0-litre four-cylinder diesel. The D250 sits in the middle of the diesel lineup, offering a balance of power and efficiency. Like other JLR Ingenium diesel models, it uses the same engine family as the D300 and D350 but with a lower output tune."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ200D (Ingenium) engines for every Discovery D250 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "AJ200D (Ingenium)",
         "image": "/engines/jaguar-aj200d-engine.webp",
         "codeRest": "",
-        "body": "The Discovery D250 is part of the fifth-generation Discovery range (L462, 2017–present), using the Ingenium AJ200D 2.0-litre four-cylinder diesel. The D250 sits in the middle of the diesel lineup, offering a balance of power and efficiency. Like other JLR Ingenium diesel models, it uses the same engine family as the D300 and D350 but with a lower output tune.",
+        "body": "The Discovery D250 is part of the fifth-generation Discovery range (L462, 2017-present), using the Ingenium AJ200D 2.0-litre four-cylinder diesel. The D250 sits in the middle of the diesel lineup, offering a balance of power and efficiency. Like other JLR Ingenium diesel models, it uses the same engine family as the D300 and D350 but with a lower output tune.",
         "cta": "Check Your AJ200D (Ingenium) Discovery D250",
         "codeHref": "/landrover-aj200d-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery D250 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+    "image": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "D5",
-        "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+        "image": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
         "chassis": "L462",
-        "years": "2017–present",
+        "years": "2017-present",
         "engineCode": "AJ200D (Ingenium)",
         "fuel": "Diesel",
         "codeHref": "/landrover-aj200d-engine"

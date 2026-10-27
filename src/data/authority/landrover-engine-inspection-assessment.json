@@ -40,7 +40,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "Our engine inspection and assessment process is a structured, multi-stage diagnostic procedure. We don't guess — we systematically work through from consultation and visual inspection through to mechanical tests, borescope inspection, and, where required, a full strip-down. The result is a clear, detailed inspection report with photographs of any damaged or worn components, and a quotation based on the actual scope of work identified."
+          "html": "Our engine inspection and assessment process is a structured, multi-stage diagnostic procedure. We don't guess - we systematically work through from consultation and visual inspection through to mechanical tests, borescope inspection, and, where required, a full strip-down. The result is a clear, detailed inspection report with photographs of any damaged or worn components, and a quotation based on the actual scope of work identified."
         },
         {
           "t": "p",
@@ -133,7 +133,7 @@
       "steps": [
         {
           "title": "Consultation & Reception",
-          "body": "We record vehicle details and your description of the issue — what happened, when, any warning signs and service history."
+          "body": "We record vehicle details and your description of the issue - what happened, when, any warning signs and service history."
         },
         {
           "title": "Visual & Underside Inspection",
@@ -165,7 +165,7 @@
           "t": "ul",
           "items": [
             "Specialist Land Rover engine inspection using JLR diagnostic systems",
-            "Structured, multi-stage assessment — no guesswork",
+            "Structured, multi-stage assessment - no guesswork",
             "Detailed inspection reports with photographs",
             "12-month, unlimited-mileage warranty on all rebuild work",
             "Based in our Essex workshop with full machining and rebuild capabilities",
@@ -237,7 +237,7 @@
       "items": [
         {
           "q": "How long does a Land Rover engine inspection take?",
-          "a": "A standard initial inspection including visual check and diagnostic scan takes 1–2 hours. Compression and leak-down tests add additional time. If a strip-down inspection is required, this typically takes 4–8 hours depending on engine complexity and access. We'll always give you a clear timeframe before any work begins."
+          "a": "A standard initial inspection including visual check and diagnostic scan takes 1-2 hours. Compression and leak-down tests add additional time. If a strip-down inspection is required, this typically takes 4-8 hours depending on engine complexity and access. We'll always give you a clear timeframe before any work begins."
         },
         {
           "q": "Do you use official Land Rover diagnostic equipment?",
@@ -245,7 +245,7 @@
         },
         {
           "q": "What happens if I authorise a strip-down inspection?",
-          "a": "We remove the engine from the vehicle and mount it on a stand. Components are systematically removed — ancillaries, timing cover, cylinder head(s), and sump. We inspect pistons, connecting rods, crankshaft, bearings, and cylinder bores. Any damaged parts are documented with photographs and included in your inspection report."
+          "a": "We remove the engine from the vehicle and mount it on a stand. Components are systematically removed - ancillaries, timing cover, cylinder head(s), and sump. We inspect pistons, connecting rods, crankshaft, bearings, and cylinder bores. Any damaged parts are documented with photographs and included in your inspection report."
         }
       ]
     }

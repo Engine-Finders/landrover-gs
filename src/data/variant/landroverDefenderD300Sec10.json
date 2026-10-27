@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender D300 ENGINE",
     "paragraphs": [
-      "The Defender D300 sits in the modern L663-generation range, introduced in 2020 as a 3.0-litre six-cylinder diesel with mild-hybrid assistance. Using the Ingenium AJ300D, it replaced the earlier D240 as a more powerful and efficient option. The D300 is available across all three body styles — 90, 110 and 130 — and benefits from the 48V MHEV system that provides the DC-DC converter to manage the auxiliary electrical systems. It's one of the most popular diesel choices in the current Defender lineup, offering a balance of power and efficiency for both on-road and off-road use."
+      "The Defender D300 sits in the modern L663-generation range, introduced in 2020 as a 3.0-litre six-cylinder diesel with mild-hybrid assistance. Using the Ingenium AJ300D, it replaced the earlier D240 as a more powerful and efficient option. The D300 is available across all three body styles - 90, 110 and 130 - and benefits from the 48V MHEV system that provides the DC-DC converter to manage the auxiliary electrical systems. It's one of the most popular diesel choices in the current Defender lineup, offering a balance of power and efficiency for both on-road and off-road use."
     ],
     "boldParagraph": "We continue to rebuild and replace Ingenium AJ300D engines for every Defender D300 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "Ingenium AJ300D",
         "image": "/engines/jaguar-d300-engine.webp",
         "codeRest": "(D300)",
-        "body": "A 3.0-litre inline-six diesel with mild-hybrid assistance, fitted to the L663 Defender from 2020 to present. Known for the Ingenium timing chain pattern, DC-DC converter failure on the MHEV system, and early production (2019-2020) electrical injector faults — see the callout above. We replace timing chain components, injector seals, bearings, gaskets and the DC-DC converter as standard on every AJ300D rebuild.",
+        "body": "A 3.0-litre inline-six diesel with mild-hybrid assistance, fitted to the L663 Defender from 2020 to present. Known for the Ingenium timing chain pattern, DC-DC converter failure on the MHEV system, and early production (2019-2020) electrical injector faults - see the callout above. We replace timing chain components, injector seals, bearings, gaskets and the DC-DC converter as standard on every AJ300D rebuild.",
         "cta": "Check Your Ingenium AJ300D Defender D300",
         "codeHref": "/landrover-aj300d-engine"
       }
@@ -27,7 +27,7 @@
   "compatibility": {
     "titlePre": "Land Rover Defender D300 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "The D300's AJ300D is fitted specifically to the L663-generation Defender, across all three body styles. Unlike earlier Defenders that used a range of different diesel engines (Td5, 300Tdi, 200Tdi), the L663 range uses a consistent engine architecture across its diesel options — the D200, D240, D250, D300 and D350 all share the same Ingenium AJ family design. However, the specific tuning, components and MHEV hardware vary between them, so we always confirm your exact D300 specification before quoting.",
+    "intro": "The D300's AJ300D is fitted specifically to the L663-generation Defender, across all three body styles. Unlike earlier Defenders that used a range of different diesel engines (Td5, 300Tdi, 200Tdi), the L663 range uses a consistent engine architecture across its diesel options - the D200, D240, D250, D300 and D350 all share the same Ingenium AJ family design. However, the specific tuning, components and MHEV hardware vary between them, so we always confirm your exact D300 specification before quoting.",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender D300 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+    "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+        "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "L663",
-        "years": "2020–present",
+        "years": "2020-present",
         "engineCode": "Ingenium AJ300D",
         "fuel": "Diesel MHEV",
         "codeHref": "/landrover-aj300d-engine"

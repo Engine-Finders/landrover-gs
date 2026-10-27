@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover D300 D350 ENGINE",
     "paragraphs": [
-      "The Range Rover D300 and D350 are part of the L460 generation introduced in 2022, representing the current diesel mild-hybrid offering in the Range Rover line-up. Both badges use the same AJ300D — a 3.0-litre Ingenium inline-six diesel with mild-hybrid assistance. The D300 and D350 badges simply denote different power output tunes of the same engine, rather than different engine families. The Ingenium I6 is generally regarded by specialists as more reliable than the older TDV6/SDV6 units it replaced."
+      "The Range Rover D300 and D350 are part of the L460 generation introduced in 2022, representing the current diesel mild-hybrid offering in the Range Rover line-up. Both badges use the same AJ300D - a 3.0-litre Ingenium inline-six diesel with mild-hybrid assistance. The D300 and D350 badges simply denote different power output tunes of the same engine, rather than different engine families. The Ingenium I6 is generally regarded by specialists as more reliable than the older TDV6/SDV6 units it replaced."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300D engines for every Range Rover D300 D350 on the road."
   },
@@ -27,7 +27,7 @@
   "compatibility": {
     "titlePre": "Land Rover Range Rover D300 D350 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "The AJ300D is the only diesel engine fitted to the L460-generation Range Rover D300 and D350. However, it's part of a broader engine family that includes petrol variants (AJ300P) and PHEV derivatives — so confirming your exact spec is still important before any work begins. Before we quote or supply anything, we confirm:",
+    "intro": "The AJ300D is the only diesel engine fitted to the L460-generation Range Rover D300 and D350. However, it's part of a broader engine family that includes petrol variants (AJ300P) and PHEV derivatives - so confirming your exact spec is still important before any work begins. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover D300 D350 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+    "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L460",
-        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+        "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L460",
-        "years": "2022–present",
+        "years": "2022-present",
         "engineCode": "AJ300D",
         "fuel": "Diesel MHEV",
         "codeHref": "/landrover-aj300d-engine"

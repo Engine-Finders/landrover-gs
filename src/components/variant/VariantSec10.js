@@ -3,6 +3,7 @@ import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import MobileSplitTitle from "@/components/variant/MobileSplitTitle";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 export default function VariantSec10({ data }) {
   const { about, codes, compatibility, applications } = data;
@@ -79,12 +80,12 @@ export default function VariantSec10({ data }) {
                   </p>
                 </div>
                 <p className="mt-3 text-xs leading-snug text-white">{c.body}</p>
-                <a
+                <QuoteLink
                   href="#quote-form"
                   className="btn-text mt-4 inline-flex items-center gap-1.5 rounded-md border border-hero-blue bg-hero-blue px-4 py-2.5 text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
                 >
                   {c.cta} <span aria-hidden>→</span>
-                </a>
+                </QuoteLink>
               </div>
             ))}
           </div>
@@ -111,12 +112,12 @@ export default function VariantSec10({ data }) {
                       {c.codeHref ? <Link href={c.codeHref} ><span className="text-hero-blue">{c.codeHighlight}</span></Link> : <span className="text-hero-blue">{c.codeHighlight}</span>} <span className="text-white">{c.codeRest}</span>
                     </p>
                     <p className="text-sm leading-relaxed text-white">{c.body}</p>
-                    <a
+                    <QuoteLink
                       href="#quote-form"
                       className="mt-1 inline-flex w-fit items-center gap-2 rounded-md border border-hero-blue bg-hero-blue px-5 py-2.5 text-sm font-bold text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
                     >
                       {c.cta} <span aria-hidden>→</span>
-                    </a>
+                    </QuoteLink>
                   </div>
                   <div className="relative flex w-52 shrink-0 items-center justify-center pr-10">
                     <div

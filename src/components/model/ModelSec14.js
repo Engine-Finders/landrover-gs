@@ -1,4 +1,5 @@
 import Image from "next/image";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 export default function ModelSec14({ data }) {
   const line1Words = data.line1.split(" ");
@@ -35,7 +36,7 @@ export default function ModelSec14({ data }) {
             <span className="text-white">{data.calloutRest}</span>
           </p>
 
-          <a
+          <QuoteLink
             href={data.cta.href}
             className="mt-5 inline-flex items-center gap-2 whitespace-nowrap rounded-lg border border-white/30 px-5 py-3.5 text-xs font-bold uppercase tracking-wide text-white transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             style={{
@@ -44,7 +45,7 @@ export default function ModelSec14({ data }) {
             }}
           >
             {data.cta.label} <span aria-hidden>→</span>
-          </a>
+          </QuoteLink>
         </div>
       </div>
 
@@ -71,7 +72,7 @@ export default function ModelSec14({ data }) {
             <span className="text-white">{data.calloutRest}</span>
           </p>
 
-          <a
+          <QuoteLink
             href={data.cta.href}
             className="mt-5 inline-flex items-center gap-2 rounded-lg border border-white/30 px-6 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             style={{
@@ -80,7 +81,7 @@ export default function ModelSec14({ data }) {
             }}
           >
             {data.cta.label} <span aria-hidden>→</span>
-          </a>
+          </QuoteLink>
         </div>
       </div>
       </div>

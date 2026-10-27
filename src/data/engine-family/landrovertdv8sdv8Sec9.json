@@ -38,7 +38,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Registration/VIN matching is required — 3.6L vs 4.4L variants differ significantly. The 4.4 SDV8 (448DT) is generally considered the more reliable option. Same engine family doesn't mean the same complete engine — specific ancillaries, mounting, and ECU/DME software differ by application.",
+    "body": "Registration/VIN matching is required - 3.6L vs 4.4L variants differ significantly. The 4.4 SDV8 (448DT) is generally considered the more reliable option. Same engine family doesn't mean the same complete engine - specific ancillaries, mounting, and ECU/DME software differ by application.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -49,7 +49,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "2006–2019"
+        "text": "2006-2019"
       },
       {
         "icon": "engine",
@@ -69,10 +69,10 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "TDV8/SDV8 in the Discovery (L319 D3/D4, 2006–2016)",
+        "heading": "TDV8/SDV8 in the Discovery (L319 D3/D4, 2006-2016)",
         "model": "Discovery",
         "chassis": "L319 D3/D4",
-        "years": "2006–2016",
+        "years": "2006-2016",
         "variant": "",
         "body": "The TDV8 and SDV8 in the Discovery is one of the applications we work on regularly, across both the 3.6L and 4.4L variants.",
         "price": "£4,500",
@@ -81,13 +81,13 @@
         "powertrain": "3.6L / 4.4L",
         "href": "/discovery-engines",
         "title": "TDV8 SDV8 in the Discovery",
-        "subtitle": "(L319 D3/D4, 2006–2016)"
+        "subtitle": "(L319 D3/D4, 2006-2016)"
       },
       {
-        "heading": "TDV8/SDV8 in the Range Rover (L322/L405, 2006–2019)",
+        "heading": "TDV8/SDV8 in the Range Rover (L322/L405, 2006-2019)",
         "model": "Range Rover",
         "chassis": "L322/L405",
-        "years": "2006–2019",
+        "years": "2006-2019",
         "variant": "",
         "body": "The TDV8 and SDV8 in the Range Rover is one of the applications we work on regularly, spanning the L322 and L405 generations.",
         "price": "£4,500",
@@ -96,13 +96,13 @@
         "powertrain": "3.6L / 4.4L",
         "href": "/models",
         "title": "TDV8 SDV8 in the Range Rover",
-        "subtitle": "(L322/L405, 2006–2019)"
+        "subtitle": "(L322/L405, 2006-2019)"
       },
       {
-        "heading": "TDV8/SDV8 in the Range Rover Sport (L320/L494, 2006–2019)",
+        "heading": "TDV8/SDV8 in the Range Rover Sport (L320/L494, 2006-2019)",
         "model": "Range Rover Sport",
         "chassis": "L320/L494",
-        "years": "2006–2019",
+        "years": "2006-2019",
         "variant": "",
         "body": "The TDV8 and SDV8 in the Range Rover Sport is one of the applications we work on regularly, across L320 and L494 chassis.",
         "price": "£4,500",
@@ -111,7 +111,7 @@
         "powertrain": "3.6L / 4.4L",
         "href": "/range-rover-sport-engines",
         "title": "TDV8 SDV8 in the Range Rover Sport",
-        "subtitle": "(L320/L494, 2006–2019)"
+        "subtitle": "(L320/L494, 2006-2019)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

@@ -8,7 +8,7 @@ const FAQ = (data.sections || []).filter((s) => s.kind === "faq").flatMap((s) =>
 
 export const metadata = {
   title: "Land Rover Engine Supply & Fit | Land Rover Garage",
-  description: "Land Rover engine supply and fit service — we source the correct replacement engine and professionally install it at our Essex workshop. Single-point responsibility, full warranty.",
+  description: "Land Rover engine supply and fit service - we source the correct replacement engine and professionally install it at our Essex workshop. Single-point responsibility, full warranty.",
   alternates: { canonical: PATH },
 };
 

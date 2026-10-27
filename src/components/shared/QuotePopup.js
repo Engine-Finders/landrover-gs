@@ -159,7 +159,7 @@ export default function QuotePopup({ onClose }) {
       <div className="relative px-4 pb-3 pt-3 sm:px-6">
         {status === "success" ? (
           <p role="status" className="rounded-xl bg-[#607056]/10 p-6 text-center text-base font-bold text-[#3b402b]">
-            Thanks — your request has been sent. We&apos;ll be in touch shortly.
+            Your Enquiry Has Been Submitted - a specialist will be in touch soon.
           </p>
         ) : (
           <>
@@ -255,7 +255,7 @@ export default function QuotePopup({ onClose }) {
 
               <div>
                 <label className="mb-1 block text-sm font-bold text-[#1a1a1a]">
-                  Any Remarks <span className="font-normal text-black/55">(Additional Information – Optional)</span>
+                  Any Remarks <span className="font-normal text-black/55">(Additional Information - Optional)</span>
                 </label>
                 <div className="relative">
                   <span className="pointer-events-none absolute left-2.5 top-[9px] text-black/45">
@@ -284,7 +284,7 @@ export default function QuotePopup({ onClose }) {
               <p className="flex items-start justify-center gap-1.5 text-center text-[11px] leading-snug text-black/60 sm:text-xs">
                 <Icon name="lock" className="mt-0.5 h-3.5 w-3.5 shrink-0" />
                 <span>
-                  Your details are secure, no spam – genuine quote from UK vetted engine specialists only. By sending this you agree to our{" "}
+                  Your details are secure, no spam - genuine quote from UK vetted engine specialists only. By sending this you agree to our{" "}
                   <Link href="/privacy-policy" className="font-semibold underline">
                     Privacy Policy
                   </Link>

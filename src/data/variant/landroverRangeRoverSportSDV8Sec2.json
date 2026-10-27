@@ -37,7 +37,7 @@
     {
       "icon": "calendar",
       "label": "Generations",
-      "value": "L320 (2005–2013) · L494 (2013–2022)"
+      "value": "L320 (2005-2013) · L494 (2013-2022)"
     },
     {
       "icon": "price",
@@ -47,7 +47,7 @@
   ],
   "lookup": {
     "title": "Not sure which engine you have?",
-    "body": "The Range Rover Sport SDV8 uses the TDV8 / SDV8 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "body": "The Range Rover Sport SDV8 uses the TDV8 / SDV8 3.0-litre inline-six mild-hybrid engine - enter your registration below and we'll confirm your exact spec before you get a quote.",
     "badges": [
       {
         "icon": "shield-check",

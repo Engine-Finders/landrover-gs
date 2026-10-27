@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 const GOLD = "text-[#c9a96e]";
 
@@ -60,7 +61,7 @@ export default function HeroSec1({ data }) {
             </div>
           </div>
 
-          {/* five-column feature breakdown — gold line icons directly on the photo */}
+          {/* five-column feature breakdown - gold line icons directly on the photo */}
           <div className="relative mt-4 grid grid-cols-5 divide-x divide-white/15">
             {data.trustBar.map((t) => (
               <div key={t.label} className="flex flex-col items-center gap-1 px-1 text-center">
@@ -76,20 +77,20 @@ export default function HeroSec1({ data }) {
             <p className="gold-text text-2xl font-extrabold italic">{data.priceCta.label}</p>
           </div>
 
-          <a
+          <QuoteLink
             href={data.priceCta.href}
             className="mt-3 flex items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-5 py-3.5 text-sm font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
           >
             {data.priceCta.buttonLabel}
-          </a>
+          </QuoteLink>
 
-          <a
+          <QuoteLink
             href={data.phoneCta.href}
             className="mt-2.5 flex items-center justify-center gap-2 rounded-lg border border-[#c9a96e]/60 py-3 text-sm font-bold text-white"
           >
             <Icon name={data.phoneCta.icon} className={`h-4 w-4 shrink-0 ${GOLD}`} />
             {data.phoneCta.label}: {data.phoneCta.phone}
-          </a>
+          </QuoteLink>
         </div>
       </div>
 
@@ -122,7 +123,7 @@ export default function HeroSec1({ data }) {
               <p className="whitespace-nowrap text-sm font-medium text-white">{data.rating.label}</p>
             </div>
 
-            {/* five-column feature breakdown — gold line icons directly on the photo, no card */}
+            {/* five-column feature breakdown - gold line icons directly on the photo, no card */}
             <div className="mt-6 grid grid-cols-5 divide-x divide-white/15">
               {data.trustBar.map((t) => (
                 <div key={t.label} className="flex min-w-0 flex-col items-center gap-2 px-3 text-center">
@@ -140,20 +141,20 @@ export default function HeroSec1({ data }) {
               </div>
               <span className="w-px shrink-0 bg-white/15" aria-hidden="true" />
               <div className="flex flex-col justify-center gap-2.5">
-                <a
+                <QuoteLink
                   href={data.priceCta.href}
                   className="flex items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-8 py-3.5 text-sm font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
                   style={{ boxShadow: "0 15px 35px -15px rgba(96,112,86,0.6)" }}
                 >
                   {data.priceCta.buttonLabel}
-                </a>
-                <a
+                </QuoteLink>
+                <QuoteLink
                   href={data.phoneCta.href}
                   className="flex items-center gap-2.5 whitespace-nowrap rounded-lg border border-[#c9a96e]/60 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/5"
                 >
                   <Icon name={data.phoneCta.icon} className={`h-4 w-4 shrink-0 ${GOLD}`} />
                   {data.phoneCta.label}: {data.phoneCta.phone}
-                </a>
+                </QuoteLink>
               </div>
             </div>
           </div>

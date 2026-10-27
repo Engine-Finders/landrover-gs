@@ -18,7 +18,7 @@
       "number": "03",
       "label": "TIMING CHAIN REPLACEMENT",
       "image": "/engine/sec5.webp",
-      "body": "Timing components replaced — a critical AJ300P wear point."
+      "body": "Timing components replaced - a critical AJ300P wear point."
     },
     {
       "number": "04",
@@ -64,6 +64,6 @@
     }
   ],
   "viewMoreLabel": "View More",
-  "footerNote": "Real photos from our workshop — not stock imagery.",
+  "footerNote": "Real photos from our workshop - not stock imagery.",
   "engineCode": "AJ300P"
 }

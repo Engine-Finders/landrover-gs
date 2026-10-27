@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The Range Rover Sport L320 (2005–2013) carried the AJ-V8 in two distinct forms. The 4.2 SC V8 delivered supercharged performance, using a belt-driven supercharger to increase power output. The 4.4 V8 was the naturally aspirated option, offering the same basic engine architecture without the supercharger. Both variants share the same underlying block and timing chain system, but the supercharged application carries additional components — most notably the supercharger unit itself and its associated cooling system — that require specific attention during a rebuild.",
+    "body": "The Range Rover Sport L320 (2005-2013) carried the AJ-V8 in two distinct forms. The 4.2 SC V8 delivered supercharged performance, using a belt-driven supercharger to increase power output. The 4.4 V8 was the naturally aspirated option, offering the same basic engine architecture without the supercharger. Both variants share the same underlying block and timing chain system, but the supercharged application carries additional components - most notably the supercharger unit itself and its associated cooling system - that require specific attention during a rebuild.",
     "lineup": [
       {
         "label": "Range Rover Sport",
@@ -30,7 +30,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the AJ-V8 spans two distinct configurations — naturally aspirated 4.4-litre and supercharged 4.2-litre — compatibility comes down to confirming your exact variant and specification. A supercharged AJ-V8 from a Range Rover Sport isn't a drop-in match for a naturally aspirated version; the supercharger, ancillaries, and ECU mapping all differ. Before we quote or supply anything, we confirm your exact vehicle and specification by registration/VIN.",
+    "body": "Because the AJ-V8 spans two distinct configurations - naturally aspirated 4.4-litre and supercharged 4.2-litre - compatibility comes down to confirming your exact variant and specification. A supercharged AJ-V8 from a Range Rover Sport isn't a drop-in match for a naturally aspirated version; the supercharger, ancillaries, and ECU mapping all differ. Before we quote or supply anything, we confirm your exact vehicle and specification by registration/VIN.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -41,7 +41,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "1998–2015"
+        "text": "1998-2015"
       },
       {
         "icon": "engine",
@@ -64,16 +64,16 @@
         "heading": "AJ-V8 in the Range Rover Sport (L320)",
         "model": "Range Rover Sport",
         "chassis": "L320",
-        "years": "2005–2013",
+        "years": "2005-2013",
         "variant": "",
-        "body": "The AJ-V8 in the Range Rover Sport L320 is one of the applications we work on regularly, spanning both the 4.2 SC V8 (supercharged) and 4.4 V8 (naturally aspirated) variants across the 2005–2013 production period.",
+        "body": "The AJ-V8 in the Range Rover Sport L320 is one of the applications we work on regularly, spanning both the 4.2 SC V8 (supercharged) and 4.4 V8 (naturally aspirated) variants across the 2005-2013 production period.",
         "price": "£4,500",
         "ctaLabel": "Check your Range Rover Sport AJ-V8",
         "generation": "L320",
         "powertrain": "Petrol / Supercharged",
         "href": "/range-rover-sport-engines",
         "title": "AJ-V8 in the Range Rover Sport",
-        "subtitle": "(L320, 2005–2013)"
+        "subtitle": "(L320, 2005-2013)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

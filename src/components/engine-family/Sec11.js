@@ -7,13 +7,15 @@ import useLeadForm, { LeadStatus } from "@/components/reusable/useLeadForm";
 import Icon from "@/components/reusable/Icon";
 import GbBadge from "@/components/reusable/GbBadge";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
+import QuoteLink from "@/components/shared/QuoteLink";
+import FormSelect from "@/components/reusable/FormSelect";
 
 const GOLD = "text-[#c9a96e]";
 
 const COMPARISON_BULLETS = [
   ["Strip down & inspect", "Pressure-test", "Replace worn components", "12-month unlimited-mileage warranty"],
   ["Supplied & fitted by our team", "OEM quality", "12-month unlimited-mileage warranty"],
-  ["Low-mileage units", "Quick turnaround", "Condition risk — we advise honestly"],
+  ["Low-mileage units", "Quick turnaround", "Condition risk - we advise honestly"],
 ];
 
 const TERMS = [
@@ -102,7 +104,7 @@ function RebuildMeaning({ compact = false }) {
       <div className="min-w-0 flex-1">
         <p className="font-title text-sm font-bold italic uppercase text-[#101828]">What Land Rover Garage means by &ldquo;rebuild&rdquo;</p>
         <p className="mt-1 text-sm leading-relaxed text-[#101828]">
-          Full strip-down, inspection, measurement, machining where required, replacement of worn components, reassembly, testing, and refit — with a
+          Full strip-down, inspection, measurement, machining where required, replacement of worn components, reassembly, testing, and refit - with a
           12-month unlimited-mileage warranty.
         </p>
       </div>
@@ -242,18 +244,18 @@ export default function Sec11({ data }) {
               <p className="text-[10px] font-bold uppercase tracking-wide text-[#101828]">{costBanner.startingFromLabel}</p>
               <p className="text-3xl font-extrabold text-[#101828]">{costBanner.startingFromPrice}</p>
             </div>
-            <a href="#quote-form" className="flex-1 rounded-lg bg-[#16241a] px-4 py-3.5 text-center text-xs font-bold uppercase text-white">
+            <QuoteLink href="#quote-form" className="flex-1 rounded-lg bg-[#16241a] px-4 py-3.5 text-center text-xs font-bold uppercase text-white">
               Submit Your Registration →
-            </a>
+            </QuoteLink>
           </div>
           <PriceFactors items={costBanner.priceFactors} compact />
         </div>
 
-        {/* ===== desktop — sec10_rebuild_cost.jpg (16:9, white left half) full width, height compressed, no cropping ===== */}
+        {/* ===== desktop - sec10_rebuild_cost.jpg (16:9, white left half) full width, height compressed, no cropping ===== */}
         <div className="relative hidden overflow-hidden md:block">
           {/* sec10_cost_wide.webp = sec10_rebuild_cost.jpg + a mirrored workshop strip on the right (3:1), sized to the
-              section height (~505px). The engine (≈48–84% of the original, centre ≈66% ≈ 37.3rem in) is placed at 66% of the
-              viewport — midway between the copy and the Price Factors card at 1440–1900px — so neither overlaps it. */}
+              section height (~505px). The engine (≈48-84% of the original, centre ≈66% ≈ 37.3rem in) is placed at 66% of the
+              viewport - midway between the copy and the Price Factors card at 1440-1900px - so neither overlaps it. */}
           <div className="absolute inset-0 bg-white" aria-hidden="true">
             <div className="absolute inset-y-0 right-0" style={{ left: "calc(66% - 37.3rem)" }}>
               <Image src="/engine/sec10_cost_wide.webp" alt="" fill className="object-cover object-left" sizes="100vw" />
@@ -283,9 +285,9 @@ export default function Sec11({ data }) {
                   <p className="text-4xl font-extrabold text-[#101828]">{costBanner.startingFromPrice}</p>
                 </div>
                 <div>
-                  <a href="#quote-form" className="flex items-center gap-2 whitespace-nowrap rounded-lg bg-[#16241a] px-6 py-3.5 text-sm font-bold uppercase text-white transition-colors hover:bg-hero-blue">
+                  <QuoteLink href="#quote-form" className="flex items-center gap-2 whitespace-nowrap rounded-lg bg-[#16241a] px-6 py-3.5 text-sm font-bold uppercase text-white transition-colors hover:bg-hero-blue">
                     Submit Your Registration →
-                  </a>
+                  </QuoteLink>
                   <p className="mt-2 text-xs text-[#101828]">Get a fixed-price quote within 30 minutes.</p>
                 </div>
               </div>
@@ -320,9 +322,9 @@ export default function Sec11({ data }) {
               </div>
             ))}
           </div>
-          <a href={comparison.cta.href} className={`mt-5 flex items-center justify-center rounded-lg border border-[#c9a96e]/60 px-4 py-3 text-sm font-bold uppercase ${GOLD}`}>
+          <QuoteLink href={comparison.cta.href} className={`mt-5 flex items-center justify-center rounded-lg border border-[#c9a96e]/60 px-4 py-3 text-sm font-bold uppercase ${GOLD}`}>
             {comparison.cta.label}
-          </a>
+          </QuoteLink>
         </div>
 
         {/* ===== desktop ===== */}
@@ -348,9 +350,9 @@ export default function Sec11({ data }) {
             </div>
 
             <div className="mt-6 flex flex-col items-center gap-3">
-              <a href={comparison.cta.href} className={`flex items-center gap-2 rounded-lg border border-hero-blue bg-hero-blue px-20 py-3 text-sm font-bold uppercase text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]`}>
+              <QuoteLink href={comparison.cta.href} className={`flex items-center gap-2 rounded-lg border border-hero-blue bg-hero-blue px-20 py-3 text-sm font-bold uppercase text-white transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]`}>
                 {comparison.cta.label}
-              </a>
+              </QuoteLink>
               <p className="text-sm text-white">Enter your registration and we&apos;ll talk you through both options honestly.</p>
             </div>
           </div>
@@ -491,13 +493,7 @@ export default function Sec11({ data }) {
             <label className="block">
               <span className="text-xs font-bold uppercase tracking-wide text-white">{quote.fields.enquiry.label}</span>
               <div className="relative mt-1.5">
-                <select name="description" required className="h-11 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white outline-none">
-                  <option value="">{quote.fields.enquiry.placeholder}</option>
-                  {["Engine Failure", "Replacement Needed", "General Enquiry"].map((o) => (
-                    <option key={o} value={o}>{o}</option>
-                  ))}
-                </select>
-                <Icon name="chevron-down" className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white" />
+                <FormSelect name="description" required theme="dark" placeholder={quote.fields.enquiry.placeholder} options={["Engine Failure", "Replacement Needed", "General Enquiry"]} className="h-11 rounded-lg border border-white/15 bg-white/5 px-4 text-sm text-white" />
               </div>
             </label>
 
@@ -515,8 +511,8 @@ export default function Sec11({ data }) {
 
         {/* ===== desktop ===== */}
         <div className="relative hidden md:block">
-          {/* sec11_faq.jpg: 16:9 dark workshop shot — full width, height compressed to the section (no cropping) */}
-          {/* engine sits at ~58% of sec11_faq.jpg — the photo is shifted 12% left so it lands mid-section
+          {/* sec11_faq.jpg: 16:9 dark workshop shot - full width, height compressed to the section (no cropping) */}
+          {/* engine sits at ~58% of sec11_faq.jpg - the photo is shifted 12% left so it lands mid-section
               (~46%), as in the reference; the uncovered strip on the right is the photo's own near-black */}
           <div className="absolute inset-0 bg-[#050605]" aria-hidden="true">
             <div className="absolute inset-y-0 -left-[12%] w-full">
@@ -569,13 +565,7 @@ export default function Sec11({ data }) {
                   </div>
                   <IconField name="email" icon="note" label={quote.fields.email.label} type="email" />
                   <div className="relative">
-                    <select name="description" required aria-label={quote.fields.enquiry.label} className="h-12 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm uppercase text-white/80 outline-none">
-                      <option value="">{quote.fields.enquiry.label}</option>
-                      {["Engine Failure", "Replacement Needed", "General Enquiry"].map((o) => (
-                        <option key={o} value={o}>{o}</option>
-                      ))}
-                    </select>
-                    <Icon name="chevron-down" className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white" />
+                    <FormSelect name="description" required theme="dark" ariaLabel={quote.fields.enquiry.label} placeholder={quote.fields.enquiry.label} options={["Engine Failure", "Replacement Needed", "General Enquiry"]} className="h-12 rounded-lg border border-white/15 bg-white/5 px-4 text-sm uppercase text-white/80" />
                   </div>
                   <p className="px-1 text-xs text-white/60">{quote.fields.enquiry.placeholder}</p>
                 </div>
@@ -594,7 +584,7 @@ export default function Sec11({ data }) {
                   <Icon name="phone" className={`h-8 w-8 ${GOLD}`} />
                   <span>
                     <span className={`block text-sm font-bold uppercase ${GOLD}`}>Call a specialist</span>
-                    <span className="block text-xs text-white/80">Speak to a Land Rover engine expert — 0203 488 4649</span>
+                    <span className="block text-xs text-white/80">Speak to a Land Rover engine expert - 0203 488 4649</span>
                   </span>
                 </a>
               </form>

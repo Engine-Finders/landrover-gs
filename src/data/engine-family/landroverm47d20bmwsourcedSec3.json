@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover M47D20 (BMW-Sourced) Applications — ",
+  "titlePre": "Land Rover M47D20 (BMW-Sourced) Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "Td4",
       "generation": "Defender",
       "chassis": "L316",
-      "years": "2002–2006",
+      "years": "2002-2006",
       "powertrain": "Diesel",
       "modelHref": "/defender-engines"
     },
@@ -37,7 +37,7 @@
       "variant": "TD4",
       "generation": "Freelander 1",
       "chassis": "L314",
-      "years": "2000–2006",
+      "years": "2000-2006",
       "powertrain": "Diesel",
       "modelHref": "/freelander-engines"
     }

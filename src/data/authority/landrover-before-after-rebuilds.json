@@ -3,7 +3,7 @@
   "metaTitle": "Land Rover Before & After Rebuilds | Land Rover Garage",
   "metaDescription": "See real Land Rover engine rebuild transformations at our Essex workshop. Before and after photos of TDV6, SDV6, Ingenium, and AJ-V8 engine rebuilds.",
   "h1": "Land Rover Before & After Rebuilds",
-  "lede": "Real engine rebuilds photographed at our Essex workshop — stripped, machined, reassembled, and tested.",
+  "lede": "Real engine rebuilds photographed at our Essex workshop - stripped, machined, reassembled, and tested.",
   "ctas": [
     {
       "label": "Get a rebuild quote",
@@ -40,7 +40,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "Every engine rebuild we complete is documented from arrival through strip-down, machining, assembly, and final installation. This gallery shows real Land Rover engines we've rebuilt — from the [TDV6/SDV6](/landrover-tdv6-sdv6-engine) and [Ingenium AJ200D](/landrover-aj200d-engine) to the [AJ133 V8](/landrover-aj133-engine) and [Td5](/landrover-td5-engine)."
+          "html": "Every engine rebuild we complete is documented from arrival through strip-down, machining, assembly, and final installation. This gallery shows real Land Rover engines we've rebuilt - from the [TDV6/SDV6](/landrover-tdv6-sdv6-engine) and [Ingenium AJ200D](/landrover-aj200d-engine) to the [AJ133 V8](/landrover-aj133-engine) and [Td5](/landrover-td5-engine)."
         },
         {
           "t": "p",
@@ -239,7 +239,7 @@
     },
     {
       "kind": "steps",
-      "heading": "Our Engine Rebuild Process — Documented at Every Stage",
+      "heading": "Our Engine Rebuild Process - Documented at Every Stage",
       "steps": [
         {
           "title": "Arrival & Assessment",
@@ -275,10 +275,10 @@
           "t": "ul",
           "items": [
             "**12-month unlimited-mileage warranty** on every rebuild",
-            "**Fixed-price quote** — no hidden costs once the engine is stripped",
-            "**Nationwide recovery** — we can bring your vehicle to us",
+            "**Fixed-price quote** - no hidden costs once the engine is stripped",
+            "**Nationwide recovery** - we can bring your vehicle to us",
             "**3-5 working day turnaround** from arrival to road-test",
-            "**Established 2009** — landrovergarage.co.uk has been rebuilding Land Rover engines for over a decade",
+            "**Established 2009** - landrovergarage.co.uk has been rebuilding Land Rover engines for over a decade",
             "**[Meet our team →](/about)**"
           ]
         }
@@ -286,11 +286,11 @@
     },
     {
       "kind": "steps",
-      "heading": "How It Works — From Quote to Collection",
+      "heading": "How It Works - From Quote to Collection",
       "steps": [
         {
           "title": "",
-          "body": "Send your registration or call us — we'll identify your engine family and confirm if a rebuild is the right option."
+          "body": "Send your registration or call us - we'll identify your engine family and confirm if a rebuild is the right option."
         },
         {
           "title": "",
@@ -302,7 +302,7 @@
         },
         {
           "title": "",
-          "body": "We machine, rebuild, install, and road-test your engine — typically 3-5 working days."
+          "body": "We machine, rebuild, install, and road-test your engine - typically 3-5 working days."
         },
         {
           "title": "",
@@ -333,7 +333,7 @@
       "items": [
         {
           "q": "Are these photos from real Land Rover rebuild jobs?",
-          "a": "Yes — these are genuine rebuilds performed at our workshop. Some images are staged on real premises photos pending our full completed-job photography library being compiled, but every rebuild shown is real work carried out by our team."
+          "a": "Yes - these are genuine rebuilds performed at our workshop. Some images are staged on real premises photos pending our full completed-job photography library being compiled, but every rebuild shown is real work carried out by our team."
         },
         {
           "q": "Which Land Rover models do you rebuild?",
@@ -345,11 +345,11 @@
         },
         {
           "q": "Do you provide a warranty on rebuilt engines?",
-          "a": "Yes — every rebuild includes a 12-month unlimited-mileage warranty on parts and labour. [Read our warranty terms →](/warranty)"
+          "a": "Yes - every rebuild includes a 12-month unlimited-mileage warranty on parts and labour. [Read our warranty terms →](/warranty)"
         },
         {
           "q": "Do you offer nationwide recovery?",
-          "a": "Yes — we can recover your Land Rover from anywhere in the UK. Recovery is charged separately from the rebuild. [Learn more about our recovery service →](/landrover-engine-recovery)"
+          "a": "Yes - we can recover your Land Rover from anywhere in the UK. Recovery is charged separately from the rebuild. [Learn more about our recovery service →](/landrover-engine-recovery)"
         }
       ]
     }

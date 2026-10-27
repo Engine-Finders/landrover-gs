@@ -18,7 +18,7 @@
         "codeHighlight": "AJ200D",
         "image": "/engines/jaguar-aj200d-engine.webp",
         "codeRest": "(D200)",
-        "body": "A 2.0-litre 4-cylinder diesel fitted to the Defender D200 from 2019. This is an Ingenium diesel with a mild-hybrid system. Known for the Ingenium timing chain pattern and DC-DC converter failure pattern — see the callout above. We replace timing chain components, injector seals, and service the DC-DC converter as standard where applicable.",
+        "body": "A 2.0-litre 4-cylinder diesel fitted to the Defender D200 from 2019. This is an Ingenium diesel with a mild-hybrid system. Known for the Ingenium timing chain pattern and DC-DC converter failure pattern - see the callout above. We replace timing chain components, injector seals, and service the DC-DC converter as standard where applicable.",
         "cta": "Check Your AJ200D Defender D200",
         "codeHref": "/landrover-aj200d-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender D200 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+    "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+        "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "90/110/130",
-        "years": "2019–present",
+        "years": "2019-present",
         "engineCode": "AJ200D (D200)",
         "fuel": "Diesel MHEV",
         "codeHref": "/landrover-aj200d-engine"

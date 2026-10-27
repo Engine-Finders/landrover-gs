@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Si6 ENGINE",
     "paragraphs": [
-      "The Discovery Si6 is the petrol V6 variant of the Discovery 3 and Discovery 4 ranges, produced from 2004 to 2016. It uses the AJ-V6 — a 3.0-litre petrol V6 that was also used across other Jaguar Land Rover products of the same era. The Si6 badge was primarily used to differentiate it from the diesel TDV6 and SDV6 variants in the Discovery line-up. The engine remained consistent throughout both the D3 and D4 generations, with the same fundamental AJ-V6 design powering both."
+      "The Discovery Si6 is the petrol V6 variant of the Discovery 3 and Discovery 4 ranges, produced from 2004 to 2016. It uses the AJ-V6 - a 3.0-litre petrol V6 that was also used across other Jaguar Land Rover products of the same era. The Si6 badge was primarily used to differentiate it from the diesel TDV6 and SDV6 variants in the Discovery line-up. The engine remained consistent throughout both the D3 and D4 generations, with the same fundamental AJ-V6 design powering both."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ-V6 engines for every Discovery Si6 on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "AJ-V6",
         "codeRest": "",
-        "body": "A 3.0-litre V6 petrol fitted to the Discovery Si6 from 2004 to 2016, across both the D3 and D4 generations. No specific known issue confirmed for this application — it's considered a generally reliable petrol V6.",
+        "body": "A 3.0-litre V6 petrol fitted to the Discovery Si6 from 2004 to 2016, across both the D3 and D4 generations. No specific known issue confirmed for this application - it's considered a generally reliable petrol V6.",
         "cta": "Check Your AJ-V6 Discovery Si6"
       }
     ]
@@ -25,7 +25,7 @@
   "compatibility": {
     "titlePre": "Land Rover Discovery Si6 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the Discovery Si6 uses the same AJ-V6 petrol engine across both the D3 and D4 generations, compatibility is straightforward — the same engine family was fitted throughout the entire 2004–2016 production run. Before we quote or supply anything, we confirm:",
+    "intro": "Because the Discovery Si6 uses the same AJ-V6 petrol engine across both the D3 and D4 generations, compatibility is straightforward - the same engine family was fitted throughout the entire 2004-2016 production run. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -51,12 +51,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Si6 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+    "image": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -67,17 +67,17 @@
     "rows": [
       {
         "generation": "D3",
-        "image": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
+        "image": "/cars/card/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
         "chassis": "L319",
-        "years": "2004–2009",
+        "years": "2004-2009",
         "engineCode": "AJ-V6",
         "fuel": "Petrol"
       },
       {
         "generation": "D4",
-        "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+        "image": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
         "chassis": "L319 facelift",
-        "years": "2009–2016",
+        "years": "2009-2016",
         "engineCode": "AJ-V6",
         "fuel": "Petrol"
       }

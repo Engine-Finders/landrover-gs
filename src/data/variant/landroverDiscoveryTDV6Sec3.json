@@ -4,21 +4,21 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,400",
   "engineImage": "/engines/jaguar-276dt-tdv6-engine.webp",
-  "carImage": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+  "carImage": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
   "cards": [
     {
       "code": "TDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
-      "generation": "D3/L319 (2004–2009)",
+      "carImage": "/cars/card/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
+      "generation": "D3/L319 (2004-2009)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "TDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
-      "generation": "D4/L319 facelift (2009–2016)",
+      "carImage": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+      "generation": "D4/L319 facelift (2009-2016)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     }
@@ -26,7 +26,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -39,8 +39,8 @@
     "titlePre": "Land Rover Discovery TDV6 Timing Chain & Bearing Wear ",
     "titleHighlight": "",
     "paragraphs": [
-      "If your Discovery TDV6 is a D3 or D4 generation model with the TDV6 engine — that's the L319 chassis — timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk are widely documented across multiple manufacturer technical service bulletins and specialist sources. We replace timing chain components, injector seals, and gaskets as standard on every TDV6 rebuild.",
-      "include_in_hero_hook: yes for TDV6 — Source: widely documented, multiple TSBs and specialist sources, per VRF-landrover-discovery.md and G-BRF-LandRover.md."
+      "If your Discovery TDV6 is a D3 or D4 generation model with the TDV6 engine - that's the L319 chassis - timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk are widely documented across multiple manufacturer technical service bulletins and specialist sources. We replace timing chain components, injector seals, and gaskets as standard on every TDV6 rebuild.",
+      "include_in_hero_hook: yes for TDV6 - Source: widely documented, multiple TSBs and specialist sources, per VRF-landrover-discovery.md and G-BRF-LandRover.md."
     ],
     "source": "Source: widely documented, multiple TSBs and specialist sources, per VRF-landrover-discovery.md and G-BRF-LandRover.md"
   }

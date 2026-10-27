@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender 300Tdi ENGINE",
     "paragraphs": [
-      "The Defender 300Tdi is a 2.5-litre four-cylinder diesel engine that was fitted to classic Defender 90, 110 and 130 models from roughly 1994 through to 2007. It replaced the earlier 200Tdi and ran alongside the Td5 for a period, depending on market and specification. Like its predecessor, the 300Tdi is mechanically simple and known for its durability — but the cylinder head is a known wear point, and the timing belt interval is critical to maintain. The engine was also used in the Discovery 1 and early Discovery 2, though the Defender application is the most widely recognised."
+      "The Defender 300Tdi is a 2.5-litre four-cylinder diesel engine that was fitted to classic Defender 90, 110 and 130 models from roughly 1994 through to 2007. It replaced the earlier 200Tdi and ran alongside the Td5 for a period, depending on market and specification. Like its predecessor, the 300Tdi is mechanically simple and known for its durability - but the cylinder head is a known wear point, and the timing belt interval is critical to maintain. The engine was also used in the Discovery 1 and early Discovery 2, though the Defender application is the most widely recognised."
     ],
     "boldParagraph": "We continue to rebuild and replace 300Tdi engines for every Defender 300Tdi on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "300Tdi",
         "codeRest": "",
-        "body": "The Defender 300Tdi is a 2.5-litre four-cylinder diesel engine that was fitted to classic Defender 90, 110 and 130 models from roughly 1994 through to 2007. It replaced the earlier 200Tdi and ran alongside the Td5 for a period, depending on market and specification. Like its predecessor, the 300Tdi is mechanically simple and known for its durability — but the cylinder head is a known wear point, and the timing belt interval is critical to maintain. The engine was also used in the Discovery 1 and early Discovery 2, though the Defender application is the most widely recognised.",
+        "body": "The Defender 300Tdi is a 2.5-litre four-cylinder diesel engine that was fitted to classic Defender 90, 110 and 130 models from roughly 1994 through to 2007. It replaced the earlier 200Tdi and ran alongside the Td5 for a period, depending on market and specification. Like its predecessor, the 300Tdi is mechanically simple and known for its durability - but the cylinder head is a known wear point, and the timing belt interval is critical to maintain. The engine was also used in the Discovery 1 and early Discovery 2, though the Defender application is the most widely recognised.",
         "cta": "Check Your 300Tdi Defender 300Tdi",
         "codeHref": "/landrover-300tdi-engine"
       }
@@ -26,7 +26,7 @@
   "compatibility": {
     "titlePre": "Land Rover Defender 300Tdi ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the classic Defender used several diesel engines across its long production run — 200Tdi, 300Tdi and Td5 — fitting the wrong replacement or assuming parts will interchange can create compatibility problems. Before we quote or supply anything, we confirm:",
+    "intro": "Because the classic Defender used several diesel engines across its long production run - 200Tdi, 300Tdi and Td5 - fitting the wrong replacement or assuming parts will interchange can create compatibility problems. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender 300Tdi ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
+    "image": "/cars/card/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,9 +68,9 @@
     "rows": [
       {
         "generation": "Classic",
-        "image": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
+        "image": "/cars/card/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
         "chassis": "90/110/130",
-        "years": "1994–2007 approx",
+        "years": "1994-2007 approx",
         "engineCode": "300Tdi",
         "fuel": "Diesel",
         "codeHref": "/landrover-300tdi-engine"

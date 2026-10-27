@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ150D",
     "titlePost": " ENGINE",
-    "body": "The AJ150D is Jaguar Land Rover's 1.5-litre three-cylinder diesel engine, part of the Ingenium family introduced in 2018. It's fitted to the Discovery Sport (L550, 2018–present) and the Range Rover Evoque (L551, 2019–present) — the D150 variant in both models. This is the smallest diesel in the Ingenium lineup, sharing the same base architecture as the AJ200D four-cylinder diesel but with one fewer cylinder. It was introduced as a more efficient entry point for Land Rover's compact SUV range, offering the D150 power output across both applications."
+    "body": "The AJ150D is Jaguar Land Rover's 1.5-litre three-cylinder diesel engine, part of the Ingenium family introduced in 2018. It's fitted to the Discovery Sport (L550, 2018-present) and the Range Rover Evoque (L551, 2019-present) - the D150 variant in both models. This is the smallest diesel in the Ingenium lineup, sharing the same base architecture as the AJ200D four-cylinder diesel but with one fewer cylinder. It was introduced as a more efficient entry point for Land Rover's compact SUV range, offering the D150 power output across both applications."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "Discovery Sport (L550, D150, 2018–present): The AJ150D is fitted to the Discovery Sport as the D150 variant, serving as the entry-level diesel option in the range. This application is one of the two we work on for this engine.",
+    "body": "Discovery Sport (L550, D150, 2018-present): The AJ150D is fitted to the Discovery Sport as the D150 variant, serving as the entry-level diesel option in the range. This application is one of the two we work on for this engine.",
     "lineup": [
       {
         "label": "Discovery Sport",
@@ -34,7 +34,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Registration/VIN matching is required — the AJ150D is fitted to two distinct models (Discovery Sport L550 and Range Rover Evoque L551), and while the base engine is the same, vehicle-specific ancillaries differ by application. We confirm your exact model and spec before any rebuild or replacement work proceeds. The three-cylinder diesel is a distinct variant within the Ingenium family, different from the four-cylinder AJ200D that appears across a wider range of Land Rover models.",
+    "body": "Registration/VIN matching is required - the AJ150D is fitted to two distinct models (Discovery Sport L550 and Range Rover Evoque L551), and while the base engine is the same, vehicle-specific ancillaries differ by application. We confirm your exact model and spec before any rebuild or replacement work proceeds. The three-cylinder diesel is a distinct variant within the Ingenium family, different from the four-cylinder AJ200D that appears across a wider range of Land Rover models.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -45,7 +45,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "2018–present"
+        "text": "2018-present"
       },
       {
         "icon": "engine",
@@ -65,34 +65,34 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "AJ150D in the Discovery Sport (L550, D150, 2018–present)",
+        "heading": "AJ150D in the Discovery Sport (L550, D150, 2018-present)",
         "model": "Discovery Sport",
         "chassis": "L550",
-        "years": "2018–present",
+        "years": "2018-present",
         "variant": "D150",
-        "body": "The AJ150D in the Discovery Sport is one of the applications we work on regularly — the entry-level D150 diesel, first introduced in 2018 and continuing through to the present.",
+        "body": "The AJ150D in the Discovery Sport is one of the applications we work on regularly - the entry-level D150 diesel, first introduced in 2018 and continuing through to the present.",
         "price": "£2,000",
         "ctaLabel": "Check your Discovery Sport D150",
         "generation": "L550",
         "powertrain": "Diesel",
         "href": "/discovery-sport-engines",
         "title": "AJ150D in the Discovery Sport",
-        "subtitle": "(L550, 2018–present)"
+        "subtitle": "(L550, 2018-present)"
       },
       {
-        "heading": "AJ150D in the Range Rover Evoque (L551, D150, 2019–present)",
+        "heading": "AJ150D in the Range Rover Evoque (L551, D150, 2019-present)",
         "model": "Range Rover Evoque",
         "chassis": "L551",
-        "years": "2019–present",
+        "years": "2019-present",
         "variant": "D150",
-        "body": "The AJ150D in the Range Rover Evoque is one of the applications we work on regularly — the D150 diesel, introduced with the second-generation Evoque in 2019.",
+        "body": "The AJ150D in the Range Rover Evoque is one of the applications we work on regularly - the D150 diesel, introduced with the second-generation Evoque in 2019.",
         "price": "£2,000",
         "ctaLabel": "Check your Range Rover Evoque D150",
         "generation": "L551",
         "powertrain": "Diesel",
         "href": "/range-rover-evoque-engines",
         "title": "AJ150D in the Range Rover Evoque",
-        "subtitle": "(L551, 2019–present)"
+        "subtitle": "(L551, 2019-present)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

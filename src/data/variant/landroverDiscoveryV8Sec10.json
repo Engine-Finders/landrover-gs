@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery V8 ENGINE",
     "paragraphs": [
-      "The Discovery V8 was fitted to the first two generations of the Discovery — the D1 (1989–1998) and the D2 (1998–2004). Both used the same AJ41 petrol V8, offered in 3.9-litre form in the earlier cars and 4.0-litre in the later ones. It was the petrol flagship of the range during that era, sitting alongside the Tdi and Td5 diesel variants. The Discovery V8 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Discovery V8 was fitted to the first two generations of the Discovery - the D1 (1989-1998) and the D2 (1998-2004). Both used the same AJ41 petrol V8, offered in 3.9-litre form in the earlier cars and 4.0-litre in the later ones. It was the petrol flagship of the range during that era, sitting alongside the Tdi and Td5 diesel variants. The Discovery V8 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ41 engines for every Discovery V8 on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "AJ41",
         "codeRest": "(D1/L318, D2/L318 facelift)",
-        "body": "A 3.9-litre (D1) or 4.0-litre (D2) V8 petrol engine fitted to the Discovery from 1989 to 2004. No widely-reported engine issue for this variant — we still recommend a full inspection before any long journey. We replace timing chains, valve seals, coolant components, and bearings as standard on every rebuild.",
+        "body": "A 3.9-litre (D1) or 4.0-litre (D2) V8 petrol engine fitted to the Discovery from 1989 to 2004. No widely-reported engine issue for this variant - we still recommend a full inspection before any long journey. We replace timing chains, valve seals, coolant components, and bearings as standard on every rebuild.",
         "cta": "Check Your AJ41 Discovery V8",
         "codeHref": "/landrover-aj41-engine"
       }
@@ -52,7 +52,7 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery V8 ",
@@ -69,7 +69,7 @@
       {
         "generation": "D1",
         "chassis": "L318",
-        "years": "1989–1998",
+        "years": "1989-1998",
         "engineCode": "AJ41",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj41-engine"
@@ -77,7 +77,7 @@
       {
         "generation": "D2",
         "chassis": "L318 facelift",
-        "years": "1998–2004",
+        "years": "1998-2004",
         "engineCode": "AJ41",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj41-engine"

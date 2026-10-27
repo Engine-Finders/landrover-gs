@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery HSE ENGINE",
     "paragraphs": [
-      "The Discovery HSE is a trim level rather than a distinct engine variant — it can carry several different engines across the D3 and D4 generations. From 2004 to 2016, a Discovery HSE could have a TDV6, SDV6, Si6, TDV8, or SDV8 depending on specification and model year. The HSE badge indicates the top-spec trim, not a specific engine code, which is why matching your exact engine by registration is essential before any work is quoted or carried out. The Discovery 4 (D4) facelift was produced from 2009 to 2016, and the HSE trim was available with the same range of engines across both generations."
+      "The Discovery HSE is a trim level rather than a distinct engine variant - it can carry several different engines across the D3 and D4 generations. From 2004 to 2016, a Discovery HSE could have a TDV6, SDV6, Si6, TDV8, or SDV8 depending on specification and model year. The HSE badge indicates the top-spec trim, not a specific engine code, which is why matching your exact engine by registration is essential before any work is quoted or carried out. The Discovery 4 (D4) facelift was produced from 2009 to 2016, and the HSE trim was available with the same range of engines across both generations."
     ],
     "boldParagraph": "We continue to rebuild and replace TDV6, SDV6, TDV8, SDV8, or Si6 engines for every Discovery HSE on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "TDV6, SDV6, TDV8, SDV8, or Si6",
         "image": "/engines/jaguar-276dt-tdv6-engine.webp",
         "codeRest": "",
-        "body": "Since HSE is a trim badge, the engine fitted depends entirely on the specific vehicle specification. The TDV6, SDV6, Si6, TDV8 and SDV8 are all possible — each with its own characteristics and components. We confirm your exact engine code before quoting any work.",
+        "body": "Since HSE is a trim badge, the engine fitted depends entirely on the specific vehicle specification. The TDV6, SDV6, Si6, TDV8 and SDV8 are all possible - each with its own characteristics and components. We confirm your exact engine code before quoting any work.",
         "cta": "Check Your TDV6, SDV6, TDV8, SDV8, or Si6 Discovery HSE",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery HSE ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+    "image": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,18 +69,18 @@
     "rows": [
       {
         "generation": "D3",
-        "image": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
+        "image": "/cars/card/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
         "chassis": "L319",
-        "years": "2004–2009",
+        "years": "2004-2009",
         "engineCode": "TDV6 / TDV8 / Si6",
         "fuel": "Diesel / Petrol",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       },
       {
         "generation": "D4",
-        "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+        "image": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
         "chassis": "L319 facelift",
-        "years": "2009–2016",
+        "years": "2009-2016",
         "engineCode": "SDV6 / SDV8 / Si6",
         "fuel": "Diesel / Petrol",
         "codeHref": "/landrover-tdv8-sdv8-engine"

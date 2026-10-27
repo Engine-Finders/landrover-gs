@@ -3,11 +3,12 @@ import Link from "next/link";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import Icon from "@/components/reusable/Icon";
 import MobileSplitTitle from "@/components/variant/MobileSplitTitle";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 const TABLE_COLS = "grid-cols-[3.75rem_minmax(0,1.15fr)_minmax(0,0.9fr)_minmax(0,1.05fr)_minmax(0,0.85fr)_minmax(0,1.05fr)_minmax(0,1.05fr)]";
 const GRID_COLS = "grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1.1fr)]";
 
-// "Land Rover 200Tdi Applications —" -> brand / code / rest, code rendered green
+// "Land Rover 200Tdi Applications -" -> brand / code / rest, code rendered green
 function splitTitle(t = "") {
   const m = t.match(/^(Land Rover)\s+(\S+)\s*(.*)$/i);
   return m ? [m[1], m[2], m[3]] : ["", "", t];
@@ -74,12 +75,12 @@ export default function Sec3({ data }) {
                 <p className="text-[11px] text-white">{data.prompt.subtext}</p>
               </div>
             </div>
-            <a
+            <QuoteLink
               href={data.prompt.href}
               className="mt-3 flex items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-4 py-2.5 text-xs font-bold uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
             >
               {data.prompt.buttonLabel}
-            </a>
+            </QuoteLink>
           </div>
         </div>
       </div>
@@ -87,7 +88,7 @@ export default function Sec3({ data }) {
       {/* ===== desktop ===== */}
       <div className="relative hidden overflow-hidden md:block">
         {/* sec3.jpg bakes a dark-green diagonal panel (rgb 10,49,30) into its left half. The photo starts 22%
-            in, so its diagonal lands at ~58–66% of the section, clear of the copy; the uncovered strip on
+            in, so its diagonal lands at ~58-66% of the section, clear of the copy; the uncovered strip on
             the left is filled with the same green. */}
         <div className="absolute inset-0" style={{ backgroundColor: "rgb(10,49,30)" }} aria-hidden="true">
           <div className="absolute inset-y-0 left-[22%] right-0">
@@ -165,12 +166,12 @@ export default function Sec3({ data }) {
                 <p className="text-xs text-white">{data.prompt.subtext}</p>
               </div>
             </div>
-            <a
+            <QuoteLink
               href={data.prompt.href}
               className="flex shrink-0 items-center gap-2 whitespace-nowrap rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-5 py-2.5 text-sm font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
             >
               {data.prompt.buttonLabel}
-            </a>
+            </QuoteLink>
           </div>
         </div>
       </div>

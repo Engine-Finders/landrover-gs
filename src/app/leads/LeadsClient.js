@@ -4,13 +4,13 @@ import { Fragment, useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
 function formatValue(value) {
-  if (value === null || value === undefined || value === "") return "—";
+  if (value === null || value === undefined || value === "") return "-";
   if (typeof value === "boolean") return value ? "Yes" : "No";
   return String(value);
 }
 
 function formatDate(value) {
-  if (!value) return "—";
+  if (!value) return "-";
   try {
     return new Date(value).toLocaleString("en-GB", { timeZone: "Europe/London", dateStyle: "medium", timeStyle: "medium" });
   } catch {
@@ -134,7 +134,7 @@ export default function LeadsClient({ source }) {
 
       {!loading && !error ? (
         <p className="mt-3 text-sm text-gray-600">
-          {total === 0 ? "0 leads" : `Showing ${from}–${to} of ${total} leads`}
+          {total === 0 ? "0 leads" : `Showing ${from}-${to} of ${total} leads`}
         </p>
       ) : null}
 

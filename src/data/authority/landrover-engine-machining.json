@@ -45,11 +45,11 @@
         {
           "t": "ul",
           "items": [
-            "**Cylinder Boring & Honing** — worn bores are bored to an oversize and honed to a cross-hatch finish for optimal oil retention and piston seal.",
-            "**Crankshaft Grinding & Polishing** — main and big-end journals are ground undersize and polished to restore smooth running surfaces.",
-            "**Cylinder Head Resurfacing** — the head face is machined flat to ensure a perfect seal with the block.",
-            "**Valve Guide & Seat Work** — guides are replaced and seats recut for proper valve sealing.",
-            "**Pressure Testing & Crack Detection** — blocks and heads are tested for integrity before reassembly."
+            "**Cylinder Boring & Honing** - worn bores are bored to an oversize and honed to a cross-hatch finish for optimal oil retention and piston seal.",
+            "**Crankshaft Grinding & Polishing** - main and big-end journals are ground undersize and polished to restore smooth running surfaces.",
+            "**Cylinder Head Resurfacing** - the head face is machined flat to ensure a perfect seal with the block.",
+            "**Valve Guide & Seat Work** - guides are replaced and seats recut for proper valve sealing.",
+            "**Pressure Testing & Crack Detection** - blocks and heads are tested for integrity before reassembly."
           ]
         },
         {
@@ -69,12 +69,12 @@
             "**Machining is included as standard in every engine rebuild we undertake.** Rebuild prices start from:",
             {
               "ul": [
-                "4-cylinder diesel (classic / Ingenium) — **£1,900 – £2,200**",
-                "4-cylinder petrol (Ingenium) — **£2,200**",
-                "6-cylinder diesel (TDV6/SDV6/Ingenium I6) — **£2,400 – £3,200**",
-                "V8 (naturally aspirated) — **£4,500**",
-                "V8 supercharged (AJ133, SVR) — **£5,500**",
-                "V8 twin-turbo (Octa) — **£6,500**"
+                "4-cylinder diesel (classic / Ingenium) - **£1,900 - £2,200**",
+                "4-cylinder petrol (Ingenium) - **£2,200**",
+                "6-cylinder diesel (TDV6/SDV6/Ingenium I6) - **£2,400 - £3,200**",
+                "V8 (naturally aspirated) - **£4,500**",
+                "V8 supercharged (AJ133, SVR) - **£5,500**",
+                "V8 twin-turbo (Octa) - **£6,500**"
               ]
             },
             "Prices are inclusive of all machining, parts, and labour. [Pricing disclaimer](/pricing-legal-disclaimer)"
@@ -134,12 +134,12 @@
         {
           "t": "ul",
           "items": [
-            "[TDV6 / SDV6 (M57D30)](/landrover-tdv6-sdv6-engine) — Discovery 3/4, Range Rover, Range Rover Sport",
-            "[Ingenium AJ200D](/landrover-aj200d-engine) — 4-cylinder diesel (Discovery Sport, Evoque, Velar, etc.)",
-            "[Ingenium AJ300D](/landrover-aj300d-engine) — 6-cylinder diesel (Defender, Discovery 5, etc.)",
-            "[AJ133 Supercharged V8](/landrover-aj133-engine) — Range Rover Sport SVR, Velar SVAutobiography",
-            "[Td5](/landrover-td5-engine) — classic Defender & Discovery",
-            "[S68 (BMW-sourced V8)](/landrover-s68-engine) — Defender Octa"
+            "[TDV6 / SDV6 (M57D30)](/landrover-tdv6-sdv6-engine) - Discovery 3/4, Range Rover, Range Rover Sport",
+            "[Ingenium AJ200D](/landrover-aj200d-engine) - 4-cylinder diesel (Discovery Sport, Evoque, Velar, etc.)",
+            "[Ingenium AJ300D](/landrover-aj300d-engine) - 6-cylinder diesel (Defender, Discovery 5, etc.)",
+            "[AJ133 Supercharged V8](/landrover-aj133-engine) - Range Rover Sport SVR, Velar SVAutobiography",
+            "[Td5](/landrover-td5-engine) - classic Defender & Discovery",
+            "[S68 (BMW-sourced V8)](/landrover-s68-engine) - Defender Octa"
           ]
         },
         {
@@ -206,11 +206,11 @@
         {
           "t": "ul",
           "items": [
-            "**In-house machine shop** — all work is carried out on our premises by experienced machinists, not outsourced.",
-            "**Land Rover specialist equipment** — we use tooling and fixtures specific to Land Rover engine families.",
-            "**Precision measurement** — every operation is verified with bore gauges, micrometres, and dial test indicators.",
-            "**Full rebuild integration** — machining is seamlessly integrated into our comprehensive engine rebuild service.",
-            "**12-month unlimited-mileage warranty** — all rebuilds, including machining, are covered.",
+            "**In-house machine shop** - all work is carried out on our premises by experienced machinists, not outsourced.",
+            "**Land Rover specialist equipment** - we use tooling and fixtures specific to Land Rover engine families.",
+            "**Precision measurement** - every operation is verified with bore gauges, micrometres, and dial test indicators.",
+            "**Full rebuild integration** - machining is seamlessly integrated into our comprehensive engine rebuild service.",
+            "**12-month unlimited-mileage warranty** - all rebuilds, including machining, are covered.",
             "Read more [about our workshop](/about) and see why Land Rover owners trust us."
           ]
         }
@@ -249,11 +249,11 @@
         {
           "t": "ul",
           "items": [
-            "[Land Rover Engine Rebuild](/landrover-engine-rebuild) — complete rebuilds including full machining.",
-            "[Our Engine Rebuild Process](/landrover-engine-rebuild-process) — step-by-step overview.",
-            "[Cylinder Head Repair & Rebuild](/landrover-cylinder-head-repair) — specialised head work.",
-            "[Engine Inspection & Assessment](/landrover-engine-inspection-assessment) — diagnostics and evaluation.",
-            "[Diesel Timing Chain Repair](/landrover-diesel-timing-chain-repair) — for TDV6/SDV6 and Ingenium engines."
+            "[Land Rover Engine Rebuild](/landrover-engine-rebuild) - complete rebuilds including full machining.",
+            "[Our Engine Rebuild Process](/landrover-engine-rebuild-process) - step-by-step overview.",
+            "[Cylinder Head Repair & Rebuild](/landrover-cylinder-head-repair) - specialised head work.",
+            "[Engine Inspection & Assessment](/landrover-engine-inspection-assessment) - diagnostics and evaluation.",
+            "[Diesel Timing Chain Repair](/landrover-diesel-timing-chain-repair) - for TDV6/SDV6 and Ingenium engines."
           ]
         },
         {

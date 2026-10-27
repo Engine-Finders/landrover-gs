@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Sport P530 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+    "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,9 +68,9 @@
     "rows": [
       {
         "generation": "L461",
-        "image": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+        "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
         "chassis": "L461",
-        "years": "2022–present",
+        "years": "2022-present",
         "engineCode": "BMW N63",
         "fuel": "Petrol",
         "codeHref": "/landrover-n63-engine"

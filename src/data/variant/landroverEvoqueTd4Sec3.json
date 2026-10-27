@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,200",
   "engineImage": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-  "carImage": "/cars/range-rover-evoque-l538-pure-5-door-suv-20112015-new-fuji-wh-d9c9.webp",
+  "carImage": "/cars/card/range-rover-evoque-l538-pure-5-door-suv-20112015-new-fuji-wh-d9c9.webp",
   "cards": [
     {
       "code": "Ford Duratorq",
       "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-      "carImage": "/cars/range-rover-evoque-l538-pure-5-door-suv-20112015-new-fuji-wh-d9c9.webp",
-      "generation": "L538 (2011–2016)",
+      "carImage": "/cars/card/range-rover-evoque-l538-pure-5-door-suv-20112015-new-fuji-wh-d9c9.webp",
+      "generation": "L538 (2011-2016)",
       "price": "£2,200",
       "codeHref": "/landrover-ford-duratorq-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -32,8 +32,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Evoque TD4 has the Ford Duratorq (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every Ford Duratorq rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every Ford Duratorq rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

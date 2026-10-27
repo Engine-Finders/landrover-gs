@@ -1,4 +1,5 @@
 import Image from "next/image";
+import QuoteLink from "@/components/shared/QuoteLink";
 import PhotoStripes from "@/components/reusable/PhotoStripes";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
@@ -114,12 +115,12 @@ export default function ModelSec5({ data }) {
               <p className="label-text font-extrabold uppercase leading-tight text-white">{data.cta.text}</p>
             </div>
 
-            <a
+            <QuoteLink
               href={data.cta.href}
               className="btn-text shrink-0 rounded-lg bg-hero-blue px-4 py-2.5 uppercase text-white transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             >
               {data.cta.buttonLabel} →
-            </a>
+            </QuoteLink>
           </div>
         </div>
       </div>
@@ -158,7 +159,7 @@ export default function ModelSec5({ data }) {
         {/* comparison matrix */}
         <div className="relative mt-10 rounded-2xl border border-hero-blue/30 bg-(--color-light-surface) shadow-[0_30px_70px_-20px_rgba(0,0,0,0.6),0_0_30px_-10px_rgba(96,112,86,0.45)]">
           <div className="overflow-hidden rounded-2xl">
-            {/* header row — no col1/col2 divider here (that separator only makes sense once
+            {/* header row - no col1/col2 divider here (that separator only makes sense once
                 there's a dedicated icon column of content below it) */}
             <div className="grid grid-cols-[64px_1fr_1.4fr_1.4fr]">
               <div />

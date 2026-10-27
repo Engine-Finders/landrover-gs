@@ -13,21 +13,21 @@
   --foreground: #1a1a1a;
   --container-8xl: 88rem;
 
-  /* Land Rover brand colors — updated palette per client instruction:
+  /* Land Rover brand colors - updated palette per client instruction:
      dark green #3b402b is the site accent (title text, links, icons,
-     borders, active states — everywhere BMW blue used to sit), and
+     borders, active states - everywhere BMW blue used to sit), and
      golden #886F4C is the secondary accent. Button backgrounds that were
      white in the BMW build stay white here too. Token NAMES are
      deliberately kept identical to bmw-garage's so every home section
-     component can be copied over unchanged — only the values differ. */
-  --color-mb-black: #1a1a1a; /* near-black / charcoal — primary */
-  --color-mb-graphite: #2a2a2a; /* deep graphite — secondary */
-  --color-mb-surface: #f8f8f8; /* white / off-white — surface */
-  --color-mb-silver: #c0c0c0; /* silver — metallic, glossy stripe accent */
-  --color-mb-gold: #3b402b; /* the brand accent — replaces BMW blue everywhere */
+     component can be copied over unchanged - only the values differ. */
+  --color-mb-black: #1a1a1a; /* near-black / charcoal - primary */
+  --color-mb-graphite: #2a2a2a; /* deep graphite - secondary */
+  --color-mb-surface: #f8f8f8; /* white / off-white - surface */
+  --color-mb-silver: #c0c0c0; /* silver - metallic, glossy stripe accent */
+  --color-mb-gold: #3b402b; /* the brand accent - replaces BMW blue everywhere */
 
   /* Same token names as bmw-garage (--color-bmw-*, --color-hero-*) so
-     home components are a straight copy-paste — only repointed to green. */
+     home components are a straight copy-paste - only repointed to green. */
   --color-bmw-blue: #3b402b;
   --color-bmw-blue-dark: #16241a;
   --color-bmw-violet: #3b402b;
@@ -35,10 +35,10 @@
   --color-hero-blue: #3b402b;
   --color-hero-blue-dark: #16241a;
 
-  /* Hero background — near-black, unchanged (dark universal theme stays the same). */
+  /* Hero background - near-black, unchanged (dark universal theme stays the same). */
   --color-hero-dark: #0d0d0d;
 
-  /* Light-section background — client-specified overlay color, replaces
+  /* Light-section background - client-specified overlay color, replaces
      white/off-white behind text and non-photo areas of light sections. */
   --color-light-surface: #ede8e3;
 
@@ -46,7 +46,7 @@
      Heading) written before this token consolidation. */
   --color-hero-gold: #3b402b;
 
-  /* Secondary brand accent — golden, used alongside the primary green
+  /* Secondary brand accent - golden, used alongside the primary green
      (borders, secondary buttons, badges) without touching the shared
      dark-theme background token above. */
   --color-hero-secondary: #886f4c;
@@ -72,7 +72,7 @@
   --color-hero-secondary: var(--color-hero-secondary);
 }
 
-/* Dark theme — Land Rover reference UI runs dark-by-default (near-black hero,
+/* Dark theme - Land Rover reference UI runs dark-by-default (near-black hero,
    graphite panels), so this is the primary look; a light surface (#F8F8F8)
    is still used for body sections per the reference. Both palettes are
    defined as tokens above; component work decides per-section which to use. */
@@ -99,7 +99,7 @@ body {
 }
 
 /* ---------------------------------------------------------------- */
-/* Universal site theme — every section is either "dark" or "light". */
+/* Universal site theme - every section is either "dark" or "light". */
 /* Dark = the hero section's look (near-black bg, white text). Light */
 /* = the light-surface look used behind cards (cream bg, near-black  */
 /* text). Apply .theme-dark / .theme-light to a section's root div   */
@@ -132,7 +132,7 @@ body {
   color: var(--theme-dark-text);
   /* The brand green (#3B402B) is too dark/low-contrast for text, icons,
      borders and button fills once they sit on this section's near-black
-     background — lighten it locally here. Light-theme sections keep the
+     background - lighten it locally here. Light-theme sections keep the
      darker green since it reads fine against the cream/white surface. */
   --color-hero-blue: #607056;
   --color-hero-blue-dark: #4c5a45;
@@ -161,11 +161,11 @@ body {
 }
 
 /* ---------------------------------------------------------------- */
-/* Typography system — final spec.                                   */
+/* Typography system - final spec.                                   */
 /* Headings: Roboto Condensed (italic on H1/H2). Body/labels/buttons: */
 /* Inter. Mobile sizes are the base; the md breakpoint (768px+) swaps */
 /* in the desktop sizes. Apply via .h1/.h2/.h3/.h4/.body-text/        */
-/* .label-text/.btn-text — NOT bare h1-h4 tags, since this codebase   */
+/* .label-text/.btn-text - NOT bare h1-h4 tags, since this codebase   */
 /* uses heading tags semantically (including inside compact cards)    */
 /* rather than strictly for page-level hierarchy.                     */
 /* ---------------------------------------------------------------- */
@@ -249,7 +249,7 @@ body {
 
 /* ---------------------------------------------------------------- */
 /* .thin-scrollbar = visible, on-brand scrollbar for inner-scrolling */
-/* containers (e.g. capped-height tables) — signals scrollability   */
+/* containers (e.g. capped-height tables) - signals scrollability   */
 /* without relying on a hidden native bar or a text hint.           */
 /* ---------------------------------------------------------------- */
 
@@ -295,7 +295,7 @@ body {
 }
 
 /* ---------------------------------------------------------------- */
-/* Global glassmorphism system — reuse .glass-panel + .glass-sparkle */
+/* Global glassmorphism system - reuse .glass-panel + .glass-sparkle */
 /* on any floating frosted-glass card that needs studio-light polish */
 /* Ported verbatim from bmw-garage: structure is brand-neutral.      */
 /* ---------------------------------------------------------------- */
@@ -454,7 +454,7 @@ body {
 /* ---------------------------------------------------------------- */
 /* .glass-luminous = dark glass panel + .card-glare = studio-light   */
 /* glare modifier (top edge flare + bottom gold pool + neon bloom).  */
-/* .card-glare is background-agnostic — combine with any card class  */
+/* .card-glare is background-agnostic - combine with any card class  */
 /* (glass-card-dark, a solid gradient CTA, etc). Element needs        */
 /* position:relative + overflow:hidden, which .card-glare provides.  */
 /* ---------------------------------------------------------------- */
@@ -466,7 +466,7 @@ body {
 }
 
 .card-glare {
-  /* requires the element to also carry `relative` or `absolute` — this
+  /* requires the element to also carry `relative` or `absolute` - this
      class intentionally does not set position, so it never fights a
      Tailwind position utility on the same element */
   overflow: hidden;
@@ -503,7 +503,7 @@ body {
 /* .card-glare-light = same glare treatment, tuned for white/light cards  */
 /* (gold-tinted top flare instead of white-on-white, softer outer bloom). */
 .card-glare-light {
-  /* same note as .card-glare — pair with `relative`/`absolute` on the element */
+  /* same note as .card-glare - pair with `relative`/`absolute` on the element */
   overflow: hidden;
   box-shadow:
     0 20px 45px -20px rgba(26, 26, 26, 0.25),
@@ -535,7 +535,7 @@ body {
 
 /* .card-corner-glare = glowing outer bloom + gold-white glare pooled in     */
 /* the top-left and bottom-right corners. Pair with `relative`/`absolute` AND */
-/* your own `border` utility — this class deliberately doesn't set border    */
+/* your own `border` utility - this class deliberately doesn't set border    */
 /* color/width so it never fights a Tailwind border-color utility (same      */
 /* cascade issue as position: relative did on .card-glare). Default gold     */
 /* glow via box-shadow works with any border color placed on top of it.     */
@@ -571,7 +571,7 @@ body {
 /* .neon-card = high-intensity glassmorphism: dark graphite gradient glass  */
 /* panel, crisp gold-tinted white border, layered inner+outer gold bloom,   */
 /* and a specular top-edge light-glint pseudo-element. Pair with `relative` */
-/* AND a Tailwind `rounded-*` class on the element — this deliberately does */
+/* AND a Tailwind `rounded-*` class on the element - this deliberately does */
 /* not set position or border-radius, so it never fights those utilities    */
 /* (see .card-glare's note on the same cascade issue with `position`).      */
 .neon-card {
@@ -631,7 +631,7 @@ body {
 }
 
 /* hides the native scrollbar on a horizontally-scrollable element while
-   keeping it touch/swipe/drag scrollable — no button/scrollbar/icon UI */
+   keeping it touch/swipe/drag scrollable - no button/scrollbar/icon UI */
 .no-scrollbar {
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -765,7 +765,7 @@ body {
   pointer-events: none;
 }
 
-/* Green variant — same glow-card shape, swaps the gold accent for the
+/* Green variant - same glow-card shape, swaps the gold accent for the
    brand green (--color-hero-blue). Add alongside .glow-card. */
 .glow-card--green {
   border-color: rgba(96, 112, 86, 0.4);

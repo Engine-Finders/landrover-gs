@@ -37,7 +37,7 @@
     {
       "icon": "calendar",
       "label": "Generations",
-      "value": "D5/L462 (2017–present)"
+      "value": "D5/L462 (2017-present)"
     },
     {
       "icon": "price",
@@ -47,7 +47,7 @@
   ],
   "lookup": {
     "title": "Not sure which engine you have?",
-    "body": "The Discovery P400e uses the Ingenium AJ300P 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "body": "The Discovery P400e uses the Ingenium AJ300P 3.0-litre inline-six mild-hybrid engine - enter your registration below and we'll confirm your exact spec before you get a quote.",
     "badges": [
       {
         "icon": "shield-check",

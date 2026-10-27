@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£3,200",
   "engineImage": "/engines/jaguar-d300-engine.webp",
-  "carImage": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+  "carImage": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
   "cards": [
     {
       "code": "AJ300D",
       "image": "/engines/jaguar-d300-engine.webp",
-      "carImage": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
-      "generation": "L560 (2017–present)",
+      "carImage": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+      "generation": "L560 (2017-present)",
       "price": "£3,200",
       "codeHref": "/landrover-aj300d-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,8 +31,8 @@
     "titlePre": "Range Rover Velar D250 Timing Chain Wear ",
     "titleHighlight": "(Ingenium Diesel)",
     "paragraphs": [
-      "If your Velar D250 has the 3.0-litre AJ300D Ingenium diesel — fitted across the entire L560 generation from 2017 — timing chain tensioner wear is a well-documented pattern on this engine family. We replace timing chains, injector seals, bearings and gaskets as standard on every AJ300D rebuild.",
-      "The petrol Ingenium engines in the Velar range use different components and don't share this specific timing chain pattern — they're generally considered more reliable in this area."
+      "If your Velar D250 has the 3.0-litre AJ300D Ingenium diesel - fitted across the entire L560 generation from 2017 - timing chain tensioner wear is a well-documented pattern on this engine family. We replace timing chains, injector seals, bearings and gaskets as standard on every AJ300D rebuild.",
+      "The petrol Ingenium engines in the Velar range use different components and don't share this specific timing chain pattern - they're generally considered more reliable in this area."
     ],
     "source": "Source: shared Ingenium diesel family pattern per VRF-landrover-velar.md. Petrol Ingenium engines explicitly excluded from this claim per VRF"
   }

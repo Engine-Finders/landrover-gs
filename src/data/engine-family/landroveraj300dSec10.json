@@ -11,7 +11,7 @@
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The AJ300D is one of the newer Ingenium engines we work on — fitted across five current Land Rover model lines, all in mild-hybrid form."
+      "body": "The AJ300D is one of the newer Ingenium engines we work on - fitted across five current Land Rover model lines, all in mild-hybrid form."
     },
     {
       "icon": "wrench",
@@ -21,18 +21,18 @@
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "No widely-reported catastrophic issue pattern is confirmed for the AJ300D. The 3.0-litre inline-six Ingenium has been fairly reliable. Some reports of EGR clogging and diesel knock after cold start exist, but these are maintenance items rather than catastrophic failures. We don't treat this engine as having one universal failure mode — diagnosis is required to establish whether an engine needs repair, rebuild or replacement."
+      "body": "No widely-reported catastrophic issue pattern is confirmed for the AJ300D. The 3.0-litre inline-six Ingenium has been fairly reliable. Some reports of EGR clogging and diesel knock after cold start exist, but these are maintenance items rather than catastrophic failures. We don't treat this engine as having one universal failure mode - diagnosis is required to establish whether an engine needs repair, rebuild or replacement."
     }
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed AJ300D rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed AJ300D rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER AJ300D REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "The AJ300D is a 3.0-litre inline-six diesel, part of the Ingenium family introduced in 2019. It uses a sequential twin-turbo setup for improved response and power delivery. Most applications feature a 48V mild-hybrid system, requiring additional care during rebuilds. EGR valve cleaning is recommended every 40–50k km.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "body": "The AJ300D is a 3.0-litre inline-six diesel, part of the Ingenium family introduced in 2019. It uses a sequential twin-turbo setup for improved response and power delivery. Most applications feature a 48V mild-hybrid system, requiring additional care during rebuilds. EGR valve cleaning is recommended every 40-50k km.",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing chain, main bearings, connecting rod bearings, complete gasket and seal set, plus 48V MHEV ancillaries"

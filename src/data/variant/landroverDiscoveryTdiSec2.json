@@ -37,7 +37,7 @@
     {
       "icon": "calendar",
       "label": "Generations",
-      "value": "D1/L318 (1989–1998)"
+      "value": "D1/L318 (1989-1998)"
     },
     {
       "icon": "price",
@@ -47,7 +47,7 @@
   ],
   "lookup": {
     "title": "Not sure which engine you have?",
-    "body": "The Discovery Tdi uses the 200Tdi or 300Tdi 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "body": "The Discovery Tdi uses the 200Tdi or 300Tdi 3.0-litre inline-six mild-hybrid engine - enter your registration below and we'll confirm your exact spec before you get a quote.",
     "badges": [
       {
         "icon": "shield-check",

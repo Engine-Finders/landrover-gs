@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover AJ150D Applications — ",
+  "titlePre": "Land Rover AJ150D Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "D150",
       "generation": "L550",
       "chassis": "L550",
-      "years": "2018–present",
+      "years": "2018-present",
       "powertrain": "Diesel",
       "modelHref": "/discovery-sport-engines"
     },
@@ -37,7 +37,7 @@
       "variant": "D150",
       "generation": "L551",
       "chassis": "L551",
-      "years": "2019–present",
+      "years": "2019-present",
       "powertrain": "Diesel",
       "modelHref": "/range-rover-evoque-engines"
     }

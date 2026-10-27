@@ -4,21 +4,21 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,200",
   "engineImage": "/engines/engines-2-0-ingenium-petrol-engine.webp",
-  "carImage": "/cars/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
+  "carImage": "/cars/card/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
   "cards": [
     {
       "code": "AJ200P",
       "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
-      "carImage": "/cars/range-rover-evoque-l538-se-5-door-suv-20152018-new-corris-gr-19e8.webp",
-      "generation": "L538 (2016–2018)",
+      "carImage": "/cars/card/range-rover-evoque-l538-se-5-door-suv-20152018-new-corris-gr-19e8.webp",
+      "generation": "L538 (2016-2018)",
       "price": "£2,200",
       "codeHref": "/landrover-aj200p-engine"
     },
     {
       "code": "AJ200P",
       "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
-      "carImage": "/cars/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
-      "generation": "L551 (2019–present)",
+      "carImage": "/cars/card/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
+      "generation": "L551 (2019-present)",
       "price": "£2,200",
       "codeHref": "/landrover-aj200p-engine"
     }
@@ -26,7 +26,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -40,8 +40,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Range Rover Evoque P200 has the AJ200P (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ200P rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ200P rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

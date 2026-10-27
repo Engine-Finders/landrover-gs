@@ -33,14 +33,14 @@
       "body": "Fuel injectors, high-pressure fuel pump, PCV system, timing chain tensioners and guides, and cooling system components are all measured and inspected."
     }
   ],
-  "notice": "Components drawn directly from VRF Key Components data. If your AJ300P's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
+  "notice": "Components drawn directly from VRF Key Components data. If your AJ300P's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected - not guessed in advance.",
   "noticeImage": "/model/sec15_part.webp",
   "groups": [
     {
       "title": "Replaced as Standard",
       "icon": "gear",
       "items": [
-        "Timing chain assembly (chains, guides, tensioners) — critical known issue",
+        "Timing chain assembly (chains, guides, tensioners) - critical known issue",
         "Main bearings and connecting rod bearings",
         "Complete gasket and seal set",
         "Oil filter housing gasket"
