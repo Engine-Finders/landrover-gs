@@ -1,9 +1,9 @@
 {
   "slug": "landrover-engine-rebuild-process",
   "metaTitle": "Land Rover Engine Rebuild Process | Land Rover Garage",
-  "metaDescription": "Our 10-step engine rebuild process for Land Rover models — from arrival and strip-down to machining, reassembly, testing, and handover. Every rebuild follows the same workshop-proven procedure.",
+  "metaDescription": "Our 10-step engine rebuild process for Land Rover models - from arrival and strip-down to machining, reassembly, testing, and handover. Every rebuild follows the same workshop-proven procedure.",
   "h1": "Land Rover Engine Rebuild Process",
-  "lede": "Our workshop-proven 10-step process — from arrival and strip-down to machining, reassembly, testing, and handover.",
+  "lede": "Our workshop-proven 10-step process - from arrival and strip-down to machining, reassembly, testing, and handover.",
   "ctas": [
     {
       "label": "Get a Quote",
@@ -40,11 +40,11 @@
       "blocks": [
         {
           "t": "p",
-          "html": "A full engine rebuild means dismantling the engine to its bare components, inspecting every part, machining the block and crankshaft where needed, replacing all wear-and-tear items, and reassembling to factory specification. Every engine that arrives in our workshop follows the same 10-step procedure — regardless of whether it's a classic 200Tdi Defender, a TDV6 Discovery, or a modern Ingenium-powered Range Rover."
+          "html": "A full engine rebuild means dismantling the engine to its bare components, inspecting every part, machining the block and crankshaft where needed, replacing all wear-and-tear items, and reassembling to factory specification. Every engine that arrives in our workshop follows the same 10-step procedure - regardless of whether it's a classic 200Tdi Defender, a TDV6 Discovery, or a modern Ingenium-powered Range Rover."
         },
         {
           "t": "p",
-          "html": "The process is carried out in-house, using Land Rover-specific tools and diagnostic systems. We don't outsource machining or assembly — every stage is completed on the premises, with quality checks at every step."
+          "html": "The process is carried out in-house, using Land Rover-specific tools and diagnostic systems. We don't outsource machining or assembly - every stage is completed on the premises, with quality checks at every step."
         }
       ]
     },
@@ -61,7 +61,7 @@
         },
         {
           "t": "p",
-          "html": "Pricing varies by engine type — 4-cylinder diesel rebuilds from £1,900, 6-cylinder units from £2,400, V8 supercharged from £5,500, and V8 twin-turbo (Octa) from £6,500. [Get a quote](/get-quote) for your exact engine."
+          "html": "Pricing varies by engine type - 4-cylinder diesel rebuilds from £1,900, 6-cylinder units from £2,400, V8 supercharged from £5,500, and V8 twin-turbo (Octa) from £6,500. [Get a quote](/get-quote) for your exact engine."
         }
       ]
     },
@@ -188,11 +188,11 @@
         {
           "t": "ul",
           "items": [
-            "**In-house machining and assembly** — every stage completed on our premises, not outsourced.",
-            "**Land Rover specialist tooling & diagnostics** — JLR SDD, Pathfinder, and TOPix used throughout.",
-            "**12-month unlimited-mileage warranty** — standard on every rebuild.",
-            "**Transparent fixed-price quoting** — no hidden fees, quoted after strip-down inspection.",
-            "**Full rebuild documentation** — detailed records of every component replaced and every specification checked.",
+            "**In-house machining and assembly** - every stage completed on our premises, not outsourced.",
+            "**Land Rover specialist tooling & diagnostics** - JLR SDD, Pathfinder, and TOPix used throughout.",
+            "**12-month unlimited-mileage warranty** - standard on every rebuild.",
+            "**Transparent fixed-price quoting** - no hidden fees, quoted after strip-down inspection.",
+            "**Full rebuild documentation** - detailed records of every component replaced and every specification checked.",
             "[Meet our workshop team →](/about)"
           ]
         }

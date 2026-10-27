@@ -6,6 +6,7 @@ import useLeadForm, { LeadStatus } from "@/components/reusable/useLeadForm";
 import Icon from "@/components/reusable/Icon";
 import GbBadge from "@/components/reusable/GbBadge";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
+import FormSelect from "@/components/reusable/FormSelect";
 
 function FaqCard({ item, isOpen, onToggle, compact = false }) {
   return (
@@ -133,16 +134,7 @@ export default function VariantSec13({ data }) {
                   {data.form.fields.enquiry.label} <span className="text-bmw-red">*</span>
                 </span>
                 <div className="relative mt-1.5">
-                  <select name="description" required className="h-11 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white outline-none">
-                    <option value="">{data.form.fields.enquiry.placeholder}</option>
-                  {["Engine Failure", "Replacement Needed", "General Enquiry"].map((o) => (
-                    <option key={o} value={o}>{o}</option>
-                  ))}
-                  </select>
-                  <Icon
-                    name="chevron-down"
-                    className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white"
-                  />
+                  <FormSelect name="description" required theme="dark" placeholder={data.form.fields.enquiry.placeholder} options={["Engine Failure", "Replacement Needed", "General Enquiry"]} className="h-11 rounded-lg border border-white/15 bg-white/5 px-4 text-sm text-white" />
                 </div>
               </label>
             </div>
@@ -269,13 +261,7 @@ export default function VariantSec13({ data }) {
                       {data.form.fields.enquiry.label} <span className="text-[#9fb08c]">*</span>
                     </span>
                     <div className="relative mt-2">
-                      <select name="description" required className="h-12 w-full appearance-none rounded-md bg-white px-4 pr-10 text-sm text-[#101828]/60 outline-none">
-                        <option value="">{data.form.fields.enquiry.placeholder}</option>
-                  {["Engine Failure", "Replacement Needed", "General Enquiry"].map((o) => (
-                    <option key={o} value={o}>{o}</option>
-                  ))}
-                      </select>
-                      <Icon name="chevron-down" className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#101828]" />
+                      <FormSelect name="description" required theme="light" placeholder={data.form.fields.enquiry.placeholder} options={["Engine Failure", "Replacement Needed", "General Enquiry"]} className="h-12 rounded-md bg-white px-4 text-sm text-[#101828]/60" />
                     </div>
                   </label>
                 </div>

@@ -27,7 +27,7 @@
   "compatibility": {
     "titlePre": "Land Rover Range Rover Velar P340 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "The Range Rover Velar P340 uses the Ingenium AJ300P engine across its L560 generation. While the underlying platform is consistent, specification changes can occur across model years (2017–2026). Before we quote or supply anything, we confirm:",
+    "intro": "The Range Rover Velar P340 uses the Ingenium AJ300P engine across its L560 generation. While the underlying platform is consistent, specification changes can occur across model years (2017-2026). Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Velar P340 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+    "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L560",
-        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+        "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
-        "years": "2017–present",
+        "years": "2017-present",
         "engineCode": "Ingenium AJ300P",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj300p-engine"

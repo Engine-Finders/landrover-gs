@@ -1,7 +1,7 @@
 {
   "eyebrow": "Superior Components. Lasting Performance.",
   "h2": "Built With|Better Parts",
-  "description": "A Land Rover engine is only as good as the parts inside it. That's why we always replace the components that matter — the ones that keep your engine running stronger, for longer.",
+  "description": "A Land Rover engine is only as good as the parts inside it. That's why we always replace the components that matter - the ones that keep your engine running stronger, for longer.",
   "parts": [
     { "name": "Gaskets & Seals", "icon": "gasket", "description": "New head gaskets, valve cover gaskets and oil seals for complete peace of mind." },
     { "name": "Piston Rings", "icon": "piston", "description": "Restores compression and oil control for optimal performance." },

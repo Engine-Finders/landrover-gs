@@ -12,7 +12,7 @@ export default function HomeSec11({ data }) {
       {/* ===== mobile ===== */}
       <div className="md:hidden">
         {/* mobile-specific crop has the same diagonal split as the desktop photo, just in a
-            portrait aspect — same clip-path'd wedge technique, text in the wedge only (it
+            portrait aspect - same clip-path'd wedge technique, text in the wedge only (it
             narrows too much lower down for a cards band, so those go in a plain div below) */}
         <div className="relative w-full" style={{ aspectRatio: "687 / 820" }}>
           <Image src={data.mobileImage} alt="Inside the Land Rover Garage workshop" fill className="object-cover" sizes="100vw" />
@@ -86,7 +86,7 @@ export default function HomeSec11({ data }) {
 
       {/* ===== desktop ===== */}
       <div className="hidden md:block">
-        {/* One instance of sec11.jpg, sized by its own real aspect ratio (1024/683) — no separate
+        {/* One instance of sec11.jpg, sized by its own real aspect ratio (1024/683) - no separate
             "photo block" + "card block". The text sits in the image's own top-left blank wedge and
             the cards sit in its own bottom blank band; a clip-path'd #F1EDE8 layer covers exactly
             those two blank zones (matching the photo's diagonal edge) so they read as the section's
@@ -117,7 +117,7 @@ export default function HomeSec11({ data }) {
             style={{ background: "linear-gradient(90deg, #d6b676, #b8955c)", clipPath: "polygon(50.1% 0, 52% 0, 33.7% 64%, 31.8% 64%)" }}
           />
 
-          {/* text, in the top-left wedge — sized up to fill more of the wedge's height, with
+          {/* text, in the top-left wedge - sized up to fill more of the wedge's height, with
               "Workshop" set noticeably larger than "Meet The" to match the reference weight */}
           <div className="absolute inset-0 flex items-start px-4 pt-8 sm:px-6 sm:pt-10 lg:px-10 lg:pt-14">
             <div className="max-w-[36%] text-[#1a1a1a] sm:max-w-[30%]">

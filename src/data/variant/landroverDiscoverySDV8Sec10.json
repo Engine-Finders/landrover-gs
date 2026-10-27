@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery SDV8 ENGINE",
     "paragraphs": [
-      "The Discovery SDV8 was fitted to the D3 and D4 generations of the Discovery — roughly 2004 to 2016 — as the flagship diesel V8 option in the range. Early D3 cars (2004–2009) use the TDV8 designation, while later D4 cars (2009–2016) use the SDV8 badge, reflecting a higher output tune of the same 4.4-litre V8 diesel family. Both share the same fundamental architecture and the same known wear patterns as the wider TDV6/SDV6 family they're derived from."
+      "The Discovery SDV8 was fitted to the D3 and D4 generations of the Discovery - roughly 2004 to 2016 - as the flagship diesel V8 option in the range. Early D3 cars (2004-2009) use the TDV8 designation, while later D4 cars (2009-2016) use the SDV8 badge, reflecting a higher output tune of the same 4.4-litre V8 diesel family. Both share the same fundamental architecture and the same known wear patterns as the wider TDV6/SDV6 family they're derived from."
     ],
     "boldParagraph": "We continue to rebuild and replace TDV8 or SDV8 engines for every Discovery SDV8 on the road."
   },
@@ -16,15 +16,15 @@
     "cards": [
       {
         "codeHighlight": "TDV8",
-        "codeRest": "(D3, 2004–2009)",
-        "body": "A 4.4-litre V8 diesel fitted to the Discovery D3 from 2004 to 2009. Known for timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk — a pattern shared with the wider TDV6/SDV6 family. We replace timing chain components, injector seals, EGR components, turbo components and gaskets as standard on every TDV8 rebuild.",
+        "codeRest": "(D3, 2004-2009)",
+        "body": "A 4.4-litre V8 diesel fitted to the Discovery D3 from 2004 to 2009. Known for timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk - a pattern shared with the wider TDV6/SDV6 family. We replace timing chain components, injector seals, EGR components, turbo components and gaskets as standard on every TDV8 rebuild.",
         "cta": "Check Your TDV8 Discovery SDV8",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       },
       {
         "codeHighlight": "SDV8",
-        "codeRest": "(D4, 2009–2016)",
-        "body": "The higher-output version of the 4.4-litre V8 diesel, fitted to the Discovery D4 from 2009 to 2016. Shares the same fundamental architecture and known wear pattern as the TDV8 — timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk. We service it to the same standard as the TDV8, replacing the same components as standard on every SDV8 rebuild.",
+        "codeRest": "(D4, 2009-2016)",
+        "body": "The higher-output version of the 4.4-litre V8 diesel, fitted to the Discovery D4 from 2009 to 2016. Shares the same fundamental architecture and known wear pattern as the TDV8 - timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk. We service it to the same standard as the TDV8, replacing the same components as standard on every SDV8 rebuild.",
         "cta": "Check Your SDV8 Discovery SDV8",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       }
@@ -59,12 +59,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery SDV8 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+    "image": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -75,18 +75,18 @@
     "rows": [
       {
         "generation": "D3",
-        "image": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
+        "image": "/cars/card/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
         "chassis": "L319",
-        "years": "2004–2009",
+        "years": "2004-2009",
         "engineCode": "TDV8",
         "fuel": "Diesel",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       },
       {
         "generation": "D4",
-        "image": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+        "image": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
         "chassis": "L319 facelift",
-        "years": "2009–2016",
+        "years": "2009-2016",
         "engineCode": "SDV8",
         "fuel": "Diesel",
         "codeHref": "/landrover-tdv8-sdv8-engine"

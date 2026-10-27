@@ -4,18 +4,18 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£1,900",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+  "carImage": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
   "cards": [
     {
       "code": "L-Series (early)",
-      "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
-      "generation": "L314 (1997–2006)",
+      "carImage": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+      "generation": "L314 (1997-2006)",
       "price": "£1,900"
     },
     {
       "code": "BMW M47D20 (later Td4)",
-      "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
-      "generation": "L314 (1997–2006)",
+      "carImage": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+      "generation": "L314 (1997-2006)",
       "price": "£1,900",
       "codeHref": "/landrover-m47d20-bmw-sourced-engine"
     }
@@ -23,7 +23,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -36,7 +36,7 @@
     "titlePre": "Land Rover Freelander 2.0 Td4 Timing Chain & Injector Seal Wear ",
     "titleHighlight": "(M47D20)",
     "paragraphs": [
-      "If your Freelander is a later Td4 model with the BMW M47D20 diesel engine, timing chain stretch and injector seal leaks are a well-documented pattern on this engine — shared with BMW 3 and 5 Series of the same era. We replace the timing chain, bearings and gaskets as standard on every M47D20 rebuild.",
+      "If your Freelander is a later Td4 model with the BMW M47D20 diesel engine, timing chain stretch and injector seal leaks are a well-documented pattern on this engine - shared with BMW 3 and 5 Series of the same era. We replace the timing chain, bearings and gaskets as standard on every M47D20 rebuild.",
       "The early 2.0 Di models used a different engine, the L-Series, which does not share this specific timing chain pattern."
     ],
     "source": "Source: BMW M47 pattern, shared with BMW 3/5 Series of same era, per G-BRF and VRF. L-Series engine explicitly excluded from this claim per VRF, correctly scoped to engine code"

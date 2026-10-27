@@ -2,6 +2,7 @@ import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 import RegLookupForm from "@/components/reusable/RegLookupForm";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 export default function ModelHeroSec1({ data }) {
   const [line1, line2, line3] = data.h1.split("|");
@@ -18,7 +19,7 @@ export default function ModelHeroSec1({ data }) {
 
         <div className="relative px-4 pb-4 pt-4">
           <div className="relative isolate max-w-[85%]">
-            {/* soft dark fade behind the copy — strongest around the text, fading out to nothing at the edges */}
+            {/* soft dark fade behind the copy - strongest around the text, fading out to nothing at the edges */}
             <div
               aria-hidden="true"
               className="pointer-events-none absolute -inset-x-5 -inset-y-4 -z-10"
@@ -68,7 +69,7 @@ export default function ModelHeroSec1({ data }) {
             </div>
 
             {/* pricing callout banner */}
-            <a
+            <QuoteLink
               href={data.priceCta.href}
               className="glass-luminous card-glare relative mt-2.5 flex items-center divide-x divide-white/15 rounded-xl px-2 py-3 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
               style={{ border: "1px solid rgba(96,112,86,0.45)" }}
@@ -81,7 +82,7 @@ export default function ModelHeroSec1({ data }) {
                 </div>
               </div>
               <p className="min-w-0 flex-1 whitespace-nowrap pl-2 text-xs font-bold uppercase leading-tight text-hero-blue">{data.priceCta.label}</p>
-            </a>
+            </QuoteLink>
           </div>
 
           {/* registration lookup */}
@@ -103,7 +104,7 @@ export default function ModelHeroSec1({ data }) {
           </div>
 
           {/* direct contact CTA */}
-          <a
+          <QuoteLink
             href={data.phoneCta.href}
             className="glass-luminous card-glare relative mt-2.5 flex items-center gap-3 rounded-xl p-3 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             style={{ border: "1px solid rgba(96,112,86,0.45)" }}
@@ -122,7 +123,7 @@ export default function ModelHeroSec1({ data }) {
               <p className="label-text uppercase tracking-wide text-white">{data.phoneCta.label}</p>
               <p className="text-lg font-extrabold text-white">{data.phoneCta.phone}</p>
             </div>
-          </a>
+          </QuoteLink>
 
           {/* trust footer */}
           <div
@@ -190,7 +191,7 @@ export default function ModelHeroSec1({ data }) {
           <div className="max-w-3xl">
 
             <div className="mt-3 flex flex-wrap items-stretch gap-4">
-              <a
+              <QuoteLink
                 href={data.priceCta.href}
                 className="card-glare relative flex w-80 shrink-0 flex-col justify-between rounded-xl px-8 py-5 transition-transform hover:scale-[1.02]"
                 style={{ background: "#CCBBAB" }}
@@ -203,9 +204,9 @@ export default function ModelHeroSec1({ data }) {
                   </div>
                 </div>
                 <p className="mt-2 pl-4 text-sm font-bold uppercase leading-tight text-black">{data.priceCta.label}</p>
-              </a>
+              </QuoteLink>
 
-              <a
+              <QuoteLink
                 href={data.phoneCta.href}
                 className="glass-luminous card-glare relative flex w-80 shrink-0 flex-col justify-center rounded-xl px-8 py-5 transition-colors hover:bg-white/5"
               >
@@ -225,7 +226,7 @@ export default function ModelHeroSec1({ data }) {
                     <p className="mt-1 whitespace-nowrap text-2xl font-extrabold leading-none text-white">{data.phoneCta.phone}</p>
                   </div>
                 </div>
-              </a>
+              </QuoteLink>
             </div>
           </div>
         </div>

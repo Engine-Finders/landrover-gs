@@ -8,7 +8,7 @@
   "cards": [
     {
       "code": "Td5",
-      "generation": "D2/L318 facelift (1998–2004)",
+      "generation": "D2/L318 facelift (1998-2004)",
       "price": "£1,900",
       "codeHref": "/landrover-td5-engine"
     }
@@ -16,7 +16,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -29,8 +29,8 @@
     "titlePre": "Land Rover Discovery Td5 Injector Harness & Crank Sensor Issues ",
     "titleHighlight": "",
     "paragraphs": [
-      "If your Discovery has the Td5 diesel engine — that's the D2 generation, 1998 to 2004 — injector harness oil contamination and crank sensor failure are well-documented patterns on this engine. Oil can migrate through the injector harness to the ECU, causing running issues, while crank sensor failure can leave you stranded. We replace injector seals, timing chain components, and check the injector harness and crank sensor as standard during every Td5 rebuild.",
-      "include_in_hero_hook: yes — Source: established specialist pattern per G-BRF Land Rover."
+      "If your Discovery has the Td5 diesel engine - that's the D2 generation, 1998 to 2004 - injector harness oil contamination and crank sensor failure are well-documented patterns on this engine. Oil can migrate through the injector harness to the ECU, causing running issues, while crank sensor failure can leave you stranded. We replace injector seals, timing chain components, and check the injector harness and crank sensor as standard during every Td5 rebuild.",
+      "include_in_hero_hook: yes - Source: established specialist pattern per G-BRF Land Rover."
     ],
     "source": "Source: established specialist pattern per G-BRF Land Rover"
   }

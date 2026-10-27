@@ -25,11 +25,11 @@
   ],
   "turnaround": {
     "icon": "clock",
-    "text": "Most Land Rover are recovered within a few hours of booking. Most rebuilds are completed within 3–5 working days."
+    "text": "Most Land Rover are recovered within a few hours of booking. Most rebuilds are completed within 3-5 working days."
   },
   "urgency": {
     "icon": "calendar",
-    "textPre": "Workshop slots fill up fast — ",
+    "textPre": "Workshop slots fill up fast - ",
     "textHighlight": "book your recovery today."
   }
 }

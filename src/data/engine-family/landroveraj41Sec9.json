@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ41",
     "titlePost": " ENGINE",
-    "body": "The AJ41 is the 4.0-litre Rover V8, part of the long-running Rover V8 engine family that powered countless Land Rover and Rover vehicles across several decades. In Land Rover applications, it was fitted to the Discovery 2 (L318) from 1999 to 2004, serving as the petrol V8 option alongside the Td5 diesel. The AJ41 is a naturally aspirated V8 with a 90° angle and pushrod-operated overhead valves — a traditional V8 layout that's robust and straightforward to work on. Beyond Land Rover, the Rover V8 family also appeared in various Rover saloons and sports cars, and later in MG applications, though our work focuses specifically on the Land Rover Discovery 2 installation."
+    "body": "The AJ41 is the 4.0-litre Rover V8, part of the long-running Rover V8 engine family that powered countless Land Rover and Rover vehicles across several decades. In Land Rover applications, it was fitted to the Discovery 2 (L318) from 1999 to 2004, serving as the petrol V8 option alongside the Td5 diesel. The AJ41 is a naturally aspirated V8 with a 90° angle and pushrod-operated overhead valves - a traditional V8 layout that's robust and straightforward to work on. Beyond Land Rover, the Rover V8 family also appeared in various Rover saloons and sports cars, and later in MG applications, though our work focuses specifically on the Land Rover Discovery 2 installation."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "Across the Discovery 2 (L318, 1999–2004), the AJ41 was the 4.0-litre V8 petrol option. It was available in both standard and higher-spec trims, though the engine itself remained the same across all Discovery 2 V8 applications.",
+    "body": "Across the Discovery 2 (L318, 1999-2004), the AJ41 was the 4.0-litre V8 petrol option. It was available in both standard and higher-spec trims, though the engine itself remained the same across all Discovery 2 V8 applications.",
     "lineup": [
       {
         "label": "Discovery",
@@ -30,7 +30,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the AJ41 is part of the Rover V8 family, compatibility across applications depends on confirming the exact capacity — Rover produced 3.5L, 3.9L, 4.0L, 4.2L and 4.6L versions of this engine at different points. For Discovery 2 applications, it's always the 4.0L (3,948 cc) variant, but we confirm by registration/VIN before any rebuild or replacement.",
+    "body": "Because the AJ41 is part of the Rover V8 family, compatibility across applications depends on confirming the exact capacity - Rover produced 3.5L, 3.9L, 4.0L, 4.2L and 4.6L versions of this engine at different points. For Discovery 2 applications, it's always the 4.0L (3,948 cc) variant, but we confirm by registration/VIN before any rebuild or replacement.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -41,7 +41,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "1996–2004"
+        "text": "1996-2004"
       },
       {
         "icon": "engine",
@@ -61,19 +61,19 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "AJ41 in the Discovery 2 (L318, 1999–2004)",
+        "heading": "AJ41 in the Discovery 2 (L318, 1999-2004)",
         "model": "Discovery 2",
         "chassis": "L318",
-        "years": "1999–2004",
+        "years": "1999-2004",
         "variant": "",
-        "body": "The AJ41 in the Discovery 2 is one of the applications we work on regularly — the 4.0 V8, fitted across the Discovery 2 range from 1999 to 2004.",
+        "body": "The AJ41 in the Discovery 2 is one of the applications we work on regularly - the 4.0 V8, fitted across the Discovery 2 range from 1999 to 2004.",
         "price": "£4,500",
         "ctaLabel": "Check your Discovery 2 AJ41",
         "generation": "Discovery 2",
         "powertrain": "Petrol",
         "href": "/discovery-engines",
         "title": "AJ41 in the Discovery 2",
-        "subtitle": "(L318, 1999–2004)"
+        "subtitle": "(L318, 1999-2004)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

@@ -2,6 +2,7 @@ import Image from "next/image";
 import EdgeFade from "@/components/reusable/EdgeFade";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 // "Land Rover 200Tdi" -> brand "Land Rover" + engine code "200Tdi" (code rendered in green)
 function splitBrand(titlePre = "") {
@@ -71,16 +72,16 @@ export default function Sec2({ data }) {
                 <p className="text-[11px] text-[#101828]">{specs.prompt.subtext}</p>
               </div>
             </div>
-            <a
+            <QuoteLink
               href={specs.prompt.href}
               className="mt-2.5 flex items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-4 py-3 text-xs font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
             >
               {specs.prompt.buttonLabel}
-            </a>
+            </QuoteLink>
           </div>
         </div>
 
-        {/* rebuild price — mercedes mobile pattern: no card; title, edge-to-edge parts photo (sec2_price_mv2:
+        {/* rebuild price - mercedes mobile pattern: no card; title, edge-to-edge parts photo (sec2_price_mv2:
             photo half of sec2_bottom on pure white, seam removed) with soft top/bottom fades, then copy */}
         <div className="relative pb-7">
           <div className="px-4 pt-5">
@@ -100,19 +101,19 @@ export default function Sec2({ data }) {
             <p className="gold-text text-4xl font-extrabold">{price.startingFromPrice}</p>
             <p className="mt-2 text-xs leading-snug text-[#101828]">{price.body}</p>
 
-            <a
+            <QuoteLink
               href={price.cta.href}
               className="mt-4 flex items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-4 py-3 text-xs font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
             >
               {price.cta.label}
-            </a>
+            </QuoteLink>
           </div>
         </div>
       </div>
 
       {/* ===== desktop ===== */}
       <div className="relative hidden md:block">
-        {/* specifications — sec2.jpg has a clean white left half, so the copy sits straight on the photo */}
+        {/* specifications - sec2.jpg has a clean white left half, so the copy sits straight on the photo */}
         <div className="relative overflow-hidden">
           {/* sec2.jpg is a blank white left half + photo right half with a hard seam at 50%.
               Only the photo half is shown, in a narrower right-hand box (object-right drops the empty
@@ -146,18 +147,18 @@ export default function Sec2({ data }) {
                   <p className="text-sm font-bold text-[#101828]">{specs.prompt.titlePre}</p>
                   <p className="text-sm text-[#101828]">{specs.prompt.subtext}</p>
                 </div>
-                <a
+                <QuoteLink
                   href={specs.prompt.href}
                   className="flex shrink-0 items-center gap-2 whitespace-nowrap rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-6 py-3 text-sm font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
                 >
                   {specs.prompt.buttonLabel}
-                </a>
+                </QuoteLink>
               </div>
             </div>
           </div>
         </div>
 
-        {/* rebuild price — no card: full-bleed white band, parts photo (sec2_price_bg.webp = photo half of
+        {/* rebuild price - no card: full-bleed white band, parts photo (sec2_price_bg.webp = photo half of
             sec2_bottom on a pure-white canvas, seam removed) anchored right, copy sits straight on it */}
         <div className="relative overflow-hidden bg-white">
           <div className="absolute inset-0" aria-hidden="true">
@@ -174,12 +175,12 @@ export default function Sec2({ data }) {
               <p className="gold-text text-6xl font-extrabold leading-tight">{price.startingFromPrice}</p>
               <p className="mt-3 text-sm leading-relaxed text-[#101828]">{price.body}</p>
 
-              <a
+              <QuoteLink
                 href={price.cta.href}
                 className="mt-6 flex w-fit items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-8 py-3.5 text-sm font-bold text-white shadow-lg transition-transform hover:scale-[1.02]"
               >
                 {price.cta.label}
-              </a>
+              </QuoteLink>
             </div>
           </div>
         </div>

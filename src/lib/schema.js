@@ -41,7 +41,7 @@ export const BUSINESS = {
   ],
 };
 
-/** Site-wide business graph — emit once in the root layout. */
+/** Site-wide business graph - emit once in the root layout. */
 export function businessGraph() {
   return {
     "@context": "https://schema.org",
@@ -61,7 +61,7 @@ export function businessGraph() {
       {
         "@type": ["AutoRepair", "LocalBusiness"],
         "@id": AUTOREPAIR_ID,
-        name: `${BUSINESS.name} – Land Rover Engine Rebuild Specialists`,
+        name: `${BUSINESS.name} - Land Rover Engine Rebuild Specialists`,
         url: SITE_URL,
         telephone: BUSINESS.telephone,
         email: BUSINESS.email,

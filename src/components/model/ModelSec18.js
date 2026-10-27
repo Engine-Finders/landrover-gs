@@ -3,8 +3,9 @@
 import { useState } from "react";
 import useLeadForm, { LeadStatus } from "@/components/reusable/useLeadForm";
 import Icon from "@/components/reusable/Icon";
-import GbBadge from "@/components/reusable/GbBadge";
+import RegPlate from "@/components/reusable/RegPlate";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
+import FormSelect from "@/components/reusable/FormSelect";
 
 function FaqCard({ item, isOpen, onToggle }) {
   return (
@@ -52,6 +53,7 @@ export default function ModelSec18({ data }) {
     });
   }
 
+  const [reg, setReg] = useState("");
   const lead = useLeadForm();
   const handleSubmit = lead.handleSubmit;
 
@@ -101,38 +103,28 @@ export default function ModelSec18({ data }) {
               <span className="label-text uppercase tracking-wide text-white">
                 {data.form.fields.reg.label} <span className="text-bmw-red">*</span>
               </span>
-              <div className="mt-2 flex h-13 overflow-hidden rounded-lg border border-white/15 bg-white/5">
-                <GbBadge className="w-14" />
-                <input
-                  name="vehicle_vrm" required maxLength={8} type="text"
-                  placeholder={data.form.fields.reg.placeholder}
-                  className="min-w-0 flex-1 bg-transparent px-3 text-sm text-white placeholder:text-white/40 outline-none"
-                />
+              <div className="mt-2 flex items-stretch gap-2">
+                <div className="min-w-0 flex-1">
+                  <RegPlate value={reg} onChange={setReg} heightClass="[--ph:56px]" className="max-w-none!" ariaLabel="Vehicle registration" />
+                </div>
+                <button type="submit" aria-label="Continue" className="flex w-14 shrink-0 items-center justify-center rounded-lg bg-hero-blue text-white transition duration-200 hover:-translate-y-0.5 hover:brightness-110">
+                  <span aria-hidden className="text-2xl leading-none">→</span>
+                </button>
+                <input type="hidden" name="vehicle_vrm" value={reg} required />
               </div>
             </label>
 
-            <Field name="postcode" label={data.form.fields.postcode.label} placeholder={data.form.fields.postcode.placeholder} />
             <Field name="name" label={data.form.fields.name.label} placeholder={data.form.fields.name.placeholder} />
             <Field name="number" label={data.form.fields.phone.label} placeholder={data.form.fields.phone.placeholder} type="tel" />
             <Field name="email" label={data.form.fields.email.label} placeholder={data.form.fields.email.placeholder} type="email" />
+            <Field name="postcode" label={data.form.fields.postcode.label} placeholder={data.form.fields.postcode.placeholder} />
 
             <label className="block">
               <span className="label-text uppercase tracking-wide text-white">
                 {data.form.fields.enquiry.label} <span className="text-bmw-red">*</span>
               </span>
               <div className="relative mt-2">
-                <select name="description" required className="h-13 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white outline-none">
-                  <option value="">{data.form.fields.enquiry.placeholder}</option>
-                  {data.form.fields.enquiry.options.map((o) => (
-                    <option key={o} value={o}>
-                      {o}
-                    </option>
-                  ))}
-                </select>
-                <Icon
-                  name="chevron-down"
-                  className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white"
-                />
+                <FormSelect name="description" required theme="dark" placeholder={data.form.fields.enquiry.placeholder} options={data.form.fields.enquiry.options} className="h-13 rounded-lg border border-white/15 bg-white/5 px-4 text-sm text-white" />
               </div>
             </label>
           </div>
@@ -203,38 +195,28 @@ export default function ModelSec18({ data }) {
               <span className="label-text uppercase tracking-wide text-white">
                 {data.form.fields.reg.label} <span className="text-bmw-red">*</span>
               </span>
-              <div className="mt-2 flex h-13 overflow-hidden rounded-lg border border-white/15 bg-white/5">
-                <GbBadge className="w-14" />
-                <input
-                  name="vehicle_vrm" required maxLength={8} type="text"
-                  placeholder={data.form.fields.reg.placeholder}
-                  className="min-w-0 flex-1 bg-transparent px-3 text-sm text-white placeholder:text-white/40 outline-none"
-                />
+              <div className="mt-2 flex items-stretch gap-2">
+                <div className="min-w-0 flex-1">
+                  <RegPlate value={reg} onChange={setReg} heightClass="[--ph:56px]" className="max-w-none!" ariaLabel="Vehicle registration" />
+                </div>
+                <button type="submit" aria-label="Continue" className="flex w-14 shrink-0 items-center justify-center rounded-lg bg-hero-blue text-white transition duration-200 hover:-translate-y-0.5 hover:brightness-110">
+                  <span aria-hidden className="text-2xl leading-none">→</span>
+                </button>
+                <input type="hidden" name="vehicle_vrm" value={reg} required />
               </div>
             </label>
 
-            <Field name="postcode" label={data.form.fields.postcode.label} placeholder={data.form.fields.postcode.placeholder} />
             <Field name="name" label={data.form.fields.name.label} placeholder={data.form.fields.name.placeholder} />
             <Field name="number" label={data.form.fields.phone.label} placeholder={data.form.fields.phone.placeholder} type="tel" />
             <Field name="email" label={data.form.fields.email.label} placeholder={data.form.fields.email.placeholder} type="email" />
+            <Field name="postcode" label={data.form.fields.postcode.label} placeholder={data.form.fields.postcode.placeholder} />
 
             <label className="block">
               <span className="label-text uppercase tracking-wide text-white">
                 {data.form.fields.enquiry.label} <span className="text-bmw-red">*</span>
               </span>
               <div className="relative mt-2">
-                <select name="description" required className="h-13 w-full appearance-none rounded-lg border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white outline-none">
-                  <option value="">{data.form.fields.enquiry.placeholder}</option>
-                  {data.form.fields.enquiry.options.map((o) => (
-                    <option key={o} value={o}>
-                      {o}
-                    </option>
-                  ))}
-                </select>
-                <Icon
-                  name="chevron-down"
-                  className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white"
-                />
+                <FormSelect name="description" required theme="dark" placeholder={data.form.fields.enquiry.placeholder} options={data.form.fields.enquiry.options} className="h-13 rounded-lg border border-white/15 bg-white/5 px-4 text-sm text-white" />
               </div>
             </label>
           </div>

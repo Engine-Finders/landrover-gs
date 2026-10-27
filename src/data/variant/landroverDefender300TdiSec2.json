@@ -37,7 +37,7 @@
     {
       "icon": "calendar",
       "label": "Generations",
-      "value": "Classic 90/110/130 (1994–2007 approx)"
+      "value": "Classic 90/110/130 (1994-2007 approx)"
     },
     {
       "icon": "price",
@@ -47,7 +47,7 @@
   ],
   "lookup": {
     "title": "Not sure which engine you have?",
-    "body": "The Defender 300Tdi uses the 300Tdi 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "body": "The Defender 300Tdi uses the 300Tdi 3.0-litre inline-six mild-hybrid engine - enter your registration below and we'll confirm your exact spec before you get a quote.",
     "badges": [
       {
         "icon": "shield-check",

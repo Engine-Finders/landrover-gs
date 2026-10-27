@@ -7,7 +7,7 @@ const PATH = "/engines";
 
 export const metadata = {
   title: "Land Rover Engine Rebuilds | Land Rover Garage",
-  description: "Every Land Rover engine family we rebuild and replace — click through for pricing, applications and known issues.",
+  description: "Every Land Rover engine family we rebuild and replace - click through for pricing, applications and known issues.",
   alternates: { canonical: PATH },
 };
 

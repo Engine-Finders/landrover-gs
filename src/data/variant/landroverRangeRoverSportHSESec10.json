@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover Sport HSE ENGINE",
     "paragraphs": [
-      "The Range Rover Sport HSE has been part of the Range Rover Sport range since 2005, and across its three generations has used several different engines — from the TDV6 and SDV6 diesel V6s of the L320 and L494 generations, through to today's Ingenium I6 units and BMW-sourced V8s on the current L461 platform. The HSE designation is a trim level that has been offered across all generations, rather than a specific engine family — which means the engine in your HSE depends entirely on which generation and model year you own. The full breakdown by engine code is below."
+      "The Range Rover Sport HSE has been part of the Range Rover Sport range since 2005, and across its three generations has used several different engines - from the TDV6 and SDV6 diesel V6s of the L320 and L494 generations, through to today's Ingenium I6 units and BMW-sourced V8s on the current L461 platform. The HSE designation is a trim level that has been offered across all generations, rather than a specific engine family - which means the engine in your HSE depends entirely on which generation and model year you own. The full breakdown by engine code is below."
     ],
     "boldParagraph": "We continue to rebuild and replace TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461) engines for every Range Rover Sport HSE on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "TDV6 / SDV6",
         "image": "/engines/jaguar-276dt-tdv6-engine.webp",
         "codeRest": "(L320, L494)",
-        "body": "3.0-litre V6 diesels fitted to the Range Rover Sport HSE from 2005 to 2022. Known for timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk — see the callout above. We replace timing chains, tensioners, injector seals, EGR components and gaskets as standard on every rebuild.",
+        "body": "3.0-litre V6 diesels fitted to the Range Rover Sport HSE from 2005 to 2022. Known for timing chain tensioner wear, injector seal leaks and crankshaft bearing failure risk - see the callout above. We replace timing chains, tensioners, injector seals, EGR components and gaskets as standard on every rebuild.",
         "cta": "Check Your TDV6 / SDV6 Range Rover Sport HSE",
         "codeHref": "/landrover-tdv6-sdv6-engine"
       },
@@ -50,7 +50,7 @@
         "codeHighlight": "BMW N63",
         "image": "/variant/sec10_engine.webp",
         "codeRest": "(P530, L461)",
-        "body": "4.4-litre twin-turbo V8 from BMW, fitted from 2022. Inherited from the Range Rover N63/S68 split via platform-sharing — not independently re-verified for Sport specifically, but a low-risk inference given the shared MLA-Flex platform. The N63 hot-vee pattern applies.",
+        "body": "4.4-litre twin-turbo V8 from BMW, fitted from 2022. Inherited from the Range Rover N63/S68 split via platform-sharing - not independently re-verified for Sport specifically, but a low-risk inference given the shared MLA-Flex platform. The N63 hot-vee pattern applies.",
         "cta": "Check Your BMW N63 Range Rover Sport HSE",
         "codeHref": "/landrover-n63-engine"
       }
@@ -59,7 +59,7 @@
   "compatibility": {
     "titlePre": "Land Rover Range Rover Sport HSE ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the Range Rover Sport HSE spans three generations and multiple distinct engine families, fitting the wrong replacement — or assuming parts are interchangeable between a TDV6 and an Ingenium engine — risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
+    "intro": "Because the Range Rover Sport HSE spans three generations and multiple distinct engine families, fitting the wrong replacement - or assuming parts are interchangeable between a TDV6 and an Ingenium engine - risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -85,12 +85,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Sport HSE ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+    "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -101,27 +101,27 @@
     "rows": [
       {
         "generation": "L320",
-        "image": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
+        "image": "/cars/card/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
         "chassis": "L320",
-        "years": "2005–2013",
+        "years": "2005-2013",
         "engineCode": "TDV6 / SDV6 / TDV8 / SDV8",
         "fuel": "Diesel",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       },
       {
         "generation": "L494",
-        "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+        "image": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
         "chassis": "L494",
-        "years": "2013–2022",
+        "years": "2013-2022",
         "engineCode": "TDV6 / SDV6 / TDV8 / SDV8",
         "fuel": "Diesel",
         "codeHref": "/landrover-tdv8-sdv8-engine"
       },
       {
         "generation": "L461",
-        "image": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+        "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
         "chassis": "L461",
-        "years": "2022–present",
+        "years": "2022-present",
         "engineCode": "AJ300D / AJ300P / BMW N63",
         "fuel": "Diesel MHEV / Petrol MHEV / Petrol",
         "codeHref": "/landrover-aj300d-engine"

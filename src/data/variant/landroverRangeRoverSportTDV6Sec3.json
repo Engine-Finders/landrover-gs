@@ -4,37 +4,37 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,400",
   "engineImage": "/engines/jaguar-276dt-tdv6-engine.webp",
-  "carImage": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+  "carImage": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
   "cards": [
     {
       "code": "TDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
-      "generation": "L320 (2005–2013)",
+      "carImage": "/cars/card/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
+      "generation": "L320 (2005-2013)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "TDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
-      "generation": "L494 (2013–2022)",
+      "carImage": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+      "generation": "L494 (2013-2022)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "SDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
-      "generation": "L320 (2005–2013)",
+      "carImage": "/cars/card/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
+      "generation": "L320 (2005-2013)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "code": "SDV6",
       "image": "/engines/jaguar-276dt-tdv6-engine.webp",
-      "carImage": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
-      "generation": "L494 (2013–2022)",
+      "carImage": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+      "generation": "L494 (2013-2022)",
       "price": "£2,400",
       "codeHref": "/landrover-tdv6-sdv6-engine"
     }
@@ -42,7 +42,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -55,7 +55,7 @@
     "titlePre": "Land Rover Range Rover Sport TDV6 Timing Chain & Injector Seal Wear ",
     "titleHighlight": "",
     "paragraphs": [
-      "Range Rover Sport TDV6 and SDV6 engines — across both the L320 and L494 generations — commonly show timing chain tensioner wear, injector seal leaks, and crankshaft bearing wear over time. We replace timing chains, tensioners, injector seals, and gaskets as standard on every TDV6 and SDV6 rebuild.",
+      "Range Rover Sport TDV6 and SDV6 engines - across both the L320 and L494 generations - commonly show timing chain tensioner wear, injector seal leaks, and crankshaft bearing wear over time. We replace timing chains, tensioners, injector seals, and gaskets as standard on every TDV6 and SDV6 rebuild.",
       "The later, current-generation L461 Range Rover Sport uses a more recent Ingenium 3.0-litre diesel engine, which does not share this specific pattern."
     ],
     "source": "Source: widely documented Land Rover specialist pattern, per VRF-landrover-range-rover-sport.md. L461 Ingenium diesel explicitly excluded from this claim per VRF"

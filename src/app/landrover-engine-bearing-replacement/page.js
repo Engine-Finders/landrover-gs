@@ -8,7 +8,7 @@ const FAQ = (data.sections || []).filter((s) => s.kind === "faq").flatMap((s) =>
 
 export const metadata = {
   title: "Land Rover Engine Bearing Replacement | Land Rover Garage",
-  description: "Professional Land Rover engine bearing replacement service — main bearings, big-end bearings, thrust washers. Available for Defender, Discovery, Range Rover.",
+  description: "Professional Land Rover engine bearing replacement service - main bearings, big-end bearings, thrust washers. Available for Defender, Discovery, Range Rover.",
   alternates: { canonical: PATH },
 };
 

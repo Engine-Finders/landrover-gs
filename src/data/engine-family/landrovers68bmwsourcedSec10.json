@@ -11,7 +11,7 @@
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The S68 appears in three Land Rover models — the Defender Octa, Range Rover SV and Range Rover Sport SV — all from 2024-present."
+      "body": "The S68 appears in three Land Rover models - the Defender Octa, Range Rover SV and Range Rover Sport SV - all from 2024-present."
     },
     {
       "icon": "wrench",
@@ -21,18 +21,18 @@
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "Turbocharger problems due to oil starvation are a known characteristic of the S68 V8 BiTurbo — the twin-turbo configuration can develop bearing damage from inadequate lubrication. Oil starvation is a frequent cause, especially after hot shutdown without a cool-down phase. Increased oil consumption is also a known characteristic of this engine. The hot-vee design (similar to BMW's N63) means heat-related component degradation is possible. We don't treat the S68 as having a universal failure mode — diagnosis is required to establish whether an engine needs repair, rebuild or replacement."
+      "body": "Turbocharger problems due to oil starvation are a known characteristic of the S68 V8 BiTurbo - the twin-turbo configuration can develop bearing damage from inadequate lubrication. Oil starvation is a frequent cause, especially after hot shutdown without a cool-down phase. Increased oil consumption is also a known characteristic of this engine. The hot-vee design (similar to BMW's N63) means heat-related component degradation is possible. We don't treat the S68 as having a universal failure mode - diagnosis is required to establish whether an engine needs repair, rebuild or replacement."
     }
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed S68 (BMW-sourced) rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed S68 (BMW-sourced) rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER S68 (BMW-sourced) REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "The S68 uses BMW's hot-vee architecture, with the twin turbochargers positioned inside the V of the engine — a design that adds complexity to accessing certain components. Oil starvation is a known concern for the turbochargers, particularly after hot shutdown without a proper cool-down phase. The 48V mild-hybrid system adds additional ancillary components that we account for during a full strip-down and rebuild. The 4.4-litre twin-turbo V8 produces up to 626-635 hp in Land Rover applications, and the rebuild process accounts for the specific BMW M-sourced engine architecture.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "body": "The S68 uses BMW's hot-vee architecture, with the twin turbochargers positioned inside the V of the engine - a design that adds complexity to accessing certain components. Oil starvation is a known concern for the turbochargers, particularly after hot shutdown without a proper cool-down phase. The 48V mild-hybrid system adds additional ancillary components that we account for during a full strip-down and rebuild. The 4.4-litre twin-turbo V8 produces up to 626-635 hp in Land Rover applications, and the rebuild process accounts for the specific BMW M-sourced engine architecture.",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing chain assembly, valve seals, coolant system components, main bearings, connecting rod bearings, complete gasket and seal set, 48V MHEV component inspection"

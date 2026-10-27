@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover P460e ENGINE",
     "paragraphs": [
-      "The Range Rover P460e is part of the current L460 generation, introduced in 2022. It uses the AJ300 turbo PHEV I6 — a 3.0-litre petrol plug-in hybrid unit that pairs the Ingenium six-cylinder engine with a 105kW electric motor. The P460e badge tracks its power output tier, sitting alongside the P440e, P510e and P550e within the same engine family across the plug-in hybrid Range Rover range."
+      "The Range Rover P460e is part of the current L460 generation, introduced in 2022. It uses the AJ300 turbo PHEV I6 - a 3.0-litre petrol plug-in hybrid unit that pairs the Ingenium six-cylinder engine with a 105kW electric motor. The P460e badge tracks its power output tier, sitting alongside the P440e, P510e and P550e within the same engine family across the plug-in hybrid Range Rover range."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300 turbo PHEV I6 engines for every Range Rover P460e on the road."
   },
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover P460e ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+    "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,9 +68,9 @@
     "rows": [
       {
         "generation": "L460",
-        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+        "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L460",
-        "years": "2022–present",
+        "years": "2022-present",
         "engineCode": "AJ300 turbo PHEV I6",
         "fuel": "Petrol Plug-in Hybrid"
       }

@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery P400 ENGINE",
     "paragraphs": [
-      "The Discovery P400 is part of the fifth-generation Discovery range (D5, codename L462), introduced in 2017 and continuing through to the present day. The P400 uses the Ingenium AJ300P — a 3.0-litre inline-six petrol engine with mild-hybrid technology. It sits above the P360 in the Discovery petrol range, offering higher output while sharing the same basic Ingenium architecture. As with all modern Ingenium petrol engines, the AJ300P is generally regarded as more reliable than its diesel counterparts, though cooling system maintenance remains important."
+      "The Discovery P400 is part of the fifth-generation Discovery range (D5, codename L462), introduced in 2017 and continuing through to the present day. The P400 uses the Ingenium AJ300P - a 3.0-litre inline-six petrol engine with mild-hybrid technology. It sits above the P360 in the Discovery petrol range, offering higher output while sharing the same basic Ingenium architecture. As with all modern Ingenium petrol engines, the AJ300P is generally regarded as more reliable than its diesel counterparts, though cooling system maintenance remains important."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300P (Ingenium 3.0L I6) engines for every Discovery P400 on the road."
   },
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery P400 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+    "image": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "Discovery 5",
-        "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+        "image": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
         "chassis": "L462",
-        "years": "2017–present",
+        "years": "2017-present",
         "engineCode": "AJ300P",
         "fuel": "Petrol MHEV",
         "codeHref": "/landrover-aj300p-engine"

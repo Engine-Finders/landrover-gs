@@ -78,7 +78,7 @@ export default function QuoteForm({ plate = false, source = "quote-form", onDone
   if (status === "success") {
     return (
       <p role="status" className="rounded-xl bg-hero-blue/10 p-6 text-center text-base font-bold text-hero-blue">
-        Thanks — your request has been sent. We&apos;ll be in touch shortly.
+        Thanks - your request has been sent. We&apos;ll be in touch shortly.
       </p>
     );
   }
@@ -166,7 +166,7 @@ export default function QuoteForm({ plate = false, source = "quote-form", onDone
       </button>
 
       <p className={`text-center text-xs text-black/55 ${plate ? "hidden sm:block" : ""}`}>
-        We typically respond within 2 hours during business hours (Mon–Fri 9am–6pm, Sat 11am–2pm).
+        We typically respond within 2 hours during business hours (Mon-Fri 9am-6pm, Sat 11am-2pm).
       </p>
     </form>
   );

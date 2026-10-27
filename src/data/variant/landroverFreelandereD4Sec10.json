@@ -18,7 +18,7 @@
         "codeHighlight": "Ford Duratorq",
         "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
         "codeRest": "(L359)",
-        "body": "A 2.2-litre four-cylinder diesel fitted to the Freelander eD4 from 2006 to 2014 (L359 generation). Known for injector failure and DPF clogging over time — see the callout above. We replace injectors, the EGR valve and the timing belt as standard on every Duratorq rebuild.",
+        "body": "A 2.2-litre four-cylinder diesel fitted to the Freelander eD4 from 2006 to 2014 (L359 generation). Known for injector failure and DPF clogging over time - see the callout above. We replace injectors, the EGR valve and the timing belt as standard on every Duratorq rebuild.",
         "cta": "Check Your Ford Duratorq Freelander eD4",
         "codeHref": "/landrover-ford-duratorq-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Freelander eD4 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
+    "image": "/cars/card/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L359",
-        "image": "/cars/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
+        "image": "/cars/card/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
         "chassis": "L359",
-        "years": "2006–2014",
+        "years": "2006-2014",
         "engineCode": "Ford Duratorq",
         "fuel": "Diesel",
         "codeHref": "/landrover-ford-duratorq-engine"

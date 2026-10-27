@@ -8,13 +8,13 @@
   "cards": [
     {
       "code": "AJ41",
-      "generation": "D1/L318 (1989–1998)",
+      "generation": "D1/L318 (1989-1998)",
       "price": "£4,500",
       "codeHref": "/landrover-aj41-engine"
     },
     {
       "code": "AJ41",
-      "generation": "D2/L318 facelift (1998–2004)",
+      "generation": "D2/L318 facelift (1998-2004)",
       "price": "£4,500",
       "codeHref": "/landrover-aj41-engine"
     }
@@ -22,7 +22,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -36,8 +36,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Discovery V8 has the AJ41 (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ41 rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ41 rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

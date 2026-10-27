@@ -4,7 +4,7 @@
   "faqLeft": [
     {
       "q": "Do you rebuild engines for all Range Rover Evoque models?",
-      "a": "Yes — we rebuild and replace engines across both Evoque generations, from the L538 up to the current L551."
+      "a": "Yes - we rebuild and replace engines across both Evoque generations, from the L538 up to the current L551."
     },
     {
       "q": "Do I keep my original engine, or do you send me a different one?",
@@ -30,10 +30,10 @@
     },
     {
       "q": "How much does a Range Rover Evoque engine rebuild cost?",
-      "a": "Rebuilds start from £2,200 across the Evoque range, whether Ingenium diesel, Ingenium petrol, or the earlier Ford Duratorq diesel. Exact price depends on engine code and condition — submit your reg for a fixed-price quote."
+      "a": "Rebuilds start from £2,200 across the Evoque range, whether Ingenium diesel, Ingenium petrol, or the earlier Ford Duratorq diesel. Exact price depends on engine code and condition - submit your reg for a fixed-price quote."
     },
     {
-      "q": "My Evoque is a pre-2016 model — does that change anything?",
+      "q": "My Evoque is a pre-2016 model - does that change anything?",
       "a": "It might. Pre-2016 Evoques were fitted with the Ford Duratorq diesel rather than Land Rover's own Ingenium engine, and that unit has its own known pattern of injector seal leaks and EGR clogging. Submit your reg and we'll confirm exactly which engine your car has before quoting."
     }
   ],

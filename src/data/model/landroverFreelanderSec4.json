@@ -2,7 +2,7 @@
   "kicker": "Full Breakdown",
   "headlinePre": "Land Rover Freelander",
   "headlineHighlight": "Engine Rebuild Price Guide",
-  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide — request a free quote for an exact fixed price on your specific engine.",
+  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide - request a free quote for an exact fixed price on your specific engine.",
   "columns": [
     "Engine Code",
     "Fuel",
@@ -15,7 +15,7 @@
       "fuel": "Petrol I4",
       "size": "1.8L",
       "chassis": "L314",
-      "range": "£1,900 – £2,600",
+      "range": "£1,900 - £2,600",
       "familyHref": "/landrover-rover-k-series-engine"
     },
     {
@@ -23,7 +23,7 @@
       "fuel": "Diesel I4",
       "size": "2.0L",
       "chassis": "L314 / L359",
-      "range": "£1,900 – £2,700",
+      "range": "£1,900 - £2,700",
       "familyHref": "/landrover-m47d20-bmw-sourced-engine"
     },
     {
@@ -31,7 +31,7 @@
       "fuel": "Diesel I4",
       "size": "2.2L",
       "chassis": "L359 (eD4/SD4)",
-      "range": "£1,900 – £2,700",
+      "range": "£1,900 - £2,700",
       "familyHref": "/landrover-ford-duratorq-engine"
     },
     {
@@ -39,7 +39,7 @@
       "fuel": "Petrol I4",
       "size": "2.0L",
       "chassis": "L359 (Si4)",
-      "range": "£1,900 – £2,600",
+      "range": "£1,900 - £2,600",
       "familyHref": "/landrover-ford-ecoboost-engine"
     }
   ],

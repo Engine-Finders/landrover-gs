@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender P400 ENGINE",
     "paragraphs": [
-      "The Defender P400 uses the AJ300P — a 3.0-litre inline-six petrol engine from Jaguar Land Rover's Ingenium family, fitted to the L663-generation Defender from 2019 onwards. It's a mild-hybrid (MHEV) unit, meaning it pairs the combustion engine with a 48V electrical system that supports stop-start, coasting and a small power boost. The DC-DC converter that manages the 12V/48V interface is a known failure point, which is why we replace it as standard on every P400 rebuild. The P400 sits above the P300 in the Defender petrol range and shares its engine family with the P400e plug-in hybrid (discontinued after 2020)."
+      "The Defender P400 uses the AJ300P - a 3.0-litre inline-six petrol engine from Jaguar Land Rover's Ingenium family, fitted to the L663-generation Defender from 2019 onwards. It's a mild-hybrid (MHEV) unit, meaning it pairs the combustion engine with a 48V electrical system that supports stop-start, coasting and a small power boost. The DC-DC converter that manages the 12V/48V interface is a known failure point, which is why we replace it as standard on every P400 rebuild. The P400 sits above the P300 in the Defender petrol range and shares its engine family with the P400e plug-in hybrid (discontinued after 2020)."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300P engines for every Defender P400 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "AJ300P",
         "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
         "codeRest": "(L663)",
-        "body": "A 3.0-litre inline-six petrol MHEV fitted to the Defender P400 from 2019 to present (L663 generation). Known for DC-DC converter failure — see the callout above. We replace the DC-DC converter, timing chains, bearings and gaskets as standard on every rebuild.",
+        "body": "A 3.0-litre inline-six petrol MHEV fitted to the Defender P400 from 2019 to present (L663 generation). Known for DC-DC converter failure - see the callout above. We replace the DC-DC converter, timing chains, bearings and gaskets as standard on every rebuild.",
         "cta": "Check Your AJ300P Defender P400",
         "codeHref": "/landrover-aj300p-engine"
       }
@@ -27,7 +27,7 @@
   "compatibility": {
     "titlePre": "Land Rover Defender P400 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the Defender P400's AJ300P is a mild-hybrid unit with a 48V electrical system, compatibility isn't just about the engine block — the DC-DC converter, wiring and ancillaries all need to match your exact build specification. Before we quote or supply anything, we confirm:",
+    "intro": "Because the Defender P400's AJ300P is a mild-hybrid unit with a 48V electrical system, compatibility isn't just about the engine block - the DC-DC converter, wiring and ancillaries all need to match your exact build specification. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender P400 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+    "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+        "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "L663",
-        "years": "2019–present",
+        "years": "2019-present",
         "engineCode": "AJ300P",
         "fuel": "Petrol MHEV",
         "codeHref": "/landrover-aj300p-engine"

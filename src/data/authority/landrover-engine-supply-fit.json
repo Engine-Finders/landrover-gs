@@ -1,9 +1,9 @@
 {
   "slug": "landrover-engine-supply-fit",
   "metaTitle": "Land Rover Engine Supply & Fit | Land Rover Garage",
-  "metaDescription": "Land Rover engine supply and fit service — we source the correct replacement engine and professionally install it at our Essex workshop. Single-point responsibility, full warranty.",
+  "metaDescription": "Land Rover engine supply and fit service - we source the correct replacement engine and professionally install it at our Essex workshop. Single-point responsibility, full warranty.",
   "h1": "Land Rover Engine Supply & Fit",
-  "lede": "We source the correct replacement engine for your Land Rover and fit it at our Essex workshop — one point of responsibility from specification to handover.",
+  "lede": "We source the correct replacement engine for your Land Rover and fit it at our Essex workshop - one point of responsibility from specification to handover.",
   "ctas": [
     {
       "label": "Get a Quote",
@@ -40,7 +40,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "We handle both the sourcing of a replacement Land Rover engine and its professional installation. This gives you a single point of responsibility for the entire job — you don't need to source an engine yourself and then find a workshop willing to fit a customer-supplied unit."
+          "html": "We handle both the sourcing of a replacement Land Rover engine and its professional installation. This gives you a single point of responsibility for the entire job - you don't need to source an engine yourself and then find a workshop willing to fit a customer-supplied unit."
         },
         {
           "t": "p",
@@ -50,10 +50,10 @@
           "t": "ul",
           "items": [
             "Engine identification by registration, VIN, model year and engine code",
-            "Sourcing the correct replacement engine from vetted UK suppliers — same engine code, same power output, same emission standard",
+            "Sourcing the correct replacement engine from vetted UK suppliers - same engine code, same power output, same emission standard",
             "Inspection of the replacement engine on arrival for specification, condition and fitment points",
             "Professional removal of your existing engine",
-            "Preparation of the replacement engine — transferring ancillaries, fitting new seals and gaskets, setting timing",
+            "Preparation of the replacement engine - transferring ancillaries, fitting new seals and gaskets, setting timing",
             "Full installation, reconnection of all systems, and final testing"
           ]
         },
@@ -65,7 +65,7 @@
     },
     {
       "kind": "prose",
-      "heading": "Land Rover Engine Supply & Fit — Starting Prices",
+      "heading": "Land Rover Engine Supply & Fit - Starting Prices",
       "blocks": [
         {
           "t": "callout",
@@ -87,7 +87,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "We supply and fit replacement engines for the full Land Rover range — classic and modern. The correct engine specification is determined by registration and VIN."
+          "html": "We supply and fit replacement engines for the full Land Rover range - classic and modern. The correct engine specification is determined by registration and VIN."
         },
         {
           "t": "modelgroup",
@@ -354,12 +354,12 @@
         {
           "t": "ul",
           "items": [
-            "**Single point of responsibility** — we handle both engine sourcing and fitting, so you're not managing two separate suppliers",
-            "**Correct engine specification every time** — matched by registration and VIN, not by guesswork",
-            "**Vetted UK supply chain** — replacement engines are inspected on arrival for specification, condition and fitment",
-            "**12-month unlimited-mileage warranty** — covering both the supplied engine and our installation work",
-            "**Full workshop facility** — engine stand, parts cleaning station, diagnostic equipment and road-test capability",
-            "**Nationwide recovery available** — we can recover your vehicle to our Essex workshop if needed"
+            "**Single point of responsibility** - we handle both engine sourcing and fitting, so you're not managing two separate suppliers",
+            "**Correct engine specification every time** - matched by registration and VIN, not by guesswork",
+            "**Vetted UK supply chain** - replacement engines are inspected on arrival for specification, condition and fitment",
+            "**12-month unlimited-mileage warranty** - covering both the supplied engine and our installation work",
+            "**Full workshop facility** - engine stand, parts cleaning station, diagnostic equipment and road-test capability",
+            "**Nationwide recovery available** - we can recover your vehicle to our Essex workshop if needed"
           ]
         },
         {
@@ -378,7 +378,7 @@
         },
         {
           "title": "We identify the correct engine",
-          "body": "Using your registration and VIN, we confirm the exact engine specification required — engine code, power output and emissions standard."
+          "body": "Using your registration and VIN, we confirm the exact engine specification required - engine code, power output and emissions standard."
         },
         {
           "title": "We source the replacement engine",
@@ -401,10 +401,10 @@
         {
           "t": "ul",
           "items": [
-            "[Land Rover Engine Rebuild](/landrover-engine-rebuild) — full rebuild of your existing engine",
-            "[Land Rover Engine Replacement](/landrover-engine-replacement) — replacement using a pre-supplied engine",
-            "[Nationwide Engine Recovery](/landrover-engine-recovery) — recover your vehicle to our workshop",
-            "[Engine Matching by Registration & VIN](/landrover-engine-matching) — confirm the correct specification",
+            "[Land Rover Engine Rebuild](/landrover-engine-rebuild) - full rebuild of your existing engine",
+            "[Land Rover Engine Replacement](/landrover-engine-replacement) - replacement using a pre-supplied engine",
+            "[Nationwide Engine Recovery](/landrover-engine-recovery) - recover your vehicle to our workshop",
+            "[Engine Matching by Registration & VIN](/landrover-engine-matching) - confirm the correct specification",
             "[Engine Compatibility & Application Matching](/landrover-engine-compatibility)",
             "[Trade & Fleet Engine Services](/landrover-trade-fleet-engines)"
           ]
@@ -413,7 +413,7 @@
     },
     {
       "kind": "faq",
-      "heading": "Frequently Asked Questions — Land Rover Engine Supply & Fit",
+      "heading": "Frequently Asked Questions - Land Rover Engine Supply & Fit",
       "items": [
         {
           "q": "How do you determine the correct replacement engine for my Land Rover?",
@@ -425,7 +425,7 @@
         },
         {
           "q": "Do you fit customer-supplied engines?",
-          "a": "No — we supply and fit the replacement engine ourselves. This gives you a single point of responsibility and ensures the engine specification has been correctly matched to your vehicle. We don't fit engines supplied by the customer."
+          "a": "No - we supply and fit the replacement engine ourselves. This gives you a single point of responsibility and ensures the engine specification has been correctly matched to your vehicle. We don't fit engines supplied by the customer."
         },
         {
           "q": "What warranty do you offer on a supplied and fitted engine?",
@@ -433,11 +433,11 @@
         },
         {
           "q": "How long does the supply and fit process take?",
-          "a": "The typical turnaround is 1–2 weeks from vehicle arrival, but this depends on sourcing time for the correct replacement engine. We'll give you a realistic timescale when we quote."
+          "a": "The typical turnaround is 1-2 weeks from vehicle arrival, but this depends on sourcing time for the correct replacement engine. We'll give you a realistic timescale when we quote."
         },
         {
           "q": "Can you recover my Land Rover to your workshop?",
-          "a": "Yes — we offer nationwide recovery from £70. Most vehicles are recovered within a few hours of booking."
+          "a": "Yes - we offer nationwide recovery from £70. Most vehicles are recovered within a few hours of booking."
         }
       ]
     }

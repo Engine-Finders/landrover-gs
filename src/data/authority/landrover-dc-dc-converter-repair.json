@@ -40,7 +40,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "The DC-DC converter is a critical component of the 48-volt mild-hybrid system on Land Rover Ingenium MHEV vehicles. It converts 48V to 12V, powering the standard electrical systems including lights, infotainment, and engine control modules. When the converter fails, the entire 12V electrical system can shut down — sometimes while driving."
+          "html": "The DC-DC converter is a critical component of the 48-volt mild-hybrid system on Land Rover Ingenium MHEV vehicles. It converts 48V to 12V, powering the standard electrical systems including lights, infotainment, and engine control modules. When the converter fails, the entire 12V electrical system can shut down - sometimes while driving."
         },
         {
           "t": "p",
@@ -148,7 +148,7 @@
               "href": "/landrover-discovery-sport-d200-engines"
             }
           ],
-          "note": "MHEV variant: [D200](/landrover-discovery-sport-d200-engines) (2020–present)"
+          "note": "MHEV variant: [D200](/landrover-discovery-sport-d200-engines) (2020-present)"
         },
         {
           "t": "modelgroup",
@@ -220,7 +220,7 @@
               "href": "/range-rover-evoque-engines"
             }
           ],
-          "note": "MHEV variant: [D200](/range-rover-evoque-engines) (2020–present)"
+          "note": "MHEV variant: [D200](/range-rover-evoque-engines) (2020-present)"
         },
         {
           "t": "p",
@@ -257,12 +257,12 @@
         {
           "t": "ul",
           "items": [
-            "**JLR-specific diagnostics** — we use genuine Land Rover diagnostic equipment (SDD/Pathfinder/TOPix) to confirm faults and verify repairs.",
-            "**High-voltage safety** — our technicians follow strict 48V system isolation procedures, with proper safety equipment and training.",
-            "**Genuine parts only** — we replace the DC-DC converter with new, genuine Land Rover components. Aftermarket or used parts are not a reliable option.",
-            "**Established workshop** — based in Billericay, Essex, serving Land Rover owners across the UK since 2009. [About Us](/about)",
-            "**Fixed-price quotes** — we quote after inspection, so there are no surprises. [Get a quote](/get-quote)",
-            "**Nationwide recovery** — if your vehicle is off the road, we can arrange recovery directly to our workshop. [Learn more](/landrover-engine-recovery)"
+            "**JLR-specific diagnostics** - we use genuine Land Rover diagnostic equipment (SDD/Pathfinder/TOPix) to confirm faults and verify repairs.",
+            "**High-voltage safety** - our technicians follow strict 48V system isolation procedures, with proper safety equipment and training.",
+            "**Genuine parts only** - we replace the DC-DC converter with new, genuine Land Rover components. Aftermarket or used parts are not a reliable option.",
+            "**Established workshop** - based in Billericay, Essex, serving Land Rover owners across the UK since 2009. [About Us](/about)",
+            "**Fixed-price quotes** - we quote after inspection, so there are no surprises. [Get a quote](/get-quote)",
+            "**Nationwide recovery** - if your vehicle is off the road, we can arrange recovery directly to our workshop. [Learn more](/landrover-engine-recovery)"
           ]
         }
       ]
@@ -337,7 +337,7 @@
         },
         {
           "q": "How long does a DC-DC converter replacement take?",
-          "a": "The replacement typically takes 3–5 hours, including system de-energisation, removal, installation, and full JLR diagnostic testing. The exact duration depends on the specific model and access to the converter."
+          "a": "The replacement typically takes 3-5 hours, including system de-energisation, removal, installation, and full JLR diagnostic testing. The exact duration depends on the specific model and access to the converter."
         },
         {
           "q": "Do you offer a warranty on the replacement?",

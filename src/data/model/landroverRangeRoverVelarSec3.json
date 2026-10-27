@@ -4,12 +4,13 @@
   "startingFromLabel": "Starting From:",
   "image": "/model/sec3.webp",
   "imageMobile": "/model/sec3_mobile.webp",
-  "cardImage": "/model/engine_trim.webp",
+  "cardImage": "/engines/card3-engine-trim.webp",
   "cards": [
     {
       "titlePre": "4-Cylinder",
       "titleHighlight": "",
-      "code": "(Ingenium AJ200D / AJ200P)", "image": "/engines/jaguar-aj200d-engine.webp",
+      "code": "(Ingenium AJ200D / AJ200P)",
+      "image": "/engines/card3-jaguar-aj200d-engine.webp",
       "price": "£2,200",
       "featured": false,
       "codeHref": "/landrover-aj200d-engine"
@@ -17,14 +18,15 @@
     {
       "titlePre": "6-Cylinder",
       "titleHighlight": "",
-      "code": "(Ingenium AJ300D / AJ300P)", "image": "/engines/jaguar-d300-engine.webp",
+      "code": "(Ingenium AJ300D / AJ300P)",
+      "image": "/engines/card3-jaguar-d300-engine.webp",
       "price": "£3,200",
       "featured": false,
       "codeHref": "/landrover-aj300d-engine"
     },
     {
       "titlePre": "V8 Supercharged",
-      "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
+      "image": "/engines/card3-land-rover-jlr-aj133-engine-hero.webp",
       "titleHighlight": "",
       "code": "(SVAutobiography Dynamic Edition)",
       "price": "£5,500",
@@ -36,10 +38,11 @@
       "titleHighlight": "",
       "code": "",
       "price": "from £70",
-      "featured": false
+      "featured": false,
+      "icon": "truck"
     }
   ],
-  "disclaimer": "Exact price depends on engine code, condition and parts required — full pricing further down this page.",
+  "disclaimer": "Exact price depends on engine code, condition and parts required - full pricing further down this page.",
   "cta": {
     "line1": "Get Your Fixed-Price Quote",
     "line2": "In Under 30 Minutes",

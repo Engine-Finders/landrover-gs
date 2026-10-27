@@ -79,7 +79,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "This service applies to all Land Rover models that we work on. The recovery process is tailored to the specific requirements of each vehicle — from classic Defenders to the latest L663 and L460 models."
+          "html": "This service applies to all Land Rover models that we work on. The recovery process is tailored to the specific requirements of each vehicle - from classic Defenders to the latest L663 and L460 models."
         },
         {
           "t": "linkgrid",
@@ -123,11 +123,11 @@
         {
           "t": "ul",
           "items": [
-            "**Nationwide coverage** — we recover your Land Rover from anywhere in the UK.",
-            "**Rapid response** — most vehicles are recovered within a few hours of booking.",
-            "**Specialist equipment** — our fleet is equipped for heavy, 4WD Land Rover vehicles, including air-suspension models.",
-            "**Workshop-ready** — your vehicle arrives directly at our fully equipped engine workshop in Essex.",
-            "**Experienced Land Rover specialists** — our team understands the specific recovery requirements of every model."
+            "**Nationwide coverage** - we recover your Land Rover from anywhere in the UK.",
+            "**Rapid response** - most vehicles are recovered within a few hours of booking.",
+            "**Specialist equipment** - our fleet is equipped for heavy, 4WD Land Rover vehicles, including air-suspension models.",
+            "**Workshop-ready** - your vehicle arrives directly at our fully equipped engine workshop in Essex.",
+            "**Experienced Land Rover specialists** - our team understands the specific recovery requirements of every model."
           ]
         },
         {
@@ -157,7 +157,7 @@
       "items": [
         {
           "q": "How long does recovery take?",
-          "a": "Most vehicles are recovered within a few hours of booking during working hours. Response times vary by location — we aim to get your Land Rover to our workshop as quickly as possible."
+          "a": "Most vehicles are recovered within a few hours of booking during working hours. Response times vary by location - we aim to get your Land Rover to our workshop as quickly as possible."
         },
         {
           "q": "What areas do you cover?",

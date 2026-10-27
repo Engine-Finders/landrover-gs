@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,800",
   "engineImage": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
-  "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+  "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
   "cards": [
     {
       "code": "AJ300P",
       "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
-      "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
-      "generation": "L663 (2019–present)",
+      "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+      "generation": "L663 (2019-present)",
       "price": "£2,800",
       "codeHref": "/landrover-aj300p-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,7 +31,7 @@
     "titlePre": "Land Rover Defender P400 DC-DC Converter Failure ",
     "titleHighlight": "(MHEV)",
     "paragraphs": [
-      "If your Defender P400 is a mild-hybrid model — which all P400s are — the DC-DC converter is a known single point of failure for the entire 12V electrical system. Failure can cause complete loss of electrical power, sometimes while driving. We replace the DC-DC converter as standard on every P400 rebuild, along with timing chains, bearings and gaskets.",
+      "If your Defender P400 is a mild-hybrid model - which all P400s are - the DC-DC converter is a known single point of failure for the entire 12V electrical system. Failure can cause complete loss of electrical power, sometimes while driving. We replace the DC-DC converter as standard on every P400 rebuild, along with timing chains, bearings and gaskets.",
       "The P300 Defender (non-MHEV petrol) is NOT affected by this issue, as it doesn't use the same mild-hybrid system."
     ],
     "source": "Source: verified via specialist buying guide (l663.guide), independently corroborated, per VRF-landrover-defender.md. P300 explicitly excluded from this claim per VRF"

@@ -21,7 +21,7 @@ function withEmphasis(text) {
 export default function ModelSec4({ data }) {
   const [disclaimerLine1, disclaimerLine2] = data.disclaimer.split(/(?<=components\.)\s+/);
   const hasChassis = data.columns.length > 4;
-  // minmax(0,…) so every row (each its own grid) gets identical column widths — a bare `fr`
+  // minmax(0,…) so every row (each its own grid) gets identical column widths - a bare `fr`
   // track grows to fit its longest word, which made rows like "Classic (90/110/130)" misalign
   const mobileGridCols = hasChassis
     ? "grid-cols-[minmax(0,1.1fr)_minmax(0,0.65fr)_minmax(0,0.75fr)_minmax(0,0.8fr)_minmax(0,0.95fr)]"

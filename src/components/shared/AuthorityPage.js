@@ -44,7 +44,7 @@ function inline(text, keyBase) {
   return nodes;
 }
 
-/* offset gold frame around an image — the "fancy touch", kept cheap */
+/* offset gold frame around an image - the "fancy touch", kept cheap */
 function FramedImage({ src, alt, className = "", contain = false, backdrop }) {
   return (
     <div className={`relative ${className}`}>
@@ -159,7 +159,7 @@ function Blocks({ blocks }) {
                         ) : (
                           <span className="font-semibold text-[#101828]">{c.label}</span>
                         )}
-                        {c.desc ? <> &mdash; {c.desc}</> : null}
+                        {c.desc ? <> - {c.desc}</> : null}
                       </span>
                     </li>
                   ))}
@@ -391,7 +391,7 @@ export default function AuthorityPage({ data }) {
             </div>
             {imgs[0] ? (
               <div className="mx-auto mt-10 w-[88%] max-w-md lg:hidden">
-                <FramedImage src={heroPart || imgs[0]} alt={`${data.h1} — Land Rover Garage workshop`} contain={!!heroPart} backdrop={imgs[0]} />
+                <FramedImage src={heroPart || imgs[0]} alt={`${data.h1} - Land Rover Garage workshop`} contain={!!heroPart} backdrop={imgs[0]} />
               </div>
             ) : null}
             {data.stats?.length ? (
@@ -407,7 +407,7 @@ export default function AuthorityPage({ data }) {
           </div>
           {imgs[0] ? (
             <div className="hidden lg:block">
-              <FramedImage src={heroPart || imgs[0]} alt={`${data.h1} — Land Rover Garage workshop`} contain={!!heroPart} backdrop={imgs[0]} />
+              <FramedImage src={heroPart || imgs[0]} alt={`${data.h1} - Land Rover Garage workshop`} contain={!!heroPart} backdrop={imgs[0]} />
             </div>
           ) : null}
         </div>

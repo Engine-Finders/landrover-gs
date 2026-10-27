@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "In the Defender (L316), the M47D20 was fitted as the Td4 between 2002 and 2006. In the Freelander 1 (L314), it was fitted as the TD4 between 2000 and 2006 — one of the engine options during that model's production run.",
+    "body": "In the Defender (L316), the M47D20 was fitted as the Td4 between 2002 and 2006. In the Freelander 1 (L314), it was fitted as the TD4 between 2000 and 2006 - one of the engine options during that model's production run.",
     "lineup": [
       {
         "label": "Defender",
@@ -34,7 +34,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "The M47D20 is a BMW engine, not a JLR-designed engine. While the base engine is shared with BMW applications, the specific ancillaries and mounting differ by Land Rover application. Registration/VIN matching is required — M47D20 variants differ by power output (82 kW / 112 hp) and the specific vehicle installation.",
+    "body": "The M47D20 is a BMW engine, not a JLR-designed engine. While the base engine is shared with BMW applications, the specific ancillaries and mounting differ by Land Rover application. Registration/VIN matching is required - M47D20 variants differ by power output (82 kW / 112 hp) and the specific vehicle installation.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -45,7 +45,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "2000–2006 (Land Rover applications)"
+        "text": "2000-2006 (Land Rover applications)"
       },
       {
         "icon": "engine",
@@ -65,10 +65,10 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "M47D20 in the Defender (L316) — Td4 (2002–2006)",
+        "heading": "M47D20 in the Defender (L316) - Td4 (2002-2006)",
         "model": "Defender",
         "chassis": "L316",
-        "years": "2002–2006",
+        "years": "2002-2006",
         "variant": "Td4",
         "body": "The M47D20 in the Defender is one of the applications we work on regularly. It was fitted as the Td4 between 2002 and 2006.",
         "price": "£1,900",
@@ -77,13 +77,13 @@
         "powertrain": "Diesel",
         "href": "/landrover-defender-td4-engines",
         "title": "M47D20 (BMW-Sourced) in the Defender",
-        "subtitle": "(L316, 2002–2006)"
+        "subtitle": "(L316, 2002-2006)"
       },
       {
-        "heading": "M47D20 in the Freelander (L314) — TD4 (2000–2006)",
+        "heading": "M47D20 in the Freelander (L314) - TD4 (2000-2006)",
         "model": "Freelander",
         "chassis": "L314",
-        "years": "2000–2006",
+        "years": "2000-2006",
         "variant": "TD4",
         "body": "The M47D20 in the Freelander is one of the applications we work on regularly. It was fitted as the TD4 between 2000 and 2006.",
         "price": "£1,900",
@@ -92,7 +92,7 @@
         "powertrain": "Diesel",
         "href": "/landrover-freelander-td4-engines",
         "title": "M47D20 (BMW-Sourced) in the Freelander",
-        "subtitle": "(L314, 2000–2006)"
+        "subtitle": "(L314, 2000-2006)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

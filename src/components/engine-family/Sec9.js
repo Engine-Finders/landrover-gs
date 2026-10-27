@@ -3,7 +3,7 @@ import EdgeFade from "@/components/reusable/EdgeFade";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import Icon from "@/components/reusable/Icon";
 
-// short gold dash rule under each title (reference: "— — —")
+// short gold dash rule under each title (reference: "- - -")
 function GoldDash({ className = "" }) {
   return (
     <span className={`flex items-center gap-1 ${className}`} aria-hidden="true">
@@ -107,7 +107,7 @@ export default function Sec9({ data }) {
       <section className="theme-dark relative overflow-hidden bg-[#0d0f0d]">
         {/* ===== mobile ===== */}
         <div className="relative aspect-[3/2] w-full overflow-hidden md:hidden">
-          <Image src={byModel.imageMobile} alt={`Land Rover Defender — ${code} application`} fill className="object-cover object-center" sizes="100vw" />
+          <Image src={byModel.imageMobile} alt={`Land Rover Defender - ${code} application`} fill className="object-cover object-center" sizes="100vw" />
           <EdgeFade color="#0d0f0d" top="h-10" bottom="h-16" />
         </div>
         <div className="relative px-4 pb-7 pt-5 md:hidden">
@@ -123,11 +123,11 @@ export default function Sec9({ data }) {
           <p className="mt-4 text-sm leading-relaxed text-white">{byModel.body}</p>
         </div>
 
-        {/* ===== desktop — Defender photo on the left (its right side is plain dark sky), copy right ===== */}
+        {/* ===== desktop - Defender photo on the left (its right side is plain dark sky), copy right ===== */}
         <div className="relative hidden md:block">
-          {/* full-bleed: sec9_middle is a wide panorama — Defender on the left, plain dark sky to the right */}
+          {/* full-bleed: sec9_middle is a wide panorama - Defender on the left, plain dark sky to the right */}
           <div className="absolute inset-0">
-            <Image src={byModel.image} alt={`Land Rover Defender — ${code} application`} fill className="object-cover object-left" sizes="100vw" />
+            <Image src={byModel.image} alt={`Land Rover Defender - ${code} application`} fill className="object-cover object-left" sizes="100vw" />
           </div>
           <div className="relative mx-auto grid max-w-6xl grid-cols-[minmax(0,0.85fr)_minmax(0,1fr)_auto] items-center gap-8 px-4 py-14 sm:px-6 lg:px-8">
             <span aria-hidden="true" />
@@ -187,9 +187,9 @@ export default function Sec9({ data }) {
 
         {/* ===== desktop ===== */}
         <div className="relative hidden overflow-hidden md:block">
-          {/* sec9_bottom.jpg: Defender on a highland road, white on its left — pinned right */}
+          {/* sec9_bottom.jpg: Defender on a highland road, white on its left - pinned right */}
           <div className="absolute inset-0">
-            <Image src={compatibility.image} alt={`Land Rover Defender — ${code} compatibility`} fill className="object-fill" sizes="100vw" />
+            <Image src={compatibility.image} alt={`Land Rover Defender - ${code} compatibility`} fill className="object-fill" sizes="100vw" />
           </div>
 
           <div className="relative mx-auto grid max-w-6xl grid-cols-[minmax(0,1.3fr)_minmax(0,0.85fr)_minmax(0,0.2fr)] items-center gap-10 px-4 py-14 sm:px-6 lg:px-8">

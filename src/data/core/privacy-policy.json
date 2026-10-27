@@ -45,7 +45,7 @@
     },
     {
       "type": "p",
-      "text": "We only collect personal information when you voluntarily provide it — for example, when you request a quote via our Get a Quote form, contact us by phone, email, or WhatsApp, book a service or repair, or submit a warranty claim. The types of personal data we collect include:"
+      "text": "We only collect personal information when you voluntarily provide it - for example, when you request a quote via our Get a Quote form, contact us by phone, email, or WhatsApp, book a service or repair, or submit a warranty claim. The types of personal data we collect include:"
     },
     {
       "type": "ul",
@@ -53,7 +53,7 @@
         "Full name",
         "Email address",
         "Phone number",
-        "Vehicle registration number — Note: Vehicle registration numbers are considered personal data under UK GDPR as they can be linked to an identifiable individual",
+        "Vehicle registration number - Note: Vehicle registration numbers are considered personal data under UK GDPR as they can be linked to an identifiable individual",
         "Vehicle details: Make, model, year, engine code, mileage",
         "Photos and diagnostic reports uploaded via our quote form or provided during warranty claims",
         "Enquiry details: Problem descriptions, symptoms, fault codes, and service history relevant to your request",
@@ -106,7 +106,7 @@
         "To provide accurate, no-obligation quotes for engine repairs, rebuilds, and mechanical services",
         "To arrange vehicle collection, repair, servicing, and delivery",
         "To contact you about your enquiry, booking, or ongoing repair",
-        "To process and verify warranty claims — photos, diagnostic reports, and vehicle data submitted as part of a claim are retained for verification and resolution purposes",
+        "To process and verify warranty claims - photos, diagnostic reports, and vehicle data submitted as part of a claim are retained for verification and resolution purposes",
         "To follow up on service quality or request feedback (only where you have consented)",
         "To comply with legal, tax, and regulatory obligations (including HMRC record-keeping)",
         "To improve our website, services, and customer experience",
@@ -128,7 +128,7 @@
     {
       "type": "ul",
       "items": [
-        "**Contractual necessity:** To perform the services you have requested — providing quotes, carrying out repairs, honouring warranties, and arranging collection/delivery.",
+        "**Contractual necessity:** To perform the services you have requested - providing quotes, carrying out repairs, honouring warranties, and arranging collection/delivery.",
         "**Legitimate interests:** To respond to enquiries, improve our services, prevent fraud, maintain business records, and communicate with you about your vehicle. These interests are balanced against your rights and freedoms.",
         "**Legal obligation:** To retain financial and transactional records for HMRC compliance (6 years), and to maintain warranty records for the duration of coverage plus statutory limitation periods.",
         "**Consent:** For optional data collection such as marketing communications, non-essential cookies, and photo/file uploads via our quote form. You may withdraw consent at any time."

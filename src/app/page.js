@@ -41,7 +41,7 @@ export default function Home() {
         <HomeSec7 data={homeSec7} />
       </div>
       {/* bg-(--color-light-surface) shows through Sec4_5's diagonal clip-path cut at the
-          bottom — matches Sec5 right after it instead of the page's default background. */}
+          bottom - matches Sec5 right after it instead of the page's default background. */}
       <div className="bg-(--color-light-surface)">
         <HomeSec4_5 data={homeSec4_5} />
       </div>

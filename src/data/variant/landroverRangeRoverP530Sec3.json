@@ -4,12 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£6,500",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+  "carImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
   "cards": [
     {
       "code": "BMW N63",
-      "carImage": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
-      "generation": "L460 (2022–present)",
+      "carImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+      "generation": "L460 (2022-present)",
       "price": "£6,500",
       "codeHref": "/landrover-n63-engine"
     }
@@ -17,7 +17,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -30,8 +30,8 @@
     "titlePre": "Range Rover P530 N63 Hot-Vee Pattern ",
     "titleHighlight": "(L460, BMW N63)",
     "paragraphs": [
-      "If your Range Rover P530 has the BMW N63 twin-turbo V8 — fitted to the L460 generation from 2022 onward — the N63 hot-vee design has a well-documented pattern across BMW applications. Valve seal wear, coolant line degradation and oil consumption are known considerations on this engine family. We replace timing chains, valve seals and coolant components as standard on every N63 rebuild.",
-      "The N63 is a BMW-sourced engine, and the pattern we see on the P530 is consistent with the broader N63 family experience across BMW models — cross-applicable from the BMW G-BRF N63 pattern."
+      "If your Range Rover P530 has the BMW N63 twin-turbo V8 - fitted to the L460 generation from 2022 onward - the N63 hot-vee design has a well-documented pattern across BMW applications. Valve seal wear, coolant line degradation and oil consumption are known considerations on this engine family. We replace timing chains, valve seals and coolant components as standard on every N63 rebuild.",
+      "The N63 is a BMW-sourced engine, and the pattern we see on the P530 is consistent with the broader N63 family experience across BMW models - cross-applicable from the BMW G-BRF N63 pattern."
     ],
     "source": "Source: BMW G-BRF N63 pattern, cross-applicable per VRF-landrover-range-rover.md. L460 P530 exclusively uses the BMW N63"
   }

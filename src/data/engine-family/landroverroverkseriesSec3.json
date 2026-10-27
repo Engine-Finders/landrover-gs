@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover Rover K-Series Applications — ",
+  "titlePre": "Land Rover Rover K-Series Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "1.8",
       "generation": "Freelander 1",
       "chassis": "L314",
-      "years": "1997–2006",
+      "years": "1997-2006",
       "powertrain": "Petrol",
       "modelHref": "/freelander-engines"
     }

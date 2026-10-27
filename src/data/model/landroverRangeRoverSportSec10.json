@@ -2,72 +2,72 @@
   "badge": "10",
   "headlinePre": "Most Popular",
   "headlineHighlight": "Land Rover Range Rover Sport Rebuilds",
-  "subhead": "Full variant list below covers every Land Rover Range Rover Sport engine we work on — these 10 are simply our most requested.",
-  "image": "/cars/range-rover-sport-l461-dynamic-hse-suv-2022-new-eiger-grey-l-78f7.webp",
+  "subhead": "Full variant list below covers every Land Rover Range Rover Sport engine we work on - these 10 are simply our most requested.",
+  "image": "/cars/card/range-rover-sport-l461-dynamic-hse-suv-2022-new-eiger-grey-l-78f7.webp",
   "viewMoreLabel": "View More",
-  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like.",
+  "footerNote": "Real photos from our workshop - not stock imagery. This is what a genuine rebuild looks like.",
   "cards": [
     {
       "number": "01",
       "model": "Range Rover Sport TDV6",
       "spec": "3.0L V6 Diesel (TDV6)",
-      "image": "/cars/range-rover-sport-l494-autobiography-suv-20132017-new-scotia-31c1.webp",
+      "image": "/cars/card/range-rover-sport-l494-autobiography-suv-20132017-new-scotia-31c1.webp",
       "href": "/landrover-range-rover-sport-tdv6-engines"
     },
     {
       "number": "02",
       "model": "Range Rover Sport TDV8",
       "spec": "4.4L V8 Diesel (TDV8)",
-      "image": "/cars/range-rover-sport-l494-autobiography-dynamic-suv-20132017-ne-3660.webp",
+      "image": "/cars/card/range-rover-sport-l494-autobiography-dynamic-suv-20132017-ne-3660.webp",
       "href": "/landrover-range-rover-sport-tdv8-engines"
     },
     {
       "number": "03",
       "model": "Range Rover Sport SDV6",
       "spec": "3.0L V6 Diesel (SDV6)",
-      "image": "/cars/range-rover-sport-l494-svr-performance-suv-20152018-special-214e.webp",
+      "image": "/cars/card/range-rover-sport-l494-svr-performance-suv-20152018-special-214e.webp",
       "href": "/landrover-range-rover-sport-sdv6-engines"
     },
     {
       "number": "04",
       "model": "Range Rover Sport SDV8",
       "spec": "4.4L V8 Diesel (SDV8)",
-      "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+      "image": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
       "href": "/landrover-range-rover-sport-sdv8-engines"
     },
     {
       "number": "05",
       "model": "Range Rover Sport HSE",
       "spec": "V6 / V8 (varies by spec)",
-      "image": "/cars/range-rover-sport-l461-autobiography-suv-2022-new-ostuni-whi-f46c.webp",
+      "image": "/cars/card/range-rover-sport-l461-autobiography-suv-2022-new-ostuni-whi-f46c.webp",
       "href": "/landrover-range-rover-sport-hse-engines"
     },
     {
       "number": "06",
       "model": "Range Rover Sport Autobiography Dynamic",
       "spec": "5.0L V8 Petrol Supercharged (AJ-V8)",
-      "image": "/cars/range-rover-sport-l320-autobiography-suv-20102013-new-nara-b-8dfd.webp",
+      "image": "/cars/card/range-rover-sport-l320-autobiography-suv-20102013-new-nara-b-8dfd.webp",
       "href": "/landrover-range-rover-sport-autobiography-dynamic-engines"
     },
     {
       "number": "07",
       "model": "Range Rover Sport SVR",
       "spec": "5.0L V8 Petrol Supercharged (AJ-V8)",
-      "image": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+      "image": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
       "href": "/landrover-range-rover-sport-svr-engines"
     },
     {
       "number": "08",
       "model": "Range Rover Sport P400",
       "spec": "3.0L I6 Petrol MHEV (AJ300P)",
-      "image": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+      "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
       "href": "/landrover-range-rover-sport-p400-engines"
     },
     {
       "number": "09",
       "model": "Range Rover Sport P460e",
       "spec": "3.0L I6 Petrol PHEV (AJ300P)",
-      "image": "/cars/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
+      "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
       "href": "/landrover-range-rover-sport-p460e-engines"
     },
     {

@@ -37,7 +37,7 @@
     {
       "icon": "calendar",
       "label": "Generations",
-      "value": "L314 (1997–2006)"
+      "value": "L314 (1997-2006)"
     },
     {
       "icon": "price",
@@ -47,7 +47,7 @@
   ],
   "lookup": {
     "title": "Not sure which engine you have?",
-    "body": "The Freelander 2.5 V6 uses the [MISSING: exact engine code not specified in G-BRF] 3.0-litre inline-six mild-hybrid engine — enter your registration below and we'll confirm your exact spec before you get a quote.",
+    "body": "The Freelander 2.5 V6 uses the [MISSING: exact engine code not specified in G-BRF] 3.0-litre inline-six mild-hybrid engine - enter your registration below and we'll confirm your exact spec before you get a quote.",
     "badges": [
       {
         "icon": "shield-check",

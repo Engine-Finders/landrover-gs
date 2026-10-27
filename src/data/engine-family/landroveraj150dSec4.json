@@ -33,7 +33,7 @@
       "body": "Fuel injectors, high-pressure fuel pump, PCV system, timing chain tensioners and guides, and cooling system components are all measured and inspected."
     }
   ],
-  "notice": "Components drawn directly from VRF Key Components data. If your AJ150D's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
+  "notice": "Components drawn directly from VRF Key Components data. If your AJ150D's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected - not guessed in advance.",
   "noticeImage": "/model/sec15_part.webp",
   "groups": [
     {
@@ -49,13 +49,13 @@
       "title": "Inspected and Measured",
       "icon": "search",
       "items": [
-        "Crankshaft — inspected for wear and measured against specification",
-        "Cylinder head — checked for condition and flatness",
-        "Timing chain tensioners and guides — inspected for wear",
-        "EGR valve and cooler — checked for clogging",
-        "DPF components — inspected for blockage",
-        "Turbocharger — checked for shaft play and carbon buildup",
-        "High-pressure fuel pump — inspected for condition"
+        "Crankshaft - inspected for wear and measured against specification",
+        "Cylinder head - checked for condition and flatness",
+        "Timing chain tensioners and guides - inspected for wear",
+        "EGR valve and cooler - checked for clogging",
+        "DPF components - inspected for blockage",
+        "Turbocharger - checked for shaft play and carbon buildup",
+        "High-pressure fuel pump - inspected for condition"
       ]
     },
     {

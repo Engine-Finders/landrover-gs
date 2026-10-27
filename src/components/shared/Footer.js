@@ -40,7 +40,7 @@ export default function Footer({ data }) {
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-8 md:flex-row md:justify-between">
           <div className="max-w-xs">
-            <Link href="/" className="mb-3 inline-block" aria-label={`${data.brand} — home`}>
+            <Link href="/" className="mb-3 inline-block" aria-label={`${data.brand} - home`}>
               <Image
                 src="/brand/logo-square.webp"
                 alt="Land Rover Garage"

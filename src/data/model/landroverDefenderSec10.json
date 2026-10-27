@@ -2,79 +2,79 @@
   "badge": "10",
   "headlinePre": "Most Popular",
   "headlineHighlight": "Land Rover Defender Rebuilds",
-  "subhead": "Full variant list below covers every Land Rover Defender engine we work on — these 10 are simply our most requested.",
-  "image": "/cars/land-rover-defender-l663-130-5-door-suv-2022-new-carpathian-142b.webp",
+  "subhead": "Full variant list below covers every Land Rover Defender engine we work on - these 10 are simply our most requested.",
+  "image": "/cars/card/land-rover-defender-l663-130-5-door-suv-2022-new-carpathian-142b.webp",
   "viewMoreLabel": "View More",
-  "footerNote": "Real photos from our workshop — not stock imagery. This is what a genuine rebuild looks like.",
+  "footerNote": "Real photos from our workshop - not stock imagery. This is what a genuine rebuild looks like.",
   "cards": [
     {
       "number": "01",
       "model": "Defender TD5",
       "spec": "2.5L I5 Diesel (Td5)",
-      "image": "/cars/land-rover-defender-defender-110-station-wagon-5-door-4x4-19-5cd1.webp",
+      "image": "/cars/card/land-rover-defender-defender-110-station-wagon-5-door-4x4-19-5cd1.webp",
       "href": "/landrover-defender-td5-engines"
     },
     {
       "number": "02",
       "model": "Defender Td4",
       "spec": "2.0L I4 Diesel (M47D20)",
-      "image": "/cars/land-rover-defender-defender-110-camel-trophy-5-door-4x4-199-5e24.webp",
+      "image": "/cars/card/land-rover-defender-defender-110-camel-trophy-5-door-4x4-199-5e24.webp",
       "href": "/landrover-defender-td4-engines"
     },
     {
       "number": "03",
       "model": "Defender 300Tdi",
       "spec": "2.5L I4 Diesel (300Tdi)",
-      "image": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
+      "image": "/cars/card/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
       "href": "/landrover-defender-300tdi-engines"
     },
     {
       "number": "04",
       "model": "Defender 200Tdi",
       "spec": "2.5L I4 Diesel (200Tdi)",
-      "image": "/cars/land-rover-defender-defender-90-county-3-door-4x4-19901998-n-547b.webp",
+      "image": "/cars/card/land-rover-defender-defender-90-county-3-door-4x4-19901998-n-547b.webp",
       "href": "/landrover-defender-200tdi-engines"
     },
     {
       "number": "05",
       "model": "Defender D200",
       "spec": "2.0L I4 Diesel MHEV (AJ200D)",
-      "image": "/cars/land-rover-defender-l663-110-5-door-suv-2020-new-gondwana-st-28b7.webp",
+      "image": "/cars/card/land-rover-defender-l663-110-5-door-suv-2020-new-gondwana-st-28b7.webp",
       "href": "/landrover-defender-d200-engines"
     },
     {
       "number": "06",
       "model": "Defender D250",
       "spec": "3.0L I6 Diesel MHEV (AJ300D)",
-      "image": "/cars/land-rover-defender-l663-x-dynamic-hse-suv-2020-new-carpathi-7977.webp",
+      "image": "/cars/card/land-rover-defender-l663-x-dynamic-hse-suv-2020-new-carpathi-7977.webp",
       "href": "/landrover-defender-d250-engines"
     },
     {
       "number": "07",
       "model": "Defender D300",
       "spec": "3.0L I6 Diesel MHEV (AJ300D)",
-      "image": "/cars/land-rover-defender-l663-x-dynamic-s-suv-2020-new-hakuba-sil-86d9.webp",
+      "image": "/cars/card/land-rover-defender-l663-x-dynamic-s-suv-2020-new-hakuba-sil-86d9.webp",
       "href": "/landrover-defender-d300-engines"
     },
     {
       "number": "08",
       "model": "Defender D350",
       "spec": "3.0L I6 Diesel MHEV (AJ300D)",
-      "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+      "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
       "href": "/landrover-defender-d350-engines"
     },
     {
       "number": "09",
       "model": "Defender P400",
       "spec": "3.0L I6 Petrol MHEV (AJ300P)",
-      "image": "/cars/land-rover-defender-one-ten-110-county-5-door-4x4-19871990-g-3eac.webp",
+      "image": "/cars/card/land-rover-defender-one-ten-110-county-5-door-4x4-19871990-g-3eac.webp",
       "href": "/landrover-defender-p400-engines"
     },
     {
       "number": "10",
       "model": "Defender P525 (V8)",
       "spec": "4.4L V8 Petrol (BMW S68)",
-      "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+      "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
       "href": "/landrover-defender-p525-engines"
     }
   ],

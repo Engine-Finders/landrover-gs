@@ -4,12 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,800",
   "engineImage": "/engines/jaguar-d300-engine.webp",
-  "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+  "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
   "cards": [
     {
       "code": "AJ300D (D300)",
       "image": "/engines/jaguar-d300-engine.webp",
-      "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+      "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
       "generation": "L663 90/110/130",
       "price": "£2,800",
       "codeHref": "/landrover-aj300d-engine"
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,8 +31,8 @@
     "titlePre": "Land Rover Defender D300 Known Issues ",
     "titleHighlight": "",
     "paragraphs": [
-      "Defender D300 engines — the Ingenium AJ300D, fitted across the L663 generation — commonly show the Ingenium timing chain pattern over time, along with DC-DC converter failure on the MHEV system. We replace timing chain components, injector seals, bearings, gaskets and the DC-DC converter as standard on every D300 rebuild.",
-      "Early production D250/D300 models (2019–2020) also show electrical injector faults — we inspect and replace affected injectors as part of the rebuild where required."
+      "Defender D300 engines - the Ingenium AJ300D, fitted across the L663 generation - commonly show the Ingenium timing chain pattern over time, along with DC-DC converter failure on the MHEV system. We replace timing chain components, injector seals, bearings, gaskets and the DC-DC converter as standard on every D300 rebuild.",
+      "Early production D250/D300 models (2019-2020) also show electrical injector faults - we inspect and replace affected injectors as part of the rebuild where required."
     ],
     "source": "Source: verified via specialist buying guide (l663.guide), independently corroborated. P300 (no MHEV system) and Octa (BMW's own 48V hardware) are NOT affected by the DC-DC converter pattern per VRF"
   }

@@ -36,7 +36,7 @@ function Card({ it, code, compact = false }) {
 }
 
 function Footer({ data, compact = false }) {
-  const [lead, rest] = (data.footerNote || "").split(/\s+—\s+/);
+  const [lead, rest] = (data.footerNote || "").split(/\s+-\s+/);
   return (
     <div className={`relative flex items-center gap-4 overflow-hidden rounded-xl border border-white/10 bg-white/5 ${compact ? "p-4" : "px-6 py-5"}`}>
       <span className={`flex shrink-0 items-center justify-center rounded-full bg-white/10 ${compact ? "h-10 w-10" : "h-14 w-14"}`}>
@@ -45,7 +45,7 @@ function Footer({ data, compact = false }) {
       <div className={`relative z-10 ${compact ? "text-xs" : "text-sm"} leading-relaxed text-white`}>
         <p>
           <span className="font-bold">{lead}</span>
-          {rest && <span className="text-white/80"> — {rest}</span>}
+          {rest && <span className="text-white/80"> - {rest}</span>}
         </p>
         {data.engineCode && <p className="text-white/80">This is what a genuine {data.engineCode} rebuild looks like.</p>}
       </div>

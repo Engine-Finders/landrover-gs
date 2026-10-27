@@ -37,7 +37,7 @@ export default function HomeSec6({ data }) {
 
         {/* a row pauses while the pointer is over it (desktop) */}
         <div>
-        {/* portrait row — infinite scroll right */}
+        {/* portrait row - infinite scroll right */}
         <div className="gallery-row mt-6 overflow-hidden">
           <div className="animate-marquee-right flex w-max gap-1.5">
             {portraitTrack.map((img, i) => (
@@ -57,7 +57,7 @@ export default function HomeSec6({ data }) {
           </div>
         </div>
 
-        {/* landscape row — infinite scroll left */}
+        {/* landscape row - infinite scroll left */}
         <div className="gallery-row mt-2 overflow-hidden">
           <div className="animate-marquee-left flex w-max gap-1.5">
             {landscapeTrack.map((img, i) => (

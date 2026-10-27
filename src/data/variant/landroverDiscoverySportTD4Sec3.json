@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,000",
   "engineImage": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-  "carImage": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+  "carImage": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
   "cards": [
     {
       "code": "Ford Duratorq",
       "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-      "carImage": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
-      "generation": "L550 (2014–2019)",
+      "carImage": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+      "generation": "L550 (2014-2019)",
       "price": "£2,000",
       "codeHref": "/landrover-ford-duratorq-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -32,8 +32,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Discovery Sport TD4 has the Ford Duratorq (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every Ford Duratorq rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every Ford Duratorq rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

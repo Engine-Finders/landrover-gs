@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Sport D165 ENGINE",
     "paragraphs": [
-      "The Discovery Sport D165 was introduced in 2020 as part of a diesel range simplification, replacing the previous D150 and D180 badges. It uses the Ingenium AJ200D or AJ150D — a 2.0-litre four-cylinder diesel that's been a mainstay of JLR's compact SUV range. It's a Euro 6d-compliant unit, fitted to the L550-generation Discovery Sport, and represents the current diesel offering in the range alongside the higher-output D200."
+      "The Discovery Sport D165 was introduced in 2020 as part of a diesel range simplification, replacing the previous D150 and D180 badges. It uses the Ingenium AJ200D or AJ150D - a 2.0-litre four-cylinder diesel that's been a mainstay of JLR's compact SUV range. It's a Euro 6d-compliant unit, fitted to the L550-generation Discovery Sport, and represents the current diesel offering in the range alongside the higher-output D200."
     ],
     "boldParagraph": "We continue to rebuild and replace Ingenium AJ200D / AJ150D engines for every Discovery Sport D165 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "Ingenium AJ200D / AJ150D",
         "image": "/engines/jaguar-aj200d-engine.webp",
         "codeRest": "",
-        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D165 from 2020 onwards. It's a common-rail turbo-diesel with a timing chain-driven valvetrain. The Ingenium diesel family is known for timing chain tensioner wear and EGR cooler leaks — which we address as standard on every rebuild.",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D165 from 2020 onwards. It's a common-rail turbo-diesel with a timing chain-driven valvetrain. The Ingenium diesel family is known for timing chain tensioner wear and EGR cooler leaks - which we address as standard on every rebuild.",
         "cta": "Check Your Ingenium AJ200D / AJ150D Discovery Sport D165",
         "codeHref": "/landrover-aj150d-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport D165 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+    "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L550",
-        "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+        "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
         "chassis": "L550",
-        "years": "2020–present",
+        "years": "2020-present",
         "engineCode": "AJ200D / AJ150D",
         "fuel": "Diesel",
         "codeHref": "/landrover-aj150d-engine"

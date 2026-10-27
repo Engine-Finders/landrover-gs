@@ -4,7 +4,7 @@ import Image from "next/image";
 // replacing the earlier inline-SVG redraw. `className` still controls size
 // (e.g. "h-8 w-8") exactly like before, so every call site is unchanged.
 //
-// Image `fill` needs *some* positioning context on this wrapper — normally
+// Image `fill` needs *some* positioning context on this wrapper - normally
 // "relative", but callers that need to position the whole logo themselves
 // (e.g. "absolute ... -translate-x-1/2") pass their own position utility, and
 // forcing "relative" here too made both classes compete for the CSS

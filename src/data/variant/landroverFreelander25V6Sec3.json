@@ -4,19 +4,19 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£1,900",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+  "carImage": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
   "cards": [
     {
       "code": "[MISSING: exact engine code not specified]",
-      "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
-      "generation": "L314 (1997–2006)",
+      "carImage": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+      "generation": "L314 (1997-2006)",
       "price": "£1,900"
     }
   ],
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -30,8 +30,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Freelander 2.5 V6 has the [MISSING: exact engine code not specified in G-BRF] (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every [MISSING: exact engine code not specified in G-BRF] rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every [MISSING: exact engine code not specified in G-BRF] rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

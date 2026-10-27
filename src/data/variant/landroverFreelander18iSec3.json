@@ -4,12 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£1,900",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+  "carImage": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
   "cards": [
     {
       "code": "Rover K-Series",
-      "carImage": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
-      "generation": "L314 (1997–2006)",
+      "carImage": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+      "generation": "L314 (1997-2006)",
       "price": "£1,900",
       "codeHref": "/landrover-rover-k-series-engine"
     }
@@ -17,7 +17,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -30,8 +30,8 @@
     "titlePre": "Land Rover Freelander 1.8i Head Gasket Failure ",
     "titleHighlight": "(L314, Rover K-Series)",
     "paragraphs": [
-      "If your Freelander 1.8i has the Rover K-Series engine — that's the L314 generation, produced from 1997 to 2006 — head gasket failure is a well-documented pattern on this engine, backed by multiple manufacturer technical service bulletins and specialist sources. We replace the head gasket, water pump and timing belt as standard on every Freelander 1.8i rebuild.",
-      "include_in_hero_hook: yes — Source: widely known, multiple manufacturer TSBs and specialist sources, per VRF-landrover-freelander.md"
+      "If your Freelander 1.8i has the Rover K-Series engine - that's the L314 generation, produced from 1997 to 2006 - head gasket failure is a well-documented pattern on this engine, backed by multiple manufacturer technical service bulletins and specialist sources. We replace the head gasket, water pump and timing belt as standard on every Freelander 1.8i rebuild.",
+      "include_in_hero_hook: yes - Source: widely known, multiple manufacturer TSBs and specialist sources, per VRF-landrover-freelander.md"
     ],
     "source": "Source: widely known, multiple manufacturer TSBs and specialist sources, per VRF-landrover-freelander.md"
   }

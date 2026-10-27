@@ -4,19 +4,19 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£4,500",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+  "carImage": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
   "cards": [
     {
       "code": "TDV8",
-      "carImage": "/cars/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
-      "generation": "D3/L319 (2004–2009)",
+      "carImage": "/cars/card/land-rover-discovery-l319-hse-5-door-suv-20042009-group-buck-6375.webp",
+      "generation": "D3/L319 (2004-2009)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "TDV8",
-      "carImage": "/cars/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
-      "generation": "D4/L319 facelift (2009–2016)",
+      "carImage": "/cars/card/land-rover-discovery-l319-se-5-door-suv-20092016-new-nara-br-bd73.webp",
+      "generation": "D4/L319 facelift (2009-2016)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     }
@@ -24,7 +24,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -37,8 +37,8 @@
     "titlePre": "Land Rover Discovery TDV8 Timing Chain & Injector Wear ",
     "titleHighlight": "(D3/D4, TDV8)",
     "paragraphs": [
-      "Discovery TDV8 engines — across both D3 and D4 generations — commonly show timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk, in line with the wider TDV6/SDV6 family pattern that affects this engine family. We replace timing chain components, injector seals, EGR components, turbo components, and gaskets as standard on every TDV8 rebuild.",
-      "*include_in_hero_hook: yes — Source: same timing chain/injector pattern as TDV6/SDV6 family, widely documented, multiple TSBs and specialist sources per G-BRF. Pattern-inferred from sibling engine, same family.*"
+      "Discovery TDV8 engines - across both D3 and D4 generations - commonly show timing chain tensioner wear, injector seal leaks, and crankshaft bearing failure risk, in line with the wider TDV6/SDV6 family pattern that affects this engine family. We replace timing chain components, injector seals, EGR components, turbo components, and gaskets as standard on every TDV8 rebuild.",
+      "*include_in_hero_hook: yes - Source: same timing chain/injector pattern as TDV6/SDV6 family, widely documented, multiple TSBs and specialist sources per G-BRF. Pattern-inferred from sibling engine, same family.*"
     ],
     "source": "Source: same timing chain/injector pattern as TDV6/SDV6 family, widely documented, multiple TSBs and specialist sources per G-BRF. Pattern-inferred from sibling engine, same family"
   }

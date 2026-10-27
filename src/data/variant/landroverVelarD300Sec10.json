@@ -18,7 +18,7 @@
         "codeHighlight": "AJ300D",
         "image": "/engines/jaguar-d300-engine.webp",
         "codeRest": "",
-        "body": "A 3.0-litre inline-six diesel fitted to the Velar D300 from 2017 to the present (L560 generation). Known for timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks — see the callout above. We replace timing chains, injector seals, bearings, and gaskets as standard on every AJ300D rebuild.",
+        "body": "A 3.0-litre inline-six diesel fitted to the Velar D300 from 2017 to the present (L560 generation). Known for timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks - see the callout above. We replace timing chains, injector seals, bearings, and gaskets as standard on every AJ300D rebuild.",
         "cta": "Check Your AJ300D Velar D300",
         "codeHref": "/landrover-aj300d-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Velar D300 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+    "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+        "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L663",
-        "years": "2020–present",
+        "years": "2020-present",
         "engineCode": "AJ300D",
         "fuel": "Diesel MHEV",
         "codeHref": "/landrover-aj300d-engine"

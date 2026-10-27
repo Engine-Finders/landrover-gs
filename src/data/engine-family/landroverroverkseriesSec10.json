@@ -11,7 +11,7 @@
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The K-Series is the petrol option in the Freelander 1 — one of the most recognisable applications we work on from this era of Land Rover."
+      "body": "The K-Series is the petrol option in the Freelander 1 - one of the most recognisable applications we work on from this era of Land Rover."
     },
     {
       "icon": "wrench",
@@ -26,13 +26,13 @@
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed Rover K-Series rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed Rover K-Series rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER Rover K-Series REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "The K-Series is notoriously prone to head gasket failure — it will blow, and more than once. Head gasket failure is driven by cooling system faults and overheating, which is why we inspect the cooling system thoroughly on every rebuild. Small coolant leaks can lead to overheating and head gasket failure. Engines don't just blow head gaskets; they drop liners, requiring a new engine. Cooling system maintenance is critical — we replace the thermostat, water pump and hoses as part of a full rebuild.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "body": "The K-Series is notoriously prone to head gasket failure - it will blow, and more than once. Head gasket failure is driven by cooling system faults and overheating, which is why we inspect the cooling system thoroughly on every rebuild. Small coolant leaks can lead to overheating and head gasket failure. Engines don't just blow head gaskets; they drop liners, requiring a new engine. Cooling system maintenance is critical - we replace the thermostat, water pump and hoses as part of a full rebuild.",
     "scope": {
       "label": "Typical Scope:",
       "text": "Head gasket, cooling system components (thermostat, water pump, hoses), timing belt, bearings, gaskets"

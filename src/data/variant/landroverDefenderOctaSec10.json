@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender Octa ENGINE",
     "paragraphs": [
-      "The Defender Octa is the flagship performance variant of the modern L663 Defender, launched in 2024. At its heart sits the BMW S68B44T0 — a 4.4-litre twin-turbocharged V8. This is the only BMW-sourced engine in the Defender range, sharing its basic architecture with BMW's S63/N63 hot-vee family but featuring a cross-plane crank and mild-hybrid assistance."
+      "The Defender Octa is the flagship performance variant of the modern L663 Defender, launched in 2024. At its heart sits the BMW S68B44T0 - a 4.4-litre twin-turbocharged V8. This is the only BMW-sourced engine in the Defender range, sharing its basic architecture with BMW's S63/N63 hot-vee family but featuring a cross-plane crank and mild-hybrid assistance."
     ],
     "boldParagraph": "We continue to rebuild and replace S68B44T0 engines for every Defender Octa on the road."
   },
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender Octa ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+    "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,9 +68,9 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+        "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "L663",
-        "years": "2024–present",
+        "years": "2024-present",
         "engineCode": "S68B44T0",
         "fuel": "Petrol Twin-Turbo",
         "codeHref": "/landrover-s68-engine"

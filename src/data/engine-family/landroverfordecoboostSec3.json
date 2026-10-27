@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover Ford EcoBoost Applications — ",
+  "titlePre": "Land Rover Ford EcoBoost Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "Si4",
       "generation": "L550",
       "chassis": "L550",
-      "years": "2015–2019",
+      "years": "2015-2019",
       "powertrain": "Petrol",
       "modelHref": "/discovery-sport-engines"
     },
@@ -37,7 +37,7 @@
       "variant": "Si4",
       "generation": "L359",
       "chassis": "L359",
-      "years": "2013–2014",
+      "years": "2013-2014",
       "powertrain": "Petrol",
       "modelHref": "/freelander-engines"
     },
@@ -46,7 +46,7 @@
       "variant": "Si4",
       "generation": "L538",
       "chassis": "L538",
-      "years": "2013–2019",
+      "years": "2013-2019",
       "powertrain": "Petrol",
       "modelHref": "/range-rover-evoque-engines"
     }

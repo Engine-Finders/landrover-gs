@@ -13,7 +13,7 @@
   "heroHook": {
     "icon": "shield-check",
     "title": "Include In Hero Hook:",
-    "body": "Yes — both verified: Ford Duratorq widely documented with multiple TSBs; the wear pattern is well established and something our Land Rover specialists repair regularly."
+    "body": "Yes - both verified: Ford Duratorq widely documented with multiple TSBs; the wear pattern is well established and something our Land Rover specialists repair regularly."
   },
   "features": [
     {
@@ -34,7 +34,7 @@
     {
       "icon": "shield-check",
       "title": "Peace Of Mind",
-      "body": "No hidden extras — just a stronger, longer-lasting engine"
+      "body": "No hidden extras - just a stronger, longer-lasting engine"
     }
   ]
 }

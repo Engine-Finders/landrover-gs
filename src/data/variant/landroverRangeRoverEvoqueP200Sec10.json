@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover Evoque P200 ENGINE",
     "paragraphs": [
-      "The Range Rover Evoque P200 uses the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine introduced as part of Jaguar Land Rover's Ingenium family. It was first fitted to the L538-generation Evoque from 2016, before carrying over into the current L551 generation that launched in 2019. The AJ200P is the entry-level petrol option in the Evoque range, sitting below the higher-output P250 in the same engine family."
+      "The Range Rover Evoque P200 uses the Ingenium AJ200P - a 2.0-litre four-cylinder petrol engine introduced as part of Jaguar Land Rover's Ingenium family. It was first fitted to the L538-generation Evoque from 2016, before carrying over into the current L551 generation that launched in 2019. The AJ200P is the entry-level petrol option in the Evoque range, sitting below the higher-output P250 in the same engine family."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ200P engines for every Range Rover Evoque P200 on the road."
   },
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Evoque P200 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
+    "image": "/cars/card/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,18 +69,18 @@
     "rows": [
       {
         "generation": "L538",
-        "image": "/cars/range-rover-evoque-l538-se-5-door-suv-20152018-new-corris-gr-19e8.webp",
+        "image": "/cars/card/range-rover-evoque-l538-se-5-door-suv-20152018-new-corris-gr-19e8.webp",
         "chassis": "L538",
-        "years": "2016–2018",
+        "years": "2016-2018",
         "engineCode": "AJ200P",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj200p-engine"
       },
       {
         "generation": "L551",
-        "image": "/cars/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
+        "image": "/cars/card/range-rover-evoque-l551-s-5-door-suv-20192023-new-indus-silv-4781.webp",
         "chassis": "L551",
-        "years": "2019–present",
+        "years": "2019-present",
         "engineCode": "AJ200P",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj200p-engine"

@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£3,200",
   "engineImage": "/engines/jaguar-d300-engine.webp",
-  "carImage": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+  "carImage": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
   "cards": [
     {
       "code": "AJ300D",
       "image": "/engines/jaguar-d300-engine.webp",
-      "carImage": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
-      "generation": "L560 (2017–present)",
+      "carImage": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+      "generation": "L560 (2017-present)",
       "price": "£3,200",
       "codeHref": "/landrover-aj300d-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,8 +31,8 @@
     "titlePre": "Land Rover Velar D300 Timing Chain & Oil Dilution ",
     "titleHighlight": "",
     "paragraphs": [
-      "Velar D300 engines — and other Ingenium diesel variants in the range — commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks. We replace timing chains, injector seals, bearings, and gaskets as standard on every AJ300D rebuild.",
-      "*include_in_hero_hook: yes — Source: shared Ingenium diesel family pattern (per G-BRF). This pattern is confirmed for the D300 and other Ingenium diesel variants, as per the VRF.*"
+      "Velar D300 engines - and other Ingenium diesel variants in the range - commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks. We replace timing chains, injector seals, bearings, and gaskets as standard on every AJ300D rebuild.",
+      "*include_in_hero_hook: yes - Source: shared Ingenium diesel family pattern (per G-BRF). This pattern is confirmed for the D300 and other Ingenium diesel variants, as per the VRF.*"
     ],
     "source": "Source: shared Ingenium diesel family pattern (per G-BRF). This pattern is confirmed for the D300 and other Ingenium diesel variants, as per the VRF"
   }

@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover 300Tdi Applications — ",
+  "titlePre": "Land Rover 300Tdi Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "300Tdi",
       "generation": "Defender",
       "chassis": "L316",
-      "years": "1994–1998",
+      "years": "1994-1998",
       "powertrain": "Diesel",
       "modelHref": "/defender-engines"
     }

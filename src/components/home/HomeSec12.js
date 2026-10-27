@@ -35,7 +35,7 @@ export default function HomeSec12({ data }) {
           </p>
         </div>
 
-        {/* right: the car photo, faded into the left text panel — object-cover so it fills the
+        {/* right: the car photo, faded into the left text panel - object-cover so it fills the
             column at the row's natural (content-driven) height, matching bmw-garage's layout */}
         <div className="relative w-[40%] shrink-0 overflow-hidden">
           <Image src={data.mobileImage} alt="Land Rover Defender driving along a wet mountain road at sunset" fill className="object-cover" sizes="45vw" />

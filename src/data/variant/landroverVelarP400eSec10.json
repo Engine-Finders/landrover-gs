@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Velar P400e ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-velar-l560-lci-s-suv-20212024-new-ostuni-white-v-c0f3.webp",
+    "image": "/cars/card/range-rover-velar-l560-lci-s-suv-20212024-new-ostuni-white-v-c0f3.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,18 +69,18 @@
     "rows": [
       {
         "generation": "L560",
-        "image": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+        "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
         "chassis": "L560",
-        "years": "2018–2024",
+        "years": "2018-2024",
         "engineCode": "Ingenium AJ200P",
         "fuel": "Petrol Plug-in Hybrid",
         "codeHref": "/landrover-aj200p-engine"
       },
       {
         "generation": "L560",
-        "image": "/cars/range-rover-velar-l560-lci-s-suv-20212024-new-ostuni-white-v-c0f3.webp",
+        "image": "/cars/card/range-rover-velar-l560-lci-s-suv-20212024-new-ostuni-white-v-c0f3.webp",
         "chassis": "L560",
-        "years": "2024–present",
+        "years": "2024-present",
         "engineCode": "Ingenium AJ200P",
         "fuel": "Petrol Plug-in Hybrid",
         "codeHref": "/landrover-aj200p-engine"

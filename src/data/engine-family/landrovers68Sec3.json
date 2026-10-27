@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover S68 Applications — ",
+  "titlePre": "Land Rover S68 Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "Octa",
       "generation": "L663",
       "chassis": "L663",
-      "years": "2024–present",
+      "years": "2024-present",
       "powertrain": "Petrol MHEV",
       "modelHref": "/defender-engines"
     },
@@ -37,7 +37,7 @@
       "variant": "SV",
       "generation": "L460",
       "chassis": "L460",
-      "years": "2024–present",
+      "years": "2024-present",
       "powertrain": "Petrol MHEV",
       "modelHref": "/models"
     },
@@ -46,7 +46,7 @@
       "variant": "SV",
       "generation": "L461",
       "chassis": "L461",
-      "years": "2024–present",
+      "years": "2024-present",
       "powertrain": "Petrol MHEV",
       "modelHref": "/range-rover-sport-engines"
     }

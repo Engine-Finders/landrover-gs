@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 function ModelCard({ m, size = "md" }) {
   const imgH = size === "sm" ? "h-20" : "h-28";
   return (
-    <a
+    <QuoteLink
       href={m.href}
       className={`group relative overflow-hidden rounded-2xl p-3 text-center transition-shadow hover:shadow-md ${
         m.featured ? "border" : "glass-card"
@@ -29,7 +30,7 @@ function ModelCard({ m, size = "md" }) {
           →
         </span>
       </span>
-    </a>
+    </QuoteLink>
   );
 }
 
@@ -46,7 +47,7 @@ function Brand({ rangeRover, desktop }) {
 function AllModelsButton({ cta, desktop }) {
   return (
     <div className={`flex justify-center ${desktop ? "mt-6" : "mt-5"}`}>
-      <a
+      <QuoteLink
         href={cta.href}
         className={`btn-text group flex items-center gap-2 border-2 border-[#1a1a1a]/45 bg-white/60 uppercase text-[#1a1a1a] backdrop-blur-md transition hover:border-[#607056] hover:bg-[#607056] hover:text-white ${
           desktop ? "rounded-md px-6 py-2.5" : "rounded-lg px-5 py-2.5"
@@ -56,7 +57,7 @@ function AllModelsButton({ cta, desktop }) {
         <span aria-hidden="true" className="transition-transform group-hover:translate-x-0.5">
           →
         </span>
-      </a>
+      </QuoteLink>
     </div>
   );
 }

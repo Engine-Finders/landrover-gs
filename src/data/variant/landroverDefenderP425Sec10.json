@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender P425 ENGINE",
     "paragraphs": [
-      "The Defender P425 is a 2024 variant of the L663-generation Defender, fitted with the AJ133 — a 5.0-litre supercharged V8 that sits alongside the P500 and P525 as part of the same engine family, with the badge tracking the power tune rather than indicating a different engine. The AJ133 is a well-established Jaguar Land Rover V8 platform, shared with models like the Range Rover Sport SVR and Velar SVAutobiography Dynamic Edition, and is known as a generally reliable unit in its class. The P425 was produced as a 2024 model-year offering across the 90, 110 and 130 body styles, making it the most accessible entry point into V8-powered L663 Defender ownership before higher-output tunes arrived."
+      "The Defender P425 is a 2024 variant of the L663-generation Defender, fitted with the AJ133 - a 5.0-litre supercharged V8 that sits alongside the P500 and P525 as part of the same engine family, with the badge tracking the power tune rather than indicating a different engine. The AJ133 is a well-established Jaguar Land Rover V8 platform, shared with models like the Range Rover Sport SVR and Velar SVAutobiography Dynamic Edition, and is known as a generally reliable unit in its class. The P425 was produced as a 2024 model-year offering across the 90, 110 and 130 body styles, making it the most accessible entry point into V8-powered L663 Defender ownership before higher-output tunes arrived."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ133 engines for every Defender P425 on the road."
   },
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender P425 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+    "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,7 +69,7 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+        "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "L663",
         "years": "2024",
         "engineCode": "AJ133",

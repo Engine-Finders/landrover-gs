@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Freelander 1.8i ENGINE",
     "paragraphs": [
-      "The Freelander 1.8i uses the Rover K-Series engine — a 1.8-litre inline-four petrol that was fitted across the entire L314 generation from 1997 to 2006. It's a well-known engine in the British automotive landscape, shared with a number of Rover and MG models of the same era. The 1.8i was the entry-level petrol option in the Freelander range, and while the K-Series has a reputation for head gasket issues, a properly rebuilt example with updated components can be a reliable long-term proposition. The Freelander 1.8i is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Freelander 1.8i uses the Rover K-Series engine - a 1.8-litre inline-four petrol that was fitted across the entire L314 generation from 1997 to 2006. It's a well-known engine in the British automotive landscape, shared with a number of Rover and MG models of the same era. The 1.8i was the entry-level petrol option in the Freelander range, and while the K-Series has a reputation for head gasket issues, a properly rebuilt example with updated components can be a reliable long-term proposition. The Freelander 1.8i is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace Rover K-Series engines for every Freelander 1.8i on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "Rover K-Series",
         "codeRest": "",
-        "body": "A 1.8-litre inline-four petrol fitted to the Freelander 1.8i from 1997 to 2006 (L314 generation). Known for well-documented head gasket failure — see the callout above. We replace the head gasket, water pump and timing belt as standard on every Freelander 1.8i rebuild.",
+        "body": "A 1.8-litre inline-four petrol fitted to the Freelander 1.8i from 1997 to 2006 (L314 generation). Known for well-documented head gasket failure - see the callout above. We replace the head gasket, water pump and timing belt as standard on every Freelander 1.8i rebuild.",
         "cta": "Check Your Rover K-Series Freelander 1.8i",
         "codeHref": "/landrover-rover-k-series-engine"
       }
@@ -26,7 +26,7 @@
   "compatibility": {
     "titlePre": "Land Rover Freelander 1.8i ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "The Freelander 1.8i uses a single engine family across all production years — the Rover K-Series — so compatibility is straightforward. However, we always confirm:",
+    "intro": "The Freelander 1.8i uses a single engine family across all production years - the Rover K-Series - so compatibility is straightforward. However, we always confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Freelander 1.8i ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+    "image": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,9 +68,9 @@
     "rows": [
       {
         "generation": "Freelander 1",
-        "image": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+        "image": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
         "chassis": "L314",
-        "years": "1997–2006",
+        "years": "1997-2006",
         "engineCode": "Rover K-Series",
         "fuel": "Petrol",
         "codeHref": "/landrover-rover-k-series-engine"

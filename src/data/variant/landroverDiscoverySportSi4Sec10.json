@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Sport Si4 ENGINE",
     "paragraphs": [
-      "The Discovery Sport Si4 was the petrol variant in the pre-2019 Discovery Sport range, alongside the diesel eD4 and TD4 models. It uses the Ford EcoBoost 2.0-litre four-cylinder petrol engine — a turbocharged unit shared across several Ford and Volvo models of the same era, as well as other Land Rover applications. The Si4 badge distinguished it from the diesel options in the range, and it was available throughout the L550 generation from its 2015 launch until the 2019 facelift, when the diesel-focused Si4 was discontinued and petrol variants were rebadged under the P-series naming convention."
+      "The Discovery Sport Si4 was the petrol variant in the pre-2019 Discovery Sport range, alongside the diesel eD4 and TD4 models. It uses the Ford EcoBoost 2.0-litre four-cylinder petrol engine - a turbocharged unit shared across several Ford and Volvo models of the same era, as well as other Land Rover applications. The Si4 badge distinguished it from the diesel options in the range, and it was available throughout the L550 generation from its 2015 launch until the 2019 facelift, when the diesel-focused Si4 was discontinued and petrol variants were rebadged under the P-series naming convention."
     ],
     "boldParagraph": "We continue to rebuild and replace Ford EcoBoost engines for every Discovery Sport Si4 on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "Ford EcoBoost",
         "codeRest": "",
-        "body": "The Discovery Sport Si4 was the petrol variant in the pre-2019 Discovery Sport range, alongside the diesel eD4 and TD4 models. It uses the Ford EcoBoost 2.0-litre four-cylinder petrol engine — a turbocharged unit shared across several Ford and Volvo models of the same era, as well as other Land Rover applications. The Si4 badge distinguished it from the diesel options in the range, and it was available throughout the L550 generation from its 2015 launch until the 2019 facelift, when the diesel-focused Si4 was discontinued and petrol variants were rebadged under the P-series naming convention.",
+        "body": "The Discovery Sport Si4 was the petrol variant in the pre-2019 Discovery Sport range, alongside the diesel eD4 and TD4 models. It uses the Ford EcoBoost 2.0-litre four-cylinder petrol engine - a turbocharged unit shared across several Ford and Volvo models of the same era, as well as other Land Rover applications. The Si4 badge distinguished it from the diesel options in the range, and it was available throughout the L550 generation from its 2015 launch until the 2019 facelift, when the diesel-focused Si4 was discontinued and petrol variants were rebadged under the P-series naming convention.",
         "cta": "Check Your Ford EcoBoost Discovery Sport Si4",
         "codeHref": "/landrover-ford-ecoboost-engine"
       }
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport Si4 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+    "image": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,9 +68,9 @@
     "rows": [
       {
         "generation": "L550",
-        "image": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+        "image": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
         "chassis": "L550",
-        "years": "2015–2019",
+        "years": "2015-2019",
         "engineCode": "Ford EcoBoost",
         "fuel": "Petrol",
         "codeHref": "/landrover-ford-ecoboost-engine"

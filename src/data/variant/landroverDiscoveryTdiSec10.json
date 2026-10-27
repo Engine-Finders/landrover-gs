@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Tdi ENGINE",
     "paragraphs": [
-      "The Discovery Tdi was fitted to the original Discovery (D1/L318) from 1989 to 1998. Across this production run, the vehicle used two distinct variants of the same 2.5-litre diesel family: the earlier 200Tdi and the later 300Tdi. Both are mechanical-injection four-cylinder diesels, and both are known for their durability when properly maintained — though they have distinct component specifications that matter when rebuilding. The key difference between the two engines is that the timing belt interval is critical on both, and servicing history is often the difference between a reliable Discovery and one that needs early cylinder head work."
+      "The Discovery Tdi was fitted to the original Discovery (D1/L318) from 1989 to 1998. Across this production run, the vehicle used two distinct variants of the same 2.5-litre diesel family: the earlier 200Tdi and the later 300Tdi. Both are mechanical-injection four-cylinder diesels, and both are known for their durability when properly maintained - though they have distinct component specifications that matter when rebuilding. The key difference between the two engines is that the timing belt interval is critical on both, and servicing history is often the difference between a reliable Discovery and one that needs early cylinder head work."
     ],
     "boldParagraph": "We continue to rebuild and replace 200Tdi or 300Tdi engines for every Discovery Tdi on the road."
   },
@@ -16,14 +16,14 @@
     "cards": [
       {
         "codeHighlight": "200Tdi",
-        "codeRest": "(D1/L318, 1989–1994)",
+        "codeRest": "(D1/L318, 1989-1994)",
         "body": "A 2.5-litre four-cylinder diesel fitted to early Discovery Tdi models. One of Land Rover's most durable mechanical-injection diesel engines. The timing belt interval and cooling system condition are critical to longevity, and we service every 200Tdi rebuild to the same high standard.",
         "cta": "Check Your 200Tdi Discovery Tdi",
         "codeHref": "/landrover-200tdi-engine"
       },
       {
         "codeHighlight": "300Tdi",
-        "codeRest": "(D1/L318, 1994–1998)",
+        "codeRest": "(D1/L318, 1994-1998)",
         "body": "A 2.5-litre four-cylinder diesel fitted to later Discovery Tdi models. An evolution of the 200Tdi with improvements to the cooling system and ancillaries. We service every 300Tdi rebuild to the same high standard.",
         "cta": "Check Your 300Tdi Discovery Tdi",
         "codeHref": "/landrover-300tdi-engine"
@@ -33,7 +33,7 @@
   "compatibility": {
     "titlePre": "Land Rover Discovery Tdi ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "The Discovery Tdi uses one of two mechanical-injection diesel engines — the 200Tdi or the 300Tdi. While they share the same displacement and basic architecture, they have different component specifications and external arrangements. Before we quote or supply anything, we confirm:",
+    "intro": "The Discovery Tdi uses one of two mechanical-injection diesel engines - the 200Tdi or the 300Tdi. While they share the same displacement and basic architecture, they have different component specifications and external arrangements. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -59,7 +59,7 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Tdi ",
@@ -76,7 +76,7 @@
       {
         "generation": "D1",
         "chassis": "L318",
-        "years": "1989–1994",
+        "years": "1989-1994",
         "engineCode": "200Tdi",
         "fuel": "Diesel",
         "codeHref": "/landrover-200tdi-engine"
@@ -84,7 +84,7 @@
       {
         "generation": "D1",
         "chassis": "L318",
-        "years": "1994–1998",
+        "years": "1994-1998",
         "engineCode": "300Tdi",
         "fuel": "Diesel",
         "codeHref": "/landrover-300tdi-engine"

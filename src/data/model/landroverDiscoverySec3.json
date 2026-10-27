@@ -4,7 +4,7 @@
   "startingFromLabel": "Starting From:",
   "image": "/model/sec3.webp",
   "imageMobile": "/model/sec3_mobile.webp",
-  "cardImage": "/model/engine_trim.webp",
+  "cardImage": "/engines/card3-engine-trim.webp",
   "cards": [
     {
       "titlePre": "Classic Diesel",
@@ -17,14 +17,15 @@
     {
       "titlePre": "6-Cylinder Diesel",
       "titleHighlight": "",
-      "code": "(TDV6 / SDV6 / Ingenium I6)", "image": "/engines/jaguar-276dt-tdv6-engine.webp",
+      "code": "(TDV6 / SDV6 / Ingenium I6)",
+      "image": "/engines/card3-jaguar-276dt-tdv6-engine.webp",
       "price": "£2,400",
       "featured": false,
       "codeHref": "/landrover-tdv6-sdv6-engine"
     },
     {
       "titlePre": "Modern 6-Cylinder",
-      "image": "/engines/jaguar-d300-engine.webp",
+      "image": "/engines/card3-jaguar-d300-engine.webp",
       "titleHighlight": "",
       "code": "(D5, Ingenium)",
       "price": "£2,800",
@@ -34,7 +35,8 @@
     {
       "titlePre": "V8",
       "titleHighlight": "",
-      "code": "(classic 3.9/4.0, TDV8/SDV8, AJ-V8)", "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
+      "code": "(classic 3.9/4.0, TDV8/SDV8, AJ-V8)",
+      "image": "/engines/card3-land-rover-jlr-aj133-engine-hero.webp",
       "price": "£4,500",
       "featured": true,
       "codeHref": "/landrover-tdv8-sdv8-engine"
@@ -44,10 +46,11 @@
       "titleHighlight": "",
       "code": "",
       "price": "from £70",
-      "featured": false
+      "featured": false,
+      "icon": "truck"
     }
   ],
-  "disclaimer": "Exact price depends on engine code, condition and parts required — full pricing further down this page.",
+  "disclaimer": "Exact price depends on engine code, condition and parts required - full pricing further down this page.",
   "cta": {
     "line1": "Get Your Fixed-Price Quote",
     "line2": "In Under 30 Minutes",

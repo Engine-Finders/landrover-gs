@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,800",
   "engineImage": "/engines/jaguar-d300-engine.webp",
-  "carImage": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+  "carImage": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
   "cards": [
     {
       "code": "AJ300D",
       "image": "/engines/jaguar-d300-engine.webp",
-      "carImage": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
-      "generation": "D5/L462 (2017–present)",
+      "carImage": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+      "generation": "D5/L462 (2017-present)",
       "price": "£2,800",
       "codeHref": "/landrover-aj300d-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -32,8 +32,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Discovery D300 has the AJ300D (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ300D rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ300D rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

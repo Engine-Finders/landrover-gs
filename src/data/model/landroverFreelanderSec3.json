@@ -4,12 +4,13 @@
   "startingFromLabel": "Starting From:",
   "image": "/model/sec3.webp",
   "imageMobile": "/model/sec3_mobile.webp",
-  "cardImage": "/model/engine_trim.webp",
+  "cardImage": "/engines/card3-engine-trim.webp",
   "cards": [
     {
       "titlePre": "4-Cylinder Rebuild",
       "titleHighlight": "",
-      "code": "(K-Series / M47 / Duratorq / EcoBoost)", "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
+      "code": "(K-Series / M47 / Duratorq / EcoBoost)",
+      "image": "/engines/card3-jaguar-2-2d-and-qjba-engine.webp",
       "price": "£1,900",
       "featured": true,
       "codeHref": "/landrover-rover-k-series-engine"
@@ -19,10 +20,11 @@
       "titleHighlight": "",
       "code": "",
       "price": "from £70",
-      "featured": false
+      "featured": false,
+      "icon": "truck"
     }
   ],
-  "disclaimer": "Exact price depends on engine code, condition and parts required — full pricing further down this page.",
+  "disclaimer": "Exact price depends on engine code, condition and parts required - full pricing further down this page.",
   "cta": {
     "line1": "Get Your Fixed-Price Quote",
     "line2": "In Under 30 Minutes",

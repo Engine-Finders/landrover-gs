@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ133",
     "titlePost": " ENGINE",
-    "body": "The AJ133 is Jaguar Land Rover's third-generation 5.0-litre V8 petrol engine, in production from 2009 to 2024. It was the final development of the AJ-V8 family and served as the flagship petrol engine across both Jaguar and Land Rover ranges for over a decade. In Land Rover applications, the AJ133 appears in two distinct forms: the supercharged V8 fitted to the modern Defender P525 and the supercharged V8 in the limited-run Range Rover Velar SVAutobiography Dynamic Edition. Beyond Land Rover, the same engine family powered a wide range of Jaguar models including the F-Type R, XFR, XKR and XJ Supersport — though our work here covers Land Rover-badged applications specifically."
+    "body": "The AJ133 is Jaguar Land Rover's third-generation 5.0-litre V8 petrol engine, in production from 2009 to 2024. It was the final development of the AJ-V8 family and served as the flagship petrol engine across both Jaguar and Land Rover ranges for over a decade. In Land Rover applications, the AJ133 appears in two distinct forms: the supercharged V8 fitted to the modern Defender P525 and the supercharged V8 in the limited-run Range Rover Velar SVAutobiography Dynamic Edition. Beyond Land Rover, the same engine family powered a wide range of Jaguar models including the F-Type R, XFR, XKR and XJ Supersport - though our work here covers Land Rover-badged applications specifically."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "The AJ133 is fitted to the Defender (L663) in its P525 (V8) form from 2020 to the present — a supercharged 5.0-litre V8 that transformed the modern Defender's performance profile. The same supercharged engine also appeared in the Range Rover Velar (L560) as the SVAutobiography Dynamic Edition, a limited-run variant produced for the 2019 model year only.",
+    "body": "The AJ133 is fitted to the Defender (L663) in its P525 (V8) form from 2020 to the present - a supercharged 5.0-litre V8 that transformed the modern Defender's performance profile. The same supercharged engine also appeared in the Range Rover Velar (L560) as the SVAutobiography Dynamic Edition, a limited-run variant produced for the 2019 model year only.",
     "lineup": [
       {
         "label": "Defender",
@@ -34,7 +34,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the AJ133 spans two distinct Land Rover models and multiple generations across the wider JLR range, compatibility comes down to confirming your exact model, generation, and whether the engine is naturally aspirated or supercharged. A supercharged AJ133 from a Defender isn't a drop-in match for a naturally aspirated AJ133 from an earlier Discovery or Range Rover — ancillaries, engine management, and mounting all differ. We always match by registration/VIN before confirming any rebuild or replacement.",
+    "body": "Because the AJ133 spans two distinct Land Rover models and multiple generations across the wider JLR range, compatibility comes down to confirming your exact model, generation, and whether the engine is naturally aspirated or supercharged. A supercharged AJ133 from a Defender isn't a drop-in match for a naturally aspirated AJ133 from an earlier Discovery or Range Rover - ancillaries, engine management, and mounting all differ. We always match by registration/VIN before confirming any rebuild or replacement.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -45,7 +45,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "2009–2024"
+        "text": "2009-2024"
       },
       {
         "icon": "engine",
@@ -68,31 +68,31 @@
         "heading": "AJ133 in the Defender (L663, P525)",
         "model": "Defender",
         "chassis": "L663",
-        "years": "2020–present",
+        "years": "2020-present",
         "variant": "P525",
-        "body": "The AJ133 in the Defender is one of the applications we work on — the supercharged 5.0-litre V8 fitted to the Defender P525 (V8) from 2020 onwards. It's the flagship petrol option in the modern Defender range, delivered as a supercharged V8 with outputs between 510 and 575 hp depending on specification.",
+        "body": "The AJ133 in the Defender is one of the applications we work on - the supercharged 5.0-litre V8 fitted to the Defender P525 (V8) from 2020 onwards. It's the flagship petrol option in the modern Defender range, delivered as a supercharged V8 with outputs between 510 and 575 hp depending on specification.",
         "price": "£5,500",
         "ctaLabel": "Check your Defender AJ133",
         "generation": "L663",
         "powertrain": "Supercharged V8",
         "href": "/defender-engines",
         "title": "AJ133 in the Defender",
-        "subtitle": "(L663, 2020–present)"
+        "subtitle": "(L663, 2020-present)"
       },
       {
         "heading": "AJ133 in the Range Rover Velar (L560, SVAutobiography)",
         "model": "Range Rover Velar",
         "chassis": "L560",
-        "years": "2019–2021",
+        "years": "2019-2021",
         "variant": "SVAutobiography",
-        "body": "The AJ133 in the Range Rover Velar is one of the applications we work on — the supercharged V8 fitted to the Velar SVAutobiography Dynamic Edition. This was a limited-run variant produced for the 2019 model year only, making it one of the more distinctive AJ133 applications in the Land Rover range.",
+        "body": "The AJ133 in the Range Rover Velar is one of the applications we work on - the supercharged V8 fitted to the Velar SVAutobiography Dynamic Edition. This was a limited-run variant produced for the 2019 model year only, making it one of the more distinctive AJ133 applications in the Land Rover range.",
         "price": "£5,500",
         "ctaLabel": "Check your Velar AJ133",
         "generation": "L560",
         "powertrain": "Supercharged V8",
         "href": "/range-rover-velar-engines",
         "title": "AJ133 in the Range Rover Velar",
-        "subtitle": "(L560, 2019–2021)"
+        "subtitle": "(L560, 2019-2021)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

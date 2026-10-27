@@ -4,19 +4,19 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£4,500",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
+  "carImage": "/cars/card/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
   "cards": [
     {
       "code": "TDV8/SDV8",
-      "carImage": "/cars/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
-      "generation": "L322 (2001–2012)",
+      "carImage": "/cars/card/land-rover-range-rover-l322-hse-suv-20022009-new-zambezi-sil-bcf0.webp",
+      "generation": "L322 (2001-2012)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "TDV8/SDV8",
-      "carImage": "/cars/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
-      "generation": "L405 (2012–2021)",
+      "carImage": "/cars/card/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
+      "generation": "L405 (2012-2021)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     }
@@ -24,7 +24,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -37,8 +37,8 @@
     "titlePre": "Land Rover Range Rover SDV6 Timing Chain & Injector Wear ",
     "titleHighlight": "",
     "paragraphs": [
-      "If your Range Rover SDV6 is a pre-2022 model — that's the L322 or L405 generation with the 4.4-litre TDV8/SDV8 diesel V8 — timing chain and injector wear is a well-documented pattern on this engine family, widely corroborated across Land Rover specialist forums and independent garages. We replace timing chain components, injector seals, EGR components, turbo components and gaskets as standard on every TDV8/SDV8 rebuild.",
-      "The newer L460-generation Range Rover uses different engines entirely — the Ingenium diesel and BMW-sourced V8 units — which don't share this specific issue."
+      "If your Range Rover SDV6 is a pre-2022 model - that's the L322 or L405 generation with the 4.4-litre TDV8/SDV8 diesel V8 - timing chain and injector wear is a well-documented pattern on this engine family, widely corroborated across Land Rover specialist forums and independent garages. We replace timing chain components, injector seals, EGR components, turbo components and gaskets as standard on every TDV8/SDV8 rebuild.",
+      "The newer L460-generation Range Rover uses different engines entirely - the Ingenium diesel and BMW-sourced V8 units - which don't share this specific issue."
     ],
     "source": "Source: extremely well-corroborated across Land Rover specialist forums and independent garages (per G-BRF). Applies to L322/L405 TDV8/SDV8 only; L460 engines explicitly excluded"
   }

@@ -21,18 +21,18 @@
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "Timing belt failure (the 200Tdi is an interference engine — belt failure causes valve-to-piston contact), VE fuel injection pump leaks, head gasket failure, and fuel system issues including lumpy idle and stalling."
+      "body": "Timing belt failure (the 200Tdi is an interference engine - belt failure causes valve-to-piston contact), VE fuel injection pump leaks, head gasket failure, and fuel system issues including lumpy idle and stalling."
     }
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed 200Tdi rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed 200Tdi rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER 200Tdi REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "The 200Tdi is one of the simpler diesel engines we work on — it uses mechanical fuel injection rather than common-rail, which means no high-pressure injector pump or complex electronic management to recalibrate. The engine's simplicity means a full rebuild is more straightforward than many of the later, more complex engines in the Land Rover range.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "body": "The 200Tdi is one of the simpler diesel engines we work on - it uses mechanical fuel injection rather than common-rail, which means no high-pressure injector pump or complex electronic management to recalibrate. The engine's simplicity means a full rebuild is more straightforward than many of the later, more complex engines in the Land Rover range.",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing belt, tensioner, injection pump, head gasket, bearings, gaskets"

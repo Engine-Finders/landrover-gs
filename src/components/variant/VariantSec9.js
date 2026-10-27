@@ -1,4 +1,5 @@
 import Image from "next/image";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 export default function VariantSec9({ data }) {
   return (
@@ -15,7 +16,7 @@ export default function VariantSec9({ data }) {
           </h2>
           <p className="mt-2 text-xs leading-snug text-white md:text-sm">{data.body}</p>
         </div>
-        <a
+        <QuoteLink
           href={data.cta.href}
           className="btn-text flex h-14 shrink-0 items-center justify-center gap-3 rounded-lg border-2 border-transparent px-8 uppercase text-white shadow-lg transition-transform hover:scale-[1.02] md:mr-8"
           style={{
@@ -24,7 +25,7 @@ export default function VariantSec9({ data }) {
           }}
         >
           {data.cta.label} <span aria-hidden>→</span>
-        </a>
+        </QuoteLink>
       </div>
     </section>
   );

@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "N63",
     "titlePost": " ENGINE",
-    "body": "The N63 is BMW's 4.4-litre twin-turbo V8 petrol engine, used in Land Rover applications from 2022. It's a BMW-sourced engine — not a JLR-designed unit — fitted to the current-generation Range Rover (L460) and Range Rover Sport (L461) as the P530 variant. The engine uses a hot-vee design where the turbochargers sit inside the V of the engine, which is a genuine platform characteristic that affects access to certain components during a rebuild. Our workshop capability covers this engine's specific configuration, including the 48V mild-hybrid system that accompanies it in all Land Rover applications."
+    "body": "The N63 is BMW's 4.4-litre twin-turbo V8 petrol engine, used in Land Rover applications from 2022. It's a BMW-sourced engine - not a JLR-designed unit - fitted to the current-generation Range Rover (L460) and Range Rover Sport (L461) as the P530 variant. The engine uses a hot-vee design where the turbochargers sit inside the V of the engine, which is a genuine platform characteristic that affects access to certain components during a rebuild. Our workshop capability covers this engine's specific configuration, including the 48V mild-hybrid system that accompanies it in all Land Rover applications."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -34,7 +34,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "The N63 is a BMW-sourced engine, not a JLR-designed engine. Registration/VIN matching is required — different applications vary by tuning. The hot-vee design adds complexity to accessing certain components, which we account for when quoting and carrying out a rebuild. The 48V mild-hybrid system components vary by application and generation, so we confirm your exact vehicle specification before any work begins.",
+    "body": "The N63 is a BMW-sourced engine, not a JLR-designed engine. Registration/VIN matching is required - different applications vary by tuning. The hot-vee design adds complexity to accessing certain components, which we account for when quoting and carrying out a rebuild. The 48V mild-hybrid system components vary by application and generation, so we confirm your exact vehicle specification before any work begins.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -45,7 +45,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "2022–present"
+        "text": "2022-present"
       },
       {
         "icon": "engine",
@@ -68,31 +68,31 @@
         "heading": "N63 in the Range Rover (L460)",
         "model": "Range Rover",
         "chassis": "L460",
-        "years": "2022–present",
+        "years": "2022-present",
         "variant": "",
-        "body": "The N63 in the Range Rover is one of the applications we work on — the P530 variant, from 2022 onward.",
+        "body": "The N63 in the Range Rover is one of the applications we work on - the P530 variant, from 2022 onward.",
         "price": "£6,500",
         "ctaLabel": "Check your Range Rover N63",
         "generation": "L460",
         "powertrain": "Petrol MHEV",
         "href": "/models",
         "title": "N63 in the Range Rover",
-        "subtitle": "(L460, 2022–present)"
+        "subtitle": "(L460, 2022-present)"
       },
       {
         "heading": "N63 in the Range Rover Sport (L461)",
         "model": "Range Rover Sport",
         "chassis": "L461",
-        "years": "2023–present",
+        "years": "2023-present",
         "variant": "",
-        "body": "The N63 in the Range Rover Sport is one of the applications we work on — the P530 variant, from 2023 onward.",
+        "body": "The N63 in the Range Rover Sport is one of the applications we work on - the P530 variant, from 2023 onward.",
         "price": "£6,500",
         "ctaLabel": "Check your Range Rover Sport N63",
         "generation": "L461",
         "powertrain": "Petrol MHEV",
         "href": "/range-rover-sport-engines",
         "title": "N63 in the Range Rover Sport",
-        "subtitle": "(L461, 2023–present)"
+        "subtitle": "(L461, 2023-present)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

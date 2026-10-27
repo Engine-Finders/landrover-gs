@@ -33,7 +33,7 @@
       {
         "icon": "calendar",
         "label": "Production Years",
-        "value": "2019–present"
+        "value": "2019-present"
       },
       {
         "icon": "car",
@@ -56,7 +56,7 @@
     "imageMobile": "/engine/sec2_bottom_mobile.webp",
     "startingFromLabel": "Starting From",
     "startingFromPrice": "£3,200",
-    "body": "Every AJ300P application — MHEV or PHEV — sits on the 6-cylinder petrol rebuild tier. Exact price depends on condition and parts required — submit your reg for a fixed-price quote.",
+    "body": "Every AJ300P application - MHEV or PHEV - sits on the 6-cylinder petrol rebuild tier. Exact price depends on condition and parts required - submit your reg for a fixed-price quote.",
     "cta": {
       "label": "Get Your Fixed-Price Quote →",
       "href": "#quote-form"

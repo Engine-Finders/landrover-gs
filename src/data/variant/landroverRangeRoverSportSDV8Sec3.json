@@ -4,19 +4,19 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£4,500",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+  "carImage": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
   "cards": [
     {
       "code": "TDV8 / SDV8",
-      "carImage": "/cars/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
-      "generation": "L320 (2005–2013)",
+      "carImage": "/cars/card/range-rover-sport-l320-hse-suv-20052009-new-zambezi-silver-s-3a4c.webp",
+      "generation": "L320 (2005-2013)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     },
     {
       "code": "TDV8 / SDV8",
-      "carImage": "/cars/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
-      "generation": "L494 (2013–2022)",
+      "carImage": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
+      "generation": "L494 (2013-2022)",
       "price": "£4,500",
       "codeHref": "/landrover-tdv8-sdv8-engine"
     }
@@ -24,7 +24,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -37,8 +37,8 @@
     "titlePre": "Land Rover Range Rover Sport SDV8 Timing Chain Wear ",
     "titleHighlight": "",
     "paragraphs": [
-      "If your Range Rover Sport is a pre-2022 model with the TDV8 or SDV8 diesel V8 — that's the L320 or L494 generation — it shares the same timing chain wear pattern as the TDV6 and SDV6 engines in the wider Land Rover range. We replace worn timing chains, guides, injector seals, and gaskets as standard on every TDV8 and SDV8 rebuild.",
-      "include_in_hero_hook: yes — Source: established Land Rover specialist consensus. Based on G-BRF and VRF data, the TDV8/SDV8 pattern is explicitly confirmed for the Range Rover Sport."
+      "If your Range Rover Sport is a pre-2022 model with the TDV8 or SDV8 diesel V8 - that's the L320 or L494 generation - it shares the same timing chain wear pattern as the TDV6 and SDV6 engines in the wider Land Rover range. We replace worn timing chains, guides, injector seals, and gaskets as standard on every TDV8 and SDV8 rebuild.",
+      "include_in_hero_hook: yes - Source: established Land Rover specialist consensus. Based on G-BRF and VRF data, the TDV8/SDV8 pattern is explicitly confirmed for the Range Rover Sport."
     ],
     "source": "Source: established Land Rover specialist consensus. Based on G-BRF and VRF data, the TDV8/SDV8 pattern is explicitly confirmed for the Range Rover Sport"
   }

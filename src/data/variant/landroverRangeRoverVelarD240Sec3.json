@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,200",
   "engineImage": "/engines/jaguar-aj200d-engine.webp",
-  "carImage": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+  "carImage": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
   "cards": [
     {
       "code": "Ingenium AJ200D",
       "image": "/engines/jaguar-aj200d-engine.webp",
-      "carImage": "/cars/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
-      "generation": "L560 (2017–present)",
+      "carImage": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
+      "generation": "L560 (2017-present)",
       "price": "£2,200",
       "codeHref": "/landrover-aj200d-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,8 +31,8 @@
     "titlePre": "Land Rover Velar D240 Timing Chain & Oil Dilution ",
     "titleHighlight": "(Ingenium AJ200D)",
     "paragraphs": [
-      "If your Velar D240 has the Ingenium AJ200D 4-cylinder diesel — the engine fitted across the L560 generation — timing chain tensioner wear and oil dilution from DPF regeneration are well-documented patterns on this engine. We replace timing chain components, injector seals, EGR, and gaskets as standard on every AJ200D rebuild.",
-      "One owner-forum source specifically noted the D240 does not share the oil dilution issue affecting other diesels in the range — this is a single source, not independently corroborated, so we treat the broader Ingenium diesel pattern as the confirmed baseline for the D240."
+      "If your Velar D240 has the Ingenium AJ200D 4-cylinder diesel - the engine fitted across the L560 generation - timing chain tensioner wear and oil dilution from DPF regeneration are well-documented patterns on this engine. We replace timing chain components, injector seals, EGR, and gaskets as standard on every AJ200D rebuild.",
+      "One owner-forum source specifically noted the D240 does not share the oil dilution issue affecting other diesels in the range - this is a single source, not independently corroborated, so we treat the broader Ingenium diesel pattern as the confirmed baseline for the D240."
     ],
     "source": "Source: shared Ingenium diesel family pattern, multiple forums. D240 oil dilution exception noted pending confirmation, per VRF"
   }

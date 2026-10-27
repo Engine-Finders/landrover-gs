@@ -4,12 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£6,500",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+  "carImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
   "cards": [
     {
       "code": "BMW S68",
-      "carImage": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
-      "generation": "L460 (2022–present)",
+      "carImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+      "generation": "L460 (2022-present)",
       "price": "£6,500",
       "codeHref": "/landrover-s68-engine"
     }
@@ -17,7 +17,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -30,8 +30,8 @@
     "titlePre": "Range Rover SV P615 BMW S68 V8 Hot-Vee Pattern ",
     "titleHighlight": "",
     "paragraphs": [
-      "The Range Rover SV (P615) is powered by the BMW S68 twin-turbo V8 — a 4.4-litre unit that shares its hot-vee architecture with the S63 family used in BMW M5, M8, and X5M/X6M models. As with other BMW-sourced performance V8s, the S68 can exhibit the same hot-vee pattern: valve seal wear, coolant line degradation and oil consumption. We replace timing chains, valve seals, and coolant components as standard on every S68 rebuild.",
-      "*include_in_hero_hook: yes — Source: BMW G-BRF N63/S63 pattern, cross-applicable to S68, per VRF-landrover-range-rover.md.*"
+      "The Range Rover SV (P615) is powered by the BMW S68 twin-turbo V8 - a 4.4-litre unit that shares its hot-vee architecture with the S63 family used in BMW M5, M8, and X5M/X6M models. As with other BMW-sourced performance V8s, the S68 can exhibit the same hot-vee pattern: valve seal wear, coolant line degradation and oil consumption. We replace timing chains, valve seals, and coolant components as standard on every S68 rebuild.",
+      "*include_in_hero_hook: yes - Source: BMW G-BRF N63/S63 pattern, cross-applicable to S68, per VRF-landrover-range-rover.md.*"
     ],
     "source": "Source: BMW G-BRF N63/S63 pattern, cross-applicable to S68, per VRF-landrover-range-rover.md"
   }

@@ -4,12 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£1,900",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
+  "carImage": "/cars/card/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
   "cards": [
     {
       "code": "BMW M47D20",
-      "carImage": "/cars/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
-      "generation": "L359 (2006–2014)",
+      "carImage": "/cars/card/land-rover-freelander-l359-gs-compact-suv-20062010-group-ala-3258.webp",
+      "generation": "L359 (2006-2014)",
       "price": "£1,900",
       "codeHref": "/landrover-m47d20-bmw-sourced-engine"
     }
@@ -17,7 +17,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -30,8 +30,8 @@
     "titlePre": "Land Rover Freelander TD4 Timing Chain & Injector Wear ",
     "titleHighlight": "(L359, BMW M47D20)",
     "paragraphs": [
-      "If your Freelander TD4 has the BMW M47D20 diesel engine — fitted to the L359 generation from 2006 to 2014 — timing chain stretch and injector seal leaks are a well-documented pattern on this engine, shared with BMW 3 and 5 Series models of the same era. We replace the timing chain, bearings and gaskets as standard on every M47D20 rebuild.",
-      "Other Freelander variants use different engines — the 1.8i has the Rover K-Series petrol, the 2.5 V6 is a different petrol unit, and the eD4/SD4 use Ford Duratorq diesels — so this specific issue only affects the TD4 with the BMW M47D20."
+      "If your Freelander TD4 has the BMW M47D20 diesel engine - fitted to the L359 generation from 2006 to 2014 - timing chain stretch and injector seal leaks are a well-documented pattern on this engine, shared with BMW 3 and 5 Series models of the same era. We replace the timing chain, bearings and gaskets as standard on every M47D20 rebuild.",
+      "Other Freelander variants use different engines - the 1.8i has the Rover K-Series petrol, the 2.5 V6 is a different petrol unit, and the eD4/SD4 use Ford Duratorq diesels - so this specific issue only affects the TD4 with the BMW M47D20."
     ],
     "source": "Source: BMW M47 pattern, shared with BMW 3/5 Series of same era, per VRF-landrover-freelander.md. Only the M47D20-fitted TD4 is affected by this specific pattern"
   }

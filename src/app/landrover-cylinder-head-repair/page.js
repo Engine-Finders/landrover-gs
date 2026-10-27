@@ -8,7 +8,7 @@ const FAQ = (data.sections || []).filter((s) => s.kind === "faq").flatMap((s) =>
 
 export const metadata = {
   title: "Land Rover Cylinder Head Repair & Rebuild | Land Rover Garage",
-  description: "Land Rover cylinder head repair and rebuild for Defender, Discovery, Range Rover, Freelander and more. Crack testing, skimming, valve work — full workshop service.",
+  description: "Land Rover cylinder head repair and rebuild for Defender, Discovery, Range Rover, Freelander and more. Crack testing, skimming, valve work - full workshop service.",
   alternates: { canonical: PATH },
 };
 

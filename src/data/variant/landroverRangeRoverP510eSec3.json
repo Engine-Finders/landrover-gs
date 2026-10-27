@@ -4,12 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£3,200",
   "engineImage": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
-  "carImage": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+  "carImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
   "cards": [
     {
       "code": "AJ300P",
       "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+      "carImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
       "generation": "",
       "price": "£3,200",
       "codeHref": "/landrover-aj300p-engine"
@@ -17,7 +17,7 @@
     {
       "code": "AJ300P",
       "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+      "carImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
       "generation": "",
       "price": "£3,200",
       "codeHref": "/landrover-aj300p-engine"
@@ -25,7 +25,7 @@
     {
       "code": "AJ300P",
       "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+      "carImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
       "generation": "",
       "price": "£3,200",
       "codeHref": "/landrover-aj300p-engine"
@@ -33,7 +33,7 @@
     {
       "code": "AJ300P",
       "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
-      "carImage": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+      "carImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
       "generation": "",
       "price": "£3,200",
       "codeHref": "/landrover-aj300p-engine"
@@ -42,7 +42,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -56,8 +56,8 @@
     "titleHighlight": "",
     "paragraphs": [
       "If your Range Rover P510e has the AJ300P (3.0L I6 + 105kW electric motor) (L663 generation):",
-      "Timing chain wear — Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ300P (3.0L I6 + 105kW electric motor) rebuild."
+      "Timing chain wear - Ingenium diesel engines share a well-documented timing chain pattern. We replace timing chains, guides and tensioners as standard on every AJ300P (3.0L I6 + 105kW electric motor) rebuild."
     ],
-    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only — not to classic Defender models"
+    "source": "Source: established specialist consensus, l663.guide specialist buying guide, what-breaks.com. This applies to L663 Defenders only - not to classic Defender models"
   }
 }

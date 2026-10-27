@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "TDV6 SDV6",
     "titlePost": " ENGINE",
-    "body": "The TDV6 and SDV6 are 3.0-litre V6 diesel engines, part of the Ford Lion V6 / M57D30 family, developed jointly by Ford and Land Rover. The engines were produced from 2004 to 2019 and fitted across three Land Rover model lines — the Discovery (L319 D3/D4), the Range Rover (L322/L405), and the Range Rover Sport (L320/L494). The TDV6 uses a single turbocharger with lower power output (211-258 PS), while the SDV6 uses twin turbochargers with higher power output (292-306 PS). Both share the same engine block and key components, though the SDV6 is effectively a tuned version of the TDV6. We work on both variants and treat the same critical inspection points — particularly the crankshaft and timing chain system — regardless of which badge it carries. Rebuilds start from £2,400."
+    "body": "The TDV6 and SDV6 are 3.0-litre V6 diesel engines, part of the Ford Lion V6 / M57D30 family, developed jointly by Ford and Land Rover. The engines were produced from 2004 to 2019 and fitted across three Land Rover model lines - the Discovery (L319 D3/D4), the Range Rover (L322/L405), and the Range Rover Sport (L320/L494). The TDV6 uses a single turbocharger with lower power output (211-258 PS), while the SDV6 uses twin turbochargers with higher power output (292-306 PS). Both share the same engine block and key components, though the SDV6 is effectively a tuned version of the TDV6. We work on both variants and treat the same critical inspection points - particularly the crankshaft and timing chain system - regardless of which badge it carries. Rebuilds start from £2,400."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -38,7 +38,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "The TDV6 and SDV6 share the same 3.0-litre V6 block and key components, but TDV6 vs SDV6 variants differ significantly — the TDV6 uses a single turbocharger with lower power output (211-258 PS), while the SDV6 uses twin turbochargers with higher power output (292-306 PS) and effectively represents a tuned version of the same engine. Registration/VIN matching is essential before confirming any rebuild or replacement.",
+    "body": "The TDV6 and SDV6 share the same 3.0-litre V6 block and key components, but TDV6 vs SDV6 variants differ significantly - the TDV6 uses a single turbocharger with lower power output (211-258 PS), while the SDV6 uses twin turbochargers with higher power output (292-306 PS) and effectively represents a tuned version of the same engine. Registration/VIN matching is essential before confirming any rebuild or replacement.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -49,7 +49,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "2004–2019"
+        "text": "2004-2019"
       },
       {
         "icon": "engine",
@@ -69,10 +69,10 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "TDV6/SDV6 in the Discovery (L319 D3/D4, 2004–2016)",
+        "heading": "TDV6/SDV6 in the Discovery (L319 D3/D4, 2004-2016)",
         "model": "Discovery",
         "chassis": "L319 D3/D4",
-        "years": "2004–2016",
+        "years": "2004-2016",
         "variant": "",
         "body": "The TDV6/SDV6 in the Discovery is one of the applications we work on regularly, spanning both the Discovery 3 and Discovery 4 generations.",
         "price": "£2,400",
@@ -81,37 +81,37 @@
         "powertrain": "Diesel",
         "href": "/discovery-engines",
         "title": "TDV6 SDV6 in the Discovery",
-        "subtitle": "(L319 D3/D4, 2004–2016)"
+        "subtitle": "(L319 D3/D4, 2004-2016)"
       },
       {
-        "heading": "TDV6/SDV6 in the Range Rover (L322, L405, 2006–2019)",
+        "heading": "TDV6/SDV6 in the Range Rover (L322, L405, 2006-2019)",
         "model": "Range Rover",
         "chassis": "L322/L405",
-        "years": "2006–2019",
+        "years": "2006-2019",
         "variant": "",
-        "body": "The TDV6/SDV6 in the Range Rover is one of the applications we work on regularly, covering two full generations — the L322 (2006–2012) and L405 (2012–2019).",
+        "body": "The TDV6/SDV6 in the Range Rover is one of the applications we work on regularly, covering two full generations - the L322 (2006-2012) and L405 (2012-2019).",
         "price": "£2,400",
         "ctaLabel": "Check your Range Rover TDV6/SDV6",
         "generation": "L322, L405",
         "powertrain": "Diesel",
         "href": "/models",
         "title": "TDV6 SDV6 in the Range Rover",
-        "subtitle": "(L322/L405, 2006–2019)"
+        "subtitle": "(L322/L405, 2006-2019)"
       },
       {
-        "heading": "TDV6/SDV6 in the Range Rover Sport (L320, L494, 2005–2019)",
+        "heading": "TDV6/SDV6 in the Range Rover Sport (L320, L494, 2005-2019)",
         "model": "Range Rover Sport",
         "chassis": "L320/L494",
-        "years": "2005–2019",
+        "years": "2005-2019",
         "variant": "",
-        "body": "The TDV6/SDV6 in the Range Rover Sport is one of the applications we work on regularly, across the L320 (2005–2013) and L494 (2013–2019) generations.",
+        "body": "The TDV6/SDV6 in the Range Rover Sport is one of the applications we work on regularly, across the L320 (2005-2013) and L494 (2013-2019) generations.",
         "price": "£2,400",
         "ctaLabel": "Check your Range Rover Sport TDV6/SDV6",
         "generation": "L320, L494",
         "powertrain": "Diesel",
         "href": "/range-rover-sport-engines",
         "title": "TDV6 SDV6 in the Range Rover Sport",
-        "subtitle": "(L320/L494, 2005–2019)"
+        "subtitle": "(L320/L494, 2005-2019)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

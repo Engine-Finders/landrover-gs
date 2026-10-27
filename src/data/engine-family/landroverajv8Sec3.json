@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover AJ-V8 Applications — ",
+  "titlePre": "Land Rover AJ-V8 Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "4.2 SC V8, 4.4 V8",
       "generation": "L320",
       "chassis": "L320",
-      "years": "2005–2013",
+      "years": "2005-2013",
       "powertrain": "Petrol / Supercharged",
       "modelHref": "/range-rover-sport-engines"
     }

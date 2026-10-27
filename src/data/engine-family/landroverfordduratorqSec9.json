@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "Ford Duratorq",
     "titlePost": " ENGINE",
-    "body": "The Duratorq is a Ford-sourced 2.2-litre four-cylinder diesel engine (Puma family), used in Land Rover applications between 2011 and 2016. It's a chain-driven engine — not a belt — and was fitted across the Defender (late Puma-generation), Discovery Sport, Freelander 2 and Range Rover Evoque. The same engine family was also used in the Ford Transit and Mondeo, though our work here covers Land Rover-badged applications specifically. Across Land Rover, it appears in both TD4 and SD4 variants, with the SD4 carrying a higher power output."
+    "body": "The Duratorq is a Ford-sourced 2.2-litre four-cylinder diesel engine (Puma family), used in Land Rover applications between 2011 and 2016. It's a chain-driven engine - not a belt - and was fitted across the Defender (late Puma-generation), Discovery Sport, Freelander 2 and Range Rover Evoque. The same engine family was also used in the Ford Transit and Mondeo, though our work here covers Land Rover-badged applications specifically. Across Land Rover, it appears in both TD4 and SD4 variants, with the SD4 carrying a higher power output."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -15,7 +15,7 @@
     "titlePre": "",
     "titleHighlight": "APPLICATIONS",
     "titlePost": " BY MODEL",
-    "body": "Across the Defender (L663 Puma, 2012–2016), the Duratorq powered the 2.2 TDCi variant during the final years of the classic Defender's production. The Discovery Sport (L550, 2014–2016) used it in TD4 and SD4 form before the Ingenium diesel range replaced it. The Freelander (L359, 2011–2014) carried it as TD4 and SD4 in the final years of Freelander production. The Range Rover Evoque (L538, 2011–2016) also used the Duratorq in TD4 and SD4 variants before the Ingenium engines took over in the L551 generation.",
+    "body": "Across the Defender (L663 Puma, 2012-2016), the Duratorq powered the 2.2 TDCi variant during the final years of the classic Defender's production. The Discovery Sport (L550, 2014-2016) used it in TD4 and SD4 form before the Ingenium diesel range replaced it. The Freelander (L359, 2011-2014) carried it as TD4 and SD4 in the final years of Freelander production. The Range Rover Evoque (L538, 2011-2016) also used the Duratorq in TD4 and SD4 variants before the Ingenium engines took over in the L551 generation.",
     "lineup": [
       {
         "label": "Defender",
@@ -42,7 +42,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the Duratorq spans four different Land Rover models and multiple generations — some in TD4 form, others in SD4 form — compatibility comes down to confirming your exact model, generation, and drivetrain spec, which we do by registration. A Duratorq from a Defender isn't a drop-in match for a Duratorq from a Range Rover Evoque, even though it's the same base engine family — ancillaries, mounting, and turbo configuration all differ. Before we quote or supply anything, we confirm your exact vehicle.",
+    "body": "Because the Duratorq spans four different Land Rover models and multiple generations - some in TD4 form, others in SD4 form - compatibility comes down to confirming your exact model, generation, and drivetrain spec, which we do by registration. A Duratorq from a Defender isn't a drop-in match for a Duratorq from a Range Rover Evoque, even though it's the same base engine family - ancillaries, mounting, and turbo configuration all differ. Before we quote or supply anything, we confirm your exact vehicle.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -53,7 +53,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "2012–2016"
+        "text": "2012-2016"
       },
       {
         "icon": "engine",
@@ -73,64 +73,64 @@
     "image": "/engine/sec9a.jpg",
     "items": [
       {
-        "heading": "Duratorq in the Defender (L663 Puma, 2012–2016)",
+        "heading": "Duratorq in the Defender (L663 Puma, 2012-2016)",
         "model": "Defender",
         "chassis": "L663 Puma",
-        "years": "2012–2016",
+        "years": "2012-2016",
         "variant": "",
-        "body": "The Duratorq in the Defender is one of the applications we work on — the 2.2 TDCi, during the final years of the classic Defender's production.",
+        "body": "The Duratorq in the Defender is one of the applications we work on - the 2.2 TDCi, during the final years of the classic Defender's production.",
         "price": "£1,900",
         "ctaLabel": "Check your Defender Duratorq",
         "generation": "L663 (Puma)",
         "powertrain": "Diesel",
         "href": "/defender-engines",
         "title": "Ford Duratorq in the Defender",
-        "subtitle": "(L663 Puma, 2012–2016)"
+        "subtitle": "(L663 Puma, 2012-2016)"
       },
       {
-        "heading": "Duratorq in the Discovery Sport (L550, 2014–2016)",
+        "heading": "Duratorq in the Discovery Sport (L550, 2014-2016)",
         "model": "Discovery Sport",
         "chassis": "L550",
-        "years": "2014–2016",
+        "years": "2014-2016",
         "variant": "",
-        "body": "The Duratorq in the Discovery Sport is one of the applications we work on — the TD4 and SD4 variants, during the early years of Discovery Sport production before the Ingenium diesel range replaced it.",
+        "body": "The Duratorq in the Discovery Sport is one of the applications we work on - the TD4 and SD4 variants, during the early years of Discovery Sport production before the Ingenium diesel range replaced it.",
         "price": "£1,900",
         "ctaLabel": "Check your Discovery Sport Duratorq",
         "generation": "L550",
         "powertrain": "Diesel",
         "href": "/discovery-sport-engines",
         "title": "Ford Duratorq in the Discovery Sport",
-        "subtitle": "(L550, 2014–2016)"
+        "subtitle": "(L550, 2014-2016)"
       },
       {
-        "heading": "Duratorq in the Freelander (L359, 2011–2014)",
+        "heading": "Duratorq in the Freelander (L359, 2011-2014)",
         "model": "Freelander",
         "chassis": "L359",
-        "years": "2011–2014",
+        "years": "2011-2014",
         "variant": "",
-        "body": "The Duratorq in the Freelander is one of the applications we work on — the TD4 and SD4 variants, during the final years of Freelander production.",
+        "body": "The Duratorq in the Freelander is one of the applications we work on - the TD4 and SD4 variants, during the final years of Freelander production.",
         "price": "£1,900",
         "ctaLabel": "Check your Freelander Duratorq",
         "generation": "L359",
         "powertrain": "Diesel",
         "href": "/freelander-engines",
         "title": "Ford Duratorq in the Freelander",
-        "subtitle": "(L359, 2011–2014)"
+        "subtitle": "(L359, 2011-2014)"
       },
       {
-        "heading": "Duratorq in the Range Rover Evoque (L538, 2011–2016)",
+        "heading": "Duratorq in the Range Rover Evoque (L538, 2011-2016)",
         "model": "Range Rover Evoque",
         "chassis": "L538",
-        "years": "2011–2016",
+        "years": "2011-2016",
         "variant": "",
-        "body": "The Duratorq in the Range Rover Evoque is one of the applications we work on — the TD4 and SD4 variants, during the first-generation Evoque's production before the Ingenium engines took over in the L551 generation.",
+        "body": "The Duratorq in the Range Rover Evoque is one of the applications we work on - the TD4 and SD4 variants, during the first-generation Evoque's production before the Ingenium engines took over in the L551 generation.",
         "price": "£1,900",
         "ctaLabel": "Check your Range Rover Evoque Duratorq",
         "generation": "L538",
         "powertrain": "Diesel",
         "href": "/range-rover-evoque-engines",
         "title": "Ford Duratorq in the Range Rover Evoque",
-        "subtitle": "(L538, 2011–2016)"
+        "subtitle": "(L538, 2011-2016)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

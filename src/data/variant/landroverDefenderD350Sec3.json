@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,800",
   "engineImage": "/engines/jaguar-d300-engine.webp",
-  "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+  "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
   "cards": [
     {
       "code": "AJ300D",
       "image": "/engines/jaguar-d300-engine.webp",
-      "carImage": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
-      "generation": "L663 (2019–present)",
+      "carImage": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+      "generation": "L663 (2019-present)",
       "price": "£2,800",
       "codeHref": "/landrover-aj300d-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,7 +31,7 @@
     "titlePre": "Land Rover Defender D350 DC-DC Converter & Timing Chain ",
     "titleHighlight": "",
     "paragraphs": [
-      "Defender D350 engines with the Ingenium AJ300D — fitted across the L663 generation — are part of the Ingenium diesel family. The timing chain pattern is well-documented across this engine family, and the DC-DC converter failure pattern applies to mild-hybrid variants (which the D350 is). The DC-DC converter is a single point of failure for the entire 12V electrical system — failure causes complete loss of electrical power, sometimes while driving. We replace the DC-DC converter, timing chain components, injector seals, bearings and gaskets as standard on every AJ300D rebuild.",
+      "Defender D350 engines with the Ingenium AJ300D - fitted across the L663 generation - are part of the Ingenium diesel family. The timing chain pattern is well-documented across this engine family, and the DC-DC converter failure pattern applies to mild-hybrid variants (which the D350 is). The DC-DC converter is a single point of failure for the entire 12V electrical system - failure causes complete loss of electrical power, sometimes while driving. We replace the DC-DC converter, timing chain components, injector seals, bearings and gaskets as standard on every AJ300D rebuild.",
       "Early production D350s (2019-2020) also show electrical injector faults, which we inspect and replace as part of the rebuild."
     ],
     "source": "Source: verified via specialist buying guide (l663.guide), independently corroborated, per VRF-landrover-defender.md. Confirmed for AJ300D (D250/D300/D350) MHEV Ingenium variants. P300 (no MHEV) and Octa (BMW's own 48V hardware) explicitly excluded from this specific pattern"

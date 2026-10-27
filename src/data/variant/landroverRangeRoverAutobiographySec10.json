@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover Autobiography ENGINE",
     "paragraphs": [
-      "The current L460-generation Range Rover Autobiography is fitted with BMW-sourced V8 engines — a move away from the previous JLR-designed units. It uses two distinct BMW V8s: the N63 (the standard V8 tier) and the S68 (the performance/flagship tier). They're both 4.4-litre twin-turbo \"hot-vee\" engines, meaning the turbochargers sit in the V of the engine rather than outside it. This design has particular implications for heat management and long-term component wear — valve seals and coolant lines are the main areas we pay close attention to on both. We rebuild both to the same exacting standard."
+      "The current L460-generation Range Rover Autobiography is fitted with BMW-sourced V8 engines - a move away from the previous JLR-designed units. It uses two distinct BMW V8s: the N63 (the standard V8 tier) and the S68 (the performance/flagship tier). They're both 4.4-litre twin-turbo \"hot-vee\" engines, meaning the turbochargers sit in the V of the engine rather than outside it. This design has particular implications for heat management and long-term component wear - valve seals and coolant lines are the main areas we pay close attention to on both. We rebuild both to the same exacting standard."
     ],
     "boldParagraph": "We continue to rebuild and replace BMW N63 or BMW S68 engines for every Range Rover Autobiography on the road."
   },
@@ -33,7 +33,7 @@
   "compatibility": {
     "titlePre": "Land Rover Range Rover Autobiography ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "The L460 Autobiography uses two completely distinct BMW engine families — the N63 and the S68 — which share a basic architecture but have different power outputs, tuning, and some internal component variations. They are not interchangeable: an N63 ECU will not run an S68 correctly, and physical fitment differs in some ancillaries. Before we quote or supply anything, we confirm:",
+    "intro": "The L460 Autobiography uses two completely distinct BMW engine families - the N63 and the S68 - which share a basic architecture but have different power outputs, tuning, and some internal component variations. They are not interchangeable: an N63 ECU will not run an S68 correctly, and physical fitment differs in some ancillaries. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -59,12 +59,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Autobiography ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+    "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -75,18 +75,18 @@
     "rows": [
       {
         "generation": "L460",
-        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+        "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L460",
-        "years": "2022–present",
+        "years": "2022-present",
         "engineCode": "BMW N63",
         "fuel": "Petrol Twin-Turbo",
         "codeHref": "/landrover-n63-engine"
       },
       {
         "generation": "L460",
-        "image": "/cars/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
+        "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
         "chassis": "L460",
-        "years": "2022–present",
+        "years": "2022-present",
         "engineCode": "BMW S68",
         "fuel": "Petrol Twin-Turbo",
         "codeHref": "/landrover-s68-engine"

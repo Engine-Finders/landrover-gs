@@ -8,7 +8,7 @@ const FAQ = (data.sections || []).filter((s) => s.kind === "faq").flatMap((s) =>
 
 export const metadata = {
   title: "Land Rover Engine Rebuild Case Studies | Land Rover Garage",
-  description: "Land Rover engine rebuild case studies — real workshop examples across Defender, Discovery, Range Rover Sport, Evoque and more. See how we restore classic and modern Land Rover engines.",
+  description: "Land Rover engine rebuild case studies - real workshop examples across Defender, Discovery, Range Rover Sport, Evoque and more. See how we restore classic and modern Land Rover engines.",
   alternates: { canonical: PATH },
 };
 

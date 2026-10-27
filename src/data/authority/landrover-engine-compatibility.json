@@ -3,7 +3,7 @@
   "metaTitle": "Land Rover Engine Compatibility & Application Matching | Land Rover Garage",
   "metaDescription": "Precision engine matching for your Land Rover. We verify every engine against your VIN, chassis, model year, and ECU calibration. Get the exact fit, every time.",
   "h1": "Land Rover Engine Compatibility & Application Matching",
-  "lede": "We verify every engine against your exact Land Rover's VIN, chassis code, model year, and ECU calibration. No guesswork, no “should fit” — just the right engine, the first time.",
+  "lede": "We verify every engine against your exact Land Rover's VIN, chassis code, model year, and ECU calibration. No guesswork, no “should fit” - just the right engine, the first time.",
   "ctas": [
     {
       "label": "Get a Quote",
@@ -40,7 +40,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "Engine compatibility and application matching is the professional process of determining which engines can be correctly fitted to your specific Land Rover. It is not simply looking at an engine code — it's a systematic cross-reference of your vehicle's VIN, chassis code, model year, market specification, and existing ECU calibration against the official Land Rover parts catalogue (TOPIx)."
+          "html": "Engine compatibility and application matching is the professional process of determining which engines can be correctly fitted to your specific Land Rover. It is not simply looking at an engine code - it's a systematic cross-reference of your vehicle's VIN, chassis code, model year, market specification, and existing ECU calibration against the official Land Rover parts catalogue (TOPIx)."
         },
         {
           "t": "p",
@@ -49,11 +49,11 @@
         {
           "t": "ul",
           "items": [
-            "**Engine block and cylinder head** — correct casting, bore, and deck height",
-            "**Timing components** — chain/belt spec, tensioner fitment, cam profiles",
-            "**Ancillary fitment** — alternator, power steering pump, A/C compressor mounting points (often model-specific, not engine-family-specific)",
-            "**Transmission interface** — bellhousing pattern and flywheel/flexplate compatibility",
-            "**ECU calibration** — power output variant, emission class, and injector/turbo matching"
+            "**Engine block and cylinder head** - correct casting, bore, and deck height",
+            "**Timing components** - chain/belt spec, tensioner fitment, cam profiles",
+            "**Ancillary fitment** - alternator, power steering pump, A/C compressor mounting points (often model-specific, not engine-family-specific)",
+            "**Transmission interface** - bellhousing pattern and flywheel/flexplate compatibility",
+            "**ECU calibration** - power output variant, emission class, and injector/turbo matching"
           ]
         },
         {
@@ -74,7 +74,7 @@
           "t": "callout",
           "heading": "",
           "paras": [
-            "**Engine compatibility & application matching** — from **£140** (included as part of any full rebuild or replacement quote)",
+            "**Engine compatibility & application matching** - from **£140** (included as part of any full rebuild or replacement quote)",
             "This covers full VIN-to-engine cross-referencing, TOPIx catalogue check, and compatibility sign-off. [Pricing disclaimer →](/pricing-legal-disclaimer)"
           ]
         }
@@ -86,7 +86,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "We provide compatibility matching for every Land Rover model and engine variant. Below are the key model lines we cover — each linked to its model page for full engine options and known issues."
+          "html": "We provide compatibility matching for every Land Rover model and engine variant. Below are the key model lines we cover - each linked to its model page for full engine options and known issues."
         },
         {
           "t": "modelgroup",
@@ -381,11 +381,11 @@
         {
           "t": "ul",
           "items": [
-            "**Official TOPIx access** — we use the same Land Rover parts catalogue as main dealers.",
-            "**VIN-based matching** — every check starts with your vehicle's unique VIN, not a guessed engine code.",
-            "**Ancillary-specific verification** — we don't assume ancillaries transfer; we check every mounting point.",
-            "**ECU calibration awareness** — we know that the same engine code can have different power outputs and emission classes across model years.",
-            "**Transmission interface check** — we verify bellhousing pattern and flywheel compatibility, so your gearbox fits."
+            "**Official TOPIx access** - we use the same Land Rover parts catalogue as main dealers.",
+            "**VIN-based matching** - every check starts with your vehicle's unique VIN, not a guessed engine code.",
+            "**Ancillary-specific verification** - we don't assume ancillaries transfer; we check every mounting point.",
+            "**ECU calibration awareness** - we know that the same engine code can have different power outputs and emission classes across model years.",
+            "**Transmission interface check** - we verify bellhousing pattern and flywheel compatibility, so your gearbox fits."
           ]
         },
         {
@@ -400,11 +400,11 @@
       "steps": [
         {
           "title": "1. The same engine code isn't always the same engine",
-          "body": "The AJ200D Ingenium diesel is fitted to the Discovery Sport, Evoque, Velar, and Defender — but each application has different ancillaries, ECU calibrations, and sometimes different transmission bellhousings. We don't assume."
+          "body": "The AJ200D Ingenium diesel is fitted to the Discovery Sport, Evoque, Velar, and Defender - but each application has different ancillaries, ECU calibrations, and sometimes different transmission bellhousings. We don't assume."
         },
         {
           "title": "2. Platform sharing adds complexity",
-          "body": "Some Land Rover models share platforms with other JLR vehicles (e.g., Velar L560 shares its D7a aluminium platform with Jaguar F-Pace, XF, and XE). This means some underbody components and engine bay layouts are shared, but not everything — we check every interface."
+          "body": "Some Land Rover models share platforms with other JLR vehicles (e.g., Velar L560 shares its D7a aluminium platform with Jaguar F-Pace, XF, and XE). This means some underbody components and engine bay layouts are shared, but not everything - we check every interface."
         },
         {
           "title": "3. Used engines need the same matching",
@@ -434,11 +434,11 @@
       "items": [
         {
           "q": "Do I need engine matching if I'm just having my engine rebuilt?",
-          "a": "Yes — if your engine needs replacement components (block, head, ancillaries) or if you're switching to a different power variant, we verify compatibility against your VIN. Even for a like-for-like rebuild, we confirm the correct part numbers for timing components, gaskets, and seals."
+          "a": "Yes - if your engine needs replacement components (block, head, ancillaries) or if you're switching to a different power variant, we verify compatibility against your VIN. Even for a like-for-like rebuild, we confirm the correct part numbers for timing components, gaskets, and seals."
         },
         {
           "q": "Can you match an engine from a different Land Rover model?",
-          "a": "Sometimes, but not always. We check the official TOPIx catalogue to see if the engine code was ever factory-fitted to your model. If it wasn't, we don't recommend it — the ancillaries, ECU, or transmission may not fit correctly."
+          "a": "Sometimes, but not always. We check the official TOPIx catalogue to see if the engine code was ever factory-fitted to your model. If it wasn't, we don't recommend it - the ancillaries, ECU, or transmission may not fit correctly."
         },
         {
           "q": "What information do I need to provide?",
@@ -446,7 +446,7 @@
         },
         {
           "q": "Is engine matching included in a rebuild quote?",
-          "a": "Yes — for any full rebuild or replacement, we include a complete compatibility check as part of the quotation. If you just need a standalone match check (e.g., for a used engine you've found), the starting price is £140."
+          "a": "Yes - for any full rebuild or replacement, we include a complete compatibility check as part of the quotation. If you just need a standalone match check (e.g., for a used engine you've found), the starting price is £140."
         }
       ]
     }

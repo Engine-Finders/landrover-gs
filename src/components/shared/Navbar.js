@@ -16,10 +16,10 @@ export default function Navbar({ data }) {
   return (
     <header className="theme-dark relative z-50 bg-black text-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-4 py-4 sm:px-6 lg:px-10">
-        <Link href="/" className="flex shrink-0 items-center" aria-label={`${data.brand} — home`}>
+        <Link href="/" className="flex shrink-0 items-center" aria-label={`${data.brand} - home`}>
           <Image
             src="/brand/logo-square.webp"
-            alt={`Land Rover Garage — ${data.tagline}`}
+            alt={`Land Rover Garage - ${data.tagline}`}
             width={797}
             height={274}
             priority

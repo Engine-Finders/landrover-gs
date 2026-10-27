@@ -69,7 +69,7 @@ export default function Sec10({ data }) {
 
         {/* ===== desktop ===== */}
         <div className="relative hidden md:block">
-          {/* sec9b.jpg is 16:9 with a white left half — full width, height compressed to the header (no cropping) */}
+          {/* sec9b.jpg is 16:9 with a white left half - full width, height compressed to the header (no cropping) */}
           {/* photo band starts 18% in, so the engine (right half of sec9b) clears the heading/subtext;
               the image's own left side is white, so the uncovered strip is plain white too */}
           <div className="absolute inset-x-0 top-0 h-[26rem] bg-white" aria-hidden="true">

@@ -1,4 +1,4 @@
-// Small "////AMG" performance-division wordmark badge — four narrowing
+// Small "////AMG" performance-division wordmark badge - four narrowing
 // skewed bars followed by the AMG wordmark. Pairs with LandRoverLogo (the
 // tri-star) wherever the reference UI shows both together above a headline.
 export default function AMGBadge({

@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Freelander 2.0 Di  Td4 ENGINE",
     "paragraphs": [
-      "The Freelander 2.0 Di / Td4 was fitted to the first-generation Freelander (L314) from 1997 to 2006. Early cars used the L-Series — an engine developed by Land Rover and fitted to the Freelander until around 2001. Later cars switched to the BMW M47D20, a 2.0-litre four-cylinder diesel shared with the BMW 3 and 5 Series of the same era. This engine was carried over into the second-generation Freelander (L359) when it launched in 2006 — a testament to its strength."
+      "The Freelander 2.0 Di / Td4 was fitted to the first-generation Freelander (L314) from 1997 to 2006. Early cars used the L-Series - an engine developed by Land Rover and fitted to the Freelander until around 2001. Later cars switched to the BMW M47D20, a 2.0-litre four-cylinder diesel shared with the BMW 3 and 5 Series of the same era. This engine was carried over into the second-generation Freelander (L359) when it launched in 2006 - a testament to its strength."
     ],
     "boldParagraph": "We continue to rebuild and replace L-Series (early Di) or BMW M47D20 (later Td4) engines for every Freelander 2.0 Di  Td4 on the road."
   },
@@ -16,14 +16,14 @@
     "cards": [
       {
         "codeHighlight": "L-Series",
-        "codeRest": "(early, 1997–2001)",
+        "codeRest": "(early, 1997-2001)",
         "body": "A 2.0-litre four-cylinder diesel fitted to the earliest Freelander 2.0 Di models. A solid engine for its time, though specific rebuild parts are now harder to source than the later M47D20.",
         "cta": "Check Your L-Series Freelander 2.0 Di  Td4"
       },
       {
         "codeHighlight": "BMW M47D20",
-        "codeRest": "(later Td4, 2001–2006)",
-        "body": "The M47D20 — BMW's 2.0-litre four-cylinder diesel — is the more common engine in Freelander Td4s. It's robust but known for timing chain stretch and injector seal leaks over time. We replace timing chain components, bearings and gaskets as standard on every M47D20 rebuild.",
+        "codeRest": "(later Td4, 2001-2006)",
+        "body": "The M47D20 - BMW's 2.0-litre four-cylinder diesel - is the more common engine in Freelander Td4s. It's robust but known for timing chain stretch and injector seal leaks over time. We replace timing chain components, bearings and gaskets as standard on every M47D20 rebuild.",
         "cta": "Check Your BMW M47D20 Freelander 2.0 Di  Td4",
         "codeHref": "/landrover-m47d20-bmw-sourced-engine"
       }
@@ -32,7 +32,7 @@
   "compatibility": {
     "titlePre": "Land Rover Freelander 2.0 Di  Td4 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the Freelander 2.0 Di / Td4 spans two distinct engines under one variant name, fitting the wrong replacement — or assuming M47D20 parts will work on an L-Series car — risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
+    "intro": "Because the Freelander 2.0 Di / Td4 spans two distinct engines under one variant name, fitting the wrong replacement - or assuming M47D20 parts will work on an L-Series car - risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -58,12 +58,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Freelander 2.0 Di  Td4 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+    "image": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -74,17 +74,17 @@
     "rows": [
       {
         "generation": "Freelander 1",
-        "image": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+        "image": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
         "chassis": "L314",
-        "years": "1997–2006",
+        "years": "1997-2006",
         "engineCode": "L-Series (early Di)",
         "fuel": "Diesel"
       },
       {
         "generation": "Freelander 1",
-        "image": "/cars/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
+        "image": "/cars/card/land-rover-freelander-l314-3-door-softback-compact-suv-19972-dac8.webp",
         "chassis": "L314",
-        "years": "1997–2006",
+        "years": "1997-2006",
         "engineCode": "BMW M47D20 (later Td4)",
         "fuel": "Diesel",
         "codeHref": "/landrover-m47d20-bmw-sourced-engine"

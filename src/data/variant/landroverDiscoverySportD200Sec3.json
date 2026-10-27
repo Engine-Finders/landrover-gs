@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,000",
   "engineImage": "/engines/jaguar-aj200d-engine.webp",
-  "carImage": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+  "carImage": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
   "cards": [
     {
       "code": "Ingenium AJ200D",
       "image": "/engines/jaguar-aj200d-engine.webp",
-      "carImage": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
-      "generation": "L550 (2020–present)",
+      "carImage": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+      "generation": "L550 (2020-present)",
       "price": "£2,000",
       "codeHref": "/landrover-aj200d-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,8 +31,8 @@
     "titlePre": "Land Rover Discovery Sport D200 Ingenium Diesel Timing Chain & Oil Dilution ",
     "titleHighlight": "",
     "paragraphs": [
-      "Discovery Sport D200 engines with the Ingenium AJ200D diesel — across the L550 generation — commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks over time. This is a well-documented pattern on Ingenium diesel engines, confirmed by multiple specialist sources and owner forums. We replace timing chains, injector seals, EGR components and gaskets as standard on every D200 rebuild.",
-      "The D200 (introduced in 2020) replaced the earlier D240 badge, but sits on the same Ingenium AJ200D engine family — the known issues apply across the full Ingenium diesel range."
+      "Discovery Sport D200 engines with the Ingenium AJ200D diesel - across the L550 generation - commonly show timing chain tensioner wear, oil dilution from DPF regeneration, and EGR cooler leaks over time. This is a well-documented pattern on Ingenium diesel engines, confirmed by multiple specialist sources and owner forums. We replace timing chains, injector seals, EGR components and gaskets as standard on every D200 rebuild.",
+      "The D200 (introduced in 2020) replaced the earlier D240 badge, but sits on the same Ingenium AJ200D engine family - the known issues apply across the full Ingenium diesel range."
     ],
     "source": "Source: shared Ingenium diesel family pattern (Discovery Sport/Evoque platform), per G-BRF-LandRover.md. Applies to all Ingenium diesel variants including D200"
   }

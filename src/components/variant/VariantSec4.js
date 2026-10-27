@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import ClampedText from "@/components/reusable/ClampedText";
+import QuoteLink from "@/components/shared/QuoteLink";
 
 export default function VariantSec4({ data }) {
   return (
@@ -41,9 +42,9 @@ export default function VariantSec4({ data }) {
                 </div>
                 <p className="mt-2 text-xs font-extrabold uppercase leading-tight text-[#101828]">{c.title}</p>
                 <div className="mt-1.5"><ClampedText className="body-text leading-snug text-[#4a5568]">{c.body}</ClampedText></div>
-                <a href="#quote-form" className="label-text mt-2 inline-flex w-fit items-center gap-1 font-bold text-hero-blue">
+                <QuoteLink href="#quote-form" className="label-text mt-2 inline-flex w-fit items-center gap-1 font-bold text-hero-blue">
                   {c.link || "Learn more"} <span aria-hidden>→</span>
-                </a>
+                </QuoteLink>
               </div>
             ))}
           </div>
@@ -66,12 +67,12 @@ export default function VariantSec4({ data }) {
             <div className="relative z-10 pl-20">
               <p className="text-sm font-extrabold uppercase leading-tight text-[#101828]">{data.banner.title}</p>
               <p className="mt-1.5 text-xs leading-snug text-[#101828]">{data.banner.body}</p>
-              <a
+              <QuoteLink
                 href={data.banner.cta.href}
                 className="btn-text mt-3 flex w-fit items-center justify-center gap-2 whitespace-nowrap rounded-sm bg-linear-to-br from-hero-blue to-hero-blue-dark px-4 py-2.5 uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
               >
                 {data.banner.cta.label} <span aria-hidden>→</span>
-              </a>
+              </QuoteLink>
             </div>
           </div>
         </div>
@@ -120,9 +121,9 @@ export default function VariantSec4({ data }) {
                     </div>
                     <div className="mt-4"><ClampedText className="text-sm leading-relaxed text-[#4a5568]">{c.body}</ClampedText></div>
                   </div>
-                  <a href="#quote-form" className="mt-4 inline-flex w-fit items-center gap-1.5 text-sm font-bold text-hero-blue">
+                  <QuoteLink href="#quote-form" className="mt-4 inline-flex w-fit items-center gap-1.5 text-sm font-bold text-hero-blue">
                     {c.link || "Learn more"} <span aria-hidden>→</span>
-                  </a>
+                  </QuoteLink>
                 </div>
               ))}
             </div>
@@ -153,12 +154,12 @@ export default function VariantSec4({ data }) {
                 <Image src={data.banner.image} alt="" fill className="object-cover" sizes="240px" />
               </div>
 
-              <a
+              <QuoteLink
                 href={data.banner.cta.href}
                 className="relative z-10 flex h-14 shrink-0 items-center justify-center self-center whitespace-nowrap rounded-sm bg-linear-to-br from-hero-blue to-hero-blue-dark px-8 text-sm font-bold uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
               >
                 {data.banner.cta.label} <span className="ml-2" aria-hidden>→</span>
-              </a>
+              </QuoteLink>
             </div>
           </div>
         </div>

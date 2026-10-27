@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Defender P400e ENGINE",
     "paragraphs": [
-      "The Defender P400e is a plug-in hybrid variant of the L663-generation Defender, introduced in 2020. It combines the Ingenium AJ300P — a 3.0-litre inline-six petrol engine — with an electric motor, producing a combined output of 404 PS. Production was limited to the 2020 model year and the 110 body style only, making it a relatively rare variant in the Defender range. The Defender P400e is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Defender P400e is a plug-in hybrid variant of the L663-generation Defender, introduced in 2020. It combines the Ingenium AJ300P - a 3.0-litre inline-six petrol engine - with an electric motor, producing a combined output of 404 PS. Production was limited to the 2020 model year and the 110 body style only, making it a relatively rare variant in the Defender range. The Defender P400e is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300P + electric motor engines for every Defender P400e on the road."
   },
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Defender P400e ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+    "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,7 +69,7 @@
     "rows": [
       {
         "generation": "L663",
-        "image": "/cars/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
+        "image": "/cars/card/land-rover-defender-l663-90-3-door-suv-2020-new-pangea-green-caf9.webp",
         "chassis": "110",
         "years": "2020 only",
         "engineCode": "AJ300P + electric motor",

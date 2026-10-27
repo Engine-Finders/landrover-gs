@@ -8,7 +8,7 @@ const FAQ = (data.sections || []).filter((s) => s.kind === "faq").flatMap((s) =>
 
 export const metadata = {
   title: "Land Rover Engine Rebuild Process | Land Rover Garage",
-  description: "Our 10-step engine rebuild process for Land Rover models — from arrival and strip-down to machining, reassembly, testing, and handover. Every rebuild follows the same workshop-proven procedure.",
+  description: "Our 10-step engine rebuild process for Land Rover models - from arrival and strip-down to machining, reassembly, testing, and handover. Every rebuild follows the same workshop-proven procedure.",
   alternates: { canonical: PATH },
 };
 

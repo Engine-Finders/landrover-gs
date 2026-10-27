@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover AJ200P Applications — ",
+  "titlePre": "Land Rover AJ200P Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "P300",
       "generation": "L663",
       "chassis": "L663",
-      "years": "2020–present",
+      "years": "2020-present",
       "powertrain": "Petrol",
       "modelHref": "/defender-engines"
     },
@@ -37,7 +37,7 @@
       "variant": "P300",
       "generation": "L462",
       "chassis": "L462",
-      "years": "2017–present",
+      "years": "2017-present",
       "powertrain": "Petrol",
       "modelHref": "/discovery-engines"
     },
@@ -46,7 +46,7 @@
       "variant": "P200, P250, P290",
       "generation": "L550",
       "chassis": "L550",
-      "years": "2015–present",
+      "years": "2015-present",
       "powertrain": "Petrol",
       "modelHref": "/discovery-sport-engines"
     },
@@ -55,7 +55,7 @@
       "variant": "P200, P250",
       "generation": "L551",
       "chassis": "L551",
-      "years": "2019–present",
+      "years": "2019-present",
       "powertrain": "Petrol",
       "modelHref": "/range-rover-evoque-engines"
     },
@@ -64,7 +64,7 @@
       "variant": "P250, P300",
       "generation": "L560",
       "chassis": "L560",
-      "years": "2017–present",
+      "years": "2017-present",
       "powertrain": "Petrol",
       "modelHref": "/range-rover-velar-engines"
     }

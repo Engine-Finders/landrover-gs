@@ -11,7 +11,7 @@
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The AJ41 appears in the Discovery 2 — the V8 petrol option for the second-generation Discovery."
+      "body": "The AJ41 appears in the Discovery 2 - the V8 petrol option for the second-generation Discovery."
     },
     {
       "icon": "wrench",
@@ -21,18 +21,18 @@
     {
       "icon": "clipboard",
       "title": "KNOWN ISSUES:",
-      "body": "Head gasket failure is common on higher-mileage examples, and oil leaks are typical on older engines. When properly maintained, the Rover V8 is a robust engine — most of the failures we see stem from cooling system neglect or simply high mileage."
+      "body": "Head gasket failure is common on higher-mileage examples, and oil leaks are typical on older engines. When properly maintained, the Rover V8 is a robust engine - most of the failures we see stem from cooling system neglect or simply high mileage."
     }
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed AJ41 rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed AJ41 rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER AJ41 REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
-    "body": "The AJ41 is a pushrod V8 — a simpler layout than the overhead-cam engines that followed it in the Land Rover range. The absence of overhead cams means fewer components to inspect at the top of the engine, though the timing chain and cylinder heads still require thorough inspection. The cooling system deserves particular attention on any AJ41 rebuild — the Rover V8 family is known to be sensitive to cooling system condition, and an overheated engine is a much more expensive proposition than a well-maintained one.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "body": "The AJ41 is a pushrod V8 - a simpler layout than the overhead-cam engines that followed it in the Land Rover range. The absence of overhead cams means fewer components to inspect at the top of the engine, though the timing chain and cylinder heads still require thorough inspection. The cooling system deserves particular attention on any AJ41 rebuild - the Rover V8 family is known to be sensitive to cooling system condition, and an overheated engine is a much more expensive proposition than a well-maintained one.",
     "scope": {
       "label": "Typical Scope:",
       "text": "Timing chain, bearings, gaskets, head gasket, oil pump inspection, cooling system component inspection"

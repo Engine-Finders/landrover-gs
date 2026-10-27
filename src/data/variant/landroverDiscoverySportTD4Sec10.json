@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Sport TD4 ENGINE",
     "paragraphs": [
-      "The Discovery Sport TD4 was offered from 2014 to 2019 as part of the first-generation L550 range. It uses the Ford Duratorq — a 2.0-litre four-cylinder diesel shared across a range of Land Rover and Ford models of that era. The Duratorq was the diesel option of choice before the 2019 facelift, which replaced it with the Ingenium AJ200D family (D150/D180/D240). The TD4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Discovery Sport TD4 was offered from 2014 to 2019 as part of the first-generation L550 range. It uses the Ford Duratorq - a 2.0-litre four-cylinder diesel shared across a range of Land Rover and Ford models of that era. The Duratorq was the diesel option of choice before the 2019 facelift, which replaced it with the Ingenium AJ200D family (D150/D180/D240). The TD4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace Ford Duratorq engines for every Discovery Sport TD4 on the road."
   },
@@ -17,8 +17,8 @@
       {
         "codeHighlight": "Ford Duratorq",
         "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-        "codeRest": "(L550, 2014–2019)",
-        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport TD4 from 2014 to 2019. Known for injector seal leaks and EGR clogging over time — see the callout above. We replace the timing belt, injectors and EGR components as standard on every Duratorq rebuild.",
+        "codeRest": "(L550, 2014-2019)",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport TD4 from 2014 to 2019. Known for injector seal leaks and EGR clogging over time - see the callout above. We replace the timing belt, injectors and EGR components as standard on every Duratorq rebuild.",
         "cta": "Check Your Ford Duratorq Discovery Sport TD4",
         "codeHref": "/landrover-ford-duratorq-engine"
       }
@@ -27,7 +27,7 @@
   "compatibility": {
     "titlePre": "Land Rover Discovery Sport TD4 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the Discovery Sport TD4 uses the Ford Duratorq — a different engine family from the Ingenium diesels that followed it — fitting the wrong replacement or assuming parts from later cars will work creates a compatibility risk. Before we quote or supply anything, we confirm:",
+    "intro": "Because the Discovery Sport TD4 uses the Ford Duratorq - a different engine family from the Ingenium diesels that followed it - fitting the wrong replacement or assuming parts from later cars will work creates a compatibility risk. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport TD4 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+    "image": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L550",
-        "image": "/cars/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
+        "image": "/cars/card/land-rover-discovery-sport-l550-se-compact-suv-20152019-new-9504.webp",
         "chassis": "L550",
-        "years": "2014–2019",
+        "years": "2014-2019",
         "engineCode": "Ford Duratorq",
         "fuel": "Diesel",
         "codeHref": "/landrover-ford-duratorq-engine"

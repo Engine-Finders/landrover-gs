@@ -11,7 +11,7 @@
     {
       "icon": "car",
       "title": "APPLICATIONS WE SEE:",
-      "body": "The TDV8 and SDV8 are V8 diesel engines fitted across Discovery, Range Rover and Range Rover Sport — we see them across multiple generations and both 3.6L and 4.4L capacities."
+      "body": "The TDV8 and SDV8 are V8 diesel engines fitted across Discovery, Range Rover and Range Rover Sport - we see them across multiple generations and both 3.6L and 4.4L capacities."
     },
     {
       "icon": "wrench",
@@ -26,12 +26,12 @@
   ],
   "notice": {
     "highlight": "Note:",
-    "rest": " engine-specific case studies with real job details are not yet included on this page — they'll be added once a documented set of completed TDV8 SDV8 rebuilds is available to draw from, rather than filled with placeholder examples now."
+    "rest": " engine-specific case studies with real job details are not yet included on this page - they'll be added once a documented set of completed TDV8 SDV8 rebuilds is available to draw from, rather than filled with placeholder examples now."
   },
   "typical": {
     "kicker": "A TYPICAL",
     "title": "LAND ROVER TDV8 SDV8 REBUILD",
-    "intro": "The following describes a typical rebuild scope for this engine — illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
+    "intro": "The following describes a typical rebuild scope for this engine - illustrative of the work involved, not a specific customer job. Real case studies from our own completed work will replace this section once available.",
     "body": "The TDV8/SDV8 is a more complex engine than the V6, with additional components requiring careful handling. The 3.6L TDV8 is known for timing chain tensioner issues on early models; the 4.4 SDV8 (448DT) is considered more durable. Turbos are a known weak point on both variants, and HP fuel pump failure is a known issue on SDV8s. A full rebuild includes inspection of all wear components and replacement of worn parts to original specification.",
     "scope": {
       "label": "Typical Scope:",

@@ -6,7 +6,7 @@
     "titlePre": "LAND ROVER",
     "titleHighlight": "AJ300D",
     "titlePost": " ENGINE",
-    "body": "The AJ300D is Land Rover's 3.0-litre inline-six diesel engine, part of the Ingenium family introduced in 2019. It's a 6-cylinder diesel used across five current Land Rover model lines — the Defender, Discovery, Range Rover, Range Rover Sport and Range Rover Velar — primarily in mild-hybrid (MHEV) form. We rebuild AJ300D engines across all five applications, with the same standard component replacement scope regardless of which model it's fitted to. Rebuilds start from £2,800."
+    "body": "The AJ300D is Land Rover's 3.0-litre inline-six diesel engine, part of the Ingenium family introduced in 2019. It's a 6-cylinder diesel used across five current Land Rover model lines - the Defender, Discovery, Range Rover, Range Rover Sport and Range Rover Velar - primarily in mild-hybrid (MHEV) form. We rebuild AJ300D engines across all five applications, with the same standard component replacement scope regardless of which model it's fitted to. Rebuilds start from £2,800."
   },
   "byModel": {
     "image": "/engine/sec9_middle.jpg",
@@ -46,7 +46,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the AJ300D spans five different models across multiple generations — all in mild-hybrid (48V) form — compatibility comes down to confirming your exact model, generation, and drivetrain spec, which we do by registration. An AJ300D from a Velar isn't a drop-in match for an AJ300D from a Range Rover, even though it's the same base engine code — ancillaries, mounting, and 48V system integration all differ. Before we quote or supply anything, we confirm your exact vehicle.",
+    "body": "Because the AJ300D spans five different models across multiple generations - all in mild-hybrid (48V) form - compatibility comes down to confirming your exact model, generation, and drivetrain spec, which we do by registration. An AJ300D from a Velar isn't a drop-in match for an AJ300D from a Range Rover, even though it's the same base engine code - ancillaries, mounting, and 48V system integration all differ. Before we quote or supply anything, we confirm your exact vehicle.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -57,7 +57,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "2019–present"
+        "text": "2019-present"
       },
       {
         "icon": "engine",
@@ -80,7 +80,7 @@
         "heading": "AJ300D in the Defender (L663)",
         "model": "Defender",
         "chassis": "L663",
-        "years": "2020–present",
+        "years": "2020-present",
         "variant": "",
         "body": "The AJ300D in the Defender is one of the applications we work on regularly, across D200, D250, D300 and D350 variants from 2020 onwards.",
         "price": "£2,800",
@@ -89,13 +89,13 @@
         "powertrain": "Diesel MHEV",
         "href": "/defender-engines",
         "title": "AJ300D in the Defender",
-        "subtitle": "(L663, 2020–present)"
+        "subtitle": "(L663, 2020-present)"
       },
       {
         "heading": "AJ300D in the Discovery (L462)",
         "model": "Discovery",
         "chassis": "L462",
-        "years": "2020–present",
+        "years": "2020-present",
         "variant": "",
         "body": "The AJ300D in the Discovery is one of the applications we work on regularly, across D250, D300 and D350 variants from 2020 onwards.",
         "price": "£2,800",
@@ -104,13 +104,13 @@
         "powertrain": "Diesel MHEV",
         "href": "/discovery-engines",
         "title": "AJ300D in the Discovery",
-        "subtitle": "(L462, 2020–present)"
+        "subtitle": "(L462, 2020-present)"
       },
       {
         "heading": "AJ300D in the Range Rover (L460)",
         "model": "Range Rover",
         "chassis": "L460",
-        "years": "2022–present",
+        "years": "2022-present",
         "variant": "",
         "body": "The AJ300D in the Range Rover is one of the applications we work on regularly, across D250, D300 and D350 variants from 2022 onwards.",
         "price": "£2,800",
@@ -119,13 +119,13 @@
         "powertrain": "Diesel MHEV",
         "href": "/models",
         "title": "AJ300D in the Range Rover",
-        "subtitle": "(L460, 2022–present)"
+        "subtitle": "(L460, 2022-present)"
       },
       {
         "heading": "AJ300D in the Range Rover Sport (L461)",
         "model": "Range Rover Sport",
         "chassis": "L461",
-        "years": "2022–present",
+        "years": "2022-present",
         "variant": "",
         "body": "The AJ300D in the Range Rover Sport is one of the applications we work on regularly, across D250, D300 and D350 variants from 2022 onwards.",
         "price": "£2,800",
@@ -134,13 +134,13 @@
         "powertrain": "Diesel MHEV",
         "href": "/range-rover-sport-engines",
         "title": "AJ300D in the Range Rover Sport",
-        "subtitle": "(L461, 2022–present)"
+        "subtitle": "(L461, 2022-present)"
       },
       {
         "heading": "AJ300D in the Range Rover Velar (L560)",
         "model": "Range Rover Velar",
         "chassis": "L560",
-        "years": "2019–present",
+        "years": "2019-present",
         "variant": "",
         "body": "The AJ300D in the Range Rover Velar is one of the applications we work on regularly, across D200, D250 and D300 variants from 2019 onwards.",
         "price": "£2,800",
@@ -149,7 +149,7 @@
         "powertrain": "Diesel MHEV",
         "href": "/range-rover-velar-engines",
         "title": "AJ300D in the Range Rover Velar",
-        "subtitle": "(L560, 2019–present)"
+        "subtitle": "(L560, 2019-present)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

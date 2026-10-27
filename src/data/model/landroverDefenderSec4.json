@@ -2,7 +2,7 @@
   "kicker": "Full Breakdown",
   "headlinePre": "Land Rover Defender",
   "headlineHighlight": "Engine Rebuild Price Guide",
-  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide — request a free quote for an exact fixed price on your specific engine.",
+  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide - request a free quote for an exact fixed price on your specific engine.",
   "columns": [
     "Engine Code",
     "Fuel",
@@ -15,7 +15,7 @@
       "fuel": "Diesel I4",
       "size": "Classic (90/110/130)",
       "chassis": "",
-      "range": "£1,900 – £2,600",
+      "range": "£1,900 - £2,600",
       "familyHref": "/landrover-200tdi-engine"
     },
     {
@@ -23,7 +23,7 @@
       "fuel": "Diesel I4",
       "size": "Classic (90/110/130)",
       "chassis": "",
-      "range": "£1,900 – £2,700",
+      "range": "£1,900 - £2,700",
       "familyHref": "/landrover-300tdi-engine"
     },
     {
@@ -31,7 +31,7 @@
       "fuel": "Diesel I5",
       "size": "Classic (90/110/130)",
       "chassis": "",
-      "range": "£1,900 – £2,800",
+      "range": "£1,900 - £2,800",
       "familyHref": "/landrover-td5-engine"
     },
     {
@@ -39,7 +39,7 @@
       "fuel": "Diesel I4",
       "size": "L663",
       "chassis": "",
-      "range": "£2,200 – £3,000",
+      "range": "£2,200 - £3,000",
       "familyHref": "/landrover-aj200d-engine"
     },
     {
@@ -47,7 +47,7 @@
       "fuel": "Diesel I6",
       "size": "L663",
       "chassis": "",
-      "range": "£2,800 – £3,800",
+      "range": "£2,800 - £3,800",
       "familyHref": "/landrover-aj300d-engine"
     },
     {
@@ -55,7 +55,7 @@
       "fuel": "Petrol I4",
       "size": "L663",
       "chassis": "",
-      "range": "£2,200 – £3,000",
+      "range": "£2,200 - £3,000",
       "familyHref": "/landrover-aj200p-engine"
     },
     {
@@ -63,7 +63,7 @@
       "fuel": "Petrol V8",
       "size": "L663",
       "chassis": "",
-      "range": "£4,500 – £6,500",
+      "range": "£4,500 - £6,500",
       "familyHref": "/landrover-s68-engine"
     }
   ],

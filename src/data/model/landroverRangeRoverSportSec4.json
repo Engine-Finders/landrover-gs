@@ -2,7 +2,7 @@
   "kicker": "Full Breakdown",
   "headlinePre": "Land Rover Range Rover Sport",
   "headlineHighlight": "Engine Rebuild Price Guide",
-  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide — request a free quote for an exact fixed price on your specific engine.",
+  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide - request a free quote for an exact fixed price on your specific engine.",
   "columns": [
     "Engine Code",
     "Fuel",
@@ -16,7 +16,7 @@
       "fuel": "Diesel I6",
       "size": "3.0L",
       "chassis": "L320 / L494",
-      "range": "£2,400 – £3,400",
+      "range": "£2,400 - £3,400",
       "familyHref": "/landrover-tdv6-sdv6-engine"
     },
     {
@@ -24,7 +24,7 @@
       "fuel": "Diesel I6 (higher output)",
       "size": "3.0L",
       "chassis": "L320 / L494",
-      "range": "£2,600 – £3,600",
+      "range": "£2,600 - £3,600",
       "familyHref": "/landrover-tdv6-sdv6-engine"
     },
     {
@@ -32,7 +32,7 @@
       "fuel": "Diesel I6",
       "size": "3.0L",
       "chassis": "L461",
-      "range": "£2,600 – £3,600",
+      "range": "£2,600 - £3,600",
       "familyHref": "/landrover-aj300d-engine"
     },
     {
@@ -40,7 +40,7 @@
       "fuel": "Diesel V8",
       "size": "4.4L",
       "chassis": "L320 / L494",
-      "range": "£4,500 – £5,800",
+      "range": "£4,500 - £5,800",
       "familyHref": "/landrover-tdv8-sdv8-engine"
     },
     {
@@ -48,14 +48,14 @@
       "fuel": "Diesel V8 (higher output)",
       "size": "4.4L",
       "chassis": "L320 / L494",
-      "range": "£4,800 – £6,000"
+      "range": "£4,800 - £6,000"
     },
     {
       "family": "Ingenium AJ300P",
       "fuel": "Petrol I6",
       "size": "3.0L",
       "chassis": "L461",
-      "range": "£3,200 – £4,200",
+      "range": "£3,200 - £4,200",
       "familyHref": "/landrover-aj300p-engine"
     },
     {
@@ -63,14 +63,14 @@
       "fuel": "Petrol V8",
       "size": "5.0L",
       "chassis": "L494",
-      "range": "£5,500 – £7,500"
+      "range": "£5,500 - £7,500"
     },
     {
       "family": "BMW-sourced V8 (P525)",
       "fuel": "Petrol V8",
       "size": "4.4L",
       "chassis": "L461",
-      "range": "£5,500 – £7,500",
+      "range": "£5,500 - £7,500",
       "familyHref": "/landrover-s68-engine"
     }
   ],

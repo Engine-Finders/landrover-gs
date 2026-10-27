@@ -34,7 +34,7 @@
     "titlePre": "",
     "titleHighlight": "ENGINE",
     "titlePost": " COMPATIBILITY",
-    "body": "Because the Td5 spans two different model lines and multiple production years, compatibility comes down to confirming your exact model, generation, and spec. A Td5 from a Defender isn't a drop-in match for a Td5 from a Discovery 2, even though it's the same base engine code — ancillaries, mounting, and ECU software all differ. Before we quote or supply anything, we confirm your exact vehicle.",
+    "body": "Because the Td5 spans two different model lines and multiple production years, compatibility comes down to confirming your exact model, generation, and spec. A Td5 from a Defender isn't a drop-in match for a Td5 from a Discovery 2, even though it's the same base engine code - ancillaries, mounting, and ECU software all differ. Before we quote or supply anything, we confirm your exact vehicle.",
     "boldNote": "We always confirm by registration/VIN before any rebuild or replacement.",
     "points": [
       {
@@ -45,7 +45,7 @@
       {
         "icon": "calendar",
         "title": "Model year",
-        "text": "1998–2006"
+        "text": "1998-2006"
       },
       {
         "icon": "engine",
@@ -68,31 +68,31 @@
         "heading": "Td5 in the Defender (L316)",
         "model": "Defender",
         "chassis": "L316",
-        "years": "1999–2006",
+        "years": "1999-2006",
         "variant": "",
-        "body": "The Td5 in the Defender is one of the applications we work on regularly, spanning the 1999–2006 production years.",
+        "body": "The Td5 in the Defender is one of the applications we work on regularly, spanning the 1999-2006 production years.",
         "price": "£1,900",
         "ctaLabel": "Check your Defender Td5",
         "generation": "Defender",
         "powertrain": "Diesel",
         "href": "/landrover-defender-td5-engines",
         "title": "Td5 in the Defender",
-        "subtitle": "(L316, 1999–2006)"
+        "subtitle": "(L316, 1999-2006)"
       },
       {
         "heading": "Td5 in the Discovery 2 (L318)",
         "model": "Discovery 2",
         "chassis": "L318",
-        "years": "1998–2004",
+        "years": "1998-2004",
         "variant": "",
-        "body": "The Td5 in the Discovery 2 is one of the applications we work on regularly, spanning the 1998–2004 production years.",
+        "body": "The Td5 in the Discovery 2 is one of the applications we work on regularly, spanning the 1998-2004 production years.",
         "price": "£1,900",
         "ctaLabel": "Check your Discovery Td5",
         "generation": "Discovery 2",
         "powertrain": "Diesel",
         "href": "/discovery-engines",
         "title": "Td5 in the Discovery 2",
-        "subtitle": "(L318, 1998–2004)"
+        "subtitle": "(L318, 1998-2004)"
       }
     ],
     "prompt": "Not seeing your exact model above? Send us your registration and we'll confirm your exact spec.",

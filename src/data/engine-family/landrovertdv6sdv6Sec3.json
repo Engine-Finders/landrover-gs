@@ -1,6 +1,6 @@
 {
   "image": "/engine/sec3.jpg",
-  "titlePre": "Land Rover TDV6 SDV6 Applications — ",
+  "titlePre": "Land Rover TDV6 SDV6 Applications - ",
   "titleHighlight": "Every Model & Variant",
   "columns": [
     {
@@ -28,7 +28,7 @@
       "variant": "TDV6, SDV6",
       "generation": "L319 (D3/D4)",
       "chassis": "L319",
-      "years": "2004–2016",
+      "years": "2004-2016",
       "powertrain": "Diesel",
       "modelHref": "/discovery-engines"
     },
@@ -37,7 +37,7 @@
       "variant": "TDV6, SDV6",
       "generation": "L322, L405",
       "chassis": "L322/L405",
-      "years": "2006–2019",
+      "years": "2006-2019",
       "powertrain": "Diesel",
       "modelHref": "/models"
     },
@@ -46,7 +46,7 @@
       "variant": "TDV6, SDV6",
       "generation": "L320, L494",
       "chassis": "L320/L494",
-      "years": "2005–2019",
+      "years": "2005-2019",
       "powertrain": "Diesel",
       "modelHref": "/range-rover-sport-engines"
     }

@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Range Rover Evoque Si4 ENGINE",
     "paragraphs": [
-      "The Evoque Si4 was the petrol option in the original L538-generation Range Rover Evoque range, produced from 2011 to 2016. It uses the Ford EcoBoost 2.0-litre turbocharged petrol engine — a four-cylinder unit shared across several Ford and Land Rover models of that era. The Si4 was discontinued when the Evoque range transitioned to Ingenium petrol engines (P200, P250) from 2016 onwards. The Si4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Evoque Si4 was the petrol option in the original L538-generation Range Rover Evoque range, produced from 2011 to 2016. It uses the Ford EcoBoost 2.0-litre turbocharged petrol engine - a four-cylinder unit shared across several Ford and Land Rover models of that era. The Si4 was discontinued when the Evoque range transitioned to Ingenium petrol engines (P200, P250) from 2016 onwards. The Si4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace Ford EcoBoost engines for every Range Rover Evoque Si4 on the road."
   },
@@ -17,7 +17,7 @@
       {
         "codeHighlight": "Ford EcoBoost",
         "codeRest": "",
-        "body": "The Evoque Si4 was the petrol option in the original L538-generation Range Rover Evoque range, produced from 2011 to 2016. It uses the Ford EcoBoost 2.0-litre turbocharged petrol engine — a four-cylinder unit shared across several Ford and Land Rover models of that era. The Si4 was discontinued when the Evoque range transitioned to Ingenium petrol engines (P200, P250) from 2016 onwards. The Si4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road.",
+        "body": "The Evoque Si4 was the petrol option in the original L538-generation Range Rover Evoque range, produced from 2011 to 2016. It uses the Ford EcoBoost 2.0-litre turbocharged petrol engine - a four-cylinder unit shared across several Ford and Land Rover models of that era. The Si4 was discontinued when the Evoque range transitioned to Ingenium petrol engines (P200, P250) from 2016 onwards. The Si4 is no longer in production, but we continue to rebuild and replace engines for every one still on the road.",
         "cta": "Check Your Ford EcoBoost Range Rover Evoque Si4",
         "codeHref": "/landrover-ford-ecoboost-engine"
       }
@@ -52,12 +52,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Range Rover Evoque Si4 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/range-rover-evoque-l538-pure-5-door-suv-20112015-new-fuji-wh-d9c9.webp",
+    "image": "/cars/card/range-rover-evoque-l538-pure-5-door-suv-20112015-new-fuji-wh-d9c9.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -68,9 +68,9 @@
     "rows": [
       {
         "generation": "L538",
-        "image": "/cars/range-rover-evoque-l538-pure-5-door-suv-20112015-new-fuji-wh-d9c9.webp",
+        "image": "/cars/card/range-rover-evoque-l538-pure-5-door-suv-20112015-new-fuji-wh-d9c9.webp",
         "chassis": "L538",
-        "years": "2011–2016",
+        "years": "2011-2016",
         "engineCode": "Ford EcoBoost",
         "fuel": "Petrol",
         "codeHref": "/landrover-ford-ecoboost-engine"

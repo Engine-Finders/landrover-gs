@@ -4,12 +4,12 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£1,900",
   "engineImage": "/variant/sec10_engine.webp",
-  "carImage": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
+  "carImage": "/cars/card/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
   "cards": [
     {
       "code": "300Tdi",
-      "carImage": "/cars/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
-      "generation": "Classic 90/110/130 (1994–2007 approx)",
+      "carImage": "/cars/card/land-rover-defender-defender-90-hard-top-3-door-4x4-19902016-7891.webp",
+      "generation": "Classic 90/110/130 (1994-2007 approx)",
       "price": "£1,900",
       "codeHref": "/landrover-300tdi-engine"
     }
@@ -17,7 +17,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -30,8 +30,8 @@
     "titlePre": "Defender 300Tdi Cylinder Head & Cooling System ",
     "titleHighlight": "(Classic 90/110/130)",
     "paragraphs": [
-      "If your Defender is a classic 90, 110 or 130 with the 300Tdi diesel — the 2.5-litre four-cylinder that replaced the 200Tdi — cylinder head cracking is a well-documented issue on this engine, along with cooling system neglect and a critical timing belt interval. We replace the timing belt, inspect and pressure-test the cylinder head, and service the cooling system as standard on every 300Tdi rebuild.",
-      "The classic Defender's earlier 200Tdi shares a similar pattern, as does the later Td5 — but the 300Tdi is the engine most commonly associated with cylinder head cracking in the 2.5-litre diesel family."
+      "If your Defender is a classic 90, 110 or 130 with the 300Tdi diesel - the 2.5-litre four-cylinder that replaced the 200Tdi - cylinder head cracking is a well-documented issue on this engine, along with cooling system neglect and a critical timing belt interval. We replace the timing belt, inspect and pressure-test the cylinder head, and service the cooling system as standard on every 300Tdi rebuild.",
+      "The classic Defender's earlier 200Tdi shares a similar pattern, as does the later Td5 - but the 300Tdi is the engine most commonly associated with cylinder head cracking in the 2.5-litre diesel family."
     ],
     "source": "Source: established specialist pattern, per VRF-landrover-defender.md. 200Tdi and Td5 also flagged separately in the VRF"
   }

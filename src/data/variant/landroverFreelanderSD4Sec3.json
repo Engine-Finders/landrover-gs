@@ -4,13 +4,13 @@
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£1,900",
   "engineImage": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-  "carImage": "/cars/land-rover-freelander-l359-hse-luxury-compact-suv-20102012-n-5069.webp",
+  "carImage": "/cars/card/land-rover-freelander-l359-hse-luxury-compact-suv-20102012-n-5069.webp",
   "cards": [
     {
       "code": "Ford Duratorq",
       "image": "/engines/jaguar-2-2d-and-qjba-engine.webp",
-      "carImage": "/cars/land-rover-freelander-l359-hse-luxury-compact-suv-20102012-n-5069.webp",
-      "generation": "L359 (2011–2014)",
+      "carImage": "/cars/card/land-rover-freelander-l359-hse-luxury-compact-suv-20102012-n-5069.webp",
+      "generation": "L359 (2011-2014)",
       "price": "£1,900",
       "codeHref": "/landrover-ford-duratorq-engine"
     }
@@ -18,7 +18,7 @@
   "notes": [
     {
       "icon": "price",
-      "text": "Exact price depends on condition and parts required — submit your reg for a fixed-price quote."
+      "text": "Exact price depends on condition and parts required - submit your reg for a fixed-price quote."
     }
   ],
   "cta": {
@@ -31,8 +31,8 @@
     "titlePre": "Land Rover Freelander SD4 Injector & DPF Issues ",
     "titleHighlight": "",
     "paragraphs": [
-      "Freelander SD4 engines — Ford Duratorq 2.2L units across the L359 generation — commonly show injector failure and DPF clogging. We replace injectors, EGR valves and gaskets as standard on every Duratorq rebuild.",
-      "*include_in_hero_hook: yes — Source: established Ford/Land Rover specialist pattern (per VRF-landrover-freelander.md).*"
+      "Freelander SD4 engines - Ford Duratorq 2.2L units across the L359 generation - commonly show injector failure and DPF clogging. We replace injectors, EGR valves and gaskets as standard on every Duratorq rebuild.",
+      "*include_in_hero_hook: yes - Source: established Ford/Land Rover specialist pattern (per VRF-landrover-freelander.md).*"
     ],
     "source": "Source: established Ford/Land Rover specialist pattern (per VRF-landrover-freelander.md)"
   }

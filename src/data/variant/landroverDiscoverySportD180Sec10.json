@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Sport D180 ENGINE",
     "paragraphs": [
-      "The Discovery Sport D180 was part of the L550-generation model's diesel lineup from 2019 to 2020. It uses the Ingenium AJ200D — a 2.0-litre four-cylinder diesel that was also fitted to the D150 and D240 variants in the same generation. In 2020, the D180 was replaced by the D165 as part of a diesel range simplification. The Ingenium AJ200D is known for timing chain tensioner wear and oil dilution from DPF regeneration — a pattern shared across most Ingenium diesel engines of this era, which is why we address these components as standard during every rebuild."
+      "The Discovery Sport D180 was part of the L550-generation model's diesel lineup from 2019 to 2020. It uses the Ingenium AJ200D - a 2.0-litre four-cylinder diesel that was also fitted to the D150 and D240 variants in the same generation. In 2020, the D180 was replaced by the D165 as part of a diesel range simplification. The Ingenium AJ200D is known for timing chain tensioner wear and oil dilution from DPF regeneration - a pattern shared across most Ingenium diesel engines of this era, which is why we address these components as standard during every rebuild."
     ],
     "boldParagraph": "We continue to rebuild and replace Ingenium AJ200D engines for every Discovery Sport D180 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "Ingenium AJ200D",
         "image": "/engines/jaguar-aj200d-engine.webp",
         "codeRest": "",
-        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D180 from 2019 to 2020 (L550 generation). Known for timing chain tensioner wear and oil dilution from DPF regeneration — see the callout above. We replace the timing chain, injector seals and EGR components as standard on every AJ200D rebuild.",
+        "body": "A 2.0-litre four-cylinder diesel fitted to the Discovery Sport D180 from 2019 to 2020 (L550 generation). Known for timing chain tensioner wear and oil dilution from DPF regeneration - see the callout above. We replace the timing chain, injector seals and EGR components as standard on every AJ200D rebuild.",
         "cta": "Check Your Ingenium AJ200D Discovery Sport D180",
         "codeHref": "/landrover-aj200d-engine"
       }
@@ -27,7 +27,7 @@
   "compatibility": {
     "titlePre": "Land Rover Discovery Sport D180 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
-    "intro": "Because the Discovery Sport D180 was produced for a limited period and uses the Ingenium AJ200D — an engine shared with other Discovery Sport diesel variants of the same era — confirming your exact engine code matters for parts compatibility. Before we quote or supply anything, we confirm:",
+    "intro": "Because the Discovery Sport D180 was produced for a limited period and uses the Ingenium AJ200D - an engine shared with other Discovery Sport diesel variants of the same era - confirming your exact engine code matters for parts compatibility. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
     "imageMobile": "/variant/sec10_third_div_mobile.webp",
     "badge": {
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport D180 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+    "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L550",
-        "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+        "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
         "chassis": "L550",
-        "years": "2019–2020",
+        "years": "2019-2020",
         "engineCode": "Ingenium AJ200D",
         "fuel": "Diesel",
         "codeHref": "/landrover-aj200d-engine"

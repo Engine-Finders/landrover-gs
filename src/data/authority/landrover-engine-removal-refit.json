@@ -40,7 +40,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "We carry out full engine removal, refit, and final testing for every Land Rover we work on. This isn't a bolt-in-bolt-out job — it's a precisely documented process that follows Land Rover workshop manuals and uses the correct JLR diagnostic tools."
+          "html": "We carry out full engine removal, refit, and final testing for every Land Rover we work on. This isn't a bolt-in-bolt-out job - it's a precisely documented process that follows Land Rover workshop manuals and uses the correct JLR diagnostic tools."
         },
         {
           "t": "p",
@@ -60,7 +60,7 @@
           "t": "callout",
           "heading": "",
           "paras": [
-            "Engine removal and refit is included as part of our full engine rebuild or replacement services. Prices vary by engine type — see our [pricing disclaimer](/pricing-legal-disclaimer) for full details.",
+            "Engine removal and refit is included as part of our full engine rebuild or replacement services. Prices vary by engine type - see our [pricing disclaimer](/pricing-legal-disclaimer) for full details.",
             "**Rebuilds start from £1,900** (4-cylinder diesel) and rise to £6,500 for V8 twin-turbo units. Contact us for a fixed quote after inspection."
           ]
         }
@@ -72,7 +72,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "We provide engine removal, refit, and testing for all Land Rover models and engine variants. Below are the primary model pages — click through to see detailed engine options."
+          "html": "We provide engine removal, refit, and testing for all Land Rover models and engine variants. Below are the primary model pages - click through to see detailed engine options."
         },
         {
           "t": "linkgrid",
@@ -158,12 +158,12 @@
         {
           "t": "ul",
           "items": [
-            "**Established 2009** – Over 15 years of specialist Land Rover engine work.",
+            "**Established 2009** - Over 15 years of specialist Land Rover engine work.",
             "**12-month unlimited-mileage warranty** on every rebuild and replacement.",
-            "**Nationwide recovery** – we can collect your vehicle from anywhere in the UK.",
+            "**Nationwide recovery** - we can collect your vehicle from anywhere in the UK.",
             "**Land Rover workshop procedures** followed at every step, including TOPIx and JLR Pathfinder diagnostics.",
-            "**Full transparency** – we provide a detailed quote after inspection, with no hidden costs.",
-            "**Real premises in Billericay** – visit our workshop and see the work in progress."
+            "**Full transparency** - we provide a detailed quote after inspection, with no hidden costs.",
+            "**Real premises in Billericay** - visit our workshop and see the work in progress."
           ]
         },
         {
@@ -228,11 +228,11 @@
         },
         {
           "q": "Is the removal and refit included in the rebuild price?",
-          "a": "Yes. Our quoted price for a rebuild or replacement always includes the full removal, refit, and testing process — there are no hidden extras for these stages."
+          "a": "Yes. Our quoted price for a rebuild or replacement always includes the full removal, refit, and testing process - there are no hidden extras for these stages."
         },
         {
           "q": "Do you offer a warranty on the removal and refit work?",
-          "a": "Yes, the entire job — including the removal, refit, and testing — is covered by our 12-month unlimited-mileage warranty. Full terms are available on our [warranty page](/warranty)."
+          "a": "Yes, the entire job - including the removal, refit, and testing - is covered by our 12-month unlimited-mileage warranty. Full terms are available on our [warranty page](/warranty)."
         }
       ]
     }

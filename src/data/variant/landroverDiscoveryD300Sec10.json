@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery D300 ENGINE",
     "paragraphs": [
-      "The Discovery D300 is part of the current-generation Discovery 5 (L462) range, introduced in 2017. It uses the Ingenium AJ300D — a 3.0-litre inline-six diesel with mild-hybrid technology. This engine sits above the D250 in the Discovery diesel line-up, offering more power while maintaining the efficiency benefits of the MHEV system. The AJ300D represents a more modern design than the older TDV6 and SDV6 units found in the Discovery 3 and 4, with a different architecture and improved reliability characteristics."
+      "The Discovery D300 is part of the current-generation Discovery 5 (L462) range, introduced in 2017. It uses the Ingenium AJ300D - a 3.0-litre inline-six diesel with mild-hybrid technology. This engine sits above the D250 in the Discovery diesel line-up, offering more power while maintaining the efficiency benefits of the MHEV system. The AJ300D represents a more modern design than the older TDV6 and SDV6 units found in the Discovery 3 and 4, with a different architecture and improved reliability characteristics."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300D engines for every Discovery D300 on the road."
   },
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery D300 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+    "image": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "D5",
-        "image": "/cars/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
+        "image": "/cars/card/land-rover-discovery-l462-s-5-door-suv-20172020-new-indus-si-eaa4.webp",
         "chassis": "L462",
-        "years": "2017–present",
+        "years": "2017-present",
         "engineCode": "AJ300D",
         "fuel": "Diesel MHEV",
         "codeHref": "/landrover-aj300d-engine"

@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Sport P200 ENGINE",
     "paragraphs": [
-      "The Discovery Sport P200 is powered by the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine. It was introduced with the 2019 L550 facelift and remains in production today. The AJ200P is part of JLR's modular Ingenium engine family, designed for both petrol and diesel applications across the range. While the diesel Ingenium variants share a well-documented timing chain and oil dilution pattern, the petrol AJ200P is a different unit with its own characteristics — generally considered more reliable than its diesel counterparts."
+      "The Discovery Sport P200 is powered by the Ingenium AJ200P - a 2.0-litre four-cylinder petrol engine. It was introduced with the 2019 L550 facelift and remains in production today. The AJ200P is part of JLR's modular Ingenium engine family, designed for both petrol and diesel applications across the range. While the diesel Ingenium variants share a well-documented timing chain and oil dilution pattern, the petrol AJ200P is a different unit with its own characteristics - generally considered more reliable than its diesel counterparts."
     ],
     "boldParagraph": "We continue to rebuild and replace Ingenium AJ200P engines for every Discovery Sport P200 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "Ingenium AJ200P",
         "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
         "codeRest": "",
-        "body": "The Discovery Sport P200 is powered by the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine. It was introduced with the 2019 L550 facelift and remains in production today. The AJ200P is part of JLR's modular Ingenium engine family, designed for both petrol and diesel applications across the range. While the diesel Ingenium variants share a well-documented timing chain and oil dilution pattern, the petrol AJ200P is a different unit with its own characteristics — generally considered more reliable than its diesel counterparts.",
+        "body": "The Discovery Sport P200 is powered by the Ingenium AJ200P - a 2.0-litre four-cylinder petrol engine. It was introduced with the 2019 L550 facelift and remains in production today. The AJ200P is part of JLR's modular Ingenium engine family, designed for both petrol and diesel applications across the range. While the diesel Ingenium variants share a well-documented timing chain and oil dilution pattern, the petrol AJ200P is a different unit with its own characteristics - generally considered more reliable than its diesel counterparts.",
         "cta": "Check Your Ingenium AJ200P Discovery Sport P200",
         "codeHref": "/landrover-aj200p-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport P200 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+    "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L550",
-        "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+        "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
         "chassis": "L550",
-        "years": "2019–present",
+        "years": "2019-present",
         "engineCode": "Ingenium AJ200P",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj200p-engine"

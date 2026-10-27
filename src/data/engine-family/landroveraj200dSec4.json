@@ -33,16 +33,16 @@
       "body": "Fuel injectors, high-pressure fuel pump, PCV system, timing chain tensioners and guides, and cooling system components are all measured and inspected."
     }
   ],
-  "notice": "Components drawn directly from VRF Key Components data. If your AJ200D's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected — not guessed in advance.",
+  "notice": "Components drawn directly from VRF Key Components data. If your AJ200D's exact ancillary set isn't covered above, we confirm the full scope once your engine is inspected - not guessed in advance.",
   "noticeImage": "/model/sec15_part.webp",
   "groups": [
     {
       "title": "Replaced as Standard",
       "icon": "gear",
       "items": [
-        "Timing chain assembly (chains, guides, tensioners) — critical known issue",
+        "Timing chain assembly (chains, guides, tensioners) - critical known issue",
         "Main bearings and connecting rod bearings",
-        "Balance shaft bearings — critical known issue",
+        "Balance shaft bearings - critical known issue",
         "Complete gasket and seal set",
         "Oil filter housing gasket"
       ]
@@ -51,8 +51,8 @@
       "title": "Inspected and Measured",
       "icon": "search",
       "items": [
-        "Crankshaft (check for breakage — known catastrophic failure)",
-        "Cylinder head (check for bent valves — timing chain failure allows piston-to-valve contact)",
+        "Crankshaft (check for breakage - known catastrophic failure)",
+        "Cylinder head (check for bent valves - timing chain failure allows piston-to-valve contact)",
         "Timing chain tensioners and guides (plastic guides can shed fragments)",
         "EGR valve and cooler (clogging/failure common)",
         "DPF components (blockage causes oil dilution from failed regenerations)",

@@ -5,7 +5,7 @@
     "titlePre": "ABOUT THE",
     "titleHighlight": "Land Rover Discovery Sport P290 ENGINE",
     "paragraphs": [
-      "The Discovery Sport P290 was a short-lived petrol variant, produced only from 2019 to 2020. It uses the Ingenium AJ200P — a 2.0-litre four-cylinder petrol engine, tuned to the highest output in the Discovery Sport petrol range. This particular badge was discontinued after 2020, making it a rarer variant than the P200 and P250 that continued in production. The P290 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
+      "The Discovery Sport P290 was a short-lived petrol variant, produced only from 2019 to 2020. It uses the Ingenium AJ200P - a 2.0-litre four-cylinder petrol engine, tuned to the highest output in the Discovery Sport petrol range. This particular badge was discontinued after 2020, making it a rarer variant than the P200 and P250 that continued in production. The P290 is no longer in production, but we continue to rebuild and replace engines for every one still on the road."
     ],
     "boldParagraph": "We continue to rebuild and replace Ingenium AJ200P engines for every Discovery Sport P290 on the road."
   },
@@ -18,7 +18,7 @@
         "codeHighlight": "Ingenium AJ200P",
         "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
         "codeRest": "(L550, 2019-2020)",
-        "body": "A 2.0-litre four-cylinder petrol engine, fitted to the Discovery Sport P290 from 2019 to 2020. This is the highest-output petrol tune of the Ingenium AJ200P in the Discovery Sport range, producing 286bhp. No specific known issue has been independently confirmed for this variant's application of the AJ200P — the engine generally follows the broader Ingenium petrol pattern, which tends to be more reliable than its diesel counterparts.",
+        "body": "A 2.0-litre four-cylinder petrol engine, fitted to the Discovery Sport P290 from 2019 to 2020. This is the highest-output petrol tune of the Ingenium AJ200P in the Discovery Sport range, producing 286bhp. No specific known issue has been independently confirmed for this variant's application of the AJ200P - the engine generally follows the broader Ingenium petrol pattern, which tends to be more reliable than its diesel counterparts.",
         "cta": "Check Your Ingenium AJ200P Discovery Sport P290",
         "codeHref": "/landrover-aj200p-engine"
       }
@@ -53,12 +53,12 @@
         "text": "Whether your build falls in the early production period (2019-2020) for injector fault coverage"
       }
     ],
-    "footer": "This is why we always start with your registration rather than a generic Defender quote — it protects you from paying for parts that don't fit your actual car."
+    "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
     "titlePre": "Land Rover Discovery Sport P290 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
-    "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+    "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
     "columns": [
       "Generation",
       "Chassis",
@@ -69,9 +69,9 @@
     "rows": [
       {
         "generation": "L550",
-        "image": "/cars/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
+        "image": "/cars/card/land-rover-discovery-sport-l550-lci-s-compact-suv-20192021-n-41a7.webp",
         "chassis": "L550",
-        "years": "2019–2020",
+        "years": "2019-2020",
         "engineCode": "Ingenium AJ200P",
         "fuel": "Petrol",
         "codeHref": "/landrover-aj200p-engine"

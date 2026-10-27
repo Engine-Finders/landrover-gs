@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import QuoteLink from "@/components/shared/QuoteLink";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
@@ -12,6 +13,8 @@ export default function ModelSec17({ data }) {
   const mobileLine2 = headlineWords.slice(3).join(" ");
   const [activeTab, setActiveTab] = useState(data.activeTab ?? 0);
   const activeVariants = data.tabVariants[activeTab];
+  // a lone tab is shown centred with a photo of the model instead of the generic car icon
+  const single = data.tabs.length === 1 && Boolean(data.tabImage);
   const label = (v) => (typeof v === "string" ? v : v.label);
   const href = (v) => (typeof v === "string" ? null : v.href);
 
@@ -29,22 +32,28 @@ export default function ModelSec17({ data }) {
           <span className="block whitespace-nowrap text-hero-blue">{mobileLine2}</span>
         </h2>
 
-        {/* body style tabs — single row of 4 on mobile */}
-        <div className="mt-6 grid grid-cols-4">
+        {/* body style tabs - single row of 4 on mobile */}
+        <div className={`mt-6 grid ${single ? "grid-cols-1 justify-items-center" : "grid-cols-4"}`}>
           {data.tabs.map((tab, i) =>
             i === activeTab ? (
               <button
                 key={tab}
                 type="button"
                 onClick={() => setActiveTab(i)}
-                className="relative flex flex-col items-center gap-1 rounded-md px-1 py-2.5 text-center"
+                className={`relative flex flex-col items-center gap-1 rounded-md px-1 py-2.5 text-center ${single ? "w-52 pb-3 pt-2" : ""}`}
                 style={{
                   background: "linear-gradient(135deg, rgba(38,46,34,0.95) 0%, rgba(10,12,9,1) 100%)",
                   border: "1.5px solid rgba(143,160,131,0.8)",
                   boxShadow: "inset 0 1px 0 rgba(255,255,255,0.9), 0 0 20px rgba(96,112,86,0.5)",
                 }}
               >
-                <Icon name="car" className="h-5 w-5 shrink-0 text-[#607056]" />
+                {single ? (
+                  <span className="relative block h-20 w-40">
+                    <Image src={data.tabImage} alt={tab} fill className="object-contain" sizes="160px" />
+                  </span>
+                ) : (
+                  <Icon name="car" className="h-5 w-5 shrink-0 text-[#607056]" />
+                )}
                 <span className="label-text font-bold leading-tight text-white">{tab}</span>
               </button>
             ) : (
@@ -98,16 +107,16 @@ export default function ModelSec17({ data }) {
             <p className="text-sm text-[#101828]">
               <span className="block text-base font-extrabold text-[#101828]">{data.notice.title}</span>
               <span className="mt-1 block">
-                <a href="#quote-form" className="inline-flex items-center gap-1 font-semibold text-hero-blue">
+                <QuoteLink href="#quote-form" className="inline-flex items-center gap-1 font-semibold text-hero-blue">
                   {data.notice.linkText}
                   <Icon name="link" className="h-3.5 w-3.5" />
-                </a>
+                </QuoteLink>
                 <span className="text-[#101828]">{data.notice.rest}</span>
               </span>
             </p>
           </div>
 
-          <a
+          <QuoteLink
             href={data.priceCta.href}
             className="relative flex items-center gap-4 rounded-lg p-5 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             style={{
@@ -128,7 +137,7 @@ export default function ModelSec17({ data }) {
               <span className="block text-sm font-extrabold uppercase text-white">{data.priceCta.title}</span>
               <span className="mt-1 block text-xs text-white">{data.priceCta.body}</span>
             </p>
-          </a>
+          </QuoteLink>
         </div>
       </div>
 
@@ -218,16 +227,16 @@ export default function ModelSec17({ data }) {
             <p className="text-sm text-[#101828]">
               <span className="block text-base font-extrabold text-[#101828]">{data.notice.title}</span>
               <span className="mt-1 block">
-                <a href="#quote-form" className="inline-flex items-center gap-1 font-semibold text-hero-blue">
+                <QuoteLink href="#quote-form" className="inline-flex items-center gap-1 font-semibold text-hero-blue">
                   {data.notice.linkText}
                   <Icon name="link" className="h-3.5 w-3.5" />
-                </a>
+                </QuoteLink>
                 <span className="text-[#101828]">{data.notice.rest}</span>
               </span>
             </p>
           </div>
 
-          <a
+          <QuoteLink
             href={data.priceCta.href}
             className="relative flex items-center gap-4 rounded-2xl p-6 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
             style={{
@@ -251,7 +260,7 @@ export default function ModelSec17({ data }) {
               <span className="block text-base font-extrabold uppercase text-white">{data.priceCta.title}</span>
               <span className="mt-1 block text-white">{data.priceCta.body}</span>
             </p>
-          </a>
+          </QuoteLink>
         </div>
       </div>
       </div>
