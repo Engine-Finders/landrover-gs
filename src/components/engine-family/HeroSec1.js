@@ -66,7 +66,7 @@ export default function HeroSec1({ data }) {
             {data.trustBar.map((t) => (
               <div key={t.label} className="flex flex-col items-center gap-1 px-1 text-center">
                 <Icon name={t.icon} className={`h-7 w-7 shrink-0 ${GOLD}`} />
-                <p className="text-[8px] font-medium leading-tight text-white">{t.label}</p>
+                <p className="text-[8px] font-medium leading-tight text-white">{t.label.replace(/^✔\s*/, "")}</p>
               </div>
             ))}
           </div>

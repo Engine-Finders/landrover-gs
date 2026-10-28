@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Velar P400e ENGINE",
+    "titleHighlight": "Range Rover Velar P400e ENGINE",
     "paragraphs": [
       "The Velar P400e is a petrol plug-in hybrid (PHEV) variant of the Range Rover Velar, introduced in 2018 as part of the L560 generation. Its powertrain combines a 2.0-litre Ingenium AJ200P four-cylinder petrol engine with an electric motor. The P400e received a significant update in 2024, which included a larger, more efficient 19.2kWh battery pack and 50kW charging capability, boosting the combined output to 400bhp and 472lb-ft. The AJ200P petrol engine forms the internal combustion part of this system, and our rebuild services cover this component."
     ],
     "boldParagraph": "We continue to rebuild and replace Ingenium AJ200P engines for every Velar P400e on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Velar P400e ENGINE ",
+    "titlePre": "Range Rover Velar P400e ENGINE ",
     "titleHighlight": "CODES",
     "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
     "cards": [
@@ -25,7 +25,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Velar P400e ENGINE ",
+    "titlePre": "Range Rover Velar P400e ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the Velar P400e is a plug-in hybrid, the petrol engine is integrated with the electric motor and battery system. Ensuring the correct specification for your specific vehicle year is critical, particularly the differences between the pre- and post-2024 update cars. We always start with your registration number to confirm your car's exact powertrain specification before we quote any work.",
     "image": "/variant/sec10_third_div.webp",
@@ -56,7 +56,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Velar P400e ",
+    "titlePre": "Range Rover Velar P400e ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/range-rover-velar-l560-lci-s-suv-20212024-new-ostuni-white-v-c0f3.webp",
     "columns": [

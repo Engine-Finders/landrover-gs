@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover Velar P250",
+  "headlineHighlight": "Range Rover Velar P250",
   "headlinePost": " Engine",
   "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover Velar P250"
+      "value": "Range Rover Velar P250"
     },
     {
       "icon": "layers",

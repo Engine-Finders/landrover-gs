@@ -52,7 +52,7 @@ export default function VariantHeroSec1({ data }) {
             {data.trustBar.map((t) => (
               <div key={t.label} className="flex flex-col items-center gap-1 px-1 text-center">
                 <Icon name={t.icon} className="h-6 w-6 shrink-0 text-hero-blue" />
-                <p className="text-[8px] font-medium leading-tight text-white">{t.label}</p>
+                <p className="text-[8px] font-medium leading-tight text-white">{t.label.replace(/^✔\s*/, "")}</p>
               </div>
             ))}
           </div>

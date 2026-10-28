@@ -14,11 +14,11 @@ export default function ModelSec15({ data }) {
       {/* ===== mobile ===== */}
       <div className="relative md:hidden">
         {/* div 1: split hero */}
-        <div className="relative h-56">
+        <div className="relative h-60">
           <div className="absolute inset-0">
             <Image src={data.imageMobile} alt="Classic green Land Rover Defender 90 in a bright Land Rover specialist workshop" fill className="object-cover object-right" sizes="100vw" />
             {/* solid overlay behind the text, fading into the photo on the right */}
-            <div className="absolute inset-0 bg-linear-to-r from-(--color-light-surface) via-(--color-light-surface) via-60% to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-r from-(--color-light-surface) via-(--color-light-surface) via-45% to-transparent" />
           </div>
 
           <div className="relative px-4 py-5">
@@ -70,13 +70,13 @@ export default function ModelSec15({ data }) {
             </div>
 
             <div className="relative mt-3 space-y-4">
-              {data.checklistLeft.map((item) => (
+              {data.checklistLeft.map((item, i) => (
                 <div key={item} className="flex items-start gap-2">
                   <span className="mt-0.5 flex h-4.5 w-4.5 shrink-0 items-center justify-center rounded-full bg-hero-blue text-white">
                     <Icon name="check" className="h-2.5 w-2.5" />
                   </span>
                   {data.checklistHref ? (
-                    <Link href={data.checklistHref} className="label-text leading-tight text-[#101828]">
+                    <Link href={data.checklistLinks?.[i] || data.checklistHref} className="label-text leading-tight text-[#101828]">
                       <span className="font-bold">{item.replace(" Engine Rebuild", "")}</span>
                       <span className="text-[#101828]"> Engine Rebuild</span>
                     </Link>
@@ -144,8 +144,8 @@ export default function ModelSec15({ data }) {
           <div className="flex flex-col">
             <div className="flex flex-1 flex-col justify-center divide-y divide-black/10 rounded-2xl border border-black/5 bg-white shadow-[0_20px_50px_-25px_rgba(16,24,40,0.3)]">
               {data.generations.map((g) => (
-                <div key={g.years} className="grid grid-cols-[auto_1fr] items-center gap-4 px-5 py-5">
-                  <Icon name="car" className="h-8 w-8 shrink-0 text-hero-blue" />
+                <div key={g.years} className="grid flex-1 grid-cols-[auto_1fr] items-center gap-4 px-5 py-5">
+                  <Icon name="car" className="h-14 w-14 shrink-0 text-hero-blue" />
                   <div className="grid grid-cols-2 items-center gap-3">
                     <p className="border-r border-black/10 pr-3">
                       <span className="block text-base font-extrabold text-hero-blue">{g.years}</span>
@@ -205,14 +205,14 @@ export default function ModelSec15({ data }) {
               </div>
               <span className="relative mt-3 block h-0.5 w-full bg-linear-to-r from-bmw-red via-bmw-red/40 to-transparent" />
 
-              <div className="relative mt-3 space-y-5">
-                {data.checklistLeft.map((item) => (
+              <div className="relative mt-3 grid grid-flow-col grid-cols-2 gap-x-6 gap-y-5" style={{ gridTemplateRows: `repeat(${Math.ceil(data.checklistLeft.length / 2)}, auto)` }}>
+                {data.checklistLeft.map((item, i) => (
                   <div key={item} className="flex items-center gap-2.5">
                     <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-hero-blue text-white">
                       <Icon name="check" className="h-3 w-3" />
                     </span>
                     {data.checklistHref ? (
-                      <Link href={data.checklistHref} className="text-sm text-[#101828]">
+                      <Link href={data.checklistLinks?.[i] || data.checklistHref} className="text-sm text-[#101828]">
                         <span className="font-bold">{item.replace(" Engine Rebuild", "")}</span>
                         <span className="text-[#101828]"> Engine Rebuild</span>
                       </Link>

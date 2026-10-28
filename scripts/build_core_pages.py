@@ -23,7 +23,7 @@ DATA = ROOT / "src" / "data"
 APP = ROOT / "src" / "app"
 CORE_SRC = ROOT.parent / "gs-core-pages" / "Mercedes"
 
-PHONE = "0203 488 4649"
+PHONE = "01268 944234"
 WHATSAPP = "07975 827 396"
 EMAIL = "info@mercedesgarage.uk"
 ADDRESS = "Unit A5 Windsor Road, Commercial Estate, Ramsden Heath, Billericay, CM11 1QE"

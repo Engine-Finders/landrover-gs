@@ -1,0 +1,44 @@
+{
+  "badge": "08",
+  "headline": "What **Range Rover**|Owners Say",
+  "reviews": [
+    {
+      "platform": "google",
+      "name": "Daniel R.",
+      "text": "Brilliant service from start to finish. My Range Rover TDV6 runs better than it ever has. Honest advice, clear pricing and the team know their stuff.",
+      "tag": "Range Rover TD6 Engine Rebuild"
+    },
+    {
+      "platform": "trustpilot",
+      "name": "Mark T.",
+      "text": "They rebuilt my TDV6 engine with all the updated parts. No more injector leaks. Smooth process and great communication.",
+      "tag": "Range Rover TDV6 Engine Rebuild"
+    },
+    {
+      "platform": "google",
+      "name": "Ryan P.",
+      "text": "Top lads, top job. Picked up and dropped off, engine rebuilt to an extremely high standard. 100% recommend.",
+      "tag": "Range Rover TDV8 Engine Rebuild"
+    },
+    {
+      "platform": "trustpilot",
+      "name": "Steve B.",
+      "text": "Saved me thousands compared to a Land Rover dealer quote. Fantastic workmanship and my Range Rover SDV8 is running perfectly.",
+      "tag": "Range Rover SDV6 Engine Rebuild"
+    },
+    {
+      "platform": "google",
+      "name": "Tom H.",
+      "text": "From quote to collection couldn't fault them. Engine looks brand new inside. Warranty gives great peace of mind.",
+      "tag": "Range Rover SDV8 Engine Rebuild"
+    },
+    {
+      "platform": "trustpilot",
+      "name": "James K.",
+      "text": "Professional, reliable and fairly priced. Camshaft adjuster issue on my Range Rover Autobiography Dynamic sorted properly and kept me updated throughout.",
+      "tag": "Range Rover 4.4 SDV8 Engine Rebuild"
+    }
+  ],
+  "googleCta": "See All Reviews On Google",
+  "trustpilotCta": "See All Reviews On Trustpilot"
+}

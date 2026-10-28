@@ -2,7 +2,7 @@
   "yearBanner": {
     "titlePre": "WE COVER ",
     "titleHighlight": "EVERY",
-    "titlePost": " Land Rover Range Rover P460e MODEL YEAR:",
+    "titlePost": " Range Rover P460e MODEL YEAR:",
     "years": [
       "2022",
       "2023",
@@ -10,13 +10,13 @@
       "2025",
       "2026"
     ],
-    "footer": "If your registration year isn't listed above, get in touch - we'll confirm availability directly against your reg.",
-    "vehicleLabel": "Land Rover Range Rover P460e"
+    "footer": "If your registration year or model isn't listed above, get in touch - we'll confirm availability directly against your reg.",
+    "vehicleLabel": "Range Rover P460e"
   },
   "costs": {
-    "titlePre": "Land Rover Range Rover P460e ENGINE ",
+    "titlePre": "Range Rover P460e ENGINE ",
     "titleHighlight": "COSTS",
-    "intro": "A Land Rover Range Rover P460e engine rebuild starts from",
+    "intro": "A Range Rover P460e engine rebuild starts from",
     "price": "£3,200",
     "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required - submit your registration for a fixed-price quote within 30 minutes.",
     "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
@@ -29,54 +29,54 @@
       {
         "icon": "engine",
         "title": "LAND ROVER Range Rover P460e ENGINE SIZES",
-        "item": "Land Rover Range Rover P460e 3.0 Litre Engine (AJ300 turbo PHEV I6, I6)"
+        "item": "Range Rover P460e 3.0 Litre Engine (AJ300 turbo PHEV I6, I6)"
       },
       {
         "icon": "fuel",
         "title": "LAND ROVER Range Rover P460e FUEL TYPES",
-        "item": "Land Rover Range Rover P460e Petrol Mild Hybrid Engine Rebuilds"
+        "item": "Range Rover P460e Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
   },
   "bottomInfo": {
     "timeframe": {
       "icon": "clock",
-      "textPre": "Most Land Rover Range Rover P460e engine rebuilds are completed within ",
+      "textPre": "Most Range Rover P460e engine rebuilds are completed within ",
       "textHighlight": "3-5 working days",
       "textPost": "."
     },
-    "recoveryText": "Nationwide recovery and collection available for all Land Rover Range Rover P460e models.",
+    "recoveryText": "Nationwide recovery and collection available for all Range Rover P460e models.",
     "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp"
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
     "links": [
       {
-        "label": "Land Rover Range Rover D300/D350 Engine",
+        "label": "Range Rover D300/D350 Engine",
         "href": "/landrover-range-rover-d300-d350-engines"
       },
       {
-        "label": "Land Rover Range Rover P400 Engine",
+        "label": "Range Rover P400 Engine",
         "href": "/landrover-range-rover-p400-engines"
       },
       {
-        "label": "Land Rover Range Rover P530 Engine",
+        "label": "Range Rover P530 Engine",
         "href": "/landrover-range-rover-p530-engines"
       },
       {
-        "label": "Land Rover Range Rover SV/P615 Engine",
+        "label": "Range Rover SV/P615 Engine",
         "href": "/landrover-range-rover-sv-p615-engines"
       },
       {
-        "label": "Land Rover Range Rover P440e Engine",
+        "label": "Range Rover P440e Engine",
         "href": "/landrover-range-rover-p440e-engines"
       },
       {
-        "label": "Land Rover Range Rover P510e Engine",
+        "label": "Range Rover P510e Engine",
         "href": "/landrover-range-rover-p510e-engines"
       },
       {
-        "label": "Land Rover Range Rover P550e Engine",
+        "label": "Range Rover P550e Engine",
         "href": "/landrover-range-rover-p550e-engines"
       }
     ],

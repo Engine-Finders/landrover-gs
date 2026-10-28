@@ -5,6 +5,8 @@ import Icon from "@/components/reusable/Icon";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 
 export default function ModelSec3({ data }) {
+  // desktop: alternate light / dark cards across the row (matches the mobile checkerboard)
+  const desktopCards = data.cards.map((c, i) => ({ ...c, featured: i % 2 === 0 }));
   const [line1, line2] = data.h2.split("|");
 
   return (
@@ -45,15 +47,18 @@ export default function ModelSec3({ data }) {
           </p>
 
           <div className="mt-4 grid grid-cols-2 gap-3">
-            {data.cards.map((c) => (
+            {data.cards.map((card, i) => {
+              // checkerboard across the two columns: light-dark / dark-light / light ...
+              const c = { ...card, featured: (Math.floor(i / 2) + (i % 2)) % 2 === 0 };
+              return (
               <div
                 key={c.titlePre}
                 className={`card-corner-glare relative rounded-xl border p-3 ${
                   c.featured ? "border-hero-blue/50 bg-(--color-light-surface)" : "border-hero-blue/30 bg-[#121511]"
                 }`}
               >
-                <div className="flex h-full items-center gap-2.5">
-                  <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-lg">
+                <div className="flex h-full items-center gap-2">
+                  <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg">
                         {c.icon ? (
                       <span className="flex h-full w-full items-center justify-center">
                         <Icon name={c.icon} className="h-11 w-11 text-hero-blue" />
@@ -64,7 +69,7 @@ export default function ModelSec3({ data }) {
                   </div>
 
                   <div className="min-w-0 flex-1">
-                    <p className={`label-text break-words font-extrabold uppercase leading-tight ${c.featured ? "text-[#101828]" : "text-white"}`}>
+                    <p className={`label-text text-[11px]! break-words font-extrabold uppercase leading-tight ${c.featured ? "text-[#101828]" : "text-white"}`}>
                       {c.titlePre}
                     </p>
                     <p className="label-text break-words font-extrabold uppercase leading-tight text-hero-blue">{c.titleHighlight}</p>
@@ -85,7 +90,8 @@ export default function ModelSec3({ data }) {
                   </div>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
 
           <p className="glass-card-dark mt-4 flex items-center gap-2 rounded-xl border border-hero-blue/30 px-4 py-3 text-xs text-white">
@@ -150,7 +156,7 @@ export default function ModelSec3({ data }) {
           className="mt-5 grid gap-4"
           style={{ gridTemplateColumns: `repeat(${data.cards.length}, ${data.cards.length >= 4 ? "minmax(0, 1fr)" : "minmax(0, 16rem)"})` }}
         >
-          {data.cards.map((c) => (
+          {desktopCards.map((c) => (
             <div
               key={c.titlePre}
               className={
@@ -195,7 +201,7 @@ export default function ModelSec3({ data }) {
           {data.disclaimer}
         </p>
 
-        <div className="glass-card-dark card-corner-glare relative mt-6 flex items-center justify-between gap-6 rounded-xl border border-hero-blue/50 px-6 py-4">
+        <div className="glass-card-dark card-corner-glare relative mt-6 flex items-center w-fit max-w-full gap-10 rounded-xl border border-hero-blue/50 px-6 py-4">
           <div className="flex items-center gap-3">
             <Icon name="clock" className="h-9 w-9 shrink-0 text-hero-blue" />
             <p className="text-sm font-extrabold uppercase leading-tight text-white">

@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover P550e ENGINE",
+    "titleHighlight": "Range Rover P550e ENGINE",
     "paragraphs": [
       "The Range Rover P550e is the flagship plug-in hybrid variant in the L460 generation, introduced from 2022. It uses the AJ300 turbo PHEV inline-six - a 3.0-litre petrol engine paired with a 105kW electric motor, with the P550e badge tracking the highest power output tier among the PHEV range. The engine code sits in the same Ingenium family as the other L460 six-cylinder variants, but the PHEV-specific hybrid components distinguish it from the mild-hybrid petrol and diesel versions. The Range Rover P550e remains in current production as of 2026."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300 turbo PHEV I6 engines for every Range Rover P550e on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover P550e ENGINE ",
+    "titlePre": "Range Rover P550e ENGINE ",
     "titleHighlight": "CODES",
     "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
@@ -24,7 +24,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover P550e ENGINE ",
+    "titlePre": "Range Rover P550e ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "The Range Rover P550e uses the AJ300 turbo PHEV inline-six across the L460 generation. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
@@ -55,7 +55,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover P550e ",
+    "titlePre": "Range Rover P550e ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [

@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover SDV6 ENGINE",
+    "titleHighlight": "Range Rover SDV6 ENGINE",
     "paragraphs": [
       "The Range Rover SDV6 has been part of the Range Rover line-up since the L322 generation, spanning two generations under one engine badge. Both the L322 (2001-2012) and L405 (2012-2021) use the 4.4-litre TDV8/SDV8 diesel V8 - a sibling engine family to the TDV6/SDV6, sharing the same timing chain and injector wear patterns. The engine was discontinued with the arrival of the L460 generation, which replaced it with Ingenium diesel and BMW-sourced V8 units."
     ],
     "boldParagraph": "We continue to rebuild and replace TDV8/SDV8 engines for every Range Rover SDV6 on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover SDV6 ENGINE ",
+    "titlePre": "Range Rover SDV6 ENGINE ",
     "titleHighlight": "CODES",
     "image": "/variant/sec10_engine.webp",
     "cards": [
@@ -24,7 +24,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover SDV6 ENGINE ",
+    "titlePre": "Range Rover SDV6 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the Range Rover SDV6 runs the same TDV8/SDV8 engine family across both generations, compatibility comes down to generation-specific ancillaries and ECU configurations rather than a different engine code. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
@@ -55,7 +55,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover SDV6 ",
+    "titlePre": "Range Rover SDV6 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
     "columns": [

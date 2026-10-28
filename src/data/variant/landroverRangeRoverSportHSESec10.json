@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover Sport HSE ENGINE",
+    "titleHighlight": "Range Rover Sport HSE ENGINE",
     "paragraphs": [
       "The Range Rover Sport HSE has been part of the Range Rover Sport range since 2005, and across its three generations has used several different engines - from the TDV6 and SDV6 diesel V6s of the L320 and L494 generations, through to today's Ingenium I6 units and BMW-sourced V8s on the current L461 platform. The HSE designation is a trim level that has been offered across all generations, rather than a specific engine family - which means the engine in your HSE depends entirely on which generation and model year you own. The full breakdown by engine code is below."
     ],
     "boldParagraph": "We continue to rebuild and replace TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461) engines for every Range Rover Sport HSE on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover Sport HSE ENGINE ",
+    "titlePre": "Range Rover Sport HSE ENGINE ",
     "titleHighlight": "CODES",
     "image": "/engines/jaguar-276dt-tdv6-engine.webp",
     "cards": [
@@ -57,7 +57,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover Sport HSE ENGINE ",
+    "titlePre": "Range Rover Sport HSE ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the Range Rover Sport HSE spans three generations and multiple distinct engine families, fitting the wrong replacement - or assuming parts are interchangeable between a TDV6 and an Ingenium engine - risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
@@ -88,7 +88,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover Sport HSE ",
+    "titlePre": "Range Rover Sport HSE ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
     "columns": [

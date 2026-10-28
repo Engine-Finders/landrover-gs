@@ -59,7 +59,7 @@ export default function ModelSec7({ data }) {
           <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-hero-blue text-white">
             <Icon name="camera" className="h-4 w-4" />
           </span>
-          <p className="relative z-10 text-xs text-[#101828]">{data.footerNote}</p>
+          <p className="relative z-10 pr-14 text-xs text-[#101828]">{data.footerNote}</p>
 
           <div
             className="pointer-events-none absolute bottom-0 right-0 z-0 flex gap-1"

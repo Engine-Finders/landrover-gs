@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "SDV8 or AJ-V8 REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport Autobiography Dynamic",
+        "model": "Range Rover Sport Autobiography Dynamic",
         "status": "WORKSHOP BAY"
       }
     ]

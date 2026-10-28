@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover Sport SVR",
+  "headlineHighlight": "Range Rover Sport SVR",
   "headlinePost": " Engine",
   "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover Sport SVR"
+      "value": "Range Rover Sport SVR"
     },
     {
       "icon": "layers",

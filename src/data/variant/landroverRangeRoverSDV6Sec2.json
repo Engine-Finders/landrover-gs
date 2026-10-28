@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover SDV6",
+  "headlineHighlight": "Range Rover SDV6",
   "headlinePost": " Engine",
   "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover SDV6"
+      "value": "Range Rover SDV6"
     },
     {
       "icon": "layers",

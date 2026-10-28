@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover Sport P400 ENGINE",
+    "titleHighlight": "Range Rover Sport P400 ENGINE",
     "paragraphs": [
       "The Range Rover Sport P400 is part of the current-generation L461 model, introduced in 2022 as the petrol mild-hybrid option in the lineup. It uses the AJ300P - a 3.0-litre inline-six petrol engine with mild-hybrid assistance, part of JLR's Ingenium family. The AJ300P is a more modern design than the older supercharged V8s found in earlier Sport models, with fewer widely-documented failure patterns reported across the specialist community."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300P engines for every Range Rover Sport P400 on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover Sport P400 ENGINE ",
+    "titlePre": "Range Rover Sport P400 ENGINE ",
     "titleHighlight": "CODES",
     "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
@@ -25,7 +25,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover Sport P400 ENGINE ",
+    "titlePre": "Range Rover Sport P400 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "The Range Rover Sport P400's AJ300P is a specific engine code within the Ingenium family, used exclusively on the current L461 generation. Because the AJ300P is a distinct unit from both the diesel Ingenium variants and the BMW-sourced V8s also fitted to the L461 Sport range, confirming your exact engine code matters for parts sourcing and rebuild specificity. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
@@ -56,7 +56,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover Sport P400 ",
+    "titlePre": "Range Rover Sport P400 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
     "columns": [

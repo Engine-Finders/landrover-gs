@@ -200,7 +200,7 @@
         {
           "t": "modelgroup",
           "model": {
-            "label": "Land Rover Range Rover",
+            "label": "Range Rover",
             "href": "/landrover-range-rover-tdv6-engines"
           },
           "chips": [
@@ -234,7 +234,7 @@
         {
           "t": "modelgroup",
           "model": {
-            "label": "Land Rover Range Rover Sport",
+            "label": "Range Rover Sport",
             "href": "/range-rover-sport-engines"
           },
           "chips": [

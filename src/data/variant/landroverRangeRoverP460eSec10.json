@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover P460e ENGINE",
+    "titleHighlight": "Range Rover P460e ENGINE",
     "paragraphs": [
       "The Range Rover P460e is part of the current L460 generation, introduced in 2022. It uses the AJ300 turbo PHEV I6 - a 3.0-litre petrol plug-in hybrid unit that pairs the Ingenium six-cylinder engine with a 105kW electric motor. The P460e badge tracks its power output tier, sitting alongside the P440e, P510e and P550e within the same engine family across the plug-in hybrid Range Rover range."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300 turbo PHEV I6 engines for every Range Rover P460e on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover P460e ENGINE ",
+    "titlePre": "Range Rover P460e ENGINE ",
     "titleHighlight": "CODES",
     "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
@@ -24,7 +24,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover P460e ENGINE ",
+    "titlePre": "Range Rover P460e ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the Range Rover P460e uses a specific plug-in hybrid version of the AJ300 engine, compatibility depends on more than just the engine code. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
@@ -55,7 +55,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover P460e ",
+    "titlePre": "Range Rover P460e ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [

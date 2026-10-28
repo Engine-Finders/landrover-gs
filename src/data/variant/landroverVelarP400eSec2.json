@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Velar P400e",
+  "headlineHighlight": "Range Rover Velar P400e",
   "headlinePost": " Engine",
   "image": "/engines/engines-2-0-ingenium-petrol-engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Velar P400e"
+      "value": "Range Rover Velar P400e"
     },
     {
       "icon": "layers",

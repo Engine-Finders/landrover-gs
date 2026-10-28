@@ -40,13 +40,13 @@ function build(p) {
 }
 
 const PRESETS = {
-  // sec11 desktop: dark olive band with a fine cream line, running down-left behind the workshop
+  // sec11 desktop: two flat bands side by side - dark olive, then light olive - running down-left behind the workshop
   sec11: {
     w: 1024,
     h: 572,
     bands: [
-      { top: [564, 608], bottom: [352, 396], y: [0, 572], fill: [[0, "#151812"], [0.35, "#1c1e14"], [0.55, "#262a1d"], [1, "#242a1d"]] },
-      { top: [583.5, 586.5], bottom: [371.5, 374.5], y: [0, 572], fill: "#a8a58c", opacity: 0.7 },
+      { top: [564, 600], bottom: [352, 388], y: [0, 572], fill: "#3b402b" },
+      { top: [600, 628], bottom: [388, 416], y: [0, 572], fill: "#8c9c78" },
     ],
   },
   // sec5 desktop: olive band with a gold edge, fading out towards the engine

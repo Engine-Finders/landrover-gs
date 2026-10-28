@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover Velar D180 ENGINE",
+    "titleHighlight": "Range Rover Velar D180 ENGINE",
     "paragraphs": [
       "The Velar D180 uses the Ingenium AJ200D - a 2.0-litre four-cylinder diesel. It has been fitted to the Velar since the model's launch in 2017 and remains available in current production. The AJ200D is part of JLR's Ingenium diesel family, which is widely used across the Range Rover, Discovery and Jaguar ranges, and is known for its shared engine architecture and common component set."
     ],
     "boldParagraph": "We continue to rebuild and replace Ingenium AJ200D engines for every Range Rover Velar D180 on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover Velar D180 ENGINE ",
+    "titlePre": "Range Rover Velar D180 ENGINE ",
     "titleHighlight": "CODES",
     "image": "/engines/jaguar-aj200d-engine.webp",
     "cards": [
@@ -25,7 +25,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover Velar D180 ENGINE ",
+    "titlePre": "Range Rover Velar D180 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the Velar D180 uses the same Ingenium AJ200D diesel across the entire production run, engine matching is relatively straightforward - but the exact specification can vary by model year. Before we quote or supply anything, we confirm: - Your exact engine code (AJ200D) via registration or VIN - Your generation (L560) - Drivetrain and ancillary specification - Any electronics or ECU considerations specific to your exact build",
     "image": "/variant/sec10_third_div.webp",
@@ -56,7 +56,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover Velar D180 ",
+    "titlePre": "Range Rover Velar D180 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
     "columns": [

@@ -17,7 +17,7 @@ function Stars({ count = 5 }) {
   );
 }
 
-// Long model names ("Land Rover Range Rover Evoque") run into the logo in the corner, so over MAX_NAME
+// Long model names ("Range Rover Evoque") run into the logo in the corner, so over MAX_NAME
 // characters the leading brand word is dropped ("Range Rover Evoque"); anything still longer is cut with an ellipsis.
 const MAX_NAME = 22;
 function shortName(name) {

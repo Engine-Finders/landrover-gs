@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461) REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport HSE",
+        "model": "Range Rover Sport HSE",
         "status": "WORKSHOP BAY"
       }
     ]

@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "Ingenium AJ200D / AJ150D REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Evoque D180",
+        "model": "Range Rover Evoque D180",
         "status": "WORKSHOP BAY"
       }
     ]

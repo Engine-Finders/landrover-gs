@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover TDV8 ENGINE",
+    "titleHighlight": "Range Rover TDV8 ENGINE",
     "paragraphs": [
       "The Range Rover TDV8 has been a mainstay of the Range Rover diesel range since the L322 generation, fitted across two generations from 2001 to 2021. Both the L322 (2001-2012) and L405 (2012-2021) generations use the same 4.4-litre V8 diesel architecture - the TDV8 and SDV8 are sibling engine families sharing the same known wear pattern around timing chain and injector components."
     ],
     "boldParagraph": "We continue to rebuild and replace TDV8 / SDV8 engines for every Range Rover TDV8 on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover TDV8 ENGINE ",
+    "titlePre": "Range Rover TDV8 ENGINE ",
     "titleHighlight": "CODES",
     "image": "/variant/sec10_engine.webp",
     "cards": [
@@ -24,7 +24,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover TDV8 ENGINE ",
+    "titlePre": "Range Rover TDV8 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the TDV8 and SDV8 share the same engine architecture, compatibility comes down to ensuring the right generation (L322 or L405) and the correct variant badge for your vehicle. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
@@ -55,7 +55,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover TDV8 ",
+    "titlePre": "Range Rover TDV8 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/land-rover-range-rover-l405-vogue-suv-20122017-new-causeway-b791.webp",
     "columns": [

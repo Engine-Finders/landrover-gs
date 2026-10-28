@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover Sport P530 ENGINE",
+    "titleHighlight": "Range Rover Sport P530 ENGINE",
     "paragraphs": [
       "The Range Rover Sport P530 is the flagship petrol V8 model in the current L461 generation, introduced in 2022. Under the bonnet, it uses the BMW N63 twin-turbo V8, a 4.4-litre unit that represents a significant departure from the previous supercharged AJ-V8 engines used in older models. This engine is shared with the larger L460 Range Rover, reflecting the deep platform sharing between the two models. The P530's V8 offers a blend of performance and refinement that is central to the Range Rover Sport's character, and our rebuild service is designed to restore this engine to its full potential."
     ],
     "boldParagraph": "We continue to rebuild and replace BMW N63 engines for every Range Rover Sport P530 on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover Sport P530 ENGINE ",
+    "titlePre": "Range Rover Sport P530 ENGINE ",
     "titleHighlight": "CODES",
     "image": "/variant/sec10_engine.webp",
     "cards": [
@@ -24,7 +24,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover Sport P530 ENGINE ",
+    "titlePre": "Range Rover Sport P530 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "The P530 uses a specific BMW-sourced engine code (N63) that is distinct from the other engines in the L461 lineup (the Ingenium 6-cylinder units) and entirely different from the AJ-V8 family used in the previous L494 generation. Fitting the wrong replacement or assuming a part from a different engine will work can lead to expensive compatibility issues. Before we quote or supply anything, we confirm: - Your exact engine code via registration or VIN - Your generation (L461) - Drivetrain and ancillary specification - Any electronics or ECU considerations specific to your exact build",
     "image": "/variant/sec10_third_div.webp",
@@ -55,7 +55,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover Sport P530 ",
+    "titlePre": "Range Rover Sport P530 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp",
     "columns": [

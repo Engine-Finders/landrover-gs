@@ -29,7 +29,7 @@ export default function ModelSec17({ data }) {
 
         <h2 className="h2 origin-left scale-y-110 scale-x-90 mt-2 uppercase">
           <span className="block whitespace-nowrap text-[#101828]">{mobileLine1}</span>{" "}
-          <span className="block whitespace-nowrap text-hero-blue">{mobileLine2}</span>
+          <span className="block text-hero-blue">{mobileLine2}</span>
         </h2>
 
         {/* body style tabs - single row of 4 on mobile */}
@@ -54,7 +54,7 @@ export default function ModelSec17({ data }) {
                 ) : (
                   <Icon name="car" className="h-5 w-5 shrink-0 text-[#607056]" />
                 )}
-                <span className="label-text font-bold leading-tight text-white">{tab}</span>
+                <span className={`label-text font-bold leading-tight text-white ${single ? "-translate-y-0.5" : ""}`}>{tab}</span>
               </button>
             ) : (
               <button

@@ -2,7 +2,7 @@
   "yearBanner": {
     "titlePre": "WE COVER ",
     "titleHighlight": "EVERY",
-    "titlePost": " Land Rover Range Rover Sport HSE MODEL YEAR:",
+    "titlePost": " Range Rover Sport HSE MODEL YEAR:",
     "years": [
       "2005",
       "2006",
@@ -27,13 +27,13 @@
       "2025",
       "2026"
     ],
-    "footer": "If your registration year isn't listed above, get in touch - we'll confirm availability directly against your reg.",
-    "vehicleLabel": "Land Rover Range Rover Sport HSE"
+    "footer": "If your registration year or model isn't listed above, get in touch - we'll confirm availability directly against your reg.",
+    "vehicleLabel": "Range Rover Sport HSE"
   },
   "costs": {
-    "titlePre": "Land Rover Range Rover Sport HSE ENGINE ",
+    "titlePre": "Range Rover Sport HSE ENGINE ",
     "titleHighlight": "COSTS",
-    "intro": "A Land Rover Range Rover Sport HSE engine rebuild starts from",
+    "intro": "A Range Rover Sport HSE engine rebuild starts from",
     "price": "£2,400",
     "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required - submit your registration for a fixed-price quote within 30 minutes.",
     "image": "/engines/jaguar-276dt-tdv6-engine.webp",
@@ -46,50 +46,50 @@
       {
         "icon": "engine",
         "title": "LAND ROVER Range Rover Sport HSE ENGINE SIZES",
-        "item": "Land Rover Range Rover Sport HSE 3.0 Litre Engine (TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461), I6)"
+        "item": "Range Rover Sport HSE 3.0 Litre Engine (TDV6, SDV6, TDV8, SDV8 (L320/L494), Ingenium AJ300D, AJ300P, BMW N63 (L461), I6)"
       },
       {
         "icon": "fuel",
         "title": "LAND ROVER Range Rover Sport HSE FUEL TYPES",
-        "item": "Land Rover Range Rover Sport HSE Petrol Mild Hybrid Engine Rebuilds"
+        "item": "Range Rover Sport HSE Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
   },
   "bottomInfo": {
     "timeframe": {
       "icon": "clock",
-      "textPre": "Most Land Rover Range Rover Sport HSE engine rebuilds are completed within ",
+      "textPre": "Most Range Rover Sport HSE engine rebuilds are completed within ",
       "textHighlight": "3-5 working days",
       "textPost": "."
     },
-    "recoveryText": "Nationwide recovery and collection available for all Land Rover Range Rover Sport HSE models.",
+    "recoveryText": "Nationwide recovery and collection available for all Range Rover Sport HSE models.",
     "image": "/cars/card/range-rover-sport-l461-dynamic-se-suv-2022-new-santorini-bla-bfe9.webp"
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
     "links": [
       {
-        "label": "Land Rover Range Rover Sport SDV6 Engine",
+        "label": "Range Rover Sport SDV6 Engine",
         "href": "/landrover-range-rover-sport-sdv6-engines"
       },
       {
-        "label": "Land Rover Range Rover Sport TDV8 Engine",
+        "label": "Range Rover Sport TDV8 Engine",
         "href": "/landrover-range-rover-sport-tdv8-engines"
       },
       {
-        "label": "Land Rover Range Rover Sport SDV8 Engine",
+        "label": "Range Rover Sport SDV8 Engine",
         "href": "/landrover-range-rover-sport-sdv8-engines"
       },
       {
-        "label": "Land Rover Range Rover Sport SVR Engine",
+        "label": "Range Rover Sport SVR Engine",
         "href": "/landrover-range-rover-sport-svr-engines"
       },
       {
-        "label": "Land Rover Range Rover Sport D300 Engine",
+        "label": "Range Rover Sport D300 Engine",
         "href": "/landrover-range-rover-sport-d300-engines"
       },
       {
-        "label": "Land Rover Range Rover Sport P400 Engine",
+        "label": "Range Rover Sport P400 Engine",
         "href": "/landrover-range-rover-sport-p400-engines"
       }
     ],

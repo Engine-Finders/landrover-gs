@@ -103,19 +103,19 @@
               "href": "/freelander-engines"
             },
             {
-              "label": "Land Rover Range Rover",
+              "label": "Range Rover",
               "href": "/landrover-range-rover-tdv6-engines"
             },
             {
-              "label": "Land Rover Range Rover Sport",
+              "label": "Range Rover Sport",
               "href": "/range-rover-sport-engines"
             },
             {
-              "label": "Land Rover Range Rover Velar",
+              "label": "Range Rover Velar",
               "href": "/range-rover-velar-engines"
             },
             {
-              "label": "Land Rover Range Rover Evoque",
+              "label": "Range Rover Evoque",
               "href": "/range-rover-evoque-engines"
             }
           ]
@@ -129,8 +129,8 @@
           "items": [
             "[Land Rover Defender D250](/landrover-defender-d250-engines)",
             "[Land Rover Discovery SDV6](/landrover-discovery-sdv6-engines)",
-            "[Land Rover Range Rover TDV6](/landrover-range-rover-tdv6-engines)",
-            "[Land Rover Range Rover Sport SVR](/landrover-range-rover-sport-svr-engines)"
+            "[Range Rover TDV6](/landrover-range-rover-tdv6-engines)",
+            "[Range Rover Sport SVR](/landrover-range-rover-sport-svr-engines)"
           ]
         }
       ]

@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "AJ300D REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover D300 D350",
+        "model": "Range Rover D300 D350",
         "status": "WORKSHOP BAY"
       }
     ]

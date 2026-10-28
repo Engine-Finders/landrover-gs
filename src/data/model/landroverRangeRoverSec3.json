@@ -1,0 +1,59 @@
+{
+  "kicker": "Transparent Pricing",
+  "h2": "Range Rover|Rebuild Pricing",
+  "startingFromLabel": "Starting From:",
+  "image": "/model/sec3.webp",
+  "imageMobile": "/model/sec3_mobile.webp",
+  "cardImage": "/engines/card3-engine-trim.webp",
+  "cards": [
+    {
+      "titlePre": "6-Cylinder Diesel",
+      "titleHighlight": "",
+      "code": "(M57 / TDV6 / SDV6 / Ingenium I6)",
+      "image": "/engines/card3-jaguar-276dt-tdv6-engine.webp",
+      "price": "£2,400",
+      "featured": false,
+      "codeHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "titlePre": "V8 Diesel",
+      "titleHighlight": "",
+      "code": "(TDV8 / SDV8)",
+      "price": "£4,500",
+      "featured": false,
+      "codeHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "titlePre": "V8 Petrol",
+      "titleHighlight": "",
+      "code": "(AJ-V8 / BMW-sourced)",
+      "price": "£4,500",
+      "featured": false,
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "titlePre": "V8 Supercharged",
+      "image": "/engines/card3-land-rover-jlr-aj133-engine-hero.webp",
+      "titleHighlight": "",
+      "code": "(SVAutobiography)",
+      "price": "£5,500",
+      "featured": true,
+      "codeHref": "/landrover-aj-v8-engine"
+    },
+    {
+      "titlePre": "Nationwide Recovery",
+      "titleHighlight": "",
+      "code": "",
+      "price": "from £70",
+      "featured": false,
+      "icon": "truck"
+    }
+  ],
+  "disclaimer": "Exact price depends on engine code, condition and parts required - full pricing further down this page.",
+  "cta": {
+    "line1": "Get Your Fixed-Price Quote",
+    "line2": "In Under 30 Minutes",
+    "buttonLabel": "Get Your Engine Rebuild Quote",
+    "href": "#quote-form"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "headlinePre": "Land Rover Velar P300",
+  "headlinePre": "Range Rover Velar P300",
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£2,200",
@@ -28,7 +28,7 @@
   },
   "warning": {
     "bgImage": "/variant/sec3.v2.webp",
-    "titlePre": "Land Rover Velar P300 Known Issues by Engine ",
+    "titlePre": "Range Rover Velar P300 Known Issues by Engine ",
     "titleHighlight": "",
     "paragraphs": [
       "If your Velar P300 has the AJ200P (L663 generation):",

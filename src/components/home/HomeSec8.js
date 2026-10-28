@@ -124,7 +124,7 @@ export default function HomeSec8({ data }) {
 
           {/* ===== right: timeline, 4.5 cards in view and a slim scroller for the rest ===== */}
           <div className="relative min-w-0 pb-6 pt-8 md:py-10 md:pl-6 md:pr-0">
-            <div className="no-scrollbar flex snap-x snap-mandatory overflow-x-auto pb-3 [--n:3.5] md:[--n:4.5]">
+            <div className="no-scrollbar flex snap-x snap-mandatory overflow-x-auto pb-3 [--n:2.5] md:[--n:4.5]">
               {data.stages.map((s, i) => (
                 <div
                   key={s.step}
@@ -149,19 +149,25 @@ export default function HomeSec8({ data }) {
                     className="relative mt-3 aspect-[3/4] w-full overflow-hidden rounded-md ring-1 ring-white/20 transition-shadow group-hover:ring-hero-blue md:aspect-[2/3]"
                   >
                     <Image
-                      src={s.image}
+                      src={s.thumb || s.image}
                       alt={s.label}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      sizes="(min-width: 768px) 170px, 110px"
+                      quality={90} sizes="(min-width: 768px) 360px, 240px"
                     />
                   </button>
+                  <p className="mt-2 px-0.5 text-center text-[11px] leading-snug text-white/75 md:text-xs">{s.text}</p>
                 </div>
               ))}
             </div>
           </div>
         </div>
 
+        {/* closing statement */}
+        <div className="relative z-10 border-t border-white/10 bg-[#0d0f0c] px-4 py-6 text-center md:px-7">
+          <p className="text-sm font-bold text-white md:text-base">{data.footer.title}</p>
+          <p className="mx-auto mt-1.5 max-w-3xl text-xs leading-relaxed text-white/75 md:text-sm">{data.footer.text}</p>
+        </div>
       </div>
 
       {activeStage && <ImageLightbox img={{ src: activeStage.image, alt: activeStage.label }} onClose={() => setActiveStage(null)} />}

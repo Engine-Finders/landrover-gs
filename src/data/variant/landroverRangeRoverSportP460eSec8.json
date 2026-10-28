@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "AJ300 PHEV REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport P460e",
+        "model": "Range Rover Sport P460e",
         "status": "WORKSHOP BAY"
       }
     ]

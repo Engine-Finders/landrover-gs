@@ -2,7 +2,7 @@
   "yearBanner": {
     "titlePre": "WE COVER ",
     "titleHighlight": "EVERY",
-    "titlePost": " Land Rover Range Rover Sport SVR MODEL YEAR:",
+    "titlePost": " Range Rover Sport SVR MODEL YEAR:",
     "years": [
       "2015",
       "2016",
@@ -13,13 +13,13 @@
       "2021",
       "2022"
     ],
-    "footer": "If your registration year isn't listed above, get in touch - we'll confirm availability directly against your reg.",
-    "vehicleLabel": "Land Rover Range Rover Sport SVR"
+    "footer": "If your registration year or model isn't listed above, get in touch - we'll confirm availability directly against your reg.",
+    "vehicleLabel": "Range Rover Sport SVR"
   },
   "costs": {
-    "titlePre": "Land Rover Range Rover Sport SVR ENGINE ",
+    "titlePre": "Range Rover Sport SVR ENGINE ",
     "titleHighlight": "COSTS",
-    "intro": "A Land Rover Range Rover Sport SVR engine rebuild starts from",
+    "intro": "A Range Rover Sport SVR engine rebuild starts from",
     "price": "£5,500",
     "body": "A full replacement engine and fitting service is also available. Exact pricing depends on the condition of your existing engine and the parts required - submit your registration for a fixed-price quote within 30 minutes.",
     "image": "/engines/land-rover-jlr-aj133-engine-hero.webp",
@@ -32,46 +32,46 @@
       {
         "icon": "engine",
         "title": "LAND ROVER Range Rover Sport SVR ENGINE SIZES",
-        "item": "Land Rover Range Rover Sport SVR 3.0 Litre Engine (AJ‑V8 Supercharged, I6)"
+        "item": "Range Rover Sport SVR 3.0 Litre Engine (AJ‑V8 Supercharged, I6)"
       },
       {
         "icon": "fuel",
         "title": "LAND ROVER Range Rover Sport SVR FUEL TYPES",
-        "item": "Land Rover Range Rover Sport SVR Petrol Mild Hybrid Engine Rebuilds"
+        "item": "Range Rover Sport SVR Petrol Mild Hybrid Engine Rebuilds"
       }
     ]
   },
   "bottomInfo": {
     "timeframe": {
       "icon": "clock",
-      "textPre": "Most Land Rover Range Rover Sport SVR engine rebuilds are completed within ",
+      "textPre": "Most Range Rover Sport SVR engine rebuilds are completed within ",
       "textHighlight": "3-5 working days",
       "textPost": "."
     },
-    "recoveryText": "Nationwide recovery and collection available for all Land Rover Range Rover Sport SVR models.",
+    "recoveryText": "Nationwide recovery and collection available for all Range Rover Sport SVR models.",
     "image": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp"
   },
   "related": {
     "title": "RELATED LAND ROVER ENGINES",
     "links": [
       {
-        "label": "Land Rover Range Rover Sport SV / P635 Engine",
+        "label": "Range Rover Sport SV / P635 Engine",
         "href": "/landrover-range-rover-sport-sv-p635-engines"
       },
       {
-        "label": "Land Rover Range Rover Sport P530 Engine",
+        "label": "Range Rover Sport P530 Engine",
         "href": "/landrover-range-rover-sport-p530-engines"
       },
       {
-        "label": "Land Rover Range Rover Sport P400 Engine",
+        "label": "Range Rover Sport P400 Engine",
         "href": "/landrover-range-rover-sport-p400-engines"
       },
       {
-        "label": "Land Rover Range Rover Sport HSE Engine",
+        "label": "Range Rover Sport HSE Engine",
         "href": "/landrover-range-rover-sport-hse-engines"
       },
       {
-        "label": "Land Rover Range Rover Sport Autobiography Dynamic Engine",
+        "label": "Range Rover Sport Autobiography Dynamic Engine",
         "href": "/landrover-range-rover-sport-autobiography-dynamic-engines"
       }
     ],

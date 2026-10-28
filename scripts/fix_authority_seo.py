@@ -2,7 +2,7 @@
 """
 One-off fix-up over the authority pages (inline-HTML page.js files):
   - remaps legacy/guessed internal links to real routes (no dead links)
-  - normalises the old 01268 number to the live 0203 488 4649
+  - normalises the old 01268 number to the live 01268 944234
   - repairs in-page anchors that pointed at ids which don't exist
   - fills empty meta descriptions from the hero lede
 Idempotent. Usage: python scripts/fix_authority_seo.py
@@ -106,8 +106,8 @@ def main():
         t = re.sub(r'href=\\"/([a-z0-9/-]+?)(#[^\\"]*)?\\"', fix_href, t)
 
         # phone: old 01268 line -> live number (WhatsApp mobile is a separate, valid line)
-        t = re.sub(r"tel:\+?44 ?0?1268 ?944 ?234", "tel:02034884649", t)
-        t = t.replace("+44 01268 944 234", "0203 488 4649").replace("01268 944 234", "0203 488 4649")
+        t = re.sub(r"tel:\+?44 ?0?1268 ?944 ?234", "tel:01268944234", t)
+        t = t.replace("+44 01268 944 234", "01268 944234").replace("01268 944 234", "01268 944234")
 
         # anchors pointing at ids which don't exist
         t = t.replace('href=\\"#how-we-work\\"', 'href=\\"#our-process\\"')
