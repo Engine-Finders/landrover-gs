@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "Ingenium AJ200P + electric REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Evoque P300e",
+        "model": "Range Rover Evoque P300e",
         "status": "WORKSHOP BAY"
       }
     ]

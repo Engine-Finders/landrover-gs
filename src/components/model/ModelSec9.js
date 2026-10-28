@@ -6,11 +6,15 @@ import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
 import RegLookupGlass from "@/components/reusable/RegLookupGlass";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
+import RegPlate from "@/components/reusable/RegPlate";
+import { useQuoteModal } from "@/components/shared/QuoteModal";
+
+const BROWSE_HREFS = ["#model-year-coverage", "/engines", "/engines", "/engines", "#variant-coverage"];
 
 export default function ModelSec9({ data }) {
   const [line1, line2] = data.h2.split("|");
   const { reg, setReg, loading, error, submit } = useRegLookup();
-  const BROWSE_HREFS = ["#model-year-coverage", "/engines", "/engines", "/engines", "#variant-coverage"];
+  const { open: openQuote } = useQuoteModal();
 
   return (
     <section className="theme-light relative overflow-hidden">
@@ -19,9 +23,10 @@ export default function ModelSec9({ data }) {
         {/* 70/30 split: text gets the left 70%, the photo's right edge (technician at the lookup
             screen) shows in the remaining 30%. Uses the desktop photo - the mobile crop has a blank
             white panel baked in behind the technician. Box grows with the text, min 16rem. */}
-        <div className="relative min-h-64 pb-6">
+        <div className="relative min-h-64 pb-2">
           <Image src={data.image} alt="Technician running registration and engine diagnostics on a computer beside a Land Rover Defender" fill className="object-cover object-right-top" sizes="100vw" />
           <div className="absolute inset-0 bg-linear-to-r from-white/95 via-white/85 via-55% to-transparent to-80%" />
+          <div className="absolute inset-x-0 bottom-0 h-1/3 bg-linear-to-b from-transparent to-(--theme-light-bg)" />
 
           <div className="relative max-w-[70%] pl-6 pr-2 pt-6">
             <LandRoverStripe className="h-4 w-8" />
@@ -38,27 +43,13 @@ export default function ModelSec9({ data }) {
           {/* reg lookup card */}
           <form
             onSubmit={submit}
-            className="relative mt-6 rounded-2xl p-5"
+            className="relative mt-2 rounded-2xl p-5"
             style={{
               background: "var(--theme-light-bg)",
               boxShadow: "0 0 0 1px rgba(16,24,40,0.12), 0 16px 34px -12px rgba(16,24,40,0.35)",
             }}
           >
-            <div className="flex h-20 overflow-hidden rounded-lg border-2 border-[#101828]/80 bg-white shadow-sm">
-              <span className="flex w-16 shrink-0 flex-col items-center justify-center gap-1 bg-[#1a1a1a] text-white">
-                <span className="flex h-4 w-4 items-center justify-center rounded-full border border-[var(--color-hero-gold)] text-[9px] leading-none text-[var(--color-hero-gold)]">★</span>
-                <span className="text-xs font-extrabold tracking-wide">GB</span>
-              </span>
-              <input
-                type="text"
-                value={reg}
-                onChange={(e) => setReg(e.target.value)}
-                placeholder="ENTER REG"
-                maxLength={8}
-                className="min-w-0 flex-1 px-3 text-center text-2xl font-black tracking-widest text-[#101828] outline-none placeholder:text-[#101828]/40"
-                style={{ background: "var(--theme-light-bg)" }}
-              />
-            </div>
+            <RegPlate value={reg} onChange={setReg} heightClass="[--ph:72px]" className="max-w-none!" ariaLabel="Vehicle registration" />
 
             {error && <p className="mt-2 text-xs font-semibold text-red-600">{error}</p>}
             <button type="submit" disabled={loading} className="btn-text mt-3 flex h-16 w-full items-center justify-center gap-2 rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark uppercase text-white shadow-[0_10px_25px_-8px_rgba(96,112,86,0.7)] disabled:cursor-wait disabled:opacity-70 transition duration-200 hover:-translate-y-0.5 hover:brightness-110">
@@ -92,8 +83,9 @@ export default function ModelSec9({ data }) {
           {/* browse grid */}
           <div className="mt-5 grid grid-cols-2 gap-3">
             {data.browseCards.map((c, i) => (
-              <Link
-                href={BROWSE_HREFS[i] || "/engines"}
+              <button
+                type="button"
+                onClick={() => openQuote({ heading: "Find Out Your Car Details" })}
                 key={c.label}
                 className={`relative flex items-center justify-between gap-2 rounded-xl bg-white/70 px-4 py-4 text-left backdrop-blur-2xl ${i === 4 ? "col-span-2" : ""} transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-lg`}
                 style={{
@@ -107,7 +99,7 @@ export default function ModelSec9({ data }) {
                 <span className="text-hero-blue" aria-hidden>
                   ›
                 </span>
-              </Link>
+              </button>
             ))}
           </div>
 

@@ -39,7 +39,7 @@ export default function Sec8({ data }) {
             {mobileGalleryItems.map((it, i) => (
               <div key={`${it.model}-${i}`} className="glass-card relative overflow-hidden rounded-xl">
                 <div className="relative aspect-[4/3]">
-                  <Image src={it.image} alt={`Land Rover ${it.model} - ${it.status.toLowerCase()}`} fill className="object-cover" sizes="50vw" />
+                  <Image src={it.image} alt={`${/^Range Rover/.test(it.model) ? "" : "Land Rover "}${it.model} - ${it.status.toLowerCase()}`} fill className="object-cover" sizes="50vw" />
                 </div>
                 <div className="px-3 py-2">
                   <div className="flex items-center gap-1.5">
@@ -91,7 +91,7 @@ export default function Sec8({ data }) {
                   className="glass-card relative overflow-hidden rounded-xl transition-transform hover:-translate-y-0.5"
                 >
                   <div className="relative aspect-square">
-                    <Image src={it.image} alt={`Land Rover ${it.model} - ${it.status.toLowerCase()}`} fill className="object-cover" sizes="16vw" />
+                    <Image src={it.image} alt={`${/^Range Rover/.test(it.model) ? "" : "Land Rover "}${it.model} - ${it.status.toLowerCase()}`} fill className="object-cover" sizes="16vw" />
                   </div>
                   <div className="px-3 py-2.5">
                     <p className="text-xs font-extrabold uppercase leading-tight text-[#101828]">{it.model}</p>

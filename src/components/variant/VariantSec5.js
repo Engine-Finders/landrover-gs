@@ -54,7 +54,7 @@ export default function VariantSec5({ data }) {
 
         <div className="glass-card-dark relative mt-5 flex items-center gap-3 overflow-hidden rounded-xl py-3.5 pl-4 pr-9">
           <Icon name="camera" className="h-6 w-6 shrink-0 text-white" />
-          <p className="relative z-10 min-w-0 text-xs text-white">{data.footerNote}</p>
+          <p className="relative z-10 min-w-0 pr-14 text-xs text-white">{data.footerNote}</p>
 
           <div
             className="pointer-events-none absolute bottom-0 right-0 z-0 flex gap-1"

@@ -73,7 +73,7 @@ const litres = (cc) => {
 };
 
 // Contents of the site-wide quote popup: look the registration up (optional), then fill in the details.
-export default function QuotePopup({ onClose }) {
+export default function QuotePopup({ onClose, heading = "" }) {
   const [reg, setReg] = useState("");
   const [vehicle, setVehicle] = useState(null);
   const [looking, setLooking] = useState(false);
@@ -124,7 +124,7 @@ export default function QuotePopup({ onClose }) {
       setStatus("success");
     } catch {
       setStatus("error");
-      setError("Something went wrong. Please try again or call us on 0203 488 4649.");
+      setError("Something went wrong. Please try again or call us on 01268 944234.");
     }
   }
 
@@ -149,7 +149,11 @@ export default function QuotePopup({ onClose }) {
         <div className="relative">
           {/* inline size: the global .h2 rule would otherwise win at desktop widths and blow the title up */}
           <p className="h2 max-w-[88%] text-white" style={{ fontStyle: "normal", fontSize: "clamp(20px, 5.4vw, 30px)", lineHeight: 1.05 }}>
-            Get My Vehicle <span style={{ color: "#8aa080" }}>Information</span>
+            {heading || (
+              <>
+                Get My Vehicle <span style={{ color: "#8aa080" }}>Information</span>
+              </>
+            )}
           </p>
           <p className="mt-1.5 max-w-[92%] text-sm leading-snug text-white/80">Enter your vehicle registration to find best replacement engine quote.</p>
         </div>

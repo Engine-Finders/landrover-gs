@@ -37,56 +37,10 @@ export default function ModelHeroSec1({ data }) {
             </h1>
 
             <p className="mt-1.5 text-xs leading-snug text-white">{data.subhead}</p>
-
-            <div className="glass-card-dark mt-2 flex items-center gap-2 rounded-lg px-3 py-1.5">
-              <div className="flex shrink-0 gap-0.5 text-[var(--color-hero-gold)]">
-                {Array.from({ length: data.rating.stars }).map((_, i) => (
-                  <Icon key={i} name="star" className="h-3 w-3 fill-current" />
-                ))}
-              </div>
-              <p className="label-text uppercase leading-tight text-white">{data.rating.label}</p>
-            </div>
           </div>
 
-          {/* badge strip + price banner, on a soft dark fade so they stay legible over the photo */}
-          <div className="relative isolate">
-            <div
-              aria-hidden="true"
-              className="pointer-events-none absolute -inset-x-5 -inset-y-4 -z-10"
-              style={{ background: "radial-gradient(ellipse 80% 100% at 30% 50%, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.14) 55%, rgba(13,13,13,0) 100%)" }}
-            />
-            {/* five-column feature breakdown */}
-            <div
-              className="glass-luminous card-glare relative mt-2.5 grid grid-cols-5 divide-x divide-white/15 rounded-xl px-1 py-2.5"
-              style={{ border: "1px solid rgba(96,112,86,0.45)" }}
-            >
-              {data.trustBar.map((t) => (
-                <div key={t.label} className="flex flex-col items-center gap-1 px-1 text-center">
-                  <Icon name={t.icon} className="h-5 w-5 shrink-0 text-hero-blue" />
-                  <p className="text-xs font-medium leading-tight [overflow-wrap:anywhere] text-white">{t.label}</p>
-                </div>
-              ))}
-            </div>
-
-            {/* pricing callout banner */}
-            <QuoteLink
-              href={data.priceCta.href}
-              className="glass-luminous card-glare relative mt-2.5 flex items-center divide-x divide-white/15 rounded-xl px-2 py-3 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
-              style={{ border: "1px solid rgba(96,112,86,0.45)" }}
-            >
-              <div className="flex shrink-0 items-center gap-2 pr-2">
-                <Icon name={data.priceCta.icon} className="h-6 w-6 shrink-0 text-hero-blue" />
-                <div>
-                  <p className="label-text whitespace-nowrap uppercase tracking-wide text-white">{data.priceCta.kicker}</p>
-                  <p className="whitespace-nowrap text-lg font-extrabold text-white">{data.priceCta.price}</p>
-                </div>
-              </div>
-              <p className="min-w-0 flex-1 whitespace-nowrap pl-2 text-xs font-bold uppercase leading-tight text-hero-blue">{data.priceCta.label}</p>
-            </QuoteLink>
-          </div>
-
-          {/* registration lookup */}
-          <div className="glass-card-dark mt-2.5 rounded-xl p-3">
+          {/* registration lookup - first thing after the description */}
+          <div className="glass-card-dark mt-3 rounded-xl p-3">
             <div className="flex items-center gap-2">
               <Icon name="car" className="h-5 w-5 shrink-0 text-hero-blue" />
               <p className="text-sm font-extrabold uppercase tracking-wide text-white">{data.quickQuote.title}</p>
@@ -100,6 +54,43 @@ export default function ModelHeroSec1({ data }) {
             <div className="mt-2 flex items-center gap-1.5">
               <Icon name="lock" className="h-3.5 w-3.5 shrink-0 text-white" />
               <p className="label-text text-white">{data.quickQuote.securityNote}</p>
+            </div>
+          </div>
+
+          {/* price banner, then the badge strip, on a soft dark fade so they stay legible over the photo */}
+          <div className="relative isolate">
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute -inset-x-5 -inset-y-4 -z-10"
+              style={{ background: "radial-gradient(ellipse 80% 100% at 30% 50%, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.14) 55%, rgba(13,13,13,0) 100%)" }}
+            />
+            {/* pricing callout banner */}
+            <QuoteLink
+              href={data.priceCta.href}
+              className="glass-luminous card-glare relative mt-2.5 flex items-center divide-x divide-white/15 rounded-xl px-2 py-3 transition duration-200 hover:-translate-y-0.5 hover:brightness-110"
+              style={{ border: "1px solid rgba(96,112,86,0.45)" }}
+            >
+              <div className="flex shrink-0 items-center gap-2 pr-2">
+                <Icon name={data.priceCta.icon} className="h-6 w-6 shrink-0 text-hero-blue" />
+                <div>
+                  <p className="label-text whitespace-nowrap uppercase tracking-wide text-white">{data.priceCta.kicker}</p>
+                  <p className="whitespace-nowrap text-lg font-extrabold text-white">{data.priceCta.price}</p>
+                </div>
+              </div>
+              <p className="min-w-0 flex-1 whitespace-nowrap pl-2 text-xs font-bold uppercase leading-tight text-[#b6c7a3]">{data.priceCta.label}</p>
+            </QuoteLink>
+
+            {/* five-column feature breakdown: the leading tick in the labels is desktop-only, and the icons use a light olive so they read on the dark glass */}
+            <div
+              className="glass-luminous card-glare relative mt-2.5 grid grid-cols-5 divide-x divide-white/15 rounded-xl px-1 py-2.5"
+              style={{ border: "1px solid rgba(96,112,86,0.45)" }}
+            >
+              {data.trustBar.map((t) => (
+                <div key={t.label} className="flex flex-col items-center gap-1 px-1 text-center">
+                  <Icon name={t.icon} className="h-5 w-5 shrink-0 text-[#b6c7a3]" />
+                  <p className="text-[11px] font-medium leading-tight [overflow-wrap:break-word] text-white">{t.label.replace(/^✔\s*/, "")}</p>
+                </div>
+              ))}
             </div>
           </div>
 
@@ -133,6 +124,16 @@ export default function ModelHeroSec1({ data }) {
             <Icon name="shield-check" className="h-4 w-4 shrink-0 text-hero-blue" />
             <p className="label-text font-medium text-white">{data.trustFooter}</p>
           </div>
+
+          {/* rated card, last */}
+          <div className="glass-card-dark mt-2.5 flex items-center gap-2 rounded-lg px-3 py-1.5">
+            <div className="flex shrink-0 gap-0.5 text-[var(--color-hero-gold)]">
+              {Array.from({ length: data.rating.stars }).map((_, i) => (
+                <Icon key={i} name="star" className="h-3 w-3 fill-current" />
+              ))}
+            </div>
+            <p className="label-text uppercase leading-tight text-white">{data.rating.label}</p>
+          </div>
         </div>
       </div>
 
@@ -159,14 +160,6 @@ export default function ModelHeroSec1({ data }) {
 
             <p className="mt-3 max-w-lg text-sm text-white">{data.subhead}</p>
 
-            <div className="glass-luminous card-glare relative mt-3 inline-flex items-center gap-2.5 rounded-lg px-4 py-2.5">
-              <div className="flex shrink-0 gap-0.5 text-[var(--color-hero-gold)]">
-                {Array.from({ length: data.rating.stars }).map((_, i) => (
-                  <Icon key={i} name="star" className="h-4 w-4 fill-current" />
-                ))}
-              </div>
-              <p className="label-text uppercase leading-tight text-white">{data.rating.label}</p>
-            </div>
 
             {/* reg lookup */}
             <div className="mt-3 max-w-md">
@@ -177,13 +170,13 @@ export default function ModelHeroSec1({ data }) {
           {/* trust bar spans the full width of the hero content column, not just the
               max-w-3xl text block above it */}
           <div
-            className="card-glare relative mt-3 flex items-stretch justify-between divide-x divide-white/15 rounded-xl px-6 py-5 backdrop-blur-md"
+            className="card-glare relative mt-3 flex items-stretch justify-between divide-x divide-white/15 rounded-xl px-2 py-5 backdrop-blur-md"
             style={{ background: "linear-gradient(135deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 100%)" }}
           >
             {data.trustBar.map((t) => (
-              <div key={t.label} className="flex flex-1 items-center gap-4 px-5">
+              <div key={t.label} className="flex flex-1 items-center gap-3 px-3">
                 <Icon name={t.icon} className="h-10 w-10 shrink-0 text-hero-blue" />
-                <p className="text-sm leading-tight font-medium text-white">{t.label}</p>
+                <p className="text-sm leading-tight font-medium text-white">{t.label.replace(/^✔\s*/, "")}</p>
               </div>
             ))}
           </div>
@@ -227,6 +220,14 @@ export default function ModelHeroSec1({ data }) {
                   </div>
                 </div>
               </QuoteLink>
+            </div>
+            <div className="glass-luminous card-glare relative mt-3 flex w-fit items-center gap-2.5 rounded-lg px-4 py-2.5">
+              <div className="flex shrink-0 gap-0.5 text-[var(--color-hero-gold)]">
+                {Array.from({ length: data.rating.stars }).map((_, i) => (
+                  <Icon key={i} name="star" className="h-4 w-4 fill-current" />
+                ))}
+              </div>
+              <p className="label-text uppercase leading-tight text-white">{data.rating.label}</p>
             </div>
           </div>
         </div>

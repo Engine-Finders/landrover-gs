@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover P510e ENGINE",
+    "titleHighlight": "Range Rover P510e ENGINE",
     "paragraphs": [
       "The Range Rover P510e is part of the current-generation L460 range, introduced in 2022. It uses the AJ300P - a 3.0-litre inline-six petrol engine developed by Jaguar Land Rover as part of the Ingenium engine family. What makes the P510e distinct within the Range Rover line-up is its plug-in hybrid system: the AJ300P is paired with a 105kW electric motor, and the badge tracks the combined power output. The same underlying engine family appears across all four PHEV badges in the current Range Rover range - P440e, P460e, P510e and P550e - with different combined power outputs calibrated for each tier."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300P (3.0L I6 + 105kW electric motor) engines for every Range Rover P510e on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover P510e ENGINE ",
+    "titlePre": "Range Rover P510e ENGINE ",
     "titleHighlight": "CODES",
     "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
@@ -25,7 +25,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover P510e ENGINE ",
+    "titlePre": "Range Rover P510e ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the P510e uses a specific Ingenium AJ300P engine with a plug-in hybrid system, not every Range Rover engine is a straight fit. Before we quote or supply anything, we confirm: - Your exact engine code (AJ300P) via registration or VIN - Your generation (L460) - Hybrid system compatibility - Drivetrain and ancillary specification - Any electronics or ECU considerations specific to your exact build",
     "image": "/variant/sec10_third_div.webp",
@@ -56,7 +56,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover P510e ",
+    "titlePre": "Range Rover P510e ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [

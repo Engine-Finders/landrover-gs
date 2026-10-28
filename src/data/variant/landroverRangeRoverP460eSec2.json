@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover P460e",
+  "headlineHighlight": "Range Rover P460e",
   "headlinePost": " Engine",
   "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover P460e"
+      "value": "Range Rover P460e"
     },
     {
       "icon": "layers",

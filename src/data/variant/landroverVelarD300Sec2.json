@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Velar D300",
+  "headlineHighlight": "Range Rover Velar D300",
   "headlinePost": " Engine",
   "image": "/engines/jaguar-d300-engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Velar D300"
+      "value": "Range Rover Velar D300"
     },
     {
       "icon": "layers",

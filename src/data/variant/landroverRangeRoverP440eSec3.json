@@ -1,5 +1,5 @@
 {
-  "headlinePre": "Land Rover Range Rover P440e",
+  "headlinePre": "Range Rover P440e",
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£3,200",
@@ -27,7 +27,7 @@
   },
   "warning": {
     "bgImage": "/variant/sec3.v2.webp",
-    "titlePre": "Land Rover Range Rover P440e Known Issues by Engine ",
+    "titlePre": "Range Rover P440e Known Issues by Engine ",
     "titleHighlight": "",
     "paragraphs": [
       "If your Range Rover P440e has the AJ300 (L663 generation):",

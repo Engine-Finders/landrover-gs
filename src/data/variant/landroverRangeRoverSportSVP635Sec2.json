@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover Sport SV  P635",
+  "headlineHighlight": "Range Rover Sport SV  P635",
   "headlinePost": " Engine",
   "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover Sport SV  P635"
+      "value": "Range Rover Sport SV  P635"
     },
     {
       "icon": "layers",

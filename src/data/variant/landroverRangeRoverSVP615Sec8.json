@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "BMW S68 REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover SV P615",
+        "model": "Range Rover SV P615",
         "status": "WORKSHOP BAY"
       }
     ]

@@ -72,7 +72,7 @@ await step("nav phone/cta line", async () => {
   await page.waitForTimeout(150);
   const c = await page.evaluate(() => {
     const q = [...document.querySelectorAll("header a")];
-    const ph = q.find((a) => /0203 488 4649/.test(a.textContent));
+    const ph = q.find((a) => /01268 944234/.test(a.textContent));
     const bt = q.find((a) => /get a quote/i.test(a.textContent));
     const b = (e) => (e ? e.getBoundingClientRect() : null);
     const p = b(ph), t = b(bt);
@@ -92,7 +92,7 @@ await step("nav at 1600px", async () => {
   await go("/");
   const c = await page.evaluate(() => {
     const q = [...document.querySelectorAll("header a")];
-    const ph = q.find((a) => /0203 488 4649/.test(a.textContent));
+    const ph = q.find((a) => /01268 944234/.test(a.textContent));
     const bt = q.find((a) => /get a quote/i.test(a.textContent));
     const r = (e) => (e ? { top: Math.round(e.getBoundingClientRect().top), h: Math.round(e.getBoundingClientRect().height) } : null);
     return { ph: r(ph), bt: r(bt) };
@@ -192,7 +192,7 @@ for (const p of ["/about", "/contact", "/privacy-policy", "/terms-and-conditions
 await step("contact phone", async () => {
   await go("/contact");
   const txt = await page.locator("body").textContent();
-  /0203 488 4649/.test(txt) ? pass("/contact shows correct phone") : fail("/contact phone missing");
+  /01268 944234/.test(txt) ? pass("/contact shows correct phone") : fail("/contact phone missing");
 });
 
 // 8. DIRECTORY

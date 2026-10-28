@@ -115,7 +115,7 @@ def main():
 
     # 6. business info consistency
     print("\n=== 6. BUSINESS INFO ===")
-    PHONE = "0203 488 4649"
+    PHONE = "01268 944234"
     stale = []
     for f in DATA.rglob("*.json"):
         t = f.read_text(encoding="utf-8")

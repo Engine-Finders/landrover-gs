@@ -1,5 +1,5 @@
 {
-  "headlinePre": "Land Rover Range Rover Sport P530",
+  "headlinePre": "Range Rover Sport P530",
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£6,500",
@@ -27,7 +27,7 @@
   },
   "warning": {
     "bgImage": "/variant/sec3.v2.webp",
-    "titlePre": "Land Rover Range Rover Sport P530 Known Issues ",
+    "titlePre": "Range Rover Sport P530 Known Issues ",
     "titleHighlight": "(L461, BMW N63)",
     "paragraphs": [
       "If your Range Rover Sport P530 is an L461-generation model with the BMW N63 twin-turbo V8, our findings indicate the engine shares the well-documented hot-vee pattern associated with the N63 family. This pattern is inherited by platform-sharing inference from the Range Rover L460 and is considered a reasonable, low-risk inference given the shared MLA-Flex platform.",

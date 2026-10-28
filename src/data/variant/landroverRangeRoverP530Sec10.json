@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover P530 ENGINE",
+    "titleHighlight": "Range Rover P530 ENGINE",
     "paragraphs": [
       "The Range Rover P530 is the standard V8 performance tier in the L460 generation (2022-present), using the BMW N63 twin-turbo 4.4-litre V8. This is a different engine from the higher-performance S68 used in the SV/P615 variant - the N63 and S68 are both BMW-sourced V8s but are distinct units with different internal specifications and power outputs. Knowing which one your car has matters because the components, the known wear pattern, and the rebuild specifics differ between them - the N63's hot-vee pattern (valve seals, coolant lines, oil consumption) is well-documented, while the S68 is a later, higher-performance evolution."
     ],
     "boldParagraph": "We continue to rebuild and replace BMW N63 engines for every Range Rover P530 on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover P530 ENGINE ",
+    "titlePre": "Range Rover P530 ENGINE ",
     "titleHighlight": "CODES",
     "image": "/variant/sec10_engine.webp",
     "cards": [
@@ -24,7 +24,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover P530 ENGINE ",
+    "titlePre": "Range Rover P530 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the L460 generation uses two distinct BMW V8s - the N63 (standard performance tier in the P530) and the S68 (performance/flagship tier in the SV/P615) - fitting the wrong replacement, or assuming an N63 part will work on an S68 car, risks a compatibility problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
@@ -55,7 +55,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover P530 ",
+    "titlePre": "Range Rover P530 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [

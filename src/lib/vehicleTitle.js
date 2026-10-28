@@ -33,7 +33,7 @@ function makeName(make, model = "") {
 export function vehicleTitle(make, model) {
   const brand = makeName(make, model);
   const m = String(model || "").trim();
-  // Range Rover is its own marque: "Range Rover Sport", not "Land Rover Range Rover Sport"
+  // Range Rover is its own marque: "Range Rover Sport", not a "Land Rover" prefix
   if (/^range\s*rover(\s|$)/i.test(m) && /rover/i.test(make)) return { title: titleCase(m), subtitle: "" };
   const bmw = /bmw/i.test(make) && m.match(/^([1-8])\d{2}[A-Za-z]{0,2}\b/);
   if (bmw) return { title: `${brand} ${bmw[1]} Series`, subtitle: titleCase(m) };

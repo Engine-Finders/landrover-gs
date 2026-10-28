@@ -1,0 +1,109 @@
+{
+  "kicker": "Full Breakdown",
+  "headlinePre": "Range Rover",
+  "headlineHighlight": "Engine Rebuild Price Guide",
+  "description": "Prices vary by engine code, condition, and parts required. Ranges below are a guide - request a free quote for an exact fixed price on your specific engine.",
+  "columns": [
+    "Engine Code",
+    "Fuel",
+    "Size",
+    "Chassis",
+    "Rebuild Price Range"
+  ],
+  "rows": [
+    {
+      "family": "M57D30",
+      "fuel": "Diesel I6",
+      "size": "3.0L",
+      "chassis": "P38A / early L322",
+      "range": "£2,400 - £3,200"
+    },
+    {
+      "family": "TDV6",
+      "fuel": "Diesel I6",
+      "size": "3.0L",
+      "chassis": "L322 / L405",
+      "range": "£2,400 - £3,400",
+      "familyHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "family": "SDV6",
+      "fuel": "Diesel I6 (higher output)",
+      "size": "3.0L",
+      "chassis": "L322 / L405",
+      "range": "£2,600 - £3,600",
+      "familyHref": "/landrover-tdv6-sdv6-engine"
+    },
+    {
+      "family": "Ingenium I6 Diesel",
+      "fuel": "Diesel I6",
+      "size": "3.0L",
+      "chassis": "L460",
+      "range": "£2,600 - £3,600",
+      "familyHref": "/landrover-aj300d-engine"
+    },
+    {
+      "family": "TDV8",
+      "fuel": "Diesel V8",
+      "size": "4.4L",
+      "chassis": "L322 / L405",
+      "range": "£4,500 - £5,800",
+      "familyHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "family": "SDV8",
+      "fuel": "Diesel V8 (higher output)",
+      "size": "4.4L",
+      "chassis": "L322 / L405",
+      "range": "£4,800 - £6,000",
+      "familyHref": "/landrover-tdv8-sdv8-engine"
+    },
+    {
+      "family": "AJ41 / M62TUB44",
+      "fuel": "Petrol V8",
+      "size": "4.4L / 4.6L",
+      "chassis": "P38A / L322",
+      "range": "£4,500 - £5,500",
+      "familyHref": "/landrover-aj41-engine"
+    },
+    {
+      "family": "Ingenium AJ300P",
+      "fuel": "Petrol I6",
+      "size": "3.0L",
+      "chassis": "L460",
+      "range": "£3,200 - £4,200",
+      "familyHref": "/landrover-aj300p-engine"
+    },
+    {
+      "family": "BMW-sourced V8",
+      "fuel": "Petrol V8",
+      "size": "4.4L",
+      "chassis": "L460",
+      "range": "£5,500 - £7,500",
+      "familyHref": "/landrover-n63-engine"
+    }
+  ],
+  "features": [
+    {
+      "icon": "gear",
+      "title": "OEM Components",
+      "body": "Updated components for maximum reliability"
+    },
+    {
+      "icon": "shield-check",
+      "title": "Key Parts Replaced",
+      "body": "Timing chains, injector seals, tensioners & gaskets"
+    },
+    {
+      "icon": "truck",
+      "title": "Recovery From £70",
+      "body": "Nationwide recovery quoted separately"
+    },
+    {
+      "icon": "note",
+      "title": "Prices Exclude VAT",
+      "body": "Unless stated otherwise"
+    }
+  ],
+  "disclaimer": "Every rebuild identifies and replaces worn or damaged timing chains, injector seals, tensioners, turbo components and gaskets with updated OEM parts. Recovery quoted separately from £70. Prices exclude VAT unless stated."
+}

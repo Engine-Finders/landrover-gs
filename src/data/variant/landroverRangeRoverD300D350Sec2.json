@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover D300 D350",
+  "headlineHighlight": "Range Rover D300 D350",
   "headlinePost": " Engine",
   "image": "/engines/jaguar-d300-engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover D300 D350"
+      "value": "Range Rover D300 D350"
     },
     {
       "icon": "layers",

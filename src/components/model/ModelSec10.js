@@ -41,7 +41,7 @@ export default function ModelSec10({ data }) {
                     {c.number.replace(/^0/, "")}
                   </span>
                 </div>
-                <div className="px-3 py-2.5">
+                <div className="px-3 py-2.5 text-center">
                   <p className="text-sm font-extrabold text-[#101828]">{c.model}</p>
                   {c.spec && <p className="mt-0.5 text-xs text-[#101828]">{c.spec}</p>}
                 </div>
@@ -100,7 +100,7 @@ export default function ModelSec10({ data }) {
                     {c.number.replace(/^0/, "")}
                   </span>
                 </div>
-                <div className="px-3 py-2">
+                <div className="px-3 py-2 text-center">
                   <p className="text-base font-extrabold text-[#101828]">{c.model}</p>
                   {c.spec && <p className="text-sm font-normal text-[#101828]">{c.spec}</p>}
                 </div>

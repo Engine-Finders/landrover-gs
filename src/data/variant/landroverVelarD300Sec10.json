@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Velar D300 ENGINE",
+    "titleHighlight": "Range Rover Velar D300 ENGINE",
     "paragraphs": [
       "The Velar D300 is the 6-cylinder diesel option in the Range Rover Velar range, using the Ingenium AJ300D. It's a 3.0-litre inline-six diesel engine fitted to the Velar from its launch in 2017 to the present day. The D300 sits above the 4-cylinder diesel variants (D180, D200, D240, D250) and below the petrol and PHEV options in the Velar engine line-up."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300D engines for every Velar D300 on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Velar D300 ENGINE ",
+    "titlePre": "Range Rover Velar D300 ENGINE ",
     "titleHighlight": "CODES",
     "image": "/engines/jaguar-d300-engine.webp",
     "cards": [
@@ -25,7 +25,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Velar D300 ENGINE ",
+    "titlePre": "Range Rover Velar D300 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "The Velar D300 uses the AJ300D engine exclusively. We can confirm the exact year of your engine and any specific parts variations via your registration or VIN. This ensures any replacement components or a full rebuild are specific to your car's exact build specification.",
     "image": "/variant/sec10_third_div.webp",
@@ -56,7 +56,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Velar D300 ",
+    "titlePre": "Range Rover Velar D300 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/range-rover-velar-l560-se-suv-20172019-new-corris-grey-velar-204d.webp",
     "columns": [

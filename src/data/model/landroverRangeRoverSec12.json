@@ -1,0 +1,87 @@
+{
+  "headlinePre": "Our Most Recent",
+  "headlineHighlight": "Land Rover Recoveries & Rebuilds",
+  "description": "Real vehicles brought into our workshop. Open bonnets, stripped blocks, and cars ready for collection - this is what genuine engine work looks like.",
+  "image": "/model/sec12.webp",
+  "viewMoreLabel": "View More",
+  "footerNote": "Real photos from our workshop - not stock imagery. This is what a genuine rebuild looks like.",
+  "stats": [
+    {
+      "icon": "shield-check",
+      "value": "1,800+",
+      "label": "Engines Rebuilt"
+    },
+    {
+      "icon": "gasket",
+      "value": "12 Months",
+      "label": "Unlimited-Mileage Warranty"
+    },
+    {
+      "icon": "wrench",
+      "value": "15+ Years",
+      "label": "Land Rover Specialist Experience"
+    }
+  ],
+  "cards": [
+    {
+      "model": "Range Rover TD6",
+      "icon": "truck",
+      "tag": "Recovery"
+    },
+    {
+      "model": "Range Rover TDV6",
+      "icon": "search",
+      "tag": "Diagnostics"
+    },
+    {
+      "model": "Range Rover TDV8",
+      "icon": "gear",
+      "tag": "Stripped Engine"
+    },
+    {
+      "model": "Range Rover SDV6",
+      "icon": "chain",
+      "tag": "Timing Chain Replacement"
+    },
+    {
+      "model": "Range Rover SDV8",
+      "icon": "wrench",
+      "tag": "In For Rebuild"
+    },
+    {
+      "model": "Range Rover 4.4 SDV8",
+      "icon": "gear",
+      "tag": "Rebuild In Progress"
+    },
+    {
+      "model": "Range Rover Vogue",
+      "icon": "truck",
+      "tag": "Nationwide Recovery"
+    },
+    {
+      "model": "Range Rover Vogue SE",
+      "icon": "gear",
+      "tag": "Engine Stripped"
+    },
+    {
+      "model": "Range Rover Autobiography",
+      "icon": "tech",
+      "tag": "Testing & Checks"
+    },
+    {
+      "model": "Range Rover SVAutobiography",
+      "icon": "check",
+      "tag": "Ready For Collection"
+    },
+    {
+      "model": "Range Rover Westminster",
+      "icon": "gear",
+      "tag": "Engine Rebuild"
+    },
+    {
+      "model": "Range Rover TD6",
+      "icon": "wrench",
+      "tag": "Workshop Bay"
+    }
+  ]
+}

@@ -19,8 +19,9 @@ function relatedModel(links) {
 export default function VariantSec12({ data }) {
   const { yearBanner, costs, related, bottomInfo } = data;
   const model = relatedModel(related.links);
-  const relatedTitle = model ? `Related Land Rover ${model} Variants` : related.title;
-  const viewAllLabel = model && related.viewAllHref !== "/models" ? `View All Land Rover ${model} Engines` : related.viewAll;
+  const brandModel = /^Range Rover/.test(model) ? model : `Land Rover ${model}`;
+  const relatedTitle = model ? `Related ${brandModel} Variants` : related.title;
+  const viewAllLabel = model && related.viewAllHref !== "/models" ? `View All ${brandModel} Engines` : related.viewAll;
 
   return (
     <section className="theme-light relative overflow-hidden">

@@ -1,0 +1,96 @@
+{
+  "kicker": "Full Variant Coverage",
+  "headline": "We Cover Every Range Rover Variant",
+  "tabs": [
+    "Range Rover"
+  ],
+  "activeTab": 0,
+  "tabVariants": [
+    [
+      {
+        "label": "Range Rover TD6"
+      },
+      {
+        "label": "Range Rover TDV6",
+        "href": "/landrover-range-rover-tdv6-engines"
+      },
+      {
+        "label": "Range Rover TDV8",
+        "href": "/landrover-range-rover-tdv8-engines"
+      },
+      {
+        "label": "Range Rover SDV6",
+        "href": "/landrover-range-rover-sdv6-engines"
+      },
+      {
+        "label": "Range Rover SDV8",
+        "href": "/landrover-range-rover-sdv8-engines"
+      },
+      {
+        "label": "Range Rover 4.4 SDV8",
+        "href": "/landrover-range-rover-sdv8-engines"
+      },
+      {
+        "label": "Range Rover D300 D350",
+        "href": "/landrover-range-rover-d300-d350-engines"
+      },
+      {
+        "label": "Range Rover P400",
+        "href": "/landrover-range-rover-p400-engines"
+      },
+      {
+        "label": "Range Rover P440e",
+        "href": "/landrover-range-rover-p440e-engines"
+      },
+      {
+        "label": "Range Rover P460e",
+        "href": "/landrover-range-rover-p460e-engines"
+      },
+      {
+        "label": "Range Rover P510e",
+        "href": "/landrover-range-rover-p510e-engines"
+      },
+      {
+        "label": "Range Rover P530",
+        "href": "/landrover-range-rover-p530-engines"
+      },
+      {
+        "label": "Range Rover P550e",
+        "href": "/landrover-range-rover-p550e-engines"
+      },
+      {
+        "label": "Range Rover SV P615",
+        "href": "/landrover-range-rover-sv-p615-engines"
+      },
+      {
+        "label": "Range Rover Vogue",
+        "href": "/landrover-range-rover-vogue-engines"
+      },
+      {
+        "label": "Range Rover Vogue SE"
+      },
+      {
+        "label": "Range Rover Autobiography",
+        "href": "/landrover-range-rover-autobiography-engines"
+      },
+      {
+        "label": "Range Rover SVAutobiography"
+      },
+      {
+        "label": "Range Rover Westminster"
+      }
+    ]
+  ],
+  "notice": {
+    "title": "Not seeing your exact variant?",
+    "linkText": "Send us your registration",
+    "rest": " and we'll confirm engine rebuild availability directly."
+  },
+  "priceCta": {
+    "title": "Full Price Breakdown",
+    "body": "See detailed pricing near the top of this page, directly below the Starting From summary.",
+    "image": "/model/sec15_part.webp",
+    "href": "#pricing"
+  },
+  "tabImage": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp"
+}

@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "AJ‑V8 Supercharged REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport SVR",
+        "model": "Range Rover Sport SVR",
         "status": "WORKSHOP BAY"
       }
     ]

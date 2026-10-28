@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover Autobiography",
+  "headlineHighlight": "Range Rover Autobiography",
   "headlinePost": " Engine",
   "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover Autobiography"
+      "value": "Range Rover Autobiography"
     },
     {
       "icon": "layers",

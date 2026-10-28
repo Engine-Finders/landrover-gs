@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover Sport SDV6",
+  "headlineHighlight": "Range Rover Sport SDV6",
   "headlinePost": " Engine",
   "image": "/engines/jaguar-276dt-tdv6-engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover Sport SDV6"
+      "value": "Range Rover Sport SDV6"
     },
     {
       "icon": "layers",

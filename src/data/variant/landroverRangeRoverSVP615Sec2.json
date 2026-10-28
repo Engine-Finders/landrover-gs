@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover SV P615",
+  "headlineHighlight": "Range Rover SV P615",
   "headlinePost": " Engine",
   "image": "/variant/sec2_engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover SV P615"
+      "value": "Range Rover SV P615"
     },
     {
       "icon": "layers",

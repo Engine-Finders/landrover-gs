@@ -13,6 +13,15 @@ export default function FormSelect({ name, required, options, placeholder, ariaL
   const wrap = useRef(null);
   const close = useCallback(() => setOpen(false), []);
 
+  // the form's own reset (after a lead is sent) clears the chosen option too
+  useEffect(() => {
+    const form = wrap.current?.closest("form");
+    if (!form) return;
+    const clear = () => setValue("");
+    form.addEventListener("reset", clear);
+    return () => form.removeEventListener("reset", clear);
+  }, []);
+
   useEffect(() => {
     if (!open) return;
     const onDown = (e) => !wrap.current?.contains(e.target) && close();
@@ -48,7 +57,9 @@ export default function FormSelect({ name, required, options, placeholder, ariaL
   const muted = dark ? "text-white/60" : "text-black/55";
 
   return (
-    <div ref={wrap} className="relative">
+    // The field usually sits inside a <label>: a click anywhere in a label is re-fired on its first button (the
+    // trigger), which would toggle the list straight back open after a pick. Only the trigger's own click may go through.
+    <div ref={wrap} className="relative" onClick={(e) => !btn.current?.contains(e.target) && e.preventDefault()}>
       <button
         ref={btn}
         type="button"

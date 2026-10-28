@@ -2,47 +2,57 @@
   "headlinePre": "Land Rover Defender Engine",
   "headlineHighlight": "Coverage",
   "kicker": "Engines by Model Year",
-  "description": "Our Land Rover engine specialist garage covers all engine types from 1993 to 2026, across every Defender generation.",
+  "description": "Our Defender engine specialist garage covers all engine types from 1983 to present, across both the classic and modern generations.",
   "image": "/model/sec15.webp",
   "imageMobile": "/model/sec15_mobile.webp",
   "partImage": "/model/sec15_part.webp",
   "generations": [
     {
-      "years": "1993-2000",
-      "code": "W202",
-      "list": "1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000 Land Rover Defender engines"
+      "years": "1983-2016",
+      "code": "Classic 90/110/130",
+      "list": "1983 through 2016 Defender engines"
     },
     {
-      "years": "2000-2007",
-      "code": "W203",
-      "list": "2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007 Land Rover Defender engines"
-    },
-    {
-      "years": "2007-2014",
-      "code": "W204",
-      "list": "2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Land Rover Defender engines"
-    },
-    {
-      "years": "2014-2021",
-      "code": "W205",
-      "list": "2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021 Land Rover Defender engines"
-    },
-    {
-      "years": "2021-present",
-      "code": "W206",
-      "list": "2021, 2022, 2023, 2024, 2025, 2026 Land Rover Defender engines"
+      "years": "2019-present",
+      "code": "L663",
+      "list": "2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Defender engines"
     }
   ],
-  "notice": "If your registration year isn't listed, get in touch - we'll confirm availability directly against your reg.",
+  "notice": "If your registration year or model isn't listed, get in touch - we'll confirm availability directly against your reg.",
   "checklistTitlePre": "We Cover Every",
   "checklistTitleHighlight": "Land Rover Defender Model:",
   "checklistLeft": [
-    "Land Rover C220d 2016 Engine Rebuild",
-    "Land Rover C220d 2017 Engine Rebuild",
-    "Land Rover C220d 2018 Engine Rebuild",
-    "Land Rover C220d 2019 Engine Rebuild",
-    "Land Rover C220d 2020 Engine Rebuild"
+    "Defender TD5",
+    "Defender Td4",
+    "Defender 300Tdi",
+    "Defender 200Tdi",
+    "Defender D200",
+    "Defender D250",
+    "Defender D300",
+    "Defender D350",
+    "Defender P400",
+    "Defender P525 (V8)",
+    "Defender P300e",
+    "Defender X-Dynamic",
+    "Defender X",
+    "Defender V8"
   ],
   "modelYearRange": "1983-2016 (Classic 90/110/130):",
-  "checklistHref": "#quote-form"
+  "checklistHref": "#quote-form",
+  "checklistLinks": [
+    "/landrover-defender-td5-engines",
+    "/landrover-defender-td4-engines",
+    "/landrover-defender-300tdi-engines",
+    "/landrover-defender-200tdi-engines",
+    "/landrover-defender-d200-engines",
+    "/landrover-defender-d250-engines",
+    "/landrover-defender-d300-engines",
+    "/landrover-defender-d350-engines",
+    "/landrover-defender-p400-engines",
+    "/landrover-defender-p525-engines",
+    "/landrover-defender-p300e-engines",
+    "",
+    "",
+    ""
+  ]
 }

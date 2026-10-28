@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "Ford Duratorq REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Evoque TD4",
+        "model": "Range Rover Evoque TD4",
         "status": "WORKSHOP BAY"
       }
     ]

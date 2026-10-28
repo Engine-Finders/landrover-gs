@@ -48,7 +48,7 @@
         "slug": "range-rover",
         "price": "2,995",
         "image": "/model-cards/range-rover.webp",
-        "href": "/landrover-range-rover-tdv6-engines",
+        "href": "/range-rover-engines",
         "featured": true
       },
       {
@@ -75,7 +75,7 @@
       }
     ],
     "cta": {
-      "label": "All Range Rover Models",
+      "label": "View All Models",
       "href": "/models"
     }
   },

@@ -10,7 +10,12 @@ export const useQuoteModal = () => useContext(QuoteModalContext);
 
 export default function QuoteModalProvider({ children }) {
   const [isOpen, setIsOpen] = useState(false);
-  const open = useCallback(() => setIsOpen(true), []);
+  const [heading, setHeading] = useState("");
+  // open() may also be handed straight to onClick, so only a plain { heading } object counts as options
+  const open = useCallback((opts) => {
+    setHeading(typeof opts?.heading === "string" ? opts.heading : "");
+    setIsOpen(true);
+  }, []);
   const close = useCallback(() => setIsOpen(false), []);
   const value = useMemo(() => ({ open }), [open]);
 
@@ -38,7 +43,7 @@ export default function QuoteModalProvider({ children }) {
           onClick={close}
         >
           <div className="relative w-full max-w-lg sm:max-w-xl" onClick={(e) => e.stopPropagation()}>
-            <QuotePopup onClose={close} />
+            <QuotePopup onClose={close} heading={heading} />
           </div>
         </div>
       )}

@@ -240,7 +240,7 @@
         {
           "t": "modelgroup",
           "model": {
-            "label": "Land Rover Range Rover Engines",
+            "label": "Range Rover Engines",
             "href": "/landrover-range-rover-tdv6-engines"
           },
           "chips": [
@@ -269,7 +269,7 @@
         {
           "t": "modelgroup",
           "model": {
-            "label": "Land Rover Range Rover Sport Engines",
+            "label": "Range Rover Sport Engines",
             "href": "/range-rover-sport-engines"
           },
           "chips": [
@@ -294,7 +294,7 @@
         {
           "t": "modelgroup",
           "model": {
-            "label": "Land Rover Range Rover Velar Engines",
+            "label": "Range Rover Velar Engines",
             "href": "/range-rover-velar-engines"
           },
           "chips": [
@@ -323,7 +323,7 @@
         {
           "t": "modelgroup",
           "model": {
-            "label": "Land Rover Range Rover Evoque Engines",
+            "label": "Range Rover Evoque Engines",
             "href": "/range-rover-evoque-engines"
           },
           "chips": [

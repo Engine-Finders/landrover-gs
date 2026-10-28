@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "TDV6 & SDV6 REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Sport TDV6",
+        "model": "Range Rover Sport TDV6",
         "status": "WORKSHOP BAY"
       }
     ]

@@ -1,13 +1,13 @@
 {
   "headlinePre": "Your ",
-  "headlineHighlight": "Land Rover Range Rover Velar D180",
+  "headlineHighlight": "Range Rover Velar D180",
   "headlinePost": " Engine",
   "image": "/engines/jaguar-aj200d-engine.webp",
   "specs": [
     {
       "icon": "car",
       "label": "Vehicle",
-      "value": "Land Rover Range Rover Velar D180"
+      "value": "Range Rover Velar D180"
     },
     {
       "icon": "layers",

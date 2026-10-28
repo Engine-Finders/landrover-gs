@@ -29,7 +29,7 @@ export default function useLeadForm() {
       form.reset();
     } catch {
       setStatus("error");
-      setError("Something went wrong. Please try again or call us on 0203 488 4649.");
+      setError("Something went wrong. Please try again or call us on 01268 944234.");
     }
   }
 
@@ -37,7 +37,7 @@ export default function useLeadForm() {
   return { status, error, handleSubmit, dismiss };
 }
 
-export function LeadStatus({ lead }) {
+function LeadMessage({ lead }) {
   if (lead.status === "success")
     return (
       <div
@@ -66,4 +66,15 @@ export function LeadStatus({ lead }) {
       </p>
     );
   return null;
+}
+
+// Rendered inside every lead form. Carries the hidden honeypot field: bots fill it, people never see it, and
+// /api/send-lead drops any lead that has it filled in.
+export function LeadStatus({ lead }) {
+  return (
+    <>
+      <input type="text" name="honeypot" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
+      <LeadMessage lead={lead} />
+    </>
+  );
 }

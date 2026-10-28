@@ -82,7 +82,8 @@ function ModelGroup({ g, rangeRover = false, desktop = false }) {
           <ModelCard key={m.slug} m={m} size={desktop ? "md" : "sm"} />
         ))}
       </div>
-      <AllModelsButton cta={g.cta} desktop={desktop} />
+      {/* a single View All Models button, after the Range Rover group */}
+      {rangeRover && <AllModelsButton cta={g.cta} desktop={desktop} />}
     </div>
   );
 }

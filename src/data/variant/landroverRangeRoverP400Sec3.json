@@ -1,5 +1,5 @@
 {
-  "headlinePre": "Land Rover Range Rover P400",
+  "headlinePre": "Range Rover P400",
   "headlineHighlight": "Engine Rebuild Price",
   "startingFromLabel": "Starting From",
   "startingFromPrice": "£3,200",
@@ -28,7 +28,7 @@
   },
   "warning": {
     "bgImage": "/variant/sec3.v2.webp",
-    "titlePre": "Land Rover Range Rover P400 Known Issues by Engine ",
+    "titlePre": "Range Rover P400 Known Issues by Engine ",
     "titleHighlight": "",
     "paragraphs": [
       "If your Range Rover P400 has the AJ300P (L663 generation):",

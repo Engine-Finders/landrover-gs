@@ -7,7 +7,7 @@ const PATH = "/contact";
 
 export const metadata = {
   title: "Contact Land Rover Garage | Engine Rebuild & Repair Enquiries",
-  description: "Contact Land Rover Garage in Billericay, Essex. Call 0203 488 4649, WhatsApp 07975 827 396, or complete our form for a free engine quote. Nationwide collection.",
+  description: "Contact Land Rover Garage in Billericay, Essex. Call 01268 944234, WhatsApp 07975 827 396, or complete our form for a free engine quote. Nationwide collection.",
   alternates: { canonical: PATH },
 };
 
@@ -16,7 +16,7 @@ export default function ContactPage() {
     <>
       <JsonLd
         data={graphDoc([
-          webPageSchema({ name: "Contact Land Rover Garage | Engine Rebuild & Repair Enquiries", description: "Contact Land Rover Garage in Billericay, Essex. Call 0203 488 4649, WhatsApp 07975 827 396, or complete our form for a free engine quote. Nationwide collection.", path: PATH, type: "ContactPage" }),
+          webPageSchema({ name: "Contact Land Rover Garage | Engine Rebuild & Repair Enquiries", description: "Contact Land Rover Garage in Billericay, Essex. Call 01268 944234, WhatsApp 07975 827 396, or complete our form for a free engine quote. Nationwide collection.", path: PATH, type: "ContactPage" }),
           breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Contact Land Rover Garage", path: PATH }], PATH),
         ])}
       />

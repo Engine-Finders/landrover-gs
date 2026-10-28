@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "Ingenium AJ200P REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Velar P400e",
+        "model": "Range Rover Velar P400e",
         "status": "WORKSHOP BAY"
       }
     ]

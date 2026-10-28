@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover P400 ENGINE",
+    "titleHighlight": "Range Rover P400 ENGINE",
     "paragraphs": [
       "The Range Rover P400 uses the AJ300P - a 3.0-litre inline-six petrol mild-hybrid engine. It was introduced with the L460 generation from 2022 and remains in production. The AJ300P is part of JLR's Ingenium engine family and represents a more modern design than the older TDV6/SDV6 diesel units that preceded it in the Range Rover line-up. The P400 badge denotes the power output tier within the petrol range."
     ],
     "boldParagraph": "We continue to rebuild and replace AJ300P engines for every Range Rover P400 on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover P400 ENGINE ",
+    "titlePre": "Range Rover P400 ENGINE ",
     "titleHighlight": "CODES",
     "image": "/engines/jaguar-p400-3-0-ingenium-petrol-mhev-engine.webp",
     "cards": [
@@ -25,7 +25,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover P400 ENGINE ",
+    "titlePre": "Range Rover P400 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the Range Rover P400 uses a specific engine code (AJ300P) within the broader Ingenium family, fitting the wrong replacement or assuming parts compatibility with other variants risks a problem that's expensive to unpick. Before we quote or supply anything, we confirm:",
     "image": "/variant/sec10_third_div.webp",
@@ -56,7 +56,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover P400 ",
+    "titlePre": "Range Rover P400 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/land-rover-range-rover-l460-se-suv-2022-new-belgravia-green-52f1.webp",
     "columns": [

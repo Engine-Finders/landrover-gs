@@ -3,14 +3,14 @@
     "image": "/variant/sec10_top_div.webp",
     "imageMobile": "/variant/sec10_top_div_mobile.webp",
     "titlePre": "ABOUT THE",
-    "titleHighlight": "Land Rover Range Rover Sport TDV8 ENGINE",
+    "titleHighlight": "Range Rover Sport TDV8 ENGINE",
     "paragraphs": [
       "The Range Rover Sport TDV8 has been a part of the range since 2005, offering a powerful and refined V8 diesel option across two generations. Early models (L320, 2005-2013) were fitted with the TDV8, while the later L494 generation (2013-2022) received the more powerful SDV8. While both are 4.4-litre V8 diesel units, the SDV8 represents a later evolution with different output and tuning."
     ],
     "boldParagraph": "We continue to rebuild and replace TDV8 or SDV8 engines for every Range Rover Sport TDV8 on the road."
   },
   "codes": {
-    "titlePre": "Land Rover Range Rover Sport TDV8 ENGINE ",
+    "titlePre": "Range Rover Sport TDV8 ENGINE ",
     "titleHighlight": "CODES",
     "image": "/variant/sec10_engine.webp",
     "cards": [
@@ -31,7 +31,7 @@
     ]
   },
   "compatibility": {
-    "titlePre": "Land Rover Range Rover Sport TDV8 ENGINE ",
+    "titlePre": "Range Rover Sport TDV8 ENGINE ",
     "titleHighlight": "COMPATIBILITY",
     "intro": "Because the Range Rover Sport TDV8 spans two similar but distinct engines across two generations, it's crucial to confirm your exact engine code before starting any work. We verify: - Your exact engine code (TDV8 or SDV8) via registration or VIN - Your generation (L320 or L494) - Drivetrain and ancillary specification",
     "image": "/variant/sec10_third_div.webp",
@@ -62,7 +62,7 @@
     "footer": "This is why we always start with your registration rather than a generic Defender quote - it protects you from paying for parts that don't fit your actual car."
   },
   "applications": {
-    "titlePre": "Land Rover Range Rover Sport TDV8 ",
+    "titlePre": "Range Rover Sport TDV8 ",
     "titleHighlight": "APPLICATIONS BY GENERATION",
     "image": "/cars/card/range-rover-sport-l494-se-suv-20132017-new-indus-silver-l494-c7c8.webp",
     "columns": [

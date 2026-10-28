@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "BMW N63 or BMW S68 REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover Autobiography",
+        "model": "Range Rover Autobiography",
         "status": "WORKSHOP BAY"
       }
     ]

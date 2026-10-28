@@ -78,12 +78,12 @@ export default function ModelSec16({ data }) {
           {/* BMW mobile ref (S-16): tight 5-col row, short 2-line labels, "(where suitable)" as small subtext */}
           <div className="mt-5 grid grid-cols-5 items-start divide-x divide-black/10">
             {data.services.items.map((s) => {
-              const [main, note] = s.label.split(/\s*(\(.*\))\s*$/);
+              // the "(where suitable)" aside is desktop-only: on a phone it breaks the five-column row
+              const [main] = s.label.split(/\s*(\(.*\))\s*$/);
               return (
                 <div key={s.label} className="flex min-w-0 flex-col items-center gap-2 px-1 text-center">
                   <Icon name={s.icon} className="h-7 w-7 shrink-0 text-hero-blue" />
                   <p className="text-xs font-medium leading-tight text-[#101828] [hyphens:auto]">{main}</p>
-                  {note && <p className="-mt-1 text-xs leading-tight text-[#4a5568]">{note}</p>}
                 </div>
               );
             })}

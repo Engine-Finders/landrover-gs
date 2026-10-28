@@ -11,7 +11,7 @@ const WEBSITE_ID = `${SITE_URL}/#website`;
 export const BUSINESS = {
   name: "Land Rover Garage",
   legalName: "JLR Engine Specialists Ltd",
-  telephone: "+44 203 488 4649",
+  telephone: "+44 1268 944234",
   email: "info@landrovergarage.co.uk",
   foundingDate: "2009",
   priceRange: "££",

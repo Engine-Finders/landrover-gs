@@ -8,7 +8,7 @@ const FAQ = (data.sections || []).filter((s) => s.kind === "faq").flatMap((s) =>
 
 export const metadata = {
   title: "Land Rover V8 Supercharged Repair (AJ133) | Land Rover Garage",
-  description: "Specialist AJ133 5.0L supercharged V8 timing chain repair for Land Rover Range Rover, Sport, Defender, and Velar. Fixed-price rebuilds with 12-month warranty.",
+  description: "Specialist AJ133 5.0L supercharged V8 timing chain repair for Range Rover, Sport, Defender, and Velar. Fixed-price rebuilds with 12-month warranty.",
   alternates: { canonical: PATH },
 };
 

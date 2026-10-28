@@ -7,62 +7,62 @@
     "items": [
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "RECOVERY"
       },
       {
         "icon": "search",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "DIAGNOSTICS"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "STRIPPED ENGINE"
       },
       {
         "icon": "chain",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "TIMING CHAIN REPLACEMENT"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "IN FOR REBUILD"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "REBUILD IN PROGRESS"
       },
       {
         "icon": "truck",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "NATIONWIDE RECOVERY"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "ENGINE STRIPPED"
       },
       {
         "icon": "knock",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "TESTING & CHECKS"
       },
       {
         "icon": "shield-check",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "READY FOR COLLECTION"
       },
       {
         "icon": "gear",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "AJ300P (3.0L I6 + 105kW electric motor) REBUILD"
       },
       {
         "icon": "wrench",
-        "model": "Land Rover Range Rover P510e",
+        "model": "Range Rover P510e",
         "status": "WORKSHOP BAY"
       }
     ]
