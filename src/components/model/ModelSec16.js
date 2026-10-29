@@ -76,7 +76,7 @@ export default function ModelSec16({ data }) {
           <SectionHeader icon="cog" title={data.services.title} dark={false} />
 
           {/* BMW mobile ref (S-16): tight 5-col row, short 2-line labels, "(where suitable)" as small subtext */}
-          <div className="mt-5 grid grid-cols-5 items-start divide-x divide-black/10">
+          <div className="mt-5 grid grid-cols-[repeat(5,minmax(min-content,1fr))] items-start divide-x divide-black/10">
             {data.services.items.map((s) => {
               // the "(where suitable)" aside is desktop-only: on a phone it breaks the five-column row
               const [main] = s.label.split(/\s*(\(.*\))\s*$/);
