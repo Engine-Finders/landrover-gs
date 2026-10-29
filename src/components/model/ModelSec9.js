@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import useRegLookup from "@/components/reusable/useRegLookup";
 import Image from "next/image";
 import Icon from "@/components/reusable/Icon";
@@ -8,8 +7,6 @@ import RegLookupGlass from "@/components/reusable/RegLookupGlass";
 import LandRoverStripe from "@/components/reusable/LandRoverStripe";
 import RegPlate from "@/components/reusable/RegPlate";
 import { useQuoteModal } from "@/components/shared/QuoteModal";
-
-const BROWSE_HREFS = ["#model-year-coverage", "/engines", "/engines", "/engines", "#variant-coverage"];
 
 export default function ModelSec9({ data }) {
   const [line1, line2] = data.h2.split("|");
@@ -181,8 +178,9 @@ export default function ModelSec9({ data }) {
         {/* browse grid */}
         <div className="mt-5 grid grid-cols-5 gap-4">
           {data.browseCards.map((c, i) => (
-            <Link
-              href={BROWSE_HREFS[i] || "/engines"}
+            <button
+              type="button"
+              onClick={() => openQuote({ heading: "Find Out Your Car Details" })}
               key={c.label}
               className="glass-card relative flex items-center justify-between gap-2 rounded-xl px-4 py-6 text-left transition hover:-translate-y-0.5"
             >
@@ -191,7 +189,7 @@ export default function ModelSec9({ data }) {
                 <span className="text-xs font-extrabold uppercase tracking-wide text-[#101828]">{c.label}</span>
               </span>
               <span className="text-hero-blue" aria-hidden>›</span>
-            </Link>
+            </button>
           ))}
         </div>
 
