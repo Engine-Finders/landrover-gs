@@ -21,7 +21,7 @@ export default function ModelSec17({ data }) {
   return (
     <section id="variant-coverage" className="theme-light relative overflow-hidden">
       {/* ===== mobile ===== */}
-      <div className="relative px-4 pb-6 pt-2 md:hidden">
+      <div className="relative px-4 pb-6 pt-8 md:hidden">
         <div className="flex items-center gap-1.5">
           <LandRoverStripe className="h-4 w-8 shrink-0" />
           <p className="label-text whitespace-nowrap font-semibold uppercase leading-none tracking-wide text-[#101828]">{data.kicker}</p>

@@ -167,8 +167,48 @@ export default function ModelHeroSec1({ data }) {
             </div>
           </div>
 
-          {/* trust bar spans the full width of the hero content column, not just the
-              max-w-3xl text block above it */}
+          <div className="max-w-3xl">
+            <div className="mt-3 flex flex-wrap items-stretch gap-3">
+              <QuoteLink
+                href={data.priceCta.href}
+                className="card-glare relative flex w-64 shrink-0 flex-col justify-between rounded-xl px-5 py-3 transition-transform hover:scale-[1.02]"
+                style={{ background: "#CCBBAB" }}
+              >
+                <div className="flex items-center gap-3">
+                  <Icon name={data.priceCta.icon} className="h-10 w-10 shrink-0" style={{ color: "#8A663D" }} />
+                  <div>
+                    <p className="text-xs font-semibold uppercase leading-snug tracking-wide text-black">{data.priceCta.kicker}</p>
+                    <p className="mt-0.5 text-3xl font-extrabold italic leading-none text-black">{data.priceCta.price}</p>
+                  </div>
+                </div>
+                <p className="mt-1.5 pl-2 text-xs font-bold uppercase leading-tight text-black">{data.priceCta.label}</p>
+              </QuoteLink>
+
+              <QuoteLink
+                href={data.phoneCta.href}
+                className="glass-luminous card-glare relative flex w-64 shrink-0 flex-col justify-center rounded-xl px-5 py-3 transition-colors hover:bg-white/5"
+              >
+                <div
+                  className="pointer-events-none absolute bottom-0 right-0 h-full"
+                  style={{
+                    width: "100px",
+                    background:
+                      "linear-gradient(135deg, transparent 0%, transparent 62%, var(--color-bmw-blue) 62%, var(--color-bmw-blue) 68%, var(--color-bmw-violet) 68%, var(--color-bmw-violet) 74%, var(--color-bmw-red) 74%, var(--color-bmw-red) 80%, transparent 80%, transparent 100%)",
+                  }}
+                  aria-hidden="true"
+                />
+                <div className="relative flex items-center gap-3">
+                  <Icon name={data.phoneCta.icon} className="h-10 w-10 shrink-0 text-hero-blue" />
+                  <div>
+                    <p className="text-xs font-semibold uppercase leading-snug tracking-wide text-white">{data.phoneCta.label}</p>
+                    <p className="mt-0.5 whitespace-nowrap text-xl font-extrabold leading-none text-white">{data.phoneCta.phone}</p>
+                  </div>
+                </div>
+              </QuoteLink>
+            </div>
+          </div>
+
+          {/* trust bar sits third, after the price and call cards, spanning the full hero content width */}
           <div
             className="card-glare relative mt-3 flex items-stretch justify-between divide-x divide-white/15 rounded-xl px-2 py-5 backdrop-blur-md"
             style={{ background: "linear-gradient(135deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 100%)" }}
@@ -182,45 +222,6 @@ export default function ModelHeroSec1({ data }) {
           </div>
 
           <div className="max-w-3xl">
-
-            <div className="mt-3 flex flex-wrap items-stretch gap-4">
-              <QuoteLink
-                href={data.priceCta.href}
-                className="card-glare relative flex w-80 shrink-0 flex-col justify-between rounded-xl px-8 py-5 transition-transform hover:scale-[1.02]"
-                style={{ background: "#CCBBAB" }}
-              >
-                <div className="flex items-center gap-4">
-                  <Icon name={data.priceCta.icon} className="h-14 w-14 shrink-0" style={{ color: "#8A663D" }} />
-                  <div>
-                    <p className="text-sm font-semibold uppercase leading-snug tracking-wide text-black">{data.priceCta.kicker}</p>
-                    <p className="mt-1 text-4xl font-extrabold italic leading-none text-black">{data.priceCta.price}</p>
-                  </div>
-                </div>
-                <p className="mt-2 pl-4 text-sm font-bold uppercase leading-tight text-black">{data.priceCta.label}</p>
-              </QuoteLink>
-
-              <QuoteLink
-                href={data.phoneCta.href}
-                className="glass-luminous card-glare relative flex w-80 shrink-0 flex-col justify-center rounded-xl px-8 py-5 transition-colors hover:bg-white/5"
-              >
-                <div
-                  className="pointer-events-none absolute bottom-0 right-0 h-full"
-                  style={{
-                    width: "140px",
-                    background:
-                      "linear-gradient(135deg, transparent 0%, transparent 62%, var(--color-bmw-blue) 62%, var(--color-bmw-blue) 68%, var(--color-bmw-violet) 68%, var(--color-bmw-violet) 74%, var(--color-bmw-red) 74%, var(--color-bmw-red) 80%, transparent 80%, transparent 100%)",
-                  }}
-                  aria-hidden="true"
-                />
-                <div className="relative flex items-center gap-4">
-                  <Icon name={data.phoneCta.icon} className="h-14 w-14 shrink-0 text-hero-blue" />
-                  <div>
-                    <p className="text-sm font-semibold uppercase leading-snug tracking-wide text-white">{data.phoneCta.label}</p>
-                    <p className="mt-1 whitespace-nowrap text-2xl font-extrabold leading-none text-white">{data.phoneCta.phone}</p>
-                  </div>
-                </div>
-              </QuoteLink>
-            </div>
             <div className="glass-luminous card-glare relative mt-3 flex w-fit items-center gap-2.5 rounded-lg px-4 py-2.5">
               <div className="flex shrink-0 gap-0.5 text-[var(--color-hero-gold)]">
                 {Array.from({ length: data.rating.stars }).map((_, i) => (
