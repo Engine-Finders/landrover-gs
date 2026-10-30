@@ -11,11 +11,13 @@ import Image from "next/image";
 // `position` property, with "relative" silently winning and breaking the
 // caller's placement. Only fall back to "relative" when nothing else in the
 // passed className already sets a position.
-export default function LandRoverLogo({ className = "w-10 h-10" }) {
+// `crop` trims the square PNG's transparent top/bottom padding so the oval
+// fills a ~1.8:1 box (pass a matching width/height in className).
+export default function LandRoverLogo({ className = "w-10 h-10", crop = false }) {
   const hasPosition = /\b(absolute|fixed|sticky|relative|static)\b/.test(className);
   return (
     <span className={`inline-block shrink-0 ${hasPosition ? "" : "relative"} ${className}`}>
-      <Image src="/landrover_real_logo.webp" alt="Land Rover" fill className="object-contain" sizes="80px" />
+      <Image src="/landrover_real_logo.webp" alt="Land Rover" fill className={crop ? "object-cover" : "object-contain"} sizes="120px" />
     </span>
   );
 }
