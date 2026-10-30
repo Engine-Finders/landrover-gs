@@ -1,25 +1,21 @@
 {
-  "brand": "LAND ROVER GARAGE",
-  "tagline": "LAND ROVER ENGINE SPECIALISTS",
-  "phone": "01268 944234",
-  "phoneHref": "tel:01268944234",
+  "brandLine1": "Land Rover & Range Rover",
+  "brandLine2": "Ownership Guide",
+  "mobileLine1": "Ownership Guide",
+  "mobileLine2": "by Engine Finders",
   "cta": {
-    "label": "Get a Quote",
-    "href": "/contact"
+    "label": "Start Your Research",
+    "href": "/guides"
   },
   "links": [
     {
-      "label": "Home",
-      "href": "/"
+      "label": "Defender",
+      "href": "/defender-engines"
     },
     {
-      "label": "Models",
-      "href": "/models",
+      "label": "Discovery",
+      "href": "/discovery-engines",
       "children": [
-        {
-          "label": "Land Rover Defender",
-          "href": "/defender-engines"
-        },
         {
           "label": "Land Rover Discovery",
           "href": "/discovery-engines"
@@ -27,26 +23,74 @@
         {
           "label": "Land Rover Discovery Sport",
           "href": "/discovery-sport-engines"
-        },
-        {
-          "label": "Land Rover Freelander",
-          "href": "/freelander-engines"
-        },
+        }
+      ]
+    },
+    {
+      "label": "Range Rover",
+      "href": "/range-rover-engines",
+      "children": [
         {
           "label": "Range Rover",
           "href": "/range-rover-engines"
-        },
-        {
-          "label": "Range Rover Evoque",
-          "href": "/range-rover-evoque-engines"
         },
         {
           "label": "Range Rover Sport",
           "href": "/range-rover-sport-engines"
         },
         {
+          "label": "Range Rover Evoque",
+          "href": "/range-rover-evoque-engines"
+        },
+        {
           "label": "Range Rover Velar",
           "href": "/range-rover-velar-engines"
+        }
+      ]
+    },
+    {
+      "label": "Evoque",
+      "href": "/range-rover-evoque-engines"
+    },
+    {
+      "label": "Velar",
+      "href": "/range-rover-velar-engines"
+    },
+    {
+      "label": "Freelander",
+      "href": "/freelander-engines",
+      "children": [
+        {
+          "label": "Land Rover Freelander",
+          "href": "/freelander-engines"
+        },
+        {
+          "label": "Land Rover Freelander 1 8I",
+          "href": "/landrover-freelander-1-8i-engines"
+        },
+        {
+          "label": "Land Rover Freelander 2 0 DI TD4",
+          "href": "/landrover-freelander-2-0-di-td4-engines"
+        },
+        {
+          "label": "Land Rover Freelander 2 5 V6",
+          "href": "/landrover-freelander-2-5-v6-engines"
+        },
+        {
+          "label": "Land Rover Freelander ED4",
+          "href": "/landrover-freelander-ed4-engines"
+        },
+        {
+          "label": "Land Rover Freelander SD4",
+          "href": "/landrover-freelander-sd4-engines"
+        },
+        {
+          "label": "Land Rover Freelander SI4",
+          "href": "/landrover-freelander-si4-engines"
+        },
+        {
+          "label": "Land Rover Freelander TD4",
+          "href": "/landrover-freelander-td4-engines"
         }
       ]
     },
@@ -136,6 +180,78 @@
         }
       ]
     },
+    {
+      "label": "Guides",
+      "href": "/guides",
+      "children": [
+        {
+          "label": "Engine Removal, Refit & Final Testing",
+          "href": "/landrover-engine-removal-refit"
+        },
+        {
+          "label": "High-Mileage Engine Rebuild",
+          "href": "/landrover-high-mileage-engine-rebuild"
+        },
+        {
+          "label": "Inside Our Workshop",
+          "href": "/landrover-inside-workshop"
+        },
+        {
+          "label": "Land Rover Before & After Rebuilds",
+          "href": "/landrover-before-after-rebuilds"
+        },
+        {
+          "label": "Land Rover BMW‑Sourced V8 Hot‑Vee Repair (N63/S68)",
+          "href": "/landrover-bmw-v8-hot-vee-repair"
+        },
+        {
+          "label": "Land Rover Cylinder Head Repair & Rebuild",
+          "href": "/landrover-cylinder-head-repair"
+        },
+        {
+          "label": "Land Rover DC-DC Converter Repair (Ingenium MHEV)",
+          "href": "/landrover-dc-dc-converter-repair"
+        },
+        {
+          "label": "Land Rover Diesel Timing Chain Repair (TDV6/SDV6/TDV8/SDV8)",
+          "href": "/landrover-diesel-timing-chain-repair"
+        },
+        {
+          "label": "Land Rover Engine Bearing Replacement",
+          "href": "/landrover-engine-bearing-replacement"
+        },
+        {
+          "label": "Land Rover Engine Compatibility & Application Matching",
+          "href": "/landrover-engine-compatibility"
+        },
+        {
+          "label": "Land Rover Engine Components We Replace",
+          "href": "/landrover-engine-components-replaced"
+        },
+        {
+          "label": "Land Rover Engine Failure Repair",
+          "href": "/landrover-engine-failure-repair"
+        },
+        {
+          "label": "Land Rover Engine Inspection & Assessment",
+          "href": "/landrover-engine-inspection-assessment"
+        },
+        {
+          "label": "Land Rover Engine Machining",
+          "href": "/landrover-engine-machining"
+        },
+        {
+          "label": "Land Rover Engine Matching by Registration & VIN",
+          "href": "/landrover-engine-matching"
+        }
+      ]
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    }
+  ],
+  "mobileExtraLinks": [
     {
       "label": "Variants",
       "href": "/variants",
@@ -503,76 +619,6 @@
         {
           "label": "Range Rover Velar P400e",
           "href": "/landrover-velar-p400e-engines"
-        }
-      ]
-    },
-    {
-      "label": "About",
-      "href": "/about"
-    },
-    {
-      "label": "Guides",
-      "href": "/guides",
-      "children": [
-        {
-          "label": "Engine Removal, Refit & Final Testing",
-          "href": "/landrover-engine-removal-refit"
-        },
-        {
-          "label": "High-Mileage Engine Rebuild",
-          "href": "/landrover-high-mileage-engine-rebuild"
-        },
-        {
-          "label": "Inside Our Workshop",
-          "href": "/landrover-inside-workshop"
-        },
-        {
-          "label": "Land Rover Before & After Rebuilds",
-          "href": "/landrover-before-after-rebuilds"
-        },
-        {
-          "label": "Land Rover BMW‑Sourced V8 Hot‑Vee Repair (N63/S68)",
-          "href": "/landrover-bmw-v8-hot-vee-repair"
-        },
-        {
-          "label": "Land Rover Cylinder Head Repair & Rebuild",
-          "href": "/landrover-cylinder-head-repair"
-        },
-        {
-          "label": "Land Rover DC-DC Converter Repair (Ingenium MHEV)",
-          "href": "/landrover-dc-dc-converter-repair"
-        },
-        {
-          "label": "Land Rover Diesel Timing Chain Repair (TDV6/SDV6/TDV8/SDV8)",
-          "href": "/landrover-diesel-timing-chain-repair"
-        },
-        {
-          "label": "Land Rover Engine Bearing Replacement",
-          "href": "/landrover-engine-bearing-replacement"
-        },
-        {
-          "label": "Land Rover Engine Compatibility & Application Matching",
-          "href": "/landrover-engine-compatibility"
-        },
-        {
-          "label": "Land Rover Engine Components We Replace",
-          "href": "/landrover-engine-components-replaced"
-        },
-        {
-          "label": "Land Rover Engine Failure Repair",
-          "href": "/landrover-engine-failure-repair"
-        },
-        {
-          "label": "Land Rover Engine Inspection & Assessment",
-          "href": "/landrover-engine-inspection-assessment"
-        },
-        {
-          "label": "Land Rover Engine Machining",
-          "href": "/landrover-engine-machining"
-        },
-        {
-          "label": "Land Rover Engine Matching by Registration & VIN",
-          "href": "/landrover-engine-matching"
         }
       ]
     },
