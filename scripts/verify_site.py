@@ -90,6 +90,8 @@ def main():
     print("\n=== 4. METADATA (title / description / canonical) ===")
     bad_meta = []
     for p in APP.glob("*/page.js"):
+        if p.parent.name in {"leads", "get-quote"}:  # utility pages, not indexed
+            continue
         t = p.read_text(encoding="utf-8")
         if "export const metadata" not in t:
             bad_meta.append((p.parent.name, "no metadata"))

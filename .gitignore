@@ -37,6 +37,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -80,3 +81,4 @@ _src_content/
 /EnginePageUI
 *.zip
 __pycache__/
+!/HANDOVER.md
