@@ -1,8 +1,6 @@
 "use client";
 
-// Same VRM lookup provider used by the EngineFinders hero (asset/hero-logic.js),
-// so all brand sites share one data source and one lead destination.
-const API_KEY = "REMOVED-VRM-API-KEY";
+// Plate look-up goes through our own /api/vrm route: the provider key stays on the server (VRM_API_KEY).
 
 export async function lookupVrm(rawReg) {
   const vrm = (rawReg || "").trim().toUpperCase();
@@ -10,7 +8,7 @@ export async function lookupVrm(rawReg) {
     throw new Error("Please enter a vehicle registration number.");
   }
 
-  const apiUrl = `https://api.checkcardetails.co.uk/vehicledata/vehicleregistration?apikey=${API_KEY}&vrm=${encodeURIComponent(vrm)}`;
+  const apiUrl = `/api/vrm?vrm=${encodeURIComponent(vrm)}`;
   const response = await fetch(apiUrl);
   const data = await response.json().catch(() => ({}));
 
