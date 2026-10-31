@@ -1,0 +1,95 @@
+{
+  "_note": "DRAFT content for variant Sections 5 (Buying Checklist) & 6 (Technical Specs) - review before launch. Keyed by engine family (same keys as engineGuide.json). 'checks' override the default checklist card text for that engine; torque is a range where outputs differ by variant.",
+  "defaultChecks": {
+    "coldStart": "Listen for a smooth start; any hesitation, rattle or excessive smoke points to fuel or timing issues",
+    "service": "Look for regular oil changes and evidence of the key maintenance items being done on time",
+    "coolant": "Check for pressurised hoses, oil in the coolant, or unexplained coolant loss (head gasket warning)",
+    "turbo": "Test acceleration; any lack of power, whistling or excessive smoke needs investigating",
+    "oil": "Check around the rear of the engine, the sump and the timing cover for leaks",
+    "smoke": "Blue smoke = oil burning; black smoke = over-fuelling; white smoke = coolant ingress",
+    "warning": "Any engine warning light should be diagnosed with a proper scan before you buy",
+    "mot": "Check MOT history online for emissions failures, advisories and recurring faults"
+  },
+  "families": {
+    "200tdi": {
+      "checks": { "service": "Including timing belt change records (critical — 60k/5-year interval)", "turbo": "Test acceleration; any lack of power or excessive black smoke?", "warning": "Not applicable — the 200Tdi is fully mechanical, with no ECU", "mot": "Check for emissions-related failures and structural corrosion (chassis and bulkhead)" },
+      "specs": { "displacement": "2,495cc (2.5L)", "cylinders": "4-cylinder inline, cast iron block", "compression": "19.5:1 (direct injection)", "fuel": "Direct injection with rotary injection pump, turbocharged and intercooled", "torque": "255 Nm (188 lb-ft) @ 1,800 rpm" }
+    },
+    "300tdi": {
+      "checks": { "service": "Including timing belt and backplate change records (60k/5-year interval)", "turbo": "Test acceleration; any lack of power or excessive black smoke?", "warning": "Not applicable — the 300Tdi is mechanically injected", "mot": "Check for emissions-related failures and chassis corrosion" },
+      "specs": { "displacement": "2,495cc (2.5L)", "cylinders": "4-cylinder inline, cast iron block", "compression": "19.5:1 (direct injection)", "fuel": "Direct injection with Bosch rotary pump, turbocharged and intercooled", "torque": "265 Nm (195 lb-ft) @ 1,800 rpm" }
+    },
+    "td5": {
+      "checks": { "service": "Look for injector loom, injector seal and oil pump bolt work on record", "coolant": "Check for coolant loss or mayonnaise under the oil cap (cracked head warning)", "warning": "Check for misfire or limp-mode fault codes stored in the ECU", "mot": "Check for emissions failures and chassis corrosion" },
+      "specs": { "displacement": "2,495cc (2.5L)", "cylinders": "5-cylinder inline, cast iron block", "compression": "19.5:1 (direct injection)", "fuel": "Electronic unit injectors, turbocharged and intercooled", "torque": "300–315 Nm (221–232 lb-ft) depending on version" }
+    },
+    "m47": {
+      "checks": { "service": "Look for regular oil changes with the correct spec — vital for turbo life", "turbo": "Listen for whistling and check for oil in the intercooler pipes" },
+      "specs": { "displacement": "1,951cc (2.0L)", "cylinders": "4-cylinder inline, cast iron block", "compression": "18.0:1 (direct injection)", "fuel": "Common-rail direct injection, turbocharged and intercooled", "torque": "260 Nm (192 lb-ft) @ 1,750 rpm" }
+    },
+    "kseries": {
+      "checks": { "service": "Look for evidence of an MLS head gasket and steel dowel upgrade", "coolant": "Check coolant level and colour carefully — the K-Series hates overheating", "turbo": "Naturally aspirated — check for smooth, even power through the rev range" },
+      "specs": { "displacement": "1,796cc (1.8L)", "cylinders": "4-cylinder inline, aluminium block with wet liners", "compression": "10.5:1", "fuel": "Multi-point fuel injection, naturally aspirated", "torque": "165 Nm (122 lb-ft) @ 2,750 rpm" }
+    },
+    "kv6": {
+      "checks": { "service": "Look for timing belt records — both belts and tensioners", "coolant": "Check the coolant pipes and expansion tank for leaks or weeping", "turbo": "Naturally aspirated — check for smooth, even power and no misfire" },
+      "specs": { "displacement": "2,497cc (2.5L)", "cylinders": "V6, aluminium block", "compression": "10.5:1", "fuel": "Sequential multi-point fuel injection, naturally aspirated", "torque": "240 Nm (177 lb-ft) @ 4,000 rpm" }
+    },
+    "aj41": {
+      "checks": { "service": "Look for evidence of top-hat liners or a quality rebuild", "coolant": "Check for hard hoses when cold — a sign of liner or head gasket issues", "turbo": "Naturally aspirated — check for smooth, even power on both banks" },
+      "specs": { "displacement": "3,946cc (4.0L)", "cylinders": "V8, aluminium block with cast iron liners", "compression": "9.35:1", "fuel": "Sequential multi-point fuel injection, naturally aspirated", "torque": "340 Nm (250 lb-ft) @ 2,600 rpm" }
+    },
+    "ajv6": {
+      "checks": { "service": "Look for water pump and coolant pipe replacement on record", "turbo": "Supercharged — listen for an idle rattle from the isolator coupler" },
+      "specs": { "displacement": "2,995cc (3.0L)", "cylinders": "V6, aluminium block", "compression": "10.5:1", "fuel": "Direct injection, supercharged", "torque": "450 Nm (332 lb-ft) @ 3,500 rpm" }
+    },
+    "tdv6": {
+      "checks": { "service": "Look for oil changes every 8,000–10,000 miles and timing belt records", "coldStart": "Listen for knocking from the bottom end — a crankshaft warning sign" },
+      "specs": { "displacement": "2,993cc (3.0L)", "cylinders": "V6, compacted graphite iron block", "compression": "16.0:1–17.3:1 depending on version", "fuel": "Common-rail direct injection, single or sequential twin turbo", "torque": "440–600 Nm depending on output" }
+    },
+    "tdv8": {
+      "checks": { "service": "Look for a complete history with frequent oil changes", "turbo": "Twin turbos — check for whistling, smoke or boost faults" },
+      "specs": { "displacement": "4,367cc (4.4L)", "cylinders": "V8, compacted graphite iron block", "compression": "16.4:1", "fuel": "Common-rail direct injection, twin turbocharged", "torque": "640–740 Nm depending on output" }
+    },
+    "duratorq": {
+      "checks": { "service": "Look for timing belt and water pump records", "smoke": "Check for DPF warnings — and blue, black or white smoke" },
+      "specs": { "displacement": "2,179cc (2.2L)", "cylinders": "4-cylinder inline, cast iron block", "compression": "15.8:1", "fuel": "Common-rail direct injection, turbocharged with DPF", "torque": "400–420 Nm depending on output" }
+    },
+    "ecoboost": {
+      "checks": { "coolant": "Check for coolant loss or a sweet smell from the engine bay", "turbo": "Listen for wastegate rattle on deceleration" },
+      "specs": { "displacement": "1,999cc (2.0L)", "cylinders": "4-cylinder inline, aluminium block", "compression": "9.3:1", "fuel": "Direct injection, turbocharged", "torque": "340 Nm (251 lb-ft) @ 1,750 rpm" }
+    },
+    "aj200d": {
+      "checks": { "service": "Look for on-time oil changes with the correct low-SAPS oil", "coldStart": "Listen for a rattle on start-up — the timing chain warning sign" },
+      "specs": { "displacement": "1,999cc (2.0L)", "cylinders": "4-cylinder inline, aluminium block", "compression": "15.5:1", "fuel": "Common-rail direct injection, turbocharged with DPF", "torque": "380–500 Nm depending on output" }
+    },
+    "aj200p": {
+      "checks": { "service": "Look for on-time oil changes with the correct specification", "coldStart": "Listen for a rattle on start-up — the timing chain warning sign" },
+      "specs": { "displacement": "1,997cc (2.0L)", "cylinders": "4-cylinder inline, aluminium block", "compression": "9.5:1", "fuel": "Direct injection, turbocharged (twin-scroll)", "torque": "365–400 Nm depending on output" }
+    },
+    "i3phev": {
+      "checks": { "service": "Look for dealer or specialist servicing and software updates", "warning": "Check for hybrid system warnings as well as engine lights" },
+      "specs": { "displacement": "1,497cc (1.5L)", "cylinders": "3-cylinder inline, aluminium block", "compression": "9.5:1", "fuel": "Direct injection, turbocharged, plug-in hybrid", "torque": "280 Nm (engine only)" }
+    },
+    "aj300d": {
+      "checks": { "service": "Look for on-time servicing and stable oil levels between services", "smoke": "Check for DPF warnings and rising oil level (fuel dilution)" },
+      "specs": { "displacement": "2,997cc (3.0L)", "cylinders": "6-cylinder inline, aluminium block", "compression": "15.5:1", "fuel": "Common-rail direct injection, turbocharged, 48V mild hybrid", "torque": "600–700 Nm depending on output" }
+    },
+    "aj300p": {
+      "checks": { "service": "Look for full dealer or specialist history", "warning": "Check for 48V mild-hybrid or plug-in system warnings" },
+      "specs": { "displacement": "2,996cc (3.0L)", "cylinders": "6-cylinder inline, aluminium block", "compression": "10.5:1", "fuel": "Direct injection, turbo plus electric supercharger, mild or plug-in hybrid", "torque": "495–550 Nm depending on output" }
+    },
+    "aj133": {
+      "checks": { "service": "Look for timing chain tensioner update and water pump records", "turbo": "Supercharged — listen for idle rattle from the isolator coupler" },
+      "specs": { "displacement": "5,000cc (5.0L)", "cylinders": "V8, aluminium block", "compression": "9.5:1", "fuel": "Direct injection, supercharged", "torque": "625–700 Nm depending on output" }
+    },
+    "n63": {
+      "checks": { "service": "Look for short oil-change intervals on record", "smoke": "Check for blue smoke on start-up — a sign of valve stem seal wear" },
+      "specs": { "displacement": "4,395cc (4.4L)", "cylinders": "V8, aluminium block", "compression": "10.5:1", "fuel": "Direct injection, twin turbocharged (hot-vee)", "torque": "750 Nm (553 lb-ft)" }
+    },
+    "s68": {
+      "checks": { "service": "Look for full main dealer history and remaining warranty", "warning": "Check for 48V mild-hybrid system warnings" },
+      "specs": { "displacement": "4,395cc (4.4L)", "cylinders": "V8, aluminium block", "compression": "10.5:1", "fuel": "Direct injection, twin turbocharged (hot-vee), 48V mild hybrid", "torque": "750–800 Nm depending on output" }
+    }
+  }
+}

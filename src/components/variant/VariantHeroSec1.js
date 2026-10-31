@@ -1,182 +1,177 @@
 import Image from "next/image";
-import Icon from "@/components/reusable/Icon";
-import RegLookupForm from "@/components/reusable/RegLookupForm";
-import QuoteLink from "@/components/shared/QuoteLink";
+import Link from "next/link";
+import VariantHeroQuoteForm from "@/components/variant/VariantHeroQuoteForm";
+import { deriveVariant } from "@/lib/variantInfo";
+import { GroundedCar } from "@/components/variant/PhotoScene";
 
-export default function VariantHeroSec1({ data }) {
-  const [line1, line2, line3] = data.h1.split("|");
-  const line2Mobile = line2.replace(/\s*-\s*$/, "");
-  const line3Mobile = `- ${line3}`;
+// Variant hero: breadcrumb, title, trust chips, price/engine-code card, reg quote form and a
+// ticker strip. Everything variant-specific is derived from the page's Sec1/Sec2/Sec3 data so the
+// same markup serves all variant pages without per-page hero data.
+
+const GREEN = "#7f9f4f";
+
+const TICKER = ["Instant Quotes", "No Obligation", "100% Free", "Reconditioned", "Rebuilt", "Used", "Supply & Fit Available", "UK-Wide Network"];
+
+/* ---------- icons (outline, sized by the caller) ---------- */
+const svg = { fill: "none", stroke: "currentColor", strokeWidth: 1.6, strokeLinecap: "round", strokeLinejoin: "round", viewBox: "0 0 24 24", "aria-hidden": true };
+const IconWrench = (p) => (
+  <svg {...svg} {...p}><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" /></svg>
+);
+const IconShield = (p) => (
+  <svg {...svg} {...p}><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z" /><path d="M12 6.2l4.5 1.9V12c0 3-2 5-4.5 6.1C9.5 17 7.5 15 7.5 12V8.1z" /><path d="m9.6 12 1.7 1.7 3.1-3.2" /></svg>
+);
+const IconTruck = (p) => (
+  <svg {...svg} {...p}><path d="M2.5 6.5h11v9.5h-11z" /><path d="M13.5 9.5h4l3.5 3.6V16h-7.5" /><circle cx="6.5" cy="17.5" r="1.8" /><circle cx="17" cy="17.5" r="1.8" /></svg>
+);
+const IconUsers = (p) => (
+  <svg {...svg} {...p}><circle cx="8.5" cy="8" r="3.2" /><circle cx="16.5" cy="8" r="3.2" /><path d="M2.5 19c.6-3.2 3-5 6-5s5.4 1.8 6 5" /><path d="M14.3 14.2c.7-.1 1.4-.2 2.2-.2 3 0 5.4 1.8 6 5" /></svg>
+);
+const IconTag = (p) => (
+  <svg viewBox="0 0 24 24" aria-hidden="true" {...p}>
+    <path fill="currentColor" d="M11.2 2.5H20a1.5 1.5 0 0 1 1.5 1.5v8.8a1.5 1.5 0 0 1-.44 1.06l-7.7 7.7a1.5 1.5 0 0 1-2.12 0L2.44 12.76a1.5 1.5 0 0 1 0-2.12l7.7-7.7a1.5 1.5 0 0 1 1.06-.44z" />
+    <circle cx="16.6" cy="7.4" r="1.7" fill="#0d100c" />
+  </svg>
+);
+const Chevron = (p) => (
+  <svg {...svg} strokeWidth={2} {...p}><path d="m9 6 6 6-6 6" /></svg>
+);
+
+const CHIPS = [
+  { Icon: IconWrench, a: "Supply & Fit", b: "Available" },
+  { Icon: IconShield, a: "12-Month", b: "Warranty" },
+  { Icon: IconTruck, a: "Nationwide", b: "Delivery" },
+  { Icon: IconUsers, a: "12", b: "Specialists" },
+];
+
+function Crumb({ href, children }) {
+  return (
+    <>
+      <Link href={href} className="shrink-0 whitespace-nowrap transition-colors hover:text-white" style={{ color: GREEN }}>
+        {children}
+      </Link>
+      <Chevron className="h-2.5 w-2.5 shrink-0 text-white/40 md:h-3 md:w-3" />
+    </>
+  );
+}
+
+export default function VariantHeroSec1({ data, sec2, sec3 }) {
+  const h = deriveVariant(data, sec2, sec3);
 
   return (
-    <section className="theme-dark relative overflow-hidden">
-      {/* ===== mobile ===== */}
-      <div className="relative md:hidden">
-        <div className="absolute inset-0">
-          <Image src={data.imageMobile} alt="Land Rover technician rebuilding an engine block" fill priority className="object-cover object-[65%_18%]" sizes="100vw" />
-          <div className="absolute inset-0 bg-linear-to-b from-transparent via-hero-dark/10 to-hero-dark" />
-          <div
-            className="absolute inset-0"
-            style={{ background: "linear-gradient(to right, #0a0a0a 0%, rgba(10,10,10,0.92) 65%, rgba(10,10,10,0.55) 82%, transparent 100%)" }}
-          />
+    <section className="theme-dark relative overflow-hidden bg-[#0b0d0a] text-white">
+      {/* ---------- top band: copy on the left, the variant's car on the highland photo on the right ---------- */}
+      <div className="relative">
+        {/* desktop backdrop: dusk highland photo (car-free, CC0 Poly Haven "Champagne Castle", graded) */}
+        <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[68%] lg:block" aria-hidden="true">
+          <Image src="/variant/hero-landscape-v3.webp" alt="" fill priority sizes="68vw" className="object-cover object-[0%_45%]" />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(to right, #0b0d0a 0%, rgba(11,13,10,0.75) 8%, rgba(11,13,10,0.3) 20%, transparent 34%)" }} />
+          <div className="absolute inset-x-0 top-0 h-[22%]" style={{ background: "linear-gradient(to bottom, rgba(11,13,10,0.7), transparent)" }} />
+          <div className="absolute inset-x-0 bottom-0 h-[30%]" style={{ background: "linear-gradient(to top, #0b0d0a, transparent)" }} />
         </div>
 
-        <div className="relative px-4 pb-4 pt-3">
-          <h1 className="h1 origin-left scale-y-110 scale-x-90 mt-1 uppercase">
-            <span className="block whitespace-nowrap text-white">{line1}</span>{" "}
-            <span className="block text-hero-blue">{line2Mobile}</span>{" "}
-            <span className="block text-white">{line3Mobile}</span>
-          </h1>
+        <div className="relative mx-auto max-w-[90rem] px-4 pt-4 sm:px-6 md:pt-6 lg:px-10 lg:pb-10 xl:px-14">
+          {/* breadcrumb */}
+          <nav aria-label="Breadcrumb">
+            <div className="inline-flex max-w-full flex-wrap items-center gap-x-1 gap-y-1.5 rounded-lg border border-white/20 px-2.5 py-2 text-[10.5px] leading-none tracking-[-0.01em] min-[390px]:gap-x-1.5 min-[390px]:text-[11.5px] md:gap-x-2.5 md:px-4 md:py-2.5 md:text-[13px] md:tracking-normal">
+              <Crumb href="/">Land Rover Engine</Crumb>
+              {h.model && <Crumb href={h.modelHref}>{h.model}</Crumb>}
+              {h.engineHref ? (
+                <Crumb href={h.engineHref}>{h.short}</Crumb>
+              ) : (
+                <>
+                  <span className="shrink-0" style={{ color: GREEN }}>{h.short}</span>
+                  <Chevron className="h-2.5 w-2.5 shrink-0 text-white/40 md:h-3 md:w-3" />
+                </>
+              )}
+              <span aria-current="page" className="shrink-0 whitespace-nowrap text-white/90">
+                {h.gens} Engine Generation{h.gens > 1 ? "s" : ""}
+              </span>
+            </div>
+          </nav>
 
-          <div className="max-w-[72%]">
-            <p className="mt-1.5 text-sm leading-snug text-white">{data.subhead}</p>
+          <div className="lg:grid lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] lg:gap-x-4">
+            <div>
+              <h1 className="mt-5 text-[29px] font-semibold leading-[1.12] tracking-[-0.02em] text-white min-[375px]:text-[32px] sm:text-[42px] md:mt-8 md:text-[50px] lg:mt-9 lg:text-[46px] xl:text-[54px] 2xl:text-[60px]" style={{ fontFamily: "var(--font-instrument-sans), var(--font-inter), Arial, sans-serif" }}>
+                {h.name} Engine Replacement —{" "}
+                <span style={{ color: GREEN }}>Compare Prices &amp; Get Quotes</span>
+              </h1>
 
-            <div className="glass-card-dark mt-2 flex items-center gap-2 rounded-lg px-3 py-2">
-              <div className="flex shrink-0 gap-0.5 text-[#ffcc00]">
-                {Array.from({ length: data.rating.stars }).map((_, i) => (
-                  <Icon key={i} name="star" className="h-3.5 w-3.5 fill-current" />
-                ))}
-              </div>
-              <p className="label-text font-semibold uppercase leading-tight text-white">
-                {data.rating.label.split("-")[0]}-{" "}
-                <span className="text-hero-blue">{data.rating.label.split("-")[1]}</span>
+              <p className="mt-3 max-w-[540px] text-[15px] leading-[1.65] text-white/85 md:mt-5 md:text-[17px] md:leading-[1.7]">
+                Get quotes today from trusted UK Land Rover <span style={{ color: GREEN }}>{h.short}</span> specialists. Compare reconditioned, rebuilt and used{" "}
+                {h.engineDesc ? `${h.engineDesc} ` : ""}engines — supply &amp; fit available nationwide.
               </p>
             </div>
+
+            {/* vehicle - desktop: large, standing on the hillside in the photo */}
+            {h.carImage && (
+              <div className="relative hidden lg:block" aria-hidden="true">
+                <div className="relative ml-auto mt-10 w-[88%] max-w-[760px] translate-x-[3%]">
+                  <GroundedCar src={h.carImage} priority sizes="(min-width: 1024px) 55vw, 1px" />
+                </div>
+              </div>
+            )}
           </div>
 
-          {/* five-column feature breakdown */}
-          <div
-            className="card-glare relative mt-2.5 grid grid-cols-5 divide-x divide-white/15 rounded-xl px-1 py-3"
-            style={{ background: "linear-gradient(135deg, rgba(16,14,10,0.92) 0%, rgba(8,7,5,0.96) 100%)", backdropFilter: "blur(16px)" }}
-          >
-            {data.trustBar.map((t) => (
-              <div key={t.label} className="flex flex-col items-center gap-1 px-1 text-center">
-                <Icon name={t.icon} className="h-6 w-6 shrink-0 text-hero-blue" />
-                <p className="text-[8px] font-medium leading-tight text-white">{t.label.replace(/^✔\s*/, "")}</p>
+          {/* vehicle - mobile/tablet: the photo scene between the copy and the chips */}
+          {h.carImage && (
+            <div className="relative -mx-4 mt-4 aspect-[16/11] overflow-hidden sm:-mx-6 sm:aspect-[16/9] lg:hidden" aria-hidden="true">
+              <Image src="/variant/hero-landscape-m-v3.webp" alt="" fill priority sizes="100vw" className="object-cover object-[18%_55%]" />
+              <div className="absolute inset-x-0 top-0 h-[28%]" style={{ background: "linear-gradient(to bottom, #0b0d0a, transparent)" }} />
+              <div className="absolute inset-x-0 bottom-0 h-[18%]" style={{ background: "linear-gradient(to top, #0b0d0a, transparent)" }} />
+              <div className="absolute bottom-[7%] left-1/2 w-[72%] max-w-[540px] -translate-x-[46%]">
+                <GroundedCar src={h.carImage} priority sizes="(min-width: 640px) 540px, 72vw" />
               </div>
+            </div>
+          )}
+
+          {/* trust chips */}
+          <ul className="mt-4 grid grid-cols-2 gap-2.5 sm:grid-cols-4 md:mt-6 lg:mt-7 lg:max-w-[66%] lg:gap-3 xl:max-w-[62%]">
+            {CHIPS.map(({ Icon, a, b }) => (
+              <li key={a} className="flex items-center gap-2.5 rounded-lg border border-white/20 bg-[#0b0d0a]/55 px-3 py-3 md:py-4 lg:gap-3 lg:px-3.5 xl:px-4">
+                <Icon className="h-7 w-7 shrink-0 md:h-9 md:w-9" style={{ color: GREEN }} />
+                <span className="text-[13px] leading-[1.35] text-white md:text-[14px] xl:text-[15px]">
+                  <span className="block">{a}</span>
+                  <span className="block">{b}</span>
+                </span>
+              </li>
             ))}
-          </div>
+          </ul>
 
-          {/* pricing + direct contact, side by side */}
-          <div className="mt-2.5 grid grid-cols-2 gap-2">
-            <QuoteLink
-              href={data.priceCta.href}
-              className="card-glare relative flex min-w-0 flex-col justify-center gap-0.5 rounded-xl px-3 py-3 transition-transform hover:scale-[1.02]"
-              style={{
-                background: "linear-gradient(135deg, rgba(24,19,12,0.75) 0%, rgba(12,10,6,0.85) 100%)",
-                backdropFilter: "blur(16px)",
-                WebkitBackdropFilter: "blur(16px)",
-                border: "1px solid rgba(96,112,86,0.45)",
-              }}
-            >
-              <p className="text-[10px] leading-tight font-medium text-white">{data.priceCta.kicker}</p>
-              <p className="text-[11px] leading-tight font-extrabold text-hero-blue">{data.priceCta.label}</p>
-            </QuoteLink>
-
-            <QuoteLink
-              href={data.phoneCta.href}
-              className="glass-luminous card-glare relative flex min-w-0 items-center gap-2.5 overflow-hidden rounded-xl px-3 py-3 transition-transform hover:scale-[1.02]"
-              style={{ border: "1px solid rgba(96,112,86,0.45)" }}
-            >
-              <span className="relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-hero-blue">
-                <Icon name={data.phoneCta.icon} className="h-4.5 w-4.5 text-white" />
-              </span>
-              <div className="relative min-w-0">
-                <p className="text-[10px] leading-tight font-medium text-white">{data.phoneCta.label}</p>
-                <p className="text-[13px] leading-tight font-extrabold text-white">{data.phoneCta.phone}</p>
-              </div>
-            </QuoteLink>
-          </div>
-
-          {/* registration lookup */}
-          <div className="glass-card-dark mt-2.5 rounded-xl p-3">
-            <RegLookupForm buttonLabel="Check Match" row compactButton hideArrow />
+          {/* price + engine code */}
+          <div className="mt-2.5 flex flex-col rounded-xl border border-white/15 bg-[#0b0d0a]/70 sm:flex-row sm:items-center md:mt-4 lg:max-w-[66%] xl:max-w-[62%]">
+            <div className="flex flex-1 items-center gap-3.5 px-4 py-4 md:px-5 md:py-5">
+              <IconTag className="h-8 w-8 shrink-0 -scale-x-100 text-[#a89a6c] md:h-9 md:w-9" />
+              <p className="text-[15px] font-semibold leading-snug text-white md:text-[17px]">
+                {h.name} Engines — {h.priceText && <>from <span className="whitespace-nowrap" style={{ color: GREEN }}>{h.priceText}</span></>}
+              </p>
+            </div>
+            {h.engineCode && (
+              <p className="border-t border-white/15 px-4 py-3 text-[14px] text-white/85 sm:border-l sm:border-t-0 sm:px-6 sm:py-1 md:text-[15px] xl:px-10">
+                Engine code: <span className="font-semibold" style={{ color: GREEN }}>{h.engineCode}</span>
+              </p>
+            )}
           </div>
         </div>
       </div>
 
-      {/* ===== desktop ===== */}
-      <div className="relative hidden overflow-hidden md:block">
-        <div className="absolute inset-0">
-          <Image src={data.image} alt="Land Rover technician rebuilding an engine block" fill priority className="object-cover" sizes="100vw" />
+      {/* reg quote form */}
+      <div className="relative mx-auto max-w-[90rem] px-4 pb-5 sm:px-6 md:pb-10 lg:px-10 xl:px-14">
+        <div className="mt-3 rounded-xl border border-white/15 bg-white/[0.02] p-3 md:mt-4 md:p-5">
+          <VariantHeroQuoteForm buttonLabel={`Get My Free ${h.short} Engine Quotes Now`} />
         </div>
+      </div>
 
-        <div
-          className="pointer-events-none absolute inset-y-0"
-          style={{
-            left: "52%",
-            width: "6px",
-            background: "linear-gradient(180deg, var(--color-bmw-blue), var(--color-bmw-red))",
-            transform: "skewX(-12deg)",
-            boxShadow: "0 0 24px 4px rgba(96,112,86,0.55)",
-          }}
-          aria-hidden="true"
-        />
-
-        <div className="relative mx-auto max-w-[76rem] px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
-          <div className="max-w-2xl">
-            <div role="heading" aria-level="1" className="h1 origin-left scale-y-110 scale-x-90 uppercase">
-              <span className="block whitespace-nowrap text-white">{line1}</span>{" "}
-              <span className="block whitespace-nowrap text-hero-blue">{line2}</span>{" "}
-              <span className="block text-white">{line3}</span>
-            </div>
-
-            <p className="mt-3 max-w-md text-sm text-white lg:text-base">{data.subhead}</p>
-
-            <div className="glass-luminous card-glare relative mt-3 inline-flex items-center gap-3 rounded-lg px-5 py-3" style={{ border: "1px solid rgba(96,112,86,0.45)" }}>
-              <div className="flex shrink-0 gap-1 text-[#ffcc00]">
-                {Array.from({ length: data.rating.stars }).map((_, i) => (
-                  <Icon key={i} name="star" className="h-4 w-4 fill-current" />
-                ))}
-              </div>
-              <p className="whitespace-nowrap text-sm font-medium text-white">
-                {data.rating.label.split("-")[0]}-{" "}
-                <span className="text-hero-blue">{data.rating.label.split("-")[1]}</span>
-              </p>
-            </div>
-
-            {/* reg lookup */}
-            <div className="mt-3 max-w-md">
-              <RegLookupForm buttonLabel="Check Match" row />
-            </div>
-
-            <div className="mt-3 flex flex-wrap items-stretch gap-4">
-              <QuoteLink
-                href={data.priceCta.href}
-                className="flex w-60 shrink-0 flex-col justify-center whitespace-nowrap rounded-lg bg-linear-to-br from-hero-blue to-hero-blue-dark px-5 py-4 shadow-lg transition-transform hover:scale-[1.02]"
-              >
-                <p className="label-text font-medium text-white">{data.priceCta.kicker}</p>
-                <p className="text-sm font-extrabold text-white">{data.priceCta.label}</p>
-              </QuoteLink>
-
-              <QuoteLink
-                href={data.phoneCta.href}
-                className="glass-luminous card-glare relative flex w-60 shrink-0 items-center gap-3 rounded-lg px-5 py-4 transition-transform hover:scale-[1.02]"
-                style={{ border: "1px solid rgba(96,112,86,0.45)" }}
-              >
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-hero-blue">
-                  <Icon name={data.phoneCta.icon} className="h-5 w-5 text-white" />
-                </span>
-                <div className="min-w-0">
-                  <p className="label-text whitespace-nowrap font-medium text-white">{data.phoneCta.label}</p>
-                  <p className="whitespace-nowrap text-base font-extrabold text-white">{data.phoneCta.phone}</p>
-                </div>
-              </QuoteLink>
-            </div>
-          </div>
-
-          {/* bottom feature bar */}
-          <div
-            className="glass-luminous card-glare relative z-10 mt-6 flex items-stretch justify-between divide-x divide-white/15 rounded-xl px-4 py-5"
-            style={{ border: "1px solid rgba(96,112,86,0.45)", background: "rgba(10,9,7,0.6)" }}
-          >
-            {data.trustBar.map((t) => (
-              <div key={t.label} className="flex min-w-0 flex-1 items-center gap-3 px-3">
-                <Icon name={t.icon} className="h-11 w-11 shrink-0 text-hero-blue" />
-                <p className="min-w-0 text-sm leading-tight font-medium text-white">{t.label}</p>
-              </div>
+      {/* ticker strip */}
+      <div className="relative border-y border-white/10 bg-[#0d110c]">
+        <div className="mx-auto max-w-[90rem] overflow-hidden lg:px-10 xl:px-14">
+          <ul className="hero-ticker flex w-max items-center py-3.5 md:py-4 lg:w-full lg:justify-between lg:gap-4">
+            {[...TICKER, ...TICKER].map((t, i) => (
+              <li key={i} className={`flex shrink-0 items-center gap-2.5 pl-7 text-[13px] text-white/85 lg:pl-0 lg:text-[14px] ${i >= TICKER.length ? "lg:hidden" : ""}`} aria-hidden={i >= TICKER.length || undefined}>
+                <span className="h-1.5 w-1.5 rounded-full" style={{ background: GREEN }} />
+                {t}
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </section>

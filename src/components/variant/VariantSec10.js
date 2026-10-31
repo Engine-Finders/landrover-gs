@@ -4,63 +4,51 @@ import Icon from "@/components/reusable/Icon";
 import LandRoverLogo from "@/components/reusable/LandRoverLogo";
 import MobileSplitTitle from "@/components/variant/MobileSplitTitle";
 import QuoteLink from "@/components/shared/QuoteLink";
+import { deriveVariant } from "@/lib/variantInfo";
+import PhotoScene, { EnginePlate } from "@/components/variant/PhotoScene";
 
-export default function VariantSec10({ data }) {
+const HI = "#8fb35a";
+const cap = (t = "") => t.charAt(0).toUpperCase() + t.slice(1);
+const FRAME = "relative overflow-hidden rounded-2xl border border-white/10 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.85)]";
+
+export default function VariantSec10({ data, sec1, sec2, sec3 }) {
   const { about, codes, compatibility, applications } = data;
+  const v = sec1 ? deriveVariant(sec1, sec2, sec3) : null;
+  const engineImg = v?.family === "200tdi" ? "/variant/sec2_engine.webp" : "/variant/sec10_engine.webp";
+  const badge = v ? (v.engineCode || v.short).split(" / ")[0].replace(/ \+\d+ more$/, "") : "";
+  const engineDesc = v ? [cap(v.engineDesc), v.name].filter(Boolean).join(" · ") : "";
 
   return (
     <>
       {/* ============ div 1: about ============ */}
-      <section className="theme-light relative overflow-hidden">
-        {/* ===== mobile ===== */}
-        <div className="relative md:hidden">
-          <div className="px-4 pb-6 pt-6">
-            <MobileSplitTitle titlePre={about.titlePre} titleHighlight={about.titleHighlight} stripeVariant="left" />
+      <section className="theme-dark relative overflow-hidden bg-[#0b0d0a]">
+        <div className="relative mx-auto grid max-w-[90rem] px-4 py-10 sm:px-6 md:py-14 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] lg:gap-x-12 lg:px-10 xl:gap-x-16 xl:px-14">
+          <h2 className="h2 uppercase lg:col-start-1 lg:row-start-1 lg:self-end">
+            <span className="text-white">{about.titlePre}</span> <span style={{ color: HI }}>{about.titleHighlight}</span>
+          </h2>
 
-            <div className="relative -mx-4 mt-4 aspect-[1881/1144] w-screen overflow-hidden">
-              <Image src={about.imageMobile} alt="Land Rover engine and vehicle" fill className="object-cover" sizes="100vw" />
-              <div
-                className="pointer-events-none absolute inset-0"
-                style={{ background: "linear-gradient(to bottom, #fff 0%, transparent 15%, transparent 85%, #fff 100%)" }}
-              />
+          <div className="mt-5 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:mt-0 lg:self-center">
+            <div className={`${FRAME} aspect-[16/11] sm:aspect-[16/10]`}>
+              {v ? (
+                <PhotoScene car={v.carImage} ground={10} carClass="left-1/2 w-[78%] -translate-x-1/2" sizes="(min-width: 1024px) 50vw, 100vw" />
+              ) : (
+                <Image src={about.image} alt="Land Rover engine and vehicle" fill className="object-cover" sizes="100vw" />
+              )}
             </div>
-
-            <div className="mt-4 space-y-3 text-xs leading-snug text-[#101828]">
-              {about.paragraphs.map((p, i) => (
-                <p key={i}>{p}</p>
-              ))}
-              <p className="font-bold text-[#101828]">{about.boldParagraph}</p>
-            </div>
+            {v && <EnginePlate engine={engineImg} code={badge} desc={engineDesc} className="mt-3" />}
           </div>
-        </div>
 
-        {/* ===== desktop ===== */}
-        <div className="relative hidden overflow-hidden md:block">
-          <div className="absolute inset-0">
-            <Image src={about.image} alt="Land Rover engine and vehicle" fill className="object-cover" sizes="100vw" />
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to right, #fff 0%, #fff 46%, rgba(255,255,255,0.9) 56%, rgba(255,255,255,0.35) 66%, transparent 76%)" }}
-            />
-          </div>
-          <div className="relative mx-auto max-w-[76rem] px-4 py-10 sm:px-6 lg:px-8">
-            <div className="max-w-lg">
-              <div role="heading" aria-level="2" className="h2 uppercase">
-                {about.titlePre} <span className="block text-hero-blue">{about.titleHighlight}</span>
-              </div>
-              <div className="mt-4 space-y-3 text-sm leading-relaxed text-[#101828]">
-                {about.paragraphs.map((p, i) => (
-                  <p key={i}>{p}</p>
-                ))}
-                <p className="font-bold text-[#101828]">{about.boldParagraph}</p>
-              </div>
-            </div>
+          <div className="mt-6 space-y-4 text-[15px] leading-[1.7] text-white/80 md:text-[16px] lg:col-start-1 lg:row-start-2 lg:mt-5 lg:self-start">
+            {about.paragraphs.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+            <p className="font-semibold text-white">{about.boldParagraph}</p>
           </div>
         </div>
       </section>
 
       {/* ============ div 2: engine codes ============ */}
-      <section className="theme-dark relative overflow-hidden">
+      <section className="theme-dark relative overflow-hidden border-t border-white/10">
         {/* ===== mobile ===== */}
         <div className="relative px-4 pb-8 pt-6 md:hidden">
           <h2 className="h2 uppercase">
@@ -135,64 +123,46 @@ export default function VariantSec10({ data }) {
       </section>
 
       {/* ============ div 3: compatibility ============ */}
-      <section className="theme-light relative overflow-hidden">
-        {/* ===== mobile ===== */}
-        <div className="relative md:hidden">
-          <div className="px-4 pb-6 pt-6">
-            <MobileSplitTitle titlePre={compatibility.titlePre} titleHighlight={compatibility.titleHighlight} stripeVariant="left" />
+      <section className="theme-dark relative overflow-hidden border-t border-white/10 bg-[#0b0d0a]">
+        <div className="relative mx-auto grid max-w-[90rem] px-4 py-10 sm:px-6 md:py-14 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-x-12 lg:px-10 xl:gap-x-16 xl:px-14">
+          <h2 className="h2 uppercase lg:col-start-2 lg:row-start-1">
+            <span className="text-white">{compatibility.titlePre}</span> <span style={{ color: HI }}>{compatibility.titleHighlight}</span>
+          </h2>
 
-            <div className="relative -mx-4 mt-4 aspect-430/363 w-screen overflow-hidden">
-              <Image src={compatibility.imageMobile} alt="Land Rover Land Rover vehicle in workshop" fill className="object-cover" sizes="100vw" />
-              <div
-                className="pointer-events-none absolute inset-0"
-                style={{ background: "linear-gradient(to bottom, #fff 0%, transparent 15%, transparent 85%, #fff 100%)" }}
-              />
+          <div className="mt-5 lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mt-0 lg:self-center">
+            <div className={`${FRAME} aspect-[16/11] sm:aspect-[16/10]`}>
+              {v ? (
+                <PhotoScene car={v.carImage} ground={10} carClass="left-1/2 w-[78%] -translate-x-1/2" position="34% 62%" sizes="(min-width: 1024px) 52vw, 100vw" />
+              ) : (
+                <Image src={compatibility.image} alt="Land Rover vehicle in workshop" fill className="object-cover" sizes="100vw" />
+              )}
             </div>
-
-            <p className="mt-4 text-xs leading-snug text-[#101828]">{compatibility.intro}</p>
-
-            <div className="mt-4 grid grid-cols-2 gap-3">
-              {compatibility.points.map((p) => (
-                <div key={p.text} className="glass-card relative flex flex-col items-center rounded-xl p-3 text-center">
-                  <Icon name={p.icon} className="h-9 w-9 shrink-0 text-hero-blue" />
-                  <p className="label-text mt-2 leading-snug text-[#101828]">{p.text}</p>
+            {v && (
+              <div className="mt-3 flex items-center gap-3.5 rounded-xl border border-white/10 bg-[#0e110d] px-4 py-3.5 md:gap-4 md:px-5">
+                <svg viewBox="0 0 24 24" className="h-9 w-9 shrink-0 md:h-10 md:w-10" fill="none" stroke="#c9a96e" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9.5" />
+                  <path d="m8 12.5 2.8 2.8L16.5 9" />
+                </svg>
+                <div className="min-w-0">
+                  <p className="text-[18px] font-semibold leading-tight text-white md:text-[20px]">{badge}</p>
+                  <p className="mt-0.5 text-[14px] leading-snug text-white/65 md:text-[15px]">Confirmed by VIN · Match guaranteed</p>
                 </div>
-              ))}
-            </div>
-
-            <p className="mt-4 text-xs leading-snug text-[#101828]">{compatibility.footer}</p>
-          </div>
-        </div>
-
-        {/* ===== desktop ===== */}
-        <div className="relative hidden overflow-hidden md:block">
-          <div className="absolute inset-0">
-            <Image src={compatibility.image} alt="Land Rover Land Rover vehicle in workshop" fill className="object-cover" sizes="100vw" />
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to right, #fff 0%, #fff 48%, rgba(255,255,255,0.9) 60%, transparent 75%)" }}
-            />
-          </div>
-          <div className="relative mx-auto max-w-[76rem] px-4 py-10 sm:px-6 lg:px-8">
-            <div className="flex items-start gap-3">
-              <div role="heading" aria-level="2" className="h2 uppercase">
-                <span className="text-[#101828]">{compatibility.titlePre}</span>{" "}
-                <span className="text-hero-blue">{compatibility.titleHighlight}</span>
               </div>
-            </div>
+            )}
+          </div>
 
-            <p className="mt-4 max-w-lg text-sm leading-relaxed text-[#101828]">{compatibility.intro}</p>
+          <p className="mt-6 text-[15px] leading-[1.7] text-white/80 md:text-[16px] lg:col-start-2 lg:row-start-2 lg:mt-4">{compatibility.intro}</p>
 
-            <div className="mt-5 grid max-w-2xl grid-cols-4 gap-4">
+          <div className="lg:col-start-2 lg:row-start-3">
+            <div className="mt-5 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4 lg:grid-cols-2 xl:gap-3">
               {compatibility.points.map((p) => (
-                <div key={p.text} className="glass-card relative flex flex-col items-center rounded-xl p-4 text-center transition-transform hover:-translate-y-0.5">
-                  <Icon name={p.icon} className="h-10 w-10 shrink-0 text-hero-blue" />
-                  <p className="mt-2 text-xs leading-snug text-[#101828]">{p.text}</p>
+                <div key={p.text} className="flex flex-col items-center rounded-xl border border-white/10 bg-white/[0.035] p-4 text-center md:p-5">
+                  <Icon name={p.icon} className="h-9 w-9 shrink-0 md:h-10 md:w-10" style={{ color: HI }} />
+                  <p className="mt-2.5 text-[14px] leading-snug text-white/90 md:text-[15px]">{p.text}</p>
                 </div>
               ))}
             </div>
-
-            <p className="mt-5 max-w-lg text-sm leading-relaxed text-[#101828]">{compatibility.footer}</p>
+            <p className="mt-5 text-[15px] leading-[1.7] text-white/80 md:text-[16px]">{compatibility.footer}</p>
           </div>
         </div>
       </section>

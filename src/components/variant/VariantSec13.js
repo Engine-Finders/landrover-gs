@@ -62,7 +62,7 @@ function LightField({ label, name, placeholder, type = "text" }) {
   );
 }
 
-export default function VariantSec13({ data }) {
+export default function VariantSec13({ data, hideFaq = false }) {
   const [openIndex, setOpenIndex] = useState(new Set());
 
   function toggle(i) {
@@ -80,21 +80,25 @@ export default function VariantSec13({ data }) {
     <section id="quote-form" className="theme-light relative scroll-mt-6 overflow-hidden">
       {/* ===== mobile ===== */}
       <div className="relative px-4 pb-7 pt-5 md:hidden">
-        <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-          <span className="text-[#101828]">{data.kicker} </span>{" "}
-          <span className="text-hero-blue">{data.kickerHighlight}</span>
-        </h2>
+        {!hideFaq && (
+          <>
+            <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
+              <span className="text-[#101828]">{data.kicker} </span>{" "}
+              <span className="text-hero-blue">{data.kickerHighlight}</span>
+            </h2>
 
-        <div className="mt-4 space-y-3">
-          {[...data.faqLeft, ...data.faqRight].map((item, i) => (
-            <FaqCard key={item.q} item={item} isOpen={openIndex.has(i)} onToggle={() => toggle(i)} compact />
-          ))}
-        </div>
+            <div className="mt-4 space-y-3">
+              {[...data.faqLeft, ...data.faqRight].map((item, i) => (
+                <FaqCard key={item.q} item={item} isOpen={openIndex.has(i)} onToggle={() => toggle(i)} compact />
+              ))}
+            </div>
+          </>
+        )}
 
         {/* quote form */}
         <form
           onSubmit={handleSubmit}
-          className="theme-dark relative mt-6 overflow-hidden rounded-2xl p-4"
+          className={`theme-dark relative overflow-hidden rounded-2xl p-4 ${hideFaq ? "" : "mt-6"}`}
           style={{ boxShadow: "0 0 0 1px rgba(96,112,86,0.3), 0 25px 60px -20px rgba(96,112,86,0.4)" }}
         >
           <div className="absolute inset-0">
@@ -164,6 +168,7 @@ export default function VariantSec13({ data }) {
       <div className="relative hidden pb-10 md:block">
         {/* title banner: full-bleed, no box. sec13_faq.webp is sec13.v2 with its mint panel keyed
             out to transparency, so only the Defender photo shows, fading into the page background */}
+        {!hideFaq && (
         <div className="relative overflow-hidden">
           <div className="absolute inset-y-0 right-0 w-[70%]">
             <Image src="/variant/sec13_faq.webp" alt="Land Rover Defender parked on open moorland" fill className="object-cover object-right" sizes="70vw" />
@@ -176,9 +181,12 @@ export default function VariantSec13({ data }) {
           </div>
         </div>
 
+        )}
+
         <div className="px-4 sm:px-6 lg:px-8">
         <div className="relative mx-auto max-w-6xl">
 
+          {!hideFaq && (
           <div className="mt-6 grid grid-cols-2 items-start gap-4">
             <div className="space-y-4">
               {data.faqLeft.map((item, i) => (
@@ -192,11 +200,12 @@ export default function VariantSec13({ data }) {
               })}
             </div>
           </div>
+          )}
 
           {/* quote form */}
           <form
             onSubmit={handleSubmit}
-            className="theme-dark relative mt-8 overflow-hidden rounded-2xl p-8"
+            className={`theme-dark relative overflow-hidden rounded-2xl p-8 ${hideFaq ? "mt-10" : "mt-8"}`}
             style={{
               background: "linear-gradient(135deg, #14281a 0%, #0d1a11 100%)",
               boxShadow: "0 0 0 1px rgba(96,112,86,0.35), 0 25px 60px -20px rgba(0,0,0,0.5)",

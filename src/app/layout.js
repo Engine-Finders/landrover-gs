@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Roboto_Condensed, Inter, Instrument_Sans, Audiowide } from "next/font/google";
+import { Geist, Geist_Mono, Roboto_Condensed, Inter, Instrument_Sans, Audiowide, Libre_Caslon_Text } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
@@ -53,6 +53,13 @@ const audiowide = Audiowide({
   weight: "400",
 });
 
+// Editorial serif for the variant "Repair, Buy, or Replace?" section headings.
+const libreCaslon = Libre_Caslon_Text({
+  variable: "--font-serif-display",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Land Rover Engine Rebuild Specialists | Land Rover Garage",
@@ -77,7 +84,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${robotoCondensed.variable} ${inter.variable} ${instrumentSans.variable} ${audiowide.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${robotoCondensed.variable} ${inter.variable} ${instrumentSans.variable} ${audiowide.variable} ${libreCaslon.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <JsonLd data={businessGraph()} />

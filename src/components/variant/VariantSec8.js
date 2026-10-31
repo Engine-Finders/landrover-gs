@@ -1,207 +1,69 @@
-"use client";
+import VIcon from "@/components/variant/VariantIcons";
 
-import { Fragment, useState } from "react";
-import Image from "next/image";
-import Icon from "@/components/reusable/Icon";
+// Section 8: FAQ accordion (native <details>, no client JS) built from the variant's Sec13 FAQs -
+// the same list that feeds the page's FAQPage schema - plus a pricing disclaimer.
 
-const MOBILE_VISIBLE_COUNT = 6;
+const GREEN = "#8fb35a";
+const GOLD = "#c9a24a";
+const SERIF = { fontFamily: "var(--font-serif-display), Georgia, 'Times New Roman', serif" };
 
-export default function VariantSec8({ data }) {
-  const { gallery, howItWorks } = data;
-  const [showAll, setShowAll] = useState(false);
-  const mobileGalleryItems = showAll ? gallery.items : gallery.items.slice(0, MOBILE_VISIBLE_COUNT);
+function FaqItem({ item, n, open }) {
+  return (
+    <details open={open} className="group border-b border-white/10 last:border-b-0">
+      <summary className="flex cursor-pointer list-none items-start gap-3 px-4 py-4 md:gap-4 md:px-5 [&::-webkit-details-marker]:hidden">
+        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border text-[13px] font-semibold md:h-8 md:w-8 md:text-[14px]" style={{ borderColor: `${GREEN}99`, color: GREEN, background: "rgba(143,179,90,0.1)" }}>
+          {n}
+        </span>
+        <span className="flex-1 pt-0.5 text-[15px] font-medium leading-snug text-white md:pt-1 md:text-[16px]">{item.q}</span>
+        <svg viewBox="0 0 24 24" className="mt-1 h-5 w-5 shrink-0 text-white/70 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </summary>
+      <p className="-mt-1 pb-4 pl-[56px] pr-4 text-[14px] leading-[1.65] text-white/75 md:pl-[68px] md:pr-8 md:text-[14.5px]">{item.a}</p>
+    </details>
+  );
+}
+
+export default function VariantSec8({ faq }) {
+  const left = faq?.faqLeft || [];
+  const right = faq?.faqRight || [];
+  if (!left.length && !right.length) return null;
 
   return (
-    <>
-      {/* ============ recoveries & rebuilds gallery ============ */}
-      <section className="theme-dark relative overflow-hidden">
-        {/* ===== mobile ===== */}
-        <div className="relative px-4 pb-10 pt-7 md:hidden">
-          <h2 className="h2 uppercase">
-            <span className="block text-white">{gallery.titlePre}</span>{" "}
-            <span className="block text-hero-blue">{gallery.titleHighlight}</span>
-          </h2>
-          <p className="mt-2 text-xs leading-snug text-white">{gallery.description}</p>
+    <section className="theme-dark relative overflow-hidden bg-[#0b0d0a] text-white">
+      <div className="relative mx-auto max-w-[90rem] border-t border-white/10 px-4 py-10 sm:px-6 md:py-14 lg:px-10 xl:px-14">
+        <div className="flex items-end justify-between gap-4">
+          <div>
+            <p className="text-[12px] font-semibold uppercase tracking-[0.12em] md:text-[13px]" style={{ color: GOLD }}>Your Questions Answered</p>
+            <h2 className="mt-2 text-[30px] leading-[1.08] sm:text-[38px] lg:text-[46px]" style={SERIF}>Frequently Asked Questions</h2>
+          </div>
+          <span className="hidden h-14 w-14 shrink-0 items-center justify-center rounded-full border-2 text-[28px] sm:flex md:h-16 md:w-16" style={{ ...SERIF, borderColor: GOLD, color: GOLD }} aria-hidden="true">
+            ?
+          </span>
+        </div>
 
-          <div className="mt-5 grid grid-cols-2 gap-3">
-            {mobileGalleryItems.map((it, i) => (
-              <div
-                key={`${it.model}-${i}`}
-                className="neon-card relative rounded-xl"
-                style={{ border: "none", boxShadow: "0 15px 35px rgba(0,0,0,0.6)" }}
-              >
-                <div className="relative aspect-[4/3]">
-                  <Image src={gallery.image} alt={it.model} fill className="object-cover" sizes="50vw" />
-                </div>
-                <div className="px-3 py-2" style={{ background: "rgba(5,12,28,0.9)" }}>
-                  <div className="flex items-center gap-1.5">
-                    <Icon name={it.icon} className="h-4 w-4 shrink-0 text-hero-blue" />
-                    <p className="truncate text-xs font-extrabold uppercase text-hero-blue">{it.model}</p>
-                  </div>
-                  <p className="label-text mt-0.5 truncate uppercase tracking-wide text-white">{it.status}</p>
-                </div>
-              </div>
+        <div className="mt-6 grid items-start gap-3 md:gap-4 lg:grid-cols-2">
+          <div className="overflow-hidden rounded-xl border border-white/12 bg-white/[0.03]">
+            {left.map((item, i) => (
+              <FaqItem key={item.q} item={item} n={i + 1} open={i === 0} />
             ))}
           </div>
-
-          {gallery.items.length > MOBILE_VISIBLE_COUNT && (
-            <div className="mt-5 flex justify-center">
-              <button
-                type="button"
-                onClick={() => setShowAll((v) => !v)}
-                className="btn-text flex items-center gap-2 rounded-lg border border-hero-blue bg-hero-blue px-5 py-2.5 uppercase tracking-wide text-white backdrop-blur-md transition-colors hover:border-hero-blue hover:bg-[#1a1a1a]"
-              >
-                {showAll ? "View Less" : "View More"}
-                <span className={`text-hero-blue transition-transform ${showAll ? "rotate-180" : ""}`} aria-hidden>
-                  ↓
-                </span>
-              </button>
-            </div>
-          )}
-        </div>
-
-        {/* ===== desktop ===== */}
-        <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
-          <div className="relative mx-auto max-w-6xl">
-            <div className="flex items-start gap-3">
-              <div role="heading" aria-level="2" className="h2 uppercase">
-                <span className="block text-white">{gallery.titlePre}</span>{" "}
-                <span className="block text-hero-blue">{gallery.titleHighlight}</span>
-              </div>
-            </div>
-            <p className="mt-2 max-w-2xl text-sm text-white">{gallery.description}</p>
-
-            <div className="mt-6 grid grid-cols-6 gap-4">
-              {gallery.items.map((it, i) => (
-                <div
-                  key={`${it.model}-${i}`}
-                  className="neon-card relative rounded-xl"
-                  style={{ border: "none", boxShadow: "0 15px 35px rgba(0,0,0,0.6)" }}
-                >
-                  <div className="relative aspect-square">
-                    <Image src={gallery.image} alt={it.model} fill className="object-cover" sizes="16vw" />
-                  </div>
-                  <div className="px-3 py-2.5 backdrop-blur-md" style={{ background: "rgba(5,12,28,0.9)" }}>
-                    <p className="truncate text-xs font-extrabold uppercase text-hero-blue">{it.model}</p>
-                    <div className="mt-1 flex items-center gap-1.5">
-                      <Icon name={it.icon} className="h-3.5 w-3.5 shrink-0 text-hero-blue" />
-                      <p className="label-text truncate uppercase tracking-wide text-white">{it.status}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ============ how it works ============ */}
-      <section className="theme-light relative overflow-hidden">
-        {/* ===== mobile ===== */}
-        <div className="relative px-4 py-6 md:hidden">
-          <h2 className="h2 uppercase">
-            <span className="text-[#101828]">{howItWorks.titlePre}</span>{" "}
-            <span className="text-hero-blue">{howItWorks.titleHighlight}</span>
-          </h2>
-
-          {/* step-by-step vertical flow */}
-          <div className="mt-4">
-            {howItWorks.steps.map((s, i) => (
-              <div key={s.linePre}>
-                <div className="flex items-center gap-2">
-                  <span className="flex h-13 w-13 shrink-0 items-center justify-center rounded-full bg-black text-lg font-extrabold text-[#f3ead9]">
-                    {i + 1}
-                  </span>
-
-                  <div className="glass-card flex flex-1 items-center gap-3 rounded-2xl px-4 py-1.5">
-                    <Icon name={s.icon} className="h-13 w-13 shrink-0 text-black" />
-                    <p className="text-sm font-extrabold uppercase leading-tight">
-                      <span className="block text-[#101828]">{s.linePre}</span>
-                      <span className="block text-hero-blue">{s.lineHighlight}</span>
-                    </p>
-                  </div>
-                </div>
-
-                {i < howItWorks.steps.length - 1 && (
-                  <div className="flex w-11 justify-center py-1">
-                    <span className="h-3 w-0 border-l-2 border-dashed border-hero-blue/40" aria-hidden="true" />
-                  </div>
-                )}
-              </div>
+          <div className="overflow-hidden rounded-xl border border-white/12 bg-white/[0.03]">
+            {right.map((item, i) => (
+              <FaqItem key={item.q} item={item} n={left.length + i + 1} open={false} />
             ))}
           </div>
-
-          {/* bottom summary banner */}
-          <div
-            className="glass-card relative mt-4 grid grid-cols-[1.3fr_1fr] divide-x divide-black/10 rounded-2xl px-4 py-4"
-            style={{ boxShadow: "0 20px 45px -15px rgba(16,24,40,0.35), 0 0 30px -10px rgba(96,112,86,0.3)" }}
-          >
-            <div className="flex items-center gap-2.5 pr-3">
-              <Icon name={howItWorks.summary.timeframe.icon} className="h-11 w-11 shrink-0 text-black" />
-              <p className="text-xs leading-snug text-[#101828]">{howItWorks.summary.timeframe.text}</p>
-            </div>
-            <div className="flex items-center gap-2.5 pl-3">
-              <Icon name={howItWorks.summary.urgency.icon} className="h-11 w-11 shrink-0 text-black" />
-              <p className="text-xs font-semibold leading-snug text-[#101828]">
-                {howItWorks.summary.urgency.textPre}
-                <span className="font-bold text-bmw-red">{howItWorks.summary.urgency.textHighlight}</span>
-              </p>
-            </div>
-          </div>
         </div>
 
-        {/* ===== desktop ===== */}
-        <div className="relative hidden px-4 py-10 sm:px-6 md:block lg:px-8">
-          <div className="relative mx-auto max-w-6xl">
-            <div role="heading" aria-level="2" className="h2 uppercase">
-              <span className="text-[#101828]">{howItWorks.titlePre}</span>{" "}
-              <span className="text-hero-blue">{howItWorks.titleHighlight}</span>
-            </div>
-
-            <div
-              className="mt-8 grid items-stretch gap-3"
-              style={{ gridTemplateColumns: "minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr)" }}
-            >
-              {howItWorks.steps.map((s, i) => (
-                <Fragment key={s.linePre}>
-                  <div className="glass-card relative flex min-w-0 items-center gap-3 rounded-2xl px-5 py-3">
-                    <span className="relative ml-2 mt-2 flex h-16 w-16 shrink-0 items-center justify-center">
-                      <Icon name={s.icon} className="h-16 w-16 text-black" />
-                      <span className="absolute -left-4 -top-4 flex h-7 w-7 items-center justify-center rounded-full bg-black text-xs font-extrabold text-[#f3ead9]">
-                        {i + 1}
-                      </span>
-                    </span>
-                    <p className="min-w-0 text-sm leading-tight">
-                      <span className="block font-bold text-[#101828]">{s.linePre}</span>
-                      <span className="block font-bold text-hero-blue">{s.lineHighlight}</span>
-                    </p>
-                  </div>
-                  {i < howItWorks.steps.length - 1 && (
-                    <span className="flex items-center text-xl text-[#101828]" aria-hidden="true">
-                      →
-                    </span>
-                  )}
-                </Fragment>
-              ))}
-            </div>
-
-            <div className="glass-card mt-6 flex items-stretch divide-x divide-black/10 rounded-2xl px-8 py-6">
-              <div className="flex min-w-0 flex-1 items-center gap-4 pr-8">
-                <Icon name={howItWorks.summary.timeframe.icon} className="h-12 w-12 shrink-0 text-black" />
-                <p className="min-w-0 text-base leading-snug text-[#101828]">{howItWorks.summary.timeframe.text}</p>
-              </div>
-              <div className="flex min-w-0 flex-1 items-center gap-4 pl-8">
-                <Icon name={howItWorks.summary.urgency.icon} className="h-12 w-12 shrink-0 text-black" />
-                <p className="min-w-0 text-base leading-snug">
-                  <span className="block font-bold text-[#101828]">{howItWorks.summary.urgency.textPre}</span>
-                  <span className="block font-bold text-bmw-red">{howItWorks.summary.urgency.textHighlight}</span>
-                </p>
-              </div>
-            </div>
-          </div>
+        <div className="mt-4 flex items-start gap-3.5 rounded-xl border border-white/12 bg-white/[0.03] p-4 md:items-center md:gap-5 md:p-5">
+          <VIcon name="shield" className="h-8 w-8 shrink-0 md:h-10 md:w-10" style={{ color: GOLD }} />
+          <p className="text-[13px] leading-[1.6] text-white/70 md:text-[14px]">
+            All prices are indicative UK guide ranges. Actual costs vary by variant, engine condition, damage severity and workshop location — submit
+            your registration for a tailored quote. Every engine supplied carries a minimum 12-month unlimited-mileage warranty; always confirm terms
+            before you commit.
+          </p>
         </div>
-      </section>
-
-    </>
+      </div>
+    </section>
   );
 }

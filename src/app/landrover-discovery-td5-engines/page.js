@@ -21,9 +21,6 @@ import variantSec3 from "@/data/variant/landroverDiscoveryTd5Sec3.json";
 import variantSec4 from "@/data/variant/landroverDiscoveryTd5Sec4.json";
 import variantSec5 from "@/data/variant/landroverDiscoveryTd5Sec5.json";
 import variantSec6 from "@/data/variant/landroverDiscoveryTd5Sec6.json";
-import variantSec7 from "@/data/variant/landroverDiscoveryTd5Sec7.json";
-import variantSec8 from "@/data/variant/landroverDiscoveryTd5Sec8.json";
-import variantSec9 from "@/data/variant/landroverDiscoveryTd5Sec9.json";
 import variantSec10 from "@/data/variant/landroverDiscoveryTd5Sec10.json";
 import variantSec11 from "@/data/variant/landroverDiscoveryTd5Sec11.json";
 import variantSec12 from "@/data/variant/landroverDiscoveryTd5Sec12.json";
@@ -47,19 +44,19 @@ export default function LandroverDiscoveryTd5EnginesPage() {
         faqSchema(FAQ, PATH),
         breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Variants", path: "/variants" }, { name: NAME, path: PATH }], PATH),
       ])} />
-      <VariantHeroSec1 data={variantSec1} />
-      <VariantSec2 data={variantSec2} />
-      <VariantSec3 data={variantSec3} />
-      <VariantSec4 data={variantSec4} />
-      <VariantSec5 data={variantSec5} />
-      <VariantSec6 data={variantSec6} />
-      <VariantSec7 data={variantSec7} />
-      <VariantSec8 data={variantSec8} />
-      <VariantSec9 data={variantSec9} />
-      <VariantSec10 data={variantSec10} />
+      <VariantHeroSec1 data={variantSec1} sec2={variantSec2} sec3={variantSec3} />
+      <VariantSec2 data={variantSec2} sec1={variantSec1} sec3={variantSec3} />
+      <VariantSec3 data={variantSec3} sec1={variantSec1} sec2={variantSec2} />
+      <VariantSec4 data={variantSec4} sec1={variantSec1} sec2={variantSec2} sec3={variantSec3} />
+      <VariantSec5 data={variantSec5} sec1={variantSec1} sec2={variantSec2} sec3={variantSec3} />
+      <VariantSec6 data={variantSec6} sec1={variantSec1} sec2={variantSec2} sec3={variantSec3} sec11={variantSec11} />
+      <VariantSec7 sec1={variantSec1} sec2={variantSec2} sec3={variantSec3} sec11={variantSec11} />
+      <VariantSec8 faq={variantSec13} />
+      <VariantSec9 sec1={variantSec1} sec2={variantSec2} sec3={variantSec3} sec11={variantSec11} />
+      <VariantSec10 data={variantSec10} sec1={variantSec1} sec2={variantSec2} sec3={variantSec3} />
       <VariantSec11 data={variantSec11} />
       <VariantSec12 data={variantSec12} />
-      <VariantSec13 data={variantSec13} />
+      <VariantSec13 data={variantSec13} hideFaq />
     </>
   );
 }
