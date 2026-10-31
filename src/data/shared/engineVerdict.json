@@ -1,0 +1,465 @@
+{
+  "_note": "DRAFT content for variant Section 4 (Repair, Buy, or Replace?) - review before launch. Keyed by engine family, same keys as engineGuide.json. In 'intro' and 'verdict', text wrapped in **double asterisks** renders green. 'ok' is yes | no | partial.",
+  "families": {
+    "200tdi": {
+      "intro": "is often considered one of the most dependable engines ever fitted to a Defender",
+      "repair": [
+        { "icon": "belt", "problem": "Timing belt due (preventative)", "ok": "yes", "cost": "£500–£800", "when": "Every 60k miles or 5 years — non-negotiable maintenance" },
+        { "icon": "belt", "problem": "Snapped timing belt", "ok": "no", "cost": "Engine replacement", "when": "Piston-valve contact means little is left to repair" },
+        { "icon": "gasket", "problem": "Head gasket failure", "ok": "yes", "cost": "£600–£1,200", "when": "Catch it early — straightforward repair on a well-maintained unit" },
+        { "icon": "pump", "problem": "Injection pump wear", "ok": "yes", "cost": "£400–£900", "when": "Specialist rebuild is routine; far cheaper than replacement" },
+        { "icon": "fuel", "problem": "Lift pump failure", "ok": "yes", "cost": "£100–£200", "when": "Simple DIY-friendly replacement" }
+      ],
+      "buy": [
+        { "icon": "belt", "text": "Documented timing belt change within the last 60k miles or 5 years" },
+        { "icon": "thermo", "text": "No signs of overheating or coolant loss (head gasket health)" },
+        { "icon": "smoke", "text": "Clean cold start with minimal smoke" },
+        { "icon": "calendar", "text": "A pre-1994 example with the 200Tdi — the last of the truly mechanical Defender diesels" }
+      ],
+      "avoid": [
+        { "icon": "belt", "text": "No timing belt history — assume it's overdue and budget £500–£800 immediately" },
+        { "icon": "thermo", "text": "Overheating history or a pressurised coolant system — head gasket may be failing" },
+        { "icon": "smoke", "text": "Hard starting or significant black smoke — injection pump may be worn" },
+        { "icon": "oil", "text": "Excessive oil leaks around the rear of the engine — could indicate rear main seal or more serious issues" }
+      ],
+      "verdict": "The **200Tdi** is often considered one of the most dependable engines ever fitted to a Defender — a **2.5-litre mechanical turbo-diesel** with **no ECU** and global parts availability. Its reputation is built on simplicity and torque, not refinement. The rubber timing belt is its one real vulnerability — maintain that and the **200Tdi** will outlast the chassis around it."
+    },
+    "300tdi": {
+      "intro": "is a proven, simple turbo-diesel and one of the most popular engines in classic Land Rovers",
+      "repair": [
+        { "icon": "belt", "problem": "Timing belt & backplate (preventative)", "ok": "yes", "cost": "£650–£950", "when": "Every 60k miles or 5 years — fit the uprated backplate" },
+        { "icon": "belt", "problem": "Snapped timing belt", "ok": "no", "cost": "Engine replacement", "when": "Valve damage usually makes a rebuild or replacement the only option" },
+        { "icon": "gasket", "problem": "Head gasket failure", "ok": "yes", "cost": "£600–£1,200", "when": "Worth repairing if the head isn't cracked" },
+        { "icon": "pump", "problem": "Injection pump leaks", "ok": "yes", "cost": "£400–£750", "when": "Reseal is routine and inexpensive" },
+        { "icon": "coolant", "problem": "Cooling system / viscous fan", "ok": "yes", "cost": "£150–£500", "when": "Cheap insurance against head damage" }
+      ],
+      "buy": [
+        { "icon": "belt", "text": "Timing belt and backplate replaced within the last 60k miles or 5 years" },
+        { "icon": "thermo", "text": "Temperature stays steady when towing or in traffic" },
+        { "icon": "smoke", "text": "Starts cleanly hot and cold with little smoke" },
+        { "icon": "doc", "text": "Service history showing regular oil and filter changes" }
+      ],
+      "avoid": [
+        { "icon": "belt", "text": "No timing belt history — budget £650–£950 straight away" },
+        { "icon": "thermo", "text": "Signs of overheating or coolant loss — possible head or gasket damage" },
+        { "icon": "pump", "text": "Diesel leaks around the injection pump" },
+        { "icon": "oil", "text": "Heavy oil leaks or oil in the coolant" }
+      ],
+      "verdict": "The **300Tdi** is a robust, **fully mechanical 2.5-litre turbo-diesel** that is easy to work on and well supported with parts. Keep the **timing belt and backplate** on schedule and the cooling system healthy, and it will reward you with very long service life."
+    },
+    "td5": {
+      "intro": "is a strong five-cylinder diesel with real character, but it rewards owners who know its weak points",
+      "repair": [
+        { "icon": "oil", "problem": "Injector loom oil leak", "ok": "yes", "cost": "£250–£450", "when": "Fix early before oil reaches the ECU" },
+        { "icon": "gasket", "problem": "Cracked cylinder head", "ok": "yes", "cost": "£900–£1,400", "when": "Worth it if the bottom end is healthy" },
+        { "icon": "bearing", "problem": "Oil pump bolt failure", "ok": "partial", "cost": "£300–£500 (if caught)", "when": "Preventative fix is cheap; a seized engine is not" },
+        { "icon": "pump", "problem": "Fuel pressure regulator leak", "ok": "yes", "cost": "£80–£200", "when": "Simple repair — fix it and move on" },
+        { "icon": "bearing", "problem": "Seized engine (oil starvation)", "ok": "no", "cost": "Engine replacement", "when": "Crank and bearing damage means rebuild or replace" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Evidence the injector loom and seals have been replaced" },
+        { "icon": "thermo", "text": "Steady temperature and no unexplained coolant loss" },
+        { "icon": "smoke", "text": "Smooth idle with no misfire or limp mode" },
+        { "icon": "wrench", "text": "Oil pump bolt fix done by a specialist" }
+      ],
+      "avoid": [
+        { "icon": "oil", "text": "Oil in the injector loom plug or ECU connector" },
+        { "icon": "gasket", "text": "Mayonnaise under the oil cap — possible cracked head" },
+        { "icon": "spark", "text": "Misfires or repeated limp mode" },
+        { "icon": "bearing", "text": "Knocking or low oil pressure warnings" }
+      ],
+      "verdict": "The **Td5** is a tough **2.5-litre five-cylinder diesel** with plenty of torque. Its known issues — the **injector loom, cylinder head and oil pump bolt** — are well understood and fixable. Buy one with evidence of that work and it can be very long-lived."
+    },
+    "m47": {
+      "intro": "is a capable BMW-sourced diesel, provided the turbo and intake are looked after",
+      "repair": [
+        { "icon": "turbo", "problem": "Turbocharger failure", "ok": "yes", "cost": "£700–£1,200", "when": "Replace before debris reaches the engine" },
+        { "icon": "filter", "problem": "EGR & intake carbon", "ok": "yes", "cost": "£300–£600", "when": "Cleaning restores performance cheaply" },
+        { "icon": "chain", "problem": "Timing chain wear", "ok": "yes", "cost": "£900–£1,500", "when": "Fix at the first cold-start rattle" },
+        { "icon": "spark", "problem": "Glow plug faults", "ok": "yes", "cost": "£150–£300", "when": "Routine repair for hard cold starts" },
+        { "icon": "bearing", "problem": "Bearing failure", "ok": "no", "cost": "Engine replacement", "when": "Usually rebuild or replace once knocking" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Regular oil changes with the correct specification" },
+        { "icon": "turbo", "text": "Smooth boost with no whistle or blue smoke" },
+        { "icon": "smoke", "text": "Clean exhaust once warm" },
+        { "icon": "chain", "text": "No rattle on a cold start" }
+      ],
+      "avoid": [
+        { "icon": "turbo", "text": "Whistling turbo or oil in the intercooler pipes" },
+        { "icon": "smoke", "text": "Blue or heavy black smoke" },
+        { "icon": "chain", "text": "Cold-start rattle from the timing chain" },
+        { "icon": "spark", "text": "Limp mode or boost fault codes" }
+      ],
+      "verdict": "The **M47 2.0 diesel** is a strong, economical unit. Look after the **turbo, intake and oil** and it is a dependable choice; neglect them and turbo or bearing failure become expensive quickly."
+    },
+    "kseries": {
+      "intro": "is a light, lively petrol engine — but one that is very intolerant of overheating",
+      "repair": [
+        { "icon": "gasket", "problem": "Head gasket failure", "ok": "yes", "cost": "£500–£850", "when": "Fit an MLS gasket and steel dowels" },
+        { "icon": "coolant", "problem": "Coolant leaks / thermostat", "ok": "yes", "cost": "£200–£450", "when": "Fix immediately to protect the head" },
+        { "icon": "belt", "problem": "Timing belt due", "ok": "yes", "cost": "£350–£550", "when": "Every 60k miles or 5 years" },
+        { "icon": "gasket", "problem": "Slipped cylinder liners", "ok": "no", "cost": "Engine replacement", "when": "Usually not economical to repair" },
+        { "icon": "spark", "problem": "Misfire / coil faults", "ok": "yes", "cost": "£100–£250", "when": "Simple fix" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Head gasket already upgraded to MLS with steel dowels" },
+        { "icon": "thermo", "text": "Temperature gauge rock-steady" },
+        { "icon": "coolant", "text": "Coolant clean and at the correct level" },
+        { "icon": "belt", "text": "Timing belt changed on schedule" }
+      ],
+      "avoid": [
+        { "icon": "coolant", "text": "Unexplained coolant loss" },
+        { "icon": "gasket", "text": "Mayonnaise under the oil cap" },
+        { "icon": "thermo", "text": "Any history of overheating" },
+        { "icon": "smoke", "text": "White exhaust smoke once warm" }
+      ],
+      "verdict": "The **1.8 K-Series** is light and willing, but its **head gasket and cooling system** are its weak points. With an **upgraded gasket** and a healthy cooling system it is perfectly usable — buy on condition and history, never on price alone."
+    },
+    "kv6": {
+      "intro": "is a smooth V6 petrol whose life depends almost entirely on its cooling system and timing belts",
+      "repair": [
+        { "icon": "coolant", "problem": "Coolant pipe & expansion tank leaks", "ok": "yes", "cost": "£300–£600", "when": "Fix at the first sign of loss" },
+        { "icon": "belt", "problem": "Timing belts due", "ok": "yes", "cost": "£800–£1,200", "when": "Replace both belts and tensioners together" },
+        { "icon": "gasket", "problem": "Head gasket failure", "ok": "yes", "cost": "£900–£1,400", "when": "Worth it if the heads aren't warped" },
+        { "icon": "belt", "problem": "Snapped timing belt", "ok": "no", "cost": "Engine replacement", "when": "Valve damage is likely" },
+        { "icon": "oil", "problem": "Oil leaks", "ok": "yes", "cost": "£200–£500", "when": "Usually gaskets and seals" }
+      ],
+      "buy": [
+        { "icon": "belt", "text": "Proof of timing belt replacement on schedule" },
+        { "icon": "coolant", "text": "Cooling pipes and expansion tank recently replaced" },
+        { "icon": "thermo", "text": "Stable temperature in traffic" },
+        { "icon": "doc", "text": "Full service history" }
+      ],
+      "avoid": [
+        { "icon": "belt", "text": "No timing belt history — budget £800–£1,200 immediately" },
+        { "icon": "coolant", "text": "Coolant loss or a sweet smell from the engine bay" },
+        { "icon": "smoke", "text": "White smoke or misfires" },
+        { "icon": "thermo", "text": "Any sign of overheating" }
+      ],
+      "verdict": "The **2.5 V6** is smooth and refined, but it is **unforgiving of cooling-system neglect**. Buy one with **belt and cooling history** and it is a pleasant engine; without it, budget for that work before anything else."
+    },
+    "aj41": {
+      "intro": "is a classic Rover V8 with a great sound, but liner and overheating issues need careful checking",
+      "repair": [
+        { "icon": "coolant", "problem": "Overheating / radiator", "ok": "yes", "cost": "£300–£700", "when": "Essential to protect the liners" },
+        { "icon": "gasket", "problem": "Head gasket failure", "ok": "yes", "cost": "£800–£1,300", "when": "Worth it if liners are sound" },
+        { "icon": "gasket", "problem": "Slipped or cracked liners", "ok": "partial", "cost": "£2,200–£3,200", "when": "Top-hat re-liner during a rebuild" },
+        { "icon": "oil", "problem": "Oil leaks", "ok": "yes", "cost": "£250–£900", "when": "Gaskets and rear main seal" },
+        { "icon": "bearing", "problem": "Severe block damage", "ok": "no", "cost": "Engine replacement", "when": "When the block is beyond re-sleeving" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Evidence of top-hat liners or a recent rebuild" },
+        { "icon": "thermo", "text": "Steady temperature even when towing" },
+        { "icon": "coolant", "text": "No coolant loss and no pressurised hoses when cold" },
+        { "icon": "smoke", "text": "Smooth idle with no misfire" }
+      ],
+      "avoid": [
+        { "icon": "coolant", "text": "Coolant loss or hoses that are hard when the engine is cold" },
+        { "icon": "spark", "text": "Misfire on one bank" },
+        { "icon": "thermo", "text": "Overheating history" },
+        { "icon": "smoke", "text": "White exhaust smoke" }
+      ],
+      "verdict": "The **4.0 Rover V8** delivers a great sound and smooth power, but **liner slip** is its real risk. Look for evidence of **top-hat liners** or a quality rebuild, and keep the cooling system perfect."
+    },
+    "ajv6": {
+      "intro": "is a strong supercharged petrol V6 that is refined and quick, with a few well-known cooling and drive issues",
+      "repair": [
+        { "icon": "coolant", "problem": "Water pump & coolant pipes", "ok": "yes", "cost": "£500–£900", "when": "Fix early to protect the heads" },
+        { "icon": "turbo", "problem": "Supercharger isolator rattle", "ok": "yes", "cost": "£700–£1,100", "when": "Routine fix" },
+        { "icon": "chain", "problem": "Timing chain & tensioners", "ok": "yes", "cost": "£1,500–£2,200", "when": "At the first sign of rattle" },
+        { "icon": "spark", "problem": "Coil / plug misfires", "ok": "yes", "cost": "£200–£450", "when": "Simple fix" },
+        { "icon": "bearing", "problem": "Bearing / crank failure", "ok": "no", "cost": "Engine replacement", "when": "Rebuild or replace" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Full main dealer or specialist history" },
+        { "icon": "coolant", "text": "Water pump replaced or no coolant loss" },
+        { "icon": "chain", "text": "No cold-start rattle" },
+        { "icon": "thermo", "text": "Stable temperature" }
+      ],
+      "avoid": [
+        { "icon": "coolant", "text": "Coolant loss or coolant smell" },
+        { "icon": "turbo", "text": "Idle rattle from the supercharger" },
+        { "icon": "chain", "text": "Timing chain noise on start-up" },
+        { "icon": "spark", "text": "Engine warning lights or misfires" }
+      ],
+      "verdict": "The **3.0 supercharged V6** is fast and refined. Its known issues — **cooling, supercharger isolator and timing chain** — are well understood. Buy with history and it is a strong engine."
+    },
+    "tdv6": {
+      "intro": "is a smooth, torquey V6 diesel — but crankshaft failure makes history and condition critical",
+      "repair": [
+        { "icon": "belt", "problem": "Timing & fuel pump belts due", "ok": "yes", "cost": "£900–£1,400", "when": "Replace both belts at the interval" },
+        { "icon": "turbo", "problem": "Turbo failure", "ok": "yes", "cost": "£1,200–£2,000", "when": "Worth it if the engine is healthy" },
+        { "icon": "filter", "problem": "EGR / DPF faults", "ok": "yes", "cost": "£300–£1,200", "when": "Clean or replace components" },
+        { "icon": "bearing", "problem": "Crankshaft / bearing failure", "ok": "no", "cost": "Engine rebuild or replacement", "when": "Engine-out repair; rebuild often best value" },
+        { "icon": "oil", "problem": "Oil cooler leaks", "ok": "yes", "cost": "£500–£900", "when": "Fix to prevent cross-contamination" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Oil changed every 8,000–10,000 miles" },
+        { "icon": "belt", "text": "Timing and fuel pump belts replaced on schedule" },
+        { "icon": "bearing", "text": "No knocking from the bottom end" },
+        { "icon": "turbo", "text": "Smooth boost with no limp mode" }
+      ],
+      "avoid": [
+        { "icon": "bearing", "text": "Any knocking or low oil pressure warning" },
+        { "icon": "doc", "text": "Gaps in service history or long oil-change intervals" },
+        { "icon": "turbo", "text": "Limp mode or boost faults" },
+        { "icon": "oil", "text": "Oil in the coolant or coolant in the oil" }
+      ],
+      "verdict": "The **3.0 TDV6/SDV6** is smooth and powerful, but **crankshaft failure** is its big risk. Buy only with **frequent oil changes** on record — and if the crank has gone, a **quality rebuild** is usually better value than a used engine."
+    },
+    "tdv8": {
+      "intro": "is a hugely torquey V8 diesel, but repair costs reflect its complexity",
+      "repair": [
+        { "icon": "turbo", "problem": "Turbo failure", "ok": "yes", "cost": "£1,800–£3,000", "when": "Worth it if the engine is sound" },
+        { "icon": "oil", "problem": "Oil cooler & coolant leaks", "ok": "yes", "cost": "£800–£1,500", "when": "Fix early" },
+        { "icon": "filter", "problem": "EGR / DPF faults", "ok": "yes", "cost": "£400–£1,500", "when": "Clean or replace" },
+        { "icon": "bearing", "problem": "Bearing / crank damage", "ok": "no", "cost": "Engine rebuild or replacement", "when": "Engine-out work" },
+        { "icon": "spark", "problem": "Glow plugs / sensors", "ok": "yes", "cost": "£200–£600", "when": "Routine" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Comprehensive service history" },
+        { "icon": "turbo", "text": "Strong, smooth boost" },
+        { "icon": "coolant", "text": "No coolant loss" },
+        { "icon": "bearing", "text": "Quiet bottom end" }
+      ],
+      "avoid": [
+        { "icon": "turbo", "text": "Smoke or whistling turbos" },
+        { "icon": "coolant", "text": "Coolant loss or oil contamination" },
+        { "icon": "bearing", "text": "Knocking or low oil pressure" },
+        { "icon": "doc", "text": "Patchy history" }
+      ],
+      "verdict": "The **4.4 TDV8/SDV8** offers enormous torque and refinement, but its **turbos, cooling and bottom end** are expensive to fix. Buy with full history and budget sensibly for maintenance."
+    },
+    "duratorq": {
+      "intro": "is an economical Ford-derived diesel that is reliable if its DPF and timing belt are looked after",
+      "repair": [
+        { "icon": "filter", "problem": "DPF blockage", "ok": "yes", "cost": "£300–£800", "when": "Clean before it fully blocks" },
+        { "icon": "belt", "problem": "Timing belt due", "ok": "yes", "cost": "£500–£800", "when": "Replace with the water pump" },
+        { "icon": "bearing", "problem": "Crank pulley failure", "ok": "yes", "cost": "£250–£450", "when": "Replace preventatively" },
+        { "icon": "turbo", "problem": "Turbo failure", "ok": "yes", "cost": "£800–£1,300", "when": "Worth it if the engine is sound" },
+        { "icon": "belt", "problem": "Snapped timing belt", "ok": "no", "cost": "Engine replacement", "when": "Valve damage" }
+      ],
+      "buy": [
+        { "icon": "belt", "text": "Timing belt changed on schedule" },
+        { "icon": "doc", "text": "Mix of long and short journeys in its history" },
+        { "icon": "filter", "text": "No DPF warnings" },
+        { "icon": "smoke", "text": "Clean exhaust" }
+      ],
+      "avoid": [
+        { "icon": "filter", "text": "DPF warning light or limp mode" },
+        { "icon": "oil", "text": "Rising oil level (diesel dilution)" },
+        { "icon": "belt", "text": "Unknown timing belt history" },
+        { "icon": "bearing", "text": "Vibration from the crank pulley" }
+      ],
+      "verdict": "The **2.2 Duratorq** is economical and generally reliable. Keep the **DPF and timing belt** in order and it is a sensible, low-cost engine to own."
+    },
+    "ecoboost": {
+      "intro": "is a punchy turbocharged petrol engine with a handful of known cooling and turbo issues",
+      "repair": [
+        { "icon": "coolant", "problem": "Coolant loss / overheating", "ok": "yes", "cost": "£300–£650", "when": "Fix immediately" },
+        { "icon": "turbo", "problem": "Wastegate rattle", "ok": "yes", "cost": "£400–£900", "when": "Repair the actuator" },
+        { "icon": "filter", "problem": "Carbon build-up", "ok": "yes", "cost": "£350–£600", "when": "Walnut blast cleaning" },
+        { "icon": "spark", "problem": "Misfires", "ok": "yes", "cost": "£150–£400", "when": "Coils and plugs" },
+        { "icon": "gasket", "problem": "Cracked head (overheated)", "ok": "no", "cost": "Engine replacement", "when": "When heat damage is severe" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Full service history" },
+        { "icon": "coolant", "text": "No coolant loss" },
+        { "icon": "turbo", "text": "Smooth, quiet boost" },
+        { "icon": "thermo", "text": "Stable temperature" }
+      ],
+      "avoid": [
+        { "icon": "coolant", "text": "Low coolant warnings" },
+        { "icon": "turbo", "text": "Turbo rattle or boost faults" },
+        { "icon": "spark", "text": "Misfires or warning lights" },
+        { "icon": "thermo", "text": "Any overheating history" }
+      ],
+      "verdict": "The **2.0 EcoBoost** is quick and refined. Watch the **cooling system** closely and it is a capable engine — overheating is the one thing it does not forgive."
+    },
+    "aj200d": {
+      "intro": "is an efficient modern Ingenium diesel, but its rear-mounted timing chain needs careful attention",
+      "repair": [
+        { "icon": "chain", "problem": "Timing chain stretch", "ok": "yes", "cost": "£1,800–£2,800", "when": "Fix at the first start-up rattle" },
+        { "icon": "filter", "problem": "DPF & EGR clogging", "ok": "yes", "cost": "£400–£1,200", "when": "Clean or replace components" },
+        { "icon": "turbo", "problem": "Turbo faults", "ok": "yes", "cost": "£900–£1,600", "when": "Worth it if the engine is sound" },
+        { "icon": "bearing", "problem": "Bearing failure", "ok": "no", "cost": "Engine rebuild or replacement", "when": "Engine-out work" },
+        { "icon": "chain", "problem": "Jumped timing chain", "ok": "no", "cost": "Engine replacement", "when": "Valve damage is likely" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Oil changed on time with the correct low-SAPS spec" },
+        { "icon": "chain", "text": "No rattle on a cold start" },
+        { "icon": "filter", "text": "No DPF warnings" },
+        { "icon": "calendar", "text": "Any timing chain recall or update work completed" }
+      ],
+      "avoid": [
+        { "icon": "chain", "text": "Rattle on start-up" },
+        { "icon": "oil", "text": "Oil level rising between services (fuel dilution)" },
+        { "icon": "filter", "text": "Repeated DPF warnings" },
+        { "icon": "doc", "text": "Missed or late services" }
+      ],
+      "verdict": "The **2.0 Ingenium diesel** is efficient and refined, but the **timing chain** is its weak point. Buy only with **on-time servicing** and investigate any rattle immediately — early action is far cheaper than a replacement engine."
+    },
+    "aj200p": {
+      "intro": "is a strong, modern Ingenium petrol engine with a timing chain that needs watching",
+      "repair": [
+        { "icon": "chain", "problem": "Timing chain stretch", "ok": "yes", "cost": "£1,500–£2,500", "when": "Fix at the first rattle" },
+        { "icon": "coolant", "problem": "Water pump leaks", "ok": "yes", "cost": "£400–£800", "when": "Fix early" },
+        { "icon": "turbo", "problem": "Wastegate / turbo faults", "ok": "yes", "cost": "£600–£1,400", "when": "Often actuator only" },
+        { "icon": "spark", "problem": "Misfires", "ok": "yes", "cost": "£150–£400", "when": "Coils and plugs" },
+        { "icon": "chain", "problem": "Jumped timing chain", "ok": "no", "cost": "Engine replacement", "when": "Valve damage is likely" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Full service history with the correct oil" },
+        { "icon": "chain", "text": "No start-up rattle" },
+        { "icon": "coolant", "text": "No coolant loss" },
+        { "icon": "turbo", "text": "Smooth boost" }
+      ],
+      "avoid": [
+        { "icon": "chain", "text": "Timing chain rattle" },
+        { "icon": "coolant", "text": "Low coolant warnings" },
+        { "icon": "spark", "text": "Misfires or engine warning lights" },
+        { "icon": "doc", "text": "Patchy service history" }
+      ],
+      "verdict": "The **2.0 Ingenium petrol** is punchy and smooth. Keep on top of **servicing and the timing chain** and it is a good engine — most expensive failures start as ignored warning signs."
+    },
+    "i3phev": {
+      "intro": "pairs a small turbo petrol with hybrid power, so diagnosis matters more than ever",
+      "repair": [
+        { "icon": "coolant", "problem": "Cooling system faults", "ok": "yes", "cost": "£300–£700", "when": "Diagnose promptly" },
+        { "icon": "spark", "problem": "Misfires", "ok": "yes", "cost": "£200–£450", "when": "Coils and plugs" },
+        { "icon": "bolt", "problem": "Hybrid system faults", "ok": "partial", "cost": "£150–£600", "when": "Often software or sensors" },
+        { "icon": "turbo", "problem": "Turbo faults", "ok": "yes", "cost": "£700–£1,300", "when": "Worth it if the engine is sound" },
+        { "icon": "bearing", "problem": "Internal engine failure", "ok": "no", "cost": "Engine replacement", "when": "Rebuild or replace" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Dealer or specialist service history" },
+        { "icon": "bolt", "text": "EV mode working normally" },
+        { "icon": "coolant", "text": "No cooling warnings" },
+        { "icon": "smoke", "text": "Smooth running" }
+      ],
+      "avoid": [
+        { "icon": "bolt", "text": "Hybrid system warnings" },
+        { "icon": "coolant", "text": "Cooling faults or warnings" },
+        { "icon": "spark", "text": "Juddering under load" },
+        { "icon": "doc", "text": "Missing software updates" }
+      ],
+      "verdict": "The **1.5 PHEV** is efficient, but hybrid faults can mimic engine problems. Always get a **full diagnostic** before agreeing to engine work."
+    },
+    "aj300d": {
+      "intro": "is a powerful, refined six-cylinder Ingenium diesel with mild-hybrid assistance",
+      "repair": [
+        { "icon": "filter", "problem": "DPF & EGR clogging", "ok": "yes", "cost": "£500–£1,500", "when": "Clean or replace components" },
+        { "icon": "chain", "problem": "Timing chain wear", "ok": "yes", "cost": "£2,500–£3,800", "when": "At the first rattle" },
+        { "icon": "bolt", "problem": "48V mild-hybrid faults", "ok": "yes", "cost": "£300–£1,500", "when": "Diagnose first" },
+        { "icon": "bearing", "problem": "Bearing failure", "ok": "no", "cost": "Engine rebuild or replacement", "when": "Engine-out work" },
+        { "icon": "turbo", "problem": "Turbo faults", "ok": "yes", "cost": "£1,200–£2,200", "when": "Worth it if the engine is sound" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Full dealer or specialist history" },
+        { "icon": "oil", "text": "Oil level stable between services" },
+        { "icon": "filter", "text": "No DPF warnings" },
+        { "icon": "chain", "text": "Quiet cold start" }
+      ],
+      "avoid": [
+        { "icon": "oil", "text": "Rising oil level (fuel dilution)" },
+        { "icon": "filter", "text": "Repeated DPF warnings" },
+        { "icon": "chain", "text": "Timing chain rattle" },
+        { "icon": "bearing", "text": "Knocking or low oil pressure" }
+      ],
+      "verdict": "The **3.0 Ingenium six-cylinder diesel** is smooth and powerful. Its risks are **DPF-related oil dilution and timing chain wear** — buy with history and act early on warning signs."
+    },
+    "aj300p": {
+      "intro": "is a smooth, powerful six-cylinder Ingenium petrol with mild-hybrid or plug-in assistance",
+      "repair": [
+        { "icon": "chain", "problem": "Timing chain wear", "ok": "yes", "cost": "£2,200–£3,500", "when": "At the first rattle" },
+        { "icon": "bolt", "problem": "48V / eSupercharger faults", "ok": "yes", "cost": "£300–£1,500", "when": "Diagnose first" },
+        { "icon": "coolant", "problem": "Coolant leaks", "ok": "yes", "cost": "£500–£1,000", "when": "Fix early" },
+        { "icon": "spark", "problem": "Misfires", "ok": "yes", "cost": "£200–£500", "when": "Coils and plugs" },
+        { "icon": "bearing", "problem": "Internal engine failure", "ok": "no", "cost": "Engine rebuild or replacement", "when": "Engine-out work" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Full dealer or specialist history" },
+        { "icon": "chain", "text": "Quiet cold start" },
+        { "icon": "coolant", "text": "No coolant loss" },
+        { "icon": "bolt", "text": "No hybrid warnings" }
+      ],
+      "avoid": [
+        { "icon": "chain", "text": "Timing chain rattle" },
+        { "icon": "bolt", "text": "Hybrid system warnings" },
+        { "icon": "coolant", "text": "Coolant loss" },
+        { "icon": "spark", "text": "Misfires" }
+      ],
+      "verdict": "The **3.0 Ingenium six-cylinder petrol** is refined and quick. Most issues are **hybrid-system or cooling related** and fixable — get a full diagnostic before assuming the worst."
+    },
+    "aj133": {
+      "intro": "is the legendary 5.0 supercharged V8 — thrilling, but expensive when neglected",
+      "repair": [
+        { "icon": "chain", "problem": "Timing chain tensioners", "ok": "yes", "cost": "£2,000–£3,200", "when": "Fit updated parts at the first rattle" },
+        { "icon": "coolant", "problem": "Water pump failure", "ok": "yes", "cost": "£600–£1,000", "when": "Replace preventatively" },
+        { "icon": "turbo", "problem": "Supercharger isolator", "ok": "yes", "cost": "£800–£1,300", "when": "Routine fix" },
+        { "icon": "spark", "problem": "Misfires", "ok": "yes", "cost": "£300–£700", "when": "Coils and plugs" },
+        { "icon": "chain", "problem": "Jumped timing chain", "ok": "no", "cost": "Engine replacement", "when": "Major valve damage" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Full history with timing chain update completed" },
+        { "icon": "coolant", "text": "Water pump replaced" },
+        { "icon": "chain", "text": "Quiet cold start" },
+        { "icon": "thermo", "text": "Stable temperature" }
+      ],
+      "avoid": [
+        { "icon": "chain", "text": "Rattle on start-up" },
+        { "icon": "coolant", "text": "Coolant loss" },
+        { "icon": "turbo", "text": "Supercharger noise" },
+        { "icon": "doc", "text": "Patchy history" }
+      ],
+      "verdict": "The **5.0 supercharged V8** is magnificent, but its **timing chain and water pump** need attention. Buy one with these updates done and it is a deeply rewarding engine."
+    },
+    "n63": {
+      "intro": "is a powerful BMW-sourced twin-turbo V8 that rewards meticulous maintenance",
+      "repair": [
+        { "icon": "oil", "problem": "Oil consumption / valve seals", "ok": "yes", "cost": "£2,500–£4,000", "when": "When consumption becomes excessive" },
+        { "icon": "chain", "problem": "Timing chain stretch", "ok": "yes", "cost": "£3,500–£5,000", "when": "At the first rattle" },
+        { "icon": "turbo", "problem": "Hot-vee leaks / turbos", "ok": "yes", "cost": "£1,500–£4,000", "when": "Fix early" },
+        { "icon": "spark", "problem": "Injectors / coils", "ok": "yes", "cost": "£400–£1,200", "when": "Routine" },
+        { "icon": "bearing", "problem": "Bearing failure", "ok": "no", "cost": "Engine replacement", "when": "Rebuild or replace" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Short oil-change intervals on record" },
+        { "icon": "oil", "text": "Low oil consumption" },
+        { "icon": "chain", "text": "Quiet cold start" },
+        { "icon": "turbo", "text": "No coolant or oil leaks in the hot-vee" }
+      ],
+      "avoid": [
+        { "icon": "smoke", "text": "Blue smoke on start-up" },
+        { "icon": "oil", "text": "Frequent oil top-ups" },
+        { "icon": "chain", "text": "Timing chain rattle" },
+        { "icon": "coolant", "text": "Coolant loss or burning smells" }
+      ],
+      "verdict": "The **4.4 twin-turbo V8** is hugely powerful, but **oil consumption and hot-vee heat** are its weak spots. Buy with **meticulous history** and budget accordingly."
+    },
+    "s68": {
+      "intro": "is the newest BMW-sourced twin-turbo V8 — still young, so prevention matters most",
+      "repair": [
+        { "icon": "turbo", "problem": "Hot-vee hose wear", "ok": "yes", "cost": "£1,500–£4,000", "when": "Inspect at every service" },
+        { "icon": "bolt", "problem": "48V mild-hybrid faults", "ok": "yes", "cost": "£300–£1,500", "when": "Diagnose first" },
+        { "icon": "spark", "problem": "Coils / plugs", "ok": "yes", "cost": "£400–£900", "when": "Routine" },
+        { "icon": "oil", "problem": "Oil leaks", "ok": "yes", "cost": "£500–£1,500", "when": "Fix early" },
+        { "icon": "bearing", "problem": "Internal engine failure", "ok": "no", "cost": "Engine replacement", "when": "Rebuild or replace" }
+      ],
+      "buy": [
+        { "icon": "doc", "text": "Full main dealer service history" },
+        { "icon": "calendar", "text": "Remaining manufacturer warranty" },
+        { "icon": "bolt", "text": "No hybrid warnings" },
+        { "icon": "oil", "text": "No leaks or excessive oil consumption" }
+      ],
+      "avoid": [
+        { "icon": "doc", "text": "Missed services" },
+        { "icon": "bolt", "text": "Hybrid system warnings" },
+        { "icon": "coolant", "text": "Coolant loss" },
+        { "icon": "smoke", "text": "Smoke on start-up" }
+      ],
+      "verdict": "The **4.4 S68 twin-turbo V8** is still a young engine with **few proven failure patterns**. Prioritise **main dealer history** and remaining warranty, and keep servicing ahead of schedule."
+    }
+  }
+}

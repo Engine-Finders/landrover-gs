@@ -925,3 +925,17 @@ body {
     animation: none !important;
   }
 }
+
+/* Variant hero ticker: auto-scrolls on mobile (list is rendered twice), static row on lg+. */
+@keyframes hero-ticker {
+  to { transform: translateX(-50%); }
+}
+.hero-ticker {
+  animation: hero-ticker 28s linear infinite;
+}
+@media (min-width: 1024px) {
+  .hero-ticker { animation: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-ticker { animation: none; overflow-x: auto; }
+}

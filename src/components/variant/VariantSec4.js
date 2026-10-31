@@ -1,167 +1,245 @@
 import Image from "next/image";
-import Icon from "@/components/reusable/Icon";
-import ClampedText from "@/components/reusable/ClampedText";
-import QuoteLink from "@/components/shared/QuoteLink";
+import verdicts from "@/data/shared/engineVerdict.json";
+import VIcon from "@/components/variant/VariantIcons";
+import { deriveVariant } from "@/lib/variantInfo";
 
-export default function VariantSec4({ data }) {
+// Section 4: "Repair, Buy, or Replace?" - repairability table, buy/avoid checklist, closing
+// verdict and compare CTA. Content comes from engineVerdict.json for the variant's engine family.
+
+const GREEN = "#8fb35a";
+const GOLD = "#c9a24a";
+const SERIF = { fontFamily: "var(--font-serif-display), Georgia, 'Times New Roman', serif" };
+
+const STATUS = {
+  yes: { label: "Yes", color: "#7fbf5a", mark: "check" },
+  partial: { label: "Sometimes", color: "#e3b04b", mark: "check" },
+  no: { label: "Usually No", color: "#ef5b4f", mark: "cross" },
+};
+
+// renders **text** spans in green
+function Rich({ text }) {
+  return text.split(/\*\*(.+?)\*\*/g).map((part, i) =>
+    i % 2 ? <span key={i} style={{ color: GREEN }}>{part}</span> : part,
+  );
+}
+
+function StatusMark({ ok, className = "" }) {
+  const s = STATUS[ok] || STATUS.yes;
   return (
-    <section className="theme-light relative overflow-hidden">
-      {/* ===== mobile ===== */}
-      <div className="relative md:hidden">
-        <div className="relative h-40 w-full overflow-hidden">
-          <Image src={data.topImage} alt="Land Rover engine block" fill className="object-cover" sizes="100vw" />
-          <div
-            className="absolute inset-0"
-            style={{ background: "linear-gradient(to right, var(--theme-light-bg) 0%, var(--theme-light-bg) 62%, rgba(241,237,232,0.85) 72%, transparent 88%)" }}
-          />
-          <div className="relative z-10 p-4">
-            <h2 className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-              <span className="block text-[#101828]">{data.headlinePre}</span>{" "}
-              <span className="block text-hero-blue">{data.headlineHighlight}</span>
-            </h2>
-            <p className="mt-2 max-w-[60%] text-xs leading-snug text-[#101828]">{data.description}</p>
-          </div>
-        </div>
+    <span className={`inline-flex items-center gap-1.5 whitespace-nowrap font-medium ${className}`} style={{ color: ok === "no" ? s.color : undefined }}>
+      <span className="flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full" style={{ background: s.color }}>
+        <svg viewBox="0 0 24 24" className="h-3 w-3 text-[#0b0d0a]" fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          {s.mark === "check" ? <path d="m6 12.5 4 4 8-9" /> : <path d="M7 7l10 10M17 7 7 17" />}
+        </svg>
+      </span>
+      <span className={ok === "no" ? "" : "text-white"}>{s.label}</span>
+    </span>
+  );
+}
 
-        <div className="relative px-4 pb-10">
-          <div className="mt-5 grid grid-cols-2 gap-2.5">
-            {data.cards.map((c) => (
-              <div key={c.number} className="glass-card flex flex-col rounded-lg p-3">
-                <div className="flex items-center gap-2">
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-(--theme-light-bg)">
-                    <Icon name={c.icon} className="h-5 w-5 text-hero-blue" />
-                  </span>
-                  <div className="min-w-0">
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-xs font-extrabold text-hero-blue">{c.number}</span>
-                      {c.badge && (
-                        <span className="rounded-sm bg-hero-blue px-1.5 py-0.5 text-[7px] font-extrabold uppercase text-white">{c.badge}</span>
-                      )}
-                    </div>
-                  </div>
-                </div>
-                <p className="mt-2 text-xs font-extrabold uppercase leading-tight text-[#101828]">{c.title}</p>
-                <div className="mt-1.5"><ClampedText className="body-text leading-snug text-[#4a5568]">{c.body}</ClampedText></div>
-                <QuoteLink href="#quote-form" className="label-text mt-2 inline-flex w-fit items-center gap-1 font-bold text-hero-blue">
-                  {c.link || "Learn more"} <span aria-hidden>→</span>
-                </QuoteLink>
-              </div>
-            ))}
-          </div>
+function Card({ className = "", children }) {
+  return <div className={`rounded-xl border border-white/12 bg-[#0f130e]/90 backdrop-blur-sm ${className}`}>{children}</div>;
+}
 
-          <div className="glass-card relative mt-5 overflow-hidden rounded-2xl p-3">
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-16" aria-hidden="true">
-              <div
-                className="absolute inset-0"
-                style={{
-                  transform: "skewX(-20deg)",
-                  transformOrigin: "top left",
-                  background:
-                    "linear-gradient(90deg, var(--color-bmw-blue) 0%, var(--color-bmw-blue) 30%, var(--color-bmw-violet) 30%, var(--color-bmw-violet) 62%, var(--color-bmw-red) 62%, var(--color-bmw-red) 100%)",
-                  WebkitMaskImage: "linear-gradient(to bottom right, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 85%)",
-                  maskImage: "linear-gradient(to bottom right, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 85%)",
-                }}
-              />
-            </div>
+function CardTitle({ icon, children }) {
+  return (
+    <h3 className="flex items-center gap-3 text-[20px] leading-tight text-white md:text-[24px]" style={SERIF}>
+      <VIcon name={icon} className="h-6 w-6 shrink-0 md:h-7 md:w-7" style={{ color: GOLD }} />
+      {children}
+    </h3>
+  );
+}
 
-            <div className="relative z-10 pl-20">
-              <p className="text-sm font-extrabold uppercase leading-tight text-[#101828]">{data.banner.title}</p>
-              <p className="mt-1.5 text-xs leading-snug text-[#101828]">{data.banner.body}</p>
-              <QuoteLink
-                href={data.banner.cta.href}
-                className="btn-text mt-3 flex w-fit items-center justify-center gap-2 whitespace-nowrap rounded-sm bg-linear-to-br from-hero-blue to-hero-blue-dark px-4 py-2.5 uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
-              >
-                {data.banner.cta.label} <span aria-hidden>→</span>
-              </QuoteLink>
-            </div>
-          </div>
-        </div>
+function CheckList({ tone, title, items }) {
+  const good = tone === "buy";
+  const c = good
+    ? { border: "rgba(127,191,90,0.35)", bg: "linear-gradient(180deg, rgba(36,58,30,0.55) 0%, rgba(16,24,14,0.6) 100%)", head: "#7fbf5a", iconBg: "rgba(127,191,90,0.12)" }
+    : { border: "rgba(239,91,79,0.35)", bg: "linear-gradient(180deg, rgba(70,26,22,0.55) 0%, rgba(26,14,12,0.6) 100%)", head: "#ef5b4f", iconBg: "rgba(239,91,79,0.12)" };
+  return (
+    <div className="rounded-lg border p-3.5 md:p-4" style={{ borderColor: c.border, background: c.bg }}>
+      <p className="flex items-center gap-2.5 border-b border-white/10 pb-3 text-[19px] md:text-[21px]" style={{ ...SERIF, color: c.head }}>
+        <span className="relative flex h-7 w-7 shrink-0 items-center justify-center">
+          <svg viewBox="0 0 24 24" className="absolute inset-0 h-7 w-7" aria-hidden="true">
+            <path fill="currentColor" d="M12 2.5l8 3.3v6.3c0 5-3.4 8.4-8 10.4-4.6-2-8-5.4-8-10.4V5.8z" />
+          </svg>
+          <svg viewBox="0 0 24 24" className="relative h-3.5 w-3.5 text-[#0b0d0a]" fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            {good ? <path d="m6 12.5 4 4 8-9" /> : <path d="M7 7l10 10M17 7 7 17" />}
+          </svg>
+        </span>
+        {title}
+      </p>
+      <ul className="divide-y divide-white/10">
+        {items.map((it) => (
+          <li key={it.text} className="flex items-start gap-3 py-3 last:pb-0.5">
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full" style={{ background: c.iconBg, color: c.head }}>
+              <VIcon name={it.icon} className="h-[18px] w-[18px]" />
+            </span>
+            <p className="pt-1 text-[14px] leading-snug text-white/90 md:text-[14.5px]">{it.text}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default function VariantSec4({ sec1, sec2, sec3 }) {
+  const v = deriveVariant(sec1, sec2, sec3);
+  const d = verdicts.families[v.family];
+  if (!d) return null;
+  const label = v.model && v.model !== v.short ? v.model : "";
+
+  return (
+    <section className="theme-dark relative overflow-hidden bg-[#0b0d0a] text-white">
+      {/* backdrop */}
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-[620px] md:h-[520px]" aria-hidden="true">
+        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 55% 70% at 75% 25%, rgba(92,110,84,0.30) 0%, rgba(40,48,36,0.15) 50%, transparent 78%)" }} />
+        <svg className="absolute right-0 top-[18%] h-[50%] w-full opacity-75 lg:top-[8%] lg:h-[62%] lg:w-[60%]" viewBox="0 0 800 400" preserveAspectRatio="none">
+          <path d="M0 230 C120 140 220 100 340 130 S540 40 640 80 S760 120 800 100 V400 H0Z" fill="#161b15" />
+          <path d="M0 290 C150 230 270 215 390 235 S610 170 800 200 V400 H0Z" fill="#12160f" />
+          <path d="M0 340 C160 300 300 300 440 312 S660 282 800 292 V400 H0Z" fill="#1a160f" />
+        </svg>
+        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-b from-transparent to-[#0b0d0a]" />
       </div>
 
-      {/* ===== desktop ===== */}
-      <div className="relative hidden md:block">
-        <div className="relative h-64 w-full overflow-hidden bg-[#e6eade] lg:h-72">
-          <div className="absolute inset-y-0 left-[24%] right-0">
-            <Image src={data.topImage} alt="Land Rover engine block" fill className="object-cover" sizes="100vw" />
+      <div className="relative mx-auto max-w-[90rem] border-t border-white/10 px-4 pb-10 pt-10 sm:px-6 md:pb-14 md:pt-14 lg:px-10 xl:px-14">
+        {/* ---------- header ---------- */}
+        <div className="grid items-center gap-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)] lg:gap-10">
+          <div>
+            <span className="block h-0.5 w-14 md:w-20" style={{ background: GOLD }} aria-hidden="true" />
+            <h2 className="mt-4 text-[32px] leading-[1.08] tracking-[-0.01em] text-white sm:text-[42px] md:mt-5 lg:text-[52px] xl:text-[58px]" style={SERIF}>
+              {label} <span style={{ color: GREEN }}>{v.short}</span> —<br />
+              Repair, Buy, or Replace?
+            </h2>
+            <p className="mt-3.5 max-w-[540px] text-[15px] leading-[1.65] text-white/85 md:mt-5 md:text-[17px]">
+              The {v.short} {d.intro}. Use clear data, repair reality, and honest buying guidance before you commit.
+            </p>
           </div>
-
-          <div className="relative z-10 mx-auto flex h-full max-w-[76rem] items-center px-4 sm:px-6 lg:px-8">
-            <div className="max-w-lg">
-              <div role="heading" aria-level="2" className="h2 origin-left scale-y-110 scale-x-90 uppercase">
-                <span className="block text-[#101828]">{data.headlinePre}</span>{" "}
-                <span className="block text-hero-blue">{data.headlineHighlight}</span>
+          {v.carImage && (
+            <div className="relative flex justify-center lg:justify-end" aria-hidden="true">
+              <div className="relative w-[82%] max-w-[380px] sm:max-w-[440px] lg:w-full lg:max-w-[560px]">
+                <div className="absolute inset-x-[10%] bottom-[1%] h-[12%] rounded-[50%] bg-black/85 blur-xl" />
+                <Image src={v.carImage} alt="" width={633} height={419} sizes="(min-width: 1024px) 40vw, 82vw" className="relative h-auto w-full drop-shadow-[0_24px_30px_rgba(0,0,0,0.6)]" />
               </div>
-              <p className="mt-3 text-sm text-[#101828] lg:text-base">{data.description}</p>
             </div>
-          </div>
+          )}
         </div>
 
-        <div className="relative px-4 pb-10 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-6xl">
-            <div className="grid grid-cols-3 gap-3">
-              {data.cards.map((c) => (
-                <div
-                  key={c.number}
-                  className="glass-card flex flex-col justify-between rounded-lg p-4"
-                >
-                  <div>
-                    <div className="flex items-start gap-4">
-                      <span className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-(--theme-light-bg)">
-                        <Icon name={c.icon} className="h-11 w-11 text-hero-blue" />
-                      </span>
-                      <div className="min-w-0">
-                        <div className="flex items-center gap-3">
-                          <span className="text-lg font-extrabold text-hero-blue">{c.number}</span>
-                          {c.badge && (
-                            <span className="label-text rounded-sm bg-hero-blue px-2.5 py-1 font-extrabold uppercase text-white">{c.badge}</span>
-                          )}
-                        </div>
-                        <p className="mt-1 text-base font-extrabold uppercase leading-tight text-[#101828]">{c.title}</p>
-                      </div>
+        {/* ---------- repair + buy ---------- */}
+        <div className="mt-6 grid gap-4 lg:mt-8 lg:grid-cols-2 lg:gap-5">
+          <Card className="p-4 md:p-5">
+            <CardTitle icon="wrench">Can It Be Repaired?</CardTitle>
+
+            {/* mobile list */}
+            <ul className="mt-4 divide-y divide-white/10 rounded-lg border border-white/10 md:hidden">
+              {d.repair.map((r) => (
+                <li key={r.problem} className="flex gap-3 p-3">
+                  <VIcon name={r.icon} className="mt-0.5 h-7 w-7 shrink-0" style={{ color: GOLD }} />
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-start justify-between gap-3">
+                      <p className="text-[14.5px] font-medium leading-snug text-white">{r.problem}</p>
+                      <StatusMark ok={r.ok} className="text-[12.5px]" />
                     </div>
-                    <div className="mt-4"><ClampedText className="text-sm leading-relaxed text-[#4a5568]">{c.body}</ClampedText></div>
+                    <p className="mt-1 text-[13.5px] font-semibold" style={{ color: GREEN }}>{r.cost}</p>
+                    <p className="mt-0.5 text-[13px] leading-snug text-white/65">{r.when}</p>
                   </div>
-                  <QuoteLink href="#quote-form" className="mt-4 inline-flex w-fit items-center gap-1.5 text-sm font-bold text-hero-blue">
-                    {c.link || "Learn more"} <span aria-hidden>→</span>
-                  </QuoteLink>
-                </div>
+                </li>
               ))}
+            </ul>
+
+            {/* tablet / desktop table */}
+            <div className="mt-4 hidden overflow-hidden rounded-lg border border-white/10 md:block">
+              <table className="w-full border-collapse text-left">
+                <thead>
+                  <tr className="bg-white/[0.04] text-[13.5px] font-medium" style={{ color: GOLD }}>
+                    <th scope="col" className="py-3 pl-[60px] pr-3">Problem</th>
+                    <th scope="col" className="border-l border-white/10 px-3 py-3">Repairable?</th>
+                    <th scope="col" className="border-l border-white/10 px-3 py-3 text-center">Typical Cost</th>
+                    <th scope="col" className="border-l border-white/10 px-3 py-3">When It Makes Sense</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {d.repair.map((r) => (
+                    <tr key={r.problem} className="border-t border-white/10 text-[14px]">
+                      <th scope="row" className="py-3 pl-3 pr-3 font-normal">
+                        <span className="flex items-center gap-3">
+                          <VIcon name={r.icon} className="h-8 w-8 shrink-0" style={{ color: GOLD }} />
+                          <span className="leading-snug text-white">{r.problem}</span>
+                        </span>
+                      </th>
+                      <td className="border-l border-white/10 px-3 py-3"><StatusMark ok={r.ok} className="text-[14px]" /></td>
+                      <td className={`border-l border-white/10 px-3 py-3 text-center leading-snug ${/replacement|rebuild/i.test(r.cost) ? "text-[13px] text-white/85" : "whitespace-nowrap text-[15px] text-white"}`}>{r.cost}</td>
+                      <td className="border-l border-white/10 px-3 py-3 text-[13px] leading-snug text-white/80">{r.when}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
+          </Card>
 
-            <div className="glass-card relative mt-6 grid grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)_auto] items-stretch gap-6 overflow-hidden rounded-2xl p-6">
-              <div className="pointer-events-none absolute inset-y-0 left-0 w-20" aria-hidden="true">
-                <div
-                  className="absolute inset-0"
-                  style={{
-                    transform: "skewX(-25deg)",
-                    transformOrigin: "top left",
-                    background:
-                      "linear-gradient(90deg, var(--color-bmw-blue) 0%, var(--color-bmw-blue) 30%, var(--color-bmw-violet) 30%, var(--color-bmw-violet) 62%, var(--color-bmw-red) 62%, var(--color-bmw-red) 100%)",
-                    WebkitMaskImage: "linear-gradient(to bottom right, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 85%)",
-                    maskImage: "linear-gradient(to bottom right, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 85%)",
-                  }}
-                />
+          <Card className="p-4 md:p-5">
+            <CardTitle icon="cart">Buying This {v.short}? Check These First</CardTitle>
+            <div className="mt-4 grid gap-3 md:grid-cols-2 md:gap-4">
+              <CheckList tone="buy" title="Buy If:" items={d.buy} />
+              <CheckList tone="avoid" title="Avoid If:" items={d.avoid} />
+            </div>
+          </Card>
+        </div>
+
+        {/* ---------- verdict + CTA ---------- */}
+        <div className="mt-4 grid gap-4 lg:mt-5 lg:grid-cols-2 lg:gap-5">
+          <Card className="flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:gap-6 md:p-7">
+            <svg viewBox="0 0 64 72" className="h-16 w-14 shrink-0 md:h-24 md:w-20" aria-hidden="true">
+              <defs>
+                <linearGradient id="vs4-gold" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stopColor="#e5c77a" />
+                  <stop offset="1" stopColor="#9c7a32" />
+                </linearGradient>
+                <linearGradient id="vs4-green" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stopColor="#3c6b34" />
+                  <stop offset="1" stopColor="#1d3a1c" />
+                </linearGradient>
+              </defs>
+              <path d="M32 2 60 12v20c0 18-12 30-28 38C16 62 4 50 4 32V12z" fill="url(#vs4-gold)" />
+              <path d="M32 8 54 16v16c0 14.5-9.5 24.5-22 31.2C19.5 56.5 10 46.5 10 32V16z" fill="url(#vs4-green)" />
+              <path d="m21 35 8 8 15-17" fill="none" stroke="url(#vs4-gold)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <div>
+              <h3 className="text-[24px] leading-tight text-white md:text-[30px]" style={SERIF}>Closing Verdict</h3>
+              <p className="mt-2 text-[14.5px] leading-[1.65] text-white/85 md:text-[15.5px]">
+                <Rich text={d.verdict} />
+              </p>
+            </div>
+          </Card>
+
+          <Card className="relative overflow-hidden p-5 md:p-7">
+            <Image
+              src="/variant/sec10_engine.webp"
+              alt=""
+              width={504}
+              height={495}
+              sizes="260px"
+              className="pointer-events-none absolute -right-8 top-1/2 h-auto w-[180px] -translate-y-1/2 opacity-25 sm:w-[220px] md:opacity-45 lg:w-[240px]"
+              aria-hidden="true"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-linear-to-r from-[#0f130e] via-[#0f130e]/80 to-transparent" aria-hidden="true" />
+            <div className="relative">
+              <div className="flex items-center gap-4 md:gap-6">
+                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border-2 md:h-[72px] md:w-[72px]" style={{ borderColor: GOLD, color: GOLD }}>
+                  <VIcon name="pound" className="h-7 w-7 md:h-9 md:w-9" />
+                </span>
+                <h3 className="text-[22px] leading-[1.2] text-white md:text-[30px]" style={SERIF}>
+                  Don&apos;t guess. Get the right engine at the right price.
+                </h3>
               </div>
-
-              <div className="relative z-10 flex items-center pl-24">
-                <div>
-                  <p className="text-lg font-extrabold uppercase leading-tight text-[#101828]">{data.banner.title}</p>
-                  <p className="mt-1.5 text-sm leading-snug text-[#101828]">{data.banner.body}</p>
-                </div>
-              </div>
-
-              <div className="relative -my-6 overflow-hidden opacity-15" aria-hidden="true">
-                <Image src={data.banner.image} alt="" fill className="object-cover" sizes="240px" />
-              </div>
-
-              <QuoteLink
-                href={data.banner.cta.href}
-                className="relative z-10 flex h-14 shrink-0 items-center justify-center self-center whitespace-nowrap rounded-sm bg-linear-to-br from-hero-blue to-hero-blue-dark px-8 text-sm font-bold uppercase text-white shadow-lg transition-transform hover:scale-[1.02]"
+              <a
+                href="#quote-form"
+                className="group mt-5 flex items-center gap-3.5 rounded-lg border border-[#7f9f4f]/60 bg-[#14200f]/80 px-4 py-3.5 text-[15px] font-medium leading-snug text-white transition-colors hover:border-[#8fb35a] hover:bg-[#1d2d16] md:mt-6 md:px-6 md:py-4 md:text-[17px] lg:max-w-[460px]"
               >
-                {data.banner.cta.label} <span className="ml-2" aria-hidden>→</span>
-              </QuoteLink>
+                <VIcon name="arrow" className="h-6 w-6 shrink-0 transition-transform group-hover:translate-x-1" />
+                Compare {v.short} engine prices before you buy
+              </a>
             </div>
-          </div>
+          </Card>
         </div>
       </div>
     </section>

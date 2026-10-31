@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Icon from "@/components/reusable/Icon";
+import PhotoScene from "@/components/variant/PhotoScene";
 
 // Related panel is derived from the page's own links ("Land Rover Defender Td5 Engine" ->
 // model "Defender"), so every variant page labels it with its own model automatically.
@@ -14,6 +15,40 @@ function relatedModel(links) {
     counts[model] = (counts[model] || 0) + 1;
   }
   return Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0] || "";
+}
+
+// Turnaround + recovery card: dark, with the variant's car on the dusk highland photo.
+function RecoveryCard({ info }) {
+  const car = (info.image || "").replace("/cars/card/", "/cars/");
+  const items = [
+    {
+      icon: info.timeframe.icon,
+      text: (
+        <>
+          {info.timeframe.textPre}
+          <span className="font-semibold text-[#a9c47e]">{info.timeframe.textHighlight}</span>
+          {info.timeframe.textPost}
+        </>
+      ),
+    },
+    { icon: "truck", text: info.recoveryText },
+  ];
+  return (
+    <div className="theme-dark relative overflow-hidden rounded-2xl border border-white/10 bg-[#0d110c] shadow-[0_30px_60px_-30px_rgba(13,17,12,0.75)] md:grid md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,0.95fr)]">
+      {items.map((it, i) => (
+        <div key={i} className={`flex items-start gap-3.5 px-5 py-5 md:items-center md:gap-4 md:px-6 md:py-7 ${i ? "border-t border-white/10 md:border-l md:border-t-0" : ""}`}>
+          <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#7f9f4f]/40 bg-[#7f9f4f]/10 md:h-12 md:w-12">
+            <Icon name={it.icon} className="h-6 w-6 text-[#a9c47e]" />
+          </span>
+          <p className="text-[15px] leading-[1.55] text-white/85 md:text-[16px]">{it.text}</p>
+        </div>
+      ))}
+      <div className="relative aspect-[16/9] border-t border-white/10 md:aspect-auto md:min-h-[170px] md:border-l md:border-t-0">
+        {car && <PhotoScene car={car} ground={9} carClass="left-1/2 w-[66%] -translate-x-1/2 md:w-[74%]" position="24% 62%" sizes="(min-width: 768px) 32vw, 100vw" />}
+        <div className="pointer-events-none absolute inset-y-0 left-0 hidden w-[18%] md:block" style={{ background: "linear-gradient(to right, #0d110c, transparent)" }} aria-hidden="true" />
+      </div>
+    </div>
+  );
 }
 
 export default function VariantSec12({ data }) {
@@ -110,23 +145,8 @@ export default function VariantSec12({ data }) {
           </a>
         </div>
 
-        <div className="glass-card relative mt-4 overflow-hidden rounded-2xl">
-          <div className="grid grid-cols-2 divide-x divide-black/10">
-            <div className="flex items-start gap-2 p-4 pr-3">
-              <Icon name={bottomInfo.timeframe.icon} className="h-7 w-7 shrink-0 text-hero-blue" />
-              <p className="text-xs leading-snug text-[#101828]">
-                {bottomInfo.timeframe.textPre}
-                <span className="font-bold text-hero-blue">{bottomInfo.timeframe.textHighlight}</span>
-                {bottomInfo.timeframe.textPost}
-              </p>
-            </div>
-            <div className="p-4 pl-3">
-              <p className="text-xs leading-snug text-[#101828]">{bottomInfo.recoveryText}</p>
-            </div>
-          </div>
-          <div className="relative h-28 w-full border-t border-black/10">
-            <Image src={bottomInfo.image} alt="Land Rover vehicle recovery and collection" fill className="object-contain p-3" sizes="100vw" />
-          </div>
+        <div className="mt-4">
+          <RecoveryCard info={bottomInfo} />
         </div>
       </div>
 
@@ -224,21 +244,8 @@ export default function VariantSec12({ data }) {
             </div>
           </div>
 
-          <div className="glass-card relative mt-6 grid grid-cols-[1fr_1fr_auto] items-center overflow-hidden rounded-2xl">
-            <div className="flex items-center gap-3 border-r border-black/10 px-6 py-5">
-              <Icon name={bottomInfo.timeframe.icon} className="h-9 w-9 shrink-0 text-hero-blue" />
-              <p className="text-sm leading-snug text-[#101828]">
-                {bottomInfo.timeframe.textPre}
-                <span className="font-bold text-hero-blue">{bottomInfo.timeframe.textHighlight}</span>
-                {bottomInfo.timeframe.textPost}
-              </p>
-            </div>
-            <div className="px-6 py-5">
-              <p className="text-sm leading-snug text-[#101828]">{bottomInfo.recoveryText}</p>
-            </div>
-            <div className="relative h-24 w-48 shrink-0">
-              <Image src={bottomInfo.image} alt="Land Rover vehicle recovery and collection" fill className="object-contain" sizes="192px" />
-            </div>
+          <div className="mt-6">
+            <RecoveryCard info={bottomInfo} />
           </div>
         </div>
       </div>
