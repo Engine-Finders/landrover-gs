@@ -95,7 +95,10 @@ export default function LeadsClient({ source }) {
   );
 
   useEffect(() => {
-    load(page);
+    const timer = setTimeout(() => {
+      void load(page);
+    }, 0);
+    return () => clearTimeout(timer);
   }, [page, load]);
 
   async function logout() {

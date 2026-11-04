@@ -6,8 +6,24 @@ export const LEADS_PER_PAGE = 10;
 const WEBHOOK_URL = process.env.SUPABASE_WEBHOOK_URL || "";
 const ANON_KEY = process.env.SUPABASE_ANON_KEY || "";
 // REST base is derived from the webhook host unless overridden.
-const REST_URL =
-  process.env.SUPABASE_REST_URL || (WEBHOOK_URL ? `${new URL(WEBHOOK_URL).origin}/rest/v1` : "");
+let REST_URL = process.env.SUPABASE_REST_URL || "";
+if (!REST_URL && WEBHOOK_URL) {
+  try {
+    REST_URL = `${new URL(WEBHOOK_URL).origin}/rest/v1`;
+  } catch {
+    REST_URL = "";
+  }
+}
+
+function crmConfigError() {
+  if (!WEBHOOK_URL || !ANON_KEY) return "Supabase is not configured";
+  try {
+    new URL(WEBHOOK_URL);
+  } catch {
+    return "SUPABASE_WEBHOOK_URL is invalid";
+  }
+  return "";
+}
 
 function capacityToLitres(engineCapacity) {
   const raw = engineCapacity ? String(engineCapacity).replace(/[^\d.]/g, "") : "";
@@ -63,7 +79,8 @@ export function toCrmLeadPayload(p = {}, sourcePage = LEAD_SOURCE) {
 
 /** POST a lead to the central receive-lead Edge Function. Never throws. */
 export async function sendLeadToCRM(crmPayload) {
-  if (!WEBHOOK_URL || !ANON_KEY) return { ok: false, error: "Supabase is not configured" };
+  const configError = crmConfigError();
+  if (configError) return { ok: false, error: configError, code: "configuration" };
   try {
     const res = await fetch(WEBHOOK_URL, {
       method: "POST",
@@ -72,11 +89,17 @@ export async function sendLeadToCRM(crmPayload) {
       signal: AbortSignal.timeout(15000),
     });
     // 409 = the Edge Function already has this lead (duplicate window): nothing to retry.
-    if (res.status === 409) return { ok: true, duplicate: true };
-    if (!res.ok) return { ok: false, error: `receive-lead responded ${res.status}` };
-    return { ok: true };
+    if (res.status === 409) return { ok: true, duplicate: true, status: res.status };
+    if (!res.ok) {
+      const error =
+        res.status === 402
+          ? "Supabase project is paused or billing is required"
+          : `receive-lead responded ${res.status}`;
+      return { ok: false, error, code: "upstream", status: res.status };
+    }
+    return { ok: true, status: res.status };
   } catch (err) {
-    return { ok: false, error: err.message };
+    return { ok: false, error: err.message, code: "network" };
   }
 }
 
