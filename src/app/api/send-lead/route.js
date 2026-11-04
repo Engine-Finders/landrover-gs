@@ -52,11 +52,22 @@ export async function POST(request) {
   const [emailResult, crmResult] = await Promise.all([sendLeadEmail(payload, sourcePage), sendLeadToCRM(crmPayload)]);
 
   if (!emailResult.ok) console.error("lead email failed:", emailResult.error);
-  if (!crmResult.ok) console.error("lead CRM failed:", crmResult.error);
+  if (!crmResult.ok) {
+    console.error("lead CRM failed:", {
+      error: crmResult.error,
+      code: crmResult.code,
+      status: crmResult.status,
+      source: LEAD_SOURCE,
+      sourcePage,
+    });
+  }
 
   if (!emailResult.ok && !crmResult.ok) {
     return Response.json({ status: "error", message: "Failed to submit lead." }, { status: 502 });
   }
 
-  return Response.json({ status: "success" });
+  return Response.json({
+    status: "success",
+    delivery: { email: emailResult.ok, crm: crmResult.ok },
+  });
 }
