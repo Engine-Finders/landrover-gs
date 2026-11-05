@@ -1,36 +1,53 @@
-import { sendLeadToCRM, toCrmLeadPayload, leadSourcePage, LEAD_SOURCE } from "@/lib/leads";
+import { sendLeadToCRM, toCrmLeadPayload, leadSourcePage } from "@/lib/leads";
+import { renderUniversalLeadEmail } from "@/lib/universalLeadEmail";
 
-const esc = (v) =>
-  String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-
-async function sendLeadEmail(payload, sourcePage) {
-  const { page_url: _pageUrl, ...fields } = payload;
-  const rows = Object.entries({ ...fields, source: LEAD_SOURCE, source_page: sourcePage })
-    .filter(([, value]) => value !== undefined && value !== null && value !== "")
-    .map(([key, value]) => `<tr><td style="font-weight:bold;padding:4px 12px 4px 0;">${esc(key)}</td><td>${esc(value)}</td></tr>`)
-    .join("");
+async function sendRelay(email, to, cc) {
+  if (!String(to || "").trim()) return { ok: false, error: "mail recipient is not configured" };
 
   try {
+    const body = {
+      to,
+      fromAddress: process.env.MAIL_FROM_ADDRESS,
+      fromName: process.env.MAIL_FROM_NAME,
+      subject: email.subject,
+      html: email.html,
+    };
+    if (String(cc || "").trim()) body.cc = cc;
+
     const res = await fetch(process.env.MAIL_RELAY_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         "X-Relay-Secret": process.env.MAIL_RELAY_SECRET,
       },
-      body: JSON.stringify({
-        to: process.env.MAIL_TO_ADDRESS,
-        cc: process.env.MAIL_CC_ADDRESS,
-        fromAddress: process.env.MAIL_FROM_ADDRESS,
-        fromName: process.env.MAIL_FROM_NAME,
-        subject: "New Quote Request - Land Rover Garage",
-        html: `<h2>New Quote Request</h2><table>${rows}</table>`,
-      }),
+      body: JSON.stringify(body),
       signal: AbortSignal.timeout(20000),
     });
-    return res.ok ? { ok: true } : { ok: false, error: `relay responded ${res.status}` };
+    if (res.ok) return { ok: true };
+    const details = (await res.text().catch(() => "")).trim();
+    return { ok: false, error: `relay responded ${res.status}${details ? `: ${details.slice(0, 500)}` : ""}` };
   } catch (err) {
     return { ok: false, error: err.message };
   }
+}
+
+async function sendLeadEmail(payload, sourcePage) {
+  const email = renderUniversalLeadEmail({
+    name: payload.name,
+    email: payload.email,
+    number: payload.number || payload.phone,
+    postcode: payload.postcode,
+    description: payload.description,
+    vehicleVrm: payload.vehicle_vrm || payload.vehicle_reg,
+    vehicleBrand: payload.vehicle_brand || payload.brand,
+    vehicleModel: payload.vehicle_model || payload.model || payload.vehicle_series,
+    vehicleYear: payload.year || payload.vehicle_year,
+    engineCapacity: payload.engine_capacity,
+    fuelType: payload.fuel_type,
+    sourcePage,
+  });
+
+  return sendRelay(email, process.env.MAIL_TO_ADDRESS, process.env.MAIL_CC_ADDRESS);
 }
 
 export async function POST(request) {
