@@ -1,5 +1,5 @@
 import { sendLeadToCRM, toCrmLeadPayload, leadSourcePage } from "@/lib/leads";
-import { renderUniversalLeadEmail } from "@/lib/universalLeadEmail";
+import { renderUniversalLeadEmail } from "@/lib/approvedLeadEmail";
 
 async function sendRelay(email, to, cc) {
   if (!String(to || "").trim()) return { ok: false, error: "mail recipient is not configured" };
@@ -44,6 +44,10 @@ async function sendLeadEmail(payload, sourcePage) {
     vehicleYear: payload.year || payload.vehicle_year,
     engineCapacity: payload.engine_capacity,
     fuelType: payload.fuel_type,
+    engineCode: payload.engine_code || payload.engine,
+    fitting: payload.fitting,
+    vehiclePart: payload.vehicle_part || payload.product || payload.enquiry_type,
+    leadSource: payload.lead_source,
     sourcePage,
   });
 
