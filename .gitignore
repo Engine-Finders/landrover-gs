@@ -26,7 +26,6 @@ Thumbs.db
 *.pem
 
 # editor
-.vscode/
 .idea/
 
 # debug
@@ -36,7 +35,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 
 # vercel
 .vercel
@@ -80,3 +78,4 @@ _src_content/
 /EnginePageUI
 *.zip
 __pycache__/
+config.bat
