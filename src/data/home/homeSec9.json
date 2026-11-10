@@ -2,46 +2,16 @@
   "h2": "Recently Completed Land Rover Rebuilds",
   "footerTagline": "Excellence. Engineered.",
   "images": [
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    },
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    },
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    },
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    },
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    },
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    },
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    },
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    },
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    },
-    {
-      "src": "/home/sec9_car.webp",
-      "alt": "Vehicle outside the workshop, ready for collection after an engine rebuild"
-    }
+    { "src": "/home/recent-rebuilds/rebuild-01.webp", "alt": "Green Land Rover Defender outside workshop after recent engine rebuild", "h4": "Recent Land Rover Defender engine rebuild at our workshop" },
+    { "src": "/home/recent-rebuilds/rebuild-02.webp", "alt": "Grey Land Rover Defender outside garage after recent engine rebuild", "h4": "Recent Land Rover Defender engine rebuild at our workshop" },
+    { "src": "/home/recent-rebuilds/rebuild-03.webp", "alt": "Green Land Rover Discovery 3 outside garage after recent engine rebuild", "h4": "Recent Land Rover Discovery 3 engine rebuild project" },
+    { "src": "/home/recent-rebuilds/rebuild-04.webp", "alt": "Red Land Rover Discovery 4 outside workshop after recent engine rebuild", "h4": "Recent Land Rover Discovery 4 engine rebuild project" },
+    { "src": "/home/recent-rebuilds/rebuild-05.webp", "alt": "Black Land Rover Discovery outside workshop after recent engine rebuild", "h4": "Recent Land Rover Discovery engine rebuild at our workshop" },
+    { "src": "/home/recent-rebuilds/rebuild-06.webp", "alt": "Blue Land Rover Discovery outside garage after recent engine rebuild", "h4": "Recent Land Rover Discovery engine rebuild at our workshop" },
+    { "src": "/home/recent-rebuilds/rebuild-07.webp", "alt": "Blue Land Rover Discovery parked outside workshop after recent engine rebuild", "h4": "Recent Land Rover Discovery engine rebuild at our workshop" },
+    { "src": "/home/recent-rebuilds/rebuild-08.webp", "alt": "Grey Land Rover Discovery front view after recent engine rebuild", "h4": "Recent Land Rover Discovery engine rebuild at our workshop" },
+    { "src": "/home/recent-rebuilds/rebuild-09.webp", "alt": "White Range Rover Sport outside workshop after recent engine rebuild", "h4": "Recent Range Rover Sport engine rebuild at our workshop" },
+    { "src": "/home/recent-rebuilds/rebuild-10.webp", "alt": "Range Rover Velar rear view after recent engine rebuild", "h4": "Recent Range Rover Velar engine rebuild at our workshop" }
   ],
   "cta": {
     "label": "Get Your Engine Rebuilt Quote"

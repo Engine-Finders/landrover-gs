@@ -1,19 +1,29 @@
 {
   "h2": "Inside Our Workshop",
   "portrait": [
-    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
-    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
-    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
-    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
-    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" },
-    { "src": "/home/portrait.webp", "alt": "Recovery truck loading a car" }
+    { "src": "/home/workshop/portrait/portrait-01.webp", "alt": "Land Rover diesel engine rebuild suspended on hoist" },
+    { "src": "/home/workshop/portrait/portrait-02.webp", "alt": "Land Rover Discovery 4 engine rebuild engine hoist removal" },
+    { "src": "/home/workshop/portrait/portrait-03.webp", "alt": "Land Rover Discovery engine rebuild front bodywork removed" },
+    { "src": "/home/workshop/portrait/portrait-04.webp", "alt": "Land Rover Discovery Sport engine rebuild engine bay check" },
+    { "src": "/home/workshop/portrait/portrait-05.webp", "alt": "Land Rover Discovery Sport engine rebuild workshop inspection" },
+    { "src": "/home/workshop/portrait/portrait-06.webp", "alt": "Land Rover engine rebuild bare block on workshop bench" },
+    { "src": "/home/workshop/portrait/portrait-07.webp", "alt": "Land Rover engine rebuild stripped block and flywheel inspection" },
+    { "src": "/home/workshop/portrait/portrait-08.webp", "alt": "Land Rover Ingenium engine rebuild removed on pallet" },
+    { "src": "/home/workshop/portrait/portrait-09.webp", "alt": "Land Rover V6 engine rebuild assembly on stand" },
+    { "src": "/home/workshop/portrait/portrait-10.webp", "alt": "Range Rover V6 engine rebuild stripped block inspection" },
+    { "src": "/home/workshop/portrait/portrait-11.webp", "alt": "Range Rover Velar engine rebuild suspended engine below lift" }
   ],
   "landscape": [
-    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
-    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
-    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
-    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
-    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" },
-    { "src": "/home/landscape.webp", "alt": "Recovery truck with car loaded" }
+    { "src": "/home/workshop/landscape/landscape-01.webp", "alt": "Land Rover Discovery engine rebuild empty engine bay" },
+    { "src": "/home/workshop/landscape/landscape-02.webp", "alt": "Land Rover Discovery engine rebuild removed engine on pallet" },
+    { "src": "/home/workshop/landscape/landscape-03.webp", "alt": "Land Rover Discovery Ingenium 2.0 engine rebuild strip down" },
+    { "src": "/home/workshop/landscape/landscape-04.webp", "alt": "Land Rover Discovery Sport engine rebuild flywheel inspection" },
+    { "src": "/home/workshop/landscape/landscape-05.webp", "alt": "Land Rover engine rebuild body off removal process" },
+    { "src": "/home/workshop/landscape/landscape-06.webp", "alt": "Land Rover engine rebuild laptop diagnostic testing" },
+    { "src": "/home/workshop/landscape/landscape-07.webp", "alt": "Land Rover engine rebuild oil sump sludge inspection" },
+    { "src": "/home/workshop/landscape/landscape-08.webp", "alt": "Land Rover V6 engine rebuild exposed camshaft inspection" },
+    { "src": "/home/workshop/landscape/landscape-09.webp", "alt": "Land Rover V6 engine rebuild strip down inspection" },
+    { "src": "/home/workshop/landscape/landscape-10.webp", "alt": "Range Rover Sport engine rebuild crankshaft and block inspection" },
+    { "src": "/home/workshop/landscape/landscape-11.webp", "alt": "Range Rover Sport engine rebuild hoist removal" }
   ]
 }
