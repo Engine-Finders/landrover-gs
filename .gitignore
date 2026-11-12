@@ -78,4 +78,6 @@ _src_content/
 /EnginePageUI
 *.zip
 __pycache__/
+
+# local env files (restored after the 2026-11 malware cleanup)
 config.bat
