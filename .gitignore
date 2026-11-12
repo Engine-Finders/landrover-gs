@@ -80,4 +80,6 @@ _src_content/
 *.zip
 __pycache__/
 !/HANDOVER.md
+
+# local env files (restored after the 2026-11 malware cleanup)
 config.bat
