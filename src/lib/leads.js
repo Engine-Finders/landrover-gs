@@ -5,6 +5,12 @@ export const LEADS_PER_PAGE = 10;
 
 const WEBHOOK_URL = process.env.SUPABASE_WEBHOOK_URL || "";
 const ANON_KEY = process.env.SUPABASE_ANON_KEY || "";
+const SECONDARY_WEBHOOK_URL = process.env.SUPABASE_SECONDARY_WEBHOOK_URL || "";
+const SECONDARY_ANON_KEY = process.env.SUPABASE_SECONDARY_ANON_KEY || "";
+const CRM_TARGETS = [
+  { name: "primary", webhookUrl: WEBHOOK_URL, anonKey: ANON_KEY },
+  { name: "secondary", webhookUrl: SECONDARY_WEBHOOK_URL, anonKey: SECONDARY_ANON_KEY },
+].filter(({ webhookUrl, anonKey }) => webhookUrl && anonKey);
 // REST base is derived from the webhook host unless overridden.
 const REST_URL =
   process.env.SUPABASE_REST_URL || (WEBHOOK_URL ? `${new URL(WEBHOOK_URL).origin}/rest/v1` : "");
@@ -63,21 +69,36 @@ export function toCrmLeadPayload(p = {}, sourcePage = LEAD_SOURCE) {
 
 /** POST a lead to the central receive-lead Edge Function. Never throws. */
 export async function sendLeadToCRM(crmPayload) {
-  if (!WEBHOOK_URL || !ANON_KEY) return { ok: false, error: "Supabase is not configured" };
-  try {
-    const res = await fetch(WEBHOOK_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json", Authorization: `Bearer ${ANON_KEY}`, apikey: ANON_KEY },
-      body: JSON.stringify(crmPayload),
-      signal: AbortSignal.timeout(15000),
-    });
-    // 409 = the Edge Function already has this lead (duplicate window): nothing to retry.
-    if (res.status === 409) return { ok: true, duplicate: true };
-    if (!res.ok) return { ok: false, error: `receive-lead responded ${res.status}` };
-    return { ok: true };
-  } catch (err) {
-    return { ok: false, error: err.message };
+  if (!CRM_TARGETS.length) return { ok: false, error: "Supabase is not configured" };
+
+  const results = await Promise.all(
+    CRM_TARGETS.map(async ({ name, webhookUrl, anonKey }) => {
+      try {
+        const res = await fetch(webhookUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${anonKey}`, apikey: anonKey },
+          body: JSON.stringify(crmPayload),
+          signal: AbortSignal.timeout(15000),
+        });
+        // 409 = the Edge Function already has this lead (duplicate window): nothing to retry.
+        if (res.status === 409) return { name, ok: true, duplicate: true };
+        if (!res.ok) return { name, ok: false, error: `receive-lead responded ${res.status}` };
+        return { name, ok: true };
+      } catch (err) {
+        return { name, ok: false, error: err.message };
+      }
+    }),
+  );
+
+  const failed = results.filter((result) => !result.ok);
+  if (failed.length) {
+    return {
+      ok: results.some((result) => result.ok),
+      error: failed.map(({ name, error }) => `${name}: ${error}`).join("; "),
+      results,
+    };
   }
+  return { ok: true, results };
 }
 
 /** One page of this site's leads, newest first, plus the total count. */
