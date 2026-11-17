@@ -38,11 +38,14 @@ export default function HomeSec9({ data }) {
 
         <div className="mt-5 grid grid-cols-3 gap-2">
           {mobileImages.map((img, i) => (
-            <button key={i} type="button" onClick={enlarge(img)} aria-label={`View larger: ${img.alt}`} className="hud-card group block cursor-pointer text-left">
-              <div className="hud-card-inner aspect-square">
-                <Image src={img.src} alt={img.alt} fill className="object-cover" sizes="140px" />
-              </div>
-            </button>
+            <div key={i} className="min-w-0">
+              <h4 className="h4 mb-2 min-h-[2.25rem] text-center text-balance !text-xs font-bold italic leading-tight text-white sm:!text-sm">{img.h4}</h4>
+              <button type="button" onClick={enlarge(img)} aria-label={`View larger: ${img.alt}`} className="hud-card group block w-full cursor-pointer text-left">
+                <div className="hud-card-inner aspect-square">
+                  <Image src={img.src} alt={img.alt} fill className="object-cover" sizes="140px" />
+                </div>
+              </button>
+            </div>
           ))}
         </div>
 
@@ -92,9 +95,12 @@ export default function HomeSec9({ data }) {
             className="flex snap-x snap-mandatory gap-3 overflow-x-auto scroll-smooth px-1 pb-2 lg:grid lg:grid-cols-5 lg:grid-rows-2 lg:overflow-visible"
           >
             {data.images.map((img, i) => (
-              <div key={i} className="hud-card group w-40 shrink-0 snap-start sm:w-48 lg:w-auto">
-                <div className="hud-card-inner aspect-square">
-                  <Image src={img.src} alt={img.alt} fill className="object-cover transition-transform duration-500 ease-out group-hover:scale-110" sizes="220px" />
+              <div key={i} className="group w-40 shrink-0 snap-start sm:w-48 lg:w-auto">
+                <h4 className="h4 mb-2 min-h-[2.25rem] text-center text-balance !text-xs font-bold italic leading-tight text-white sm:!text-sm">{img.h4}</h4>
+                <div className="hud-card">
+                  <div className="hud-card-inner aspect-square">
+                    <Image src={img.src} alt={img.alt} fill className="object-cover transition-transform duration-500 ease-out group-hover:scale-110" sizes="220px" />
+                  </div>
                 </div>
               </div>
             ))}

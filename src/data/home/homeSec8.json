@@ -18,57 +18,55 @@
       "step": 1,
       "label": "Recovery",
       "text": "If your Land Rover is no longer driveable, we can arrange for it to be transported safely to our workshop.",
-      "image": "/home/process-1-recovery.webp"
+      "image": "/home/process/landrover/step-01.png"
     },
     {
       "step": 2,
       "label": "Workshop Arrival",
       "text": "Once your Land Rover arrives, our technicians carry out initial inspections and diagnostics to assess the engine problem.",
-      "image": "/home/process-2-workshop-arrival.webp",
-      "thumb": "/home/process-2-workshop-arrival-card.webp"
+      "image": "/home/process/landrover/step-02.png"
     },
     {
       "step": 3,
       "label": "Engine Removed",
       "text": "Where a full rebuild is required, the engine is carefully removed, with relevant connections and components documented.",
-      "image": "/home/process-3-engine-removed.webp"
+      "image": "/home/process/landrover/step-03.png"
     },
     {
       "step": 4,
       "label": "Strip Down",
       "text": "The engine is systematically dismantled, allowing internal components to be inspected for wear, damage and potential causes of failure.",
-      "image": "/home/process-4-strip-down.webp"
+      "image": "/home/process/landrover/step-04.png"
     },
     {
       "step": 5,
       "label": "Machine Shop",
       "text": "The engine block, cylinder head and other relevant components are measured and assessed. Precision machining is carried out where required.",
-      "image": "/home/process-5-machine-shop.webp"
+      "image": "/home/process/landrover/step-05.png"
     },
     {
       "step": 6,
       "label": "New Components Fitted",
       "text": "Approved replacement components are fitted as needed, with critical clearances, assembly procedures and tightening specifications carefully checked.",
-      "image": "/home/process-6-new-components.webp"
+      "image": "/home/process/landrover/step-06.png"
     },
     {
       "step": 7,
       "label": "Testing",
       "text": "After reassembly and installation, the engine undergoes appropriate mechanical, fluid-system and diagnostic checks to verify correct operation.",
-      "image": "/home/process-7-testing.webp",
-      "thumb": "/home/process-7-testing-card.webp"
+      "image": "/home/process/landrover/step-07.png"
     },
     {
       "step": 8,
       "label": "Road Test",
       "text": "Once workshop checks are complete, your Land Rover undergoes a controlled road test, where appropriate, to assess its performance under normal driving conditions.",
-      "image": "/home/process-8-road-test.webp"
+      "image": "/home/process/landrover/step-08.png"
     },
     {
       "step": 9,
       "label": "Collection",
       "text": "Following final checks, your Land Rover is prepared for collection, with the completed work and relevant aftercare information explained.",
-      "image": "/home/process-9-collection.webp"
+      "image": "/home/process/landrover/step-09.png"
     }
   ],
   "h2Lines": [

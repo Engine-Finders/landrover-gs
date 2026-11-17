@@ -74,6 +74,7 @@ export async function POST(request) {
 
   if (!emailResult.ok) console.error("lead email failed:", emailResult.error);
   if (!crmResult.ok) console.error("lead CRM failed:", crmResult.error);
+  else if (crmResult.error) console.error("lead CRM partial failure:", crmResult.error);
 
   if (!emailResult.ok && !crmResult.ok) {
     return Response.json({ status: "error", message: "Failed to submit lead." }, { status: 502 });
