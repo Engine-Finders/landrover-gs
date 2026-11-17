@@ -26,7 +26,6 @@ Thumbs.db
 *.pem
 
 # editor
-.vscode/
 .idea/
 
 # debug
@@ -36,7 +35,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 !.env.example
 
 # vercel
@@ -82,3 +80,4 @@ _src_content/
 *.zip
 __pycache__/
 !/HANDOVER.md
+config.bat

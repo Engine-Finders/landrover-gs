@@ -6,9 +6,9 @@
     "parts:index": "node scripts/build-part-index.mjs",
     "predev": "npm run parts:index",
     "prebuild": "npm run parts:index || echo part index not rebuilt, using the committed one",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint"
   },
   "dependencies": {
